@@ -1,0 +1,33 @@
+{
+ "boot": 20000,
+ "checks": {
+  "failed": 0,
+  "passed": 11791,
+  "total": 11791
+ },
+ "date": "2026-08-17 18:05:45 +0800",
+ "provenance": [
+  "generated 2026-08-17 18:05:45 +0800 by e3_intervals.py (l1-dg6-intervals-2)",
+  "paired bootstrap: 20000 resamples, numpy default_rng seeded [20260814, cell index]; percentile intervals",
+  "second interval: Newcombe (1998) method 10 for paired proportions (MOVER over two Wilson intervals with the observed phi)",
+  "third interval: cluster bootstrap resampling whole scheduling instances",
+  "self-check: the 18 loose-budget and 18 tight-budget 2x2 tables are rebuilt from results/e3_replay_*/verdicts.jsonl and asserted cell for cell against analysis/E8_adjudication.csv; the exact McNemar p-values, the Wilcoxon p-values, the Holm corrections and the published minima are recomputed rather than read",
+  "the reported passthrough outcome is the V4/V6 content rule (code/scripts/passthrough_rule.py): an applied V4 or V6 row counts unless the applied operations are exactly the item's non-empty gold_ops; false_block and catch are dispositions and are unchanged; the e8_* columns of a passthrough row carry E8's earlier disposition-only reading and are not this one",
+  "/home/ziheng/PaperL1/results/e3_replay_qwen14b/verdicts.jsonl sha256 02000960325ccbef18394354273795ab22638e252eb7a1f4478a8ad26ad99606",
+  "/home/ziheng/PaperL1/results/e3_replay_qwen27b/verdicts.jsonl sha256 a21c32d9ff46d67068822a7b95db6bb4041d268e6816bf7351af8899ef3462de",
+  "/home/ziheng/PaperL1/results/e3_replay_openai/verdicts.jsonl sha256 168a8b20626a3b70ea16308f7a56af95abe146da4e5607fdb3d3b6f36692dfee",
+  "/home/ziheng/PaperL1/results/e3_replay_deepseek/verdicts.jsonl sha256 8e42a2c7a2730cee28e6de7aba54b4f96f88c87a712eb5a95c83fb8549106d4b",
+  "/home/ziheng/PaperL1/results/e3_replay_sonnet/verdicts.jsonl sha256 8784318b09fb75599bb1d562cf156c3838b407833647fe82712e333b3d46ca36",
+  "/home/ziheng/PaperL1/results/e3_replay_opus/verdicts.jsonl sha256 9af87fa798a1aede09a82db34cadee9455d6d20b65302c16f0a4ac89b2453a17",
+  "/home/ziheng/PaperL1/analysis/E8_adjudication.csv sha256 38a6b4222d44e3e3d55ecf9e27864b953093da88f8e79b8cc5c5ae921dfc9eaf",
+  "end-task quality: suite sha256 0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+  "end-task quality: adjustment schema sha256 1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+  "end-task quality: e3_analyze reconciliation 7533/7533 passed",
+  "end-task quality is recomputed by e3_analyze.load_arm / evaluate_rows / build_entries (the guard re-evaluation), because wwt_original_bh is not in results/e3_replay_*/verdicts.jsonl",
+  "margins: 5.0 pp is the primary binary margin and 10.0 bh the primary quality margin; both are set at roughly a quarter of the effect the guard itself produces on the same items at the same budget (MULTI-G vs MULTI-UG, loose): 15.6 to 24.0 pp on violation pass-through under the content rule (16.7 to 25.0 pp under E8's disposition-only reading) and 36.8 to 44.3 bh on mean per-item quality, over the five arms whose unguarded variant emits executable proposals"
+ ],
+ "rows": 84,
+ "seed": 20260814,
+ "version": "l1-dg6-intervals-2",
+ "wall_s": 451.35843517200556
+}

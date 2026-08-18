@@ -1,0 +1,49 @@
+# DG7 violation pass-through, decomposed.  generated 2026-08-17 17:28:04 +0800 by code/scripts/passthrough_decompose.py (l1-dg7-passthrough-1)
+# pass-through = applied / violations, where applied means the terminal is applied_with_certificate or applied_uncertified (l1guard.verdict.APPLIED_STATES)
+# nonempty adds the condition n_ops > 0; the denominator is unchanged, matching ladder_replay.summarise_profile
+# catchable = V1 + V2 + V3 + the 55 V4 items with quality_visible_candidate = true (635 per repeat); outside = V5 + V6 + the 165 quality-neutral V4 items (565 per repeat)
+# E1 cells cover 2 modes x thinking settings x repeats, so a denominator is 1,200 x (repeats in that cell)
+# the *_strict columns apply the V4/V6 content rule (code/scripts/passthrough_rule.py): an applied V4 or V6 row counts unless the applied operations are exactly the item's non-empty gold_ops, order ignored; every other class and every legacy column is unchanged
+# self-check: 73 assertions against analysis/T4_trustworthiness.csv, all passed
+# source code/suite/v0.2/suite.jsonl  sha256 0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a
+# source analysis/T4_trustworthiness.csv  sha256 94008aacf555850cafdf3985a8cc188669bc5ac9aefad6260dbaabc4c6fac949
+# source analysis/ladder/oracle_items.jsonl  sha256 a11d646f1a07f90804d4549d12eebc2c82fc32874597c50c6dccef10ba06956c
+# source results/e1_eval_qwen14b/verdicts_UNGUARDED.jsonl  sha256 c0133f83d8e1a0778d90c83df9656cf0a08126883ddd54997eaac3f268e036ef
+# source results/e1_eval_qwen14b/verdicts_G_FEAS.jsonl  sha256 2e35dedecb9363433618b26c6f0d75f596ce88b931e35443661048d2a8823e23
+# source results/e1_eval_qwen14b/verdicts_G_CERT.jsonl  sha256 007f9b7e128b9b40a1c8a6f20e1d7bf0688e7597c9ccf802b3d4603e11d5ff82
+# source results/e1_eval_qwen14b/proposals.jsonl  sha256 1275be52a6a9e7cc36ebcc8c6f193b81a6c84e97671932fdf534e2b7a1c9dd47
+# source results/e1_eval_qwen27b/verdicts_UNGUARDED.jsonl  sha256 5651867665d16c0042acc391364a78570acd8fe197a8a7c72fb0fa33bce40076
+# source results/e1_eval_qwen27b/verdicts_G_FEAS.jsonl  sha256 5741e6c174e36e8d04a366fd648a051ccb6bf6a4ecfa182382cf43ba3f5b1d75
+# source results/e1_eval_qwen27b/verdicts_G_CERT.jsonl  sha256 34f6a4c8b2b26b38a69a21c1a22d0d0ee7715b2d15a095399aa505c279377d10
+# source results/e1_eval_qwen27b/proposals.jsonl  sha256 7d930c7633af776c55abe93c72a33e6132cd9eccdc22d0543ade32f1ec63811d
+# source results/e1_eval_glm9b/verdicts_UNGUARDED.jsonl  sha256 f4f2da5c1148e574da72fde4b58d444da025ab5b44a0d41e37e39a760551d779
+# source results/e1_eval_glm9b/verdicts_G_FEAS.jsonl  sha256 c6aa59cb041ee235084646d185760383d6d81d979876146af42f136a3694633c
+# source results/e1_eval_glm9b/verdicts_G_CERT.jsonl  sha256 357ff6582097bd5c6656c14e6c47a6c85b5cb2c699e2206d1f8722ff1f0e6ed4
+# source results/e1_eval_glm9b/proposals.jsonl  sha256 94f9457a32e8776c6f403f4f619b2c96ce1d96bc3c2d1cb8118c1a2808c260bb
+# source results/e1_eval_gpt54mini/verdicts_UNGUARDED.jsonl  sha256 398100d6dbf10dbc911d34b25797f5a78b9720ccb4f00505233a329ddd2592c9
+# source results/e1_eval_gpt54mini/verdicts_G_FEAS.jsonl  sha256 0b54b9a910824885ff330ca5afab191320b01091f6e140d1edeacb395aed092c
+# source results/e1_eval_gpt54mini/verdicts_G_CERT.jsonl  sha256 ab58fe9be34e97572208247ee13fbf9710af6b14f5b0004390faeb4031f1a78d
+# source results/e1_eval_gpt54mini/proposals.jsonl  sha256 cbfcbd608fa2b03fa878089bda35dc2e8491307e7ab5c7bea0f6576e28b9a9cd
+# source results/e1_eval_deepseek/verdicts_UNGUARDED.jsonl  sha256 945cb93d2609d9397b37d41dd2057ed639f644f0c6ce56b4179c72cf1d04bd83
+# source results/e1_eval_deepseek/verdicts_G_FEAS.jsonl  sha256 418eaa3f06de2f41b6c525222e4b165a06c58cfe3302081ed11375e28682e689
+# source results/e1_eval_deepseek/verdicts_G_CERT.jsonl  sha256 5c03ca0b5ae739bd89388dcbcc7226c27e93384508e134dfb2afa6fb7f431208
+# source results/e1_eval_deepseek/proposals.jsonl  sha256 1e6cef4120af866d8b02898d9b2dc46b457c4b5b3649b7bed5c02bbaddc58407
+# source results/e1_eval_sonnet5/verdicts_UNGUARDED.jsonl  sha256 9d226d2ecf206fa0088019c58cf8859a227a4480d9343eac54ea53d3b45cdb75
+# source results/e1_eval_sonnet5/verdicts_G_FEAS.jsonl  sha256 4b25bfa946e1f6a8e56f627b84148f858ce6b2e0dd0e2716fb18d3bbbd257d7c
+# source results/e1_eval_sonnet5/verdicts_G_CERT.jsonl  sha256 87d3ebaefefe7b70915a861cc2f61dd3fb5e7e08df5f83756cf78ce5aa8f102c
+# source results/e1_eval_sonnet5/proposals.jsonl  sha256 0a1387c342b1b9d551ab114ae13c9bf87871c27f7476fd96eecc5e5a1df3f94c
+# source results/e1_eval_opus5/verdicts_UNGUARDED.jsonl  sha256 7f5851ea723e235e4b35b8dce402b93bf97785ea025171b099b304f66e287e5f
+# source results/e1_eval_opus5/verdicts_G_FEAS.jsonl  sha256 2e3f20d17f1a24f3e167bd443ae1f05f0bf7e9133777f70ada5dccf237124597
+# source results/e1_eval_opus5/verdicts_G_CERT.jsonl  sha256 2c4a3d99410ce0bc38a8c230ffa3770f8f1fc20d514c732abf4d53d898f77744
+# source results/e1_eval_opus5/proposals.jsonl  sha256 170c6b315c419a23e6f4663ed28849e39b2672d4c08aa529d242e31cfd24d95d
+# source results/e1_eval_sol/verdicts_UNGUARDED.jsonl  sha256 572268c45dc8e34e82da7bb3713a745e4f28541395a5a20eff593718b85df3ce
+# source results/e1_eval_sol/verdicts_G_FEAS.jsonl  sha256 e2436e281abdbd80e0702d221a839dc3f2c23b973d64fc2c507ca08c9a58762c
+# source results/e1_eval_sol/verdicts_G_CERT.jsonl  sha256 3a06dbde336b05951afd45cf08f609612a095c7a0d1861f68c447e6c7ab16dab
+# source results/e1_eval_sol/proposals.jsonl  sha256 d1717574dc9365777d11455354cc58be02ed4790f792491442adf80f68344195
+class,n_per_repeat,weight_in_1200,catchable_by,empty_gold_ops,oracle_pass_through,oracle_guarded_pass_through,flagship_pass_through,flagship_pass_through_nonempty,gap_flagship_minus_oracle,contribution_pp,gap_flagship_minus_oracle_guarded,contribution_vs_guarded_pp,oracle_pass_through_strict,oracle_guarded_pass_through_strict,flagship_pass_through_strict,flagship_pass_through_nonempty_strict,gap_flagship_minus_oracle_strict,contribution_pp_strict,gap_flagship_minus_oracle_guarded_strict,contribution_vs_guarded_pp_strict
+V1,160,0.133333,stage 1 (schema),160,0.000000,0.000000,0.765625,0.056250,0.765625,10.2083,0.765625,10.2083,0.000000,0.000000,0.765625,0.056250,0.765625,10.2083,0.765625,10.2083
+V2,200,0.166667,stage 2 (feasibility),0,0.000000,0.000000,0.917500,0.425000,0.917500,15.2917,0.917500,15.2917,0.000000,0.000000,0.917500,0.425000,0.917500,15.2917,0.917500,15.2917
+V3,220,0.183333,stage 3 (quality),0,1.000000,0.086364,0.095455,0.095455,-0.904545,-16.5833,0.009091,0.1667,1.000000,0.086364,0.095455,0.095455,-0.904545,-16.5833,0.009091,0.1667
+V4,220,0.183333,stage 3 (quality) on 55 of 220,0,1.000000,0.972727,0.972727,0.927273,-0.027273,-0.5000,0.000000,0.0000,0.000000,0.000000,0.047727,0.002273,0.047727,0.8750,0.047727,0.8750
+V5,200,0.166667,-,200,0.000000,0.000000,0.965000,0.005000,0.965000,16.0833,0.965000,16.0833,0.000000,0.000000,0.965000,0.005000,0.965000,16.0833,0.965000,16.0833
+V6,200,0.166667,-,155,0.225000,0.215000,0.965000,0.742500,0.740000,12.3333,0.750000,12.5000,0.000000,0.000000,0.750000,0.527500,0.750000,12.5000,0.750000,12.5000

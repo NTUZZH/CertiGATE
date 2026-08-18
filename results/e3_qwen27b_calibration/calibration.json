@@ -1,0 +1,20 @@
+{
+ "arm": "qwen27b",
+ "model": "/home/ziheng/.cache/huggingface/hub/models--Qwen--Qwen3.6-27B-FP8/snapshots/e89b16ebf1988b3d6befa7de50abc2d76f26eb09",
+ "pipeline": "SINGLE",
+ "n": 60,
+ "safety_ceiling_tokens": 60000,
+ "trajectories_that_hit_the_ceiling": 0,
+ "all_tokens": {
+  "min": 2149,
+  "p25": 2971,
+  "p50": 3347.0,
+  "p75": 4798,
+  "p90": 5934,
+  "max": 20736,
+  "mean": 4301.25
+ },
+ "B_tight": 3500,
+ "B_loose": 14000,
+ "rule": "B_tight = p50 of this arm's own SINGLE-pipeline all-token need on E3-CAL-60, rounded UP to the nearest 500; B_loose = 4 x B_tight"
+}

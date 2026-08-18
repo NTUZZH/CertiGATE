@@ -1,0 +1,55 @@
+{
+ "date": "2026-08-12 01:19:38 +08",
+ "arm": "sonnet",
+ "model": "claude-sonnet-5",
+ "backend": "anthropic",
+ "wire": "anthropic",
+ "modes": [
+  "M_constrained",
+  "M_free"
+ ],
+ "thinking": [
+  "disabled"
+ ],
+ "thinking_bodies": {
+  "disabled": {
+   "thinking": {
+    "type": "disabled"
+   }
+  }
+ },
+ "repeats": 2,
+ "items": 2000,
+ "groups": 116,
+ "cache_prefixes_per_pass": 327,
+ "max_tokens": 4096,
+ "workers": 2,
+ "timeout_s": 240.0,
+ "max_retries": 4,
+ "suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+ "schema_sha256": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+ "prompt_version": "l1-prompt-1.0.0",
+ "top_k": 10,
+ "cache_boundary": "\n\nWork orders this request refers to:",
+ "cache_boundary_fallback": "\n\nINSTRUCTION",
+ "mock": false,
+ "interrupted": false,
+ "planned_calls": 7,
+ "rows_written": 7,
+ "wall_s": 13.859813420000137,
+ "price_base": "intro (through 2026-08-31)",
+ "price_date": "2026-08-11",
+ "usd_estimated": 0.0344336,
+ "per_config": {
+  "M_constrained|disabled|r1": {
+   "calls": 7,
+   "ok": 7,
+   "error": 0,
+   "other": 0,
+   "usd": 0.0344336,
+   "out_tokens": 405,
+   "latency_ms": 24366.10790398845
+  }
+ },
+ "dedupe_rule": "last row per (arm, mode, thinking, repeat, item_id) wins; an earlier row for a key is a superseded API error"
+}

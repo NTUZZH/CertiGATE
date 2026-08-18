@@ -1,0 +1,8 @@
+# generated 2026-08-17 by phase1 circularity audit (scratchpad/phase1/circularity/readings.py)
+# three readings of the evidence-bearing disposition rate on the ladder slice (mode=M_constrained; opus thinking=default)
+# as_published: WARRANTED_STATES of ladder_replay.py (applied_with_certificate, blocked_correctly, referred_to_human)
+# nonempty_only: an applied proposal counts only when it carries >=1 operation; blocks unchanged
+# empty_is_referral: an empty parse_ok proposal counts as referred-with-findings in BOTH configurations (removes the definitional asymmetry)
+arm,n,feas_as_published,cert_as_published,rise_pts_as_published,feas_nonempty_only,cert_nonempty_only,rise_pts_nonempty_only,feas_empty_is_referral,cert_empty_is_referral,rise_pts_empty_is_referral
+opus_default_flagship,4000,0.02325,0.98375,96.05,0.02325,0.7515,72.825,0.2625,0.98375,72.125
+qwen3-14b,6000,0.12533333333333332,0.9825,85.71666666666667,0.12533333333333332,0.9153333333333333,79.0,0.1965,0.9825,78.6

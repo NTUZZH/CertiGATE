@@ -1,0 +1,35 @@
+# generated 2026-08-17 17:24:01 +0800 by paper_tables.py (l1-paper-tables-1)
+# dedup rule applied to the hosted raw logs before evaluation: last row per (mode, thinking, repeat, item_id); hosted logs only
+# suite suite.jsonl sha256 0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a
+# adjustment schema sha256 1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321
+# ladder anchors: /home/ziheng/PaperL1/analysis/ladder (reconciliation 4208/4208 passed)
+# /home/ziheng/PaperL1/results/e1_eval_qwen14b/summary.json sha256 793c76b07b492ef0fd70878913b6c90449fa7d884edd530817eaf98c1c51c1c8
+# /home/ziheng/PaperL1/results/e1_eval_qwen27b/summary.json sha256 78745e80ca0550e27d754b70e2e8f8bd7d33a6ba11b419852ec4c05a9c5a57d5
+# /home/ziheng/PaperL1/results/e1_eval_glm9b/summary.json sha256 bb806173f35bcd5013b1a9b77223f0d2e16346375670a6dca65dbb8859099724
+# /home/ziheng/PaperL1/results/e1_eval_gpt54mini/summary.json sha256 5da1e6beba8ac75283ee1e5f9352c2fff80eb08fe74f590e551b35b5364fa028
+# /home/ziheng/PaperL1/results/e1_eval_deepseek/summary.json sha256 574ebad8772fe47ec758487469231be95f2e457399fa619ad553b571dc8ee8f9
+# /home/ziheng/PaperL1/results/e1_eval_sonnet5/summary.json sha256 e50203a3a4474af675a4ed1e397c52ecd1f1b057502f21987d01ec6e8878e4f6
+# /home/ziheng/PaperL1/results/e1_eval_opus5/summary.json sha256 d1ab21e2a71280e44d8eed9feda0f8031e4c3160d17fd995414d6a1398ae4f15
+# /home/ziheng/PaperL1/results/e1_eval_sol/summary.json sha256 fa3ae6264fcdfbd3b311ad59a8ed88bc8540176adea8b4b043b2fecf5086379d
+# /home/ziheng/PaperL1/results/e2_tau_sweep/curves.csv sha256 e9ca179c57029c6ae23d0512f12da901884072192c96addff321de94bf04fc76
+# rows are the accepted record; every overlapping cell is asserted equal to it
+enforcement,enforcement_rank,arm,model,mode,thinking,items,json_invalid_share,wrong_shape_share,schema_valid_share,wrong_shape_top_subcodes,gcert_blocked_schema,gcert_blocked_schema_share,unguarded_silent_noop,unguarded_silent_noop_share,benign_translation_exact_rate,benign_translation_semantic_rate,benign_false_block_rate_gcert
+xgrammar,2,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,6000,0.003667,0.000000,0.996333,-,403,0.067167,427,0.071167,0.592917,0.755417,0.043750
+none,0,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_free,-,6000,0.065833,0.857167,0.077000,missing_field 5143,5538,0.923000,5569,0.928167,0.000000,0.000000,0.992917
+xgrammar,2,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,6000,0.000000,0.000000,1.000000,-,327,0.054500,628,0.104667,0.733333,0.890833,0.055000
+none,0,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_free,-,6000,0.000000,0.893000,0.107000,missing_field 5358,5358,0.893000,5967,0.994500,0.000000,0.000000,1.000000
+xgrammar,2,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,2000,0.000000,0.000000,1.000000,-,183,0.091500,28,0.014000,0.607500,0.706250,0.080000
+none,0,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_free,-,2000,0.986000,0.014000,0.000000,missing_field 28,2000,1.000000,1989,0.994500,0.000000,0.000000,1.000000
+json_schema,2,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,4000,0.000000,0.000000,1.000000,-,290,0.072500,150,0.037500,0.654375,0.778125,0.038750
+none,0,openai,"GPT-5.4-mini (closed, budget tier)",M_free,-,4000,0.000000,0.950750,0.049250,"missing_field 3802, type_error 1",3805,0.951250,3983,0.995750,0.001875,0.001875,0.995000
+json_object,1,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,4000,0.000000,0.807750,0.192250,missing_field 3231,3231,0.807750,4000,1.000000,0.000000,0.000000,0.971875
+json_object,1,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,4000,0.019000,0.836000,0.145000,"missing_field 3343, not_object 1",3420,0.855000,3911,0.977750,0.000000,0.000000,0.994375
+none,0,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,non_think,4000,0.000000,0.827500,0.172500,missing_field 3310,3310,0.827500,3992,0.998000,0.000000,0.000000,0.978750
+none,0,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,think_high,4000,0.011250,0.845000,0.143750,missing_field 3380,3425,0.856250,3957,0.989250,0.000000,0.000000,0.995000
+json_schema,2,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,4000,0.000000,0.000000,1.000000,-,179,0.044750,631,0.157750,0.704375,0.895625,0.038125
+none,0,sonnet,Claude Sonnet 5 (closed),M_free,disabled,4000,0.091750,0.783500,0.124750,missing_field 3134,3502,0.875500,3979,0.994750,0.000000,0.000000,1.000000
+json_schema,2,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,4000,0.000000,0.000000,0.999500,-,72,0.018000,957,0.239250,0.724375,0.895000,0.039375
+json_schema,2,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,4000,0.000000,0.000000,0.999500,-,141,0.035250,836,0.209000,0.725625,0.891250,0.050000
+none,0,opus,"Claude Opus 5 (closed, flagship)",M_free,default,4000,0.001000,0.182000,0.064750,missing_field 728,732,0.183000,946,0.236500,0.010000,0.010625,0.280625
+none,0,opus,"Claude Opus 5 (closed, flagship)",M_free,disabled,4000,0.002500,0.148000,0.069500,missing_field 592,608,0.152000,708,0.177000,0.041250,0.047500,0.230625
+json_schema,2,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,2000,0.015500,0.000000,0.984500,-,84,0.042000,408,0.204000,0.691250,0.827500,0.086250

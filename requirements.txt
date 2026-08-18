@@ -1,0 +1,38 @@
+# CertiGATE dependencies.
+#
+# Two environments are used. Only the first is needed to reproduce every number
+# in the paper from the logged proposals and verdicts; the second is needed only
+# to generate new proposals with a local open-weight model.
+#
+# ---------------------------------------------------------------------------
+# 1. Analysis and guard environment (Python 3.11; the reported runs used 3.11.15)
+# ---------------------------------------------------------------------------
+# Everything in code/l1adapter, code/l1guard, code/l1suite, code/tests and every
+# analysis script runs here.
+jsonschema==4.26.0        # frozen adjustment-schema validation (code/schema)
+pytest==9.1.1             # test suite (code/tests)
+
+# Pulled in through the scheduling environment package `fmwos`, which this
+# repository imports read-only; see "Environment" in README.md.
+pandas==3.0.3             # fmwos.timeaxis, fmwos.pdrs
+numpy==1.26.4
+ortools==9.14.6206        # CP-SAT, used by the Tier 1 certificate (l1guard/tier1.py)
+
+# ---------------------------------------------------------------------------
+# 2. Local-proposer environment (Python 3.12; the reported runs used 3.12.13)
+# ---------------------------------------------------------------------------
+# Needed only to re-run the local open-weight arms (code/scripts/grid_e1_local.py,
+# code/scripts/suite_gate.py, the local arms of code/scripts/e3_scaffold.py).
+# Install these in a SEPARATE environment: vLLM pins a CUDA build of torch that
+# conflicts with the analysis environment.
+#
+#   vllm==0.27.0          # brings torch 2.13.0+cu130, transformers 5.15.0,
+#                         # xgrammar 0.2.3 (constrained decoding)
+#   jsonschema==4.26.0
+#
+# Install with plain PyPI and no --extra-index-url: the cu129 index pins a torch
+# build that links libcudart.so.12 while the vllm 0.27.0 wheel links
+# libcudart.so.13, and `import vllm` then fails.
+#
+# The hosted-model arms (OpenAI, Anthropic, DeepSeek) need no extra package: the
+# client in code/l1guard/models.py speaks HTTP through the standard library.

@@ -1,0 +1,8340 @@
+{
+ "groups": [
+  {
+   "anchor": [
+    {
+     "check": "rows",
+     "expected": 4000,
+     "got": 4000,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "rows whose recomputed terminal differs from the recorded verdict",
+     "expected": 0,
+     "got": 0,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "G_CERT terminal counts",
+     "expected": {
+      "applied_with_certificate": 2973,
+      "blocked_feas": 304,
+      "blocked_qual": 433,
+      "blocked_schema": 290
+     },
+     "got": {
+      "applied_with_certificate": 2973,
+      "blocked_feas": 304,
+      "blocked_qual": 433,
+      "blocked_schema": 290
+     },
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V1] items",
+     "expected": 320,
+     "got": 320,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V1] blocked",
+     "expected": 230,
+     "got": 230,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V1] rate",
+     "expected": 0.71875,
+     "got": 0.71875,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] n",
+     "expected": 320,
+     "got": 320,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] feas_pass",
+     "expected": 91,
+     "got": 91,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] cert_block",
+     "expected": 230,
+     "got": 230,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] separated",
+     "expected": 1,
+     "got": 1,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] share",
+     "expected": 0.003125,
+     "got": 0.003125,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V2] items",
+     "expected": 400,
+     "got": 400,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V2] blocked",
+     "expected": 271,
+     "got": 271,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V2] rate",
+     "expected": 0.6775,
+     "got": 0.6775,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] n",
+     "expected": 400,
+     "got": 400,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] feas_pass",
+     "expected": 136,
+     "got": 136,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] cert_block",
+     "expected": 271,
+     "got": 271,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] separated",
+     "expected": 7,
+     "got": 7,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] share",
+     "expected": 0.0175,
+     "got": 0.0175,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V3] items",
+     "expected": 440,
+     "got": 440,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V3] blocked",
+     "expected": 349,
+     "got": 349,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V3] rate",
+     "expected": 0.7931818181818182,
+     "got": 0.7931818181818182,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] n",
+     "expected": 440,
+     "got": 440,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] feas_pass",
+     "expected": 433,
+     "got": 433,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] cert_block",
+     "expected": 349,
+     "got": 349,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] separated",
+     "expected": 342,
+     "got": 342,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] share",
+     "expected": 0.7772727272727272,
+     "got": 0.7772727272727272,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V4] items",
+     "expected": 440,
+     "got": 440,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V4] blocked",
+     "expected": 15,
+     "got": 15,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V4] rate",
+     "expected": 0.03409090909090909,
+     "got": 0.03409090909090909,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] n",
+     "expected": 440,
+     "got": 440,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] feas_pass",
+     "expected": 437,
+     "got": 437,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] cert_block",
+     "expected": 15,
+     "got": 15,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] separated",
+     "expected": 12,
+     "got": 12,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] share",
+     "expected": 0.02727272727272727,
+     "got": 0.02727272727272727,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V5] items",
+     "expected": 400,
+     "got": 400,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V5] blocked",
+     "expected": 80,
+     "got": 80,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V5] rate",
+     "expected": 0.2,
+     "got": 0.2,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] n",
+     "expected": 400,
+     "got": 400,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] feas_pass",
+     "expected": 336,
+     "got": 336,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] cert_block",
+     "expected": 80,
+     "got": 80,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] separated",
+     "expected": 16,
+     "got": 16,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] share",
+     "expected": 0.04,
+     "got": 0.04,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V6] items",
+     "expected": 400,
+     "got": 400,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V6] blocked",
+     "expected": 19,
+     "got": 19,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V6] rate",
+     "expected": 0.0475,
+     "got": 0.0475,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] n",
+     "expected": 400,
+     "got": 400,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] feas_pass",
+     "expected": 394,
+     "got": 394,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] cert_block",
+     "expected": 19,
+     "got": 19,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] separated",
+     "expected": 13,
+     "got": 13,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] share",
+     "expected": 0.0325,
+     "got": 0.0325,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[benign] items",
+     "expected": 1600,
+     "got": 1600,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[benign] blocked",
+     "expected": 63,
+     "got": 63,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[benign] rate",
+     "expected": 0.039375,
+     "got": 0.039375,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] n",
+     "expected": 1600,
+     "got": 1600,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] feas_pass",
+     "expected": 1579,
+     "got": 1579,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] cert_block",
+     "expected": 63,
+     "got": 63,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] separated",
+     "expected": 42,
+     "got": 42,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] share",
+     "expected": 0.02625,
+     "got": 0.02625,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "warranted outcomes (certified applications + blocked violations)",
+     "expected": 3937,
+     "got": 3937,
+     "group": "openai / M_constrained / -",
+     "pass": true
+    }
+   ],
+   "arm": "openai",
+   "curve": {
+    "anchor_row_mismatches": 0,
+    "classes": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "benign"
+    ],
+    "infra_cert": 0,
+    "infra_feas": 0,
+    "n_eligible_both": 4000,
+    "n_eligible_cert": 4000,
+    "n_rows": 4000,
+    "n_tau_invariant_uncertified": 0,
+    "points": {
+     "0.02": {
+      "benign_items": 1600,
+      "blocks": {
+       "V1": {
+        "blocked": 247,
+        "n": 320,
+        "rate": 0.771875
+       },
+       "V2": {
+        "blocked": 312,
+        "n": 400,
+        "rate": 0.78
+       },
+       "V3": {
+        "blocked": 404,
+        "n": 440,
+        "rate": 0.9181818181818182
+       },
+       "V4": {
+        "blocked": 143,
+        "n": 440,
+        "rate": 0.325
+       },
+       "V5": {
+        "blocked": 192,
+        "n": 400,
+        "rate": 0.48
+       },
+       "V6": {
+        "blocked": 157,
+        "n": 400,
+        "rate": 0.3925
+       },
+       "benign": {
+        "blocked": 544,
+        "n": 1600,
+        "rate": 0.34
+       }
+      },
+      "false_block_rate": 0.34,
+      "false_blocks": 544,
+      "separation": {
+       "V1": {
+        "cert_block": 247,
+        "feas_pass": 91,
+        "n": 320,
+        "separated": 18,
+        "share": 0.05625
+       },
+       "V2": {
+        "cert_block": 312,
+        "feas_pass": 136,
+        "n": 400,
+        "separated": 48,
+        "share": 0.12
+       },
+       "V3": {
+        "cert_block": 404,
+        "feas_pass": 433,
+        "n": 440,
+        "separated": 397,
+        "share": 0.9022727272727272
+       },
+       "V4": {
+        "cert_block": 143,
+        "feas_pass": 437,
+        "n": 440,
+        "separated": 140,
+        "share": 0.3181818181818182
+       },
+       "V5": {
+        "cert_block": 192,
+        "feas_pass": 336,
+        "n": 400,
+        "separated": 128,
+        "share": 0.32
+       },
+       "V6": {
+        "cert_block": 157,
+        "feas_pass": 394,
+        "n": 400,
+        "separated": 151,
+        "share": 0.3775
+       },
+       "benign": {
+        "cert_block": 544,
+        "feas_pass": 1579,
+        "n": 1600,
+        "separated": 523,
+        "share": 0.326875
+       }
+      },
+      "tau": 0.02,
+      "terminals": {
+       "applied_with_certificate": 2001,
+       "blocked_feas": 304,
+       "blocked_qual": 1405,
+       "blocked_schema": 290
+      },
+      "warranted": 3456,
+      "warranted_n": 4000,
+      "warranted_share": 0.864
+     },
+     "0.05": {
+      "benign_items": 1600,
+      "blocks": {
+       "V1": {
+        "blocked": 237,
+        "n": 320,
+        "rate": 0.740625
+       },
+       "V2": {
+        "blocked": 295,
+        "n": 400,
+        "rate": 0.7375
+       },
+       "V3": {
+        "blocked": 394,
+        "n": 440,
+        "rate": 0.8954545454545455
+       },
+       "V4": {
+        "blocked": 87,
+        "n": 440,
+        "rate": 0.19772727272727272
+       },
+       "V5": {
+        "blocked": 140,
+        "n": 400,
+        "rate": 0.35
+       },
+       "V6": {
+        "blocked": 97,
+        "n": 400,
+        "rate": 0.2425
+       },
+       "benign": {
+        "blocked": 311,
+        "n": 1600,
+        "rate": 0.194375
+       }
+      },
+      "false_block_rate": 0.194375,
+      "false_blocks": 311,
+      "separation": {
+       "V1": {
+        "cert_block": 237,
+        "feas_pass": 91,
+        "n": 320,
+        "separated": 8,
+        "share": 0.025
+       },
+       "V2": {
+        "cert_block": 295,
+        "feas_pass": 136,
+        "n": 400,
+        "separated": 31,
+        "share": 0.0775
+       },
+       "V3": {
+        "cert_block": 394,
+        "feas_pass": 433,
+        "n": 440,
+        "separated": 387,
+        "share": 0.8795454545454545
+       },
+       "V4": {
+        "cert_block": 87,
+        "feas_pass": 437,
+        "n": 440,
+        "separated": 84,
+        "share": 0.19090909090909092
+       },
+       "V5": {
+        "cert_block": 140,
+        "feas_pass": 336,
+        "n": 400,
+        "separated": 76,
+        "share": 0.19
+       },
+       "V6": {
+        "cert_block": 97,
+        "feas_pass": 394,
+        "n": 400,
+        "separated": 91,
+        "share": 0.2275
+       },
+       "benign": {
+        "cert_block": 311,
+        "feas_pass": 1579,
+        "n": 1600,
+        "separated": 290,
+        "share": 0.18125
+       }
+      },
+      "tau": 0.05,
+      "terminals": {
+       "applied_with_certificate": 2439,
+       "blocked_feas": 304,
+       "blocked_qual": 967,
+       "blocked_schema": 290
+      },
+      "warranted": 3689,
+      "warranted_n": 4000,
+      "warranted_share": 0.92225
+     },
+     "0.10": {
+      "benign_items": 1600,
+      "blocks": {
+       "V1": {
+        "blocked": 233,
+        "n": 320,
+        "rate": 0.728125
+       },
+       "V2": {
+        "blocked": 275,
+        "n": 400,
+        "rate": 0.6875
+       },
+       "V3": {
+        "blocked": 368,
+        "n": 440,
+        "rate": 0.8363636363636363
+       },
+       "V4": {
+        "blocked": 33,
+        "n": 440,
+        "rate": 0.075
+       },
+       "V5": {
+        "blocked": 97,
+        "n": 400,
+        "rate": 0.2425
+       },
+       "V6": {
+        "blocked": 43,
+        "n": 400,
+        "rate": 0.1075
+       },
+       "benign": {
+        "blocked": 135,
+        "n": 1600,
+        "rate": 0.084375
+       }
+      },
+      "false_block_rate": 0.084375,
+      "false_blocks": 135,
+      "separation": {
+       "V1": {
+        "cert_block": 233,
+        "feas_pass": 91,
+        "n": 320,
+        "separated": 4,
+        "share": 0.0125
+       },
+       "V2": {
+        "cert_block": 275,
+        "feas_pass": 136,
+        "n": 400,
+        "separated": 11,
+        "share": 0.0275
+       },
+       "V3": {
+        "cert_block": 368,
+        "feas_pass": 433,
+        "n": 440,
+        "separated": 361,
+        "share": 0.8204545454545454
+       },
+       "V4": {
+        "cert_block": 33,
+        "feas_pass": 437,
+        "n": 440,
+        "separated": 30,
+        "share": 0.06818181818181818
+       },
+       "V5": {
+        "cert_block": 97,
+        "feas_pass": 336,
+        "n": 400,
+        "separated": 33,
+        "share": 0.0825
+       },
+       "V6": {
+        "cert_block": 43,
+        "feas_pass": 394,
+        "n": 400,
+        "separated": 37,
+        "share": 0.0925
+       },
+       "benign": {
+        "cert_block": 135,
+        "feas_pass": 1579,
+        "n": 1600,
+        "separated": 114,
+        "share": 0.07125
+       }
+      },
+      "tau": 0.1,
+      "terminals": {
+       "applied_with_certificate": 2816,
+       "blocked_feas": 304,
+       "blocked_qual": 590,
+       "blocked_schema": 290
+      },
+      "warranted": 3865,
+      "warranted_n": 4000,
+      "warranted_share": 0.96625
+     },
+     "0.15": {
+      "benign_items": 1600,
+      "blocks": {
+       "V1": {
+        "blocked": 230,
+        "n": 320,
+        "rate": 0.71875
+       },
+       "V2": {
+        "blocked": 271,
+        "n": 400,
+        "rate": 0.6775
+       },
+       "V3": {
+        "blocked": 363,
+        "n": 440,
+        "rate": 0.825
+       },
+       "V4": {
+        "blocked": 15,
+        "n": 440,
+        "rate": 0.03409090909090909
+       },
+       "V5": {
+        "blocked": 80,
+        "n": 400,
+        "rate": 0.2
+       },
+       "V6": {
+        "blocked": 21,
+        "n": 400,
+        "rate": 0.0525
+       },
+       "benign": {
+        "blocked": 65,
+        "n": 1600,
+        "rate": 0.040625
+       }
+      },
+      "false_block_rate": 0.040625,
+      "false_blocks": 65,
+      "separation": {
+       "V1": {
+        "cert_block": 230,
+        "feas_pass": 91,
+        "n": 320,
+        "separated": 1,
+        "share": 0.003125
+       },
+       "V2": {
+        "cert_block": 271,
+        "feas_pass": 136,
+        "n": 400,
+        "separated": 7,
+        "share": 0.0175
+       },
+       "V3": {
+        "cert_block": 363,
+        "feas_pass": 433,
+        "n": 440,
+        "separated": 356,
+        "share": 0.8090909090909091
+       },
+       "V4": {
+        "cert_block": 15,
+        "feas_pass": 437,
+        "n": 440,
+        "separated": 12,
+        "share": 0.02727272727272727
+       },
+       "V5": {
+        "cert_block": 80,
+        "feas_pass": 336,
+        "n": 400,
+        "separated": 16,
+        "share": 0.04
+       },
+       "V6": {
+        "cert_block": 21,
+        "feas_pass": 394,
+        "n": 400,
+        "separated": 15,
+        "share": 0.0375
+       },
+       "benign": {
+        "cert_block": 65,
+        "feas_pass": 1579,
+        "n": 1600,
+        "separated": 44,
+        "share": 0.0275
+       }
+      },
+      "tau": 0.15,
+      "terminals": {
+       "applied_with_certificate": 2955,
+       "blocked_feas": 304,
+       "blocked_qual": 451,
+       "blocked_schema": 290
+      },
+      "warranted": 3935,
+      "warranted_n": 4000,
+      "warranted_share": 0.98375
+     },
+     "0.20": {
+      "benign_items": 1600,
+      "blocks": {
+       "V1": {
+        "blocked": 230,
+        "n": 320,
+        "rate": 0.71875
+       },
+       "V2": {
+        "blocked": 271,
+        "n": 400,
+        "rate": 0.6775
+       },
+       "V3": {
+        "blocked": 349,
+        "n": 440,
+        "rate": 0.7931818181818182
+       },
+       "V4": {
+        "blocked": 15,
+        "n": 440,
+        "rate": 0.03409090909090909
+       },
+       "V5": {
+        "blocked": 80,
+        "n": 400,
+        "rate": 0.2
+       },
+       "V6": {
+        "blocked": 19,
+        "n": 400,
+        "rate": 0.0475
+       },
+       "benign": {
+        "blocked": 63,
+        "n": 1600,
+        "rate": 0.039375
+       }
+      },
+      "false_block_rate": 0.039375,
+      "false_blocks": 63,
+      "separation": {
+       "V1": {
+        "cert_block": 230,
+        "feas_pass": 91,
+        "n": 320,
+        "separated": 1,
+        "share": 0.003125
+       },
+       "V2": {
+        "cert_block": 271,
+        "feas_pass": 136,
+        "n": 400,
+        "separated": 7,
+        "share": 0.0175
+       },
+       "V3": {
+        "cert_block": 349,
+        "feas_pass": 433,
+        "n": 440,
+        "separated": 342,
+        "share": 0.7772727272727272
+       },
+       "V4": {
+        "cert_block": 15,
+        "feas_pass": 437,
+        "n": 440,
+        "separated": 12,
+        "share": 0.02727272727272727
+       },
+       "V5": {
+        "cert_block": 80,
+        "feas_pass": 336,
+        "n": 400,
+        "separated": 16,
+        "share": 0.04
+       },
+       "V6": {
+        "cert_block": 19,
+        "feas_pass": 394,
+        "n": 400,
+        "separated": 13,
+        "share": 0.0325
+       },
+       "benign": {
+        "cert_block": 63,
+        "feas_pass": 1579,
+        "n": 1600,
+        "separated": 42,
+        "share": 0.02625
+       }
+      },
+      "tau": 0.2,
+      "terminals": {
+       "applied_with_certificate": 2973,
+       "blocked_feas": 304,
+       "blocked_qual": 433,
+       "blocked_schema": 290
+      },
+      "warranted": 3937,
+      "warranted_n": 4000,
+      "warranted_share": 0.98425
+     },
+     "0.30": {
+      "benign_items": 1600,
+      "blocks": {
+       "V1": {
+        "blocked": 229,
+        "n": 320,
+        "rate": 0.715625
+       },
+       "V2": {
+        "blocked": 264,
+        "n": 400,
+        "rate": 0.66
+       },
+       "V3": {
+        "blocked": 305,
+        "n": 440,
+        "rate": 0.6931818181818182
+       },
+       "V4": {
+        "blocked": 3,
+        "n": 440,
+        "rate": 0.006818181818181818
+       },
+       "V5": {
+        "blocked": 68,
+        "n": 400,
+        "rate": 0.17
+       },
+       "V6": {
+        "blocked": 7,
+        "n": 400,
+        "rate": 0.0175
+       },
+       "benign": {
+        "blocked": 21,
+        "n": 1600,
+        "rate": 0.013125
+       }
+      },
+      "false_block_rate": 0.013125,
+      "false_blocks": 21,
+      "separation": {
+       "V1": {
+        "cert_block": 229,
+        "feas_pass": 91,
+        "n": 320,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V2": {
+        "cert_block": 264,
+        "feas_pass": 136,
+        "n": 400,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V3": {
+        "cert_block": 305,
+        "feas_pass": 433,
+        "n": 440,
+        "separated": 298,
+        "share": 0.6772727272727272
+       },
+       "V4": {
+        "cert_block": 3,
+        "feas_pass": 437,
+        "n": 440,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 68,
+        "feas_pass": 336,
+        "n": 400,
+        "separated": 4,
+        "share": 0.01
+       },
+       "V6": {
+        "cert_block": 7,
+        "feas_pass": 394,
+        "n": 400,
+        "separated": 1,
+        "share": 0.0025
+       },
+       "benign": {
+        "cert_block": 21,
+        "feas_pass": 1579,
+        "n": 1600,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 0.3,
+      "terminals": {
+       "applied_with_certificate": 3103,
+       "blocked_feas": 304,
+       "blocked_qual": 303,
+       "blocked_schema": 290
+      },
+      "warranted": 3979,
+      "warranted_n": 4000,
+      "warranted_share": 0.99475
+     },
+     "0.50": {
+      "benign_items": 1600,
+      "blocks": {
+       "V1": {
+        "blocked": 229,
+        "n": 320,
+        "rate": 0.715625
+       },
+       "V2": {
+        "blocked": 264,
+        "n": 400,
+        "rate": 0.66
+       },
+       "V3": {
+        "blocked": 223,
+        "n": 440,
+        "rate": 0.5068181818181818
+       },
+       "V4": {
+        "blocked": 3,
+        "n": 440,
+        "rate": 0.006818181818181818
+       },
+       "V5": {
+        "blocked": 65,
+        "n": 400,
+        "rate": 0.1625
+       },
+       "V6": {
+        "blocked": 6,
+        "n": 400,
+        "rate": 0.015
+       },
+       "benign": {
+        "blocked": 21,
+        "n": 1600,
+        "rate": 0.013125
+       }
+      },
+      "false_block_rate": 0.013125,
+      "false_blocks": 21,
+      "separation": {
+       "V1": {
+        "cert_block": 229,
+        "feas_pass": 91,
+        "n": 320,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V2": {
+        "cert_block": 264,
+        "feas_pass": 136,
+        "n": 400,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V3": {
+        "cert_block": 223,
+        "feas_pass": 433,
+        "n": 440,
+        "separated": 216,
+        "share": 0.4909090909090909
+       },
+       "V4": {
+        "cert_block": 3,
+        "feas_pass": 437,
+        "n": 440,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 65,
+        "feas_pass": 336,
+        "n": 400,
+        "separated": 1,
+        "share": 0.0025
+       },
+       "V6": {
+        "cert_block": 6,
+        "feas_pass": 394,
+        "n": 400,
+        "separated": 0,
+        "share": 0.0
+       },
+       "benign": {
+        "cert_block": 21,
+        "feas_pass": 1579,
+        "n": 1600,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 0.5,
+      "terminals": {
+       "applied_with_certificate": 3189,
+       "blocked_feas": 304,
+       "blocked_qual": 217,
+       "blocked_schema": 290
+      },
+      "warranted": 3979,
+      "warranted_n": 4000,
+      "warranted_share": 0.99475
+     },
+     "1.00": {
+      "benign_items": 1600,
+      "blocks": {
+       "V1": {
+        "blocked": 229,
+        "n": 320,
+        "rate": 0.715625
+       },
+       "V2": {
+        "blocked": 264,
+        "n": 400,
+        "rate": 0.66
+       },
+       "V3": {
+        "blocked": 105,
+        "n": 440,
+        "rate": 0.23863636363636365
+       },
+       "V4": {
+        "blocked": 3,
+        "n": 440,
+        "rate": 0.006818181818181818
+       },
+       "V5": {
+        "blocked": 65,
+        "n": 400,
+        "rate": 0.1625
+       },
+       "V6": {
+        "blocked": 6,
+        "n": 400,
+        "rate": 0.015
+       },
+       "benign": {
+        "blocked": 21,
+        "n": 1600,
+        "rate": 0.013125
+       }
+      },
+      "false_block_rate": 0.013125,
+      "false_blocks": 21,
+      "separation": {
+       "V1": {
+        "cert_block": 229,
+        "feas_pass": 91,
+        "n": 320,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V2": {
+        "cert_block": 264,
+        "feas_pass": 136,
+        "n": 400,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V3": {
+        "cert_block": 105,
+        "feas_pass": 433,
+        "n": 440,
+        "separated": 98,
+        "share": 0.22272727272727272
+       },
+       "V4": {
+        "cert_block": 3,
+        "feas_pass": 437,
+        "n": 440,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 65,
+        "feas_pass": 336,
+        "n": 400,
+        "separated": 1,
+        "share": 0.0025
+       },
+       "V6": {
+        "cert_block": 6,
+        "feas_pass": 394,
+        "n": 400,
+        "separated": 0,
+        "share": 0.0
+       },
+       "benign": {
+        "cert_block": 21,
+        "feas_pass": 1579,
+        "n": 1600,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 1.0,
+      "terminals": {
+       "applied_with_certificate": 3307,
+       "blocked_feas": 304,
+       "blocked_qual": 99,
+       "blocked_schema": 290
+      },
+      "warranted": 3979,
+      "warranted_n": 4000,
+      "warranted_share": 0.99475
+     }
+    },
+    "tau_invariant_uncertified_terminals": {}
+   },
+   "mode": "M_constrained",
+   "monotonicity": [
+    {
+     "first": 247,
+     "group": "openai / M_constrained / -",
+     "last": 229,
+     "pass": true,
+     "series": "blocks[V1] blocked",
+     "violations": []
+    },
+    {
+     "first": 312,
+     "group": "openai / M_constrained / -",
+     "last": 264,
+     "pass": true,
+     "series": "blocks[V2] blocked",
+     "violations": []
+    },
+    {
+     "first": 404,
+     "group": "openai / M_constrained / -",
+     "last": 105,
+     "pass": true,
+     "series": "blocks[V3] blocked",
+     "violations": []
+    },
+    {
+     "first": 143,
+     "group": "openai / M_constrained / -",
+     "last": 3,
+     "pass": true,
+     "series": "blocks[V4] blocked",
+     "violations": []
+    },
+    {
+     "first": 192,
+     "group": "openai / M_constrained / -",
+     "last": 65,
+     "pass": true,
+     "series": "blocks[V5] blocked",
+     "violations": []
+    },
+    {
+     "first": 157,
+     "group": "openai / M_constrained / -",
+     "last": 6,
+     "pass": true,
+     "series": "blocks[V6] blocked",
+     "violations": []
+    },
+    {
+     "first": 544,
+     "group": "openai / M_constrained / -",
+     "last": 21,
+     "pass": true,
+     "series": "blocks[benign] blocked",
+     "violations": []
+    },
+    {
+     "first": 0.34,
+     "group": "openai / M_constrained / -",
+     "last": 0.013125,
+     "pass": true,
+     "series": "benign false-block rate",
+     "violations": []
+    },
+    {
+     "first": 397,
+     "group": "openai / M_constrained / -",
+     "last": 98,
+     "pass": true,
+     "series": "separation[V3] separated",
+     "violations": []
+    },
+    {
+     "first": 140,
+     "group": "openai / M_constrained / -",
+     "last": 0,
+     "pass": true,
+     "series": "separation[V4] separated",
+     "violations": []
+    }
+   ],
+   "operating_points": {
+    "fb_le_1pct": {
+     "false_block_rate_at_largest": null,
+     "false_block_rate_at_smallest": null,
+     "note": "no grid tau meets this budget",
+     "target": 0.01,
+     "tau_largest": null,
+     "tau_smallest": null
+    },
+    "fb_le_5pct": {
+     "false_block_rate_at_largest": 0.013125,
+     "false_block_rate_at_smallest": 0.040625,
+     "note": null,
+     "target": 0.05,
+     "tau_largest": 1.0,
+     "tau_smallest": 0.15
+    }
+   },
+   "repeats": [
+    0,
+    1
+   ],
+   "source_dir": "/home/ziheng/PaperL1/results/e1_eval_gpt54mini",
+   "statement": "Benign false blocks run 34.0% at tau 0.02 to 1.3% at tau 1.00, and 3.9% at tau 0.20. V3 separation runs 397 of 440 items at tau 0.02 to 98 at tau 1.00, and 342 at tau 0.20. V4 separation runs 140 to 0, and is 12 at tau 0.20. The warranted-outcome share peaks at 99.5%, first reached at tau 0.30, and is 98.4% at tau 0.20. No grid tau holds benign false blocks at or below 1%.",
+   "thinking": null
+  },
+  {
+   "anchor": [
+    {
+     "check": "rows",
+     "expected": 4000,
+     "got": 4000,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "rows whose recomputed terminal differs from the recorded verdict",
+     "expected": 0,
+     "got": 0,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "G_CERT terminal counts",
+     "expected": {
+      "applied_with_certificate": 184,
+      "blocked_qual": 11,
+      "blocked_schema": 3805
+     },
+     "got": {
+      "applied_with_certificate": 184,
+      "blocked_qual": 11,
+      "blocked_schema": 3805
+     },
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V1] items",
+     "expected": 320,
+     "got": 320,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V1] blocked",
+     "expected": 314,
+     "got": 314,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V1] rate",
+     "expected": 0.98125,
+     "got": 0.98125,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] n",
+     "expected": 320,
+     "got": 320,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] feas_pass",
+     "expected": 6,
+     "got": 6,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] cert_block",
+     "expected": 314,
+     "got": 314,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] separated",
+     "expected": 0,
+     "got": 0,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] share",
+     "expected": 0.0,
+     "got": 0.0,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V2] items",
+     "expected": 400,
+     "got": 400,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V2] blocked",
+     "expected": 377,
+     "got": 377,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V2] rate",
+     "expected": 0.9425,
+     "got": 0.9425,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] n",
+     "expected": 400,
+     "got": 400,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] feas_pass",
+     "expected": 26,
+     "got": 26,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] cert_block",
+     "expected": 377,
+     "got": 377,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] separated",
+     "expected": 3,
+     "got": 3,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] share",
+     "expected": 0.0075,
+     "got": 0.0075,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V3] items",
+     "expected": 440,
+     "got": 440,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V3] blocked",
+     "expected": 440,
+     "got": 440,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V3] rate",
+     "expected": 1.0,
+     "got": 1.0,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] n",
+     "expected": 440,
+     "got": 440,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] feas_pass",
+     "expected": 0,
+     "got": 0,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] cert_block",
+     "expected": 440,
+     "got": 440,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] separated",
+     "expected": 0,
+     "got": 0,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] share",
+     "expected": 0.0,
+     "got": 0.0,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V4] items",
+     "expected": 440,
+     "got": 440,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V4] blocked",
+     "expected": 438,
+     "got": 438,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V4] rate",
+     "expected": 0.9954545454545455,
+     "got": 0.9954545454545455,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] n",
+     "expected": 440,
+     "got": 440,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] feas_pass",
+     "expected": 2,
+     "got": 2,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] cert_block",
+     "expected": 438,
+     "got": 438,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] separated",
+     "expected": 0,
+     "got": 0,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] share",
+     "expected": 0.0,
+     "got": 0.0,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V5] items",
+     "expected": 400,
+     "got": 400,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V5] blocked",
+     "expected": 290,
+     "got": 290,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V5] rate",
+     "expected": 0.725,
+     "got": 0.725,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] n",
+     "expected": 400,
+     "got": 400,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] feas_pass",
+     "expected": 118,
+     "got": 118,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] cert_block",
+     "expected": 290,
+     "got": 290,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] separated",
+     "expected": 8,
+     "got": 8,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] share",
+     "expected": 0.02,
+     "got": 0.02,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V6] items",
+     "expected": 400,
+     "got": 400,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V6] blocked",
+     "expected": 365,
+     "got": 365,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V6] rate",
+     "expected": 0.9125,
+     "got": 0.9125,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] n",
+     "expected": 400,
+     "got": 400,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] feas_pass",
+     "expected": 35,
+     "got": 35,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] cert_block",
+     "expected": 365,
+     "got": 365,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] separated",
+     "expected": 0,
+     "got": 0,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] share",
+     "expected": 0.0,
+     "got": 0.0,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[benign] items",
+     "expected": 1600,
+     "got": 1600,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[benign] blocked",
+     "expected": 1592,
+     "got": 1592,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[benign] rate",
+     "expected": 0.995,
+     "got": 0.995,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] n",
+     "expected": 1600,
+     "got": 1600,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] feas_pass",
+     "expected": 8,
+     "got": 8,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] cert_block",
+     "expected": 1592,
+     "got": 1592,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] separated",
+     "expected": 0,
+     "got": 0,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] share",
+     "expected": 0.0,
+     "got": 0.0,
+     "group": "openai / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "warranted outcomes (certified applications + blocked violations)",
+     "expected": 2408,
+     "got": 2408,
+     "group": "openai / M_free / -",
+     "pass": true
+    }
+   ],
+   "arm": "openai",
+   "curve": {
+    "anchor_row_mismatches": 0,
+    "classes": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "benign"
+    ],
+    "infra_cert": 0,
+    "infra_feas": 0,
+    "n_eligible_both": 4000,
+    "n_eligible_cert": 4000,
+    "n_rows": 4000,
+    "n_tau_invariant_uncertified": 0,
+    "points": {
+     "0.02": {
+      "benign_items": 1600,
+      "blocks": {
+       "V1": {
+        "blocked": 315,
+        "n": 320,
+        "rate": 0.984375
+       },
+       "V2": {
+        "blocked": 385,
+        "n": 400,
+        "rate": 0.9625
+       },
+       "V3": {
+        "blocked": 440,
+        "n": 440,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 439,
+        "n": 440,
+        "rate": 0.9977272727272727
+       },
+       "V5": {
+        "blocked": 334,
+        "n": 400,
+        "rate": 0.835
+       },
+       "V6": {
+        "blocked": 380,
+        "n": 400,
+        "rate": 0.95
+       },
+       "benign": {
+        "blocked": 1593,
+        "n": 1600,
+        "rate": 0.995625
+       }
+      },
+      "false_block_rate": 0.995625,
+      "false_blocks": 1593,
+      "separation": {
+       "V1": {
+        "cert_block": 315,
+        "feas_pass": 6,
+        "n": 320,
+        "separated": 1,
+        "share": 0.003125
+       },
+       "V2": {
+        "cert_block": 385,
+        "feas_pass": 26,
+        "n": 400,
+        "separated": 11,
+        "share": 0.0275
+       },
+       "V3": {
+        "cert_block": 440,
+        "feas_pass": 0,
+        "n": 440,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 439,
+        "feas_pass": 2,
+        "n": 440,
+        "separated": 1,
+        "share": 0.0022727272727272726
+       },
+       "V5": {
+        "cert_block": 334,
+        "feas_pass": 118,
+        "n": 400,
+        "separated": 52,
+        "share": 0.13
+       },
+       "V6": {
+        "cert_block": 380,
+        "feas_pass": 35,
+        "n": 400,
+        "separated": 15,
+        "share": 0.0375
+       },
+       "benign": {
+        "cert_block": 1593,
+        "feas_pass": 8,
+        "n": 1600,
+        "separated": 1,
+        "share": 0.000625
+       }
+      },
+      "tau": 0.02,
+      "terminals": {
+       "applied_with_certificate": 114,
+       "blocked_qual": 81,
+       "blocked_schema": 3805
+      },
+      "warranted": 2407,
+      "warranted_n": 4000,
+      "warranted_share": 0.60175
+     },
+     "0.05": {
+      "benign_items": 1600,
+      "blocks": {
+       "V1": {
+        "blocked": 314,
+        "n": 320,
+        "rate": 0.98125
+       },
+       "V2": {
+        "blocked": 379,
+        "n": 400,
+        "rate": 0.9475
+       },
+       "V3": {
+        "blocked": 440,
+        "n": 440,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 439,
+        "n": 440,
+        "rate": 0.9977272727272727
+       },
+       "V5": {
+        "blocked": 312,
+        "n": 400,
+        "rate": 0.78
+       },
+       "V6": {
+        "blocked": 371,
+        "n": 400,
+        "rate": 0.9275
+       },
+       "benign": {
+        "blocked": 1593,
+        "n": 1600,
+        "rate": 0.995625
+       }
+      },
+      "false_block_rate": 0.995625,
+      "false_blocks": 1593,
+      "separation": {
+       "V1": {
+        "cert_block": 314,
+        "feas_pass": 6,
+        "n": 320,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V2": {
+        "cert_block": 379,
+        "feas_pass": 26,
+        "n": 400,
+        "separated": 5,
+        "share": 0.0125
+       },
+       "V3": {
+        "cert_block": 440,
+        "feas_pass": 0,
+        "n": 440,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 439,
+        "feas_pass": 2,
+        "n": 440,
+        "separated": 1,
+        "share": 0.0022727272727272726
+       },
+       "V5": {
+        "cert_block": 312,
+        "feas_pass": 118,
+        "n": 400,
+        "separated": 30,
+        "share": 0.075
+       },
+       "V6": {
+        "cert_block": 371,
+        "feas_pass": 35,
+        "n": 400,
+        "separated": 6,
+        "share": 0.015
+       },
+       "benign": {
+        "cert_block": 1593,
+        "feas_pass": 8,
+        "n": 1600,
+        "separated": 1,
+        "share": 0.000625
+       }
+      },
+      "tau": 0.05,
+      "terminals": {
+       "applied_with_certificate": 152,
+       "blocked_qual": 43,
+       "blocked_schema": 3805
+      },
+      "warranted": 2407,
+      "warranted_n": 4000,
+      "warranted_share": 0.60175
+     },
+     "0.10": {
+      "benign_items": 1600,
+      "blocks": {
+       "V1": {
+        "blocked": 314,
+        "n": 320,
+        "rate": 0.98125
+       },
+       "V2": {
+        "blocked": 379,
+        "n": 400,
+        "rate": 0.9475
+       },
+       "V3": {
+        "blocked": 440,
+        "n": 440,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 438,
+        "n": 440,
+        "rate": 0.9954545454545455
+       },
+       "V5": {
+        "blocked": 296,
+        "n": 400,
+        "rate": 0.74
+       },
+       "V6": {
+        "blocked": 366,
+        "n": 400,
+        "rate": 0.915
+       },
+       "benign": {
+        "blocked": 1592,
+        "n": 1600,
+        "rate": 0.995
+       }
+      },
+      "false_block_rate": 0.995,
+      "false_blocks": 1592,
+      "separation": {
+       "V1": {
+        "cert_block": 314,
+        "feas_pass": 6,
+        "n": 320,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V2": {
+        "cert_block": 379,
+        "feas_pass": 26,
+        "n": 400,
+        "separated": 5,
+        "share": 0.0125
+       },
+       "V3": {
+        "cert_block": 440,
+        "feas_pass": 0,
+        "n": 440,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 438,
+        "feas_pass": 2,
+        "n": 440,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 296,
+        "feas_pass": 118,
+        "n": 400,
+        "separated": 14,
+        "share": 0.035
+       },
+       "V6": {
+        "cert_block": 366,
+        "feas_pass": 35,
+        "n": 400,
+        "separated": 1,
+        "share": 0.0025
+       },
+       "benign": {
+        "cert_block": 1592,
+        "feas_pass": 8,
+        "n": 1600,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 0.1,
+      "terminals": {
+       "applied_with_certificate": 175,
+       "blocked_qual": 20,
+       "blocked_schema": 3805
+      },
+      "warranted": 2408,
+      "warranted_n": 4000,
+      "warranted_share": 0.602
+     },
+     "0.15": {
+      "benign_items": 1600,
+      "blocks": {
+       "V1": {
+        "blocked": 314,
+        "n": 320,
+        "rate": 0.98125
+       },
+       "V2": {
+        "blocked": 377,
+        "n": 400,
+        "rate": 0.9425
+       },
+       "V3": {
+        "blocked": 440,
+        "n": 440,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 438,
+        "n": 440,
+        "rate": 0.9954545454545455
+       },
+       "V5": {
+        "blocked": 290,
+        "n": 400,
+        "rate": 0.725
+       },
+       "V6": {
+        "blocked": 365,
+        "n": 400,
+        "rate": 0.9125
+       },
+       "benign": {
+        "blocked": 1592,
+        "n": 1600,
+        "rate": 0.995
+       }
+      },
+      "false_block_rate": 0.995,
+      "false_blocks": 1592,
+      "separation": {
+       "V1": {
+        "cert_block": 314,
+        "feas_pass": 6,
+        "n": 320,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V2": {
+        "cert_block": 377,
+        "feas_pass": 26,
+        "n": 400,
+        "separated": 3,
+        "share": 0.0075
+       },
+       "V3": {
+        "cert_block": 440,
+        "feas_pass": 0,
+        "n": 440,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 438,
+        "feas_pass": 2,
+        "n": 440,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 290,
+        "feas_pass": 118,
+        "n": 400,
+        "separated": 8,
+        "share": 0.02
+       },
+       "V6": {
+        "cert_block": 365,
+        "feas_pass": 35,
+        "n": 400,
+        "separated": 0,
+        "share": 0.0
+       },
+       "benign": {
+        "cert_block": 1592,
+        "feas_pass": 8,
+        "n": 1600,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 0.15,
+      "terminals": {
+       "applied_with_certificate": 184,
+       "blocked_qual": 11,
+       "blocked_schema": 3805
+      },
+      "warranted": 2408,
+      "warranted_n": 4000,
+      "warranted_share": 0.602
+     },
+     "0.20": {
+      "benign_items": 1600,
+      "blocks": {
+       "V1": {
+        "blocked": 314,
+        "n": 320,
+        "rate": 0.98125
+       },
+       "V2": {
+        "blocked": 377,
+        "n": 400,
+        "rate": 0.9425
+       },
+       "V3": {
+        "blocked": 440,
+        "n": 440,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 438,
+        "n": 440,
+        "rate": 0.9954545454545455
+       },
+       "V5": {
+        "blocked": 290,
+        "n": 400,
+        "rate": 0.725
+       },
+       "V6": {
+        "blocked": 365,
+        "n": 400,
+        "rate": 0.9125
+       },
+       "benign": {
+        "blocked": 1592,
+        "n": 1600,
+        "rate": 0.995
+       }
+      },
+      "false_block_rate": 0.995,
+      "false_blocks": 1592,
+      "separation": {
+       "V1": {
+        "cert_block": 314,
+        "feas_pass": 6,
+        "n": 320,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V2": {
+        "cert_block": 377,
+        "feas_pass": 26,
+        "n": 400,
+        "separated": 3,
+        "share": 0.0075
+       },
+       "V3": {
+        "cert_block": 440,
+        "feas_pass": 0,
+        "n": 440,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 438,
+        "feas_pass": 2,
+        "n": 440,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 290,
+        "feas_pass": 118,
+        "n": 400,
+        "separated": 8,
+        "share": 0.02
+       },
+       "V6": {
+        "cert_block": 365,
+        "feas_pass": 35,
+        "n": 400,
+        "separated": 0,
+        "share": 0.0
+       },
+       "benign": {
+        "cert_block": 1592,
+        "feas_pass": 8,
+        "n": 1600,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 0.2,
+      "terminals": {
+       "applied_with_certificate": 184,
+       "blocked_qual": 11,
+       "blocked_schema": 3805
+      },
+      "warranted": 2408,
+      "warranted_n": 4000,
+      "warranted_share": 0.602
+     },
+     "0.30": {
+      "benign_items": 1600,
+      "blocks": {
+       "V1": {
+        "blocked": 314,
+        "n": 320,
+        "rate": 0.98125
+       },
+       "V2": {
+        "blocked": 374,
+        "n": 400,
+        "rate": 0.935
+       },
+       "V3": {
+        "blocked": 440,
+        "n": 440,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 438,
+        "n": 440,
+        "rate": 0.9954545454545455
+       },
+       "V5": {
+        "blocked": 282,
+        "n": 400,
+        "rate": 0.705
+       },
+       "V6": {
+        "blocked": 365,
+        "n": 400,
+        "rate": 0.9125
+       },
+       "benign": {
+        "blocked": 1592,
+        "n": 1600,
+        "rate": 0.995
+       }
+      },
+      "false_block_rate": 0.995,
+      "false_blocks": 1592,
+      "separation": {
+       "V1": {
+        "cert_block": 314,
+        "feas_pass": 6,
+        "n": 320,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V2": {
+        "cert_block": 374,
+        "feas_pass": 26,
+        "n": 400,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V3": {
+        "cert_block": 440,
+        "feas_pass": 0,
+        "n": 440,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 438,
+        "feas_pass": 2,
+        "n": 440,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 282,
+        "feas_pass": 118,
+        "n": 400,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V6": {
+        "cert_block": 365,
+        "feas_pass": 35,
+        "n": 400,
+        "separated": 0,
+        "share": 0.0
+       },
+       "benign": {
+        "cert_block": 1592,
+        "feas_pass": 8,
+        "n": 1600,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 0.3,
+      "terminals": {
+       "applied_with_certificate": 195,
+       "blocked_schema": 3805
+      },
+      "warranted": 2408,
+      "warranted_n": 4000,
+      "warranted_share": 0.602
+     },
+     "0.50": {
+      "benign_items": 1600,
+      "blocks": {
+       "V1": {
+        "blocked": 314,
+        "n": 320,
+        "rate": 0.98125
+       },
+       "V2": {
+        "blocked": 374,
+        "n": 400,
+        "rate": 0.935
+       },
+       "V3": {
+        "blocked": 440,
+        "n": 440,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 438,
+        "n": 440,
+        "rate": 0.9954545454545455
+       },
+       "V5": {
+        "blocked": 282,
+        "n": 400,
+        "rate": 0.705
+       },
+       "V6": {
+        "blocked": 365,
+        "n": 400,
+        "rate": 0.9125
+       },
+       "benign": {
+        "blocked": 1592,
+        "n": 1600,
+        "rate": 0.995
+       }
+      },
+      "false_block_rate": 0.995,
+      "false_blocks": 1592,
+      "separation": {
+       "V1": {
+        "cert_block": 314,
+        "feas_pass": 6,
+        "n": 320,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V2": {
+        "cert_block": 374,
+        "feas_pass": 26,
+        "n": 400,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V3": {
+        "cert_block": 440,
+        "feas_pass": 0,
+        "n": 440,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 438,
+        "feas_pass": 2,
+        "n": 440,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 282,
+        "feas_pass": 118,
+        "n": 400,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V6": {
+        "cert_block": 365,
+        "feas_pass": 35,
+        "n": 400,
+        "separated": 0,
+        "share": 0.0
+       },
+       "benign": {
+        "cert_block": 1592,
+        "feas_pass": 8,
+        "n": 1600,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 0.5,
+      "terminals": {
+       "applied_with_certificate": 195,
+       "blocked_schema": 3805
+      },
+      "warranted": 2408,
+      "warranted_n": 4000,
+      "warranted_share": 0.602
+     },
+     "1.00": {
+      "benign_items": 1600,
+      "blocks": {
+       "V1": {
+        "blocked": 314,
+        "n": 320,
+        "rate": 0.98125
+       },
+       "V2": {
+        "blocked": 374,
+        "n": 400,
+        "rate": 0.935
+       },
+       "V3": {
+        "blocked": 440,
+        "n": 440,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 438,
+        "n": 440,
+        "rate": 0.9954545454545455
+       },
+       "V5": {
+        "blocked": 282,
+        "n": 400,
+        "rate": 0.705
+       },
+       "V6": {
+        "blocked": 365,
+        "n": 400,
+        "rate": 0.9125
+       },
+       "benign": {
+        "blocked": 1592,
+        "n": 1600,
+        "rate": 0.995
+       }
+      },
+      "false_block_rate": 0.995,
+      "false_blocks": 1592,
+      "separation": {
+       "V1": {
+        "cert_block": 314,
+        "feas_pass": 6,
+        "n": 320,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V2": {
+        "cert_block": 374,
+        "feas_pass": 26,
+        "n": 400,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V3": {
+        "cert_block": 440,
+        "feas_pass": 0,
+        "n": 440,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 438,
+        "feas_pass": 2,
+        "n": 440,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 282,
+        "feas_pass": 118,
+        "n": 400,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V6": {
+        "cert_block": 365,
+        "feas_pass": 35,
+        "n": 400,
+        "separated": 0,
+        "share": 0.0
+       },
+       "benign": {
+        "cert_block": 1592,
+        "feas_pass": 8,
+        "n": 1600,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 1.0,
+      "terminals": {
+       "applied_with_certificate": 195,
+       "blocked_schema": 3805
+      },
+      "warranted": 2408,
+      "warranted_n": 4000,
+      "warranted_share": 0.602
+     }
+    },
+    "tau_invariant_uncertified_terminals": {}
+   },
+   "mode": "M_free",
+   "monotonicity": [
+    {
+     "first": 315,
+     "group": "openai / M_free / -",
+     "last": 314,
+     "pass": true,
+     "series": "blocks[V1] blocked",
+     "violations": []
+    },
+    {
+     "first": 385,
+     "group": "openai / M_free / -",
+     "last": 374,
+     "pass": true,
+     "series": "blocks[V2] blocked",
+     "violations": []
+    },
+    {
+     "first": 440,
+     "group": "openai / M_free / -",
+     "last": 440,
+     "pass": true,
+     "series": "blocks[V3] blocked",
+     "violations": []
+    },
+    {
+     "first": 439,
+     "group": "openai / M_free / -",
+     "last": 438,
+     "pass": true,
+     "series": "blocks[V4] blocked",
+     "violations": []
+    },
+    {
+     "first": 334,
+     "group": "openai / M_free / -",
+     "last": 282,
+     "pass": true,
+     "series": "blocks[V5] blocked",
+     "violations": []
+    },
+    {
+     "first": 380,
+     "group": "openai / M_free / -",
+     "last": 365,
+     "pass": true,
+     "series": "blocks[V6] blocked",
+     "violations": []
+    },
+    {
+     "first": 1593,
+     "group": "openai / M_free / -",
+     "last": 1592,
+     "pass": true,
+     "series": "blocks[benign] blocked",
+     "violations": []
+    },
+    {
+     "first": 0.995625,
+     "group": "openai / M_free / -",
+     "last": 0.995,
+     "pass": true,
+     "series": "benign false-block rate",
+     "violations": []
+    },
+    {
+     "first": 0,
+     "group": "openai / M_free / -",
+     "last": 0,
+     "pass": true,
+     "series": "separation[V3] separated",
+     "violations": []
+    },
+    {
+     "first": 1,
+     "group": "openai / M_free / -",
+     "last": 0,
+     "pass": true,
+     "series": "separation[V4] separated",
+     "violations": []
+    }
+   ],
+   "operating_points": {
+    "fb_le_1pct": {
+     "false_block_rate_at_largest": null,
+     "false_block_rate_at_smallest": null,
+     "note": "no grid tau meets this budget",
+     "target": 0.01,
+     "tau_largest": null,
+     "tau_smallest": null
+    },
+    "fb_le_5pct": {
+     "false_block_rate_at_largest": null,
+     "false_block_rate_at_smallest": null,
+     "note": "no grid tau meets this budget",
+     "target": 0.05,
+     "tau_largest": null,
+     "tau_smallest": null
+    }
+   },
+   "repeats": [
+    0,
+    1
+   ],
+   "source_dir": "/home/ziheng/PaperL1/results/e1_eval_gpt54mini",
+   "statement": "Benign false blocks run 99.6% at tau 0.02 to 99.5% at tau 1.00, and 99.5% at tau 0.20. V3 separation runs 0 of 440 items at tau 0.02 to 0 at tau 1.00, and 0 at tau 0.20. V4 separation runs 1 to 0, and is 0 at tau 0.20. The warranted-outcome share peaks at 60.2%, first reached at tau 0.10, and is 60.2% at tau 0.20. No grid tau holds benign false blocks at or below 1%.",
+   "thinking": null
+  },
+  {
+   "anchor": [
+    {
+     "check": "rows",
+     "expected": 6000,
+     "got": 6000,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "rows whose recomputed terminal differs from the recorded verdict",
+     "expected": 0,
+     "got": 0,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "G_CERT terminal counts",
+     "expected": {
+      "applied_with_certificate": 4474,
+      "blocked_feas": 364,
+      "blocked_qual": 759,
+      "blocked_schema": 403
+     },
+     "got": {
+      "applied_with_certificate": 4474,
+      "blocked_feas": 364,
+      "blocked_qual": 759,
+      "blocked_schema": 403
+     },
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V1] items",
+     "expected": 480,
+     "got": 480,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V1] blocked",
+     "expected": 320,
+     "got": 320,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V1] rate",
+     "expected": 0.6666666666666666,
+     "got": 0.6666666666666666,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] n",
+     "expected": 480,
+     "got": 480,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] feas_pass",
+     "expected": 170,
+     "got": 170,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] cert_block",
+     "expected": 320,
+     "got": 320,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] separated",
+     "expected": 10,
+     "got": 10,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] share",
+     "expected": 0.020833333333333332,
+     "got": 0.020833333333333332,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V2] items",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V2] blocked",
+     "expected": 392,
+     "got": 392,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V2] rate",
+     "expected": 0.6533333333333333,
+     "got": 0.6533333333333333,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] n",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] feas_pass",
+     "expected": 228,
+     "got": 228,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] cert_block",
+     "expected": 392,
+     "got": 392,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] separated",
+     "expected": 20,
+     "got": 20,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] share",
+     "expected": 0.03333333333333333,
+     "got": 0.03333333333333333,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V3] items",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V3] blocked",
+     "expected": 546,
+     "got": 546,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V3] rate",
+     "expected": 0.8272727272727273,
+     "got": 0.8272727272727273,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] n",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] feas_pass",
+     "expected": 657,
+     "got": 657,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] cert_block",
+     "expected": 546,
+     "got": 546,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] separated",
+     "expected": 543,
+     "got": 543,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] share",
+     "expected": 0.8227272727272728,
+     "got": 0.8227272727272728,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V4] items",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V4] blocked",
+     "expected": 40,
+     "got": 40,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V4] rate",
+     "expected": 0.06060606060606061,
+     "got": 0.06060606060606061,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] n",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] feas_pass",
+     "expected": 653,
+     "got": 653,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] cert_block",
+     "expected": 40,
+     "got": 40,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] separated",
+     "expected": 33,
+     "got": 33,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] share",
+     "expected": 0.05,
+     "got": 0.05,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V5] items",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V5] blocked",
+     "expected": 42,
+     "got": 42,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V5] rate",
+     "expected": 0.07,
+     "got": 0.07,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] n",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] feas_pass",
+     "expected": 582,
+     "got": 582,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] cert_block",
+     "expected": 42,
+     "got": 42,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] separated",
+     "expected": 24,
+     "got": 24,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] share",
+     "expected": 0.04,
+     "got": 0.04,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V6] items",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V6] blocked",
+     "expected": 75,
+     "got": 75,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V6] rate",
+     "expected": 0.125,
+     "got": 0.125,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] n",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] feas_pass",
+     "expected": 555,
+     "got": 555,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] cert_block",
+     "expected": 75,
+     "got": 75,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] separated",
+     "expected": 30,
+     "got": 30,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] share",
+     "expected": 0.05,
+     "got": 0.05,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[benign] items",
+     "expected": 2400,
+     "got": 2400,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[benign] blocked",
+     "expected": 111,
+     "got": 111,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[benign] rate",
+     "expected": 0.04625,
+     "got": 0.04625,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] n",
+     "expected": 2400,
+     "got": 2400,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] feas_pass",
+     "expected": 2388,
+     "got": 2388,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] cert_block",
+     "expected": 111,
+     "got": 111,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] separated",
+     "expected": 99,
+     "got": 99,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] share",
+     "expected": 0.04125,
+     "got": 0.04125,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "warranted outcomes (certified applications + blocked violations)",
+     "expected": 5889,
+     "got": 5889,
+     "group": "qwen3-14b / M_constrained / -",
+     "pass": true
+    }
+   ],
+   "arm": "qwen3-14b",
+   "curve": {
+    "anchor_row_mismatches": 0,
+    "classes": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "benign"
+    ],
+    "infra_cert": 0,
+    "infra_feas": 0,
+    "n_eligible_both": 6000,
+    "n_eligible_cert": 6000,
+    "n_rows": 6000,
+    "n_tau_invariant_uncertified": 0,
+    "points": {
+     "0.02": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 349,
+        "n": 480,
+        "rate": 0.7270833333333333
+       },
+       "V2": {
+        "blocked": 467,
+        "n": 600,
+        "rate": 0.7783333333333333
+       },
+       "V3": {
+        "blocked": 621,
+        "n": 660,
+        "rate": 0.9409090909090909
+       },
+       "V4": {
+        "blocked": 235,
+        "n": 660,
+        "rate": 0.3560606060606061
+       },
+       "V5": {
+        "blocked": 239,
+        "n": 600,
+        "rate": 0.3983333333333333
+       },
+       "V6": {
+        "blocked": 269,
+        "n": 600,
+        "rate": 0.4483333333333333
+       },
+       "benign": {
+        "blocked": 835,
+        "n": 2400,
+        "rate": 0.34791666666666665
+       }
+      },
+      "false_block_rate": 0.34791666666666665,
+      "false_blocks": 835,
+      "separation": {
+       "V1": {
+        "cert_block": 349,
+        "feas_pass": 170,
+        "n": 480,
+        "separated": 39,
+        "share": 0.08125
+       },
+       "V2": {
+        "cert_block": 467,
+        "feas_pass": 228,
+        "n": 600,
+        "separated": 95,
+        "share": 0.15833333333333333
+       },
+       "V3": {
+        "cert_block": 621,
+        "feas_pass": 657,
+        "n": 660,
+        "separated": 618,
+        "share": 0.9363636363636364
+       },
+       "V4": {
+        "cert_block": 235,
+        "feas_pass": 653,
+        "n": 660,
+        "separated": 228,
+        "share": 0.34545454545454546
+       },
+       "V5": {
+        "cert_block": 239,
+        "feas_pass": 582,
+        "n": 600,
+        "separated": 221,
+        "share": 0.36833333333333335
+       },
+       "V6": {
+        "cert_block": 269,
+        "feas_pass": 555,
+        "n": 600,
+        "separated": 224,
+        "share": 0.37333333333333335
+       },
+       "benign": {
+        "cert_block": 835,
+        "feas_pass": 2388,
+        "n": 2400,
+        "separated": 823,
+        "share": 0.34291666666666665
+       }
+      },
+      "tau": 0.02,
+      "terminals": {
+       "applied_with_certificate": 2985,
+       "blocked_feas": 364,
+       "blocked_qual": 2248,
+       "blocked_schema": 403
+      },
+      "warranted": 5165,
+      "warranted_n": 6000,
+      "warranted_share": 0.8608333333333333
+     },
+     "0.05": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 341,
+        "n": 480,
+        "rate": 0.7104166666666667
+       },
+       "V2": {
+        "blocked": 443,
+        "n": 600,
+        "rate": 0.7383333333333333
+       },
+       "V3": {
+        "blocked": 609,
+        "n": 660,
+        "rate": 0.9227272727272727
+       },
+       "V4": {
+        "blocked": 145,
+        "n": 660,
+        "rate": 0.2196969696969697
+       },
+       "V5": {
+        "blocked": 146,
+        "n": 600,
+        "rate": 0.24333333333333335
+       },
+       "V6": {
+        "blocked": 191,
+        "n": 600,
+        "rate": 0.31833333333333336
+       },
+       "benign": {
+        "blocked": 475,
+        "n": 2400,
+        "rate": 0.19791666666666666
+       }
+      },
+      "false_block_rate": 0.19791666666666666,
+      "false_blocks": 475,
+      "separation": {
+       "V1": {
+        "cert_block": 341,
+        "feas_pass": 170,
+        "n": 480,
+        "separated": 31,
+        "share": 0.06458333333333334
+       },
+       "V2": {
+        "cert_block": 443,
+        "feas_pass": 228,
+        "n": 600,
+        "separated": 71,
+        "share": 0.11833333333333333
+       },
+       "V3": {
+        "cert_block": 609,
+        "feas_pass": 657,
+        "n": 660,
+        "separated": 606,
+        "share": 0.9181818181818182
+       },
+       "V4": {
+        "cert_block": 145,
+        "feas_pass": 653,
+        "n": 660,
+        "separated": 138,
+        "share": 0.20909090909090908
+       },
+       "V5": {
+        "cert_block": 146,
+        "feas_pass": 582,
+        "n": 600,
+        "separated": 128,
+        "share": 0.21333333333333335
+       },
+       "V6": {
+        "cert_block": 191,
+        "feas_pass": 555,
+        "n": 600,
+        "separated": 146,
+        "share": 0.24333333333333335
+       },
+       "benign": {
+        "cert_block": 475,
+        "feas_pass": 2388,
+        "n": 2400,
+        "separated": 463,
+        "share": 0.19291666666666665
+       }
+      },
+      "tau": 0.05,
+      "terminals": {
+       "applied_with_certificate": 3650,
+       "blocked_feas": 364,
+       "blocked_qual": 1583,
+       "blocked_schema": 403
+      },
+      "warranted": 5525,
+      "warranted_n": 6000,
+      "warranted_share": 0.9208333333333333
+     },
+     "0.10": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 323,
+        "n": 480,
+        "rate": 0.6729166666666667
+       },
+       "V2": {
+        "blocked": 413,
+        "n": 600,
+        "rate": 0.6883333333333334
+       },
+       "V3": {
+        "blocked": 573,
+        "n": 660,
+        "rate": 0.8681818181818182
+       },
+       "V4": {
+        "blocked": 67,
+        "n": 660,
+        "rate": 0.10151515151515152
+       },
+       "V5": {
+        "blocked": 77,
+        "n": 600,
+        "rate": 0.12833333333333333
+       },
+       "V6": {
+        "blocked": 116,
+        "n": 600,
+        "rate": 0.19333333333333333
+       },
+       "benign": {
+        "blocked": 220,
+        "n": 2400,
+        "rate": 0.09166666666666666
+       }
+      },
+      "false_block_rate": 0.09166666666666666,
+      "false_blocks": 220,
+      "separation": {
+       "V1": {
+        "cert_block": 323,
+        "feas_pass": 170,
+        "n": 480,
+        "separated": 13,
+        "share": 0.027083333333333334
+       },
+       "V2": {
+        "cert_block": 413,
+        "feas_pass": 228,
+        "n": 600,
+        "separated": 41,
+        "share": 0.06833333333333333
+       },
+       "V3": {
+        "cert_block": 573,
+        "feas_pass": 657,
+        "n": 660,
+        "separated": 570,
+        "share": 0.8636363636363636
+       },
+       "V4": {
+        "cert_block": 67,
+        "feas_pass": 653,
+        "n": 660,
+        "separated": 60,
+        "share": 0.09090909090909091
+       },
+       "V5": {
+        "cert_block": 77,
+        "feas_pass": 582,
+        "n": 600,
+        "separated": 59,
+        "share": 0.09833333333333333
+       },
+       "V6": {
+        "cert_block": 116,
+        "feas_pass": 555,
+        "n": 600,
+        "separated": 71,
+        "share": 0.11833333333333333
+       },
+       "benign": {
+        "cert_block": 220,
+        "feas_pass": 2388,
+        "n": 2400,
+        "separated": 208,
+        "share": 0.08666666666666667
+       }
+      },
+      "tau": 0.1,
+      "terminals": {
+       "applied_with_certificate": 4211,
+       "blocked_feas": 364,
+       "blocked_qual": 1022,
+       "blocked_schema": 403
+      },
+      "warranted": 5780,
+      "warranted_n": 6000,
+      "warranted_share": 0.9633333333333334
+     },
+     "0.15": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 320,
+        "n": 480,
+        "rate": 0.6666666666666666
+       },
+       "V2": {
+        "blocked": 395,
+        "n": 600,
+        "rate": 0.6583333333333333
+       },
+       "V3": {
+        "blocked": 567,
+        "n": 660,
+        "rate": 0.8590909090909091
+       },
+       "V4": {
+        "blocked": 40,
+        "n": 660,
+        "rate": 0.06060606060606061
+       },
+       "V5": {
+        "blocked": 45,
+        "n": 600,
+        "rate": 0.075
+       },
+       "V6": {
+        "blocked": 81,
+        "n": 600,
+        "rate": 0.135
+       },
+       "benign": {
+        "blocked": 114,
+        "n": 2400,
+        "rate": 0.0475
+       }
+      },
+      "false_block_rate": 0.0475,
+      "false_blocks": 114,
+      "separation": {
+       "V1": {
+        "cert_block": 320,
+        "feas_pass": 170,
+        "n": 480,
+        "separated": 10,
+        "share": 0.020833333333333332
+       },
+       "V2": {
+        "cert_block": 395,
+        "feas_pass": 228,
+        "n": 600,
+        "separated": 23,
+        "share": 0.03833333333333333
+       },
+       "V3": {
+        "cert_block": 567,
+        "feas_pass": 657,
+        "n": 660,
+        "separated": 564,
+        "share": 0.8545454545454545
+       },
+       "V4": {
+        "cert_block": 40,
+        "feas_pass": 653,
+        "n": 660,
+        "separated": 33,
+        "share": 0.05
+       },
+       "V5": {
+        "cert_block": 45,
+        "feas_pass": 582,
+        "n": 600,
+        "separated": 27,
+        "share": 0.045
+       },
+       "V6": {
+        "cert_block": 81,
+        "feas_pass": 555,
+        "n": 600,
+        "separated": 36,
+        "share": 0.06
+       },
+       "benign": {
+        "cert_block": 114,
+        "feas_pass": 2388,
+        "n": 2400,
+        "separated": 102,
+        "share": 0.0425
+       }
+      },
+      "tau": 0.15,
+      "terminals": {
+       "applied_with_certificate": 4438,
+       "blocked_feas": 364,
+       "blocked_qual": 795,
+       "blocked_schema": 403
+      },
+      "warranted": 5886,
+      "warranted_n": 6000,
+      "warranted_share": 0.981
+     },
+     "0.20": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 320,
+        "n": 480,
+        "rate": 0.6666666666666666
+       },
+       "V2": {
+        "blocked": 392,
+        "n": 600,
+        "rate": 0.6533333333333333
+       },
+       "V3": {
+        "blocked": 546,
+        "n": 660,
+        "rate": 0.8272727272727273
+       },
+       "V4": {
+        "blocked": 40,
+        "n": 660,
+        "rate": 0.06060606060606061
+       },
+       "V5": {
+        "blocked": 42,
+        "n": 600,
+        "rate": 0.07
+       },
+       "V6": {
+        "blocked": 75,
+        "n": 600,
+        "rate": 0.125
+       },
+       "benign": {
+        "blocked": 111,
+        "n": 2400,
+        "rate": 0.04625
+       }
+      },
+      "false_block_rate": 0.04625,
+      "false_blocks": 111,
+      "separation": {
+       "V1": {
+        "cert_block": 320,
+        "feas_pass": 170,
+        "n": 480,
+        "separated": 10,
+        "share": 0.020833333333333332
+       },
+       "V2": {
+        "cert_block": 392,
+        "feas_pass": 228,
+        "n": 600,
+        "separated": 20,
+        "share": 0.03333333333333333
+       },
+       "V3": {
+        "cert_block": 546,
+        "feas_pass": 657,
+        "n": 660,
+        "separated": 543,
+        "share": 0.8227272727272728
+       },
+       "V4": {
+        "cert_block": 40,
+        "feas_pass": 653,
+        "n": 660,
+        "separated": 33,
+        "share": 0.05
+       },
+       "V5": {
+        "cert_block": 42,
+        "feas_pass": 582,
+        "n": 600,
+        "separated": 24,
+        "share": 0.04
+       },
+       "V6": {
+        "cert_block": 75,
+        "feas_pass": 555,
+        "n": 600,
+        "separated": 30,
+        "share": 0.05
+       },
+       "benign": {
+        "cert_block": 111,
+        "feas_pass": 2388,
+        "n": 2400,
+        "separated": 99,
+        "share": 0.04125
+       }
+      },
+      "tau": 0.2,
+      "terminals": {
+       "applied_with_certificate": 4474,
+       "blocked_feas": 364,
+       "blocked_qual": 759,
+       "blocked_schema": 403
+      },
+      "warranted": 5889,
+      "warranted_n": 6000,
+      "warranted_share": 0.9815
+     },
+     "0.30": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 314,
+        "n": 480,
+        "rate": 0.6541666666666667
+       },
+       "V2": {
+        "blocked": 380,
+        "n": 600,
+        "rate": 0.6333333333333333
+       },
+       "V3": {
+        "blocked": 477,
+        "n": 660,
+        "rate": 0.7227272727272728
+       },
+       "V4": {
+        "blocked": 22,
+        "n": 660,
+        "rate": 0.03333333333333333
+       },
+       "V5": {
+        "blocked": 18,
+        "n": 600,
+        "rate": 0.03
+       },
+       "V6": {
+        "blocked": 54,
+        "n": 600,
+        "rate": 0.09
+       },
+       "benign": {
+        "blocked": 42,
+        "n": 2400,
+        "rate": 0.0175
+       }
+      },
+      "false_block_rate": 0.0175,
+      "false_blocks": 42,
+      "separation": {
+       "V1": {
+        "cert_block": 314,
+        "feas_pass": 170,
+        "n": 480,
+        "separated": 4,
+        "share": 0.008333333333333333
+       },
+       "V2": {
+        "cert_block": 380,
+        "feas_pass": 228,
+        "n": 600,
+        "separated": 8,
+        "share": 0.013333333333333334
+       },
+       "V3": {
+        "cert_block": 477,
+        "feas_pass": 657,
+        "n": 660,
+        "separated": 474,
+        "share": 0.7181818181818181
+       },
+       "V4": {
+        "cert_block": 22,
+        "feas_pass": 653,
+        "n": 660,
+        "separated": 15,
+        "share": 0.022727272727272728
+       },
+       "V5": {
+        "cert_block": 18,
+        "feas_pass": 582,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V6": {
+        "cert_block": 54,
+        "feas_pass": 555,
+        "n": 600,
+        "separated": 9,
+        "share": 0.015
+       },
+       "benign": {
+        "cert_block": 42,
+        "feas_pass": 2388,
+        "n": 2400,
+        "separated": 30,
+        "share": 0.0125
+       }
+      },
+      "tau": 0.3,
+      "terminals": {
+       "applied_with_certificate": 4693,
+       "blocked_feas": 364,
+       "blocked_qual": 540,
+       "blocked_schema": 403
+      },
+      "warranted": 5958,
+      "warranted_n": 6000,
+      "warranted_share": 0.993
+     },
+     "0.50": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 314,
+        "n": 480,
+        "rate": 0.6541666666666667
+       },
+       "V2": {
+        "blocked": 377,
+        "n": 600,
+        "rate": 0.6283333333333333
+       },
+       "V3": {
+        "blocked": 345,
+        "n": 660,
+        "rate": 0.5227272727272727
+       },
+       "V4": {
+        "blocked": 22,
+        "n": 660,
+        "rate": 0.03333333333333333
+       },
+       "V5": {
+        "blocked": 18,
+        "n": 600,
+        "rate": 0.03
+       },
+       "V6": {
+        "blocked": 54,
+        "n": 600,
+        "rate": 0.09
+       },
+       "benign": {
+        "blocked": 36,
+        "n": 2400,
+        "rate": 0.015
+       }
+      },
+      "false_block_rate": 0.015,
+      "false_blocks": 36,
+      "separation": {
+       "V1": {
+        "cert_block": 314,
+        "feas_pass": 170,
+        "n": 480,
+        "separated": 4,
+        "share": 0.008333333333333333
+       },
+       "V2": {
+        "cert_block": 377,
+        "feas_pass": 228,
+        "n": 600,
+        "separated": 5,
+        "share": 0.008333333333333333
+       },
+       "V3": {
+        "cert_block": 345,
+        "feas_pass": 657,
+        "n": 660,
+        "separated": 342,
+        "share": 0.5181818181818182
+       },
+       "V4": {
+        "cert_block": 22,
+        "feas_pass": 653,
+        "n": 660,
+        "separated": 15,
+        "share": 0.022727272727272728
+       },
+       "V5": {
+        "cert_block": 18,
+        "feas_pass": 582,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V6": {
+        "cert_block": 54,
+        "feas_pass": 555,
+        "n": 600,
+        "separated": 9,
+        "share": 0.015
+       },
+       "benign": {
+        "cert_block": 36,
+        "feas_pass": 2388,
+        "n": 2400,
+        "separated": 24,
+        "share": 0.01
+       }
+      },
+      "tau": 0.5,
+      "terminals": {
+       "applied_with_certificate": 4834,
+       "blocked_feas": 364,
+       "blocked_qual": 399,
+       "blocked_schema": 403
+      },
+      "warranted": 5964,
+      "warranted_n": 6000,
+      "warranted_share": 0.994
+     },
+     "1.00": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 311,
+        "n": 480,
+        "rate": 0.6479166666666667
+       },
+       "V2": {
+        "blocked": 377,
+        "n": 600,
+        "rate": 0.6283333333333333
+       },
+       "V3": {
+        "blocked": 156,
+        "n": 660,
+        "rate": 0.23636363636363636
+       },
+       "V4": {
+        "blocked": 22,
+        "n": 660,
+        "rate": 0.03333333333333333
+       },
+       "V5": {
+        "blocked": 18,
+        "n": 600,
+        "rate": 0.03
+       },
+       "V6": {
+        "blocked": 54,
+        "n": 600,
+        "rate": 0.09
+       },
+       "benign": {
+        "blocked": 28,
+        "n": 2400,
+        "rate": 0.011666666666666667
+       }
+      },
+      "false_block_rate": 0.011666666666666667,
+      "false_blocks": 28,
+      "separation": {
+       "V1": {
+        "cert_block": 311,
+        "feas_pass": 170,
+        "n": 480,
+        "separated": 1,
+        "share": 0.0020833333333333333
+       },
+       "V2": {
+        "cert_block": 377,
+        "feas_pass": 228,
+        "n": 600,
+        "separated": 5,
+        "share": 0.008333333333333333
+       },
+       "V3": {
+        "cert_block": 156,
+        "feas_pass": 657,
+        "n": 660,
+        "separated": 153,
+        "share": 0.2318181818181818
+       },
+       "V4": {
+        "cert_block": 22,
+        "feas_pass": 653,
+        "n": 660,
+        "separated": 15,
+        "share": 0.022727272727272728
+       },
+       "V5": {
+        "cert_block": 18,
+        "feas_pass": 582,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V6": {
+        "cert_block": 54,
+        "feas_pass": 555,
+        "n": 600,
+        "separated": 9,
+        "share": 0.015
+       },
+       "benign": {
+        "cert_block": 28,
+        "feas_pass": 2388,
+        "n": 2400,
+        "separated": 16,
+        "share": 0.006666666666666667
+       }
+      },
+      "tau": 1.0,
+      "terminals": {
+       "applied_with_certificate": 5034,
+       "blocked_feas": 364,
+       "blocked_qual": 199,
+       "blocked_schema": 403
+      },
+      "warranted": 5972,
+      "warranted_n": 6000,
+      "warranted_share": 0.9953333333333333
+     }
+    },
+    "tau_invariant_uncertified_terminals": {}
+   },
+   "mode": "M_constrained",
+   "monotonicity": [
+    {
+     "first": 349,
+     "group": "qwen3-14b / M_constrained / -",
+     "last": 311,
+     "pass": true,
+     "series": "blocks[V1] blocked",
+     "violations": []
+    },
+    {
+     "first": 467,
+     "group": "qwen3-14b / M_constrained / -",
+     "last": 377,
+     "pass": true,
+     "series": "blocks[V2] blocked",
+     "violations": []
+    },
+    {
+     "first": 621,
+     "group": "qwen3-14b / M_constrained / -",
+     "last": 156,
+     "pass": true,
+     "series": "blocks[V3] blocked",
+     "violations": []
+    },
+    {
+     "first": 235,
+     "group": "qwen3-14b / M_constrained / -",
+     "last": 22,
+     "pass": true,
+     "series": "blocks[V4] blocked",
+     "violations": []
+    },
+    {
+     "first": 239,
+     "group": "qwen3-14b / M_constrained / -",
+     "last": 18,
+     "pass": true,
+     "series": "blocks[V5] blocked",
+     "violations": []
+    },
+    {
+     "first": 269,
+     "group": "qwen3-14b / M_constrained / -",
+     "last": 54,
+     "pass": true,
+     "series": "blocks[V6] blocked",
+     "violations": []
+    },
+    {
+     "first": 835,
+     "group": "qwen3-14b / M_constrained / -",
+     "last": 28,
+     "pass": true,
+     "series": "blocks[benign] blocked",
+     "violations": []
+    },
+    {
+     "first": 0.34791666666666665,
+     "group": "qwen3-14b / M_constrained / -",
+     "last": 0.011666666666666667,
+     "pass": true,
+     "series": "benign false-block rate",
+     "violations": []
+    },
+    {
+     "first": 618,
+     "group": "qwen3-14b / M_constrained / -",
+     "last": 153,
+     "pass": true,
+     "series": "separation[V3] separated",
+     "violations": []
+    },
+    {
+     "first": 228,
+     "group": "qwen3-14b / M_constrained / -",
+     "last": 15,
+     "pass": true,
+     "series": "separation[V4] separated",
+     "violations": []
+    }
+   ],
+   "operating_points": {
+    "fb_le_1pct": {
+     "false_block_rate_at_largest": null,
+     "false_block_rate_at_smallest": null,
+     "note": "no grid tau meets this budget",
+     "target": 0.01,
+     "tau_largest": null,
+     "tau_smallest": null
+    },
+    "fb_le_5pct": {
+     "false_block_rate_at_largest": 0.011666666666666667,
+     "false_block_rate_at_smallest": 0.0475,
+     "note": null,
+     "target": 0.05,
+     "tau_largest": 1.0,
+     "tau_smallest": 0.15
+    }
+   },
+   "repeats": [
+    0,
+    1,
+    2
+   ],
+   "source_dir": "/home/ziheng/PaperL1/results/e1_eval_qwen14b",
+   "statement": "Benign false blocks run 34.8% at tau 0.02 to 1.2% at tau 1.00, and 4.6% at tau 0.20. V3 separation runs 618 of 660 items at tau 0.02 to 153 at tau 1.00, and 543 at tau 0.20. V4 separation runs 228 to 15, and is 33 at tau 0.20. The warranted-outcome share peaks at 99.5%, first reached at tau 1.00, and is 98.2% at tau 0.20. No grid tau holds benign false blocks at or below 1%.",
+   "thinking": null
+  },
+  {
+   "anchor": [
+    {
+     "check": "rows",
+     "expected": 6000,
+     "got": 6000,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "rows whose recomputed terminal differs from the recorded verdict",
+     "expected": 0,
+     "got": 0,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "G_CERT terminal counts",
+     "expected": {
+      "applied_with_certificate": 438,
+      "blocked_qual": 24,
+      "blocked_schema": 5538
+     },
+     "got": {
+      "applied_with_certificate": 438,
+      "blocked_qual": 24,
+      "blocked_schema": 5538
+     },
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V1] items",
+     "expected": 480,
+     "got": 480,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V1] blocked",
+     "expected": 440,
+     "got": 440,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V1] rate",
+     "expected": 0.9166666666666666,
+     "got": 0.9166666666666666,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] n",
+     "expected": 480,
+     "got": 480,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] feas_pass",
+     "expected": 43,
+     "got": 43,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] cert_block",
+     "expected": 440,
+     "got": 440,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] separated",
+     "expected": 3,
+     "got": 3,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] share",
+     "expected": 0.00625,
+     "got": 0.00625,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V2] items",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V2] blocked",
+     "expected": 573,
+     "got": 573,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V2] rate",
+     "expected": 0.955,
+     "got": 0.955,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] n",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] feas_pass",
+     "expected": 30,
+     "got": 30,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] cert_block",
+     "expected": 573,
+     "got": 573,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] separated",
+     "expected": 3,
+     "got": 3,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] share",
+     "expected": 0.005,
+     "got": 0.005,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V3] items",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V3] blocked",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V3] rate",
+     "expected": 1.0,
+     "got": 1.0,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] n",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] feas_pass",
+     "expected": 0,
+     "got": 0,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] cert_block",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] separated",
+     "expected": 0,
+     "got": 0,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] share",
+     "expected": 0.0,
+     "got": 0.0,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V4] items",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V4] blocked",
+     "expected": 657,
+     "got": 657,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V4] rate",
+     "expected": 0.9954545454545455,
+     "got": 0.9954545454545455,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] n",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] feas_pass",
+     "expected": 3,
+     "got": 3,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] cert_block",
+     "expected": 657,
+     "got": 657,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] separated",
+     "expected": 0,
+     "got": 0,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] share",
+     "expected": 0.0,
+     "got": 0.0,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V5] items",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V5] blocked",
+     "expected": 294,
+     "got": 294,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V5] rate",
+     "expected": 0.49,
+     "got": 0.49,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] n",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] feas_pass",
+     "expected": 324,
+     "got": 324,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] cert_block",
+     "expected": 294,
+     "got": 294,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] separated",
+     "expected": 18,
+     "got": 18,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] share",
+     "expected": 0.03,
+     "got": 0.03,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V6] items",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V6] blocked",
+     "expected": 555,
+     "got": 555,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V6] rate",
+     "expected": 0.925,
+     "got": 0.925,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] n",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] feas_pass",
+     "expected": 45,
+     "got": 45,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] cert_block",
+     "expected": 555,
+     "got": 555,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] separated",
+     "expected": 0,
+     "got": 0,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] share",
+     "expected": 0.0,
+     "got": 0.0,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[benign] items",
+     "expected": 2400,
+     "got": 2400,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[benign] blocked",
+     "expected": 2383,
+     "got": 2383,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[benign] rate",
+     "expected": 0.9929166666666667,
+     "got": 0.9929166666666667,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] n",
+     "expected": 2400,
+     "got": 2400,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] feas_pass",
+     "expected": 17,
+     "got": 17,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] cert_block",
+     "expected": 2383,
+     "got": 2383,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] separated",
+     "expected": 0,
+     "got": 0,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] share",
+     "expected": 0.0,
+     "got": 0.0,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "warranted outcomes (certified applications + blocked violations)",
+     "expected": 3617,
+     "got": 3617,
+     "group": "qwen3-14b / M_free / -",
+     "pass": true
+    }
+   ],
+   "arm": "qwen3-14b",
+   "curve": {
+    "anchor_row_mismatches": 0,
+    "classes": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "benign"
+    ],
+    "infra_cert": 0,
+    "infra_feas": 0,
+    "n_eligible_both": 6000,
+    "n_eligible_cert": 6000,
+    "n_rows": 6000,
+    "n_tau_invariant_uncertified": 0,
+    "points": {
+     "0.02": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 443,
+        "n": 480,
+        "rate": 0.9229166666666667
+       },
+       "V2": {
+        "blocked": 579,
+        "n": 600,
+        "rate": 0.965
+       },
+       "V3": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 657,
+        "n": 660,
+        "rate": 0.9954545454545455
+       },
+       "V5": {
+        "blocked": 395,
+        "n": 600,
+        "rate": 0.6583333333333333
+       },
+       "V6": {
+        "blocked": 573,
+        "n": 600,
+        "rate": 0.955
+       },
+       "benign": {
+        "blocked": 2392,
+        "n": 2400,
+        "rate": 0.9966666666666667
+       }
+      },
+      "false_block_rate": 0.9966666666666667,
+      "false_blocks": 2392,
+      "separation": {
+       "V1": {
+        "cert_block": 443,
+        "feas_pass": 43,
+        "n": 480,
+        "separated": 6,
+        "share": 0.0125
+       },
+       "V2": {
+        "cert_block": 579,
+        "feas_pass": 30,
+        "n": 600,
+        "separated": 9,
+        "share": 0.015
+       },
+       "V3": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 657,
+        "feas_pass": 3,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 395,
+        "feas_pass": 324,
+        "n": 600,
+        "separated": 119,
+        "share": 0.19833333333333333
+       },
+       "V6": {
+        "cert_block": 573,
+        "feas_pass": 45,
+        "n": 600,
+        "separated": 18,
+        "share": 0.03
+       },
+       "benign": {
+        "cert_block": 2392,
+        "feas_pass": 17,
+        "n": 2400,
+        "separated": 9,
+        "share": 0.00375
+       }
+      },
+      "tau": 0.02,
+      "terminals": {
+       "applied_with_certificate": 301,
+       "blocked_qual": 161,
+       "blocked_schema": 5538
+      },
+      "warranted": 3608,
+      "warranted_n": 6000,
+      "warranted_share": 0.6013333333333334
+     },
+     "0.05": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 443,
+        "n": 480,
+        "rate": 0.9229166666666667
+       },
+       "V2": {
+        "blocked": 579,
+        "n": 600,
+        "rate": 0.965
+       },
+       "V3": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 657,
+        "n": 660,
+        "rate": 0.9954545454545455
+       },
+       "V5": {
+        "blocked": 353,
+        "n": 600,
+        "rate": 0.5883333333333334
+       },
+       "V6": {
+        "blocked": 567,
+        "n": 600,
+        "rate": 0.945
+       },
+       "benign": {
+        "blocked": 2389,
+        "n": 2400,
+        "rate": 0.9954166666666666
+       }
+      },
+      "false_block_rate": 0.9954166666666666,
+      "false_blocks": 2389,
+      "separation": {
+       "V1": {
+        "cert_block": 443,
+        "feas_pass": 43,
+        "n": 480,
+        "separated": 6,
+        "share": 0.0125
+       },
+       "V2": {
+        "cert_block": 579,
+        "feas_pass": 30,
+        "n": 600,
+        "separated": 9,
+        "share": 0.015
+       },
+       "V3": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 657,
+        "feas_pass": 3,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 353,
+        "feas_pass": 324,
+        "n": 600,
+        "separated": 77,
+        "share": 0.12833333333333333
+       },
+       "V6": {
+        "cert_block": 567,
+        "feas_pass": 45,
+        "n": 600,
+        "separated": 12,
+        "share": 0.02
+       },
+       "benign": {
+        "cert_block": 2389,
+        "feas_pass": 17,
+        "n": 2400,
+        "separated": 6,
+        "share": 0.0025
+       }
+      },
+      "tau": 0.05,
+      "terminals": {
+       "applied_with_certificate": 352,
+       "blocked_qual": 110,
+       "blocked_schema": 5538
+      },
+      "warranted": 3611,
+      "warranted_n": 6000,
+      "warranted_share": 0.6018333333333333
+     },
+     "0.10": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 440,
+        "n": 480,
+        "rate": 0.9166666666666666
+       },
+       "V2": {
+        "blocked": 579,
+        "n": 600,
+        "rate": 0.965
+       },
+       "V3": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 657,
+        "n": 660,
+        "rate": 0.9954545454545455
+       },
+       "V5": {
+        "blocked": 309,
+        "n": 600,
+        "rate": 0.515
+       },
+       "V6": {
+        "blocked": 555,
+        "n": 600,
+        "rate": 0.925
+       },
+       "benign": {
+        "blocked": 2386,
+        "n": 2400,
+        "rate": 0.9941666666666666
+       }
+      },
+      "false_block_rate": 0.9941666666666666,
+      "false_blocks": 2386,
+      "separation": {
+       "V1": {
+        "cert_block": 440,
+        "feas_pass": 43,
+        "n": 480,
+        "separated": 3,
+        "share": 0.00625
+       },
+       "V2": {
+        "cert_block": 579,
+        "feas_pass": 30,
+        "n": 600,
+        "separated": 9,
+        "share": 0.015
+       },
+       "V3": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 657,
+        "feas_pass": 3,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 309,
+        "feas_pass": 324,
+        "n": 600,
+        "separated": 33,
+        "share": 0.055
+       },
+       "V6": {
+        "cert_block": 555,
+        "feas_pass": 45,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "benign": {
+        "cert_block": 2386,
+        "feas_pass": 17,
+        "n": 2400,
+        "separated": 3,
+        "share": 0.00125
+       }
+      },
+      "tau": 0.1,
+      "terminals": {
+       "applied_with_certificate": 414,
+       "blocked_qual": 48,
+       "blocked_schema": 5538
+      },
+      "warranted": 3614,
+      "warranted_n": 6000,
+      "warranted_share": 0.6023333333333334
+     },
+     "0.15": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 440,
+        "n": 480,
+        "rate": 0.9166666666666666
+       },
+       "V2": {
+        "blocked": 573,
+        "n": 600,
+        "rate": 0.955
+       },
+       "V3": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 657,
+        "n": 660,
+        "rate": 0.9954545454545455
+       },
+       "V5": {
+        "blocked": 294,
+        "n": 600,
+        "rate": 0.49
+       },
+       "V6": {
+        "blocked": 555,
+        "n": 600,
+        "rate": 0.925
+       },
+       "benign": {
+        "blocked": 2383,
+        "n": 2400,
+        "rate": 0.9929166666666667
+       }
+      },
+      "false_block_rate": 0.9929166666666667,
+      "false_blocks": 2383,
+      "separation": {
+       "V1": {
+        "cert_block": 440,
+        "feas_pass": 43,
+        "n": 480,
+        "separated": 3,
+        "share": 0.00625
+       },
+       "V2": {
+        "cert_block": 573,
+        "feas_pass": 30,
+        "n": 600,
+        "separated": 3,
+        "share": 0.005
+       },
+       "V3": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 657,
+        "feas_pass": 3,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 294,
+        "feas_pass": 324,
+        "n": 600,
+        "separated": 18,
+        "share": 0.03
+       },
+       "V6": {
+        "cert_block": 555,
+        "feas_pass": 45,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "benign": {
+        "cert_block": 2383,
+        "feas_pass": 17,
+        "n": 2400,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 0.15,
+      "terminals": {
+       "applied_with_certificate": 438,
+       "blocked_qual": 24,
+       "blocked_schema": 5538
+      },
+      "warranted": 3617,
+      "warranted_n": 6000,
+      "warranted_share": 0.6028333333333333
+     },
+     "0.20": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 440,
+        "n": 480,
+        "rate": 0.9166666666666666
+       },
+       "V2": {
+        "blocked": 573,
+        "n": 600,
+        "rate": 0.955
+       },
+       "V3": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 657,
+        "n": 660,
+        "rate": 0.9954545454545455
+       },
+       "V5": {
+        "blocked": 294,
+        "n": 600,
+        "rate": 0.49
+       },
+       "V6": {
+        "blocked": 555,
+        "n": 600,
+        "rate": 0.925
+       },
+       "benign": {
+        "blocked": 2383,
+        "n": 2400,
+        "rate": 0.9929166666666667
+       }
+      },
+      "false_block_rate": 0.9929166666666667,
+      "false_blocks": 2383,
+      "separation": {
+       "V1": {
+        "cert_block": 440,
+        "feas_pass": 43,
+        "n": 480,
+        "separated": 3,
+        "share": 0.00625
+       },
+       "V2": {
+        "cert_block": 573,
+        "feas_pass": 30,
+        "n": 600,
+        "separated": 3,
+        "share": 0.005
+       },
+       "V3": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 657,
+        "feas_pass": 3,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 294,
+        "feas_pass": 324,
+        "n": 600,
+        "separated": 18,
+        "share": 0.03
+       },
+       "V6": {
+        "cert_block": 555,
+        "feas_pass": 45,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "benign": {
+        "cert_block": 2383,
+        "feas_pass": 17,
+        "n": 2400,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 0.2,
+      "terminals": {
+       "applied_with_certificate": 438,
+       "blocked_qual": 24,
+       "blocked_schema": 5538
+      },
+      "warranted": 3617,
+      "warranted_n": 6000,
+      "warranted_share": 0.6028333333333333
+     },
+     "0.30": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 437,
+        "n": 480,
+        "rate": 0.9104166666666667
+       },
+       "V2": {
+        "blocked": 570,
+        "n": 600,
+        "rate": 0.95
+       },
+       "V3": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 657,
+        "n": 660,
+        "rate": 0.9954545454545455
+       },
+       "V5": {
+        "blocked": 276,
+        "n": 600,
+        "rate": 0.46
+       },
+       "V6": {
+        "blocked": 555,
+        "n": 600,
+        "rate": 0.925
+       },
+       "benign": {
+        "blocked": 2383,
+        "n": 2400,
+        "rate": 0.9929166666666667
+       }
+      },
+      "false_block_rate": 0.9929166666666667,
+      "false_blocks": 2383,
+      "separation": {
+       "V1": {
+        "cert_block": 437,
+        "feas_pass": 43,
+        "n": 480,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V2": {
+        "cert_block": 570,
+        "feas_pass": 30,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V3": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 657,
+        "feas_pass": 3,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 276,
+        "feas_pass": 324,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V6": {
+        "cert_block": 555,
+        "feas_pass": 45,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "benign": {
+        "cert_block": 2383,
+        "feas_pass": 17,
+        "n": 2400,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 0.3,
+      "terminals": {
+       "applied_with_certificate": 462,
+       "blocked_schema": 5538
+      },
+      "warranted": 3617,
+      "warranted_n": 6000,
+      "warranted_share": 0.6028333333333333
+     },
+     "0.50": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 437,
+        "n": 480,
+        "rate": 0.9104166666666667
+       },
+       "V2": {
+        "blocked": 570,
+        "n": 600,
+        "rate": 0.95
+       },
+       "V3": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 657,
+        "n": 660,
+        "rate": 0.9954545454545455
+       },
+       "V5": {
+        "blocked": 276,
+        "n": 600,
+        "rate": 0.46
+       },
+       "V6": {
+        "blocked": 555,
+        "n": 600,
+        "rate": 0.925
+       },
+       "benign": {
+        "blocked": 2383,
+        "n": 2400,
+        "rate": 0.9929166666666667
+       }
+      },
+      "false_block_rate": 0.9929166666666667,
+      "false_blocks": 2383,
+      "separation": {
+       "V1": {
+        "cert_block": 437,
+        "feas_pass": 43,
+        "n": 480,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V2": {
+        "cert_block": 570,
+        "feas_pass": 30,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V3": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 657,
+        "feas_pass": 3,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 276,
+        "feas_pass": 324,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V6": {
+        "cert_block": 555,
+        "feas_pass": 45,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "benign": {
+        "cert_block": 2383,
+        "feas_pass": 17,
+        "n": 2400,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 0.5,
+      "terminals": {
+       "applied_with_certificate": 462,
+       "blocked_schema": 5538
+      },
+      "warranted": 3617,
+      "warranted_n": 6000,
+      "warranted_share": 0.6028333333333333
+     },
+     "1.00": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 437,
+        "n": 480,
+        "rate": 0.9104166666666667
+       },
+       "V2": {
+        "blocked": 570,
+        "n": 600,
+        "rate": 0.95
+       },
+       "V3": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 657,
+        "n": 660,
+        "rate": 0.9954545454545455
+       },
+       "V5": {
+        "blocked": 276,
+        "n": 600,
+        "rate": 0.46
+       },
+       "V6": {
+        "blocked": 555,
+        "n": 600,
+        "rate": 0.925
+       },
+       "benign": {
+        "blocked": 2383,
+        "n": 2400,
+        "rate": 0.9929166666666667
+       }
+      },
+      "false_block_rate": 0.9929166666666667,
+      "false_blocks": 2383,
+      "separation": {
+       "V1": {
+        "cert_block": 437,
+        "feas_pass": 43,
+        "n": 480,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V2": {
+        "cert_block": 570,
+        "feas_pass": 30,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V3": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 657,
+        "feas_pass": 3,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 276,
+        "feas_pass": 324,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V6": {
+        "cert_block": 555,
+        "feas_pass": 45,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "benign": {
+        "cert_block": 2383,
+        "feas_pass": 17,
+        "n": 2400,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 1.0,
+      "terminals": {
+       "applied_with_certificate": 462,
+       "blocked_schema": 5538
+      },
+      "warranted": 3617,
+      "warranted_n": 6000,
+      "warranted_share": 0.6028333333333333
+     }
+    },
+    "tau_invariant_uncertified_terminals": {}
+   },
+   "mode": "M_free",
+   "monotonicity": [
+    {
+     "first": 443,
+     "group": "qwen3-14b / M_free / -",
+     "last": 437,
+     "pass": true,
+     "series": "blocks[V1] blocked",
+     "violations": []
+    },
+    {
+     "first": 579,
+     "group": "qwen3-14b / M_free / -",
+     "last": 570,
+     "pass": true,
+     "series": "blocks[V2] blocked",
+     "violations": []
+    },
+    {
+     "first": 660,
+     "group": "qwen3-14b / M_free / -",
+     "last": 660,
+     "pass": true,
+     "series": "blocks[V3] blocked",
+     "violations": []
+    },
+    {
+     "first": 657,
+     "group": "qwen3-14b / M_free / -",
+     "last": 657,
+     "pass": true,
+     "series": "blocks[V4] blocked",
+     "violations": []
+    },
+    {
+     "first": 395,
+     "group": "qwen3-14b / M_free / -",
+     "last": 276,
+     "pass": true,
+     "series": "blocks[V5] blocked",
+     "violations": []
+    },
+    {
+     "first": 573,
+     "group": "qwen3-14b / M_free / -",
+     "last": 555,
+     "pass": true,
+     "series": "blocks[V6] blocked",
+     "violations": []
+    },
+    {
+     "first": 2392,
+     "group": "qwen3-14b / M_free / -",
+     "last": 2383,
+     "pass": true,
+     "series": "blocks[benign] blocked",
+     "violations": []
+    },
+    {
+     "first": 0.9966666666666667,
+     "group": "qwen3-14b / M_free / -",
+     "last": 0.9929166666666667,
+     "pass": true,
+     "series": "benign false-block rate",
+     "violations": []
+    },
+    {
+     "first": 0,
+     "group": "qwen3-14b / M_free / -",
+     "last": 0,
+     "pass": true,
+     "series": "separation[V3] separated",
+     "violations": []
+    },
+    {
+     "first": 0,
+     "group": "qwen3-14b / M_free / -",
+     "last": 0,
+     "pass": true,
+     "series": "separation[V4] separated",
+     "violations": []
+    }
+   ],
+   "operating_points": {
+    "fb_le_1pct": {
+     "false_block_rate_at_largest": null,
+     "false_block_rate_at_smallest": null,
+     "note": "no grid tau meets this budget",
+     "target": 0.01,
+     "tau_largest": null,
+     "tau_smallest": null
+    },
+    "fb_le_5pct": {
+     "false_block_rate_at_largest": null,
+     "false_block_rate_at_smallest": null,
+     "note": "no grid tau meets this budget",
+     "target": 0.05,
+     "tau_largest": null,
+     "tau_smallest": null
+    }
+   },
+   "repeats": [
+    0,
+    1,
+    2
+   ],
+   "source_dir": "/home/ziheng/PaperL1/results/e1_eval_qwen14b",
+   "statement": "Benign false blocks run 99.7% at tau 0.02 to 99.3% at tau 1.00, and 99.3% at tau 0.20. V3 separation runs 0 of 660 items at tau 0.02 to 0 at tau 1.00, and 0 at tau 0.20. V4 separation runs 0 to 0, and is 0 at tau 0.20. The warranted-outcome share peaks at 60.3%, first reached at tau 0.15, and is 60.3% at tau 0.20. No grid tau holds benign false blocks at or below 1%.",
+   "thinking": null
+  },
+  {
+   "anchor": [
+    {
+     "check": "rows",
+     "expected": 6000,
+     "got": 6000,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "rows whose recomputed terminal differs from the recorded verdict",
+     "expected": 0,
+     "got": 0,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "G_CERT terminal counts",
+     "expected": {
+      "applied_with_certificate": 4493,
+      "blocked_feas": 474,
+      "blocked_qual": 706,
+      "blocked_schema": 327
+     },
+     "got": {
+      "applied_with_certificate": 4493,
+      "blocked_feas": 474,
+      "blocked_qual": 706,
+      "blocked_schema": 327
+     },
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V1] items",
+     "expected": 480,
+     "got": 480,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V1] blocked",
+     "expected": 333,
+     "got": 333,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V1] rate",
+     "expected": 0.69375,
+     "got": 0.69375,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] n",
+     "expected": 480,
+     "got": 480,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] feas_pass",
+     "expected": 150,
+     "got": 150,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] cert_block",
+     "expected": 333,
+     "got": 333,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] separated",
+     "expected": 3,
+     "got": 3,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] share",
+     "expected": 0.00625,
+     "got": 0.00625,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V2] items",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V2] blocked",
+     "expected": 393,
+     "got": 393,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V2] rate",
+     "expected": 0.655,
+     "got": 0.655,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] n",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] feas_pass",
+     "expected": 216,
+     "got": 216,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] cert_block",
+     "expected": 393,
+     "got": 393,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] separated",
+     "expected": 9,
+     "got": 9,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] share",
+     "expected": 0.015,
+     "got": 0.015,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V3] items",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V3] blocked",
+     "expected": 577,
+     "got": 577,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V3] rate",
+     "expected": 0.8742424242424243,
+     "got": 0.8742424242424243,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] n",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] feas_pass",
+     "expected": 657,
+     "got": 657,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] cert_block",
+     "expected": 577,
+     "got": 577,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] separated",
+     "expected": 574,
+     "got": 574,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] share",
+     "expected": 0.8696969696969697,
+     "got": 0.8696969696969697,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V4] items",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V4] blocked",
+     "expected": 18,
+     "got": 18,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V4] rate",
+     "expected": 0.02727272727272727,
+     "got": 0.02727272727272727,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] n",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] feas_pass",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] cert_block",
+     "expected": 18,
+     "got": 18,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] separated",
+     "expected": 18,
+     "got": 18,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] share",
+     "expected": 0.02727272727272727,
+     "got": 0.02727272727272727,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V5] items",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V5] blocked",
+     "expected": 24,
+     "got": 24,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V5] rate",
+     "expected": 0.04,
+     "got": 0.04,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] n",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] feas_pass",
+     "expected": 597,
+     "got": 597,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] cert_block",
+     "expected": 24,
+     "got": 24,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] separated",
+     "expected": 21,
+     "got": 21,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] share",
+     "expected": 0.035,
+     "got": 0.035,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V6] items",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V6] blocked",
+     "expected": 30,
+     "got": 30,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V6] rate",
+     "expected": 0.05,
+     "got": 0.05,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] n",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] feas_pass",
+     "expected": 588,
+     "got": 588,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] cert_block",
+     "expected": 30,
+     "got": 30,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] separated",
+     "expected": 18,
+     "got": 18,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] share",
+     "expected": 0.03,
+     "got": 0.03,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[benign] items",
+     "expected": 2400,
+     "got": 2400,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[benign] blocked",
+     "expected": 132,
+     "got": 132,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[benign] rate",
+     "expected": 0.055,
+     "got": 0.055,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] n",
+     "expected": 2400,
+     "got": 2400,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] feas_pass",
+     "expected": 2331,
+     "got": 2331,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] cert_block",
+     "expected": 132,
+     "got": 132,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] separated",
+     "expected": 63,
+     "got": 63,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] share",
+     "expected": 0.02625,
+     "got": 0.02625,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    },
+    {
+     "check": "warranted outcomes (certified applications + blocked violations)",
+     "expected": 5868,
+     "got": 5868,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "pass": true
+    }
+   ],
+   "arm": "qwen3.6-27b-fp8",
+   "curve": {
+    "anchor_row_mismatches": 0,
+    "classes": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "benign"
+    ],
+    "infra_cert": 0,
+    "infra_feas": 0,
+    "n_eligible_both": 6000,
+    "n_eligible_cert": 6000,
+    "n_rows": 6000,
+    "n_tau_invariant_uncertified": 0,
+    "points": {
+     "0.02": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 356,
+        "n": 480,
+        "rate": 0.7416666666666667
+       },
+       "V2": {
+        "blocked": 456,
+        "n": 600,
+        "rate": 0.76
+       },
+       "V3": {
+        "blocked": 643,
+        "n": 660,
+        "rate": 0.9742424242424242
+       },
+       "V4": {
+        "blocked": 216,
+        "n": 660,
+        "rate": 0.32727272727272727
+       },
+       "V5": {
+        "blocked": 227,
+        "n": 600,
+        "rate": 0.37833333333333335
+       },
+       "V6": {
+        "blocked": 236,
+        "n": 600,
+        "rate": 0.3933333333333333
+       },
+       "benign": {
+        "blocked": 839,
+        "n": 2400,
+        "rate": 0.34958333333333336
+       }
+      },
+      "false_block_rate": 0.34958333333333336,
+      "false_blocks": 839,
+      "separation": {
+       "V1": {
+        "cert_block": 356,
+        "feas_pass": 150,
+        "n": 480,
+        "separated": 26,
+        "share": 0.05416666666666667
+       },
+       "V2": {
+        "cert_block": 456,
+        "feas_pass": 216,
+        "n": 600,
+        "separated": 72,
+        "share": 0.12
+       },
+       "V3": {
+        "cert_block": 643,
+        "feas_pass": 657,
+        "n": 660,
+        "separated": 640,
+        "share": 0.9696969696969697
+       },
+       "V4": {
+        "cert_block": 216,
+        "feas_pass": 660,
+        "n": 660,
+        "separated": 216,
+        "share": 0.32727272727272727
+       },
+       "V5": {
+        "cert_block": 227,
+        "feas_pass": 597,
+        "n": 600,
+        "separated": 224,
+        "share": 0.37333333333333335
+       },
+       "V6": {
+        "cert_block": 236,
+        "feas_pass": 588,
+        "n": 600,
+        "separated": 224,
+        "share": 0.37333333333333335
+       },
+       "benign": {
+        "cert_block": 839,
+        "feas_pass": 2331,
+        "n": 2400,
+        "separated": 770,
+        "share": 0.32083333333333336
+       }
+      },
+      "tau": 0.02,
+      "terminals": {
+       "applied_with_certificate": 3027,
+       "blocked_feas": 474,
+       "blocked_qual": 2172,
+       "blocked_schema": 327
+      },
+      "warranted": 5161,
+      "warranted_n": 6000,
+      "warranted_share": 0.8601666666666666
+     },
+     "0.05": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 344,
+        "n": 480,
+        "rate": 0.7166666666666667
+       },
+       "V2": {
+        "blocked": 433,
+        "n": 600,
+        "rate": 0.7216666666666667
+       },
+       "V3": {
+        "blocked": 634,
+        "n": 660,
+        "rate": 0.9606060606060606
+       },
+       "V4": {
+        "blocked": 126,
+        "n": 660,
+        "rate": 0.19090909090909092
+       },
+       "V5": {
+        "blocked": 128,
+        "n": 600,
+        "rate": 0.21333333333333335
+       },
+       "V6": {
+        "blocked": 147,
+        "n": 600,
+        "rate": 0.245
+       },
+       "benign": {
+        "blocked": 497,
+        "n": 2400,
+        "rate": 0.20708333333333334
+       }
+      },
+      "false_block_rate": 0.20708333333333334,
+      "false_blocks": 497,
+      "separation": {
+       "V1": {
+        "cert_block": 344,
+        "feas_pass": 150,
+        "n": 480,
+        "separated": 14,
+        "share": 0.029166666666666667
+       },
+       "V2": {
+        "cert_block": 433,
+        "feas_pass": 216,
+        "n": 600,
+        "separated": 49,
+        "share": 0.08166666666666667
+       },
+       "V3": {
+        "cert_block": 634,
+        "feas_pass": 657,
+        "n": 660,
+        "separated": 631,
+        "share": 0.956060606060606
+       },
+       "V4": {
+        "cert_block": 126,
+        "feas_pass": 660,
+        "n": 660,
+        "separated": 126,
+        "share": 0.19090909090909092
+       },
+       "V5": {
+        "cert_block": 128,
+        "feas_pass": 597,
+        "n": 600,
+        "separated": 125,
+        "share": 0.20833333333333334
+       },
+       "V6": {
+        "cert_block": 147,
+        "feas_pass": 588,
+        "n": 600,
+        "separated": 135,
+        "share": 0.225
+       },
+       "benign": {
+        "cert_block": 497,
+        "feas_pass": 2331,
+        "n": 2400,
+        "separated": 428,
+        "share": 0.17833333333333334
+       }
+      },
+      "tau": 0.05,
+      "terminals": {
+       "applied_with_certificate": 3691,
+       "blocked_feas": 474,
+       "blocked_qual": 1508,
+       "blocked_schema": 327
+      },
+      "warranted": 5503,
+      "warranted_n": 6000,
+      "warranted_share": 0.9171666666666667
+     },
+     "0.10": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 339,
+        "n": 480,
+        "rate": 0.70625
+       },
+       "V2": {
+        "blocked": 402,
+        "n": 600,
+        "rate": 0.67
+       },
+       "V3": {
+        "blocked": 604,
+        "n": 660,
+        "rate": 0.9151515151515152
+       },
+       "V4": {
+        "blocked": 45,
+        "n": 660,
+        "rate": 0.06818181818181818
+       },
+       "V5": {
+        "blocked": 54,
+        "n": 600,
+        "rate": 0.09
+       },
+       "V6": {
+        "blocked": 66,
+        "n": 600,
+        "rate": 0.11
+       },
+       "benign": {
+        "blocked": 243,
+        "n": 2400,
+        "rate": 0.10125
+       }
+      },
+      "false_block_rate": 0.10125,
+      "false_blocks": 243,
+      "separation": {
+       "V1": {
+        "cert_block": 339,
+        "feas_pass": 150,
+        "n": 480,
+        "separated": 9,
+        "share": 0.01875
+       },
+       "V2": {
+        "cert_block": 402,
+        "feas_pass": 216,
+        "n": 600,
+        "separated": 18,
+        "share": 0.03
+       },
+       "V3": {
+        "cert_block": 604,
+        "feas_pass": 657,
+        "n": 660,
+        "separated": 601,
+        "share": 0.9106060606060606
+       },
+       "V4": {
+        "cert_block": 45,
+        "feas_pass": 660,
+        "n": 660,
+        "separated": 45,
+        "share": 0.06818181818181818
+       },
+       "V5": {
+        "cert_block": 54,
+        "feas_pass": 597,
+        "n": 600,
+        "separated": 51,
+        "share": 0.085
+       },
+       "V6": {
+        "cert_block": 66,
+        "feas_pass": 588,
+        "n": 600,
+        "separated": 54,
+        "share": 0.09
+       },
+       "benign": {
+        "cert_block": 243,
+        "feas_pass": 2331,
+        "n": 2400,
+        "separated": 174,
+        "share": 0.0725
+       }
+      },
+      "tau": 0.1,
+      "terminals": {
+       "applied_with_certificate": 4247,
+       "blocked_feas": 474,
+       "blocked_qual": 952,
+       "blocked_schema": 327
+      },
+      "warranted": 5757,
+      "warranted_n": 6000,
+      "warranted_share": 0.9595
+     },
+     "0.15": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 333,
+        "n": 480,
+        "rate": 0.69375
+       },
+       "V2": {
+        "blocked": 393,
+        "n": 600,
+        "rate": 0.655
+       },
+       "V3": {
+        "blocked": 598,
+        "n": 660,
+        "rate": 0.906060606060606
+       },
+       "V4": {
+        "blocked": 18,
+        "n": 660,
+        "rate": 0.02727272727272727
+       },
+       "V5": {
+        "blocked": 24,
+        "n": 600,
+        "rate": 0.04
+       },
+       "V6": {
+        "blocked": 33,
+        "n": 600,
+        "rate": 0.055
+       },
+       "benign": {
+        "blocked": 135,
+        "n": 2400,
+        "rate": 0.05625
+       }
+      },
+      "false_block_rate": 0.05625,
+      "false_blocks": 135,
+      "separation": {
+       "V1": {
+        "cert_block": 333,
+        "feas_pass": 150,
+        "n": 480,
+        "separated": 3,
+        "share": 0.00625
+       },
+       "V2": {
+        "cert_block": 393,
+        "feas_pass": 216,
+        "n": 600,
+        "separated": 9,
+        "share": 0.015
+       },
+       "V3": {
+        "cert_block": 598,
+        "feas_pass": 657,
+        "n": 660,
+        "separated": 595,
+        "share": 0.9015151515151515
+       },
+       "V4": {
+        "cert_block": 18,
+        "feas_pass": 660,
+        "n": 660,
+        "separated": 18,
+        "share": 0.02727272727272727
+       },
+       "V5": {
+        "cert_block": 24,
+        "feas_pass": 597,
+        "n": 600,
+        "separated": 21,
+        "share": 0.035
+       },
+       "V6": {
+        "cert_block": 33,
+        "feas_pass": 588,
+        "n": 600,
+        "separated": 21,
+        "share": 0.035
+       },
+       "benign": {
+        "cert_block": 135,
+        "feas_pass": 2331,
+        "n": 2400,
+        "separated": 66,
+        "share": 0.0275
+       }
+      },
+      "tau": 0.15,
+      "terminals": {
+       "applied_with_certificate": 4466,
+       "blocked_feas": 474,
+       "blocked_qual": 733,
+       "blocked_schema": 327
+      },
+      "warranted": 5865,
+      "warranted_n": 6000,
+      "warranted_share": 0.9775
+     },
+     "0.20": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 333,
+        "n": 480,
+        "rate": 0.69375
+       },
+       "V2": {
+        "blocked": 393,
+        "n": 600,
+        "rate": 0.655
+       },
+       "V3": {
+        "blocked": 577,
+        "n": 660,
+        "rate": 0.8742424242424243
+       },
+       "V4": {
+        "blocked": 18,
+        "n": 660,
+        "rate": 0.02727272727272727
+       },
+       "V5": {
+        "blocked": 24,
+        "n": 600,
+        "rate": 0.04
+       },
+       "V6": {
+        "blocked": 30,
+        "n": 600,
+        "rate": 0.05
+       },
+       "benign": {
+        "blocked": 132,
+        "n": 2400,
+        "rate": 0.055
+       }
+      },
+      "false_block_rate": 0.055,
+      "false_blocks": 132,
+      "separation": {
+       "V1": {
+        "cert_block": 333,
+        "feas_pass": 150,
+        "n": 480,
+        "separated": 3,
+        "share": 0.00625
+       },
+       "V2": {
+        "cert_block": 393,
+        "feas_pass": 216,
+        "n": 600,
+        "separated": 9,
+        "share": 0.015
+       },
+       "V3": {
+        "cert_block": 577,
+        "feas_pass": 657,
+        "n": 660,
+        "separated": 574,
+        "share": 0.8696969696969697
+       },
+       "V4": {
+        "cert_block": 18,
+        "feas_pass": 660,
+        "n": 660,
+        "separated": 18,
+        "share": 0.02727272727272727
+       },
+       "V5": {
+        "cert_block": 24,
+        "feas_pass": 597,
+        "n": 600,
+        "separated": 21,
+        "share": 0.035
+       },
+       "V6": {
+        "cert_block": 30,
+        "feas_pass": 588,
+        "n": 600,
+        "separated": 18,
+        "share": 0.03
+       },
+       "benign": {
+        "cert_block": 132,
+        "feas_pass": 2331,
+        "n": 2400,
+        "separated": 63,
+        "share": 0.02625
+       }
+      },
+      "tau": 0.2,
+      "terminals": {
+       "applied_with_certificate": 4493,
+       "blocked_feas": 474,
+       "blocked_qual": 706,
+       "blocked_schema": 327
+      },
+      "warranted": 5868,
+      "warranted_n": 6000,
+      "warranted_share": 0.978
+     },
+     "0.30": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 330,
+        "n": 480,
+        "rate": 0.6875
+       },
+       "V2": {
+        "blocked": 384,
+        "n": 600,
+        "rate": 0.64
+       },
+       "V3": {
+        "blocked": 508,
+        "n": 660,
+        "rate": 0.7696969696969697
+       },
+       "V4": {
+        "blocked": 0,
+        "n": 660,
+        "rate": 0.0
+       },
+       "V5": {
+        "blocked": 3,
+        "n": 600,
+        "rate": 0.005
+       },
+       "V6": {
+        "blocked": 12,
+        "n": 600,
+        "rate": 0.02
+       },
+       "benign": {
+        "blocked": 69,
+        "n": 2400,
+        "rate": 0.02875
+       }
+      },
+      "false_block_rate": 0.02875,
+      "false_blocks": 69,
+      "separation": {
+       "V1": {
+        "cert_block": 330,
+        "feas_pass": 150,
+        "n": 480,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V2": {
+        "cert_block": 384,
+        "feas_pass": 216,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V3": {
+        "cert_block": 508,
+        "feas_pass": 657,
+        "n": 660,
+        "separated": 505,
+        "share": 0.7651515151515151
+       },
+       "V4": {
+        "cert_block": 0,
+        "feas_pass": 660,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 3,
+        "feas_pass": 597,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V6": {
+        "cert_block": 12,
+        "feas_pass": 588,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "benign": {
+        "cert_block": 69,
+        "feas_pass": 2331,
+        "n": 2400,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 0.3,
+      "terminals": {
+       "applied_with_certificate": 4694,
+       "blocked_feas": 474,
+       "blocked_qual": 505,
+       "blocked_schema": 327
+      },
+      "warranted": 5931,
+      "warranted_n": 6000,
+      "warranted_share": 0.9885
+     },
+     "0.50": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 330,
+        "n": 480,
+        "rate": 0.6875
+       },
+       "V2": {
+        "blocked": 384,
+        "n": 600,
+        "rate": 0.64
+       },
+       "V3": {
+        "blocked": 381,
+        "n": 660,
+        "rate": 0.5772727272727273
+       },
+       "V4": {
+        "blocked": 0,
+        "n": 660,
+        "rate": 0.0
+       },
+       "V5": {
+        "blocked": 3,
+        "n": 600,
+        "rate": 0.005
+       },
+       "V6": {
+        "blocked": 12,
+        "n": 600,
+        "rate": 0.02
+       },
+       "benign": {
+        "blocked": 69,
+        "n": 2400,
+        "rate": 0.02875
+       }
+      },
+      "false_block_rate": 0.02875,
+      "false_blocks": 69,
+      "separation": {
+       "V1": {
+        "cert_block": 330,
+        "feas_pass": 150,
+        "n": 480,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V2": {
+        "cert_block": 384,
+        "feas_pass": 216,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V3": {
+        "cert_block": 381,
+        "feas_pass": 657,
+        "n": 660,
+        "separated": 378,
+        "share": 0.5727272727272728
+       },
+       "V4": {
+        "cert_block": 0,
+        "feas_pass": 660,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 3,
+        "feas_pass": 597,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V6": {
+        "cert_block": 12,
+        "feas_pass": 588,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "benign": {
+        "cert_block": 69,
+        "feas_pass": 2331,
+        "n": 2400,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 0.5,
+      "terminals": {
+       "applied_with_certificate": 4821,
+       "blocked_feas": 474,
+       "blocked_qual": 378,
+       "blocked_schema": 327
+      },
+      "warranted": 5931,
+      "warranted_n": 6000,
+      "warranted_share": 0.9885
+     },
+     "1.00": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 330,
+        "n": 480,
+        "rate": 0.6875
+       },
+       "V2": {
+        "blocked": 384,
+        "n": 600,
+        "rate": 0.64
+       },
+       "V3": {
+        "blocked": 177,
+        "n": 660,
+        "rate": 0.2681818181818182
+       },
+       "V4": {
+        "blocked": 0,
+        "n": 660,
+        "rate": 0.0
+       },
+       "V5": {
+        "blocked": 3,
+        "n": 600,
+        "rate": 0.005
+       },
+       "V6": {
+        "blocked": 12,
+        "n": 600,
+        "rate": 0.02
+       },
+       "benign": {
+        "blocked": 69,
+        "n": 2400,
+        "rate": 0.02875
+       }
+      },
+      "false_block_rate": 0.02875,
+      "false_blocks": 69,
+      "separation": {
+       "V1": {
+        "cert_block": 330,
+        "feas_pass": 150,
+        "n": 480,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V2": {
+        "cert_block": 384,
+        "feas_pass": 216,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V3": {
+        "cert_block": 177,
+        "feas_pass": 657,
+        "n": 660,
+        "separated": 174,
+        "share": 0.2636363636363636
+       },
+       "V4": {
+        "cert_block": 0,
+        "feas_pass": 660,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 3,
+        "feas_pass": 597,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V6": {
+        "cert_block": 12,
+        "feas_pass": 588,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "benign": {
+        "cert_block": 69,
+        "feas_pass": 2331,
+        "n": 2400,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 1.0,
+      "terminals": {
+       "applied_with_certificate": 5025,
+       "blocked_feas": 474,
+       "blocked_qual": 174,
+       "blocked_schema": 327
+      },
+      "warranted": 5931,
+      "warranted_n": 6000,
+      "warranted_share": 0.9885
+     }
+    },
+    "tau_invariant_uncertified_terminals": {}
+   },
+   "mode": "M_constrained",
+   "monotonicity": [
+    {
+     "first": 356,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "last": 330,
+     "pass": true,
+     "series": "blocks[V1] blocked",
+     "violations": []
+    },
+    {
+     "first": 456,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "last": 384,
+     "pass": true,
+     "series": "blocks[V2] blocked",
+     "violations": []
+    },
+    {
+     "first": 643,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "last": 177,
+     "pass": true,
+     "series": "blocks[V3] blocked",
+     "violations": []
+    },
+    {
+     "first": 216,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "last": 0,
+     "pass": true,
+     "series": "blocks[V4] blocked",
+     "violations": []
+    },
+    {
+     "first": 227,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "last": 3,
+     "pass": true,
+     "series": "blocks[V5] blocked",
+     "violations": []
+    },
+    {
+     "first": 236,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "last": 12,
+     "pass": true,
+     "series": "blocks[V6] blocked",
+     "violations": []
+    },
+    {
+     "first": 839,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "last": 69,
+     "pass": true,
+     "series": "blocks[benign] blocked",
+     "violations": []
+    },
+    {
+     "first": 0.34958333333333336,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "last": 0.02875,
+     "pass": true,
+     "series": "benign false-block rate",
+     "violations": []
+    },
+    {
+     "first": 640,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "last": 174,
+     "pass": true,
+     "series": "separation[V3] separated",
+     "violations": []
+    },
+    {
+     "first": 216,
+     "group": "qwen3.6-27b-fp8 / M_constrained / -",
+     "last": 0,
+     "pass": true,
+     "series": "separation[V4] separated",
+     "violations": []
+    }
+   ],
+   "operating_points": {
+    "fb_le_1pct": {
+     "false_block_rate_at_largest": null,
+     "false_block_rate_at_smallest": null,
+     "note": "no grid tau meets this budget",
+     "target": 0.01,
+     "tau_largest": null,
+     "tau_smallest": null
+    },
+    "fb_le_5pct": {
+     "false_block_rate_at_largest": 0.02875,
+     "false_block_rate_at_smallest": 0.02875,
+     "note": null,
+     "target": 0.05,
+     "tau_largest": 1.0,
+     "tau_smallest": 0.3
+    }
+   },
+   "repeats": [
+    0,
+    1,
+    2
+   ],
+   "source_dir": "/home/ziheng/PaperL1/results/e1_eval_qwen27b",
+   "statement": "Benign false blocks run 35.0% at tau 0.02 to 2.9% at tau 1.00, and 5.5% at tau 0.20. V3 separation runs 640 of 660 items at tau 0.02 to 174 at tau 1.00, and 574 at tau 0.20. V4 separation runs 216 to 0, and is 18 at tau 0.20. The warranted-outcome share peaks at 98.9%, first reached at tau 0.30, and is 97.8% at tau 0.20. No grid tau holds benign false blocks at or below 1%.",
+   "thinking": null
+  },
+  {
+   "anchor": [
+    {
+     "check": "rows",
+     "expected": 6000,
+     "got": 6000,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "rows whose recomputed terminal differs from the recorded verdict",
+     "expected": 0,
+     "got": 0,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "G_CERT terminal counts",
+     "expected": {
+      "applied_with_certificate": 621,
+      "blocked_qual": 21,
+      "blocked_schema": 5358
+     },
+     "got": {
+      "applied_with_certificate": 621,
+      "blocked_qual": 21,
+      "blocked_schema": 5358
+     },
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V1] items",
+     "expected": 480,
+     "got": 480,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V1] blocked",
+     "expected": 393,
+     "got": 393,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V1] rate",
+     "expected": 0.81875,
+     "got": 0.81875,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] n",
+     "expected": 480,
+     "got": 480,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] feas_pass",
+     "expected": 90,
+     "got": 90,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] cert_block",
+     "expected": 393,
+     "got": 393,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] separated",
+     "expected": 3,
+     "got": 3,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V1] share",
+     "expected": 0.00625,
+     "got": 0.00625,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V2] items",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V2] blocked",
+     "expected": 498,
+     "got": 498,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V2] rate",
+     "expected": 0.83,
+     "got": 0.83,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] n",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] feas_pass",
+     "expected": 105,
+     "got": 105,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] cert_block",
+     "expected": 498,
+     "got": 498,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] separated",
+     "expected": 3,
+     "got": 3,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V2] share",
+     "expected": 0.005,
+     "got": 0.005,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V3] items",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V3] blocked",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V3] rate",
+     "expected": 1.0,
+     "got": 1.0,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] n",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] feas_pass",
+     "expected": 0,
+     "got": 0,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] cert_block",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] separated",
+     "expected": 0,
+     "got": 0,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V3] share",
+     "expected": 0.0,
+     "got": 0.0,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V4] items",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V4] blocked",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V4] rate",
+     "expected": 1.0,
+     "got": 1.0,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] n",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] feas_pass",
+     "expected": 0,
+     "got": 0,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] cert_block",
+     "expected": 660,
+     "got": 660,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] separated",
+     "expected": 0,
+     "got": 0,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V4] share",
+     "expected": 0.0,
+     "got": 0.0,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V5] items",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V5] blocked",
+     "expected": 225,
+     "got": 225,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V5] rate",
+     "expected": 0.375,
+     "got": 0.375,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] n",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] feas_pass",
+     "expected": 390,
+     "got": 390,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] cert_block",
+     "expected": 225,
+     "got": 225,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] separated",
+     "expected": 15,
+     "got": 15,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V5] share",
+     "expected": 0.025,
+     "got": 0.025,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V6] items",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V6] blocked",
+     "expected": 543,
+     "got": 543,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[V6] rate",
+     "expected": 0.905,
+     "got": 0.905,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] n",
+     "expected": 600,
+     "got": 600,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] feas_pass",
+     "expected": 57,
+     "got": 57,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] cert_block",
+     "expected": 543,
+     "got": 543,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] separated",
+     "expected": 0,
+     "got": 0,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[V6] share",
+     "expected": 0.0,
+     "got": 0.0,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[benign] items",
+     "expected": 2400,
+     "got": 2400,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[benign] blocked",
+     "expected": 2400,
+     "got": 2400,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "blocks[benign] rate",
+     "expected": 1.0,
+     "got": 1.0,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] n",
+     "expected": 2400,
+     "got": 2400,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] feas_pass",
+     "expected": 0,
+     "got": 0,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] cert_block",
+     "expected": 2400,
+     "got": 2400,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] separated",
+     "expected": 0,
+     "got": 0,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "separation[benign] share",
+     "expected": 0.0,
+     "got": 0.0,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    },
+    {
+     "check": "warranted outcomes (certified applications + blocked violations)",
+     "expected": 3600,
+     "got": 3600,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "pass": true
+    }
+   ],
+   "arm": "qwen3.6-27b-fp8",
+   "curve": {
+    "anchor_row_mismatches": 0,
+    "classes": [
+     "V1",
+     "V2",
+     "V3",
+     "V4",
+     "V5",
+     "V6",
+     "benign"
+    ],
+    "infra_cert": 0,
+    "infra_feas": 0,
+    "n_eligible_both": 6000,
+    "n_eligible_cert": 6000,
+    "n_rows": 6000,
+    "n_tau_invariant_uncertified": 0,
+    "points": {
+     "0.02": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 408,
+        "n": 480,
+        "rate": 0.85
+       },
+       "V2": {
+        "blocked": 531,
+        "n": 600,
+        "rate": 0.885
+       },
+       "V3": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V5": {
+        "blocked": 360,
+        "n": 600,
+        "rate": 0.6
+       },
+       "V6": {
+        "blocked": 561,
+        "n": 600,
+        "rate": 0.935
+       },
+       "benign": {
+        "blocked": 2400,
+        "n": 2400,
+        "rate": 1.0
+       }
+      },
+      "false_block_rate": 1.0,
+      "false_blocks": 2400,
+      "separation": {
+       "V1": {
+        "cert_block": 408,
+        "feas_pass": 90,
+        "n": 480,
+        "separated": 18,
+        "share": 0.0375
+       },
+       "V2": {
+        "cert_block": 531,
+        "feas_pass": 105,
+        "n": 600,
+        "separated": 36,
+        "share": 0.06
+       },
+       "V3": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 360,
+        "feas_pass": 390,
+        "n": 600,
+        "separated": 150,
+        "share": 0.25
+       },
+       "V6": {
+        "cert_block": 561,
+        "feas_pass": 57,
+        "n": 600,
+        "separated": 18,
+        "share": 0.03
+       },
+       "benign": {
+        "cert_block": 2400,
+        "feas_pass": 0,
+        "n": 2400,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 0.02,
+      "terminals": {
+       "applied_with_certificate": 420,
+       "blocked_qual": 222,
+       "blocked_schema": 5358
+      },
+      "warranted": 3600,
+      "warranted_n": 6000,
+      "warranted_share": 0.6
+     },
+     "0.05": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 399,
+        "n": 480,
+        "rate": 0.83125
+       },
+       "V2": {
+        "blocked": 513,
+        "n": 600,
+        "rate": 0.855
+       },
+       "V3": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V5": {
+        "blocked": 297,
+        "n": 600,
+        "rate": 0.495
+       },
+       "V6": {
+        "blocked": 549,
+        "n": 600,
+        "rate": 0.915
+       },
+       "benign": {
+        "blocked": 2400,
+        "n": 2400,
+        "rate": 1.0
+       }
+      },
+      "false_block_rate": 1.0,
+      "false_blocks": 2400,
+      "separation": {
+       "V1": {
+        "cert_block": 399,
+        "feas_pass": 90,
+        "n": 480,
+        "separated": 9,
+        "share": 0.01875
+       },
+       "V2": {
+        "cert_block": 513,
+        "feas_pass": 105,
+        "n": 600,
+        "separated": 18,
+        "share": 0.03
+       },
+       "V3": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 297,
+        "feas_pass": 390,
+        "n": 600,
+        "separated": 87,
+        "share": 0.145
+       },
+       "V6": {
+        "cert_block": 549,
+        "feas_pass": 57,
+        "n": 600,
+        "separated": 6,
+        "share": 0.01
+       },
+       "benign": {
+        "cert_block": 2400,
+        "feas_pass": 0,
+        "n": 2400,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 0.05,
+      "terminals": {
+       "applied_with_certificate": 522,
+       "blocked_qual": 120,
+       "blocked_schema": 5358
+      },
+      "warranted": 3600,
+      "warranted_n": 6000,
+      "warranted_share": 0.6
+     },
+     "0.10": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 399,
+        "n": 480,
+        "rate": 0.83125
+       },
+       "V2": {
+        "blocked": 504,
+        "n": 600,
+        "rate": 0.84
+       },
+       "V3": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V5": {
+        "blocked": 246,
+        "n": 600,
+        "rate": 0.41
+       },
+       "V6": {
+        "blocked": 543,
+        "n": 600,
+        "rate": 0.905
+       },
+       "benign": {
+        "blocked": 2400,
+        "n": 2400,
+        "rate": 1.0
+       }
+      },
+      "false_block_rate": 1.0,
+      "false_blocks": 2400,
+      "separation": {
+       "V1": {
+        "cert_block": 399,
+        "feas_pass": 90,
+        "n": 480,
+        "separated": 9,
+        "share": 0.01875
+       },
+       "V2": {
+        "cert_block": 504,
+        "feas_pass": 105,
+        "n": 600,
+        "separated": 9,
+        "share": 0.015
+       },
+       "V3": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 246,
+        "feas_pass": 390,
+        "n": 600,
+        "separated": 36,
+        "share": 0.06
+       },
+       "V6": {
+        "cert_block": 543,
+        "feas_pass": 57,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "benign": {
+        "cert_block": 2400,
+        "feas_pass": 0,
+        "n": 2400,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 0.1,
+      "terminals": {
+       "applied_with_certificate": 588,
+       "blocked_qual": 54,
+       "blocked_schema": 5358
+      },
+      "warranted": 3600,
+      "warranted_n": 6000,
+      "warranted_share": 0.6
+     },
+     "0.15": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 393,
+        "n": 480,
+        "rate": 0.81875
+       },
+       "V2": {
+        "blocked": 498,
+        "n": 600,
+        "rate": 0.83
+       },
+       "V3": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V5": {
+        "blocked": 225,
+        "n": 600,
+        "rate": 0.375
+       },
+       "V6": {
+        "blocked": 543,
+        "n": 600,
+        "rate": 0.905
+       },
+       "benign": {
+        "blocked": 2400,
+        "n": 2400,
+        "rate": 1.0
+       }
+      },
+      "false_block_rate": 1.0,
+      "false_blocks": 2400,
+      "separation": {
+       "V1": {
+        "cert_block": 393,
+        "feas_pass": 90,
+        "n": 480,
+        "separated": 3,
+        "share": 0.00625
+       },
+       "V2": {
+        "cert_block": 498,
+        "feas_pass": 105,
+        "n": 600,
+        "separated": 3,
+        "share": 0.005
+       },
+       "V3": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 225,
+        "feas_pass": 390,
+        "n": 600,
+        "separated": 15,
+        "share": 0.025
+       },
+       "V6": {
+        "cert_block": 543,
+        "feas_pass": 57,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "benign": {
+        "cert_block": 2400,
+        "feas_pass": 0,
+        "n": 2400,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 0.15,
+      "terminals": {
+       "applied_with_certificate": 621,
+       "blocked_qual": 21,
+       "blocked_schema": 5358
+      },
+      "warranted": 3600,
+      "warranted_n": 6000,
+      "warranted_share": 0.6
+     },
+     "0.20": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 393,
+        "n": 480,
+        "rate": 0.81875
+       },
+       "V2": {
+        "blocked": 498,
+        "n": 600,
+        "rate": 0.83
+       },
+       "V3": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V5": {
+        "blocked": 225,
+        "n": 600,
+        "rate": 0.375
+       },
+       "V6": {
+        "blocked": 543,
+        "n": 600,
+        "rate": 0.905
+       },
+       "benign": {
+        "blocked": 2400,
+        "n": 2400,
+        "rate": 1.0
+       }
+      },
+      "false_block_rate": 1.0,
+      "false_blocks": 2400,
+      "separation": {
+       "V1": {
+        "cert_block": 393,
+        "feas_pass": 90,
+        "n": 480,
+        "separated": 3,
+        "share": 0.00625
+       },
+       "V2": {
+        "cert_block": 498,
+        "feas_pass": 105,
+        "n": 600,
+        "separated": 3,
+        "share": 0.005
+       },
+       "V3": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 225,
+        "feas_pass": 390,
+        "n": 600,
+        "separated": 15,
+        "share": 0.025
+       },
+       "V6": {
+        "cert_block": 543,
+        "feas_pass": 57,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "benign": {
+        "cert_block": 2400,
+        "feas_pass": 0,
+        "n": 2400,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 0.2,
+      "terminals": {
+       "applied_with_certificate": 621,
+       "blocked_qual": 21,
+       "blocked_schema": 5358
+      },
+      "warranted": 3600,
+      "warranted_n": 6000,
+      "warranted_share": 0.6
+     },
+     "0.30": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 390,
+        "n": 480,
+        "rate": 0.8125
+       },
+       "V2": {
+        "blocked": 495,
+        "n": 600,
+        "rate": 0.825
+       },
+       "V3": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V5": {
+        "blocked": 210,
+        "n": 600,
+        "rate": 0.35
+       },
+       "V6": {
+        "blocked": 543,
+        "n": 600,
+        "rate": 0.905
+       },
+       "benign": {
+        "blocked": 2400,
+        "n": 2400,
+        "rate": 1.0
+       }
+      },
+      "false_block_rate": 1.0,
+      "false_blocks": 2400,
+      "separation": {
+       "V1": {
+        "cert_block": 390,
+        "feas_pass": 90,
+        "n": 480,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V2": {
+        "cert_block": 495,
+        "feas_pass": 105,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V3": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 210,
+        "feas_pass": 390,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V6": {
+        "cert_block": 543,
+        "feas_pass": 57,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "benign": {
+        "cert_block": 2400,
+        "feas_pass": 0,
+        "n": 2400,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 0.3,
+      "terminals": {
+       "applied_with_certificate": 642,
+       "blocked_schema": 5358
+      },
+      "warranted": 3600,
+      "warranted_n": 6000,
+      "warranted_share": 0.6
+     },
+     "0.50": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 390,
+        "n": 480,
+        "rate": 0.8125
+       },
+       "V2": {
+        "blocked": 495,
+        "n": 600,
+        "rate": 0.825
+       },
+       "V3": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V5": {
+        "blocked": 210,
+        "n": 600,
+        "rate": 0.35
+       },
+       "V6": {
+        "blocked": 543,
+        "n": 600,
+        "rate": 0.905
+       },
+       "benign": {
+        "blocked": 2400,
+        "n": 2400,
+        "rate": 1.0
+       }
+      },
+      "false_block_rate": 1.0,
+      "false_blocks": 2400,
+      "separation": {
+       "V1": {
+        "cert_block": 390,
+        "feas_pass": 90,
+        "n": 480,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V2": {
+        "cert_block": 495,
+        "feas_pass": 105,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V3": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 210,
+        "feas_pass": 390,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V6": {
+        "cert_block": 543,
+        "feas_pass": 57,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "benign": {
+        "cert_block": 2400,
+        "feas_pass": 0,
+        "n": 2400,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 0.5,
+      "terminals": {
+       "applied_with_certificate": 642,
+       "blocked_schema": 5358
+      },
+      "warranted": 3600,
+      "warranted_n": 6000,
+      "warranted_share": 0.6
+     },
+     "1.00": {
+      "benign_items": 2400,
+      "blocks": {
+       "V1": {
+        "blocked": 390,
+        "n": 480,
+        "rate": 0.8125
+       },
+       "V2": {
+        "blocked": 495,
+        "n": 600,
+        "rate": 0.825
+       },
+       "V3": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V4": {
+        "blocked": 660,
+        "n": 660,
+        "rate": 1.0
+       },
+       "V5": {
+        "blocked": 210,
+        "n": 600,
+        "rate": 0.35
+       },
+       "V6": {
+        "blocked": 543,
+        "n": 600,
+        "rate": 0.905
+       },
+       "benign": {
+        "blocked": 2400,
+        "n": 2400,
+        "rate": 1.0
+       }
+      },
+      "false_block_rate": 1.0,
+      "false_blocks": 2400,
+      "separation": {
+       "V1": {
+        "cert_block": 390,
+        "feas_pass": 90,
+        "n": 480,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V2": {
+        "cert_block": 495,
+        "feas_pass": 105,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V3": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V4": {
+        "cert_block": 660,
+        "feas_pass": 0,
+        "n": 660,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V5": {
+        "cert_block": 210,
+        "feas_pass": 390,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "V6": {
+        "cert_block": 543,
+        "feas_pass": 57,
+        "n": 600,
+        "separated": 0,
+        "share": 0.0
+       },
+       "benign": {
+        "cert_block": 2400,
+        "feas_pass": 0,
+        "n": 2400,
+        "separated": 0,
+        "share": 0.0
+       }
+      },
+      "tau": 1.0,
+      "terminals": {
+       "applied_with_certificate": 642,
+       "blocked_schema": 5358
+      },
+      "warranted": 3600,
+      "warranted_n": 6000,
+      "warranted_share": 0.6
+     }
+    },
+    "tau_invariant_uncertified_terminals": {}
+   },
+   "mode": "M_free",
+   "monotonicity": [
+    {
+     "first": 408,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "last": 390,
+     "pass": true,
+     "series": "blocks[V1] blocked",
+     "violations": []
+    },
+    {
+     "first": 531,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "last": 495,
+     "pass": true,
+     "series": "blocks[V2] blocked",
+     "violations": []
+    },
+    {
+     "first": 660,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "last": 660,
+     "pass": true,
+     "series": "blocks[V3] blocked",
+     "violations": []
+    },
+    {
+     "first": 660,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "last": 660,
+     "pass": true,
+     "series": "blocks[V4] blocked",
+     "violations": []
+    },
+    {
+     "first": 360,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "last": 210,
+     "pass": true,
+     "series": "blocks[V5] blocked",
+     "violations": []
+    },
+    {
+     "first": 561,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "last": 543,
+     "pass": true,
+     "series": "blocks[V6] blocked",
+     "violations": []
+    },
+    {
+     "first": 2400,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "last": 2400,
+     "pass": true,
+     "series": "blocks[benign] blocked",
+     "violations": []
+    },
+    {
+     "first": 1.0,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "last": 1.0,
+     "pass": true,
+     "series": "benign false-block rate",
+     "violations": []
+    },
+    {
+     "first": 0,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "last": 0,
+     "pass": true,
+     "series": "separation[V3] separated",
+     "violations": []
+    },
+    {
+     "first": 0,
+     "group": "qwen3.6-27b-fp8 / M_free / -",
+     "last": 0,
+     "pass": true,
+     "series": "separation[V4] separated",
+     "violations": []
+    }
+   ],
+   "operating_points": {
+    "fb_le_1pct": {
+     "false_block_rate_at_largest": null,
+     "false_block_rate_at_smallest": null,
+     "note": "no grid tau meets this budget",
+     "target": 0.01,
+     "tau_largest": null,
+     "tau_smallest": null
+    },
+    "fb_le_5pct": {
+     "false_block_rate_at_largest": null,
+     "false_block_rate_at_smallest": null,
+     "note": "no grid tau meets this budget",
+     "target": 0.05,
+     "tau_largest": null,
+     "tau_smallest": null
+    }
+   },
+   "repeats": [
+    0,
+    1,
+    2
+   ],
+   "source_dir": "/home/ziheng/PaperL1/results/e1_eval_qwen27b",
+   "statement": "Benign false blocks run 100.0% at tau 0.02 to 100.0% at tau 1.00, and 100.0% at tau 0.20. V3 separation runs 0 of 660 items at tau 0.02 to 0 at tau 1.00, and 0 at tau 0.20. V4 separation runs 0 to 0, and is 0 at tau 0.20. The warranted-outcome share is flat at 60.0% across the grid. No grid tau holds benign false blocks at or below 1%.",
+   "thinking": null
+  }
+ ],
+ "meta": {
+  "anchor_passed": 360,
+  "anchor_tau": 0.2,
+  "anchor_total": 360,
+  "arms": [
+   "openai",
+   "qwen3-14b",
+   "qwen3.6-27b-fp8"
+  ],
+  "date": "2026-08-12 00:18:00 +08",
+  "eval_dirs": [
+   "/home/ziheng/PaperL1/results/e1_eval_gpt54mini",
+   "/home/ziheng/PaperL1/results/e1_eval_qwen14b",
+   "/home/ziheng/PaperL1/results/e1_eval_qwen27b"
+  ],
+  "false_block_targets": [
+   0.01,
+   0.05
+  ],
+  "mono_passed": 60,
+  "mono_total": 60,
+  "n_certified": 15137,
+  "n_infra_cert": 0,
+  "n_pre_qual_blocked": 16863,
+  "n_rows": 32000,
+  "n_tau_invariant_uncertified": 0,
+  "out_dir": "/home/ziheng/PaperL1/results/e2_tau_sweep",
+  "results_root": "/home/ziheng/PaperL1/results",
+  "skipped_dirs": [],
+  "sweep_version": "l1-e2-tau-sweep-1",
+  "tau_grid": [
+   0.02,
+   0.05,
+   0.1,
+   0.15,
+   0.2,
+   0.3,
+   0.5,
+   1.0
+  ],
+  "tau_invariant_uncertified_terminals": {},
+  "wall_s": 0.5527649889991153
+ }
+}

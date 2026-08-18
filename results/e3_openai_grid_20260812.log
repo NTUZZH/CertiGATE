@@ -1,0 +1,161 @@
+================================================================================
+FOUR LAUNCH QUESTIONS (global CLAUDE.md experiment rules), answered before the
+first paid call
+================================================================================
+1. PURPOSE.  The E3 trajectory log for the openai arm (gpt-5.4-mini-2026-03-17): 240 items x
+   2 budget level(s) x 2 pipelines x 1 repeat(s).  It is the
+   only E3 generation this arm needs: MULTI-UG, MULTI-G and SINGLE+G are replay
+   configurations over these trajectories (scripts/e3_replay.py), exactly as
+   E1's three guard arms replay from one generation log.  The numbers it feeds
+   are the agent-layer decision (SINGLE+G vs MULTI-G at matched budgets), the
+   cap-binding share per budget level, the terminal-state profile of Section
+   5.4, and the register-stratified secondary tables.
+2. EXPECTED RESULT.  The freeze adjudicates two stated priors: the generic
+   evidence says the agent layer's marginal value is small, conditional or
+   negative at matched budgets; the in-venue comparison reports the opposite at
+   unmatched budgets.  Either direction is a result.  What would be a DEFECT and
+   not a finding: a cap that binds in one pipeline and not the other at the same
+   level (the budget would no longer be matched), an arm whose first final never
+   parses, or trajectories whose token accounting is dominated by calls charged
+   from the estimate rather than from reported usage.  All three are printed.
+3. CONTAMINATION.  Both logs are append-only and flushed per row, keyed by
+   (arm, budget level, pipeline, repeat, item_id); a restart skips completed
+   keys and never rewrites.  A trajectory whose row records an error is not
+   complete and is retried; its calls stay in the log under their own run_uid,
+   and the last row for a key is the one that counts.  A log written by another
+   arm or another E3 prompt version is refused.  The guard runs in the loop only
+   to produce the revision tail, at E1's own G_CERT configuration, and every
+   verdict is recomputed offline by the replay from the raw output.
+   Trajectories: /home/ziheng/PaperL1/results/e3_openai/trajectories.jsonl
+4. DATA ACCURACY.  Fatal assertions before the first call: the suite file's
+   SHA-256 and the frozen schema's SHA-256; the item slice is E3-240
+   recomputed from the suite and checked against results/e3_sample/e3_slice.json;
+   the state block is the unchanged l1-prompt-1.0.0 render at top_k 10 and every
+   (prefix, tail) split concatenates back to it byte for byte; the operations
+   stages carry the byte-identical E1 system prompt; the guard configuration
+   hash is E1's own, printed below.
+================================================================================
+[e3] suite sha256  0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a OK
+[e3] schema sha256 1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321 OK
+[e3] slice E3-240: 240 items, sha256 84b24f0232754344a4c16bcbe9e697b12aef9c707661a365c111424ee861e3e5
+[e3] 240 state blocks rendered and split in 0.4s (204 at the orders boundary, 36 at the instruction); prefix+tail is the unchanged l1-prompt-1.0.0 render
+[e3] guard in the loop: G_CERT config_hash 52c094406252bf1a (E1's own, tau 0.2, lb_tier tier2)
+
+GRID  (arm openai, model gpt-5.4-mini-2026-03-17, wire openai)
+  role             : server-side strict schema; reasoning effort omitted = the snapshot default, as in E1
+  items            : 240 (E3-240)
+  budget levels    : tight=4500, loose=18000
+  pipelines        : SINGLE, MULTI   repeats: 1
+  enforcement      : ops stages M_constrained = json_schema, reasoning stages none
+  thinking         : no field sent
+  tools            : get_state, preview_dispatch; <= 2 round(s), text results, no vendor tool API
+  revision tail    : <= 99 revision(s) on a guard block
+  trajectories     : 960 planned, 0 already complete, 960 to run in 240 item group(s)
+  already logged   : 0 rows, 0 of them errors
+  logs             : /home/ziheng/PaperL1/results/e3_openai/trajectories.jsonl
+                     /home/ziheng/PaperL1/results/e3_openai/calls.jsonl
+
+[e3] key OPENAI_API_KEY present (never printed).
+
+[e3] running 960 trajectories (240 item groups) on 6 worker(s)
+     10/960   trajectories  calls=29     tokens=42664     usd=  0.030 err=0   exhausted=6    blocked=7    elapsed=16s
+     20/960   trajectories  calls=57     tokens=79875     usd=  0.059 err=0   exhausted=8    blocked=7    elapsed=16s
+     30/960   trajectories  calls=87     tokens=124865    usd=  0.089 err=1   exhausted=13   blocked=15   elapsed=28s
+     40/960   trajectories  calls=120    tokens=174889    usd=  0.121 err=1   exhausted=16   blocked=22   elapsed=31s
+     50/960   trajectories  calls=150    tokens=219476    usd=  0.154 err=1   exhausted=22   blocked=30   elapsed=40s
+     60/960   trajectories  calls=180    tokens=264302    usd=  0.188 err=1   exhausted=24   blocked=33   elapsed=42s
+     70/960   trajectories  calls=211    tokens=308476    usd=  0.223 err=2   exhausted=27   blocked=36   elapsed=48s
+     80/960   trajectories  calls=242    tokens=354978    usd=  0.255 err=2   exhausted=30   blocked=41   elapsed=57s
+     90/960   trajectories  calls=271    tokens=398492    usd=  0.288 err=2   exhausted=34   blocked=45   elapsed=60s
+    100/960   trajectories  calls=303    tokens=450777    usd=  0.327 err=2   exhausted=38   blocked=51   elapsed=70s
+    110/960   trajectories  calls=329    tokens=489095    usd=  0.357 err=2   exhausted=43   blocked=54   elapsed=76s
+    120/960   trajectories  calls=360    tokens=536942    usd=  0.392 err=2   exhausted=47   blocked=60   elapsed=79s
+    130/960   trajectories  calls=388    tokens=579390    usd=  0.422 err=2   exhausted=52   blocked=66   elapsed=89s
+    140/960   trajectories  calls=417    tokens=625664    usd=  0.456 err=2   exhausted=55   blocked=68   elapsed=91s
+    150/960   trajectories  calls=446    tokens=668306    usd=  0.492 err=2   exhausted=60   blocked=71   elapsed=99s
+    160/960   trajectories  calls=475    tokens=715831    usd=  0.527 err=2   exhausted=63   blocked=73   elapsed=104s
+    170/960   trajectories  calls=503    tokens=756763    usd=  0.561 err=2   exhausted=68   blocked=77   elapsed=115s
+    180/960   trajectories  calls=539    tokens=848049    usd=  0.602 err=2   exhausted=76   blocked=84   elapsed=121s
+    190/960   trajectories  calls=571    tokens=904559    usd=  0.637 err=2   exhausted=82   blocked=90   elapsed=128s
+    200/960   trajectories  calls=606    tokens=991776    usd=  0.689 err=2   exhausted=88   blocked=97   elapsed=138s
+    210/960   trajectories  calls=640    tokens=1053676   usd=  0.729 err=2   exhausted=95   blocked=104  elapsed=151s
+    220/960   trajectories  calls=677    tokens=1127421   usd=  0.768 err=2   exhausted=99   blocked=112  elapsed=152s
+    230/960   trajectories  calls=705    tokens=1176373   usd=  0.801 err=2   exhausted=105  blocked=118  elapsed=158s
+    240/960   trajectories  calls=736    tokens=1236102   usd=  0.840 err=2   exhausted=107  blocked=122  elapsed=167s
+    250/960   trajectories  calls=771    tokens=1302582   usd=  0.879 err=2   exhausted=114  blocked=129  elapsed=179s
+    260/960   trajectories  calls=806    tokens=1365626   usd=  0.919 err=2   exhausted=118  blocked=134  elapsed=181s
+    270/960   trajectories  calls=831    tokens=1408028   usd=  0.954 err=2   exhausted=123  blocked=134  elapsed=188s
+    280/960   trajectories  calls=862    tokens=1465008   usd=  0.992 err=2   exhausted=127  blocked=136  elapsed=197s
+    290/960   trajectories  calls=886    tokens=1506364   usd=  1.020 err=2   exhausted=130  blocked=136  elapsed=197s
+    300/960   trajectories  calls=912    tokens=1544571   usd=  1.049 err=2   exhausted=132  blocked=136  elapsed=205s
+    310/960   trajectories  calls=936    tokens=1586548   usd=  1.082 err=2   exhausted=135  blocked=136  elapsed=211s
+    320/960   trajectories  calls=962    tokens=1630593   usd=  1.111 err=2   exhausted=137  blocked=136  elapsed=214s
+    330/960   trajectories  calls=997    tokens=1691335   usd=  1.145 err=2   exhausted=143  blocked=140  elapsed=232s
+    340/960   trajectories  calls=1024   tokens=1731268   usd=  1.174 err=2   exhausted=145  blocked=141  elapsed=232s
+    350/960   trajectories  calls=1049   tokens=1768136   usd=  1.203 err=2   exhausted=148  blocked=141  elapsed=239s
+    360/960   trajectories  calls=1074   tokens=1819097   usd=  1.242 err=2   exhausted=151  blocked=141  elapsed=241s
+    370/960   trajectories  calls=1103   tokens=1860195   usd=  1.278 err=2   exhausted=154  blocked=141  elapsed=249s
+    380/960   trajectories  calls=1132   tokens=1905998   usd=  1.315 err=2   exhausted=156  blocked=142  elapsed=254s
+    390/960   trajectories  calls=1158   tokens=1946046   usd=  1.348 err=2   exhausted=160  blocked=142  elapsed=262s
+    400/960   trajectories  calls=1184   tokens=1997797   usd=  1.383 err=2   exhausted=163  blocked=142  elapsed=266s
+    410/960   trajectories  calls=1209   tokens=2035107   usd=  1.415 err=2   exhausted=169  blocked=142  elapsed=274s
+    420/960   trajectories  calls=1236   tokens=2074431   usd=  1.448 err=2   exhausted=172  blocked=142  elapsed=276s
+    430/960   trajectories  calls=1261   tokens=2109796   usd=  1.477 err=2   exhausted=175  blocked=142  elapsed=281s
+    440/960   trajectories  calls=1287   tokens=2147839   usd=  1.503 err=2   exhausted=177  blocked=142  elapsed=287s
+    450/960   trajectories  calls=1315   tokens=2187131   usd=  1.536 err=2   exhausted=180  blocked=142  elapsed=294s
+    460/960   trajectories  calls=1342   tokens=2232388   usd=  1.570 err=2   exhausted=183  blocked=142  elapsed=301s
+    470/960   trajectories  calls=1367   tokens=2270091   usd=  1.600 err=2   exhausted=186  blocked=142  elapsed=310s
+    480/960   trajectories  calls=1396   tokens=2312920   usd=  1.633 err=2   exhausted=188  blocked=142  elapsed=314s
+    490/960   trajectories  calls=1420   tokens=2347445   usd=  1.661 err=2   exhausted=191  blocked=142  elapsed=318s
+    500/960   trajectories  calls=1448   tokens=2389178   usd=  1.696 err=2   exhausted=194  blocked=143  elapsed=326s
+    510/960   trajectories  calls=1472   tokens=2424358   usd=  1.723 err=2   exhausted=197  blocked=143  elapsed=331s
+    520/960   trajectories  calls=1498   tokens=2463202   usd=  1.752 err=2   exhausted=199  blocked=143  elapsed=334s
+    530/960   trajectories  calls=1524   tokens=2500810   usd=  1.780 err=2   exhausted=202  blocked=143  elapsed=342s
+    540/960   trajectories  calls=1552   tokens=2542241   usd=  1.811 err=2   exhausted=204  blocked=143  elapsed=346s
+    550/960   trajectories  calls=1578   tokens=2579171   usd=  1.839 err=3   exhausted=208  blocked=143  elapsed=357s
+    560/960   trajectories  calls=1604   tokens=2621710   usd=  1.869 err=3   exhausted=210  blocked=143  elapsed=358s
+    570/960   trajectories  calls=1625   tokens=2686410   usd=  1.897 err=3   exhausted=216  blocked=144  elapsed=368s
+    580/960   trajectories  calls=1651   tokens=2731295   usd=  1.931 err=3   exhausted=218  blocked=144  elapsed=371s
+    590/960   trajectories  calls=1673   tokens=2792279   usd=  1.972 err=3   exhausted=223  blocked=144  elapsed=382s
+    600/960   trajectories  calls=1699   tokens=2838730   usd=  2.007 err=3   exhausted=225  blocked=144  elapsed=385s
+    610/960   trajectories  calls=1723   tokens=2879776   usd=  2.037 err=3   exhausted=228  blocked=144  elapsed=386s
+    620/960   trajectories  calls=1750   tokens=2928587   usd=  2.071 err=3   exhausted=231  blocked=144  elapsed=400s
+    630/960   trajectories  calls=1774   tokens=2971534   usd=  2.104 err=3   exhausted=234  blocked=144  elapsed=404s
+    640/960   trajectories  calls=1801   tokens=3020181   usd=  2.137 err=3   exhausted=236  blocked=144  elapsed=415s
+    650/960   trajectories  calls=1827   tokens=3064993   usd=  2.174 err=3   exhausted=241  blocked=144  elapsed=417s
+    660/960   trajectories  calls=1855   tokens=3114707   usd=  2.210 err=3   exhausted=245  blocked=144  elapsed=419s
+    670/960   trajectories  calls=1880   tokens=3155708   usd=  2.241 err=3   exhausted=250  blocked=144  elapsed=428s
+    680/960   trajectories  calls=1908   tokens=3197687   usd=  2.273 err=3   exhausted=253  blocked=145  elapsed=431s
+    690/960   trajectories  calls=1932   tokens=3236646   usd=  2.299 err=3   exhausted=256  blocked=145  elapsed=452s
+    700/960   trajectories  calls=1960   tokens=3282483   usd=  2.332 err=3   exhausted=258  blocked=145  elapsed=452s
+    710/960   trajectories  calls=1984   tokens=3322181   usd=  2.360 err=3   exhausted=262  blocked=147  elapsed=468s
+    720/960   trajectories  calls=2020   tokens=3384034   usd=  2.394 err=3   exhausted=266  blocked=149  elapsed=468s
+    730/960   trajectories  calls=2045   tokens=3419073   usd=  2.421 err=3   exhausted=269  blocked=149  elapsed=468s
+    740/960   trajectories  calls=2071   tokens=3462532   usd=  2.450 err=3   exhausted=271  blocked=149  elapsed=471s
+    750/960   trajectories  calls=2098   tokens=3504474   usd=  2.479 err=4   exhausted=274  blocked=149  elapsed=480s
+    760/960   trajectories  calls=2128   tokens=3549344   usd=  2.516 err=4   exhausted=276  blocked=149  elapsed=485s
+    770/960   trajectories  calls=2152   tokens=3586339   usd=  2.543 err=4   exhausted=279  blocked=149  elapsed=491s
+    780/960   trajectories  calls=2181   tokens=3625300   usd=  2.574 err=4   exhausted=281  blocked=149  elapsed=495s
+    790/960   trajectories  calls=2210   tokens=3664125   usd=  2.606 err=4   exhausted=285  blocked=152  elapsed=504s
+    800/960   trajectories  calls=2241   tokens=3706246   usd=  2.644 err=4   exhausted=287  blocked=153  elapsed=515s
+    810/960   trajectories  calls=2266   tokens=3741467   usd=  2.670 err=5   exhausted=289  blocked=153  elapsed=516s
+    820/960   trajectories  calls=2294   tokens=3782040   usd=  2.707 err=5   exhausted=291  blocked=153  elapsed=521s
+    830/960   trajectories  calls=2321   tokens=3820656   usd=  2.741 err=5   exhausted=294  blocked=156  elapsed=531s
+    840/960   trajectories  calls=2349   tokens=3858123   usd=  2.772 err=5   exhausted=296  blocked=156  elapsed=535s
+    850/960   trajectories  calls=2377   tokens=3898286   usd=  2.808 err=5   exhausted=299  blocked=160  elapsed=549s
+    860/960   trajectories  calls=2421   tokens=3965653   usd=  2.850 err=5   exhausted=304  blocked=166  elapsed=558s
+    870/960   trajectories  calls=2447   tokens=4002439   usd=  2.880 err=5   exhausted=307  blocked=166  elapsed=558s
+    880/960   trajectories  calls=2476   tokens=4043585   usd=  2.913 err=5   exhausted=310  blocked=166  elapsed=563s
+    890/960   trajectories  calls=2502   tokens=4080539   usd=  2.943 err=5   exhausted=314  blocked=168  elapsed=583s
+    900/960   trajectories  calls=2542   tokens=4143232   usd=  2.980 err=5   exhausted=318  blocked=170  elapsed=583s
+    910/960   trajectories  calls=2569   tokens=4181469   usd=  3.013 err=5   exhausted=322  blocked=171  elapsed=583s
+    920/960   trajectories  calls=2598   tokens=4223637   usd=  3.048 err=5   exhausted=325  blocked=173  elapsed=586s
+    930/960   trajectories  calls=2623   tokens=4258736   usd=  3.076 err=5   exhausted=329  blocked=173  elapsed=594s
+    940/960   trajectories  calls=2652   tokens=4301127   usd=  3.111 err=5   exhausted=331  blocked=173  elapsed=598s
+    950/960   trajectories  calls=2677   tokens=4336679   usd=  3.142 err=5   exhausted=335  blocked=173  elapsed=607s
+    960/960   trajectories  calls=2705   tokens=4377416   usd=  3.174 err=5   exhausted=337  blocked=173  elapsed=614s
+
+[e3] 960 trajectories, 2705 calls, 4377416 all-tokens, 5 errors, 337 budget-exhausted, 173 blocked at the first final, 106 revised
+[e3] tools used: get_state 9, preview_dispatch 201; guard calls 1147
+[e3] meta   : /home/ziheng/PaperL1/results/e3_openai/run_meta_20260812T092219Z.json
+[e3] estimated spend this session: USD 3.17 (list base, retrieved 2026-08-11)

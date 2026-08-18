@@ -1,0 +1,257 @@
+================================================================================
+FOUR LAUNCH QUESTIONS (global CLAUDE.md experiment rules), answered before the
+first paid call
+================================================================================
+1. PURPOSE.  The E3 trajectory log for the qwen14b arm (/home/ziheng/.cache/huggingface/hub/models--Qwen--Qwen3-14B/snapshots/40c069824f4251a91eefaf281ebe4c544efd3e18): 240 items x
+   2 budget level(s) x 2 pipelines x 2 repeat(s).  It is the
+   only E3 generation this arm needs: MULTI-UG, MULTI-G and SINGLE+G are replay
+   configurations over these trajectories (scripts/e3_replay.py), exactly as
+   E1's three guard arms replay from one generation log.  The numbers it feeds
+   are the agent-layer decision (SINGLE+G vs MULTI-G at matched budgets), the
+   cap-binding share per budget level, the terminal-state profile of Section
+   5.4, and the register-stratified secondary tables.
+2. EXPECTED RESULT.  The freeze adjudicates two stated priors: the generic
+   evidence says the agent layer's marginal value is small, conditional or
+   negative at matched budgets; the in-venue comparison reports the opposite at
+   unmatched budgets.  Either direction is a result.  What would be a DEFECT and
+   not a finding: a cap that binds in one pipeline and not the other at the same
+   level (the budget would no longer be matched), an arm whose first final never
+   parses, or trajectories whose token accounting is dominated by calls charged
+   from the estimate rather than from reported usage.  All three are printed.
+3. CONTAMINATION.  Both logs are append-only and flushed per row, keyed by
+   (arm, budget level, pipeline, repeat, item_id); a restart skips completed
+   keys and never rewrites.  A trajectory whose row records an error is not
+   complete and is retried; its calls stay in the log under their own run_uid,
+   and the last row for a key is the one that counts.  A log written by another
+   arm or another E3 prompt version is refused.  The guard runs in the loop only
+   to produce the revision tail, at E1's own G_CERT configuration, and every
+   verdict is recomputed offline by the replay from the raw output.
+   Trajectories: /home/ziheng/PaperL1/results/e3_qwen14b/trajectories.jsonl
+4. DATA ACCURACY.  Fatal assertions before the first call: the suite file's
+   SHA-256 and the frozen schema's SHA-256; the item slice is E3-240
+   recomputed from the suite and checked against results/e3_sample/e3_slice.json;
+   the state block is the unchanged l1-prompt-1.0.0 render at top_k 10 and every
+   (prefix, tail) split concatenates back to it byte for byte; the operations
+   stages carry the byte-identical E1 system prompt; the guard configuration
+   hash is E1's own, printed below.
+================================================================================
+[e3] suite sha256  0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a OK
+[e3] schema sha256 1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321 OK
+[e3] slice E3-240: 240 items, sha256 84b24f0232754344a4c16bcbe9e697b12aef9c707661a365c111424ee861e3e5
+[e3] 240 state blocks rendered and split in 0.5s (204 at the orders boundary, 36 at the instruction); prefix+tail is the unchanged l1-prompt-1.0.0 render
+[e3] guard in the loop: G_CERT config_hash 52c094406252bf1a (E1's own, tau 0.2, lb_tier tier2)
+
+GRID  (arm qwen14b, model /home/ziheng/.cache/huggingface/hub/models--Qwen--Qwen3-14B/snapshots/40c069824f4251a91eefaf281ebe4c544efd3e18, wire openai)
+  role             : the clean enforcement arm: xgrammar over a local vLLM server, temperature 0; 2 repeats measure engine nondeterminism
+  items            : 240 (E3-240)
+  budget levels    : tight=4500, loose=18000
+  pipelines        : SINGLE, MULTI   repeats: 2
+  enforcement      : ops stages M_constrained = xgrammar, reasoning stages none
+  thinking         : {"chat_template_kwargs": {"enable_thinking": false}}
+  tools            : get_state, preview_dispatch; <= 2 round(s), text results, no vendor tool API
+  revision tail    : <= 99 revision(s) on a guard block
+  trajectories     : 1920 planned, 0 already complete, 1920 to run in 240 item group(s)
+  already logged   : 0 rows, 0 of them errors
+  logs             : /home/ziheng/PaperL1/results/e3_qwen14b/trajectories.jsonl
+                     /home/ziheng/PaperL1/results/e3_qwen14b/calls.jsonl
+
+[e3] vLLM structured-outputs backend read back: xgrammar
+
+[e3] running 1920 trajectories (240 item groups) on 6 worker(s)
+     10/1920  trajectories  calls=36     tokens=52450     usd=  0.000 err=0   exhausted=4    blocked=2    elapsed=45s
+     20/1920  trajectories  calls=68     tokens=100819    usd=  0.000 err=0   exhausted=10   blocked=2    elapsed=45s
+     30/1920  trajectories  calls=102    tokens=153173    usd=  0.000 err=0   exhausted=14   blocked=4    elapsed=86s
+     40/1920  trajectories  calls=142    tokens=225454    usd=  0.000 err=0   exhausted=18   blocked=4    elapsed=100s
+     50/1920  trajectories  calls=180    tokens=280662    usd=  0.000 err=0   exhausted=20   blocked=6    elapsed=100s
+     60/1920  trajectories  calls=216    tokens=333302    usd=  0.000 err=0   exhausted=26   blocked=8    elapsed=108s
+     70/1920  trajectories  calls=254    tokens=391708    usd=  0.000 err=0   exhausted=30   blocked=16   elapsed=108s
+     80/1920  trajectories  calls=297    tokens=457081    usd=  0.000 err=0   exhausted=34   blocked=23   elapsed=108s
+     90/1920  trajectories  calls=331    tokens=506733    usd=  0.000 err=0   exhausted=38   blocked=29   elapsed=130s
+    100/1920  trajectories  calls=365    tokens=559662    usd=  0.000 err=0   exhausted=44   blocked=35   elapsed=134s
+    110/1920  trajectories  calls=397    tokens=608846    usd=  0.000 err=0   exhausted=46   blocked=37   elapsed=137s
+    120/1920  trajectories  calls=438    tokens=671803    usd=  0.000 err=0   exhausted=50   blocked=38   elapsed=143s
+    130/1920  trajectories  calls=472    tokens=721945    usd=  0.000 err=0   exhausted=54   blocked=38   elapsed=168s
+    140/1920  trajectories  calls=510    tokens=778116    usd=  0.000 err=0   exhausted=58   blocked=40   elapsed=168s
+    150/1920  trajectories  calls=542    tokens=824554    usd=  0.000 err=0   exhausted=62   blocked=46   elapsed=168s
+    160/1920  trajectories  calls=578    tokens=882551    usd=  0.000 err=0   exhausted=64   blocked=50   elapsed=177s
+    170/1920  trajectories  calls=602    tokens=918294    usd=  0.000 err=0   exhausted=68   blocked=50   elapsed=193s
+    180/1920  trajectories  calls=637    tokens=974366    usd=  0.000 err=0   exhausted=74   blocked=56   elapsed=197s
+    190/1920  trajectories  calls=673    tokens=1029196   usd=  0.000 err=0   exhausted=78   blocked=60   elapsed=203s
+    200/1920  trajectories  calls=711    tokens=1099453   usd=  0.000 err=0   exhausted=82   blocked=68   elapsed=237s
+    210/1920  trajectories  calls=741    tokens=1145556   usd=  0.000 err=0   exhausted=86   blocked=68   elapsed=237s
+    220/1920  trajectories  calls=767    tokens=1187793   usd=  0.000 err=0   exhausted=92   blocked=70   elapsed=237s
+    230/1920  trajectories  calls=801    tokens=1241181   usd=  0.000 err=0   exhausted=96   blocked=74   elapsed=237s
+    240/1920  trajectories  calls=843    tokens=1308175   usd=  0.000 err=0   exhausted=100  blocked=76   elapsed=253s
+    250/1920  trajectories  calls=875    tokens=1358815   usd=  0.000 err=0   exhausted=106  blocked=84   elapsed=253s
+    260/1920  trajectories  calls=905    tokens=1404877   usd=  0.000 err=0   exhausted=112  blocked=88   elapsed=272s
+    270/1920  trajectories  calls=938    tokens=1461574   usd=  0.000 err=0   exhausted=116  blocked=96   elapsed=272s
+    280/1920  trajectories  calls=976    tokens=1524429   usd=  0.000 err=0   exhausted=120  blocked=99   elapsed=282s
+    290/1920  trajectories  calls=1009   tokens=1575305   usd=  0.000 err=0   exhausted=126  blocked=102  elapsed=294s
+    300/1920  trajectories  calls=1043   tokens=1630927   usd=  0.000 err=0   exhausted=132  blocked=106  elapsed=294s
+    310/1920  trajectories  calls=1071   tokens=1678787   usd=  0.000 err=0   exhausted=136  blocked=110  elapsed=317s
+    320/1920  trajectories  calls=1105   tokens=1739894   usd=  0.000 err=0   exhausted=138  blocked=112  elapsed=317s
+    330/1920  trajectories  calls=1137   tokens=1787832   usd=  0.000 err=0   exhausted=144  blocked=112  elapsed=336s
+    340/1920  trajectories  calls=1172   tokens=1842073   usd=  0.000 err=0   exhausted=150  blocked=118  elapsed=359s
+    350/1920  trajectories  calls=1205   tokens=1900915   usd=  0.000 err=0   exhausted=154  blocked=125  elapsed=359s
+    360/1920  trajectories  calls=1233   tokens=2028355   usd=  0.000 err=0   exhausted=162  blocked=128  elapsed=359s
+    370/1920  trajectories  calls=1273   tokens=2120493   usd=  0.000 err=0   exhausted=172  blocked=134  elapsed=405s
+    380/1920  trajectories  calls=1301   tokens=2166437   usd=  0.000 err=0   exhausted=178  blocked=140  elapsed=405s
+    390/1920  trajectories  calls=1335   tokens=2229569   usd=  0.000 err=0   exhausted=182  blocked=148  elapsed=410s
+    400/1920  trajectories  calls=1365   tokens=2346296   usd=  0.000 err=0   exhausted=190  blocked=152  elapsed=410s
+    410/1920  trajectories  calls=1399   tokens=2416859   usd=  0.000 err=0   exhausted=196  blocked=158  elapsed=440s
+    420/1920  trajectories  calls=1431   tokens=2473310   usd=  0.000 err=0   exhausted=202  blocked=163  elapsed=440s
+    430/1920  trajectories  calls=1467   tokens=2545501   usd=  0.000 err=0   exhausted=206  blocked=171  elapsed=443s
+    440/1920  trajectories  calls=1509   tokens=2636502   usd=  0.000 err=0   exhausted=210  blocked=179  elapsed=456s
+    450/1920  trajectories  calls=1541   tokens=2692684   usd=  0.000 err=0   exhausted=216  blocked=185  elapsed=506s
+    460/1920  trajectories  calls=1575   tokens=2765688   usd=  0.000 err=0   exhausted=222  blocked=189  elapsed=506s
+    470/1920  trajectories  calls=1611   tokens=2840038   usd=  0.000 err=0   exhausted=226  blocked=197  elapsed=506s
+    480/1920  trajectories  calls=1653   tokens=2928294   usd=  0.000 err=0   exhausted=230  blocked=205  elapsed=506s
+    490/1920  trajectories  calls=1685   tokens=2990368   usd=  0.000 err=0   exhausted=236  blocked=213  elapsed=513s
+    500/1920  trajectories  calls=1717   tokens=3053337   usd=  0.000 err=0   exhausted=242  blocked=219  elapsed=543s
+    510/1920  trajectories  calls=1753   tokens=3125170   usd=  0.000 err=0   exhausted=246  blocked=225  elapsed=554s
+    520/1920  trajectories  calls=1793   tokens=3195828   usd=  0.000 err=0   exhausted=250  blocked=227  elapsed=555s
+    530/1920  trajectories  calls=1823   tokens=3253076   usd=  0.000 err=0   exhausted=254  blocked=227  elapsed=555s
+    540/1920  trajectories  calls=1851   tokens=3306134   usd=  0.000 err=0   exhausted=260  blocked=227  elapsed=565s
+    550/1920  trajectories  calls=1883   tokens=3371867   usd=  0.000 err=0   exhausted=264  blocked=231  elapsed=587s
+    560/1920  trajectories  calls=1923   tokens=3459449   usd=  0.000 err=0   exhausted=268  blocked=233  elapsed=602s
+    570/1920  trajectories  calls=1949   tokens=3510139   usd=  0.000 err=0   exhausted=274  blocked=233  elapsed=653s
+    580/1920  trajectories  calls=1979   tokens=3576375   usd=  0.000 err=0   exhausted=280  blocked=233  elapsed=653s
+    590/1920  trajectories  calls=2010   tokens=3622926   usd=  0.000 err=0   exhausted=282  blocked=233  elapsed=653s
+    600/1920  trajectories  calls=2046   tokens=3680018   usd=  0.000 err=0   exhausted=284  blocked=233  elapsed=653s
+    610/1920  trajectories  calls=2074   tokens=3733600   usd=  0.000 err=0   exhausted=286  blocked=233  elapsed=653s
+    620/1920  trajectories  calls=2102   tokens=3786660   usd=  0.000 err=0   exhausted=292  blocked=233  elapsed=653s
+    630/1920  trajectories  calls=2136   tokens=3845750   usd=  0.000 err=0   exhausted=296  blocked=233  elapsed=653s
+    640/1920  trajectories  calls=2172   tokens=3914576   usd=  0.000 err=0   exhausted=298  blocked=233  elapsed=663s
+    650/1920  trajectories  calls=2204   tokens=3964502   usd=  0.000 err=0   exhausted=304  blocked=235  elapsed=679s
+    660/1920  trajectories  calls=2248   tokens=4048482   usd=  0.000 err=0   exhausted=312  blocked=241  elapsed=683s
+    670/1920  trajectories  calls=2276   tokens=4091465   usd=  0.000 err=0   exhausted=314  blocked=241  elapsed=683s
+    680/1920  trajectories  calls=2304   tokens=4133699   usd=  0.000 err=0   exhausted=316  blocked=241  elapsed=683s
+    690/1920  trajectories  calls=2332   tokens=4176310   usd=  0.000 err=0   exhausted=318  blocked=241  elapsed=711s
+    700/1920  trajectories  calls=2361   tokens=4224333   usd=  0.000 err=0   exhausted=322  blocked=241  elapsed=721s
+    710/1920  trajectories  calls=2387   tokens=4294940   usd=  0.000 err=0   exhausted=326  blocked=241  elapsed=874s
+    720/1920  trajectories  calls=2419   tokens=4372080   usd=  0.000 err=0   exhausted=330  blocked=241  elapsed=874s
+    730/1920  trajectories  calls=2448   tokens=4415767   usd=  0.000 err=0   exhausted=334  blocked=241  elapsed=874s
+    740/1920  trajectories  calls=2477   tokens=4459946   usd=  0.000 err=0   exhausted=340  blocked=241  elapsed=874s
+    750/1920  trajectories  calls=2509   tokens=4515284   usd=  0.000 err=0   exhausted=344  blocked=241  elapsed=874s
+    760/1920  trajectories  calls=2549   tokens=4583123   usd=  0.000 err=0   exhausted=348  blocked=241  elapsed=874s
+    770/1920  trajectories  calls=2577   tokens=4634241   usd=  0.000 err=0   exhausted=352  blocked=241  elapsed=874s
+    780/1920  trajectories  calls=2609   tokens=4683907   usd=  0.000 err=0   exhausted=358  blocked=241  elapsed=874s
+    790/1920  trajectories  calls=2641   tokens=4751085   usd=  0.000 err=0   exhausted=362  blocked=241  elapsed=874s
+    800/1920  trajectories  calls=2675   tokens=4848350   usd=  0.000 err=0   exhausted=366  blocked=241  elapsed=874s
+    810/1920  trajectories  calls=2705   tokens=4906836   usd=  0.000 err=0   exhausted=372  blocked=241  elapsed=874s
+    820/1920  trajectories  calls=2741   tokens=4962182   usd=  0.000 err=0   exhausted=378  blocked=243  elapsed=874s
+    830/1920  trajectories  calls=2774   tokens=5013195   usd=  0.000 err=0   exhausted=382  blocked=243  elapsed=874s
+    840/1920  trajectories  calls=2814   tokens=5075463   usd=  0.000 err=0   exhausted=386  blocked=243  elapsed=879s
+    850/1920  trajectories  calls=2846   tokens=5123326   usd=  0.000 err=0   exhausted=390  blocked=243  elapsed=902s
+    860/1920  trajectories  calls=2876   tokens=5168349   usd=  0.000 err=0   exhausted=394  blocked=243  elapsed=903s
+    870/1920  trajectories  calls=2906   tokens=5214268   usd=  0.000 err=0   exhausted=396  blocked=243  elapsed=908s
+    880/1920  trajectories  calls=2940   tokens=5267958   usd=  0.000 err=0   exhausted=398  blocked=243  elapsed=916s
+    890/1920  trajectories  calls=2971   tokens=5314321   usd=  0.000 err=0   exhausted=404  blocked=244  elapsed=942s
+    900/1920  trajectories  calls=3003   tokens=5362158   usd=  0.000 err=0   exhausted=410  blocked=246  elapsed=959s
+    910/1920  trajectories  calls=3038   tokens=5417010   usd=  0.000 err=0   exhausted=414  blocked=249  elapsed=959s
+    920/1920  trajectories  calls=3072   tokens=5494113   usd=  0.000 err=0   exhausted=418  blocked=249  elapsed=959s
+    930/1920  trajectories  calls=3102   tokens=5544359   usd=  0.000 err=0   exhausted=422  blocked=249  elapsed=975s
+    940/1920  trajectories  calls=3130   tokens=5589043   usd=  0.000 err=0   exhausted=428  blocked=249  elapsed=981s
+    950/1920  trajectories  calls=3164   tokens=5642297   usd=  0.000 err=0   exhausted=432  blocked=253  elapsed=993s
+    960/1920  trajectories  calls=3203   tokens=5703435   usd=  0.000 err=0   exhausted=436  blocked=254  elapsed=996s
+    970/1920  trajectories  calls=3233   tokens=5749087   usd=  0.000 err=0   exhausted=440  blocked=256  elapsed=1017s
+    980/1920  trajectories  calls=3264   tokens=5798658   usd=  0.000 err=0   exhausted=444  blocked=259  elapsed=1033s
+    990/1920  trajectories  calls=3295   tokens=5850022   usd=  0.000 err=0   exhausted=447  blocked=259  elapsed=1033s
+   1000/1920  trajectories  calls=3333   tokens=5909794   usd=  0.000 err=0   exhausted=451  blocked=259  elapsed=1033s
+   1010/1920  trajectories  calls=3361   tokens=5954938   usd=  0.000 err=0   exhausted=453  blocked=259  elapsed=1049s
+   1020/1920  trajectories  calls=3393   tokens=6004492   usd=  0.000 err=0   exhausted=457  blocked=259  elapsed=1056s
+   1030/1920  trajectories  calls=3421   tokens=6048206   usd=  0.000 err=0   exhausted=459  blocked=259  elapsed=1078s
+   1040/1920  trajectories  calls=3456   tokens=6103789   usd=  0.000 err=0   exhausted=461  blocked=259  elapsed=1078s
+   1050/1920  trajectories  calls=3484   tokens=6147330   usd=  0.000 err=0   exhausted=463  blocked=259  elapsed=1078s
+   1060/1920  trajectories  calls=3512   tokens=6190696   usd=  0.000 err=0   exhausted=467  blocked=259  elapsed=1098s
+   1070/1920  trajectories  calls=3543   tokens=6238961   usd=  0.000 err=0   exhausted=471  blocked=259  elapsed=1098s
+   1080/1920  trajectories  calls=3575   tokens=6291813   usd=  0.000 err=0   exhausted=473  blocked=259  elapsed=1124s
+   1090/1920  trajectories  calls=3601   tokens=6329707   usd=  0.000 err=0   exhausted=479  blocked=259  elapsed=1124s
+   1100/1920  trajectories  calls=3633   tokens=6378048   usd=  0.000 err=0   exhausted=485  blocked=259  elapsed=1124s
+   1110/1920  trajectories  calls=3663   tokens=6424735   usd=  0.000 err=0   exhausted=487  blocked=259  elapsed=1160s
+   1120/1920  trajectories  calls=3699   tokens=6492539   usd=  0.000 err=0   exhausted=489  blocked=259  elapsed=1160s
+   1130/1920  trajectories  calls=3713   tokens=6587903   usd=  0.000 err=0   exhausted=499  blocked=259  elapsed=1173s
+   1140/1920  trajectories  calls=3741   tokens=6661850   usd=  0.000 err=0   exhausted=503  blocked=259  elapsed=1173s
+   1150/1920  trajectories  calls=3765   tokens=6707029   usd=  0.000 err=0   exhausted=505  blocked=259  elapsed=1173s
+   1160/1920  trajectories  calls=3801   tokens=6772911   usd=  0.000 err=0   exhausted=507  blocked=259  elapsed=1196s
+   1170/1920  trajectories  calls=3819   tokens=6868269   usd=  0.000 err=0   exhausted=515  blocked=259  elapsed=1238s
+   1180/1920  trajectories  calls=3845   tokens=6918282   usd=  0.000 err=0   exhausted=519  blocked=259  elapsed=1238s
+   1190/1920  trajectories  calls=3873   tokens=6968820   usd=  0.000 err=0   exhausted=521  blocked=259  elapsed=1238s
+   1200/1920  trajectories  calls=3909   tokens=7042657   usd=  0.000 err=0   exhausted=523  blocked=259  elapsed=1238s
+   1210/1920  trajectories  calls=3937   tokens=7099993   usd=  0.000 err=0   exhausted=525  blocked=259  elapsed=1257s
+   1220/1920  trajectories  calls=3965   tokens=7150067   usd=  0.000 err=0   exhausted=531  blocked=259  elapsed=1271s
+   1230/1920  trajectories  calls=3997   tokens=7218505   usd=  0.000 err=0   exhausted=535  blocked=259  elapsed=1294s
+   1240/1920  trajectories  calls=4033   tokens=7292537   usd=  0.000 err=0   exhausted=537  blocked=259  elapsed=1294s
+   1250/1920  trajectories  calls=4061   tokens=7349581   usd=  0.000 err=0   exhausted=539  blocked=259  elapsed=1295s
+   1260/1920  trajectories  calls=4089   tokens=7403609   usd=  0.000 err=0   exhausted=543  blocked=259  elapsed=1299s
+   1270/1920  trajectories  calls=4117   tokens=7458559   usd=  0.000 err=0   exhausted=545  blocked=259  elapsed=1321s
+   1280/1920  trajectories  calls=4155   tokens=7534936   usd=  0.000 err=0   exhausted=549  blocked=259  elapsed=1334s
+   1290/1920  trajectories  calls=4185   tokens=7596214   usd=  0.000 err=0   exhausted=555  blocked=259  elapsed=1346s
+   1300/1920  trajectories  calls=4217   tokens=7658465   usd=  0.000 err=0   exhausted=559  blocked=261  elapsed=1346s
+   1310/1920  trajectories  calls=4247   tokens=7715429   usd=  0.000 err=0   exhausted=563  blocked=261  elapsed=1348s
+   1320/1920  trajectories  calls=4284   tokens=7795179   usd=  0.000 err=0   exhausted=567  blocked=261  elapsed=1379s
+   1330/1920  trajectories  calls=4314   tokens=7859074   usd=  0.000 err=0   exhausted=573  blocked=261  elapsed=1391s
+   1340/1920  trajectories  calls=4344   tokens=7919241   usd=  0.000 err=0   exhausted=579  blocked=261  elapsed=1391s
+   1350/1920  trajectories  calls=4378   tokens=7979387   usd=  0.000 err=0   exhausted=583  blocked=261  elapsed=1391s
+   1360/1920  trajectories  calls=4417   tokens=8040217   usd=  0.000 err=0   exhausted=587  blocked=261  elapsed=1393s
+   1370/1920  trajectories  calls=4447   tokens=8088695   usd=  0.000 err=0   exhausted=589  blocked=261  elapsed=1434s
+   1380/1920  trajectories  calls=4475   tokens=8142928   usd=  0.000 err=0   exhausted=593  blocked=261  elapsed=1435s
+   1390/1920  trajectories  calls=4503   tokens=8197060   usd=  0.000 err=0   exhausted=595  blocked=261  elapsed=1436s
+   1400/1920  trajectories  calls=4543   tokens=8264260   usd=  0.000 err=0   exhausted=599  blocked=261  elapsed=1436s
+   1410/1920  trajectories  calls=4567   tokens=8310920   usd=  0.000 err=0   exhausted=603  blocked=261  elapsed=1468s
+   1420/1920  trajectories  calls=4599   tokens=8362801   usd=  0.000 err=0   exhausted=609  blocked=265  elapsed=1483s
+   1430/1920  trajectories  calls=4643   tokens=8444905   usd=  0.000 err=0   exhausted=615  blocked=269  elapsed=1483s
+   1440/1920  trajectories  calls=4681   tokens=8504191   usd=  0.000 err=0   exhausted=617  blocked=269  elapsed=1483s
+   1450/1920  trajectories  calls=4710   tokens=8546698   usd=  0.000 err=0   exhausted=621  blocked=269  elapsed=1492s
+   1460/1920  trajectories  calls=4742   tokens=8595615   usd=  0.000 err=0   exhausted=625  blocked=269  elapsed=1506s
+   1470/1920  trajectories  calls=4772   tokens=8645969   usd=  0.000 err=0   exhausted=627  blocked=271  elapsed=1521s
+   1480/1920  trajectories  calls=4806   tokens=8712444   usd=  0.000 err=0   exhausted=629  blocked=271  elapsed=1521s
+   1490/1920  trajectories  calls=4834   tokens=8764134   usd=  0.000 err=0   exhausted=633  blocked=271  elapsed=1530s
+   1500/1920  trajectories  calls=4868   tokens=8816219   usd=  0.000 err=0   exhausted=639  blocked=271  elapsed=1541s
+   1510/1920  trajectories  calls=4902   tokens=8868515   usd=  0.000 err=0   exhausted=643  blocked=272  elapsed=1547s
+   1520/1920  trajectories  calls=4940   tokens=8932973   usd=  0.000 err=0   exhausted=647  blocked=272  elapsed=1547s
+   1530/1920  trajectories  calls=4970   tokens=8979481   usd=  0.000 err=0   exhausted=651  blocked=272  elapsed=1558s
+   1540/1920  trajectories  calls=5000   tokens=9032680   usd=  0.000 err=0   exhausted=655  blocked=272  elapsed=1567s
+   1550/1920  trajectories  calls=5034   tokens=9080249   usd=  0.000 err=0   exhausted=657  blocked=272  elapsed=1617s
+   1560/1920  trajectories  calls=5072   tokens=9135330   usd=  0.000 err=0   exhausted=659  blocked=272  elapsed=1617s
+   1570/1920  trajectories  calls=5105   tokens=9189877   usd=  0.000 err=0   exhausted=662  blocked=272  elapsed=1645s
+   1580/1920  trajectories  calls=5137   tokens=9235653   usd=  0.000 err=0   exhausted=666  blocked=272  elapsed=1650s
+   1590/1920  trajectories  calls=5170   tokens=9294737   usd=  0.000 err=0   exhausted=670  blocked=272  elapsed=1650s
+   1600/1920  trajectories  calls=5206   tokens=9348789   usd=  0.000 err=0   exhausted=672  blocked=272  elapsed=1690s
+   1610/1920  trajectories  calls=5238   tokens=9395073   usd=  0.000 err=0   exhausted=674  blocked=272  elapsed=1690s
+   1620/1920  trajectories  calls=5268   tokens=9439794   usd=  0.000 err=0   exhausted=678  blocked=272  elapsed=1690s
+   1630/1920  trajectories  calls=5294   tokens=9492683   usd=  0.000 err=0   exhausted=682  blocked=272  elapsed=1842s
+   1640/1920  trajectories  calls=5332   tokens=9567007   usd=  0.000 err=0   exhausted=686  blocked=272  elapsed=1842s
+   1650/1920  trajectories  calls=5362   tokens=9613146   usd=  0.000 err=0   exhausted=690  blocked=272  elapsed=1842s
+   1660/1920  trajectories  calls=5397   tokens=9664213   usd=  0.000 err=0   exhausted=694  blocked=272  elapsed=1842s
+   1670/1920  trajectories  calls=5430   tokens=9712484   usd=  0.000 err=0   exhausted=698  blocked=272  elapsed=1842s
+   1680/1920  trajectories  calls=5468   tokens=9771068   usd=  0.000 err=0   exhausted=700  blocked=272  elapsed=1842s
+   1690/1920  trajectories  calls=5496   tokens=9811959   usd=  0.000 err=0   exhausted=702  blocked=274  elapsed=1842s
+   1700/1920  trajectories  calls=5529   tokens=9861673   usd=  0.000 err=0   exhausted=706  blocked=274  elapsed=1842s
+   1710/1920  trajectories  calls=5561   tokens=9903044   usd=  0.000 err=0   exhausted=708  blocked=274  elapsed=1842s
+   1720/1920  trajectories  calls=5623   tokens=10000782  usd=  0.000 err=0   exhausted=716  blocked=282  elapsed=1842s
+   1730/1920  trajectories  calls=5657   tokens=10051154  usd=  0.000 err=0   exhausted=720  blocked=282  elapsed=1842s
+   1740/1920  trajectories  calls=5689   tokens=10101566  usd=  0.000 err=0   exhausted=724  blocked=284  elapsed=1842s
+   1750/1920  trajectories  calls=5719   tokens=10142708  usd=  0.000 err=0   exhausted=726  blocked=284  elapsed=1842s
+   1760/1920  trajectories  calls=5751   tokens=10194351  usd=  0.000 err=0   exhausted=728  blocked=284  elapsed=1846s
+   1770/1920  trajectories  calls=5779   tokens=10237461  usd=  0.000 err=0   exhausted=730  blocked=284  elapsed=1846s
+   1780/1920  trajectories  calls=5807   tokens=10278975  usd=  0.000 err=0   exhausted=736  blocked=288  elapsed=1881s
+   1790/1920  trajectories  calls=5865   tokens=10368879  usd=  0.000 err=0   exhausted=742  blocked=292  elapsed=1881s
+   1800/1920  trajectories  calls=5906   tokens=10431253  usd=  0.000 err=0   exhausted=744  blocked=292  elapsed=1881s
+   1810/1920  trajectories  calls=5936   tokens=10479133  usd=  0.000 err=0   exhausted=748  blocked=292  elapsed=1911s
+   1820/1920  trajectories  calls=5961   tokens=10515150  usd=  0.000 err=0   exhausted=754  blocked=292  elapsed=1911s
+   1830/1920  trajectories  calls=5989   tokens=10557737  usd=  0.000 err=0   exhausted=756  blocked=292  elapsed=1911s
+   1840/1920  trajectories  calls=6023   tokens=10610447  usd=  0.000 err=0   exhausted=760  blocked=296  elapsed=1913s
+   1850/1920  trajectories  calls=6053   tokens=10655562  usd=  0.000 err=0   exhausted=762  blocked=296  elapsed=1920s
+   1860/1920  trajectories  calls=6081   tokens=10697638  usd=  0.000 err=0   exhausted=768  blocked=296  elapsed=1962s
+   1870/1920  trajectories  calls=6117   tokens=10754648  usd=  0.000 err=0   exhausted=770  blocked=296  elapsed=1962s
+   1880/1920  trajectories  calls=6156   tokens=10815437  usd=  0.000 err=0   exhausted=774  blocked=296  elapsed=1963s
+   1890/1920  trajectories  calls=6186   tokens=10862879  usd=  0.000 err=0   exhausted=780  blocked=296  elapsed=1975s
+   1900/1920  trajectories  calls=6216   tokens=10909806  usd=  0.000 err=0   exhausted=786  blocked=296  elapsed=1975s
+   1910/1920  trajectories  calls=6244   tokens=10952261  usd=  0.000 err=0   exhausted=788  blocked=298  elapsed=1975s
+   1920/1920  trajectories  calls=6280   tokens=11008108  usd=  0.000 err=0   exhausted=792  blocked=298  elapsed=2007s
+
+[e3] 1920 trajectories, 6280 calls, 11008108 all-tokens, 0 errors, 792 budget-exhausted, 298 blocked at the first final, 208 revised
+[e3] tools used: get_state 205, preview_dispatch 1926; guard calls 2208
+[e3] meta   : /home/ziheng/PaperL1/results/e3_qwen14b/run_meta_20260812T092845Z.json
+[e3] estimated spend this session: USD 0.00 (local (electricity only) base, retrieved -)

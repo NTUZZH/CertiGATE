@@ -1,0 +1,64 @@
+{
+ "date": "2026-08-11 20:26:22 +08",
+ "items": 2000,
+ "modes": [
+  "M_constrained",
+  "M_free"
+ ],
+ "repeats": 3,
+ "suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+ "schema_sha256": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+ "model_snapshot": "/home/ziheng/.cache/huggingface/hub/models--Qwen--Qwen3.6-27B-FP8/snapshots/e89b16ebf1988b3d6befa7de50abc2d76f26eb09/",
+ "prompt_version": "l1-prompt-1.0.0",
+ "top_k": 10,
+ "max_tokens": 1024,
+ "max_model_len": 16384,
+ "temperature": 0.0,
+ "seed": 0,
+ "backend": "xgrammar",
+ "gpu_at_launch": "NVIDIA RTX PRO 5000 Blackwell, 443, 48935, 0",
+ "walls_s": {
+  "M_constrained-r0": 1012.8371868749964,
+  "M_constrained-r1": 1003.7325368189922,
+  "M_constrained-r2": 1003.6036347729969,
+  "M_free-r0": 1013.4107182510052,
+  "M_free-r1": 1013.567757746001,
+  "M_free-r2": 1013.1659306400106
+ },
+ "repeat_agreement": {
+  "M_constrained": [
+   {
+    "pair": "r0r1",
+    "identical": 1786,
+    "of": 2000
+   },
+   {
+    "pair": "r0r2",
+    "identical": 1786,
+    "of": 2000
+   },
+   {
+    "pair": "r1r2",
+    "identical": 2000,
+    "of": 2000
+   }
+  ],
+  "M_free": [
+   {
+    "pair": "r0r1",
+    "identical": 2000,
+    "of": 2000
+   },
+   {
+    "pair": "r0r2",
+    "identical": 2000,
+    "of": 2000
+   },
+   {
+    "pair": "r1r2",
+    "identical": 2000,
+    "of": 2000
+   }
+  ]
+ }
+}

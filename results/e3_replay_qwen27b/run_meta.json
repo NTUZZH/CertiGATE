@@ -1,0 +1,24 @@
+{
+ "version": "l1-e3-eval-1",
+ "date": "2026-08-16 12:46:48 +08",
+ "trajectory_logs": [
+  "/home/ziheng/PaperL1/results/e3_qwen27b/trajectories.jsonl"
+ ],
+ "workers": 4,
+ "wall_s": 98.15170319296885,
+ "guard_config_hashes": {
+  "UNGUARDED": "b932b4a480c187968da8445242479be77d62341b7f35753f9cba7fdc3500dc89",
+  "G_FEAS": "6176c8978a84adf727594d2a7a574dad6e03628e1d3cdddefbf76cfa79122390",
+  "G_CERT": "52c094406252bf1ab57350d1ec4f9165f8bc4f7d83df2b99e1fb52356e829a42"
+ },
+ "suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+ "schema_sha256": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+ "stats": {
+  "rows_read": 960,
+  "superseded": 0,
+  "broken_lines": 0,
+  "unique_keys": 960,
+  "error_rows": 0
+ },
+ "terminal_mapping": "guidance Section 5.4; an empty operations list is a referral and outranks the guard's own reading of it, and an instrument fault is execution_failed, never a block"
+}

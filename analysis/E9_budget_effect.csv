@@ -1,0 +1,561 @@
+# generated 2026-08-17 17:51:50 +0800 by e3_analyze.py (l1-e3-analysis-1)
+# E3 dedup rule: last row per (arm, budget_level, pipeline, repeat, item_id); earlier rows are superseded attempts
+# suite suite.jsonl sha256 0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a
+# adjustment schema sha256 1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321
+# E3 slice E3-240 sha256 84b24f0232754344a4c16bcbe9e697b12aef9c707661a365c111424ee861e3e5 (240 items)
+# guard configurations: UNGUARDED b932b4a480c187968da8445242479be77d62341b7f35753f9cba7fdc3500dc89, G_FEAS 6176c8978a84adf727594d2a7a574dad6e03628e1d3cdddefbf76cfa79122390, G_CERT 52c094406252bf1ab57350d1ec4f9165f8bc4f7d83df2b99e1fb52356e829a42
+# ladder anchors: /home/ziheng/PaperL1/analysis/ladder (reconciliation 4208/4208 passed)
+# /home/ziheng/PaperL1/results/e3_qwen14b/trajectories.jsonl sha256 604f356e6dc1625f83c816221fe87a61676a25cfcb1d7942fb70461f699c1204
+# /home/ziheng/PaperL1/results/e3_qwen14b/calls.jsonl sha256 02b7d7d6018f16185c58c0c6db68aa04ece5e0071711ed35f388bd0eb90ff571
+# /home/ziheng/PaperL1/results/e3_replay_qwen14b/verdicts.jsonl sha256 02000960325ccbef18394354273795ab22638e252eb7a1f4478a8ad26ad99606
+# /home/ziheng/PaperL1/results/e3_replay_qwen14b/summary.json sha256 5db2ae0bb56ffb3cd22822db4e1535aec85967dda806639384344e9898153d5f
+# /home/ziheng/PaperL1/results/e3_qwen27b/trajectories.jsonl sha256 027f860346b1a8699699f98b05021a57f3087053d87d740770024d012bd1f278
+# /home/ziheng/PaperL1/results/e3_qwen27b/calls.jsonl sha256 465f593d8d41de1e32fe3bf0d1e53d39936a238d38580272b2b1bf89daebe699
+# /home/ziheng/PaperL1/results/e3_replay_qwen27b/verdicts.jsonl sha256 a21c32d9ff46d67068822a7b95db6bb4041d268e6816bf7351af8899ef3462de
+# /home/ziheng/PaperL1/results/e3_replay_qwen27b/summary.json sha256 857e61c9e8cb14d8b1bd2b391da3a187e9917d2b47c10839898994a8779622ee
+# /home/ziheng/PaperL1/results/e3_openai/trajectories.jsonl sha256 a43366e597f6d8b2d4daffc7aebc3c05aa81bbb589a47b61e51a28054483b788
+# /home/ziheng/PaperL1/results/e3_openai/calls.jsonl sha256 d77aca570ce5a50376931a1ae0d35fff1ed3fea87895e83b6c3a7ef8604f1136
+# /home/ziheng/PaperL1/results/e3_replay_openai/verdicts.jsonl sha256 168a8b20626a3b70ea16308f7a56af95abe146da4e5607fdb3d3b6f36692dfee
+# /home/ziheng/PaperL1/results/e3_replay_openai/summary.json sha256 ce1e2d5d91be629bf059f7d3c8e0efb53b698f89a07ace4fd5eb397b459fe62f
+# /home/ziheng/PaperL1/results/e3_deepseek/trajectories.jsonl sha256 4d34fcdb78f405748b1cd8b7784f4b37f059c12a59232629b059f4593d04197f
+# /home/ziheng/PaperL1/results/e3_deepseek/calls.jsonl sha256 e27dd7d19e9b1613dab14d2b85bc49c97b3471e52d4880f3e6ab8367e230b7c5
+# /home/ziheng/PaperL1/results/e3_replay_deepseek/verdicts.jsonl sha256 8e42a2c7a2730cee28e6de7aba54b4f96f88c87a712eb5a95c83fb8549106d4b
+# /home/ziheng/PaperL1/results/e3_replay_deepseek/summary.json sha256 71a18e38480b7f4c69cf1a64175231c5224f8361300d2f0f77b35a9f3c5b13a9
+# /home/ziheng/PaperL1/results/e3_sonnet/trajectories.jsonl sha256 36fb12389daceec2a8b4a11779c4593c3af3bc25887c8888fb94d3aba49a129e
+# /home/ziheng/PaperL1/results/e3_sonnet/calls.jsonl sha256 951b14ebefb47a1fe40b4caffab1c97f397551ff4d921e9e4e00f47678c87753
+# /home/ziheng/PaperL1/results/e3_replay_sonnet/verdicts.jsonl sha256 8784318b09fb75599bb1d562cf156c3838b407833647fe82712e333b3d46ca36
+# /home/ziheng/PaperL1/results/e3_replay_sonnet/summary.json sha256 220adec6a82e3698c5d713681dd05f902ad4f943fd1fc8147ce427e8b319e7ed
+# /home/ziheng/PaperL1/results/e3_opus/trajectories.jsonl sha256 e8e32230b294a996e3e6cca11deae0fabf5f3d9d157707d540d628e189c27772
+# /home/ziheng/PaperL1/results/e3_opus/calls.jsonl sha256 9e0d0e5ec13594ddb69278766aaadcff2d0e89dfb1c7bc78e422bac1a019ade6
+# /home/ziheng/PaperL1/results/e3_replay_opus/verdicts.jsonl sha256 9af87fa798a1aede09a82db34cadee9455d6d20b65302c16f0a4ac89b2453a17
+# /home/ziheng/PaperL1/results/e3_replay_opus/summary.json sha256 c4ee48fb4393dcaff42794cf3b16690777bf827faed96f0df60a48b823ccc2f1
+# every verdict is recomputed from the trajectory log with e3_replay's own evaluation path and asserted equal to results/e3_replay_*; no number is adjusted to make an assertion pass
+arm,model,subject,subject_kind,metric,metric_kind,tight,loose,delta_loose_minus_tight,sign_tight,sign_loose,ordering_flips
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G,variant,n,cost,480.000000,480.000000,0.000000,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G,variant,cap_binding_share,cost,0.570833,0.037500,-0.533333,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G,variant,all_tokens_median,cost,3005.000000,4434.000000,1429.000000,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G,variant,variant_tokens_median,cost,3005.000000,4434.000000,1429.000000,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G,variant,variant_tokens_mean,cost,3308.664583,5012.141667,1703.477083,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G,variant,wall_s_mean,cost,2.607954,3.658385,1.050431,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G,variant,usd_total,cost,0.000000,0.000000,0.000000,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G,variant,wwt_original_mean_bh,outcome,703.800505,703.869860,0.069355,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G,variant,wwt_original_median_bh,outcome,637.751600,637.751600,0.000000,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G,variant,wwt_vs_rule_mean_bh,outcome,0.707582,0.776937,0.069355,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G,variant,warranted_outcome_rate,outcome,0.989583,0.995833,0.006250,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G,variant,violation_pass_through,outcome,0.250000,0.472222,0.222222,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G,variant,violation_pass_through_strict,outcome,0.173611,0.368056,0.194444,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G,variant,false_block_rate,outcome,0.026042,0.010417,-0.015625,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G,variant,certified_gap_median,outcome,0.017173,0.010113,-0.007060,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G,variant,n,cost,480.000000,480.000000,0.000000,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G,variant,cap_binding_share,cost,1.000000,0.041667,-0.958333,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G,variant,all_tokens_median,cost,3646.000000,10283.500000,6637.500000,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G,variant,variant_tokens_median,cost,3646.000000,10283.500000,6637.500000,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G,variant,variant_tokens_mean,cost,3671.558333,10941.193750,7269.635417,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G,variant,wall_s_mean,cost,6.157586,12.252780,6.095194,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G,variant,usd_total,cost,0.000000,0.000000,0.000000,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G,variant,wwt_original_mean_bh,outcome,703.092923,705.717418,2.624495,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G,variant,wwt_original_median_bh,outcome,637.751600,637.751600,0.000000,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G,variant,wwt_vs_rule_mean_bh,outcome,0.000000,2.624495,2.624495,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G,variant,warranted_outcome_rate,outcome,0.997917,0.995833,-0.002083,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G,variant,violation_pass_through,outcome,0.020833,0.559028,0.538194,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G,variant,violation_pass_through_strict,outcome,0.020833,0.454861,0.434028,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G,variant,false_block_rate,outcome,0.005208,0.010417,0.005208,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G,variant,certified_gap_median,outcome,0.003614,0.005462,0.001848,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-UG,variant,n,cost,480.000000,480.000000,0.000000,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-UG,variant,cap_binding_share,cost,1.000000,0.041667,-0.958333,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-UG,variant,all_tokens_median,cost,3646.000000,10283.500000,6637.500000,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-UG,variant,variant_tokens_median,cost,3646.000000,9986.500000,6340.500000,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-UG,variant,variant_tokens_mean,cost,3671.558333,10425.800000,6754.241667,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-UG,variant,wall_s_mean,cost,6.157586,12.252780,6.095194,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-UG,variant,usd_total,cost,0.000000,0.000000,0.000000,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-UG,variant,wwt_original_mean_bh,outcome,703.398427,744.918853,41.520426,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-UG,variant,wwt_original_median_bh,outcome,637.751600,652.963600,15.212000,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-UG,variant,wwt_vs_rule_mean_bh,outcome,0.305503,41.825929,41.520426,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-UG,variant,warranted_outcome_rate,outcome,0.979167,0.093750,-0.885417,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-UG,variant,violation_pass_through,outcome,0.020833,0.736111,0.715278,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-UG,variant,violation_pass_through_strict,outcome,0.020833,0.625000,0.604167,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-UG,variant,false_block_rate,outcome,0.000000,0.000000,0.000000,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-UG,variant,certified_gap_median,outcome,,,,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE-UG *,variant,n,cost,480.000000,480.000000,0.000000,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE-UG *,variant,cap_binding_share,cost,0.570833,0.037500,-0.533333,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE-UG *,variant,all_tokens_median,cost,3005.000000,4434.000000,1429.000000,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE-UG *,variant,variant_tokens_median,cost,2999.500000,3954.000000,954.500000,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE-UG *,variant,variant_tokens_mean,cost,3302.022917,4410.862500,1108.839583,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE-UG *,variant,wall_s_mean,cost,2.607954,3.658385,1.050431,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE-UG *,variant,usd_total,cost,0.000000,0.000000,0.000000,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE-UG *,variant,wwt_original_mean_bh,outcome,740.946444,745.322954,4.376510,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE-UG *,variant,wwt_original_median_bh,outcome,637.751600,652.963600,15.212000,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE-UG *,variant,wwt_vs_rule_mean_bh,outcome,37.853521,42.230031,4.376510,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE-UG *,variant,warranted_outcome_rate,outcome,0.502083,0.150000,-0.352083,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE-UG *,variant,violation_pass_through,outcome,0.392361,0.659722,0.267361,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE-UG *,variant,violation_pass_through_strict,outcome,0.309028,0.548611,0.239583,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE-UG *,variant,false_block_rate,outcome,0.000000,0.000000,0.000000,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE-UG *,variant,certified_gap_median,outcome,,,,,,
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G minus MULTI-G,ordering,cap_binding_share,cost,-0.429167,-0.004167,0.425000,-,-,False
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G minus MULTI-G,ordering,all_tokens_median,cost,-641.000000,-5849.500000,-5208.500000,-,-,False
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G minus MULTI-G,ordering,variant_tokens_median,cost,-641.000000,-5849.500000,-5208.500000,-,-,False
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G minus MULTI-G,ordering,variant_tokens_mean,cost,-362.893750,-5929.052083,-5566.158333,-,-,False
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G minus MULTI-G,ordering,wall_s_mean,cost,-3.549632,-8.594394,-5.044763,-,-,False
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G minus MULTI-G,ordering,usd_total,cost,0.000000,0.000000,0.000000,0,0,False
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G minus MULTI-G,ordering,wwt_original_mean_bh,outcome,0.707582,-1.847558,-2.555140,+,-,True
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G minus MULTI-G,ordering,wwt_original_median_bh,outcome,0.000000,0.000000,0.000000,0,0,False
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G minus MULTI-G,ordering,wwt_vs_rule_mean_bh,outcome,0.707582,-1.847558,-2.555140,+,-,True
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G minus MULTI-G,ordering,warranted_outcome_rate,outcome,-0.008333,0.000000,0.008333,-,0,False
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G minus MULTI-G,ordering,violation_pass_through,outcome,0.229167,-0.086806,-0.315972,+,-,True
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G minus MULTI-G,ordering,violation_pass_through_strict,outcome,0.152778,-0.086806,-0.239583,+,-,True
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G minus MULTI-G,ordering,false_block_rate,outcome,0.020833,0.000000,-0.020833,+,0,False
+qwen14b,"Qwen3-14B (open, local, BF16)",SINGLE+G minus MULTI-G,ordering,certified_gap_median,outcome,0.013558,0.004651,-0.008907,+,+,False
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G minus MULTI-UG,ordering,cap_binding_share,cost,0.000000,0.000000,0.000000,0,0,False
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G minus MULTI-UG,ordering,all_tokens_median,cost,0.000000,0.000000,0.000000,0,0,False
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G minus MULTI-UG,ordering,variant_tokens_median,cost,0.000000,297.000000,297.000000,0,+,False
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G minus MULTI-UG,ordering,variant_tokens_mean,cost,0.000000,515.393750,515.393750,0,+,False
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G minus MULTI-UG,ordering,wall_s_mean,cost,0.000000,0.000000,0.000000,0,0,False
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G minus MULTI-UG,ordering,usd_total,cost,0.000000,0.000000,0.000000,0,0,False
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G minus MULTI-UG,ordering,wwt_original_mean_bh,outcome,-0.305503,-39.201434,-38.895931,-,-,False
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G minus MULTI-UG,ordering,wwt_original_median_bh,outcome,0.000000,-15.212000,-15.212000,0,-,False
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G minus MULTI-UG,ordering,wwt_vs_rule_mean_bh,outcome,-0.305503,-39.201434,-38.895931,-,-,False
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G minus MULTI-UG,ordering,warranted_outcome_rate,outcome,0.018750,0.902083,0.883333,+,+,False
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G minus MULTI-UG,ordering,violation_pass_through,outcome,0.000000,-0.177083,-0.177083,0,-,False
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G minus MULTI-UG,ordering,violation_pass_through_strict,outcome,0.000000,-0.170139,-0.170139,0,-,False
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G minus MULTI-UG,ordering,false_block_rate,outcome,0.005208,0.010417,0.005208,+,+,False
+qwen14b,"Qwen3-14B (open, local, BF16)",MULTI-G minus MULTI-UG,ordering,certified_gap_median,outcome,,,,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G,variant,n,cost,240.000000,240.000000,0.000000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G,variant,cap_binding_share,cost,0.525000,0.058333,-0.466667,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G,variant,all_tokens_median,cost,2932.500000,3703.500000,771.000000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G,variant,variant_tokens_median,cost,2932.500000,3703.500000,771.000000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G,variant,variant_tokens_mean,cost,2583.883333,4412.091667,1828.208333,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G,variant,wall_s_mean,cost,3.567088,6.481794,2.914706,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G,variant,usd_total,cost,0.000000,0.000000,0.000000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G,variant,wwt_original_mean_bh,outcome,702.944220,705.178294,2.234074,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G,variant,wwt_original_median_bh,outcome,637.751600,637.751600,0.000000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G,variant,wwt_vs_rule_mean_bh,outcome,-0.148703,2.085371,2.234074,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G,variant,warranted_outcome_rate,outcome,0.987500,0.987500,0.000000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G,variant,violation_pass_through,outcome,0.291667,0.513889,0.222222,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G,variant,violation_pass_through_strict,outcome,0.222222,0.381944,0.159722,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G,variant,false_block_rate,outcome,0.031250,0.031250,0.000000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G,variant,certified_gap_median,outcome,0.010113,0.007960,-0.002153,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G,variant,n,cost,240.000000,240.000000,0.000000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G,variant,cap_binding_share,cost,1.000000,0.133333,-0.866667,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G,variant,all_tokens_median,cost,2838.000000,9698.500000,6860.500000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G,variant,variant_tokens_median,cost,2838.000000,9698.500000,6860.500000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G,variant,variant_tokens_mean,cost,2608.958333,9515.591667,6906.633333,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G,variant,wall_s_mean,cost,10.057595,22.972016,12.914421,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G,variant,usd_total,cost,0.000000,0.000000,0.000000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G,variant,wwt_original_mean_bh,outcome,703.092923,705.917877,2.824954,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G,variant,wwt_original_median_bh,outcome,637.751600,637.751600,0.000000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G,variant,wwt_vs_rule_mean_bh,outcome,0.000000,2.824954,2.824954,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G,variant,warranted_outcome_rate,outcome,1.000000,0.979167,-0.020833,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G,variant,violation_pass_through,outcome,0.000000,0.500000,0.500000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G,variant,violation_pass_through_strict,outcome,0.000000,0.381944,0.381944,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G,variant,false_block_rate,outcome,0.000000,0.052083,0.052083,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G,variant,certified_gap_median,outcome,,0.007960,,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-UG,variant,n,cost,240.000000,240.000000,0.000000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-UG,variant,cap_binding_share,cost,1.000000,0.133333,-0.866667,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-UG,variant,all_tokens_median,cost,2838.000000,9698.500000,6860.500000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-UG,variant,variant_tokens_median,cost,2838.000000,8525.500000,5687.500000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-UG,variant,variant_tokens_mean,cost,2608.958333,9133.133333,6524.175000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-UG,variant,wall_s_mean,cost,10.057595,22.972016,12.914421,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-UG,variant,usd_total,cost,0.000000,0.000000,0.000000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-UG,variant,wwt_original_mean_bh,outcome,703.092923,742.706646,39.613723,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-UG,variant,wwt_original_median_bh,outcome,637.751600,652.963600,15.212000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-UG,variant,wwt_vs_rule_mean_bh,outcome,0.000000,39.613722,39.613722,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-UG,variant,warranted_outcome_rate,outcome,1.000000,0.204167,-0.795833,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-UG,variant,violation_pass_through,outcome,0.000000,0.625000,0.625000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-UG,variant,violation_pass_through_strict,outcome,0.000000,0.500000,0.500000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-UG,variant,false_block_rate,outcome,0.000000,0.000000,0.000000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-UG,variant,certified_gap_median,outcome,,,,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE-UG *,variant,n,cost,240.000000,240.000000,0.000000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE-UG *,variant,cap_binding_share,cost,0.525000,0.058333,-0.466667,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE-UG *,variant,all_tokens_median,cost,2932.500000,3703.500000,771.000000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE-UG *,variant,variant_tokens_median,cost,2932.500000,3157.000000,224.500000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE-UG *,variant,variant_tokens_mean,cost,2583.883333,3734.891667,1151.008333,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE-UG *,variant,wall_s_mean,cost,3.567088,6.481794,2.914706,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE-UG *,variant,usd_total,cost,0.000000,0.000000,0.000000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE-UG *,variant,wwt_original_mean_bh,outcome,715.462464,741.086074,25.623610,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE-UG *,variant,wwt_original_median_bh,outcome,637.751600,637.751600,0.000000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE-UG *,variant,wwt_vs_rule_mean_bh,outcome,12.369541,37.993151,25.623610,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE-UG *,variant,warranted_outcome_rate,outcome,0.529167,0.175000,-0.354167,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE-UG *,variant,violation_pass_through,outcome,0.333333,0.625000,0.291667,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE-UG *,variant,violation_pass_through_strict,outcome,0.263889,0.486111,0.222222,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE-UG *,variant,false_block_rate,outcome,0.000000,0.000000,0.000000,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE-UG *,variant,certified_gap_median,outcome,,,,,,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G minus MULTI-G,ordering,cap_binding_share,cost,-0.475000,-0.075000,0.400000,-,-,False
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G minus MULTI-G,ordering,all_tokens_median,cost,94.500000,-5995.000000,-6089.500000,+,-,True
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G minus MULTI-G,ordering,variant_tokens_median,cost,94.500000,-5995.000000,-6089.500000,+,-,True
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G minus MULTI-G,ordering,variant_tokens_mean,cost,-25.075000,-5103.500000,-5078.425000,-,-,False
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G minus MULTI-G,ordering,wall_s_mean,cost,-6.490507,-16.490222,-9.999715,-,-,False
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G minus MULTI-G,ordering,usd_total,cost,0.000000,0.000000,0.000000,0,0,False
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G minus MULTI-G,ordering,wwt_original_mean_bh,outcome,-0.148703,-0.739583,-0.590880,-,-,False
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G minus MULTI-G,ordering,wwt_original_median_bh,outcome,0.000000,0.000000,0.000000,0,0,False
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G minus MULTI-G,ordering,wwt_vs_rule_mean_bh,outcome,-0.148703,-0.739583,-0.590880,-,-,False
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G minus MULTI-G,ordering,warranted_outcome_rate,outcome,-0.012500,0.008333,0.020833,-,+,True
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G minus MULTI-G,ordering,violation_pass_through,outcome,0.291667,0.013889,-0.277778,+,+,False
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G minus MULTI-G,ordering,violation_pass_through_strict,outcome,0.222222,0.000000,-0.222222,+,0,False
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G minus MULTI-G,ordering,false_block_rate,outcome,0.031250,-0.020833,-0.052083,+,-,True
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",SINGLE+G minus MULTI-G,ordering,certified_gap_median,outcome,,0.000000,,,0,
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G minus MULTI-UG,ordering,cap_binding_share,cost,0.000000,0.000000,0.000000,0,0,False
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G minus MULTI-UG,ordering,all_tokens_median,cost,0.000000,0.000000,0.000000,0,0,False
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G minus MULTI-UG,ordering,variant_tokens_median,cost,0.000000,1173.000000,1173.000000,0,+,False
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G minus MULTI-UG,ordering,variant_tokens_mean,cost,0.000000,382.458333,382.458333,0,+,False
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G minus MULTI-UG,ordering,wall_s_mean,cost,0.000000,0.000000,0.000000,0,0,False
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G minus MULTI-UG,ordering,usd_total,cost,0.000000,0.000000,0.000000,0,0,False
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G minus MULTI-UG,ordering,wwt_original_mean_bh,outcome,0.000000,-36.788768,-36.788768,0,-,False
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G minus MULTI-UG,ordering,wwt_original_median_bh,outcome,0.000000,-15.212000,-15.212000,0,-,False
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G minus MULTI-UG,ordering,wwt_vs_rule_mean_bh,outcome,0.000000,-36.788768,-36.788768,0,-,False
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G minus MULTI-UG,ordering,warranted_outcome_rate,outcome,0.000000,0.775000,0.775000,0,+,False
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G minus MULTI-UG,ordering,violation_pass_through,outcome,0.000000,-0.125000,-0.125000,0,-,False
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G minus MULTI-UG,ordering,violation_pass_through_strict,outcome,0.000000,-0.118056,-0.118056,0,-,False
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G minus MULTI-UG,ordering,false_block_rate,outcome,0.000000,0.052083,0.052083,0,+,False
+qwen27b,"Qwen3.6-27B-FP8 (open, local, quantized)",MULTI-G minus MULTI-UG,ordering,certified_gap_median,outcome,,,,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G,variant,n,cost,240.000000,240.000000,0.000000,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G,variant,cap_binding_share,cost,0.350000,0.029167,-0.320833,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G,variant,all_tokens_median,cost,3009.000000,3660.000000,651.000000,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G,variant,variant_tokens_median,cost,3009.000000,3660.000000,651.000000,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G,variant,variant_tokens_mean,cost,3244.000000,4424.366667,1180.366667,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G,variant,wall_s_mean,cost,2.418212,3.073701,0.655488,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G,variant,usd_total,cost,0.592905,0.634013,0.041108,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G,variant,wwt_original_mean_bh,outcome,705.017402,706.324591,1.307189,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G,variant,wwt_original_median_bh,outcome,637.751600,637.751600,0.000000,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G,variant,wwt_vs_rule_mean_bh,outcome,1.924478,3.231667,1.307189,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G,variant,warranted_outcome_rate,outcome,0.975000,0.995833,0.020833,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G,variant,violation_pass_through,outcome,0.458333,0.618056,0.159722,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G,variant,violation_pass_through_strict,outcome,0.340278,0.493056,0.152778,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G,variant,false_block_rate,outcome,0.062500,0.010417,-0.052083,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G,variant,certified_gap_median,outcome,0.010924,0.007960,-0.002965,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G,variant,n,cost,240.000000,240.000000,0.000000,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G,variant,cap_binding_share,cost,1.000000,0.045833,-0.954167,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G,variant,all_tokens_median,cost,2540.000000,6702.000000,4162.000000,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G,variant,variant_tokens_median,cost,2540.000000,6702.000000,4162.000000,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G,variant,variant_tokens_mean,cost,2854.862500,7710.691667,4855.829167,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G,variant,wall_s_mean,cost,3.474750,6.176458,2.701708,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G,variant,usd_total,cost,0.682808,1.269054,0.586245,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G,variant,wwt_original_mean_bh,outcome,703.092923,707.713187,4.620264,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G,variant,wwt_original_median_bh,outcome,637.751600,637.751600,0.000000,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G,variant,wwt_vs_rule_mean_bh,outcome,0.000000,4.620264,4.620264,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G,variant,warranted_outcome_rate,outcome,1.000000,0.995833,-0.004167,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G,variant,violation_pass_through,outcome,0.041667,0.631944,0.590278,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G,variant,violation_pass_through_strict,outcome,0.041667,0.506944,0.465278,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G,variant,false_block_rate,outcome,0.000000,0.010417,0.010417,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G,variant,certified_gap_median,outcome,0.000000,0.008896,0.008896,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-UG,variant,n,cost,240.000000,240.000000,0.000000,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-UG,variant,cap_binding_share,cost,1.000000,0.045833,-0.954167,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-UG,variant,all_tokens_median,cost,2540.000000,6702.000000,4162.000000,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-UG,variant,variant_tokens_median,cost,2540.000000,6429.500000,3889.500000,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-UG,variant,variant_tokens_mean,cost,2854.862500,6917.150000,4062.287500,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-UG,variant,wall_s_mean,cost,3.474750,6.176458,2.701708,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-UG,variant,usd_total,cost,0.682808,1.269054,0.586245,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-UG,variant,wwt_original_mean_bh,outcome,705.046928,745.788529,40.741601,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-UG,variant,wwt_original_median_bh,outcome,637.751600,652.963600,15.212000,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-UG,variant,wwt_vs_rule_mean_bh,outcome,1.954005,42.695606,40.741601,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-UG,variant,warranted_outcome_rate,outcome,0.920833,0.045833,-0.875000,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-UG,variant,violation_pass_through,outcome,0.048611,0.750000,0.701389,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-UG,variant,violation_pass_through_strict,outcome,0.048611,0.618056,0.569444,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-UG,variant,false_block_rate,outcome,0.000000,0.000000,0.000000,,,
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-UG,variant,certified_gap_median,outcome,,,,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE-UG *,variant,n,cost,240.000000,240.000000,0.000000,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE-UG *,variant,cap_binding_share,cost,0.350000,0.029167,-0.320833,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE-UG *,variant,all_tokens_median,cost,3009.000000,3660.000000,651.000000,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE-UG *,variant,variant_tokens_median,cost,2994.000000,3486.000000,492.000000,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE-UG *,variant,variant_tokens_mean,cost,3225.012500,3643.837500,418.825000,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE-UG *,variant,wall_s_mean,cost,2.418212,3.073701,0.655488,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE-UG *,variant,usd_total,cost,0.592905,0.634013,0.041108,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE-UG *,variant,wwt_original_mean_bh,outcome,738.539906,751.111042,12.571137,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE-UG *,variant,wwt_original_median_bh,outcome,637.751600,652.963600,15.212000,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE-UG *,variant,wwt_vs_rule_mean_bh,outcome,35.446982,48.018119,12.571137,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE-UG *,variant,warranted_outcome_rate,outcome,0.204167,0.070833,-0.133333,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE-UG *,variant,violation_pass_through,outcome,0.604167,0.722222,0.118056,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE-UG *,variant,violation_pass_through_strict,outcome,0.479167,0.590278,0.111111,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE-UG *,variant,false_block_rate,outcome,0.000000,0.000000,0.000000,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE-UG *,variant,certified_gap_median,outcome,,,,,,
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G minus MULTI-G,ordering,cap_binding_share,cost,-0.650000,-0.016667,0.633333,-,-,False
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G minus MULTI-G,ordering,all_tokens_median,cost,469.000000,-3042.000000,-3511.000000,+,-,True
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G minus MULTI-G,ordering,variant_tokens_median,cost,469.000000,-3042.000000,-3511.000000,+,-,True
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G minus MULTI-G,ordering,variant_tokens_mean,cost,389.137500,-3286.325000,-3675.462500,+,-,True
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G minus MULTI-G,ordering,wall_s_mean,cost,-1.056537,-3.102757,-2.046220,-,-,False
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G minus MULTI-G,ordering,usd_total,cost,-0.089904,-0.635041,-0.545137,-,-,False
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G minus MULTI-G,ordering,wwt_original_mean_bh,outcome,1.924478,-1.388597,-3.313075,+,-,True
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G minus MULTI-G,ordering,wwt_original_median_bh,outcome,0.000000,0.000000,0.000000,0,0,False
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G minus MULTI-G,ordering,wwt_vs_rule_mean_bh,outcome,1.924478,-1.388597,-3.313075,+,-,True
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G minus MULTI-G,ordering,warranted_outcome_rate,outcome,-0.025000,0.000000,0.025000,-,0,False
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G minus MULTI-G,ordering,violation_pass_through,outcome,0.416667,-0.013889,-0.430556,+,-,True
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G minus MULTI-G,ordering,violation_pass_through_strict,outcome,0.298611,-0.013889,-0.312500,+,-,True
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G minus MULTI-G,ordering,false_block_rate,outcome,0.062500,0.000000,-0.062500,+,0,False
+openai,"GPT-5.4-mini (closed, budget tier)",SINGLE+G minus MULTI-G,ordering,certified_gap_median,outcome,0.010924,-0.000936,-0.011861,+,-,True
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G minus MULTI-UG,ordering,cap_binding_share,cost,0.000000,0.000000,0.000000,0,0,False
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G minus MULTI-UG,ordering,all_tokens_median,cost,0.000000,0.000000,0.000000,0,0,False
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G minus MULTI-UG,ordering,variant_tokens_median,cost,0.000000,272.500000,272.500000,0,+,False
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G minus MULTI-UG,ordering,variant_tokens_mean,cost,0.000000,793.541667,793.541667,0,+,False
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G minus MULTI-UG,ordering,wall_s_mean,cost,0.000000,0.000000,0.000000,0,0,False
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G minus MULTI-UG,ordering,usd_total,cost,0.000000,0.000000,0.000000,0,0,False
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G minus MULTI-UG,ordering,wwt_original_mean_bh,outcome,-1.954005,-38.075342,-36.121337,-,-,False
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G minus MULTI-UG,ordering,wwt_original_median_bh,outcome,0.000000,-15.212000,-15.212000,0,-,False
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G minus MULTI-UG,ordering,wwt_vs_rule_mean_bh,outcome,-1.954005,-38.075342,-36.121337,-,-,False
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G minus MULTI-UG,ordering,warranted_outcome_rate,outcome,0.079167,0.950000,0.870833,+,+,False
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G minus MULTI-UG,ordering,violation_pass_through,outcome,-0.006944,-0.118056,-0.111111,-,-,False
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G minus MULTI-UG,ordering,violation_pass_through_strict,outcome,-0.006944,-0.111111,-0.104167,-,-,False
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G minus MULTI-UG,ordering,false_block_rate,outcome,0.000000,0.010417,0.010417,0,+,False
+openai,"GPT-5.4-mini (closed, budget tier)",MULTI-G minus MULTI-UG,ordering,certified_gap_median,outcome,,,,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G,variant,n,cost,240.000000,240.000000,0.000000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G,variant,cap_binding_share,cost,0.729167,0.245833,-0.483333,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G,variant,all_tokens_median,cost,3409.500000,5036.000000,1626.500000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G,variant,variant_tokens_median,cost,3409.500000,5036.000000,1626.500000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G,variant,variant_tokens_mean,cost,3344.029167,8411.762500,5067.733333,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G,variant,wall_s_mean,cost,4.473347,9.838112,5.364765,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G,variant,usd_total,cost,0.110663,0.106103,-0.004561,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G,variant,wwt_original_mean_bh,outcome,703.089017,703.318172,0.229155,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G,variant,wwt_original_median_bh,outcome,637.751600,637.751600,0.000000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G,variant,wwt_vs_rule_mean_bh,outcome,-0.003907,0.225248,0.229155,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G,variant,warranted_outcome_rate,outcome,0.970833,1.000000,0.029167,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G,variant,violation_pass_through,outcome,0.048611,0.270833,0.222222,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G,variant,violation_pass_through_strict,outcome,0.041667,0.187500,0.145833,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G,variant,false_block_rate,outcome,0.072917,0.000000,-0.072917,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G,variant,certified_gap_median,outcome,0.002671,0.010132,0.007461,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G,variant,n,cost,240.000000,240.000000,0.000000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G,variant,cap_binding_share,cost,1.000000,0.166667,-0.833333,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G,variant,all_tokens_median,cost,3408.000000,8519.000000,5111.000000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G,variant,variant_tokens_median,cost,3408.000000,8519.000000,5111.000000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G,variant,variant_tokens_mean,cost,3398.720833,9892.200000,6493.479167,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G,variant,wall_s_mean,cost,7.587427,14.718127,7.130700,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G,variant,usd_total,cost,0.169068,0.248330,0.079262,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G,variant,wwt_original_mean_bh,outcome,703.092923,703.125927,0.033003,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G,variant,wwt_original_median_bh,outcome,637.751600,637.751600,0.000000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G,variant,wwt_vs_rule_mean_bh,outcome,0.000000,0.033003,0.033003,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G,variant,warranted_outcome_rate,outcome,0.995833,1.000000,0.004167,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G,variant,violation_pass_through,outcome,0.000000,0.361111,0.361111,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G,variant,violation_pass_through_strict,outcome,0.000000,0.284722,0.284722,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G,variant,false_block_rate,outcome,0.010417,0.000000,-0.010417,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G,variant,certified_gap_median,outcome,,0.012309,,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-UG,variant,n,cost,240.000000,240.000000,0.000000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-UG,variant,cap_binding_share,cost,1.000000,0.166667,-0.833333,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-UG,variant,all_tokens_median,cost,3408.000000,8519.000000,5111.000000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-UG,variant,variant_tokens_median,cost,3408.000000,6332.500000,2924.500000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-UG,variant,variant_tokens_mean,cost,3398.720833,6736.745833,3338.025000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-UG,variant,wall_s_mean,cost,7.587427,14.718127,7.130700,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-UG,variant,usd_total,cost,0.169068,0.248330,0.079262,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-UG,variant,wwt_original_mean_bh,outcome,703.092923,703.092923,0.000000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-UG,variant,wwt_original_median_bh,outcome,637.751600,637.751600,0.000000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-UG,variant,wwt_vs_rule_mean_bh,outcome,0.000000,0.000000,0.000000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-UG,variant,warranted_outcome_rate,outcome,0.995833,1.000000,0.004167,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-UG,variant,violation_pass_through,outcome,0.000000,0.000000,0.000000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-UG,variant,violation_pass_through_strict,outcome,0.000000,0.000000,0.000000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-UG,variant,false_block_rate,outcome,0.000000,0.000000,0.000000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-UG,variant,certified_gap_median,outcome,,,,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE-UG *,variant,n,cost,240.000000,240.000000,0.000000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE-UG *,variant,cap_binding_share,cost,0.729167,0.245833,-0.483333,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE-UG *,variant,all_tokens_median,cost,3409.500000,5036.000000,1626.500000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE-UG *,variant,variant_tokens_median,cost,3304.500000,3398.000000,93.500000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE-UG *,variant,variant_tokens_mean,cost,3156.029167,3545.029167,389.000000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE-UG *,variant,wall_s_mean,cost,4.473347,9.838112,5.364765,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE-UG *,variant,usd_total,cost,0.110663,0.106103,-0.004561,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE-UG *,variant,wwt_original_mean_bh,outcome,703.092923,703.092923,0.000000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE-UG *,variant,wwt_original_median_bh,outcome,637.751600,637.751600,0.000000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE-UG *,variant,wwt_vs_rule_mean_bh,outcome,0.000000,0.000000,0.000000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE-UG *,variant,warranted_outcome_rate,outcome,0.937500,1.000000,0.062500,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE-UG *,variant,violation_pass_through,outcome,0.000000,0.000000,0.000000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE-UG *,variant,violation_pass_through_strict,outcome,0.000000,0.000000,0.000000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE-UG *,variant,false_block_rate,outcome,0.000000,0.000000,0.000000,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE-UG *,variant,certified_gap_median,outcome,,,,,,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G minus MULTI-G,ordering,cap_binding_share,cost,-0.270833,0.079167,0.350000,-,+,True
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G minus MULTI-G,ordering,all_tokens_median,cost,1.500000,-3483.000000,-3484.500000,+,-,True
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G minus MULTI-G,ordering,variant_tokens_median,cost,1.500000,-3483.000000,-3484.500000,+,-,True
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G minus MULTI-G,ordering,variant_tokens_mean,cost,-54.691667,-1480.437500,-1425.745833,-,-,False
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G minus MULTI-G,ordering,wall_s_mean,cost,-3.114080,-4.880015,-1.765935,-,-,False
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G minus MULTI-G,ordering,usd_total,cost,-0.058404,-0.142228,-0.083823,-,-,False
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G minus MULTI-G,ordering,wwt_original_mean_bh,outcome,-0.003907,0.192245,0.196152,-,+,True
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G minus MULTI-G,ordering,wwt_original_median_bh,outcome,0.000000,0.000000,0.000000,0,0,False
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G minus MULTI-G,ordering,wwt_vs_rule_mean_bh,outcome,-0.003907,0.192245,0.196152,-,+,True
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G minus MULTI-G,ordering,warranted_outcome_rate,outcome,-0.025000,0.000000,0.025000,-,0,False
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G minus MULTI-G,ordering,violation_pass_through,outcome,0.048611,-0.090278,-0.138889,+,-,True
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G minus MULTI-G,ordering,violation_pass_through_strict,outcome,0.041667,-0.097222,-0.138889,+,-,True
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G minus MULTI-G,ordering,false_block_rate,outcome,0.062500,0.000000,-0.062500,+,0,False
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",SINGLE+G minus MULTI-G,ordering,certified_gap_median,outcome,,-0.002177,,,-,
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G minus MULTI-UG,ordering,cap_binding_share,cost,0.000000,0.000000,0.000000,0,0,False
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G minus MULTI-UG,ordering,all_tokens_median,cost,0.000000,0.000000,0.000000,0,0,False
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G minus MULTI-UG,ordering,variant_tokens_median,cost,0.000000,2186.500000,2186.500000,0,+,False
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G minus MULTI-UG,ordering,variant_tokens_mean,cost,0.000000,3155.454167,3155.454167,0,+,False
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G minus MULTI-UG,ordering,wall_s_mean,cost,0.000000,0.000000,0.000000,0,0,False
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G minus MULTI-UG,ordering,usd_total,cost,0.000000,0.000000,0.000000,0,0,False
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G minus MULTI-UG,ordering,wwt_original_mean_bh,outcome,0.000000,0.033003,0.033003,0,+,False
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G minus MULTI-UG,ordering,wwt_original_median_bh,outcome,0.000000,0.000000,0.000000,0,0,False
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G minus MULTI-UG,ordering,wwt_vs_rule_mean_bh,outcome,0.000000,0.033003,0.033003,0,+,False
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G minus MULTI-UG,ordering,warranted_outcome_rate,outcome,0.000000,0.000000,0.000000,0,0,False
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G minus MULTI-UG,ordering,violation_pass_through,outcome,0.000000,0.361111,0.361111,0,+,False
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G minus MULTI-UG,ordering,violation_pass_through_strict,outcome,0.000000,0.284722,0.284722,0,+,False
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G minus MULTI-UG,ordering,false_block_rate,outcome,0.010417,0.000000,-0.010417,+,0,False
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",MULTI-G minus MULTI-UG,ordering,certified_gap_median,outcome,,,,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE+G,variant,n,cost,240.000000,240.000000,0.000000,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE+G,variant,cap_binding_share,cost,0.391667,0.020833,-0.370833,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE+G,variant,all_tokens_median,cost,5022.000000,5866.500000,844.500000,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE+G,variant,variant_tokens_median,cost,5022.000000,5866.500000,844.500000,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE+G,variant,variant_tokens_mean,cost,4981.566667,6588.012500,1606.445833,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE+G,variant,wall_s_mean,cost,7.366879,8.823645,1.456765,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE+G,variant,usd_total,cost,2.799764,1.699371,-1.100392,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE+G,variant,wwt_original_mean_bh,outcome,703.260353,703.260353,0.000000,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE+G,variant,wwt_original_median_bh,outcome,637.751600,637.751600,0.000000,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE+G,variant,wwt_vs_rule_mean_bh,outcome,0.167430,0.167430,0.000000,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE+G,variant,warranted_outcome_rate,outcome,0.991667,1.000000,0.008333,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE+G,variant,violation_pass_through,outcome,0.340278,0.479167,0.138889,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE+G,variant,violation_pass_through_strict,outcome,0.229167,0.333333,0.104167,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE+G,variant,false_block_rate,outcome,0.020833,0.000000,-0.020833,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE+G,variant,certified_gap_median,outcome,0.012309,0.005020,-0.007289,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-G,variant,n,cost,240.000000,240.000000,0.000000,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-G,variant,cap_binding_share,cost,1.000000,0.029167,-0.970833,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-G,variant,all_tokens_median,cost,3913.000000,10316.500000,6403.500000,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-G,variant,variant_tokens_median,cost,3913.000000,10316.500000,6403.500000,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-G,variant,variant_tokens_mean,cost,4671.375000,11323.608333,6652.233333,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-G,variant,wall_s_mean,cost,12.322521,18.509077,6.186556,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-G,variant,usd_total,cost,2.333175,3.208696,0.875521,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-G,variant,wwt_original_mean_bh,outcome,703.237923,703.439902,0.201978,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-G,variant,wwt_original_median_bh,outcome,637.751600,637.751600,0.000000,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-G,variant,wwt_vs_rule_mean_bh,outcome,0.145000,0.346978,0.201978,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-G,variant,warranted_outcome_rate,outcome,0.979167,1.000000,0.020833,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-G,variant,violation_pass_through,outcome,0.180556,0.437500,0.256944,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-G,variant,violation_pass_through_strict,outcome,0.152778,0.291667,0.138889,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-G,variant,false_block_rate,outcome,0.052083,0.000000,-0.052083,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-G,variant,certified_gap_median,outcome,0.008896,0.007960,-0.000936,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-UG,variant,n,cost,240.000000,240.000000,0.000000,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-UG,variant,cap_binding_share,cost,1.000000,0.029167,-0.970833,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-UG,variant,all_tokens_median,cost,3913.000000,10316.500000,6403.500000,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-UG,variant,variant_tokens_median,cost,3913.000000,10049.000000,6136.000000,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-UG,variant,variant_tokens_mean,cost,4671.375000,10643.004167,5971.629167,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-UG,variant,wall_s_mean,cost,12.322521,18.509077,6.186556,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-UG,variant,usd_total,cost,2.333175,3.208696,0.875521,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-UG,variant,wwt_original_mean_bh,outcome,717.598396,743.909489,26.311093,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-UG,variant,wwt_original_median_bh,outcome,637.751600,652.963600,15.212000,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-UG,variant,wwt_vs_rule_mean_bh,outcome,14.505472,40.816566,26.311093,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-UG,variant,warranted_outcome_rate,outcome,0.733333,0.237500,-0.495833,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-UG,variant,violation_pass_through,outcome,0.201389,0.583333,0.381944,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-UG,variant,violation_pass_through_strict,outcome,0.173611,0.430556,0.256944,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-UG,variant,false_block_rate,outcome,0.000000,0.000000,0.000000,,,
+sonnet,Claude Sonnet 5 (closed),MULTI-UG,variant,certified_gap_median,outcome,,,,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE-UG *,variant,n,cost,240.000000,240.000000,0.000000,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE-UG *,variant,cap_binding_share,cost,0.391667,0.020833,-0.370833,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE-UG *,variant,all_tokens_median,cost,5022.000000,5866.500000,844.500000,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE-UG *,variant,variant_tokens_median,cost,5022.000000,5666.500000,644.500000,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE-UG *,variant,variant_tokens_mean,cost,4981.566667,5717.075000,735.508333,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE-UG *,variant,wall_s_mean,cost,7.366879,8.823645,1.456765,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE-UG *,variant,usd_total,cost,2.799764,1.699371,-1.100392,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE-UG *,variant,wwt_original_mean_bh,outcome,736.662594,744.692016,8.029422,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE-UG *,variant,wwt_original_median_bh,outcome,637.751600,637.751600,0.000000,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE-UG *,variant,wwt_vs_rule_mean_bh,outcome,33.569671,41.599092,8.029422,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE-UG *,variant,warranted_outcome_rate,outcome,0.362500,0.216667,-0.145833,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE-UG *,variant,violation_pass_through,outcome,0.472222,0.597222,0.125000,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE-UG *,variant,violation_pass_through_strict,outcome,0.354167,0.444444,0.090278,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE-UG *,variant,false_block_rate,outcome,0.000000,0.000000,0.000000,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE-UG *,variant,certified_gap_median,outcome,,,,,,
+sonnet,Claude Sonnet 5 (closed),SINGLE+G minus MULTI-G,ordering,cap_binding_share,cost,-0.608333,-0.008333,0.600000,-,-,False
+sonnet,Claude Sonnet 5 (closed),SINGLE+G minus MULTI-G,ordering,all_tokens_median,cost,1109.000000,-4450.000000,-5559.000000,+,-,True
+sonnet,Claude Sonnet 5 (closed),SINGLE+G minus MULTI-G,ordering,variant_tokens_median,cost,1109.000000,-4450.000000,-5559.000000,+,-,True
+sonnet,Claude Sonnet 5 (closed),SINGLE+G minus MULTI-G,ordering,variant_tokens_mean,cost,310.191667,-4735.595833,-5045.787500,+,-,True
+sonnet,Claude Sonnet 5 (closed),SINGLE+G minus MULTI-G,ordering,wall_s_mean,cost,-4.955642,-9.685432,-4.729791,-,-,False
+sonnet,Claude Sonnet 5 (closed),SINGLE+G minus MULTI-G,ordering,usd_total,cost,0.466588,-1.509325,-1.975913,+,-,True
+sonnet,Claude Sonnet 5 (closed),SINGLE+G minus MULTI-G,ordering,wwt_original_mean_bh,outcome,0.022430,-0.179548,-0.201978,+,-,True
+sonnet,Claude Sonnet 5 (closed),SINGLE+G minus MULTI-G,ordering,wwt_original_median_bh,outcome,0.000000,0.000000,0.000000,0,0,False
+sonnet,Claude Sonnet 5 (closed),SINGLE+G minus MULTI-G,ordering,wwt_vs_rule_mean_bh,outcome,0.022430,-0.179548,-0.201978,+,-,True
+sonnet,Claude Sonnet 5 (closed),SINGLE+G minus MULTI-G,ordering,warranted_outcome_rate,outcome,0.012500,0.000000,-0.012500,+,0,False
+sonnet,Claude Sonnet 5 (closed),SINGLE+G minus MULTI-G,ordering,violation_pass_through,outcome,0.159722,0.041667,-0.118056,+,+,False
+sonnet,Claude Sonnet 5 (closed),SINGLE+G minus MULTI-G,ordering,violation_pass_through_strict,outcome,0.076389,0.041667,-0.034722,+,+,False
+sonnet,Claude Sonnet 5 (closed),SINGLE+G minus MULTI-G,ordering,false_block_rate,outcome,-0.031250,0.000000,0.031250,-,0,False
+sonnet,Claude Sonnet 5 (closed),SINGLE+G minus MULTI-G,ordering,certified_gap_median,outcome,0.003413,-0.002940,-0.006353,+,-,True
+sonnet,Claude Sonnet 5 (closed),MULTI-G minus MULTI-UG,ordering,cap_binding_share,cost,0.000000,0.000000,0.000000,0,0,False
+sonnet,Claude Sonnet 5 (closed),MULTI-G minus MULTI-UG,ordering,all_tokens_median,cost,0.000000,0.000000,0.000000,0,0,False
+sonnet,Claude Sonnet 5 (closed),MULTI-G minus MULTI-UG,ordering,variant_tokens_median,cost,0.000000,267.500000,267.500000,0,+,False
+sonnet,Claude Sonnet 5 (closed),MULTI-G minus MULTI-UG,ordering,variant_tokens_mean,cost,0.000000,680.604167,680.604167,0,+,False
+sonnet,Claude Sonnet 5 (closed),MULTI-G minus MULTI-UG,ordering,wall_s_mean,cost,0.000000,0.000000,0.000000,0,0,False
+sonnet,Claude Sonnet 5 (closed),MULTI-G minus MULTI-UG,ordering,usd_total,cost,0.000000,0.000000,0.000000,0,0,False
+sonnet,Claude Sonnet 5 (closed),MULTI-G minus MULTI-UG,ordering,wwt_original_mean_bh,outcome,-14.360472,-40.469587,-26.109115,-,-,False
+sonnet,Claude Sonnet 5 (closed),MULTI-G minus MULTI-UG,ordering,wwt_original_median_bh,outcome,0.000000,-15.212000,-15.212000,0,-,False
+sonnet,Claude Sonnet 5 (closed),MULTI-G minus MULTI-UG,ordering,wwt_vs_rule_mean_bh,outcome,-14.360473,-40.469588,-26.109115,-,-,False
+sonnet,Claude Sonnet 5 (closed),MULTI-G minus MULTI-UG,ordering,warranted_outcome_rate,outcome,0.245833,0.762500,0.516667,+,+,False
+sonnet,Claude Sonnet 5 (closed),MULTI-G minus MULTI-UG,ordering,violation_pass_through,outcome,-0.020833,-0.145833,-0.125000,-,-,False
+sonnet,Claude Sonnet 5 (closed),MULTI-G minus MULTI-UG,ordering,violation_pass_through_strict,outcome,-0.020833,-0.138889,-0.118056,-,-,False
+sonnet,Claude Sonnet 5 (closed),MULTI-G minus MULTI-UG,ordering,false_block_rate,outcome,0.052083,0.000000,-0.052083,+,0,False
+sonnet,Claude Sonnet 5 (closed),MULTI-G minus MULTI-UG,ordering,certified_gap_median,outcome,,,,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G,variant,n,cost,240.000000,240.000000,0.000000,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G,variant,cap_binding_share,cost,0.412500,0.016667,-0.395833,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G,variant,all_tokens_median,cost,5936.500000,6237.500000,301.000000,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G,variant,variant_tokens_median,cost,5936.500000,6237.500000,301.000000,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G,variant,variant_tokens_mean,cost,5800.383333,7257.187500,1456.804167,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G,variant,wall_s_mean,cost,10.507462,12.103379,1.595917,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G,variant,usd_total,cost,7.794961,3.646612,-4.148349,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G,variant,wwt_original_mean_bh,outcome,703.407930,706.229972,2.822042,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G,variant,wwt_original_median_bh,outcome,637.751600,637.751600,0.000000,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G,variant,wwt_vs_rule_mean_bh,outcome,0.315007,3.137049,2.822043,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G,variant,warranted_outcome_rate,outcome,0.983333,1.000000,0.016667,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G,variant,violation_pass_through,outcome,0.333333,0.437500,0.104167,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G,variant,violation_pass_through_strict,outcome,0.159722,0.250000,0.090278,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G,variant,false_block_rate,outcome,0.041667,0.000000,-0.041667,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G,variant,certified_gap_median,outcome,0.010132,0.004660,-0.005472,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G,variant,n,cost,240.000000,240.000000,0.000000,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G,variant,cap_binding_share,cost,1.000000,0.033333,-0.966667,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G,variant,all_tokens_median,cost,5199.500000,13247.000000,8047.500000,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G,variant,variant_tokens_median,cost,5199.500000,13247.000000,8047.500000,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G,variant,variant_tokens_mean,cost,5225.529167,13471.695833,8246.166667,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G,variant,wall_s_mean,cost,14.036038,24.734486,10.698447,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G,variant,usd_total,cost,4.729631,8.289775,3.560144,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G,variant,wwt_original_mean_bh,outcome,703.100555,706.128916,3.028361,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G,variant,wwt_original_median_bh,outcome,637.751600,637.751600,0.000000,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G,variant,wwt_vs_rule_mean_bh,outcome,0.007632,3.035992,3.028361,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G,variant,warranted_outcome_rate,outcome,0.995833,0.995833,0.000000,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G,variant,violation_pass_through,outcome,0.097222,0.416667,0.319444,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G,variant,violation_pass_through_strict,outcome,0.083333,0.222222,0.138889,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G,variant,false_block_rate,outcome,0.010417,0.010417,0.000000,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G,variant,certified_gap_median,outcome,0.008896,0.007960,-0.000936,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-UG,variant,n,cost,240.000000,240.000000,0.000000,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-UG,variant,cap_binding_share,cost,1.000000,0.033333,-0.966667,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-UG,variant,all_tokens_median,cost,5199.500000,13247.000000,8047.500000,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-UG,variant,variant_tokens_median,cost,5199.500000,13029.000000,7829.500000,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-UG,variant,variant_tokens_mean,cost,5225.529167,12692.820833,7467.291667,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-UG,variant,wall_s_mean,cost,14.036038,24.734486,10.698447,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-UG,variant,usd_total,cost,4.729631,8.289775,3.560144,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-UG,variant,wwt_original_mean_bh,outcome,704.886597,750.475924,45.589328,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-UG,variant,wwt_original_median_bh,outcome,637.751600,652.963600,15.212000,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-UG,variant,wwt_vs_rule_mean_bh,outcome,1.793673,47.383001,45.589328,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-UG,variant,warranted_outcome_rate,outcome,0.858333,0.258333,-0.600000,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-UG,variant,violation_pass_through,outcome,0.104167,0.548611,0.444444,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-UG,variant,violation_pass_through_strict,outcome,0.090278,0.347222,0.256944,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-UG,variant,false_block_rate,outcome,0.000000,0.000000,0.000000,,,
+opus,"Claude Opus 5 (closed, flagship)",MULTI-UG,variant,certified_gap_median,outcome,,,,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE-UG *,variant,n,cost,240.000000,240.000000,0.000000,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE-UG *,variant,cap_binding_share,cost,0.412500,0.016667,-0.395833,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE-UG *,variant,all_tokens_median,cost,5936.500000,6237.500000,301.000000,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE-UG *,variant,variant_tokens_median,cost,5936.500000,6093.000000,156.500000,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE-UG *,variant,variant_tokens_mean,cost,5800.383333,6361.479167,561.095833,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE-UG *,variant,wall_s_mean,cost,10.507462,12.103379,1.595917,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE-UG *,variant,usd_total,cost,7.794961,3.646612,-4.148349,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE-UG *,variant,wwt_original_mean_bh,outcome,740.710194,751.106189,10.395995,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE-UG *,variant,wwt_original_median_bh,outcome,637.751600,652.963600,15.212000,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE-UG *,variant,wwt_vs_rule_mean_bh,outcome,37.617271,48.013266,10.395995,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE-UG *,variant,warranted_outcome_rate,outcome,0.304167,0.229167,-0.075000,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE-UG *,variant,violation_pass_through,outcome,0.500000,0.576389,0.076389,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE-UG *,variant,violation_pass_through_strict,outcome,0.319444,0.381944,0.062500,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE-UG *,variant,false_block_rate,outcome,0.000000,0.000000,0.000000,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE-UG *,variant,certified_gap_median,outcome,,,,,,
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G minus MULTI-G,ordering,cap_binding_share,cost,-0.587500,-0.016667,0.570833,-,-,False
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G minus MULTI-G,ordering,all_tokens_median,cost,737.000000,-7009.500000,-7746.500000,+,-,True
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G minus MULTI-G,ordering,variant_tokens_median,cost,737.000000,-7009.500000,-7746.500000,+,-,True
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G minus MULTI-G,ordering,variant_tokens_mean,cost,574.854167,-6214.508333,-6789.362500,+,-,True
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G minus MULTI-G,ordering,wall_s_mean,cost,-3.528576,-12.631106,-9.102531,-,-,False
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G minus MULTI-G,ordering,usd_total,cost,3.065330,-4.643163,-7.708493,+,-,True
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G minus MULTI-G,ordering,wwt_original_mean_bh,outcome,0.307375,0.101057,-0.206318,+,+,False
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G minus MULTI-G,ordering,wwt_original_median_bh,outcome,0.000000,0.000000,0.000000,0,0,False
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G minus MULTI-G,ordering,wwt_vs_rule_mean_bh,outcome,0.307375,0.101057,-0.206318,+,+,False
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G minus MULTI-G,ordering,warranted_outcome_rate,outcome,-0.012500,0.004167,0.016667,-,+,True
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G minus MULTI-G,ordering,violation_pass_through,outcome,0.236111,0.020833,-0.215278,+,+,False
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G minus MULTI-G,ordering,violation_pass_through_strict,outcome,0.076389,0.027778,-0.048611,+,+,False
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G minus MULTI-G,ordering,false_block_rate,outcome,0.031250,-0.010417,-0.041667,+,-,True
+opus,"Claude Opus 5 (closed, flagship)",SINGLE+G minus MULTI-G,ordering,certified_gap_median,outcome,0.001236,-0.003300,-0.004535,+,-,True
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G minus MULTI-UG,ordering,cap_binding_share,cost,0.000000,0.000000,0.000000,0,0,False
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G minus MULTI-UG,ordering,all_tokens_median,cost,0.000000,0.000000,0.000000,0,0,False
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G minus MULTI-UG,ordering,variant_tokens_median,cost,0.000000,218.000000,218.000000,0,+,False
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G minus MULTI-UG,ordering,variant_tokens_mean,cost,0.000000,778.875000,778.875000,0,+,False
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G minus MULTI-UG,ordering,wall_s_mean,cost,0.000000,0.000000,0.000000,0,0,False
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G minus MULTI-UG,ordering,usd_total,cost,0.000000,0.000000,0.000000,0,0,False
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G minus MULTI-UG,ordering,wwt_original_mean_bh,outcome,-1.786042,-44.347008,-42.560967,-,-,False
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G minus MULTI-UG,ordering,wwt_original_median_bh,outcome,0.000000,-15.212000,-15.212000,0,-,False
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G minus MULTI-UG,ordering,wwt_vs_rule_mean_bh,outcome,-1.786042,-44.347008,-42.560967,-,-,False
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G minus MULTI-UG,ordering,warranted_outcome_rate,outcome,0.137500,0.737500,0.600000,+,+,False
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G minus MULTI-UG,ordering,violation_pass_through,outcome,-0.006944,-0.131944,-0.125000,-,-,False
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G minus MULTI-UG,ordering,violation_pass_through_strict,outcome,-0.006944,-0.125000,-0.118056,-,-,False
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G minus MULTI-UG,ordering,false_block_rate,outcome,0.010417,0.010417,0.000000,+,+,False
+opus,"Claude Opus 5 (closed, flagship)",MULTI-G minus MULTI-UG,ordering,certified_gap_median,outcome,,,,,,

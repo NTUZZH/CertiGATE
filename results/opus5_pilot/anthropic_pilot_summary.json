@@ -1,0 +1,1294 @@
+{
+ "rows": [
+  {
+   "block": "probe_temperature",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I01",
+   "usage": {},
+   "outcome": "error",
+   "wall_ms": 443.4415360010462,
+   "terminal": "blocked_schema",
+   "blocks": []
+  },
+  {
+   "block": "probe_thinking_disabled",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I01",
+   "usage": {
+    "prompt_tokens": 3250,
+    "completion_tokens": 38,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 0,
+    "cache_miss_tokens": 3250,
+    "cache_hit": false,
+    "cache_write_tokens": 3219
+   },
+   "outcome": "ok",
+   "wall_ms": 2667.402986000525,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "probe_default_thinking",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I01",
+   "usage": {
+    "prompt_tokens": 3250,
+    "completion_tokens": 68,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 0,
+    "cache_miss_tokens": 3250,
+    "cache_hit": false,
+    "cache_write_tokens": 3219
+   },
+   "outcome": "ok",
+   "wall_ms": 2484.3707980035106,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "thinking",
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I01",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 4767,
+    "completion_tokens": 37,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 0,
+    "cache_miss_tokens": 4767,
+    "cache_hit": false,
+    "cache_write_tokens": 4736
+   },
+   "outcome": "ok",
+   "wall_ms": 3967.5766580039635,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I02",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 4757,
+    "completion_tokens": 37,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4736,
+    "cache_miss_tokens": 21,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 3947.984496000572,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I03",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 4753,
+    "completion_tokens": 47,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4736,
+    "cache_miss_tokens": 17,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 4731.865148001816,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I04",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 4755,
+    "completion_tokens": 8,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4736,
+    "cache_miss_tokens": 19,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 3222.1671040024376,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I05",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 4761,
+    "completion_tokens": 28,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4736,
+    "cache_miss_tokens": 25,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 4153.804175002733,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I06",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 4759,
+    "completion_tokens": 30,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4736,
+    "cache_miss_tokens": 23,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 4219.854752998799,
+   "terminal": "blocked_feas",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I07",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 4772,
+    "completion_tokens": 8,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4736,
+    "cache_miss_tokens": 36,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 3218.6883929971373,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I08",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 4763,
+    "completion_tokens": 37,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4736,
+    "cache_miss_tokens": 27,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 4188.362442000653,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I09",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 4757,
+    "completion_tokens": 8,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4736,
+    "cache_miss_tokens": 21,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 3325.99155799835,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I10",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 4755,
+    "completion_tokens": 8,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4736,
+    "cache_miss_tokens": 19,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 3029.9773330043536,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I01",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 3250,
+    "completion_tokens": 38,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 3219,
+    "cache_miss_tokens": 31,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 2806.2649609928485,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I02",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 3240,
+    "completion_tokens": 38,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 3219,
+    "cache_miss_tokens": 21,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 2716.8572019872954,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I03",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 3236,
+    "completion_tokens": 48,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 3219,
+    "cache_miss_tokens": 17,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 3119.906463994994,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I04",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 3238,
+    "completion_tokens": 9,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 3219,
+    "cache_miss_tokens": 19,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 1991.4999400061788,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I05",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 3244,
+    "completion_tokens": 29,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 3219,
+    "cache_miss_tokens": 25,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 2513.0829350091517,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I06",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 3242,
+    "completion_tokens": 31,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 3219,
+    "cache_miss_tokens": 23,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 2592.657393004629,
+   "terminal": "blocked_feas",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I07",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 3255,
+    "completion_tokens": 9,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 3219,
+    "cache_miss_tokens": 36,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 2069.7550480108475,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I08",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 3246,
+    "completion_tokens": 9,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 3219,
+    "cache_miss_tokens": 27,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 2245.9343490045285,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I09",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 3240,
+    "completion_tokens": 9,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 3219,
+    "cache_miss_tokens": 21,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 2104.757991997758,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I10",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 3238,
+    "completion_tokens": 9,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 3219,
+    "cache_miss_tokens": 19,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 2203.6301759944763,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I01",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 4767,
+    "completion_tokens": 37,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4736,
+    "cache_miss_tokens": 31,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 3884.3870909913676,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I02",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 4757,
+    "completion_tokens": 37,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4736,
+    "cache_miss_tokens": 21,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 4218.07917499973,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I03",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 4753,
+    "completion_tokens": 47,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4736,
+    "cache_miss_tokens": 17,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 4533.031415994628,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I04",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 4755,
+    "completion_tokens": 8,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4736,
+    "cache_miss_tokens": 19,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 3484.332802006975,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I05",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 4761,
+    "completion_tokens": 28,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4736,
+    "cache_miss_tokens": 25,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 3814.0432159998454,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I06",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 4759,
+    "completion_tokens": 30,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4736,
+    "cache_miss_tokens": 23,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 4001.0476379975444,
+   "terminal": "blocked_feas",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I07",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 4772,
+    "completion_tokens": 8,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4736,
+    "cache_miss_tokens": 36,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 3441.4421700057574,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I08",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 4763,
+    "completion_tokens": 66,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4736,
+    "cache_miss_tokens": 27,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 4467.9338409914635,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I09",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 4757,
+    "completion_tokens": 8,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4736,
+    "cache_miss_tokens": 21,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 3251.026249010465,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I10",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 4755,
+    "completion_tokens": 8,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4736,
+    "cache_miss_tokens": 19,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 3210.8446909987833,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I01",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 3250,
+    "completion_tokens": 38,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 3219,
+    "cache_miss_tokens": 31,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 2800.6904819922056,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I02",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 3240,
+    "completion_tokens": 38,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 3219,
+    "cache_miss_tokens": 21,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 2532.5446619972354,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I03",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 3236,
+    "completion_tokens": 48,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 3219,
+    "cache_miss_tokens": 17,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 3302.846990991384,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I04",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 3238,
+    "completion_tokens": 9,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 3219,
+    "cache_miss_tokens": 19,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 1990.3936949995114,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I05",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 3244,
+    "completion_tokens": 29,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 3219,
+    "cache_miss_tokens": 25,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 2409.3076639983337,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I06",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 3242,
+    "completion_tokens": 31,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 3219,
+    "cache_miss_tokens": 23,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 2388.379426993197,
+   "terminal": "blocked_feas",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I07",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 3255,
+    "completion_tokens": 9,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 3219,
+    "cache_miss_tokens": 36,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 2127.5848719960777,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I08",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 3246,
+    "completion_tokens": 9,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 3219,
+    "cache_miss_tokens": 27,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 3166.195579993655,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I09",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 3240,
+    "completion_tokens": 9,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 3219,
+    "cache_miss_tokens": 21,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 2150.528232989018,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "mode": "M_free",
+   "instruction_id": "I10",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 3238,
+    "completion_tokens": 9,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 3219,
+    "cache_miss_tokens": 19,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 2003.4554640005808,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "cold",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/150/c10_replay_150_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I01",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 4814,
+    "completion_tokens": 38,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 0,
+    "cache_miss_tokens": 4814,
+    "cache_hit": false,
+    "cache_write_tokens": 4781
+   },
+   "outcome": "ok",
+   "wall_ms": 3907.8960650076624,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "cold",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/150/c10_replay_150_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I02",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 4804,
+    "completion_tokens": 38,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4781,
+    "cache_miss_tokens": 23,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 5085.294702992542,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "cold",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/150/c10_replay_150_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I03",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 4802,
+    "completion_tokens": 49,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4782,
+    "cache_miss_tokens": 20,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 4124.428441995406,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "cold",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/150/c10_replay_150_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I04",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 4802,
+    "completion_tokens": 8,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4781,
+    "cache_miss_tokens": 21,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 3150.3088009922067,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "cold",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/150/c10_replay_150_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I05",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 4808,
+    "completion_tokens": 29,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4782,
+    "cache_miss_tokens": 26,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 4303.455029003089,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "cold",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/150/c10_replay_150_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I06",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 4806,
+    "completion_tokens": 31,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4781,
+    "cache_miss_tokens": 25,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 3567.160727994633,
+   "terminal": "blocked_feas",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "cold",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/150/c10_replay_150_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I07",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 4809,
+    "completion_tokens": 8,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4781,
+    "cache_miss_tokens": 28,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 3262.724086001981,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "cold",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/150/c10_replay_150_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I08",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 4812,
+    "completion_tokens": 8,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4782,
+    "cache_miss_tokens": 30,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 3454.814267999609,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "cold",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/150/c10_replay_150_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I09",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 4802,
+    "completion_tokens": 8,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4781,
+    "cache_miss_tokens": 21,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 3995.6745819945354,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  },
+  {
+   "block": "cold",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/150/c10_replay_150_0000.json",
+   "mode": "M_constrained",
+   "instruction_id": "I10",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 4800,
+    "completion_tokens": 8,
+    "total_tokens": null,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 4781,
+    "cache_miss_tokens": 19,
+    "cache_hit": true,
+    "cache_write_tokens": 0
+   },
+   "outcome": "ok",
+   "wall_ms": 3288.414628012106,
+   "terminal": "applied_with_certificate",
+   "blocks": [
+    "text"
+   ]
+  }
+ ],
+ "per_call": {
+  "uncached": 22.0,
+  "cache_read": 4736.0,
+  "cache_write": 0
+ },
+ "empty": 0,
+ "probes": {
+  "temperature_rejected": true,
+  "thinking_disabled_accepted": true,
+  "default_blocks": [
+   "thinking",
+   "text"
+  ],
+  "schema_accepted": true,
+  "block_separator_note": "user text split prefix|instruction at the cache boundary"
+ },
+ "cost_tables": {
+  "list ($5/$25)": [
+   {
+    "grid": "E1",
+    "calls": 2000,
+    "output_tokens_per_call": 300,
+    "usd_per_call": 0.009978,
+    "usd_total": 19.956000000000003
+   },
+   {
+    "grid": "E1",
+    "calls": 2000,
+    "output_tokens_per_call": 800,
+    "usd_per_call": 0.022478,
+    "usd_total": 44.956
+   },
+   {
+    "grid": "E1",
+    "calls": 2000,
+    "output_tokens_per_call": 2000,
+    "usd_per_call": 0.052478000000000004,
+    "usd_total": 104.956
+   },
+   {
+    "grid": "E2 (replay only)",
+    "calls": 0,
+    "output_tokens_per_call": 300,
+    "usd_per_call": 0.009978,
+    "usd_total": 0.0
+   },
+   {
+    "grid": "E2 (replay only)",
+    "calls": 0,
+    "output_tokens_per_call": 800,
+    "usd_per_call": 0.022478,
+    "usd_total": 0.0
+   },
+   {
+    "grid": "E2 (replay only)",
+    "calls": 0,
+    "output_tokens_per_call": 2000,
+    "usd_per_call": 0.052478000000000004,
+    "usd_total": 0.0
+   },
+   {
+    "grid": "E3",
+    "calls": 1000,
+    "output_tokens_per_call": 300,
+    "usd_per_call": 0.009978,
+    "usd_total": 9.978000000000002
+   },
+   {
+    "grid": "E3",
+    "calls": 1000,
+    "output_tokens_per_call": 800,
+    "usd_per_call": 0.022478,
+    "usd_total": 22.478
+   },
+   {
+    "grid": "E3",
+    "calls": 1000,
+    "output_tokens_per_call": 2000,
+    "usd_per_call": 0.052478000000000004,
+    "usd_total": 52.478
+   }
+  ]
+ },
+ "price_date": "2026-08-11"
+}

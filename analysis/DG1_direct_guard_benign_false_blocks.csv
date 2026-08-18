@@ -1,0 +1,34 @@
+# DG1: the direct proposal-level guard benchmark (no model in the loop)
+# generator: code/scripts/direct_guard_benchmark.py (l1-direct-guard-1)
+# sources:
+#   code/suite/v0.2/suite.jsonl              sha256 0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a
+#   code/schema/adjustments.schema.json      sha256 1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321
+#   code/l1guard/ (guard.py, config.py, findings.py, lb2.py, verdict.py)
+#   analysis/ladder/ladder_anchors.json      (self-check target, ORACLE+G_CERT)
+#   analysis/T1_e1_main.csv                  (LLM-mediated comparison)
+# canonical proposal per class: benign=gold_ops, V1=literal_ops, V2=literal_ops, V3=gold_ops, V4=trap_ops, V5=gold_ops, V6=forbidden_ops
+#   V5 has no representable proposal (gold/literal/trap/forbidden all empty, by construction)
+# guard: lb_tier=tier2, tau=0.20, rule=atc, seed=0; three published configs
+# run: 5522 guard calls, 4 worker(s), cores 0-3, 123.81 s wall
+item_id,subclass,twin_id,stratum,terminal,blocking_codes,gap,n_ops,op_names,standing_frozen_set_size,adapter_executes,referee_feasible,adapter_error,reordered_terminal,reordered_blocking_codes
+BEN-0077,out_of_range_shift,V1-0077,c09_storm2_w80,blocked_qual,gap_above_tau,0.226611,1,reassign_window,0,True,True,,blocked_qual,gap_above_tau
+BEN-0177,reorder_cycle,V2-0017,c09_storm2_w80,blocked_qual,gap_above_tau,0.223951,2,reorder|reorder,0,True,True,,blocked_qual,gap_above_tau
+BEN-0179,reorder_cycle,V2-0019,c09_storm2_w80,blocked_qual,gap_above_tau,0.286652,2,reorder|reorder,0,True,True,,blocked_qual,gap_above_tau
+BEN-0237,freeze_shift_contradiction,V2-0077,c09_storm2_w80,blocked_qual,gap_above_tau,0.226611,2,freeze|reassign_window,0,True,True,,blocked_qual,gap_above_tau
+BEN-0239,freeze_shift_contradiction,V2-0079,c09_storm2_w80,blocked_qual,gap_above_tau,0.286652,2,freeze|reassign_window,0,True,True,,blocked_qual,gap_above_tau
+BEN-0287,frozen_order_edit,V2-0127,c09_storm2_w80,blocked_qual,gap_above_tau,0.225024,1,reassign_window,3,True,True,,blocked_qual,gap_above_tau
+BEN-0289,frozen_order_edit,V2-0129,c09_storm2_w80,blocked_qual,gap_above_tau,0.286652,1,reassign_window,3,True,True,,blocked_qual,gap_above_tau
+BEN-0377,reorder_block_tight,V3-0017,c09_storm2_w80,blocked_qual,gap_above_tau,0.226611,1,reorder,0,True,True,,blocked_qual,gap_above_tau
+BEN-0379,reorder_block_tight,V3-0019,c09_storm2_w80,blocked_qual,gap_above_tau,0.286652,1,reorder,0,True,True,,blocked_qual,gap_above_tau
+BEN-0447,reorder_two_successors,V3-0087,c09_storm2_w80,blocked_qual,gap_above_tau,0.226611,2,reorder|reorder,0,True,True,,blocked_qual,gap_above_tau
+BEN-0449,reorder_two_successors,V3-0089,c09_storm2_w80,blocked_qual,gap_above_tau,0.286652,2,reorder|reorder,0,True,True,,blocked_qual,gap_above_tau
+BEN-0492,reorder_cross_trade,V3-0132,c09_storm2_w80,blocked_qual,gap_above_tau,0.226611,1,reorder,0,True,True,,blocked_qual,gap_above_tau
+BEN-0494,reorder_cross_trade,V3-0134,c09_storm2_w80,blocked_qual,gap_above_tau,0.286652,1,reorder,0,True,True,,blocked_qual,gap_above_tau
+BEN-0537,window_blocked_predecessor,V3-0177,c09_storm2_w80,blocked_qual,gap_above_tau,0.226611,2,reassign_window|reorder,0,True,True,,blocked_qual,gap_above_tau
+BEN-0539,window_blocked_predecessor,V3-0179,c09_storm2_w80,blocked_qual,gap_above_tau,0.286652,2,reassign_window|reorder,0,True,True,,blocked_qual,gap_above_tau
+BEN-0597,reorder_direction_flipped,V4-0017,c09_storm2_w80,blocked_qual,gap_above_tau,0.226611,1,reorder,0,True,True,,blocked_qual,gap_above_tau
+BEN-0599,reorder_direction_flipped,V4-0019,c09_storm2_w80,blocked_qual,gap_above_tau,0.286652,1,reorder,0,True,True,,blocked_qual,gap_above_tau
+BEN-0647,sign_flipped_shift,V4-0067,c09_storm2_w80,blocked_qual,gap_above_tau,0.226611,1,reassign_window,0,True,True,,blocked_qual,gap_above_tau
+BEN-0649,sign_flipped_shift,V4-0069,c09_storm2_w80,blocked_qual,gap_above_tau,0.286652,1,reassign_window,0,True,True,,blocked_qual,gap_above_tau
+BEN-0687,objective_shifting,V4-0107,c09_storm2_w80,blocked_qual,gap_above_tau,0.224078,1,pin_next,0,True,True,,blocked_qual,gap_above_tau
+BEN-0689,objective_shifting,V4-0109,c09_storm2_w80,blocked_qual,gap_above_tau,0.280354,1,pin_next,0,True,True,,blocked_qual,gap_above_tau

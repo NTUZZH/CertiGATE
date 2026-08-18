@@ -1,0 +1,29 @@
+# DG1: the direct proposal-level guard benchmark (no model in the loop)
+# generator: code/scripts/direct_guard_benchmark.py (l1-direct-guard-1)
+# sources:
+#   code/suite/v0.2/suite.jsonl              sha256 0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a
+#   code/schema/adjustments.schema.json      sha256 1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321
+#   code/l1guard/ (guard.py, config.py, findings.py, lb2.py, verdict.py)
+#   analysis/ladder/ladder_anchors.json      (self-check target, ORACLE+G_CERT)
+#   analysis/T1_e1_main.csv                  (LLM-mediated comparison)
+# canonical proposal per class: benign=gold_ops, V1=literal_ops, V2=literal_ops, V3=gold_ops, V4=trap_ops, V5=gold_ops, V6=forbidden_ops
+#   V5 has no representable proposal (gold/literal/trap/forbidden all empty, by construction)
+# guard: lb_tier=tier2, tau=0.20, rule=atc, seed=0; three published configs
+# run: 5522 guard calls, 4 worker(s), cores 0-3, 159.56 s wall
+class,tau,items,reached_qual,pre_qual_refused,cert_refused,cert_refused_share_of_reached,guard_refused,guard_refused_share
+V3,0.02,220,220,0,220,1.0,220,1.0
+V3,0.05,220,220,0,217,0.986364,217,0.986364
+V3,0.10,220,220,0,210,0.954545,210,0.954545
+V3,0.15,220,220,0,208,0.945455,208,0.945455
+V3,0.20,220,220,0,201,0.913636,201,0.913636
+V3,0.30,220,220,0,176,0.8,176,0.8
+V3,0.50,220,220,0,130,0.590909,130,0.590909
+V3,1.00,220,220,0,63,0.286364,63,0.286364
+benign,0.02,800,750,50,249,0.332,299,0.37375
+benign,0.05,800,750,50,136,0.181333,186,0.2325
+benign,0.10,800,750,50,55,0.073333,105,0.13125
+benign,0.15,800,750,50,20,0.026667,70,0.0875
+benign,0.20,800,750,50,19,0.025333,69,0.08625
+benign,0.30,800,750,50,0,0.0,50,0.0625
+benign,0.50,800,750,50,0,0.0,50,0.0625
+benign,1.00,800,750,50,0,0.0,50,0.0625

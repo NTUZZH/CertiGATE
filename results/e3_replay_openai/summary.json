@@ -1,0 +1,945 @@
+{
+ "version": "l1-e3-eval-1",
+ "cells": [
+  {
+   "arm": "openai",
+   "budget_level": "loose",
+   "variant": "MULTI-G",
+   "n": 240,
+   "terminals": {
+    "referred": 47,
+    "applied_with_certificate": 185,
+    "blocked_correct": 7,
+    "blocked_false": 1
+   },
+   "warranted": 239,
+   "violations": 144,
+   "violations_passed": 91,
+   "benign": 96,
+   "benign_blocked": 1,
+   "exhausted": 11,
+   "by_register": {
+    "formal": {
+     "n": 98,
+     "warranted": 98,
+     "terminals": {
+      "referred": 19,
+      "applied_with_certificate": 74,
+      "blocked_correct": 5
+     }
+    },
+    "terse": {
+     "n": 73,
+     "warranted": 72,
+     "terminals": {
+      "referred": 15,
+      "applied_with_certificate": 55,
+      "blocked_correct": 2,
+      "blocked_false": 1
+     }
+    },
+    "conversational": {
+     "n": 69,
+     "warranted": 69,
+     "terminals": {
+      "referred": 13,
+      "applied_with_certificate": 56
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 19,
+     "terminals": {
+      "referred": 14,
+      "applied_with_certificate": 5
+     }
+    },
+    "V2": {
+     "n": 24,
+     "terminals": {
+      "referred": 13,
+      "applied_with_certificate": 11
+     }
+    },
+    "V3": {
+     "n": 27,
+     "terminals": {
+      "blocked_correct": 5,
+      "applied_with_certificate": 11,
+      "referred": 11
+     }
+    },
+    "V4": {
+     "n": 26,
+     "terminals": {
+      "applied_with_certificate": 25,
+      "blocked_correct": 1
+     }
+    },
+    "benign": {
+     "n": 96,
+     "terminals": {
+      "applied_with_certificate": 94,
+      "referred": 1,
+      "blocked_false": 1
+     }
+    },
+    "V5": {
+     "n": 24,
+     "terminals": {
+      "applied_with_certificate": 19,
+      "referred": 5
+     }
+    },
+    "V6": {
+     "n": 24,
+     "terminals": {
+      "applied_with_certificate": 20,
+      "blocked_correct": 1,
+      "referred": 3
+     }
+    }
+   },
+   "errors": 0,
+   "extra": false,
+   "warranted_rate": 0.9958333333333333,
+   "violation_pass_through_rate": 0.6319444444444444,
+   "false_block_rate": 0.010416666666666666,
+   "cap_binding_share": 0.04583333333333333,
+   "median_all_tokens": 6702.0,
+   "median_gap_accepted": 0.008896210191708323,
+   "p90_gap_accepted": 0.10611931247425023
+  },
+  {
+   "arm": "openai",
+   "budget_level": "loose",
+   "variant": "MULTI-UG",
+   "n": 240,
+   "terminals": {
+    "execution_failed": 26,
+    "referred": 11,
+    "applied_uncertified": 203
+   },
+   "warranted": 11,
+   "violations": 144,
+   "violations_passed": 108,
+   "benign": 96,
+   "benign_blocked": 0,
+   "exhausted": 11,
+   "by_register": {
+    "formal": {
+     "n": 98,
+     "warranted": 2,
+     "terminals": {
+      "execution_failed": 12,
+      "referred": 2,
+      "applied_uncertified": 84
+     }
+    },
+    "terse": {
+     "n": 73,
+     "warranted": 4,
+     "terminals": {
+      "execution_failed": 7,
+      "applied_uncertified": 62,
+      "referred": 4
+     }
+    },
+    "conversational": {
+     "n": 69,
+     "warranted": 5,
+     "terminals": {
+      "referred": 5,
+      "applied_uncertified": 57,
+      "execution_failed": 7
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 19,
+     "terminals": {
+      "execution_failed": 10,
+      "referred": 3,
+      "applied_uncertified": 6
+     }
+    },
+    "V2": {
+     "n": 24,
+     "terminals": {
+      "execution_failed": 14,
+      "applied_uncertified": 9,
+      "referred": 1
+     }
+    },
+    "V3": {
+     "n": 27,
+     "terminals": {
+      "applied_uncertified": 27
+     }
+    },
+    "V4": {
+     "n": 26,
+     "terminals": {
+      "applied_uncertified": 26
+     }
+    },
+    "benign": {
+     "n": 96,
+     "terminals": {
+      "applied_uncertified": 95,
+      "referred": 1
+     }
+    },
+    "V5": {
+     "n": 24,
+     "terminals": {
+      "applied_uncertified": 19,
+      "execution_failed": 2,
+      "referred": 3
+     }
+    },
+    "V6": {
+     "n": 24,
+     "terminals": {
+      "applied_uncertified": 21,
+      "referred": 3
+     }
+    }
+   },
+   "errors": 0,
+   "extra": false,
+   "warranted_rate": 0.04583333333333333,
+   "violation_pass_through_rate": 0.75,
+   "false_block_rate": 0.0,
+   "cap_binding_share": 0.04583333333333333,
+   "median_all_tokens": 6702.0,
+   "median_gap_accepted": null,
+   "p90_gap_accepted": null
+  },
+  {
+   "arm": "openai",
+   "budget_level": "loose",
+   "variant": "SINGLE+G",
+   "n": 240,
+   "terminals": {
+    "referred": 51,
+    "applied_with_certificate": 184,
+    "blocked_correct": 4,
+    "blocked_false": 1
+   },
+   "warranted": 239,
+   "violations": 144,
+   "violations_passed": 89,
+   "benign": 96,
+   "benign_blocked": 1,
+   "exhausted": 7,
+   "by_register": {
+    "formal": {
+     "n": 98,
+     "warranted": 98,
+     "terminals": {
+      "referred": 24,
+      "applied_with_certificate": 71,
+      "blocked_correct": 3
+     }
+    },
+    "terse": {
+     "n": 73,
+     "warranted": 72,
+     "terminals": {
+      "referred": 14,
+      "applied_with_certificate": 57,
+      "blocked_correct": 1,
+      "blocked_false": 1
+     }
+    },
+    "conversational": {
+     "n": 69,
+     "warranted": 69,
+     "terminals": {
+      "applied_with_certificate": 56,
+      "referred": 13
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 19,
+     "terminals": {
+      "referred": 12,
+      "applied_with_certificate": 7
+     }
+    },
+    "V2": {
+     "n": 24,
+     "terminals": {
+      "referred": 12,
+      "applied_with_certificate": 12
+     }
+    },
+    "V3": {
+     "n": 27,
+     "terminals": {
+      "blocked_correct": 3,
+      "applied_with_certificate": 10,
+      "referred": 14
+     }
+    },
+    "V4": {
+     "n": 26,
+     "terminals": {
+      "applied_with_certificate": 25,
+      "blocked_correct": 1
+     }
+    },
+    "benign": {
+     "n": 96,
+     "terminals": {
+      "applied_with_certificate": 95,
+      "blocked_false": 1
+     }
+    },
+    "V5": {
+     "n": 24,
+     "terminals": {
+      "applied_with_certificate": 13,
+      "referred": 11
+     }
+    },
+    "V6": {
+     "n": 24,
+     "terminals": {
+      "applied_with_certificate": 22,
+      "referred": 2
+     }
+    }
+   },
+   "errors": 0,
+   "extra": false,
+   "warranted_rate": 0.9958333333333333,
+   "violation_pass_through_rate": 0.6180555555555556,
+   "false_block_rate": 0.010416666666666666,
+   "cap_binding_share": 0.029166666666666667,
+   "median_all_tokens": 3660.0,
+   "median_gap_accepted": 0.008896210191708323,
+   "p90_gap_accepted": 0.10611931247425023
+  },
+  {
+   "arm": "openai",
+   "budget_level": "loose",
+   "variant": "SINGLE-UG",
+   "n": 240,
+   "terminals": {
+    "execution_failed": 23,
+    "referred": 17,
+    "applied_uncertified": 200
+   },
+   "warranted": 17,
+   "violations": 144,
+   "violations_passed": 104,
+   "benign": 96,
+   "benign_blocked": 0,
+   "exhausted": 7,
+   "by_register": {
+    "formal": {
+     "n": 98,
+     "warranted": 10,
+     "terminals": {
+      "execution_failed": 8,
+      "referred": 10,
+      "applied_uncertified": 80
+     }
+    },
+    "terse": {
+     "n": 73,
+     "warranted": 3,
+     "terminals": {
+      "execution_failed": 7,
+      "applied_uncertified": 63,
+      "referred": 3
+     }
+    },
+    "conversational": {
+     "n": 69,
+     "warranted": 4,
+     "terminals": {
+      "applied_uncertified": 57,
+      "referred": 4,
+      "execution_failed": 8
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 19,
+     "terminals": {
+      "execution_failed": 8,
+      "referred": 4,
+      "applied_uncertified": 7
+     }
+    },
+    "V2": {
+     "n": 24,
+     "terminals": {
+      "referred": 4,
+      "execution_failed": 10,
+      "applied_uncertified": 10
+     }
+    },
+    "V3": {
+     "n": 27,
+     "terminals": {
+      "applied_uncertified": 27
+     }
+    },
+    "V4": {
+     "n": 26,
+     "terminals": {
+      "applied_uncertified": 24,
+      "execution_failed": 2
+     }
+    },
+    "benign": {
+     "n": 96,
+     "terminals": {
+      "applied_uncertified": 96
+     }
+    },
+    "V5": {
+     "n": 24,
+     "terminals": {
+      "applied_uncertified": 13,
+      "referred": 8,
+      "execution_failed": 3
+     }
+    },
+    "V6": {
+     "n": 24,
+     "terminals": {
+      "applied_uncertified": 23,
+      "referred": 1
+     }
+    }
+   },
+   "errors": 0,
+   "extra": true,
+   "warranted_rate": 0.07083333333333333,
+   "violation_pass_through_rate": 0.7222222222222222,
+   "false_block_rate": 0.0,
+   "cap_binding_share": 0.029166666666666667,
+   "median_all_tokens": 3660.0,
+   "median_gap_accepted": null,
+   "p90_gap_accepted": null
+  },
+  {
+   "arm": "openai",
+   "budget_level": "tight",
+   "variant": "MULTI-G",
+   "n": 240,
+   "terminals": {
+    "blocked_correct": 12,
+    "referred": 221,
+    "applied_with_certificate": 7
+   },
+   "warranted": 240,
+   "violations": 144,
+   "violations_passed": 6,
+   "benign": 96,
+   "benign_blocked": 0,
+   "exhausted": 240,
+   "by_register": {
+    "formal": {
+     "n": 98,
+     "warranted": 98,
+     "terminals": {
+      "blocked_correct": 4,
+      "referred": 89,
+      "applied_with_certificate": 5
+     }
+    },
+    "terse": {
+     "n": 73,
+     "warranted": 73,
+     "terminals": {
+      "referred": 66,
+      "blocked_correct": 5,
+      "applied_with_certificate": 2
+     }
+    },
+    "conversational": {
+     "n": 69,
+     "warranted": 69,
+     "terminals": {
+      "referred": 66,
+      "blocked_correct": 3
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 19,
+     "terminals": {
+      "blocked_correct": 7,
+      "referred": 10,
+      "applied_with_certificate": 2
+     }
+    },
+    "V2": {
+     "n": 24,
+     "terminals": {
+      "referred": 24
+     }
+    },
+    "V3": {
+     "n": 27,
+     "terminals": {
+      "referred": 27
+     }
+    },
+    "V4": {
+     "n": 26,
+     "terminals": {
+      "referred": 26
+     }
+    },
+    "benign": {
+     "n": 96,
+     "terminals": {
+      "referred": 95,
+      "applied_with_certificate": 1
+     }
+    },
+    "V5": {
+     "n": 24,
+     "terminals": {
+      "referred": 17,
+      "applied_with_certificate": 2,
+      "blocked_correct": 5
+     }
+    },
+    "V6": {
+     "n": 24,
+     "terminals": {
+      "referred": 22,
+      "applied_with_certificate": 2
+     }
+    }
+   },
+   "errors": 0,
+   "extra": false,
+   "warranted_rate": 1.0,
+   "violation_pass_through_rate": 0.041666666666666664,
+   "false_block_rate": 0.0,
+   "cap_binding_share": 1.0,
+   "median_all_tokens": 2540.0,
+   "median_gap_accepted": 0.008896210191708323,
+   "p90_gap_accepted": 0.09033450582798781
+  },
+  {
+   "arm": "openai",
+   "budget_level": "tight",
+   "variant": "MULTI-UG",
+   "n": 240,
+   "terminals": {
+    "execution_failed": 11,
+    "referred": 221,
+    "applied_uncertified": 8
+   },
+   "warranted": 221,
+   "violations": 144,
+   "violations_passed": 7,
+   "benign": 96,
+   "benign_blocked": 0,
+   "exhausted": 240,
+   "by_register": {
+    "formal": {
+     "n": 98,
+     "warranted": 89,
+     "terminals": {
+      "execution_failed": 4,
+      "referred": 89,
+      "applied_uncertified": 5
+     }
+    },
+    "terse": {
+     "n": 73,
+     "warranted": 66,
+     "terminals": {
+      "referred": 66,
+      "execution_failed": 5,
+      "applied_uncertified": 2
+     }
+    },
+    "conversational": {
+     "n": 69,
+     "warranted": 66,
+     "terminals": {
+      "referred": 66,
+      "applied_uncertified": 1,
+      "execution_failed": 2
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 19,
+     "terminals": {
+      "execution_failed": 6,
+      "referred": 10,
+      "applied_uncertified": 3
+     }
+    },
+    "V2": {
+     "n": 24,
+     "terminals": {
+      "referred": 24
+     }
+    },
+    "V3": {
+     "n": 27,
+     "terminals": {
+      "referred": 27
+     }
+    },
+    "V4": {
+     "n": 26,
+     "terminals": {
+      "referred": 26
+     }
+    },
+    "benign": {
+     "n": 96,
+     "terminals": {
+      "referred": 95,
+      "applied_uncertified": 1
+     }
+    },
+    "V5": {
+     "n": 24,
+     "terminals": {
+      "referred": 17,
+      "applied_uncertified": 2,
+      "execution_failed": 5
+     }
+    },
+    "V6": {
+     "n": 24,
+     "terminals": {
+      "referred": 22,
+      "applied_uncertified": 2
+     }
+    }
+   },
+   "errors": 0,
+   "extra": false,
+   "warranted_rate": 0.9208333333333333,
+   "violation_pass_through_rate": 0.04861111111111111,
+   "false_block_rate": 0.0,
+   "cap_binding_share": 1.0,
+   "median_all_tokens": 2540.0,
+   "median_gap_accepted": null,
+   "p90_gap_accepted": null
+  },
+  {
+   "arm": "openai",
+   "budget_level": "tight",
+   "variant": "SINGLE+G",
+   "n": 240,
+   "terminals": {
+    "blocked_correct": 43,
+    "referred": 52,
+    "applied_with_certificate": 139,
+    "blocked_false": 6
+   },
+   "warranted": 234,
+   "violations": 144,
+   "violations_passed": 66,
+   "benign": 96,
+   "benign_blocked": 6,
+   "exhausted": 84,
+   "by_register": {
+    "formal": {
+     "n": 98,
+     "warranted": 95,
+     "terminals": {
+      "blocked_correct": 20,
+      "referred": 20,
+      "applied_with_certificate": 55,
+      "blocked_false": 3
+     }
+    },
+    "terse": {
+     "n": 73,
+     "warranted": 72,
+     "terminals": {
+      "referred": 9,
+      "blocked_correct": 16,
+      "applied_with_certificate": 47,
+      "blocked_false": 1
+     }
+    },
+    "conversational": {
+     "n": 69,
+     "warranted": 67,
+     "terminals": {
+      "applied_with_certificate": 37,
+      "blocked_correct": 7,
+      "referred": 23,
+      "blocked_false": 2
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 19,
+     "terminals": {
+      "blocked_correct": 11,
+      "referred": 3,
+      "applied_with_certificate": 5
+     }
+    },
+    "V2": {
+     "n": 24,
+     "terminals": {
+      "referred": 5,
+      "blocked_correct": 12,
+      "applied_with_certificate": 7
+     }
+    },
+    "V3": {
+     "n": 27,
+     "terminals": {
+      "blocked_correct": 16,
+      "referred": 8,
+      "applied_with_certificate": 3
+     }
+    },
+    "V4": {
+     "n": 26,
+     "terminals": {
+      "applied_with_certificate": 23,
+      "blocked_correct": 1,
+      "referred": 2
+     }
+    },
+    "benign": {
+     "n": 96,
+     "terminals": {
+      "referred": 17,
+      "applied_with_certificate": 73,
+      "blocked_false": 6
+     }
+    },
+    "V5": {
+     "n": 24,
+     "terminals": {
+      "applied_with_certificate": 13,
+      "referred": 11
+     }
+    },
+    "V6": {
+     "n": 24,
+     "terminals": {
+      "applied_with_certificate": 15,
+      "referred": 6,
+      "blocked_correct": 3
+     }
+    }
+   },
+   "errors": 0,
+   "extra": false,
+   "warranted_rate": 0.975,
+   "violation_pass_through_rate": 0.4583333333333333,
+   "false_block_rate": 0.0625,
+   "cap_binding_share": 0.35,
+   "median_all_tokens": 3009.0,
+   "median_gap_accepted": 0.012308908305959874,
+   "p90_gap_accepted": 0.1238119606068551
+  },
+  {
+   "arm": "openai",
+   "budget_level": "tight",
+   "variant": "SINGLE-UG",
+   "n": 240,
+   "terminals": {
+    "execution_failed": 30,
+    "referred": 49,
+    "applied_uncertified": 161
+   },
+   "warranted": 49,
+   "violations": 144,
+   "violations_passed": 87,
+   "benign": 96,
+   "benign_blocked": 0,
+   "exhausted": 84,
+   "by_register": {
+    "formal": {
+     "n": 98,
+     "warranted": 19,
+     "terminals": {
+      "execution_failed": 13,
+      "referred": 19,
+      "applied_uncertified": 66
+     }
+    },
+    "terse": {
+     "n": 73,
+     "warranted": 8,
+     "terminals": {
+      "referred": 8,
+      "execution_failed": 9,
+      "applied_uncertified": 56
+     }
+    },
+    "conversational": {
+     "n": 69,
+     "warranted": 22,
+     "terminals": {
+      "applied_uncertified": 39,
+      "execution_failed": 8,
+      "referred": 22
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 19,
+     "terminals": {
+      "execution_failed": 9,
+      "referred": 3,
+      "applied_uncertified": 7
+     }
+    },
+    "V2": {
+     "n": 24,
+     "terminals": {
+      "referred": 5,
+      "execution_failed": 11,
+      "applied_uncertified": 8
+     }
+    },
+    "V3": {
+     "n": 27,
+     "terminals": {
+      "applied_uncertified": 19,
+      "referred": 8
+     }
+    },
+    "V4": {
+     "n": 26,
+     "terminals": {
+      "applied_uncertified": 24,
+      "referred": 2
+     }
+    },
+    "benign": {
+     "n": 96,
+     "terminals": {
+      "referred": 17,
+      "applied_uncertified": 74,
+      "execution_failed": 5
+     }
+    },
+    "V5": {
+     "n": 24,
+     "terminals": {
+      "applied_uncertified": 13,
+      "referred": 8,
+      "execution_failed": 3
+     }
+    },
+    "V6": {
+     "n": 24,
+     "terminals": {
+      "applied_uncertified": 16,
+      "referred": 6,
+      "execution_failed": 2
+     }
+    }
+   },
+   "errors": 0,
+   "extra": true,
+   "warranted_rate": 0.20416666666666666,
+   "violation_pass_through_rate": 0.6041666666666666,
+   "false_block_rate": 0.0,
+   "cap_binding_share": 0.35,
+   "median_all_tokens": 3009.0,
+   "median_gap_accepted": null,
+   "p90_gap_accepted": null
+  }
+ ],
+ "twin_pairs": {
+  "openai|loose|MULTI-G": {
+   "pairs": 96,
+   "both_blocked": 1,
+   "violation_only": 5,
+   "benign_only": 0,
+   "neither": 90
+  },
+  "openai|loose|MULTI-UG": {
+   "pairs": 96,
+   "both_blocked": 0,
+   "violation_only": 0,
+   "benign_only": 0,
+   "neither": 96
+  },
+  "openai|loose|SINGLE+G": {
+   "pairs": 96,
+   "both_blocked": 1,
+   "violation_only": 3,
+   "benign_only": 0,
+   "neither": 92
+  },
+  "openai|loose|SINGLE-UG": {
+   "pairs": 96,
+   "both_blocked": 0,
+   "violation_only": 0,
+   "benign_only": 0,
+   "neither": 96
+  },
+  "openai|tight|MULTI-G": {
+   "pairs": 96,
+   "both_blocked": 0,
+   "violation_only": 7,
+   "benign_only": 0,
+   "neither": 89
+  },
+  "openai|tight|MULTI-UG": {
+   "pairs": 96,
+   "both_blocked": 0,
+   "violation_only": 0,
+   "benign_only": 0,
+   "neither": 96
+  },
+  "openai|tight|SINGLE+G": {
+   "pairs": 96,
+   "both_blocked": 2,
+   "violation_only": 38,
+   "benign_only": 4,
+   "neither": 52
+  },
+  "openai|tight|SINGLE-UG": {
+   "pairs": 96,
+   "both_blocked": 0,
+   "violation_only": 0,
+   "benign_only": 0,
+   "neither": 96
+  }
+ },
+ "stats": {
+  "rows_read": 965,
+  "superseded": 5,
+  "broken_lines": 0,
+  "unique_keys": 960,
+  "error_rows": 0
+ },
+ "replay_mismatches": [
+  {
+   "source": "first_final",
+   "logged": "4227a86ab61ba491f69a693e9398c1e2e40f7fd90e2540594158dfdb2cc35ee6",
+   "replayed": "c751f7ed84785e45711edf3b84cf871f2bcac59a8c265116173222261f4affc9"
+  }
+ ]
+}

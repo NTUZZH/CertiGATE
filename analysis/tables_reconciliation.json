@@ -1,0 +1,7261 @@
+{
+ "checks": [
+  {
+   "check": "qwen3-14b M_constrained - V1 items",
+   "expected": 480,
+   "got": 480,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained - V2 items",
+   "expected": 600,
+   "got": 600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained - V3 items",
+   "expected": 660,
+   "got": 660,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained - V4 items",
+   "expected": 660,
+   "got": 660,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained - V5 items",
+   "expected": 600,
+   "got": 600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained - V6 items",
+   "expected": 600,
+   "got": 600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained - benign items",
+   "expected": 2400,
+   "got": 2400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free - V1 items",
+   "expected": 480,
+   "got": 480,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free - V2 items",
+   "expected": 600,
+   "got": 600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free - V3 items",
+   "expected": 660,
+   "got": 660,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free - V4 items",
+   "expected": 660,
+   "got": 660,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free - V5 items",
+   "expected": 600,
+   "got": 600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free - V6 items",
+   "expected": 600,
+   "got": 600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free - benign items",
+   "expected": 2400,
+   "got": 2400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained - V1 items",
+   "expected": 480,
+   "got": 480,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained - V2 items",
+   "expected": 600,
+   "got": 600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained - V3 items",
+   "expected": 660,
+   "got": 660,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained - V4 items",
+   "expected": 660,
+   "got": 660,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained - V5 items",
+   "expected": 600,
+   "got": 600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained - V6 items",
+   "expected": 600,
+   "got": 600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained - benign items",
+   "expected": 2400,
+   "got": 2400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free - V1 items",
+   "expected": 480,
+   "got": 480,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free - V2 items",
+   "expected": 600,
+   "got": 600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free - V3 items",
+   "expected": 660,
+   "got": 660,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free - V4 items",
+   "expected": 660,
+   "got": 660,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free - V5 items",
+   "expected": 600,
+   "got": 600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free - V6 items",
+   "expected": 600,
+   "got": 600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free - benign items",
+   "expected": 2400,
+   "got": 2400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained - V1 items",
+   "expected": 160,
+   "got": 160,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained - V2 items",
+   "expected": 200,
+   "got": 200,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained - V3 items",
+   "expected": 220,
+   "got": 220,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained - V4 items",
+   "expected": 220,
+   "got": 220,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained - V5 items",
+   "expected": 200,
+   "got": 200,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained - V6 items",
+   "expected": 200,
+   "got": 200,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained - benign items",
+   "expected": 800,
+   "got": 800,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free - V1 items",
+   "expected": 160,
+   "got": 160,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free - V2 items",
+   "expected": 200,
+   "got": 200,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free - V3 items",
+   "expected": 220,
+   "got": 220,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free - V4 items",
+   "expected": 220,
+   "got": 220,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free - V5 items",
+   "expected": 200,
+   "got": 200,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free - V6 items",
+   "expected": 200,
+   "got": 200,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free - benign items",
+   "expected": 800,
+   "got": 800,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained - V1 items",
+   "expected": 320,
+   "got": 320,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained - V2 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained - V3 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained - V4 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained - V5 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained - V6 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained - benign items",
+   "expected": 1600,
+   "got": 1600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "openai M_free - V1 items",
+   "expected": 320,
+   "got": 320,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "openai M_free - V2 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "openai M_free - V3 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "openai M_free - V4 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "openai M_free - V5 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "openai M_free - V6 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "openai M_free - benign items",
+   "expected": 1600,
+   "got": 1600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained non_think V1 items",
+   "expected": 320,
+   "got": 320,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained non_think V2 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained non_think V3 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained non_think V4 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained non_think V5 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained non_think V6 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained non_think benign items",
+   "expected": 1600,
+   "got": 1600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained think_high V1 items",
+   "expected": 320,
+   "got": 320,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained think_high V2 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained think_high V3 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained think_high V4 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained think_high V5 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained think_high V6 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained think_high benign items",
+   "expected": 1600,
+   "got": 1600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free non_think V1 items",
+   "expected": 320,
+   "got": 320,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free non_think V2 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free non_think V3 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free non_think V4 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free non_think V5 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free non_think V6 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free non_think benign items",
+   "expected": 1600,
+   "got": 1600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free think_high V1 items",
+   "expected": 320,
+   "got": 320,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free think_high V2 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free think_high V3 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free think_high V4 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free think_high V5 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free think_high V6 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free think_high benign items",
+   "expected": 1600,
+   "got": 1600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained disabled V1 items",
+   "expected": 320,
+   "got": 320,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained disabled V2 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained disabled V3 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained disabled V4 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained disabled V5 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained disabled V6 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained disabled benign items",
+   "expected": 1600,
+   "got": 1600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free disabled V1 items",
+   "expected": 320,
+   "got": 320,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free disabled V2 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free disabled V3 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free disabled V4 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free disabled V5 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free disabled V6 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free disabled benign items",
+   "expected": 1600,
+   "got": 1600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained default V1 items",
+   "expected": 320,
+   "got": 320,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained default V2 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained default V3 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained default V4 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained default V5 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained default V6 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained default benign items",
+   "expected": 1600,
+   "got": 1600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained disabled V1 items",
+   "expected": 320,
+   "got": 320,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained disabled V2 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained disabled V3 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained disabled V4 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained disabled V5 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained disabled V6 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained disabled benign items",
+   "expected": 1600,
+   "got": 1600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_free default V1 items",
+   "expected": 320,
+   "got": 320,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_free default V2 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_free default V3 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_free default V4 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_free default V5 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_free default V6 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_free default benign items",
+   "expected": 1600,
+   "got": 1600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_free disabled V1 items",
+   "expected": 320,
+   "got": 320,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_free disabled V2 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_free disabled V3 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_free disabled V4 items",
+   "expected": 440,
+   "got": 440,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_free disabled V5 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_free disabled V6 items",
+   "expected": 400,
+   "got": 400,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "opus M_free disabled benign items",
+   "expected": 1600,
+   "got": 1600,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained none V1 items",
+   "expected": 160,
+   "got": 160,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained none V2 items",
+   "expected": 200,
+   "got": 200,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained none V3 items",
+   "expected": 220,
+   "got": 220,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained none V4 items",
+   "expected": 220,
+   "got": 220,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained none V5 items",
+   "expected": 200,
+   "got": 200,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained none V6 items",
+   "expected": 200,
+   "got": 200,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained none benign items",
+   "expected": 800,
+   "got": 800,
+   "group": "T1",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained constraint-tax shares sum to one",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T2",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free constraint-tax shares sum to one",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T2",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained constraint-tax shares sum to one",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T2",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free constraint-tax shares sum to one",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T2",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained constraint-tax shares sum to one",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T2",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free constraint-tax shares sum to one",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T2",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained constraint-tax shares sum to one",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T2",
+   "pass": true
+  },
+  {
+   "check": "openai M_free constraint-tax shares sum to one",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T2",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained constraint-tax shares sum to one",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T2",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained constraint-tax shares sum to one",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T2",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free constraint-tax shares sum to one",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T2",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free constraint-tax shares sum to one",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T2",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained constraint-tax shares sum to one",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T2",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free constraint-tax shares sum to one",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T2",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained constraint-tax shares sum to one",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T2",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained constraint-tax shares sum to one",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T2",
+   "pass": true
+  },
+  {
+   "check": "opus M_free constraint-tax shares sum to one",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T2",
+   "pass": true
+  },
+  {
+   "check": "opus M_free constraint-tax shares sum to one",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T2",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained constraint-tax shares sum to one",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T2",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b V3 separated <= V3 G_CERT blocks",
+   "expected": true,
+   "got": true,
+   "group": "T3",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 V3 separated <= V3 G_CERT blocks",
+   "expected": true,
+   "got": true,
+   "group": "T3",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b V3 separated <= V3 G_CERT blocks",
+   "expected": true,
+   "got": true,
+   "group": "T3",
+   "pass": true
+  },
+  {
+   "check": "openai V3 separated <= V3 G_CERT blocks",
+   "expected": true,
+   "got": true,
+   "group": "T3",
+   "pass": true
+  },
+  {
+   "check": "deepseek V3 separated <= V3 G_CERT blocks",
+   "expected": true,
+   "got": true,
+   "group": "T3",
+   "pass": true
+  },
+  {
+   "check": "deepseek V3 separated <= V3 G_CERT blocks",
+   "expected": true,
+   "got": true,
+   "group": "T3",
+   "pass": true
+  },
+  {
+   "check": "sonnet V3 separated <= V3 G_CERT blocks",
+   "expected": true,
+   "got": true,
+   "group": "T3",
+   "pass": true
+  },
+  {
+   "check": "opus V3 separated <= V3 G_CERT blocks",
+   "expected": true,
+   "got": true,
+   "group": "T3",
+   "pass": true
+  },
+  {
+   "check": "opus V3 separated <= V3 G_CERT blocks",
+   "expected": true,
+   "got": true,
+   "group": "T3",
+   "pass": true
+  },
+  {
+   "check": "sol V3 separated <= V3 G_CERT blocks",
+   "expected": true,
+   "got": true,
+   "group": "T3",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b UNGUARDED M_constrained / - false blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b UNGUARDED M_constrained / - total blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b UNGUARDED M_free / - false blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b UNGUARDED M_free / - total blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b G_FEAS M_constrained / - false blocks match the accepted table",
+   "expected": 6,
+   "got": 6,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b G_FEAS M_constrained / - total blocks match the accepted table",
+   "expected": 758,
+   "got": 758,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b G_FEAS M_free / - false blocks match the accepted table",
+   "expected": 2383,
+   "got": 2383,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b G_FEAS M_free / - total blocks match the accepted table",
+   "expected": 5538,
+   "got": 5538,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b G_CERT M_constrained / - false blocks match the accepted table",
+   "expected": 105,
+   "got": 105,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b G_CERT M_constrained / - total blocks match the accepted table",
+   "expected": 1517,
+   "got": 1517,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b G_CERT M_free / - false blocks match the accepted table",
+   "expected": 2383,
+   "got": 2383,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b G_CERT M_free / - total blocks match the accepted table",
+   "expected": 5562,
+   "got": 5562,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 UNGUARDED M_constrained / - false blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 UNGUARDED M_constrained / - total blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 UNGUARDED M_free / - false blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 UNGUARDED M_free / - total blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 G_FEAS M_constrained / - false blocks match the accepted table",
+   "expected": 69,
+   "got": 69,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 G_FEAS M_constrained / - total blocks match the accepted table",
+   "expected": 781,
+   "got": 781,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 G_FEAS M_free / - false blocks match the accepted table",
+   "expected": 2400,
+   "got": 2400,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 G_FEAS M_free / - total blocks match the accepted table",
+   "expected": 5358,
+   "got": 5358,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 G_CERT M_constrained / - false blocks match the accepted table",
+   "expected": 132,
+   "got": 132,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 G_CERT M_constrained / - total blocks match the accepted table",
+   "expected": 1487,
+   "got": 1487,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 G_CERT M_free / - false blocks match the accepted table",
+   "expected": 2400,
+   "got": 2400,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 G_CERT M_free / - total blocks match the accepted table",
+   "expected": 5379,
+   "got": 5379,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b UNGUARDED M_constrained / - false blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b UNGUARDED M_constrained / - total blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b UNGUARDED M_free / - false blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b UNGUARDED M_free / - total blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b G_FEAS M_constrained / - false blocks match the accepted table",
+   "expected": 43,
+   "got": 43,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b G_FEAS M_constrained / - total blocks match the accepted table",
+   "expected": 365,
+   "got": 365,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b G_FEAS M_free / - false blocks match the accepted table",
+   "expected": 800,
+   "got": 800,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b G_FEAS M_free / - total blocks match the accepted table",
+   "expected": 2000,
+   "got": 2000,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b G_CERT M_constrained / - false blocks match the accepted table",
+   "expected": 64,
+   "got": 64,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b G_CERT M_constrained / - total blocks match the accepted table",
+   "expected": 573,
+   "got": 573,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b G_CERT M_free / - false blocks match the accepted table",
+   "expected": 800,
+   "got": 800,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b G_CERT M_free / - total blocks match the accepted table",
+   "expected": 2000,
+   "got": 2000,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "openai UNGUARDED M_constrained / - false blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "openai UNGUARDED M_constrained / - total blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "openai UNGUARDED M_free / - false blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "openai UNGUARDED M_free / - total blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "openai G_FEAS M_constrained / - false blocks match the accepted table",
+   "expected": 20,
+   "got": 20,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "openai G_FEAS M_constrained / - total blocks match the accepted table",
+   "expected": 564,
+   "got": 564,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "openai G_FEAS M_free / - false blocks match the accepted table",
+   "expected": 1592,
+   "got": 1592,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "openai G_FEAS M_free / - total blocks match the accepted table",
+   "expected": 3805,
+   "got": 3805,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "openai G_CERT M_constrained / - false blocks match the accepted table",
+   "expected": 62,
+   "got": 62,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "openai G_CERT M_constrained / - total blocks match the accepted table",
+   "expected": 1002,
+   "got": 1002,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "openai G_CERT M_free / - false blocks match the accepted table",
+   "expected": 1592,
+   "got": 1592,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "openai G_CERT M_free / - total blocks match the accepted table",
+   "expected": 3816,
+   "got": 3816,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek UNGUARDED M_constrained / non_think false blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek UNGUARDED M_constrained / non_think total blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek UNGUARDED M_constrained / think_high false blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek UNGUARDED M_constrained / think_high total blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek UNGUARDED M_free / non_think false blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek UNGUARDED M_free / non_think total blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek UNGUARDED M_free / think_high false blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek UNGUARDED M_free / think_high total blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek G_FEAS M_constrained / non_think false blocks match the accepted table",
+   "expected": 1553,
+   "got": 1553,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek G_FEAS M_constrained / non_think total blocks match the accepted table",
+   "expected": 3231,
+   "got": 3231,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek G_FEAS M_constrained / think_high false blocks match the accepted table",
+   "expected": 1591,
+   "got": 1591,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek G_FEAS M_constrained / think_high total blocks match the accepted table",
+   "expected": 3420,
+   "got": 3420,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek G_FEAS M_free / non_think false blocks match the accepted table",
+   "expected": 1564,
+   "got": 1564,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek G_FEAS M_free / non_think total blocks match the accepted table",
+   "expected": 3310,
+   "got": 3310,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek G_FEAS M_free / think_high false blocks match the accepted table",
+   "expected": 1592,
+   "got": 1592,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek G_FEAS M_free / think_high total blocks match the accepted table",
+   "expected": 3425,
+   "got": 3425,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek G_CERT M_constrained / non_think false blocks match the accepted table",
+   "expected": 1555,
+   "got": 1555,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek G_CERT M_constrained / non_think total blocks match the accepted table",
+   "expected": 3254,
+   "got": 3254,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek G_CERT M_constrained / think_high false blocks match the accepted table",
+   "expected": 1591,
+   "got": 1591,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek G_CERT M_constrained / think_high total blocks match the accepted table",
+   "expected": 3437,
+   "got": 3437,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek G_CERT M_free / non_think false blocks match the accepted table",
+   "expected": 1566,
+   "got": 1566,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek G_CERT M_free / non_think total blocks match the accepted table",
+   "expected": 3330,
+   "got": 3330,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek G_CERT M_free / think_high false blocks match the accepted table",
+   "expected": 1592,
+   "got": 1592,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek G_CERT M_free / think_high total blocks match the accepted table",
+   "expected": 3440,
+   "got": 3440,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "sonnet UNGUARDED M_constrained / disabled false blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "sonnet UNGUARDED M_constrained / disabled total blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "sonnet UNGUARDED M_free / disabled false blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "sonnet UNGUARDED M_free / disabled total blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "sonnet G_FEAS M_constrained / disabled false blocks match the accepted table",
+   "expected": 19,
+   "got": 19,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "sonnet G_FEAS M_constrained / disabled total blocks match the accepted table",
+   "expected": 358,
+   "got": 358,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "sonnet G_FEAS M_free / disabled false blocks match the accepted table",
+   "expected": 1600,
+   "got": 1600,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "sonnet G_FEAS M_free / disabled total blocks match the accepted table",
+   "expected": 3503,
+   "got": 3503,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "sonnet G_CERT M_constrained / disabled false blocks match the accepted table",
+   "expected": 61,
+   "got": 61,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "sonnet G_CERT M_constrained / disabled total blocks match the accepted table",
+   "expected": 825,
+   "got": 825,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "sonnet G_CERT M_free / disabled false blocks match the accepted table",
+   "expected": 1600,
+   "got": 1600,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "sonnet G_CERT M_free / disabled total blocks match the accepted table",
+   "expected": 3519,
+   "got": 3519,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus UNGUARDED M_constrained / default false blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus UNGUARDED M_constrained / default total blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus UNGUARDED M_constrained / disabled false blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus UNGUARDED M_constrained / disabled total blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus UNGUARDED M_free / default false blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus UNGUARDED M_free / default total blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus UNGUARDED M_free / disabled false blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus UNGUARDED M_free / disabled total blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus G_FEAS M_constrained / default false blocks match the accepted table",
+   "expected": 21,
+   "got": 21,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus G_FEAS M_constrained / default total blocks match the accepted table",
+   "expected": 114,
+   "got": 114,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus G_FEAS M_constrained / disabled false blocks match the accepted table",
+   "expected": 38,
+   "got": 38,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus G_FEAS M_constrained / disabled total blocks match the accepted table",
+   "expected": 260,
+   "got": 260,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus G_FEAS M_free / default false blocks match the accepted table",
+   "expected": 449,
+   "got": 449,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus G_FEAS M_free / default total blocks match the accepted table",
+   "expected": 732,
+   "got": 732,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus G_FEAS M_free / disabled false blocks match the accepted table",
+   "expected": 367,
+   "got": 367,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus G_FEAS M_free / disabled total blocks match the accepted table",
+   "expected": 614,
+   "got": 614,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus G_CERT M_constrained / default false blocks match the accepted table",
+   "expected": 63,
+   "got": 63,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus G_CERT M_constrained / default total blocks match the accepted table",
+   "expected": 607,
+   "got": 607,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus G_CERT M_constrained / disabled false blocks match the accepted table",
+   "expected": 80,
+   "got": 80,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus G_CERT M_constrained / disabled total blocks match the accepted table",
+   "expected": 750,
+   "got": 750,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus G_CERT M_free / default false blocks match the accepted table",
+   "expected": 449,
+   "got": 449,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus G_CERT M_free / default total blocks match the accepted table",
+   "expected": 741,
+   "got": 741,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus G_CERT M_free / disabled false blocks match the accepted table",
+   "expected": 369,
+   "got": 369,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "opus G_CERT M_free / disabled total blocks match the accepted table",
+   "expected": 626,
+   "got": 626,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "sol UNGUARDED M_constrained / none false blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "sol UNGUARDED M_constrained / none total blocks match the accepted table",
+   "expected": 0,
+   "got": 0,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "sol G_FEAS M_constrained / none false blocks match the accepted table",
+   "expected": 48,
+   "got": 48,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "sol G_FEAS M_constrained / none total blocks match the accepted table",
+   "expected": 165,
+   "got": 165,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "sol G_CERT M_constrained / none false blocks match the accepted table",
+   "expected": 69,
+   "got": 69,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "sol G_CERT M_constrained / none total blocks match the accepted table",
+   "expected": 395,
+   "got": 395,
+   "group": "T4",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.02 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.02 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.02 V3 separated reproduces the accepted sweep",
+   "expected": 3,
+   "got": 3,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.02 false-block rate reproduces the accepted sweep",
+   "expected": 0.983125,
+   "got": 0.983125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.02 warranted share reproduces the accepted sweep",
+   "expected": 0.60675,
+   "got": 0.60675,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.05 V3 blocks reproduce the accepted sweep",
+   "expected": 438,
+   "got": 438,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.05 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.05 V3 separated reproduces the accepted sweep",
+   "expected": 1,
+   "got": 1,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.05 false-block rate reproduces the accepted sweep",
+   "expected": 0.98,
+   "got": 0.98,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.05 warranted share reproduces the accepted sweep",
+   "expected": 0.608,
+   "got": 0.608,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.10 V3 blocks reproduce the accepted sweep",
+   "expected": 438,
+   "got": 438,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.10 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.10 V3 separated reproduces the accepted sweep",
+   "expected": 1,
+   "got": 1,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.10 false-block rate reproduces the accepted sweep",
+   "expected": 0.974375,
+   "got": 0.974375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.10 warranted share reproduces the accepted sweep",
+   "expected": 0.61025,
+   "got": 0.61025,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.15 V3 blocks reproduce the accepted sweep",
+   "expected": 438,
+   "got": 438,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.15 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.15 V3 separated reproduces the accepted sweep",
+   "expected": 1,
+   "got": 1,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.15 false-block rate reproduces the accepted sweep",
+   "expected": 0.971875,
+   "got": 0.971875,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.15 warranted share reproduces the accepted sweep",
+   "expected": 0.61125,
+   "got": 0.61125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.20 V3 blocks reproduce the accepted sweep",
+   "expected": 438,
+   "got": 438,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.20 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.20 V3 separated reproduces the accepted sweep",
+   "expected": 1,
+   "got": 1,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.20 false-block rate reproduces the accepted sweep",
+   "expected": 0.971875,
+   "got": 0.971875,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.20 warranted share reproduces the accepted sweep",
+   "expected": 0.61125,
+   "got": 0.61125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.30 V3 blocks reproduce the accepted sweep",
+   "expected": 437,
+   "got": 437,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.30 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.30 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.30 false-block rate reproduces the accepted sweep",
+   "expected": 0.970625,
+   "got": 0.970625,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.30 warranted share reproduces the accepted sweep",
+   "expected": 0.61175,
+   "got": 0.61175,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.50 V3 blocks reproduce the accepted sweep",
+   "expected": 437,
+   "got": 437,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.50 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.50 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.50 false-block rate reproduces the accepted sweep",
+   "expected": 0.970625,
+   "got": 0.970625,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.50 warranted share reproduces the accepted sweep",
+   "expected": 0.61175,
+   "got": 0.61175,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=1.00 V3 blocks reproduce the accepted sweep",
+   "expected": 437,
+   "got": 437,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=1.00 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=1.00 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=1.00 false-block rate reproduces the accepted sweep",
+   "expected": 0.970625,
+   "got": 0.970625,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=1.00 warranted share reproduces the accepted sweep",
+   "expected": 0.61175,
+   "got": 0.61175,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.02 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.02 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.02 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.02 false-block rate reproduces the accepted sweep",
+   "expected": 0.996875,
+   "got": 0.996875,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.02 warranted share reproduces the accepted sweep",
+   "expected": 0.60125,
+   "got": 0.60125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.05 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.05 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.05 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.05 false-block rate reproduces the accepted sweep",
+   "expected": 0.996875,
+   "got": 0.996875,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.05 warranted share reproduces the accepted sweep",
+   "expected": 0.60125,
+   "got": 0.60125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.10 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.10 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.10 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.10 false-block rate reproduces the accepted sweep",
+   "expected": 0.995625,
+   "got": 0.995625,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.10 warranted share reproduces the accepted sweep",
+   "expected": 0.60175,
+   "got": 0.60175,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.15 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.15 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.15 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.15 false-block rate reproduces the accepted sweep",
+   "expected": 0.994375,
+   "got": 0.994375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.15 warranted share reproduces the accepted sweep",
+   "expected": 0.60225,
+   "got": 0.60225,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.20 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.20 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.20 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.20 false-block rate reproduces the accepted sweep",
+   "expected": 0.994375,
+   "got": 0.994375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.20 warranted share reproduces the accepted sweep",
+   "expected": 0.60225,
+   "got": 0.60225,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.30 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.30 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.30 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.30 false-block rate reproduces the accepted sweep",
+   "expected": 0.994375,
+   "got": 0.994375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.30 warranted share reproduces the accepted sweep",
+   "expected": 0.60225,
+   "got": 0.60225,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.50 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.50 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.50 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.50 false-block rate reproduces the accepted sweep",
+   "expected": 0.994375,
+   "got": 0.994375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=0.50 warranted share reproduces the accepted sweep",
+   "expected": 0.60225,
+   "got": 0.60225,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=1.00 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=1.00 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=1.00 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=1.00 false-block rate reproduces the accepted sweep",
+   "expected": 0.994375,
+   "got": 0.994375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_constrained tau=1.00 warranted share reproduces the accepted sweep",
+   "expected": 0.60225,
+   "got": 0.60225,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.02 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.02 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.02 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.02 false-block rate reproduces the accepted sweep",
+   "expected": 0.9875,
+   "got": 0.9875,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.02 warranted share reproduces the accepted sweep",
+   "expected": 0.605,
+   "got": 0.605,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.05 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.05 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.05 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.05 false-block rate reproduces the accepted sweep",
+   "expected": 0.985625,
+   "got": 0.985625,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.05 warranted share reproduces the accepted sweep",
+   "expected": 0.60575,
+   "got": 0.60575,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.10 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.10 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.10 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.10 false-block rate reproduces the accepted sweep",
+   "expected": 0.98,
+   "got": 0.98,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.10 warranted share reproduces the accepted sweep",
+   "expected": 0.608,
+   "got": 0.608,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.15 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.15 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.15 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.15 false-block rate reproduces the accepted sweep",
+   "expected": 0.97875,
+   "got": 0.97875,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.15 warranted share reproduces the accepted sweep",
+   "expected": 0.6085,
+   "got": 0.6085,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.20 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.20 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.20 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.20 false-block rate reproduces the accepted sweep",
+   "expected": 0.97875,
+   "got": 0.97875,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.20 warranted share reproduces the accepted sweep",
+   "expected": 0.6085,
+   "got": 0.6085,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.30 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.30 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.30 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.30 false-block rate reproduces the accepted sweep",
+   "expected": 0.9775,
+   "got": 0.9775,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.30 warranted share reproduces the accepted sweep",
+   "expected": 0.609,
+   "got": 0.609,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.50 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.50 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.50 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.50 false-block rate reproduces the accepted sweep",
+   "expected": 0.9775,
+   "got": 0.9775,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.50 warranted share reproduces the accepted sweep",
+   "expected": 0.609,
+   "got": 0.609,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=1.00 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=1.00 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=1.00 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=1.00 false-block rate reproduces the accepted sweep",
+   "expected": 0.9775,
+   "got": 0.9775,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=1.00 warranted share reproduces the accepted sweep",
+   "expected": 0.609,
+   "got": 0.609,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.02 V3 blocks reproduce the accepted sweep",
+   "expected": 438,
+   "got": 438,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.02 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.02 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.02 false-block rate reproduces the accepted sweep",
+   "expected": 0.996875,
+   "got": 0.996875,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.02 warranted share reproduces the accepted sweep",
+   "expected": 0.60125,
+   "got": 0.60125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.05 V3 blocks reproduce the accepted sweep",
+   "expected": 438,
+   "got": 438,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.05 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.05 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.05 false-block rate reproduces the accepted sweep",
+   "expected": 0.996875,
+   "got": 0.996875,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.05 warranted share reproduces the accepted sweep",
+   "expected": 0.60125,
+   "got": 0.60125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.10 V3 blocks reproduce the accepted sweep",
+   "expected": 438,
+   "got": 438,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.10 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.10 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.10 false-block rate reproduces the accepted sweep",
+   "expected": 0.995,
+   "got": 0.995,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.10 warranted share reproduces the accepted sweep",
+   "expected": 0.602,
+   "got": 0.602,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.15 V3 blocks reproduce the accepted sweep",
+   "expected": 438,
+   "got": 438,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.15 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.15 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.15 false-block rate reproduces the accepted sweep",
+   "expected": 0.995,
+   "got": 0.995,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.15 warranted share reproduces the accepted sweep",
+   "expected": 0.602,
+   "got": 0.602,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.20 V3 blocks reproduce the accepted sweep",
+   "expected": 438,
+   "got": 438,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.20 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.20 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.20 false-block rate reproduces the accepted sweep",
+   "expected": 0.995,
+   "got": 0.995,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.20 warranted share reproduces the accepted sweep",
+   "expected": 0.602,
+   "got": 0.602,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.30 V3 blocks reproduce the accepted sweep",
+   "expected": 438,
+   "got": 438,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.30 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.30 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.30 false-block rate reproduces the accepted sweep",
+   "expected": 0.995,
+   "got": 0.995,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.30 warranted share reproduces the accepted sweep",
+   "expected": 0.602,
+   "got": 0.602,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.50 V3 blocks reproduce the accepted sweep",
+   "expected": 438,
+   "got": 438,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.50 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.50 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.50 false-block rate reproduces the accepted sweep",
+   "expected": 0.995,
+   "got": 0.995,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=0.50 warranted share reproduces the accepted sweep",
+   "expected": 0.602,
+   "got": 0.602,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=1.00 V3 blocks reproduce the accepted sweep",
+   "expected": 438,
+   "got": 438,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=1.00 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=1.00 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=1.00 false-block rate reproduces the accepted sweep",
+   "expected": 0.995,
+   "got": 0.995,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "deepseek M_free tau=1.00 warranted share reproduces the accepted sweep",
+   "expected": 0.602,
+   "got": 0.602,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.02 V3 blocks reproduce the accepted sweep",
+   "expected": 194,
+   "got": 194,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.02 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.02 V3 separated reproduces the accepted sweep",
+   "expected": 188,
+   "got": 188,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.02 false-block rate reproduces the accepted sweep",
+   "expected": 0.37125,
+   "got": 0.37125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.02 warranted share reproduces the accepted sweep",
+   "expected": 0.8515,
+   "got": 0.8515,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.05 V3 blocks reproduce the accepted sweep",
+   "expected": 190,
+   "got": 190,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.05 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.05 V3 separated reproduces the accepted sweep",
+   "expected": 184,
+   "got": 184,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.05 false-block rate reproduces the accepted sweep",
+   "expected": 0.2325,
+   "got": 0.2325,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.05 warranted share reproduces the accepted sweep",
+   "expected": 0.907,
+   "got": 0.907,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.10 V3 blocks reproduce the accepted sweep",
+   "expected": 175,
+   "got": 175,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.10 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.10 V3 separated reproduces the accepted sweep",
+   "expected": 169,
+   "got": 169,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.10 false-block rate reproduces the accepted sweep",
+   "expected": 0.12875,
+   "got": 0.12875,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.10 warranted share reproduces the accepted sweep",
+   "expected": 0.9485,
+   "got": 0.9485,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.15 V3 blocks reproduce the accepted sweep",
+   "expected": 172,
+   "got": 172,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.15 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.15 V3 separated reproduces the accepted sweep",
+   "expected": 166,
+   "got": 166,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.15 false-block rate reproduces the accepted sweep",
+   "expected": 0.0825,
+   "got": 0.0825,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.15 warranted share reproduces the accepted sweep",
+   "expected": 0.967,
+   "got": 0.967,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.20 V3 blocks reproduce the accepted sweep",
+   "expected": 166,
+   "got": 166,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.20 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.20 V3 separated reproduces the accepted sweep",
+   "expected": 160,
+   "got": 160,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.20 false-block rate reproduces the accepted sweep",
+   "expected": 0.08,
+   "got": 0.08,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.20 warranted share reproduces the accepted sweep",
+   "expected": 0.968,
+   "got": 0.968,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.30 V3 blocks reproduce the accepted sweep",
+   "expected": 142,
+   "got": 142,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.30 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.30 V3 separated reproduces the accepted sweep",
+   "expected": 136,
+   "got": 136,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.30 false-block rate reproduces the accepted sweep",
+   "expected": 0.055,
+   "got": 0.055,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.30 warranted share reproduces the accepted sweep",
+   "expected": 0.978,
+   "got": 0.978,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.50 V3 blocks reproduce the accepted sweep",
+   "expected": 105,
+   "got": 105,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.50 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.50 V3 separated reproduces the accepted sweep",
+   "expected": 99,
+   "got": 99,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.50 false-block rate reproduces the accepted sweep",
+   "expected": 0.05375,
+   "got": 0.05375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=0.50 warranted share reproduces the accepted sweep",
+   "expected": 0.9785,
+   "got": 0.9785,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=1.00 V3 blocks reproduce the accepted sweep",
+   "expected": 52,
+   "got": 52,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=1.00 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=1.00 V3 separated reproduces the accepted sweep",
+   "expected": 46,
+   "got": 46,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=1.00 false-block rate reproduces the accepted sweep",
+   "expected": 0.05375,
+   "got": 0.05375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_constrained tau=1.00 warranted share reproduces the accepted sweep",
+   "expected": 0.9785,
+   "got": 0.9785,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.02 V3 blocks reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.02 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.02 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.02 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.02 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.05 V3 blocks reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.05 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.05 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.05 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.05 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.10 V3 blocks reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.10 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.10 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.10 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.10 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.15 V3 blocks reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.15 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.15 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.15 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.15 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.20 V3 blocks reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.20 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.20 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.20 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.20 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.30 V3 blocks reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.30 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.30 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.30 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.30 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.50 V3 blocks reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.50 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.50 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.50 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=0.50 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=1.00 V3 blocks reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=1.00 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=1.00 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=1.00 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "glm-4-9b M_free tau=1.00 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.02 V3 blocks reproduce the accepted sweep",
+   "expected": 404,
+   "got": 404,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.02 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.02 V3 separated reproduces the accepted sweep",
+   "expected": 402,
+   "got": 402,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.02 false-block rate reproduces the accepted sweep",
+   "expected": 0.34,
+   "got": 0.34,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.02 warranted share reproduces the accepted sweep",
+   "expected": 0.864,
+   "got": 0.864,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.05 V3 blocks reproduce the accepted sweep",
+   "expected": 394,
+   "got": 394,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.05 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.05 V3 separated reproduces the accepted sweep",
+   "expected": 392,
+   "got": 392,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.05 false-block rate reproduces the accepted sweep",
+   "expected": 0.19375,
+   "got": 0.19375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.05 warranted share reproduces the accepted sweep",
+   "expected": 0.9225,
+   "got": 0.9225,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.10 V3 blocks reproduce the accepted sweep",
+   "expected": 368,
+   "got": 368,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.10 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.10 V3 separated reproduces the accepted sweep",
+   "expected": 366,
+   "got": 366,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.10 false-block rate reproduces the accepted sweep",
+   "expected": 0.08375,
+   "got": 0.08375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.10 warranted share reproduces the accepted sweep",
+   "expected": 0.9665,
+   "got": 0.9665,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.15 V3 blocks reproduce the accepted sweep",
+   "expected": 363,
+   "got": 363,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.15 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.15 V3 separated reproduces the accepted sweep",
+   "expected": 361,
+   "got": 361,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.15 false-block rate reproduces the accepted sweep",
+   "expected": 0.04,
+   "got": 0.04,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.15 warranted share reproduces the accepted sweep",
+   "expected": 0.984,
+   "got": 0.984,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.20 V3 blocks reproduce the accepted sweep",
+   "expected": 349,
+   "got": 349,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.20 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.20 V3 separated reproduces the accepted sweep",
+   "expected": 347,
+   "got": 347,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.20 false-block rate reproduces the accepted sweep",
+   "expected": 0.03875,
+   "got": 0.03875,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.20 warranted share reproduces the accepted sweep",
+   "expected": 0.9845,
+   "got": 0.9845,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.30 V3 blocks reproduce the accepted sweep",
+   "expected": 305,
+   "got": 305,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.30 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.30 V3 separated reproduces the accepted sweep",
+   "expected": 303,
+   "got": 303,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.30 false-block rate reproduces the accepted sweep",
+   "expected": 0.0125,
+   "got": 0.0125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.30 warranted share reproduces the accepted sweep",
+   "expected": 0.995,
+   "got": 0.995,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.50 V3 blocks reproduce the accepted sweep",
+   "expected": 222,
+   "got": 222,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.50 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.50 V3 separated reproduces the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.50 false-block rate reproduces the accepted sweep",
+   "expected": 0.0125,
+   "got": 0.0125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=0.50 warranted share reproduces the accepted sweep",
+   "expected": 0.995,
+   "got": 0.995,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=1.00 V3 blocks reproduce the accepted sweep",
+   "expected": 102,
+   "got": 102,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=1.00 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=1.00 V3 separated reproduces the accepted sweep",
+   "expected": 100,
+   "got": 100,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=1.00 false-block rate reproduces the accepted sweep",
+   "expected": 0.0125,
+   "got": 0.0125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_constrained tau=1.00 warranted share reproduces the accepted sweep",
+   "expected": 0.995,
+   "got": 0.995,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.02 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.02 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.02 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.02 false-block rate reproduces the accepted sweep",
+   "expected": 0.995625,
+   "got": 0.995625,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.02 warranted share reproduces the accepted sweep",
+   "expected": 0.60175,
+   "got": 0.60175,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.05 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.05 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.05 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.05 false-block rate reproduces the accepted sweep",
+   "expected": 0.995625,
+   "got": 0.995625,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.05 warranted share reproduces the accepted sweep",
+   "expected": 0.60175,
+   "got": 0.60175,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.10 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.10 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.10 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.10 false-block rate reproduces the accepted sweep",
+   "expected": 0.995,
+   "got": 0.995,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.10 warranted share reproduces the accepted sweep",
+   "expected": 0.602,
+   "got": 0.602,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.15 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.15 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.15 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.15 false-block rate reproduces the accepted sweep",
+   "expected": 0.995,
+   "got": 0.995,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.15 warranted share reproduces the accepted sweep",
+   "expected": 0.602,
+   "got": 0.602,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.20 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.20 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.20 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.20 false-block rate reproduces the accepted sweep",
+   "expected": 0.995,
+   "got": 0.995,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.20 warranted share reproduces the accepted sweep",
+   "expected": 0.602,
+   "got": 0.602,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.30 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.30 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.30 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.30 false-block rate reproduces the accepted sweep",
+   "expected": 0.995,
+   "got": 0.995,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.30 warranted share reproduces the accepted sweep",
+   "expected": 0.602,
+   "got": 0.602,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.50 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.50 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.50 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.50 false-block rate reproduces the accepted sweep",
+   "expected": 0.995,
+   "got": 0.995,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=0.50 warranted share reproduces the accepted sweep",
+   "expected": 0.602,
+   "got": 0.602,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=1.00 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=1.00 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=1.00 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=1.00 false-block rate reproduces the accepted sweep",
+   "expected": 0.995,
+   "got": 0.995,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "openai M_free tau=1.00 warranted share reproduces the accepted sweep",
+   "expected": 0.602,
+   "got": 0.602,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.02 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.02 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.02 V3 separated reproduces the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.02 false-block rate reproduces the accepted sweep",
+   "expected": 0.343125,
+   "got": 0.343125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.02 warranted share reproduces the accepted sweep",
+   "expected": 0.86225,
+   "got": 0.86225,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.05 V3 blocks reproduce the accepted sweep",
+   "expected": 434,
+   "got": 434,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.05 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.05 V3 separated reproduces the accepted sweep",
+   "expected": 434,
+   "got": 434,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.05 false-block rate reproduces the accepted sweep",
+   "expected": 0.198125,
+   "got": 0.198125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.05 warranted share reproduces the accepted sweep",
+   "expected": 0.92025,
+   "got": 0.92025,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.10 V3 blocks reproduce the accepted sweep",
+   "expected": 418,
+   "got": 418,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.10 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.10 V3 separated reproduces the accepted sweep",
+   "expected": 418,
+   "got": 418,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.10 false-block rate reproduces the accepted sweep",
+   "expected": 0.085625,
+   "got": 0.085625,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.10 warranted share reproduces the accepted sweep",
+   "expected": 0.96525,
+   "got": 0.96525,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.15 V3 blocks reproduce the accepted sweep",
+   "expected": 412,
+   "got": 412,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.15 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.15 V3 separated reproduces the accepted sweep",
+   "expected": 412,
+   "got": 412,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.15 false-block rate reproduces the accepted sweep",
+   "expected": 0.040625,
+   "got": 0.040625,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.15 warranted share reproduces the accepted sweep",
+   "expected": 0.98325,
+   "got": 0.98325,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.20 V3 blocks reproduce the accepted sweep",
+   "expected": 398,
+   "got": 398,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.20 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.20 V3 separated reproduces the accepted sweep",
+   "expected": 398,
+   "got": 398,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.20 false-block rate reproduces the accepted sweep",
+   "expected": 0.039375,
+   "got": 0.039375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.20 warranted share reproduces the accepted sweep",
+   "expected": 0.98375,
+   "got": 0.98375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.30 V3 blocks reproduce the accepted sweep",
+   "expected": 348,
+   "got": 348,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.30 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.30 V3 separated reproduces the accepted sweep",
+   "expected": 348,
+   "got": 348,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.30 false-block rate reproduces the accepted sweep",
+   "expected": 0.013125,
+   "got": 0.013125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.30 warranted share reproduces the accepted sweep",
+   "expected": 0.99425,
+   "got": 0.99425,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.50 V3 blocks reproduce the accepted sweep",
+   "expected": 258,
+   "got": 258,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.50 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.50 V3 separated reproduces the accepted sweep",
+   "expected": 258,
+   "got": 258,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.50 false-block rate reproduces the accepted sweep",
+   "expected": 0.013125,
+   "got": 0.013125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.50 warranted share reproduces the accepted sweep",
+   "expected": 0.99425,
+   "got": 0.99425,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=1.00 V3 blocks reproduce the accepted sweep",
+   "expected": 124,
+   "got": 124,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=1.00 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=1.00 V3 separated reproduces the accepted sweep",
+   "expected": 124,
+   "got": 124,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=1.00 false-block rate reproduces the accepted sweep",
+   "expected": 0.013125,
+   "got": 0.013125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=1.00 warranted share reproduces the accepted sweep",
+   "expected": 0.99425,
+   "got": 0.99425,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.02 V3 blocks reproduce the accepted sweep",
+   "expected": 439,
+   "got": 439,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.02 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.02 V3 separated reproduces the accepted sweep",
+   "expected": 439,
+   "got": 439,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.02 false-block rate reproduces the accepted sweep",
+   "expected": 0.351875,
+   "got": 0.351875,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.02 warranted share reproduces the accepted sweep",
+   "expected": 0.85875,
+   "got": 0.85875,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.05 V3 blocks reproduce the accepted sweep",
+   "expected": 433,
+   "got": 433,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.05 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.05 V3 separated reproduces the accepted sweep",
+   "expected": 433,
+   "got": 433,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.05 false-block rate reproduces the accepted sweep",
+   "expected": 0.20625,
+   "got": 0.20625,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.05 warranted share reproduces the accepted sweep",
+   "expected": 0.917,
+   "got": 0.917,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.10 V3 blocks reproduce the accepted sweep",
+   "expected": 416,
+   "got": 416,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.10 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.10 V3 separated reproduces the accepted sweep",
+   "expected": 416,
+   "got": 416,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.10 false-block rate reproduces the accepted sweep",
+   "expected": 0.09625,
+   "got": 0.09625,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.10 warranted share reproduces the accepted sweep",
+   "expected": 0.961,
+   "got": 0.961,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.15 V3 blocks reproduce the accepted sweep",
+   "expected": 410,
+   "got": 410,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.15 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.15 V3 separated reproduces the accepted sweep",
+   "expected": 410,
+   "got": 410,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.15 false-block rate reproduces the accepted sweep",
+   "expected": 0.05125,
+   "got": 0.05125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.15 warranted share reproduces the accepted sweep",
+   "expected": 0.979,
+   "got": 0.979,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.20 V3 blocks reproduce the accepted sweep",
+   "expected": 396,
+   "got": 396,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.20 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.20 V3 separated reproduces the accepted sweep",
+   "expected": 396,
+   "got": 396,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.20 false-block rate reproduces the accepted sweep",
+   "expected": 0.05,
+   "got": 0.05,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.20 warranted share reproduces the accepted sweep",
+   "expected": 0.9795,
+   "got": 0.9795,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.30 V3 blocks reproduce the accepted sweep",
+   "expected": 347,
+   "got": 347,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.30 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.30 V3 separated reproduces the accepted sweep",
+   "expected": 347,
+   "got": 347,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.30 false-block rate reproduces the accepted sweep",
+   "expected": 0.02375,
+   "got": 0.02375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.30 warranted share reproduces the accepted sweep",
+   "expected": 0.99,
+   "got": 0.99,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.50 V3 blocks reproduce the accepted sweep",
+   "expected": 257,
+   "got": 257,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.50 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.50 V3 separated reproduces the accepted sweep",
+   "expected": 257,
+   "got": 257,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.50 false-block rate reproduces the accepted sweep",
+   "expected": 0.02375,
+   "got": 0.02375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=0.50 warranted share reproduces the accepted sweep",
+   "expected": 0.99,
+   "got": 0.99,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=1.00 V3 blocks reproduce the accepted sweep",
+   "expected": 123,
+   "got": 123,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=1.00 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=1.00 V3 separated reproduces the accepted sweep",
+   "expected": 123,
+   "got": 123,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=1.00 false-block rate reproduces the accepted sweep",
+   "expected": 0.02375,
+   "got": 0.02375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_constrained tau=1.00 warranted share reproduces the accepted sweep",
+   "expected": 0.99,
+   "got": 0.99,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.02 V3 blocks reproduce the accepted sweep",
+   "expected": 110,
+   "got": 110,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.02 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.02 V3 separated reproduces the accepted sweep",
+   "expected": 1,
+   "got": 1,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.02 false-block rate reproduces the accepted sweep",
+   "expected": 0.28375,
+   "got": 0.28375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.02 warranted share reproduces the accepted sweep",
+   "expected": 0.13425,
+   "got": 0.13425,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.05 V3 blocks reproduce the accepted sweep",
+   "expected": 110,
+   "got": 110,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.05 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.05 V3 separated reproduces the accepted sweep",
+   "expected": 1,
+   "got": 1,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.05 false-block rate reproduces the accepted sweep",
+   "expected": 0.2825,
+   "got": 0.2825,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.05 warranted share reproduces the accepted sweep",
+   "expected": 0.13475,
+   "got": 0.13475,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.10 V3 blocks reproduce the accepted sweep",
+   "expected": 110,
+   "got": 110,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.10 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.10 V3 separated reproduces the accepted sweep",
+   "expected": 1,
+   "got": 1,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.10 false-block rate reproduces the accepted sweep",
+   "expected": 0.28125,
+   "got": 0.28125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.10 warranted share reproduces the accepted sweep",
+   "expected": 0.13525,
+   "got": 0.13525,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.15 V3 blocks reproduce the accepted sweep",
+   "expected": 110,
+   "got": 110,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.15 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.15 V3 separated reproduces the accepted sweep",
+   "expected": 1,
+   "got": 1,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.15 false-block rate reproduces the accepted sweep",
+   "expected": 0.280625,
+   "got": 0.280625,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.15 warranted share reproduces the accepted sweep",
+   "expected": 0.1355,
+   "got": 0.1355,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.20 V3 blocks reproduce the accepted sweep",
+   "expected": 110,
+   "got": 110,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.20 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.20 V3 separated reproduces the accepted sweep",
+   "expected": 1,
+   "got": 1,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.20 false-block rate reproduces the accepted sweep",
+   "expected": 0.280625,
+   "got": 0.280625,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.20 warranted share reproduces the accepted sweep",
+   "expected": 0.1355,
+   "got": 0.1355,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.30 V3 blocks reproduce the accepted sweep",
+   "expected": 110,
+   "got": 110,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.30 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.30 V3 separated reproduces the accepted sweep",
+   "expected": 1,
+   "got": 1,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.30 false-block rate reproduces the accepted sweep",
+   "expected": 0.280625,
+   "got": 0.280625,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.30 warranted share reproduces the accepted sweep",
+   "expected": 0.1355,
+   "got": 0.1355,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.50 V3 blocks reproduce the accepted sweep",
+   "expected": 110,
+   "got": 110,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.50 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.50 V3 separated reproduces the accepted sweep",
+   "expected": 1,
+   "got": 1,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.50 false-block rate reproduces the accepted sweep",
+   "expected": 0.280625,
+   "got": 0.280625,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.50 warranted share reproduces the accepted sweep",
+   "expected": 0.1355,
+   "got": 0.1355,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=1.00 V3 blocks reproduce the accepted sweep",
+   "expected": 109,
+   "got": 109,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=1.00 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=1.00 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=1.00 false-block rate reproduces the accepted sweep",
+   "expected": 0.280625,
+   "got": 0.280625,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=1.00 warranted share reproduces the accepted sweep",
+   "expected": 0.1355,
+   "got": 0.1355,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.02 V3 blocks reproduce the accepted sweep",
+   "expected": 106,
+   "got": 106,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.02 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.02 V3 separated reproduces the accepted sweep",
+   "expected": 7,
+   "got": 7,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.02 false-block rate reproduces the accepted sweep",
+   "expected": 0.243125,
+   "got": 0.243125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.02 warranted share reproduces the accepted sweep",
+   "expected": 0.12275,
+   "got": 0.12275,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.05 V3 blocks reproduce the accepted sweep",
+   "expected": 106,
+   "got": 106,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.05 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.05 V3 separated reproduces the accepted sweep",
+   "expected": 7,
+   "got": 7,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.05 false-block rate reproduces the accepted sweep",
+   "expected": 0.24125,
+   "got": 0.24125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.05 warranted share reproduces the accepted sweep",
+   "expected": 0.1235,
+   "got": 0.1235,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.10 V3 blocks reproduce the accepted sweep",
+   "expected": 106,
+   "got": 106,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.10 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.10 V3 separated reproduces the accepted sweep",
+   "expected": 7,
+   "got": 7,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.10 false-block rate reproduces the accepted sweep",
+   "expected": 0.2325,
+   "got": 0.2325,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.10 warranted share reproduces the accepted sweep",
+   "expected": 0.127,
+   "got": 0.127,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.15 V3 blocks reproduce the accepted sweep",
+   "expected": 106,
+   "got": 106,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.15 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.15 V3 separated reproduces the accepted sweep",
+   "expected": 7,
+   "got": 7,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.15 false-block rate reproduces the accepted sweep",
+   "expected": 0.230625,
+   "got": 0.230625,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.15 warranted share reproduces the accepted sweep",
+   "expected": 0.12775,
+   "got": 0.12775,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.20 V3 blocks reproduce the accepted sweep",
+   "expected": 106,
+   "got": 106,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.20 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.20 V3 separated reproduces the accepted sweep",
+   "expected": 7,
+   "got": 7,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.20 false-block rate reproduces the accepted sweep",
+   "expected": 0.230625,
+   "got": 0.230625,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.20 warranted share reproduces the accepted sweep",
+   "expected": 0.12775,
+   "got": 0.12775,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.30 V3 blocks reproduce the accepted sweep",
+   "expected": 106,
+   "got": 106,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.30 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.30 V3 separated reproduces the accepted sweep",
+   "expected": 7,
+   "got": 7,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.30 false-block rate reproduces the accepted sweep",
+   "expected": 0.229375,
+   "got": 0.229375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.30 warranted share reproduces the accepted sweep",
+   "expected": 0.12825,
+   "got": 0.12825,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.50 V3 blocks reproduce the accepted sweep",
+   "expected": 105,
+   "got": 105,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.50 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.50 V3 separated reproduces the accepted sweep",
+   "expected": 6,
+   "got": 6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.50 false-block rate reproduces the accepted sweep",
+   "expected": 0.229375,
+   "got": 0.229375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=0.50 warranted share reproduces the accepted sweep",
+   "expected": 0.12825,
+   "got": 0.12825,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=1.00 V3 blocks reproduce the accepted sweep",
+   "expected": 101,
+   "got": 101,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=1.00 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=1.00 V3 separated reproduces the accepted sweep",
+   "expected": 2,
+   "got": 2,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=1.00 false-block rate reproduces the accepted sweep",
+   "expected": 0.229375,
+   "got": 0.229375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "opus M_free tau=1.00 warranted share reproduces the accepted sweep",
+   "expected": 0.12825,
+   "got": 0.12825,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.02 V3 blocks reproduce the accepted sweep",
+   "expected": 621,
+   "got": 621,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.02 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.02 V3 separated reproduces the accepted sweep",
+   "expected": 618,
+   "got": 618,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.02 false-block rate reproduces the accepted sweep",
+   "expected": 0.346667,
+   "got": 0.3466666666666667,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.02 warranted share reproduces the accepted sweep",
+   "expected": 0.861333,
+   "got": 0.8613333333333333,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.05 V3 blocks reproduce the accepted sweep",
+   "expected": 609,
+   "got": 609,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.05 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.05 V3 separated reproduces the accepted sweep",
+   "expected": 606,
+   "got": 606,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.05 false-block rate reproduces the accepted sweep",
+   "expected": 0.196667,
+   "got": 0.19666666666666666,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.05 warranted share reproduces the accepted sweep",
+   "expected": 0.921333,
+   "got": 0.9213333333333333,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.10 V3 blocks reproduce the accepted sweep",
+   "expected": 573,
+   "got": 573,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.10 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.10 V3 separated reproduces the accepted sweep",
+   "expected": 570,
+   "got": 570,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.10 false-block rate reproduces the accepted sweep",
+   "expected": 0.090417,
+   "got": 0.09041666666666667,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.10 warranted share reproduces the accepted sweep",
+   "expected": 0.963833,
+   "got": 0.9638333333333333,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.15 V3 blocks reproduce the accepted sweep",
+   "expected": 567,
+   "got": 567,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.15 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.15 V3 separated reproduces the accepted sweep",
+   "expected": 564,
+   "got": 564,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.15 false-block rate reproduces the accepted sweep",
+   "expected": 0.045,
+   "got": 0.045,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.15 warranted share reproduces the accepted sweep",
+   "expected": 0.982,
+   "got": 0.982,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.20 V3 blocks reproduce the accepted sweep",
+   "expected": 546,
+   "got": 546,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.20 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.20 V3 separated reproduces the accepted sweep",
+   "expected": 543,
+   "got": 543,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.20 false-block rate reproduces the accepted sweep",
+   "expected": 0.04375,
+   "got": 0.04375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.20 warranted share reproduces the accepted sweep",
+   "expected": 0.9825,
+   "got": 0.9825,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.30 V3 blocks reproduce the accepted sweep",
+   "expected": 477,
+   "got": 477,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.30 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.30 V3 separated reproduces the accepted sweep",
+   "expected": 474,
+   "got": 474,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.30 false-block rate reproduces the accepted sweep",
+   "expected": 0.015,
+   "got": 0.015,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.30 warranted share reproduces the accepted sweep",
+   "expected": 0.994,
+   "got": 0.994,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.50 V3 blocks reproduce the accepted sweep",
+   "expected": 345,
+   "got": 345,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.50 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.50 V3 separated reproduces the accepted sweep",
+   "expected": 342,
+   "got": 342,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.50 false-block rate reproduces the accepted sweep",
+   "expected": 0.0125,
+   "got": 0.0125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=0.50 warranted share reproduces the accepted sweep",
+   "expected": 0.995,
+   "got": 0.995,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=1.00 V3 blocks reproduce the accepted sweep",
+   "expected": 156,
+   "got": 156,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=1.00 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=1.00 V3 separated reproduces the accepted sweep",
+   "expected": 153,
+   "got": 153,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=1.00 false-block rate reproduces the accepted sweep",
+   "expected": 0.009167,
+   "got": 0.009166666666666667,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_constrained tau=1.00 warranted share reproduces the accepted sweep",
+   "expected": 0.996333,
+   "got": 0.9963333333333333,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.02 V3 blocks reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.02 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.02 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.02 false-block rate reproduces the accepted sweep",
+   "expected": 0.996667,
+   "got": 0.9966666666666667,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.02 warranted share reproduces the accepted sweep",
+   "expected": 0.601333,
+   "got": 0.6013333333333334,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.05 V3 blocks reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.05 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.05 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.05 false-block rate reproduces the accepted sweep",
+   "expected": 0.995417,
+   "got": 0.9954166666666666,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.05 warranted share reproduces the accepted sweep",
+   "expected": 0.601833,
+   "got": 0.6018333333333333,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.10 V3 blocks reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.10 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.10 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.10 false-block rate reproduces the accepted sweep",
+   "expected": 0.994167,
+   "got": 0.9941666666666666,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.10 warranted share reproduces the accepted sweep",
+   "expected": 0.602333,
+   "got": 0.6023333333333334,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.15 V3 blocks reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.15 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.15 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.15 false-block rate reproduces the accepted sweep",
+   "expected": 0.992917,
+   "got": 0.9929166666666667,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.15 warranted share reproduces the accepted sweep",
+   "expected": 0.602833,
+   "got": 0.6028333333333333,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.20 V3 blocks reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.20 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.20 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.20 false-block rate reproduces the accepted sweep",
+   "expected": 0.992917,
+   "got": 0.9929166666666667,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.20 warranted share reproduces the accepted sweep",
+   "expected": 0.602833,
+   "got": 0.6028333333333333,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.30 V3 blocks reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.30 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.30 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.30 false-block rate reproduces the accepted sweep",
+   "expected": 0.992917,
+   "got": 0.9929166666666667,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.30 warranted share reproduces the accepted sweep",
+   "expected": 0.602833,
+   "got": 0.6028333333333333,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.50 V3 blocks reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.50 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.50 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.50 false-block rate reproduces the accepted sweep",
+   "expected": 0.992917,
+   "got": 0.9929166666666667,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=0.50 warranted share reproduces the accepted sweep",
+   "expected": 0.602833,
+   "got": 0.6028333333333333,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=1.00 V3 blocks reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=1.00 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=1.00 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=1.00 false-block rate reproduces the accepted sweep",
+   "expected": 0.992917,
+   "got": 0.9929166666666667,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3-14b M_free tau=1.00 warranted share reproduces the accepted sweep",
+   "expected": 0.602833,
+   "got": 0.6028333333333333,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.02 V3 blocks reproduce the accepted sweep",
+   "expected": 643,
+   "got": 643,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.02 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.02 V3 separated reproduces the accepted sweep",
+   "expected": 640,
+   "got": 640,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.02 false-block rate reproduces the accepted sweep",
+   "expected": 0.349583,
+   "got": 0.34958333333333336,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.02 warranted share reproduces the accepted sweep",
+   "expected": 0.860167,
+   "got": 0.8601666666666666,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.05 V3 blocks reproduce the accepted sweep",
+   "expected": 634,
+   "got": 634,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.05 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.05 V3 separated reproduces the accepted sweep",
+   "expected": 631,
+   "got": 631,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.05 false-block rate reproduces the accepted sweep",
+   "expected": 0.207083,
+   "got": 0.20708333333333334,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.05 warranted share reproduces the accepted sweep",
+   "expected": 0.917167,
+   "got": 0.9171666666666667,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.10 V3 blocks reproduce the accepted sweep",
+   "expected": 604,
+   "got": 604,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.10 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.10 V3 separated reproduces the accepted sweep",
+   "expected": 601,
+   "got": 601,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.10 false-block rate reproduces the accepted sweep",
+   "expected": 0.10125,
+   "got": 0.10125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.10 warranted share reproduces the accepted sweep",
+   "expected": 0.9595,
+   "got": 0.9595,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.15 V3 blocks reproduce the accepted sweep",
+   "expected": 598,
+   "got": 598,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.15 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.15 V3 separated reproduces the accepted sweep",
+   "expected": 595,
+   "got": 595,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.15 false-block rate reproduces the accepted sweep",
+   "expected": 0.05625,
+   "got": 0.05625,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.15 warranted share reproduces the accepted sweep",
+   "expected": 0.9775,
+   "got": 0.9775,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.20 V3 blocks reproduce the accepted sweep",
+   "expected": 577,
+   "got": 577,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.20 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.20 V3 separated reproduces the accepted sweep",
+   "expected": 574,
+   "got": 574,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.20 false-block rate reproduces the accepted sweep",
+   "expected": 0.055,
+   "got": 0.055,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.20 warranted share reproduces the accepted sweep",
+   "expected": 0.978,
+   "got": 0.978,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.30 V3 blocks reproduce the accepted sweep",
+   "expected": 508,
+   "got": 508,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.30 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.30 V3 separated reproduces the accepted sweep",
+   "expected": 505,
+   "got": 505,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.30 false-block rate reproduces the accepted sweep",
+   "expected": 0.02875,
+   "got": 0.02875,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.30 warranted share reproduces the accepted sweep",
+   "expected": 0.9885,
+   "got": 0.9885,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.50 V3 blocks reproduce the accepted sweep",
+   "expected": 381,
+   "got": 381,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.50 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.50 V3 separated reproduces the accepted sweep",
+   "expected": 378,
+   "got": 378,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.50 false-block rate reproduces the accepted sweep",
+   "expected": 0.02875,
+   "got": 0.02875,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=0.50 warranted share reproduces the accepted sweep",
+   "expected": 0.9885,
+   "got": 0.9885,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=1.00 V3 blocks reproduce the accepted sweep",
+   "expected": 177,
+   "got": 177,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=1.00 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=1.00 V3 separated reproduces the accepted sweep",
+   "expected": 174,
+   "got": 174,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=1.00 false-block rate reproduces the accepted sweep",
+   "expected": 0.02875,
+   "got": 0.02875,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_constrained tau=1.00 warranted share reproduces the accepted sweep",
+   "expected": 0.9885,
+   "got": 0.9885,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.02 V3 blocks reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.02 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.02 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.02 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.02 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.05 V3 blocks reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.05 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.05 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.05 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.05 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.10 V3 blocks reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.10 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.10 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.10 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.10 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.15 V3 blocks reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.15 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.15 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.15 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.15 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.20 V3 blocks reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.20 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.20 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.20 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.20 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.30 V3 blocks reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.30 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.30 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.30 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.30 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.50 V3 blocks reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.50 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.50 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.50 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=0.50 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=1.00 V3 blocks reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=1.00 V3 items reproduce the accepted sweep",
+   "expected": 660,
+   "got": 660,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=1.00 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=1.00 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "qwen3.6-27b-fp8 M_free tau=1.00 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.02 V3 blocks reproduce the accepted sweep",
+   "expected": 215,
+   "got": 215,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.02 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.02 V3 separated reproduces the accepted sweep",
+   "expected": 202,
+   "got": 202,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.02 false-block rate reproduces the accepted sweep",
+   "expected": 0.3825,
+   "got": 0.3825,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.02 warranted share reproduces the accepted sweep",
+   "expected": 0.847,
+   "got": 0.847,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.05 V3 blocks reproduce the accepted sweep",
+   "expected": 213,
+   "got": 213,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.05 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.05 V3 separated reproduces the accepted sweep",
+   "expected": 200,
+   "got": 200,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.05 false-block rate reproduces the accepted sweep",
+   "expected": 0.24,
+   "got": 0.24,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.05 warranted share reproduces the accepted sweep",
+   "expected": 0.904,
+   "got": 0.904,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.10 V3 blocks reproduce the accepted sweep",
+   "expected": 203,
+   "got": 203,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.10 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.10 V3 separated reproduces the accepted sweep",
+   "expected": 190,
+   "got": 190,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.10 false-block rate reproduces the accepted sweep",
+   "expected": 0.13125,
+   "got": 0.13125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.10 warranted share reproduces the accepted sweep",
+   "expected": 0.9475,
+   "got": 0.9475,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.15 V3 blocks reproduce the accepted sweep",
+   "expected": 201,
+   "got": 201,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.15 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.15 V3 separated reproduces the accepted sweep",
+   "expected": 188,
+   "got": 188,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.15 false-block rate reproduces the accepted sweep",
+   "expected": 0.0875,
+   "got": 0.0875,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.15 warranted share reproduces the accepted sweep",
+   "expected": 0.965,
+   "got": 0.965,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.20 V3 blocks reproduce the accepted sweep",
+   "expected": 194,
+   "got": 194,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.20 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.20 V3 separated reproduces the accepted sweep",
+   "expected": 181,
+   "got": 181,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.20 false-block rate reproduces the accepted sweep",
+   "expected": 0.08625,
+   "got": 0.08625,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.20 warranted share reproduces the accepted sweep",
+   "expected": 0.9655,
+   "got": 0.9655,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.30 V3 blocks reproduce the accepted sweep",
+   "expected": 171,
+   "got": 171,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.30 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.30 V3 separated reproduces the accepted sweep",
+   "expected": 158,
+   "got": 158,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.30 false-block rate reproduces the accepted sweep",
+   "expected": 0.06,
+   "got": 0.06,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.30 warranted share reproduces the accepted sweep",
+   "expected": 0.976,
+   "got": 0.976,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.50 V3 blocks reproduce the accepted sweep",
+   "expected": 129,
+   "got": 129,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.50 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.50 V3 separated reproduces the accepted sweep",
+   "expected": 116,
+   "got": 116,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.50 false-block rate reproduces the accepted sweep",
+   "expected": 0.06,
+   "got": 0.06,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=0.50 warranted share reproduces the accepted sweep",
+   "expected": 0.976,
+   "got": 0.976,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=1.00 V3 blocks reproduce the accepted sweep",
+   "expected": 63,
+   "got": 63,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=1.00 V3 items reproduce the accepted sweep",
+   "expected": 220,
+   "got": 220,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=1.00 V3 separated reproduces the accepted sweep",
+   "expected": 50,
+   "got": 50,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=1.00 false-block rate reproduces the accepted sweep",
+   "expected": 0.06,
+   "got": 0.06,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sol M_constrained tau=1.00 warranted share reproduces the accepted sweep",
+   "expected": 0.976,
+   "got": 0.976,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.02 V3 blocks reproduce the accepted sweep",
+   "expected": 430,
+   "got": 430,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.02 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.02 V3 separated reproduces the accepted sweep",
+   "expected": 428,
+   "got": 428,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.02 false-block rate reproduces the accepted sweep",
+   "expected": 0.341875,
+   "got": 0.341875,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.02 warranted share reproduces the accepted sweep",
+   "expected": 0.86325,
+   "got": 0.86325,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.05 V3 blocks reproduce the accepted sweep",
+   "expected": 421,
+   "got": 421,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.05 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.05 V3 separated reproduces the accepted sweep",
+   "expected": 419,
+   "got": 419,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.05 false-block rate reproduces the accepted sweep",
+   "expected": 0.194375,
+   "got": 0.194375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.05 warranted share reproduces the accepted sweep",
+   "expected": 0.92225,
+   "got": 0.92225,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.10 V3 blocks reproduce the accepted sweep",
+   "expected": 398,
+   "got": 398,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.10 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.10 V3 separated reproduces the accepted sweep",
+   "expected": 396,
+   "got": 396,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.10 false-block rate reproduces the accepted sweep",
+   "expected": 0.084375,
+   "got": 0.084375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.10 warranted share reproduces the accepted sweep",
+   "expected": 0.96625,
+   "got": 0.96625,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.15 V3 blocks reproduce the accepted sweep",
+   "expected": 394,
+   "got": 394,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.15 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.15 V3 separated reproduces the accepted sweep",
+   "expected": 392,
+   "got": 392,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.15 false-block rate reproduces the accepted sweep",
+   "expected": 0.039375,
+   "got": 0.039375,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.15 warranted share reproduces the accepted sweep",
+   "expected": 0.98425,
+   "got": 0.98425,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.20 V3 blocks reproduce the accepted sweep",
+   "expected": 380,
+   "got": 380,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.20 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.20 V3 separated reproduces the accepted sweep",
+   "expected": 378,
+   "got": 378,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.20 false-block rate reproduces the accepted sweep",
+   "expected": 0.038125,
+   "got": 0.038125,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.20 warranted share reproduces the accepted sweep",
+   "expected": 0.98475,
+   "got": 0.98475,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.30 V3 blocks reproduce the accepted sweep",
+   "expected": 334,
+   "got": 334,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.30 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.30 V3 separated reproduces the accepted sweep",
+   "expected": 332,
+   "got": 332,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.30 false-block rate reproduces the accepted sweep",
+   "expected": 0.011875,
+   "got": 0.011875,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.30 warranted share reproduces the accepted sweep",
+   "expected": 0.99525,
+   "got": 0.99525,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.50 V3 blocks reproduce the accepted sweep",
+   "expected": 248,
+   "got": 248,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.50 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.50 V3 separated reproduces the accepted sweep",
+   "expected": 246,
+   "got": 246,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.50 false-block rate reproduces the accepted sweep",
+   "expected": 0.011875,
+   "got": 0.011875,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=0.50 warranted share reproduces the accepted sweep",
+   "expected": 0.99525,
+   "got": 0.99525,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=1.00 V3 blocks reproduce the accepted sweep",
+   "expected": 115,
+   "got": 115,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=1.00 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=1.00 V3 separated reproduces the accepted sweep",
+   "expected": 113,
+   "got": 113,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=1.00 false-block rate reproduces the accepted sweep",
+   "expected": 0.011875,
+   "got": 0.011875,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_constrained tau=1.00 warranted share reproduces the accepted sweep",
+   "expected": 0.99525,
+   "got": 0.99525,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.02 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.02 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.02 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.02 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.02 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.05 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.05 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.05 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.05 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.05 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.10 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.10 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.10 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.10 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.10 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.15 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.15 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.15 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.15 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.15 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.20 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.20 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.20 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.20 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.20 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.30 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.30 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.30 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.30 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.30 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.50 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.50 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.50 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.50 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=0.50 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=1.00 V3 blocks reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=1.00 V3 items reproduce the accepted sweep",
+   "expected": 440,
+   "got": 440,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=1.00 V3 separated reproduces the accepted sweep",
+   "expected": 0,
+   "got": 0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=1.00 false-block rate reproduces the accepted sweep",
+   "expected": 1.0,
+   "got": 1.0,
+   "group": "T6",
+   "pass": true
+  },
+  {
+   "check": "sonnet M_free tau=1.00 warranted share reproduces the accepted sweep",
+   "expected": 0.6,
+   "got": 0.6,
+   "group": "T6",
+   "pass": true
+  }
+ ],
+ "counts": {
+  "failed": 0,
+  "passed": 1036,
+  "total": 1036
+ }
+}

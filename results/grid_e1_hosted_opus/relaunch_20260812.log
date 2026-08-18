@@ -1,0 +1,770 @@
+================================================================================
+FOUR LAUNCH QUESTIONS (global CLAUDE.md experiment rules), answered before the
+first paid call
+================================================================================
+1. PURPOSE.  The E1 generation log for the opus arm (claude-opus-5): all 2,000 suite
+   items x {M_constrained, M_free} x thinking {disabled, default} x 2 repeats.
+   Every E1 exhibit for this arm is computed from this log by offline replay:
+   the terminal-state tables, the per-class V1-V6 catch rates under G_FEAS and
+   G_CERT, the benign-twin false-block rates, the constraint-tax decomposition
+   (invalid JSON / parseable-but-wrong-shape / schema-valid), the certified-gap
+   distributions, translation accuracy, verdict-level repeat agreement, and the
+   guard-value-against-proposer-strength comparison (C1/C2 evidence) that the
+   hosted arms complete by adding the capability axis above the local models.
+2. EXPECTED RESULT.  M_constrained parses at or near 100% (provider-side
+   enforcement); M_free shows a nonzero malformed or wrong-shape share, and that
+   difference is the constraint-tax numerator.  The two repeats agree on most
+   items; the disagreement rate is the API-nondeterminism number and is reported
+   either way.  A crash, an empty log, or a systematic HTTP error is the only
+   failing state, and none of those needs a second paid pass to diagnose.
+3. CONTAMINATION.  The raw log is append-only, flushed per row, and keyed by
+   (mode, thinking, repeat, item_id): a restart skips completed keys and never
+   overwrites, so no earlier result file is read or rewritten.  Rows whose
+   outcome is an API error are not counted as complete and are retried on the
+   next run; the last row for a key is the one that counts.  A log written by
+   another arm or another prompt version is refused.  Wall time here is a
+   network measurement, not a compute measurement, and is labelled as such.
+   Log: /home/ziheng/PaperL1/results/grid_e1_hosted_opus/proposals_raw.jsonl
+4. DATA ACCURACY.  Fatal assertions before the first call: the suite file's
+   SHA-256 and the frozen schema's SHA-256 (the gate's own assertions); the
+   prompt is the unchanged l1-prompt-1.0.0 build_messages render at top_k 10; for every
+   item the (prefix, tail) split concatenates back to that exact render, the
+   split prompt's fingerprint equals the unsplit one, and, when the local 14B log
+   is present, both equal the local arm's logged prompt_hash.  The word "json" is
+   asserted present in the system prompt for the JSON-object arm.
+================================================================================
+[e1h] suite sha256  0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a OK
+[e1h] schema sha256 1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321 OK
+[e1h] 2000 prompts rendered and split in 2.4s (1713 at the orders boundary, 287 at the instruction)
+[e1h] split and fingerprint asserted on every item: prefix+tail is the unchanged render, and the split leaves prompt_fingerprint unchanged
+[e1h] 2000 prompt hashes identical to the local 14B log
+
+CALL PLAN  (arm opus, model claude-opus-5, wire anthropic)
+  items            : 2000 (suite v0.2, full)
+  groups           : 116 (instance x frozen_seed); the first call of each runs alone to warm the cache
+  distinct prefixes: 327 per pass (a group can hold several: the items that name no order split later)
+  enforcement      : M_constrained = json_schema, M_free = none
+  thinking         : disabled -> {"thinking": {"type": "disabled"}}; default -> no field sent
+  max_tokens       : 4096 | temperature: never sent (anthropic wire) | seed: none
+  workers          : 8 | timeout 240s | max_retries 4
+  log              : /home/ziheng/PaperL1/results/grid_e1_hosted_opus/proposals_raw.jsonl
+
+  mode           thinking      repeats    items      calls
+  M_constrained  disabled            2     2000       4000
+  M_constrained  default             2     2000       4000
+  M_free         disabled            2     2000       4000
+  M_free         default             2     2000       4000
+  TOTAL                                              16000
+
+  already logged   : 10449 rows, 5841 of them API errors
+  complete keys    : 4608 | this run would make 11392 calls
+
+PROJECTED COST  (list prices, retrieved 2026-08-11; Anthropic pricing ($5/$25 per M, cache 0.5/6.25))
+  token model : 1.92 chars per token and the pilot's output tokens per call, both measured
+  pilot source: results/opus5_pilot/anthropic_pilot_summary.json (29 out constrained thinking-disabled; the single default-thinking probe returned 68 output tokens, thinking billed inside them)
+
+  config                       calls  in-uncach cache-read  cache-wr  USD pilot USD 3x out    USD max
+  M_constrained/disabled        4000    2421706   10638259   2218474      34.19      39.99     440.89
+  M_constrained/default         4000    2421706   10638259   2218474      38.09      51.69     440.89
+  M_free/disabled               4000    2421706    5562377   1226356      25.45      31.25     432.15
+  M_free/default                4000    2421706    5562377   1226356      29.35      42.95     432.15
+  ARM TOTAL                    16000                                     127.10     165.90    1746.10
+  output sensitivity: every extra 100 output tokens per call adds USD 40.00 to this arm.
+  scenarios: 'pilot' uses the pilot's measured output tokens per call; '3x out' covers
+  the longer E1 prompts (the local 14B arm answered this suite with ~50 completion
+  tokens per call against 13.5 in the DeepSeek pilot); 'max' is the ceiling, every
+  call hitting max_tokens=4096 (a bound, not a forecast).
+
+[e1h] key ANTHROPIC_API_KEY present (never printed).
+
+[e1h] pass 1/6  M_constrained thinking=default r0  (90 groups, 1392 calls)
+  group   1/90  c09_storm2_w80_u100_0013.json    n=12  done=12    ok=12    err=0   usd=  0.117 elapsed=15s
+  group   2/90  c09_storm2_w80_u100_0013.json    n=3   done=15    ok=15    err=0   usd=  0.150 elapsed=24s
+  group   3/90  c09_storm2_w80_u100_0014.json    n=19  done=34    ok=34    err=0   usd=  0.330 elapsed=40s
+  group   4/90  c09_storm2_w80_u100_0014.json    n=1   done=35    ok=35    err=0   usd=  0.350 elapsed=44s
+  group   5/90  c09_storm2_w80_u100_0015.json    n=54  done=89    ok=89    err=0   usd=  0.752 elapsed=78s
+  group   6/90  c09_storm2_w80_u100_0015.json    n=5   done=94    ok=94    err=0   usd=  0.792 elapsed=88s
+  group   7/90  c09_storm2_w80_u100_0016.json    n=46  done=140   ok=140   err=0   usd=  1.134 elapsed=119s
+  group   8/90  c09_storm2_w80_u100_0016.json    n=5   done=145   ok=145   err=0   usd=  1.180 elapsed=129s
+  group   9/90  c09_storm2_w80_u100_0017.json    n=38  done=183   ok=183   err=0   usd=  1.489 elapsed=161s
+  group  10/90  c09_storm2_w80_u100_0017.json    n=5   done=188   ok=188   err=0   usd=  1.536 elapsed=173s
+  group  11/90  c09_storm2_w80_u100_0018.json    n=26  done=214   ok=214   err=0   usd=  1.732 elapsed=191s
+  group  12/90  c09_storm2_w80_u100_0018.json    n=3   done=217   ok=217   err=0   usd=  1.763 elapsed=201s
+  group  13/90  c09_storm2_w80_u100_0019.json    n=19  done=236   ok=236   err=0   usd=  1.905 elapsed=217s
+  group  14/90  c09_storm2_w80_u100_0019.json    n=1   done=237   ok=237   err=0   usd=  1.928 elapsed=222s
+  group  15/90  c09_storm2_w80_u100_0020.json    n=49  done=286   ok=286   err=0   usd=  2.304 elapsed=253s
+  group  16/90  c09_storm2_w80_u100_0020.json    n=5   done=291   ok=291   err=0   usd=  2.349 elapsed=261s
+  group  17/90  c09_storm2_w80_u100_0021.json    n=29  done=320   ok=320   err=0   usd=  2.608 elapsed=283s
+  group  18/90  c09_storm2_w80_u100_0021.json    n=5   done=325   ok=325   err=0   usd=  2.652 elapsed=292s
+  group  19/90  c09_storm2_w80_u100_0022.json    n=43  done=368   ok=368   err=0   usd=  2.940 elapsed=322s
+  group  20/90  c09_storm2_w80_u100_0022.json    n=3   done=371   ok=371   err=0   usd=  2.973 elapsed=331s
+  group  21/90  c09_storm2_w80_u100_0023.json    n=27  done=398   ok=398   err=0   usd=  3.192 elapsed=351s
+  group  22/90  c09_storm2_w80_u100_0023.json    n=3   done=401   ok=401   err=0   usd=  3.226 elapsed=360s
+  group  23/90  c10_replay_400_0000.json         n=19  done=420   ok=420   err=0   usd=  3.407 elapsed=376s
+  group  24/90  c10_replay_400_0000.json         n=2   done=422   ok=422   err=0   usd=  3.437 elapsed=385s
+  group  25/90  c10_replay_400_0001.json         n=31  done=453   ok=453   err=0   usd=  3.747 elapsed=412s
+  group  26/90  c10_replay_400_0001.json         n=3   done=456   ok=456   err=0   usd=  3.784 elapsed=423s
+  group  27/90  c10_replay_400_0002.json         n=21  done=477   ok=477   err=0   usd=  4.075 elapsed=443s
+  group  28/90  c10_replay_400_0002.json         n=1   done=478   ok=478   err=0   usd=  4.098 elapsed=448s
+  group  29/90  c10_replay_400_0003.json         n=31  done=509   ok=509   err=0   usd=  4.388 elapsed=472s
+  group  30/90  c10_replay_400_0003.json         n=2   done=511   ok=511   err=0   usd=  4.417 elapsed=482s
+  group  31/90  c10_replay_400_0004.json         n=13  done=524   ok=524   err=0   usd=  4.553 elapsed=497s
+  group  32/90  c10_replay_400_0005.json         n=23  done=547   ok=547   err=0   usd=  4.759 elapsed=515s
+  group  33/90  c10_replay_400_0005.json         n=3   done=550   ok=550   err=0   usd=  4.790 elapsed=525s
+  group  34/90  c10_replay_400_0006.json         n=34  done=584   ok=584   err=0   usd=  5.055 elapsed=553s
+  group  35/90  c10_replay_400_0006.json         n=3   done=587   ok=587   err=0   usd=  5.090 elapsed=564s
+  group  36/90  c10_replay_400_0007.json         n=28  done=615   ok=615   err=0   usd=  5.338 elapsed=589s
+  group  37/90  c10_replay_400_0007.json         n=1   done=616   ok=616   err=0   usd=  5.359 elapsed=593s
+  group  38/90  c10_replay_400_0008.json         n=19  done=635   ok=635   err=0   usd=  5.539 elapsed=609s
+  group  39/90  c10_replay_400_0008.json         n=2   done=637   ok=637   err=0   usd=  5.572 elapsed=621s
+  group  40/90  c10_replay_400_0009.json         n=13  done=650   ok=650   err=0   usd=  5.705 elapsed=639s
+  group  41/90  c10_replay_400_0010.json         n=17  done=667   ok=667   err=0   usd=  5.897 elapsed=656s
+  group  42/90  c10_replay_400_0010.json         n=3   done=670   ok=670   err=0   usd=  5.930 elapsed=665s
+  group  43/90  c10_replay_400_0011.json         n=36  done=706   ok=706   err=0   usd=  6.272 elapsed=694s
+  group  44/90  c10_replay_400_0011.json         n=3   done=709   ok=709   err=0   usd=  6.303 elapsed=703s
+  group  45/90  c10_replay_400_0012.json         n=24  done=733   ok=733   err=0   usd=  6.523 elapsed=724s
+  group  46/90  c10_replay_400_0013.json         n=22  done=755   ok=755   err=0   usd=  6.696 elapsed=744s
+  group  47/90  c10_replay_400_0013.json         n=2   done=757   ok=757   err=0   usd=  6.719 elapsed=754s
+  group  48/90  c10_replay_400_0014.json         n=17  done=774   ok=774   err=0   usd=  6.866 elapsed=773s
+  group  49/90  c10_replay_400_0014.json         n=2   done=776   ok=776   err=0   usd=  6.893 elapsed=783s
+  group  50/90  c10_replay_400_0015.json         n=17  done=793   ok=793   err=0   usd=  7.067 elapsed=800s
+  group  51/90  c10_replay_400_0015.json         n=3   done=796   ok=796   err=0   usd=  7.100 elapsed=809s
+  group  52/90  c10_replay_400_0016.json         n=26  done=822   ok=822   err=0   usd=  7.406 elapsed=829s
+  group  53/90  c10_replay_400_0016.json         n=1   done=823   ok=823   err=0   usd=  7.426 elapsed=834s
+  group  54/90  c10_replay_400_0017.json         n=22  done=845   ok=845   err=0   usd=  7.663 elapsed=854s
+  group  55/90  c10_replay_400_0018.json         n=18  done=863   ok=863   err=0   usd=  7.824 elapsed=869s
+  group  56/90  c10_replay_400_0018.json         n=2   done=865   ok=865   err=0   usd=  7.853 elapsed=878s
+  group  57/90  c10_replay_400_0019.json         n=13  done=878   ok=878   err=0   usd=  7.997 elapsed=895s
+  group  58/90  c10_replay_400_0019.json         n=2   done=880   ok=880   err=0   usd=  8.024 elapsed=904s
+  group  59/90  c10_replay_400_0020.json         n=43  done=923   ok=923   err=0   usd=  8.386 elapsed=937s
+  group  60/90  c10_replay_400_0020.json         n=3   done=926   ok=926   err=0   usd=  8.422 elapsed=949s
+  group  61/90  c10_replay_400_0021.json         n=25  done=951   ok=951   err=0   usd=  8.670 elapsed=969s
+  group  62/90  c10_replay_400_0021.json         n=1   done=952   ok=952   err=0   usd=  8.692 elapsed=973s
+  group  63/90  c10_replay_400_0022.json         n=29  done=981   ok=981   err=0   usd=  8.964 elapsed=1001s
+  group  64/90  c10_replay_400_0022.json         n=2   done=983   ok=983   err=0   usd=  8.988 elapsed=1009s
+  group  65/90  c10_replay_400_0023.json         n=21  done=1004  ok=1004  err=0   usd=  9.188 elapsed=1030s
+  group  66/90  c10_replay_400_0023.json         n=2   done=1006  ok=1006  err=0   usd=  9.214 elapsed=1039s
+  group  67/90  c10_storm2_w80_u100_0000.json    n=37  done=1043  ok=1043  err=0   usd=  9.499 elapsed=1070s
+  group  68/90  c10_storm2_w80_u100_0000.json    n=5   done=1048  ok=1048  err=0   usd=  9.551 elapsed=1082s
+  group  69/90  c10_storm2_w80_u100_0001.json    n=30  done=1078  ok=1078  err=0   usd=  9.811 elapsed=1107s
+  group  70/90  c10_storm2_w80_u100_0001.json    n=1   done=1079  ok=1079  err=0   usd=  9.832 elapsed=1111s
+  group  71/90  c10_storm2_w80_u100_0002.json    n=27  done=1106  ok=1106  err=0   usd= 10.014 elapsed=1140s
+  group  72/90  c10_storm2_w80_u100_0002.json    n=4   done=1110  ok=1110  err=0   usd= 10.053 elapsed=1149s
+  group  73/90  c10_storm2_w80_u100_0003.json    n=25  done=1135  ok=1135  err=0   usd= 10.224 elapsed=1170s
+  group  74/90  c10_storm2_w80_u100_0003.json    n=3   done=1138  ok=1138  err=0   usd= 10.257 elapsed=1179s
+  group  75/90  c10_storm2_w80_u100_0004.json    n=37  done=1175  ok=1175  err=0   usd= 10.551 elapsed=1210s
+  group  76/90  c10_storm2_w80_u100_0004.json    n=5   done=1180  ok=1180  err=0   usd= 10.595 elapsed=1221s
+  group  77/90  c10_storm2_w80_u100_0005.json    n=30  done=1210  ok=1210  err=0   usd= 10.813 elapsed=1244s
+  group  78/90  c10_storm2_w80_u100_0005.json    n=3   done=1213  ok=1213  err=0   usd= 10.847 elapsed=1253s
+  group  79/90  c10_storm2_w80_u100_0006.json    n=27  done=1240  ok=1240  err=0   usd= 11.061 elapsed=1275s
+  group  80/90  c10_storm2_w80_u100_0006.json    n=1   done=1241  ok=1241  err=0   usd= 11.082 elapsed=1279s
+  group  81/90  c10_storm2_w80_u100_0007.json    n=26  done=1267  ok=1267  err=0   usd= 11.281 elapsed=1302s
+  group  82/90  c10_storm2_w80_u100_0007.json    n=4   done=1271  ok=1271  err=0   usd= 11.321 elapsed=1314s
+  group  83/90  c10_storm2_w80_u100_0008.json    n=30  done=1301  ok=1301  err=0   usd= 11.582 elapsed=1337s
+  group  84/90  c10_storm2_w80_u100_0008.json    n=1   done=1302  ok=1302  err=0   usd= 11.605 elapsed=1341s
+  group  85/90  c10_storm2_w80_u100_0009.json    n=31  done=1333  ok=1333  err=0   usd= 11.833 elapsed=1365s
+  group  86/90  c10_storm2_w80_u100_0009.json    n=4   done=1337  ok=1337  err=0   usd= 11.868 elapsed=1375s
+  group  87/90  c10_storm2_w80_u100_0010.json    n=25  done=1362  ok=1362  err=0   usd= 12.058 elapsed=1402s
+  group  88/90  c10_storm2_w80_u100_0010.json    n=3   done=1365  ok=1365  err=0   usd= 12.089 elapsed=1413s
+  group  89/90  c10_storm2_w80_u100_0011.json    n=26  done=1391  ok=1391  err=0   usd= 12.346 elapsed=1439s
+  group  90/90  c10_storm2_w80_u100_0011.json    n=1   done=1392  ok=1392  err=0   usd= 12.367 elapsed=1444s
+[e1h] pass done: 1392 calls, 1392 ok, 0 error, 0 other, 130282 output tokens, USD 12.367, 4604 ms mean per call
+
+[e1h] pass 2/6  M_constrained thinking=default r1  (116 groups, 2000 calls)
+  group   1/116 c09_storm2_w80_u100_0000.json    n=60  done=60    ok=60    err=0   usd=  0.433 elapsed=1486s
+  group   2/116 c09_storm2_w80_u100_0000.json    n=6   done=66    ok=66    err=0   usd=  0.484 elapsed=1496s
+  group   3/116 c09_storm2_w80_u100_0001.json    n=49  done=115   ok=115   err=0   usd=  0.903 elapsed=1535s
+  group   4/116 c09_storm2_w80_u100_0001.json    n=5   done=120   ok=120   err=0   usd=  0.950 elapsed=1545s
+  group   5/116 c09_storm2_w80_u100_0002.json    n=41  done=161   ok=161   err=0   usd=  1.258 elapsed=1577s
+  group   6/116 c09_storm2_w80_u100_0002.json    n=5   done=166   ok=166   err=0   usd=  1.306 elapsed=1587s
+  group   7/116 c09_storm2_w80_u100_0003.json    n=31  done=197   ok=196   err=0   usd=  1.547 elapsed=1612s
+  group   8/116 c09_storm2_w80_u100_0003.json    n=3   done=200   ok=199   err=0   usd=  1.580 elapsed=1622s
+  group   9/116 c09_storm2_w80_u100_0004.json    n=25  done=225   ok=224   err=0   usd=  1.795 elapsed=1645s
+  group  10/116 c09_storm2_w80_u100_0004.json    n=3   done=228   ok=227   err=0   usd=  1.825 elapsed=1654s
+  group  11/116 c09_storm2_w80_u100_0005.json    n=54  done=282   ok=281   err=0   usd=  2.248 elapsed=1695s
+  group  12/116 c09_storm2_w80_u100_0005.json    n=5   done=287   ok=286   err=0   usd=  2.289 elapsed=1707s
+  group  13/116 c09_storm2_w80_u100_0006.json    n=46  done=333   ok=332   err=0   usd=  2.660 elapsed=1744s
+  group  14/116 c09_storm2_w80_u100_0006.json    n=5   done=338   ok=337   err=0   usd=  2.708 elapsed=1756s
+  group  15/116 c09_storm2_w80_u100_0007.json    n=38  done=376   ok=375   err=0   usd=  2.991 elapsed=1788s
+  group  16/116 c09_storm2_w80_u100_0007.json    n=5   done=381   ok=380   err=0   usd=  3.035 elapsed=1798s
+  group  17/116 c09_storm2_w80_u100_0008.json    n=29  done=410   ok=409   err=0   usd=  3.297 elapsed=1858s
+  group  18/116 c09_storm2_w80_u100_0008.json    n=3   done=413   ok=412   err=0   usd=  3.333 elapsed=1868s
+  group  19/116 c09_storm2_w80_u100_0009.json    n=25  done=438   ok=437   err=0   usd=  3.534 elapsed=1888s
+  group  20/116 c09_storm2_w80_u100_0009.json    n=3   done=441   ok=440   err=0   usd=  3.568 elapsed=1898s
+  group  21/116 c09_storm2_w80_u100_0010.json    n=54  done=495   ok=494   err=0   usd=  4.016 elapsed=1941s
+  group  22/116 c09_storm2_w80_u100_0010.json    n=5   done=500   ok=499   err=0   usd=  4.060 elapsed=1951s
+  group  23/116 c09_storm2_w80_u100_0011.json    n=46  done=546   ok=545   err=0   usd=  4.426 elapsed=1983s
+  group  24/116 c09_storm2_w80_u100_0011.json    n=5   done=551   ok=550   err=0   usd=  4.467 elapsed=1993s
+  group  25/116 c09_storm2_w80_u100_0012.json    n=38  done=589   ok=588   err=0   usd=  4.757 elapsed=2024s
+  group  26/116 c09_storm2_w80_u100_0012.json    n=5   done=594   ok=593   err=0   usd=  4.809 elapsed=2036s
+  group  27/116 c09_storm2_w80_u100_0013.json    n=26  done=620   ok=619   err=0   usd=  5.018 elapsed=2060s
+  group  28/116 c09_storm2_w80_u100_0013.json    n=3   done=623   ok=622   err=0   usd=  5.051 elapsed=2068s
+  group  29/116 c09_storm2_w80_u100_0014.json    n=19  done=642   ok=641   err=0   usd=  5.231 elapsed=2086s
+  group  30/116 c09_storm2_w80_u100_0014.json    n=1   done=643   ok=642   err=0   usd=  5.254 elapsed=2091s
+  group  31/116 c09_storm2_w80_u100_0015.json    n=54  done=697   ok=696   err=0   usd=  5.659 elapsed=2130s
+  group  32/116 c09_storm2_w80_u100_0015.json    n=5   done=702   ok=701   err=0   usd=  5.700 elapsed=2140s
+  group  33/116 c09_storm2_w80_u100_0016.json    n=46  done=748   ok=747   err=0   usd=  6.067 elapsed=2174s
+  group  34/116 c09_storm2_w80_u100_0016.json    n=5   done=753   ok=752   err=0   usd=  6.111 elapsed=2187s
+  group  35/116 c09_storm2_w80_u100_0017.json    n=38  done=791   ok=790   err=0   usd=  6.407 elapsed=2214s
+  group  36/116 c09_storm2_w80_u100_0017.json    n=5   done=796   ok=795   err=0   usd=  6.450 elapsed=2223s
+  group  37/116 c09_storm2_w80_u100_0018.json    n=26  done=822   ok=821   err=0   usd=  6.660 elapsed=2246s
+  group  38/116 c09_storm2_w80_u100_0018.json    n=3   done=825   ok=824   err=0   usd=  6.692 elapsed=2257s
+  group  39/116 c09_storm2_w80_u100_0019.json    n=19  done=844   ok=843   err=0   usd=  6.839 elapsed=2277s
+  group  40/116 c09_storm2_w80_u100_0019.json    n=1   done=845   ok=844   err=0   usd=  6.858 elapsed=2280s
+  group  41/116 c09_storm2_w80_u100_0020.json    n=49  done=894   ok=893   err=0   usd=  7.239 elapsed=2313s
+  group  42/116 c09_storm2_w80_u100_0020.json    n=5   done=899   ok=898   err=0   usd=  7.283 elapsed=2323s
+  group  43/116 c09_storm2_w80_u100_0021.json    n=29  done=928   ok=927   err=0   usd=  7.531 elapsed=2344s
+  group  44/116 c09_storm2_w80_u100_0021.json    n=5   done=933   ok=932   err=0   usd=  7.579 elapsed=2356s
+  group  45/116 c09_storm2_w80_u100_0022.json    n=43  done=976   ok=975   err=0   usd=  7.864 elapsed=2387s
+  group  46/116 c09_storm2_w80_u100_0022.json    n=3   done=979   ok=978   err=0   usd=  7.897 elapsed=2399s
+  group  47/116 c09_storm2_w80_u100_0023.json    n=27  done=1006  ok=1005  err=0   usd=  8.108 elapsed=2419s
+  group  48/116 c09_storm2_w80_u100_0023.json    n=3   done=1009  ok=1008  err=0   usd=  8.142 elapsed=2428s
+  group  49/116 c10_replay_400_0000.json         n=19  done=1028  ok=1027  err=0   usd=  8.328 elapsed=2446s
+  group  50/116 c10_replay_400_0000.json         n=2   done=1030  ok=1029  err=0   usd=  8.357 elapsed=2456s
+  group  51/116 c10_replay_400_0001.json         n=31  done=1061  ok=1060  err=0   usd=  8.670 elapsed=2482s
+  group  52/116 c10_replay_400_0001.json         n=3   done=1064  ok=1063  err=0   usd=  8.704 elapsed=2492s
+  group  53/116 c10_replay_400_0002.json         n=21  done=1085  ok=1084  err=0   usd=  8.970 elapsed=2510s
+  group  54/116 c10_replay_400_0002.json         n=1   done=1086  ok=1085  err=0   usd=  8.996 elapsed=2516s
+  group  55/116 c10_replay_400_0003.json         n=31  done=1117  ok=1116  err=0   usd=  9.287 elapsed=2539s
+  group  56/116 c10_replay_400_0003.json         n=2   done=1119  ok=1118  err=0   usd=  9.316 elapsed=2549s
+  group  57/116 c10_replay_400_0004.json         n=13  done=1132  ok=1131  err=0   usd=  9.452 elapsed=2563s
+  group  58/116 c10_replay_400_0005.json         n=23  done=1155  ok=1154  err=0   usd=  9.672 elapsed=2582s
+  group  59/116 c10_replay_400_0005.json         n=3   done=1158  ok=1157  err=0   usd=  9.705 elapsed=2590s
+  group  60/116 c10_replay_400_0006.json         n=34  done=1192  ok=1191  err=0   usd=  9.966 elapsed=2615s
+  group  61/116 c10_replay_400_0006.json         n=3   done=1195  ok=1194  err=0   usd= 10.000 elapsed=2623s
+  group  62/116 c10_replay_400_0007.json         n=28  done=1223  ok=1222  err=0   usd= 10.243 elapsed=2647s
+  group  63/116 c10_replay_400_0007.json         n=1   done=1224  ok=1223  err=0   usd= 10.264 elapsed=2651s
+  group  64/116 c10_replay_400_0008.json         n=19  done=1243  ok=1242  err=0   usd= 10.444 elapsed=2667s
+  group  65/116 c10_replay_400_0008.json         n=2   done=1245  ok=1244  err=0   usd= 10.476 elapsed=2678s
+  group  66/116 c10_replay_400_0009.json         n=13  done=1258  ok=1257  err=0   usd= 10.608 elapsed=2695s
+  group  67/116 c10_replay_400_0010.json         n=17  done=1275  ok=1274  err=0   usd= 10.791 elapsed=2709s
+  group  68/116 c10_replay_400_0010.json         n=3   done=1278  ok=1277  err=0   usd= 10.824 elapsed=2718s
+  group  69/116 c10_replay_400_0011.json         n=36  done=1314  ok=1313  err=0   usd= 11.158 elapsed=2743s
+  group  70/116 c10_replay_400_0011.json         n=3   done=1317  ok=1316  err=0   usd= 11.188 elapsed=2751s
+  group  71/116 c10_replay_400_0012.json         n=24  done=1341  ok=1340  err=0   usd= 11.408 elapsed=2772s
+  group  72/116 c10_replay_400_0013.json         n=22  done=1363  ok=1362  err=0   usd= 11.579 elapsed=2789s
+  group  73/116 c10_replay_400_0013.json         n=2   done=1365  ok=1364  err=0   usd= 11.609 elapsed=2800s
+  group  74/116 c10_replay_400_0014.json         n=17  done=1382  ok=1381  err=0   usd= 11.762 elapsed=2820s
+  group  75/116 c10_replay_400_0014.json         n=2   done=1384  ok=1383  err=0   usd= 11.789 elapsed=2829s
+  group  76/116 c10_replay_400_0015.json         n=17  done=1401  ok=1400  err=0   usd= 11.961 elapsed=2844s
+  group  77/116 c10_replay_400_0015.json         n=3   done=1404  ok=1403  err=0   usd= 11.993 elapsed=2856s
+  group  78/116 c10_replay_400_0016.json         n=26  done=1430  ok=1429  err=0   usd= 12.300 elapsed=2878s
+  group  79/116 c10_replay_400_0016.json         n=1   done=1431  ok=1430  err=0   usd= 12.320 elapsed=2881s
+  group  80/116 c10_replay_400_0017.json         n=22  done=1453  ok=1452  err=0   usd= 12.544 elapsed=2897s
+  group  81/116 c10_replay_400_0018.json         n=18  done=1471  ok=1470  err=0   usd= 12.703 elapsed=2911s
+  group  82/116 c10_replay_400_0018.json         n=2   done=1473  ok=1472  err=0   usd= 12.726 elapsed=2917s
+  group  83/116 c10_replay_400_0019.json         n=13  done=1486  ok=1485  err=0   usd= 12.849 elapsed=2930s
+  group  84/116 c10_replay_400_0019.json         n=2   done=1488  ok=1487  err=0   usd= 12.878 elapsed=2939s
+  group  85/116 c10_replay_400_0020.json         n=43  done=1531  ok=1530  err=0   usd= 13.234 elapsed=2971s
+  group  86/116 c10_replay_400_0020.json         n=3   done=1534  ok=1533  err=0   usd= 13.271 elapsed=2981s
+  group  87/116 c10_replay_400_0021.json         n=25  done=1559  ok=1558  err=0   usd= 13.517 elapsed=3000s
+  group  88/116 c10_replay_400_0021.json         n=1   done=1560  ok=1559  err=0   usd= 13.539 elapsed=3004s
+  group  89/116 c10_replay_400_0022.json         n=29  done=1589  ok=1588  err=0   usd= 13.828 elapsed=3030s
+  group  90/116 c10_replay_400_0022.json         n=2   done=1591  ok=1590  err=0   usd= 13.852 elapsed=3037s
+  group  91/116 c10_replay_400_0023.json         n=21  done=1612  ok=1611  err=0   usd= 14.045 elapsed=3056s
+  group  92/116 c10_replay_400_0023.json         n=2   done=1614  ok=1613  err=0   usd= 14.072 elapsed=3067s
+  group  93/116 c10_storm2_w80_u100_0000.json    n=37  done=1651  ok=1650  err=0   usd= 14.357 elapsed=3099s
+  group  94/116 c10_storm2_w80_u100_0000.json    n=5   done=1656  ok=1655  err=0   usd= 14.403 elapsed=3110s
+  group  95/116 c10_storm2_w80_u100_0001.json    n=30  done=1686  ok=1685  err=0   usd= 14.660 elapsed=3134s
+  group  96/116 c10_storm2_w80_u100_0001.json    n=1   done=1687  ok=1686  err=0   usd= 14.682 elapsed=3143s
+  group  97/116 c10_storm2_w80_u100_0002.json    n=27  done=1714  ok=1713  err=0   usd= 14.857 elapsed=3167s
+  group  98/116 c10_storm2_w80_u100_0002.json    n=4   done=1718  ok=1717  err=0   usd= 14.902 elapsed=3181s
+  group  99/116 c10_storm2_w80_u100_0003.json    n=25  done=1743  ok=1742  err=0   usd= 15.083 elapsed=3202s
+  group 100/116 c10_storm2_w80_u100_0003.json    n=3   done=1746  ok=1745  err=0   usd= 15.114 elapsed=3214s
+  group 101/116 c10_storm2_w80_u100_0004.json    n=37  done=1783  ok=1782  err=0   usd= 15.412 elapsed=3242s
+  group 102/116 c10_storm2_w80_u100_0004.json    n=5   done=1788  ok=1787  err=0   usd= 15.458 elapsed=3255s
+  group 103/116 c10_storm2_w80_u100_0005.json    n=30  done=1818  ok=1817  err=0   usd= 15.670 elapsed=3278s
+  group 104/116 c10_storm2_w80_u100_0005.json    n=3   done=1821  ok=1820  err=0   usd= 15.704 elapsed=3288s
+  group 105/116 c10_storm2_w80_u100_0006.json    n=27  done=1848  ok=1847  err=0   usd= 15.916 elapsed=3314s
+  group 106/116 c10_storm2_w80_u100_0006.json    n=1   done=1849  ok=1848  err=0   usd= 15.937 elapsed=3317s
+  group 107/116 c10_storm2_w80_u100_0007.json    n=26  done=1875  ok=1874  err=0   usd= 16.138 elapsed=3341s
+  group 108/116 c10_storm2_w80_u100_0007.json    n=4   done=1879  ok=1878  err=0   usd= 16.181 elapsed=3351s
+  group 109/116 c10_storm2_w80_u100_0008.json    n=30  done=1909  ok=1908  err=0   usd= 16.446 elapsed=3374s
+  group 110/116 c10_storm2_w80_u100_0008.json    n=1   done=1910  ok=1909  err=0   usd= 16.469 elapsed=3379s
+  group 111/116 c10_storm2_w80_u100_0009.json    n=31  done=1941  ok=1940  err=0   usd= 16.702 elapsed=3401s
+  group 112/116 c10_storm2_w80_u100_0009.json    n=4   done=1945  ok=1944  err=0   usd= 16.738 elapsed=3411s
+  group 113/116 c10_storm2_w80_u100_0010.json    n=25  done=1970  ok=1969  err=0   usd= 16.928 elapsed=3438s
+  group 114/116 c10_storm2_w80_u100_0010.json    n=3   done=1973  ok=1972  err=0   usd= 16.958 elapsed=3446s
+  group 115/116 c10_storm2_w80_u100_0011.json    n=26  done=1999  ok=1998  err=0   usd= 17.208 elapsed=3471s
+  group 116/116 c10_storm2_w80_u100_0011.json    n=1   done=2000  ok=1999  err=0   usd= 17.229 elapsed=3475s
+[e1h] pass done: 2000 calls, 1999 ok, 0 error, 1 other, 185380 output tokens, USD 17.229, 4638 ms mean per call
+
+[e1h] pass 3/6  M_free thinking=disabled r0  (116 groups, 2000 calls)
+  group   1/116 c09_storm2_w80_u100_0000.json    n=60  done=60    ok=7     err=0   usd=  0.285 elapsed=3495s
+  group   2/116 c09_storm2_w80_u100_0000.json    n=6   done=66    ok=7     err=0   usd=  0.338 elapsed=3500s
+  group   3/116 c09_storm2_w80_u100_0001.json    n=49  done=115   ok=11    err=0   usd=  0.629 elapsed=3517s
+  group   4/116 c09_storm2_w80_u100_0001.json    n=5   done=120   ok=11    err=0   usd=  0.673 elapsed=3522s
+  group   5/116 c09_storm2_w80_u100_0002.json    n=41  done=161   ok=15    err=0   usd=  0.920 elapsed=3537s
+  group   6/116 c09_storm2_w80_u100_0002.json    n=5   done=166   ok=17    err=0   usd=  0.941 elapsed=3543s
+  group   7/116 c09_storm2_w80_u100_0003.json    n=31  done=197   ok=22    err=0   usd=  1.115 elapsed=3555s
+  group   8/116 c09_storm2_w80_u100_0003.json    n=3   done=200   ok=23    err=0   usd=  1.129 elapsed=3561s
+  group   9/116 c09_storm2_w80_u100_0004.json    n=25  done=225   ok=29    err=0   usd=  1.287 elapsed=3574s
+  group  10/116 c09_storm2_w80_u100_0004.json    n=3   done=228   ok=30    err=0   usd=  1.301 elapsed=3578s
+  group  11/116 c09_storm2_w80_u100_0005.json    n=54  done=282   ok=39    err=0   usd=  1.609 elapsed=3597s
+  group  12/116 c09_storm2_w80_u100_0005.json    n=5   done=287   ok=39    err=0   usd=  1.653 elapsed=3602s
+  group  13/116 c09_storm2_w80_u100_0006.json    n=46  done=333   ok=46    err=0   usd=  1.888 elapsed=3621s
+  group  14/116 c09_storm2_w80_u100_0006.json    n=5   done=338   ok=48    err=0   usd=  1.908 elapsed=3627s
+  group  15/116 c09_storm2_w80_u100_0007.json    n=38  done=376   ok=54    err=0   usd=  2.103 elapsed=3641s
+  group  16/116 c09_storm2_w80_u100_0007.json    n=5   done=381   ok=56    err=0   usd=  2.124 elapsed=3649s
+  group  17/116 c09_storm2_w80_u100_0008.json    n=29  done=410   ok=62    err=0   usd=  2.296 elapsed=3661s
+  group  18/116 c09_storm2_w80_u100_0008.json    n=3   done=413   ok=62    err=0   usd=  2.322 elapsed=3667s
+  group  19/116 c09_storm2_w80_u100_0009.json    n=25  done=438   ok=70    err=0   usd=  2.484 elapsed=3678s
+  group  20/116 c09_storm2_w80_u100_0009.json    n=3   done=441   ok=70    err=0   usd=  2.511 elapsed=3682s
+  group  21/116 c09_storm2_w80_u100_0010.json    n=54  done=495   ok=80    err=0   usd=  2.728 elapsed=3702s
+  group  22/116 c09_storm2_w80_u100_0010.json    n=5   done=500   ok=80    err=0   usd=  2.772 elapsed=3707s
+  group  23/116 c09_storm2_w80_u100_0011.json    n=46  done=546   ok=85    err=0   usd=  3.055 elapsed=3723s
+  group  24/116 c09_storm2_w80_u100_0011.json    n=5   done=551   ok=85    err=0   usd=  3.100 elapsed=3728s
+  group  25/116 c09_storm2_w80_u100_0012.json    n=38  done=589   ok=96    err=0   usd=  3.250 elapsed=3743s
+  group  26/116 c09_storm2_w80_u100_0012.json    n=5   done=594   ok=98    err=0   usd=  3.271 elapsed=3749s
+  group  27/116 c09_storm2_w80_u100_0013.json    n=26  done=620   ok=99    err=0   usd=  3.504 elapsed=3761s
+  group  28/116 c09_storm2_w80_u100_0013.json    n=3   done=623   ok=101   err=0   usd=  3.520 elapsed=3766s
+  group  29/116 c09_storm2_w80_u100_0014.json    n=19  done=642   ok=105   err=0   usd=  3.652 elapsed=3775s
+  group  30/116 c09_storm2_w80_u100_0014.json    n=1   done=643   ok=105   err=0   usd=  3.661 elapsed=3777s
+  group  31/116 c09_storm2_w80_u100_0015.json    n=54  done=697   ok=114   err=0   usd=  3.924 elapsed=3797s
+  group  32/116 c09_storm2_w80_u100_0015.json    n=5   done=702   ok=116   err=0   usd=  3.945 elapsed=3802s
+  group  33/116 c09_storm2_w80_u100_0016.json    n=46  done=748   ok=128   err=0   usd=  4.130 elapsed=3820s
+  group  34/116 c09_storm2_w80_u100_0016.json    n=5   done=753   ok=128   err=0   usd=  4.174 elapsed=3825s
+  group  35/116 c09_storm2_w80_u100_0017.json    n=38  done=791   ok=135   err=0   usd=  4.372 elapsed=3839s
+  group  36/116 c09_storm2_w80_u100_0017.json    n=5   done=796   ok=136   err=0   usd=  4.417 elapsed=3844s
+  group  37/116 c09_storm2_w80_u100_0018.json    n=26  done=822   ok=139   err=0   usd=  4.529 elapsed=3856s
+  group  38/116 c09_storm2_w80_u100_0018.json    n=3   done=825   ok=141   err=0   usd=  4.545 elapsed=3862s
+  group  39/116 c09_storm2_w80_u100_0019.json    n=19  done=844   ok=146   err=0   usd=  4.680 elapsed=3871s
+  group  40/116 c09_storm2_w80_u100_0019.json    n=1   done=845   ok=146   err=0   usd=  4.689 elapsed=3873s
+  group  41/116 c09_storm2_w80_u100_0020.json    n=49  done=894   ok=153   err=0   usd=  4.925 elapsed=3890s
+  group  42/116 c09_storm2_w80_u100_0020.json    n=5   done=899   ok=156   err=0   usd=  4.947 elapsed=3897s
+  group  43/116 c09_storm2_w80_u100_0021.json    n=29  done=928   ok=160   err=0   usd=  5.108 elapsed=3909s
+  group  44/116 c09_storm2_w80_u100_0021.json    n=5   done=933   ok=161   err=0   usd=  5.127 elapsed=3915s
+  group  45/116 c09_storm2_w80_u100_0022.json    n=43  done=976   ok=166   err=0   usd=  5.345 elapsed=3931s
+  group  46/116 c09_storm2_w80_u100_0022.json    n=3   done=979   ok=166   err=0   usd=  5.372 elapsed=3935s
+  group  47/116 c09_storm2_w80_u100_0023.json    n=27  done=1006  ok=173   err=0   usd=  5.489 elapsed=3949s
+  group  48/116 c09_storm2_w80_u100_0023.json    n=3   done=1009  ok=175   err=0   usd=  5.505 elapsed=3955s
+  group  49/116 c10_replay_400_0000.json         n=19  done=1028  ok=184   err=0   usd=  5.608 elapsed=3964s
+  group  50/116 c10_replay_400_0000.json         n=2   done=1030  ok=186   err=0   usd=  5.622 elapsed=3971s
+  group  51/116 c10_replay_400_0001.json         n=31  done=1061  ok=200   err=0   usd=  5.850 elapsed=3985s
+  group  52/116 c10_replay_400_0001.json         n=3   done=1064  ok=202   err=0   usd=  5.867 elapsed=3991s
+  group  53/116 c10_replay_400_0002.json         n=21  done=1085  ok=209   err=0   usd=  6.068 elapsed=4001s
+  group  54/116 c10_replay_400_0002.json         n=1   done=1086  ok=209   err=0   usd=  6.077 elapsed=4004s
+  group  55/116 c10_replay_400_0003.json         n=31  done=1117  ok=218   err=0   usd=  6.276 elapsed=4016s
+  group  56/116 c10_replay_400_0003.json         n=2   done=1119  ok=218   err=0   usd=  6.293 elapsed=4021s
+  group  57/116 c10_replay_400_0004.json         n=13  done=1132  ok=224   err=0   usd=  6.358 elapsed=4029s
+  group  58/116 c10_replay_400_0005.json         n=23  done=1155  ok=226   err=0   usd=  6.512 elapsed=4039s
+  group  59/116 c10_replay_400_0005.json         n=3   done=1158  ok=229   err=0   usd=  6.528 elapsed=4045s
+  group  60/116 c10_replay_400_0006.json         n=34  done=1192  ok=247   err=0   usd=  6.747 elapsed=4059s
+  group  61/116 c10_replay_400_0006.json         n=3   done=1195  ok=248   err=0   usd=  6.776 elapsed=4064s
+  group  62/116 c10_replay_400_0007.json         n=28  done=1223  ok=260   err=0   usd=  6.931 elapsed=4077s
+  group  63/116 c10_replay_400_0007.json         n=1   done=1224  ok=260   err=0   usd=  6.940 elapsed=4079s
+  group  64/116 c10_replay_400_0008.json         n=19  done=1243  ok=265   err=0   usd=  7.032 elapsed=4089s
+  group  65/116 c10_replay_400_0008.json         n=2   done=1245  ok=265   err=0   usd=  7.050 elapsed=4094s
+  group  66/116 c10_replay_400_0009.json         n=13  done=1258  ok=268   err=0   usd=  7.163 elapsed=4102s
+  group  67/116 c10_replay_400_0010.json         n=17  done=1275  ok=274   err=0   usd=  7.279 elapsed=4111s
+  group  68/116 c10_replay_400_0010.json         n=3   done=1278  ok=276   err=0   usd=  7.296 elapsed=4117s
+  group  69/116 c10_replay_400_0011.json         n=36  done=1314  ok=298   err=0   usd=  7.571 elapsed=4133s
+  group  70/116 c10_replay_400_0011.json         n=3   done=1317  ok=300   err=0   usd=  7.587 elapsed=4140s
+  group  71/116 c10_replay_400_0012.json         n=24  done=1341  ok=308   err=0   usd=  7.753 elapsed=4150s
+  group  72/116 c10_replay_400_0013.json         n=22  done=1363  ok=314   err=0   usd=  7.891 elapsed=4161s
+  group  73/116 c10_replay_400_0013.json         n=2   done=1365  ok=314   err=0   usd=  7.908 elapsed=4166s
+  group  74/116 c10_replay_400_0014.json         n=17  done=1382  ok=319   err=0   usd=  8.027 elapsed=4173s
+  group  75/116 c10_replay_400_0014.json         n=2   done=1384  ok=321   err=0   usd=  8.040 elapsed=4179s
+  group  76/116 c10_replay_400_0015.json         n=17  done=1401  ok=328   err=0   usd=  8.134 elapsed=4188s
+  group  77/116 c10_replay_400_0015.json         n=3   done=1404  ok=330   err=0   usd=  8.150 elapsed=4194s
+  group  78/116 c10_replay_400_0016.json         n=26  done=1430  ok=343   err=0   usd=  8.350 elapsed=4209s
+  group  79/116 c10_replay_400_0016.json         n=1   done=1431  ok=343   err=0   usd=  8.358 elapsed=4211s
+  group  80/116 c10_replay_400_0017.json         n=22  done=1453  ok=346   err=0   usd=  8.534 elapsed=4222s
+  group  81/116 c10_replay_400_0018.json         n=18  done=1471  ok=347   err=0   usd=  8.702 elapsed=4230s
+  group  82/116 c10_replay_400_0018.json         n=2   done=1473  ok=347   err=0   usd=  8.720 elapsed=4235s
+  group  83/116 c10_replay_400_0019.json         n=13  done=1486  ok=350   err=0   usd=  8.813 elapsed=4243s
+  group  84/116 c10_replay_400_0019.json         n=2   done=1488  ok=351   err=0   usd=  8.825 elapsed=4248s
+  group  85/116 c10_replay_400_0020.json         n=43  done=1531  ok=363   err=0   usd=  9.028 elapsed=4265s
+  group  86/116 c10_replay_400_0020.json         n=3   done=1534  ok=363   err=0   usd=  9.054 elapsed=4269s
+  group  87/116 c10_replay_400_0021.json         n=25  done=1559  ok=364   err=0   usd=  9.235 elapsed=4279s
+  group  88/116 c10_replay_400_0021.json         n=1   done=1560  ok=364   err=0   usd=  9.244 elapsed=4284s
+  group  89/116 c10_replay_400_0022.json         n=29  done=1589  ok=366   err=0   usd=  9.470 elapsed=4294s
+  group  90/116 c10_replay_400_0022.json         n=2   done=1591  ok=367   err=0   usd=  9.482 elapsed=4299s
+  group  91/116 c10_replay_400_0023.json         n=21  done=1612  ok=378   err=0   usd=  9.625 elapsed=4308s
+  group  92/116 c10_replay_400_0023.json         n=2   done=1614  ok=380   err=0   usd=  9.639 elapsed=4315s
+  group  93/116 c10_storm2_w80_u100_0000.json    n=37  done=1651  ok=388   err=0   usd=  9.822 elapsed=4329s
+  group  94/116 c10_storm2_w80_u100_0000.json    n=5   done=1656  ok=390   err=0   usd=  9.842 elapsed=4335s
+  group  95/116 c10_storm2_w80_u100_0001.json    n=30  done=1686  ok=390   err=0   usd= 10.116 elapsed=4347s
+  group  96/116 c10_storm2_w80_u100_0001.json    n=1   done=1687  ok=390   err=0   usd= 10.125 elapsed=4349s
+  group  97/116 c10_storm2_w80_u100_0002.json    n=27  done=1714  ok=394   err=0   usd= 10.274 elapsed=4360s
+  group  98/116 c10_storm2_w80_u100_0002.json    n=4   done=1718  ok=395   err=0   usd= 10.291 elapsed=4366s
+  group  99/116 c10_storm2_w80_u100_0003.json    n=25  done=1743  ok=397   err=0   usd= 10.485 elapsed=4382s
+  group 100/116 c10_storm2_w80_u100_0003.json    n=3   done=1746  ok=399   err=0   usd= 10.501 elapsed=4391s
+  group 101/116 c10_storm2_w80_u100_0004.json    n=37  done=1783  ok=405   err=0   usd= 10.699 elapsed=4406s
+  group 102/116 c10_storm2_w80_u100_0004.json    n=5   done=1788  ok=406   err=0   usd= 10.744 elapsed=4411s
+  group 103/116 c10_storm2_w80_u100_0005.json    n=30  done=1818  ok=414   err=0   usd= 10.912 elapsed=4423s
+  group 104/116 c10_storm2_w80_u100_0005.json    n=3   done=1821  ok=414   err=0   usd= 10.938 elapsed=4427s
+  group 105/116 c10_storm2_w80_u100_0006.json    n=27  done=1848  ok=417   err=0   usd= 11.115 elapsed=4438s
+  group 106/116 c10_storm2_w80_u100_0006.json    n=1   done=1849  ok=417   err=0   usd= 11.124 elapsed=4440s
+  group 107/116 c10_storm2_w80_u100_0007.json    n=26  done=1875  ok=422   err=0   usd= 11.275 elapsed=4451s
+  group 108/116 c10_storm2_w80_u100_0007.json    n=4   done=1879  ok=422   err=0   usd= 11.311 elapsed=4456s
+  group 109/116 c10_storm2_w80_u100_0008.json    n=30  done=1909  ok=423   err=0   usd= 11.574 elapsed=4468s
+  group 110/116 c10_storm2_w80_u100_0008.json    n=1   done=1910  ok=423   err=0   usd= 11.583 elapsed=4472s
+  group 111/116 c10_storm2_w80_u100_0009.json    n=31  done=1941  ok=427   err=0   usd= 11.753 elapsed=4484s
+  group 112/116 c10_storm2_w80_u100_0009.json    n=4   done=1945  ok=427   err=0   usd= 11.789 elapsed=4491s
+  group 113/116 c10_storm2_w80_u100_0010.json    n=25  done=1970  ok=436   err=0   usd= 11.935 elapsed=4502s
+  group 114/116 c10_storm2_w80_u100_0010.json    n=3   done=1973  ok=437   err=0   usd= 11.950 elapsed=4508s
+  group 115/116 c10_storm2_w80_u100_0011.json    n=26  done=1999  ok=439   err=0   usd= 12.192 elapsed=4519s
+  group 116/116 c10_storm2_w80_u100_0011.json    n=1   done=2000  ok=439   err=0   usd= 12.201 elapsed=4521s
+[e1h] pass done: 2000 calls, 439 ok, 0 error, 1561 other, 19776 output tokens, USD 12.201, 2431 ms mean per call
+
+[e1h] pass 4/6  M_free thinking=disabled r1  (116 groups, 2000 calls)
+  group   1/116 c09_storm2_w80_u100_0000.json    n=60  done=60    ok=11    err=0   usd=  0.288 elapsed=4542s
+  group   2/116 c09_storm2_w80_u100_0000.json    n=6   done=66    ok=11    err=0   usd=  0.341 elapsed=4547s
+  group   3/116 c09_storm2_w80_u100_0001.json    n=49  done=115   ok=16    err=0   usd=  0.638 elapsed=4567s
+  group   4/116 c09_storm2_w80_u100_0001.json    n=5   done=120   ok=16    err=0   usd=  0.682 elapsed=4572s
+  group   5/116 c09_storm2_w80_u100_0002.json    n=41  done=161   ok=21    err=0   usd=  0.931 elapsed=4588s
+  group   6/116 c09_storm2_w80_u100_0002.json    n=5   done=166   ok=23    err=0   usd=  0.951 elapsed=4597s
+  group   7/116 c09_storm2_w80_u100_0003.json    n=31  done=197   ok=27    err=0   usd=  1.125 elapsed=4611s
+  group   8/116 c09_storm2_w80_u100_0003.json    n=3   done=200   ok=28    err=0   usd=  1.139 elapsed=4617s
+  group   9/116 c09_storm2_w80_u100_0004.json    n=25  done=225   ok=33    err=0   usd=  1.296 elapsed=4628s
+  group  10/116 c09_storm2_w80_u100_0004.json    n=3   done=228   ok=33    err=0   usd=  1.322 elapsed=4633s
+  group  11/116 c09_storm2_w80_u100_0005.json    n=54  done=282   ok=43    err=0   usd=  1.632 elapsed=4652s
+  group  12/116 c09_storm2_w80_u100_0005.json    n=5   done=287   ok=43    err=0   usd=  1.675 elapsed=4658s
+  group  13/116 c09_storm2_w80_u100_0006.json    n=46  done=333   ok=50    err=0   usd=  1.909 elapsed=4675s
+  group  14/116 c09_storm2_w80_u100_0006.json    n=5   done=338   ok=51    err=0   usd=  1.954 elapsed=4681s
+  group  15/116 c09_storm2_w80_u100_0007.json    n=38  done=376   ok=56    err=0   usd=  2.143 elapsed=4695s
+  group  16/116 c09_storm2_w80_u100_0007.json    n=5   done=381   ok=58    err=0   usd=  2.163 elapsed=4702s
+  group  17/116 c09_storm2_w80_u100_0008.json    n=29  done=410   ok=63    err=0   usd=  2.333 elapsed=4715s
+  group  18/116 c09_storm2_w80_u100_0008.json    n=3   done=413   ok=63    err=0   usd=  2.359 elapsed=4720s
+  group  19/116 c09_storm2_w80_u100_0009.json    n=25  done=438   ok=71    err=0   usd=  2.521 elapsed=4733s
+  group  20/116 c09_storm2_w80_u100_0009.json    n=3   done=441   ok=71    err=0   usd=  2.548 elapsed=4737s
+  group  21/116 c09_storm2_w80_u100_0010.json    n=54  done=495   ok=81    err=0   usd=  2.766 elapsed=4769s
+  group  22/116 c09_storm2_w80_u100_0010.json    n=5   done=500   ok=81    err=0   usd=  2.810 elapsed=4774s
+  group  23/116 c09_storm2_w80_u100_0011.json    n=46  done=546   ok=89    err=0   usd=  3.096 elapsed=4792s
+  group  24/116 c09_storm2_w80_u100_0011.json    n=5   done=551   ok=89    err=0   usd=  3.141 elapsed=4796s
+  group  25/116 c09_storm2_w80_u100_0012.json    n=38  done=589   ok=99    err=0   usd=  3.290 elapsed=4812s
+  group  26/116 c09_storm2_w80_u100_0012.json    n=5   done=594   ok=102   err=0   usd=  3.313 elapsed=4818s
+  group  27/116 c09_storm2_w80_u100_0013.json    n=26  done=620   ok=103   err=0   usd=  3.552 elapsed=4829s
+  group  28/116 c09_storm2_w80_u100_0013.json    n=3   done=623   ok=105   err=0   usd=  3.568 elapsed=4835s
+  group  29/116 c09_storm2_w80_u100_0014.json    n=19  done=642   ok=109   err=0   usd=  3.657 elapsed=4845s
+  group  30/116 c09_storm2_w80_u100_0014.json    n=1   done=643   ok=109   err=0   usd=  3.666 elapsed=4847s
+  group  31/116 c09_storm2_w80_u100_0015.json    n=54  done=697   ok=116   err=0   usd=  3.928 elapsed=4915s
+  group  32/116 c09_storm2_w80_u100_0015.json    n=5   done=702   ok=118   err=0   usd=  3.949 elapsed=4920s
+  group  33/116 c09_storm2_w80_u100_0016.json    n=46  done=748   ok=130   err=0   usd=  4.135 elapsed=4938s
+  group  34/116 c09_storm2_w80_u100_0016.json    n=5   done=753   ok=130   err=0   usd=  4.179 elapsed=4943s
+  group  35/116 c09_storm2_w80_u100_0017.json    n=38  done=791   ok=134   err=0   usd=  4.372 elapsed=4956s
+  group  36/116 c09_storm2_w80_u100_0017.json    n=5   done=796   ok=135   err=0   usd=  4.417 elapsed=4962s
+  group  37/116 c09_storm2_w80_u100_0018.json    n=26  done=822   ok=139   err=0   usd=  4.531 elapsed=4975s
+  group  38/116 c09_storm2_w80_u100_0018.json    n=3   done=825   ok=141   err=0   usd=  4.547 elapsed=4982s
+  group  39/116 c09_storm2_w80_u100_0019.json    n=19  done=844   ok=144   err=0   usd=  4.680 elapsed=4991s
+  group  40/116 c09_storm2_w80_u100_0019.json    n=1   done=845   ok=144   err=0   usd=  4.689 elapsed=4993s
+  group  41/116 c09_storm2_w80_u100_0020.json    n=49  done=894   ok=153   err=0   usd=  4.926 elapsed=5019s
+  group  42/116 c09_storm2_w80_u100_0020.json    n=5   done=899   ok=156   err=0   usd=  4.948 elapsed=5025s
+  group  43/116 c09_storm2_w80_u100_0021.json    n=29  done=928   ok=160   err=0   usd=  5.109 elapsed=5037s
+  group  44/116 c09_storm2_w80_u100_0021.json    n=5   done=933   ok=161   err=0   usd=  5.129 elapsed=5044s
+  group  45/116 c09_storm2_w80_u100_0022.json    n=43  done=976   ok=166   err=0   usd=  5.346 elapsed=5062s
+  group  46/116 c09_storm2_w80_u100_0022.json    n=3   done=979   ok=166   err=0   usd=  5.373 elapsed=5067s
+  group  47/116 c09_storm2_w80_u100_0023.json    n=27  done=1006  ok=173   err=0   usd=  5.490 elapsed=5079s
+  group  48/116 c09_storm2_w80_u100_0023.json    n=3   done=1009  ok=175   err=0   usd=  5.507 elapsed=5086s
+  group  49/116 c10_replay_400_0000.json         n=19  done=1028  ok=184   err=0   usd=  5.610 elapsed=5095s
+  group  50/116 c10_replay_400_0000.json         n=2   done=1030  ok=186   err=0   usd=  5.623 elapsed=5101s
+  group  51/116 c10_replay_400_0001.json         n=31  done=1061  ok=199   err=0   usd=  5.858 elapsed=5115s
+  group  52/116 c10_replay_400_0001.json         n=3   done=1064  ok=201   err=0   usd=  5.874 elapsed=5121s
+  group  53/116 c10_replay_400_0002.json         n=21  done=1085  ok=207   err=0   usd=  6.079 elapsed=5133s
+  group  54/116 c10_replay_400_0002.json         n=1   done=1086  ok=207   err=0   usd=  6.087 elapsed=5135s
+  group  55/116 c10_replay_400_0003.json         n=31  done=1117  ok=215   err=0   usd=  6.272 elapsed=5147s
+  group  56/116 c10_replay_400_0003.json         n=2   done=1119  ok=215   err=0   usd=  6.290 elapsed=5151s
+  group  57/116 c10_replay_400_0004.json         n=13  done=1132  ok=220   err=0   usd=  6.353 elapsed=5163s
+  group  58/116 c10_replay_400_0005.json         n=23  done=1155  ok=225   err=0   usd=  6.509 elapsed=5172s
+  group  59/116 c10_replay_400_0005.json         n=3   done=1158  ok=228   err=0   usd=  6.525 elapsed=5180s
+  group  60/116 c10_replay_400_0006.json         n=34  done=1192  ok=245   err=0   usd=  6.744 elapsed=5196s
+  group  61/116 c10_replay_400_0006.json         n=3   done=1195  ok=246   err=0   usd=  6.772 elapsed=5201s
+  group  62/116 c10_replay_400_0007.json         n=28  done=1223  ok=258   err=0   usd=  6.925 elapsed=5214s
+  group  63/116 c10_replay_400_0007.json         n=1   done=1224  ok=258   err=0   usd=  6.934 elapsed=5217s
+  group  64/116 c10_replay_400_0008.json         n=19  done=1243  ok=264   err=0   usd=  7.028 elapsed=5227s
+  group  65/116 c10_replay_400_0008.json         n=2   done=1245  ok=264   err=0   usd=  7.046 elapsed=5232s
+  group  66/116 c10_replay_400_0009.json         n=13  done=1258  ok=267   err=0   usd=  7.160 elapsed=5239s
+  group  67/116 c10_replay_400_0010.json         n=17  done=1275  ok=271   err=0   usd=  7.309 elapsed=5248s
+  group  68/116 c10_replay_400_0010.json         n=3   done=1278  ok=273   err=0   usd=  7.326 elapsed=5255s
+  group  69/116 c10_replay_400_0011.json         n=36  done=1314  ok=296   err=0   usd=  7.601 elapsed=5271s
+  group  70/116 c10_replay_400_0011.json         n=3   done=1317  ok=298   err=0   usd=  7.616 elapsed=5277s
+  group  71/116 c10_replay_400_0012.json         n=24  done=1341  ok=306   err=0   usd=  7.782 elapsed=5288s
+  group  72/116 c10_replay_400_0013.json         n=22  done=1363  ok=314   err=0   usd=  7.922 elapsed=5298s
+  group  73/116 c10_replay_400_0013.json         n=2   done=1365  ok=314   err=0   usd=  7.939 elapsed=5302s
+  group  74/116 c10_replay_400_0014.json         n=17  done=1382  ok=319   err=0   usd=  8.060 elapsed=5311s
+  group  75/116 c10_replay_400_0014.json         n=2   done=1384  ok=321   err=0   usd=  8.072 elapsed=5317s
+  group  76/116 c10_replay_400_0015.json         n=17  done=1401  ok=330   err=0   usd=  8.165 elapsed=5326s
+  group  77/116 c10_replay_400_0015.json         n=3   done=1404  ok=332   err=0   usd=  8.182 elapsed=5332s
+  group  78/116 c10_replay_400_0016.json         n=26  done=1430  ok=346   err=0   usd=  8.383 elapsed=5344s
+  group  79/116 c10_replay_400_0016.json         n=1   done=1431  ok=346   err=0   usd=  8.391 elapsed=5347s
+  group  80/116 c10_replay_400_0017.json         n=22  done=1453  ok=350   err=0   usd=  8.568 elapsed=5356s
+  group  81/116 c10_replay_400_0018.json         n=18  done=1471  ok=351   err=0   usd=  8.730 elapsed=5365s
+  group  82/116 c10_replay_400_0018.json         n=2   done=1473  ok=351   err=0   usd=  8.747 elapsed=5371s
+  group  83/116 c10_replay_400_0019.json         n=13  done=1486  ok=354   err=0   usd=  8.840 elapsed=5378s
+  group  84/116 c10_replay_400_0019.json         n=2   done=1488  ok=354   err=0   usd=  8.858 elapsed=5383s
+  group  85/116 c10_replay_400_0020.json         n=43  done=1531  ok=365   err=0   usd=  9.059 elapsed=5402s
+  group  86/116 c10_replay_400_0020.json         n=3   done=1534  ok=365   err=0   usd=  9.086 elapsed=5406s
+  group  87/116 c10_replay_400_0021.json         n=25  done=1559  ok=367   err=0   usd=  9.281 elapsed=5418s
+  group  88/116 c10_replay_400_0021.json         n=1   done=1560  ok=367   err=0   usd=  9.290 elapsed=5420s
+  group  89/116 c10_replay_400_0022.json         n=29  done=1589  ok=369   err=0   usd=  9.520 elapsed=5432s
+  group  90/116 c10_replay_400_0022.json         n=2   done=1591  ok=370   err=0   usd=  9.532 elapsed=5438s
+  group  91/116 c10_replay_400_0023.json         n=21  done=1612  ok=382   err=0   usd=  9.667 elapsed=5447s
+  group  92/116 c10_replay_400_0023.json         n=2   done=1614  ok=384   err=0   usd=  9.681 elapsed=5453s
+  group  93/116 c10_storm2_w80_u100_0000.json    n=37  done=1651  ok=392   err=0   usd=  9.864 elapsed=5468s
+  group  94/116 c10_storm2_w80_u100_0000.json    n=5   done=1656  ok=394   err=0   usd=  9.884 elapsed=5473s
+  group  95/116 c10_storm2_w80_u100_0001.json    n=30  done=1686  ok=394   err=0   usd= 10.157 elapsed=5485s
+  group  96/116 c10_storm2_w80_u100_0001.json    n=1   done=1687  ok=394   err=0   usd= 10.166 elapsed=5487s
+  group  97/116 c10_storm2_w80_u100_0002.json    n=27  done=1714  ok=398   err=0   usd= 10.315 elapsed=5501s
+  group  98/116 c10_storm2_w80_u100_0002.json    n=4   done=1718  ok=399   err=0   usd= 10.332 elapsed=5506s
+  group  99/116 c10_storm2_w80_u100_0003.json    n=25  done=1743  ok=401   err=0   usd= 10.533 elapsed=5516s
+  group 100/116 c10_storm2_w80_u100_0003.json    n=3   done=1746  ok=403   err=0   usd= 10.549 elapsed=5524s
+  group 101/116 c10_storm2_w80_u100_0004.json    n=37  done=1783  ok=409   err=0   usd= 10.746 elapsed=5539s
+  group 102/116 c10_storm2_w80_u100_0004.json    n=5   done=1788  ok=410   err=0   usd= 10.791 elapsed=5546s
+  group 103/116 c10_storm2_w80_u100_0005.json    n=30  done=1818  ok=417   err=0   usd= 10.958 elapsed=5558s
+  group 104/116 c10_storm2_w80_u100_0005.json    n=3   done=1821  ok=417   err=0   usd= 10.984 elapsed=5563s
+  group 105/116 c10_storm2_w80_u100_0006.json    n=27  done=1848  ok=420   err=0   usd= 11.154 elapsed=5575s
+  group 106/116 c10_storm2_w80_u100_0006.json    n=1   done=1849  ok=420   err=0   usd= 11.163 elapsed=5577s
+  group 107/116 c10_storm2_w80_u100_0007.json    n=26  done=1875  ok=426   err=0   usd= 11.316 elapsed=5589s
+  group 108/116 c10_storm2_w80_u100_0007.json    n=4   done=1879  ok=426   err=0   usd= 11.352 elapsed=5595s
+  group 109/116 c10_storm2_w80_u100_0008.json    n=30  done=1909  ok=426   err=0   usd= 11.627 elapsed=5606s
+  group 110/116 c10_storm2_w80_u100_0008.json    n=1   done=1910  ok=426   err=0   usd= 11.636 elapsed=5610s
+  group 111/116 c10_storm2_w80_u100_0009.json    n=31  done=1941  ok=430   err=0   usd= 11.806 elapsed=5622s
+  group 112/116 c10_storm2_w80_u100_0009.json    n=4   done=1945  ok=430   err=0   usd= 11.841 elapsed=5627s
+  group 113/116 c10_storm2_w80_u100_0010.json    n=25  done=1970  ok=438   err=0   usd= 11.986 elapsed=5638s
+  group 114/116 c10_storm2_w80_u100_0010.json    n=3   done=1973  ok=439   err=0   usd= 12.001 elapsed=5643s
+  group 115/116 c10_storm2_w80_u100_0011.json    n=26  done=1999  ok=441   err=0   usd= 12.243 elapsed=5654s
+  group 116/116 c10_storm2_w80_u100_0011.json    n=1   done=2000  ok=441   err=0   usd= 12.252 elapsed=5656s
+[e1h] pass done: 2000 calls, 441 ok, 0 error, 1559 other, 19894 output tokens, USD 12.252, 2742 ms mean per call
+
+[e1h] pass 5/6  M_free thinking=default r0  (116 groups, 2000 calls)
+  group   1/116 c09_storm2_w80_u100_0000.json    n=60  done=60    ok=10    err=0   usd=  0.301 elapsed=5675s
+  group   2/116 c09_storm2_w80_u100_0000.json    n=6   done=66    ok=10    err=0   usd=  0.355 elapsed=5680s
+  group   3/116 c09_storm2_w80_u100_0001.json    n=49  done=115   ok=15    err=0   usd=  0.664 elapsed=5701s
+  group   4/116 c09_storm2_w80_u100_0001.json    n=5   done=120   ok=15    err=0   usd=  0.708 elapsed=5705s
+  group   5/116 c09_storm2_w80_u100_0002.json    n=41  done=161   ok=20    err=0   usd=  0.964 elapsed=5717s
+  group   6/116 c09_storm2_w80_u100_0002.json    n=5   done=166   ok=21    err=0   usd=  0.986 elapsed=5723s
+  group   7/116 c09_storm2_w80_u100_0003.json    n=31  done=197   ok=24    err=0   usd=  1.202 elapsed=5733s
+  group   8/116 c09_storm2_w80_u100_0003.json    n=3   done=200   ok=25    err=0   usd=  1.219 elapsed=5738s
+  group   9/116 c09_storm2_w80_u100_0004.json    n=25  done=225   ok=33    err=0   usd=  1.391 elapsed=5750s
+  group  10/116 c09_storm2_w80_u100_0004.json    n=3   done=228   ok=34    err=0   usd=  1.406 elapsed=5755s
+  group  11/116 c09_storm2_w80_u100_0005.json    n=54  done=282   ok=43    err=0   usd=  1.716 elapsed=5772s
+  group  12/116 c09_storm2_w80_u100_0005.json    n=5   done=287   ok=43    err=0   usd=  1.760 elapsed=5776s
+  group  13/116 c09_storm2_w80_u100_0006.json    n=46  done=333   ok=53    err=0   usd=  2.030 elapsed=5790s
+  group  14/116 c09_storm2_w80_u100_0006.json    n=5   done=338   ok=54    err=0   usd=  2.050 elapsed=5796s
+  group  15/116 c09_storm2_w80_u100_0007.json    n=38  done=376   ok=66    err=0   usd=  2.277 elapsed=5811s
+  group  16/116 c09_storm2_w80_u100_0007.json    n=5   done=381   ok=68    err=0   usd=  2.300 elapsed=5817s
+  group  17/116 c09_storm2_w80_u100_0008.json    n=29  done=410   ok=76    err=0   usd=  2.493 elapsed=5827s
+  group  18/116 c09_storm2_w80_u100_0008.json    n=3   done=413   ok=76    err=0   usd=  2.519 elapsed=5831s
+  group  19/116 c09_storm2_w80_u100_0009.json    n=25  done=438   ok=83    err=0   usd=  2.687 elapsed=5841s
+  group  20/116 c09_storm2_w80_u100_0009.json    n=3   done=441   ok=83    err=0   usd=  2.713 elapsed=5844s
+  group  21/116 c09_storm2_w80_u100_0010.json    n=54  done=495   ok=98    err=0   usd=  2.958 elapsed=5866s
+  group  22/116 c09_storm2_w80_u100_0010.json    n=5   done=500   ok=98    err=0   usd=  3.004 elapsed=5871s
+  group  23/116 c09_storm2_w80_u100_0011.json    n=46  done=546   ok=107   err=0   usd=  3.248 elapsed=5886s
+  group  24/116 c09_storm2_w80_u100_0011.json    n=5   done=551   ok=107   err=0   usd=  3.292 elapsed=5890s
+  group  25/116 c09_storm2_w80_u100_0012.json    n=38  done=589   ok=120   err=0   usd=  3.460 elapsed=5908s
+  group  26/116 c09_storm2_w80_u100_0012.json    n=5   done=594   ok=123   err=0   usd=  3.493 elapsed=5918s
+  group  27/116 c09_storm2_w80_u100_0013.json    n=26  done=620   ok=127   err=0   usd=  3.666 elapsed=5934s
+  group  28/116 c09_storm2_w80_u100_0013.json    n=3   done=623   ok=129   err=0   usd=  3.684 elapsed=5941s
+  group  29/116 c09_storm2_w80_u100_0014.json    n=19  done=642   ok=132   err=0   usd=  3.779 elapsed=5950s
+  group  30/116 c09_storm2_w80_u100_0014.json    n=1   done=643   ok=132   err=0   usd=  3.788 elapsed=5952s
+  group  31/116 c09_storm2_w80_u100_0015.json    n=54  done=697   ok=142   err=0   usd=  4.081 elapsed=5969s
+  group  32/116 c09_storm2_w80_u100_0015.json    n=5   done=702   ok=143   err=0   usd=  4.103 elapsed=5975s
+  group  33/116 c09_storm2_w80_u100_0016.json    n=46  done=748   ok=158   err=0   usd=  4.326 elapsed=5995s
+  group  34/116 c09_storm2_w80_u100_0016.json    n=5   done=753   ok=158   err=0   usd=  4.370 elapsed=5999s
+  group  35/116 c09_storm2_w80_u100_0017.json    n=38  done=791   ok=164   err=0   usd=  4.568 elapsed=6013s
+  group  36/116 c09_storm2_w80_u100_0017.json    n=5   done=796   ok=166   err=0   usd=  4.617 elapsed=6018s
+  group  37/116 c09_storm2_w80_u100_0018.json    n=26  done=822   ok=171   err=0   usd=  4.791 elapsed=6029s
+  group  38/116 c09_storm2_w80_u100_0018.json    n=3   done=825   ok=172   err=0   usd=  4.807 elapsed=6034s
+  group  39/116 c09_storm2_w80_u100_0019.json    n=19  done=844   ok=178   err=0   usd=  4.965 elapsed=6042s
+  group  40/116 c09_storm2_w80_u100_0019.json    n=1   done=845   ok=178   err=0   usd=  4.974 elapsed=6044s
+  group  41/116 c09_storm2_w80_u100_0020.json    n=49  done=894   ok=189   err=0   usd=  5.235 elapsed=6058s
+  group  42/116 c09_storm2_w80_u100_0020.json    n=5   done=899   ok=190   err=0   usd=  5.259 elapsed=6063s
+  group  43/116 c09_storm2_w80_u100_0021.json    n=29  done=928   ok=194   err=0   usd=  5.426 elapsed=6074s
+  group  44/116 c09_storm2_w80_u100_0021.json    n=5   done=933   ok=195   err=0   usd=  5.446 elapsed=6079s
+  group  45/116 c09_storm2_w80_u100_0022.json    n=43  done=976   ok=203   err=0   usd=  5.689 elapsed=6094s
+  group  46/116 c09_storm2_w80_u100_0022.json    n=3   done=979   ok=203   err=0   usd=  5.716 elapsed=6097s
+  group  47/116 c09_storm2_w80_u100_0023.json    n=27  done=1006  ok=209   err=0   usd=  5.883 elapsed=6107s
+  group  48/116 c09_storm2_w80_u100_0023.json    n=3   done=1009  ok=210   err=0   usd=  5.900 elapsed=6112s
+  group  49/116 c10_replay_400_0000.json         n=19  done=1028  ok=220   err=0   usd=  6.022 elapsed=6121s
+  group  50/116 c10_replay_400_0000.json         n=2   done=1030  ok=221   err=0   usd=  6.040 elapsed=6128s
+  group  51/116 c10_replay_400_0001.json         n=31  done=1061  ok=235   err=0   usd=  6.324 elapsed=6147s
+  group  52/116 c10_replay_400_0001.json         n=3   done=1064  ok=236   err=0   usd=  6.339 elapsed=6151s
+  group  53/116 c10_replay_400_0002.json         n=21  done=1085  ok=247   err=0   usd=  6.516 elapsed=6163s
+  group  54/116 c10_replay_400_0002.json         n=1   done=1086  ok=247   err=0   usd=  6.525 elapsed=6165s
+  group  55/116 c10_replay_400_0003.json         n=31  done=1117  ok=258   err=0   usd=  6.734 elapsed=6178s
+  group  56/116 c10_replay_400_0003.json         n=2   done=1119  ok=258   err=0   usd=  6.752 elapsed=6184s
+  group  57/116 c10_replay_400_0004.json         n=13  done=1132  ok=264   err=0   usd=  6.829 elapsed=6195s
+  group  58/116 c10_replay_400_0005.json         n=23  done=1155  ok=270   err=0   usd=  6.990 elapsed=6203s
+  group  59/116 c10_replay_400_0005.json         n=3   done=1158  ok=271   err=0   usd=  7.007 elapsed=6209s
+  group  60/116 c10_replay_400_0006.json         n=34  done=1192  ok=287   err=0   usd=  7.191 elapsed=6223s
+  group  61/116 c10_replay_400_0006.json         n=3   done=1195  ok=287   err=0   usd=  7.219 elapsed=6226s
+  group  62/116 c10_replay_400_0007.json         n=28  done=1223  ok=298   err=0   usd=  7.374 elapsed=6241s
+  group  63/116 c10_replay_400_0007.json         n=1   done=1224  ok=298   err=0   usd=  7.383 elapsed=6242s
+  group  64/116 c10_replay_400_0008.json         n=19  done=1243  ok=302   err=0   usd=  7.486 elapsed=6251s
+  group  65/116 c10_replay_400_0008.json         n=2   done=1245  ok=302   err=0   usd=  7.506 elapsed=6256s
+  group  66/116 c10_replay_400_0009.json         n=13  done=1258  ok=306   err=0   usd=  7.587 elapsed=6266s
+  group  67/116 c10_replay_400_0010.json         n=17  done=1275  ok=311   err=0   usd=  7.713 elapsed=6276s
+  group  68/116 c10_replay_400_0010.json         n=3   done=1278  ok=311   err=0   usd=  7.741 elapsed=6281s
+  group  69/116 c10_replay_400_0011.json         n=36  done=1314  ok=332   err=0   usd=  8.032 elapsed=6302s
+  group  70/116 c10_replay_400_0011.json         n=3   done=1317  ok=333   err=0   usd=  8.049 elapsed=6308s
+  group  71/116 c10_replay_400_0012.json         n=24  done=1341  ok=341   err=0   usd=  8.225 elapsed=6318s
+  group  72/116 c10_replay_400_0013.json         n=22  done=1363  ok=350   err=0   usd=  8.370 elapsed=6328s
+  group  73/116 c10_replay_400_0013.json         n=2   done=1365  ok=350   err=0   usd=  8.387 elapsed=6333s
+  group  74/116 c10_replay_400_0014.json         n=17  done=1382  ok=357   err=0   usd=  8.517 elapsed=6344s
+  group  75/116 c10_replay_400_0014.json         n=2   done=1384  ok=358   err=0   usd=  8.530 elapsed=6349s
+  group  76/116 c10_replay_400_0015.json         n=17  done=1401  ok=367   err=0   usd=  8.634 elapsed=6360s
+  group  77/116 c10_replay_400_0015.json         n=3   done=1404  ok=368   err=0   usd=  8.650 elapsed=6366s
+  group  78/116 c10_replay_400_0016.json         n=26  done=1430  ok=381   err=0   usd=  8.860 elapsed=6377s
+  group  79/116 c10_replay_400_0016.json         n=1   done=1431  ok=381   err=0   usd=  8.869 elapsed=6378s
+  group  80/116 c10_replay_400_0017.json         n=22  done=1453  ok=386   err=0   usd=  9.008 elapsed=6389s
+  group  81/116 c10_replay_400_0018.json         n=18  done=1471  ok=387   err=0   usd=  9.178 elapsed=6395s
+  group  82/116 c10_replay_400_0018.json         n=2   done=1473  ok=387   err=0   usd=  9.195 elapsed=6399s
+  group  83/116 c10_replay_400_0019.json         n=13  done=1486  ok=391   err=0   usd=  9.313 elapsed=6407s
+  group  84/116 c10_replay_400_0019.json         n=2   done=1488  ok=391   err=0   usd=  9.330 elapsed=6410s
+  group  85/116 c10_replay_400_0020.json         n=43  done=1531  ok=402   err=0   usd=  9.540 elapsed=6425s
+  group  86/116 c10_replay_400_0020.json         n=3   done=1534  ok=402   err=0   usd=  9.567 elapsed=6428s
+  group  87/116 c10_replay_400_0021.json         n=25  done=1559  ok=405   err=0   usd=  9.767 elapsed=6441s
+  group  88/116 c10_replay_400_0021.json         n=1   done=1560  ok=405   err=0   usd=  9.776 elapsed=6442s
+  group  89/116 c10_replay_400_0022.json         n=29  done=1589  ok=413   err=0   usd=  9.942 elapsed=6456s
+  group  90/116 c10_replay_400_0022.json         n=2   done=1591  ok=413   err=0   usd=  9.960 elapsed=6461s
+  group  91/116 c10_replay_400_0023.json         n=21  done=1612  ok=422   err=0   usd= 10.118 elapsed=6471s
+  group  92/116 c10_replay_400_0023.json         n=2   done=1614  ok=424   err=0   usd= 10.144 elapsed=6482s
+  group  93/116 c10_storm2_w80_u100_0000.json    n=37  done=1651  ok=432   err=0   usd= 10.334 elapsed=6494s
+  group  94/116 c10_storm2_w80_u100_0000.json    n=5   done=1656  ok=433   err=0   usd= 10.354 elapsed=6500s
+  group  95/116 c10_storm2_w80_u100_0001.json    n=30  done=1686  ok=436   err=0   usd= 10.551 elapsed=6512s
+  group  96/116 c10_storm2_w80_u100_0001.json    n=1   done=1687  ok=436   err=0   usd= 10.560 elapsed=6513s
+  group  97/116 c10_storm2_w80_u100_0002.json    n=27  done=1714  ok=441   err=0   usd= 10.648 elapsed=6523s
+  group  98/116 c10_storm2_w80_u100_0002.json    n=4   done=1718  ok=441   err=0   usd= 10.683 elapsed=6527s
+  group  99/116 c10_storm2_w80_u100_0003.json    n=25  done=1743  ok=444   err=0   usd= 10.830 elapsed=6538s
+  group 100/116 c10_storm2_w80_u100_0003.json    n=3   done=1746  ok=445   err=0   usd= 10.846 elapsed=6544s
+  group 101/116 c10_storm2_w80_u100_0004.json    n=37  done=1783  ok=451   err=0   usd= 11.070 elapsed=6559s
+  group 102/116 c10_storm2_w80_u100_0004.json    n=5   done=1788  ok=451   err=0   usd= 11.114 elapsed=6563s
+  group 103/116 c10_storm2_w80_u100_0005.json    n=30  done=1818  ok=462   err=0   usd= 11.292 elapsed=6575s
+  group 104/116 c10_storm2_w80_u100_0005.json    n=3   done=1821  ok=462   err=0   usd= 11.318 elapsed=6578s
+  group 105/116 c10_storm2_w80_u100_0006.json    n=27  done=1848  ok=466   err=0   usd= 11.486 elapsed=6588s
+  group 106/116 c10_storm2_w80_u100_0006.json    n=1   done=1849  ok=466   err=0   usd= 11.495 elapsed=6589s
+  group 107/116 c10_storm2_w80_u100_0007.json    n=26  done=1875  ok=474   err=0   usd= 11.615 elapsed=6603s
+  group 108/116 c10_storm2_w80_u100_0007.json    n=4   done=1879  ok=474   err=0   usd= 11.651 elapsed=6607s
+  group 109/116 c10_storm2_w80_u100_0008.json    n=30  done=1909  ok=476   err=0   usd= 11.928 elapsed=6617s
+  group 110/116 c10_storm2_w80_u100_0008.json    n=1   done=1910  ok=476   err=0   usd= 11.937 elapsed=6618s
+  group 111/116 c10_storm2_w80_u100_0009.json    n=31  done=1941  ok=481   err=0   usd= 12.125 elapsed=6629s
+  group 112/116 c10_storm2_w80_u100_0009.json    n=4   done=1945  ok=481   err=0   usd= 12.161 elapsed=6633s
+  group 113/116 c10_storm2_w80_u100_0010.json    n=25  done=1970  ok=490   err=0   usd= 12.317 elapsed=6645s
+  group 114/116 c10_storm2_w80_u100_0010.json    n=3   done=1973  ok=492   err=0   usd= 12.335 elapsed=6651s
+  group 115/116 c10_storm2_w80_u100_0011.json    n=26  done=1999  ok=495   err=0   usd= 12.511 elapsed=6662s
+  group 116/116 c10_storm2_w80_u100_0011.json    n=1   done=2000  ok=495   err=0   usd= 12.520 elapsed=6664s
+[e1h] pass done: 2000 calls, 495 ok, 0 error, 1505 other, 46534 output tokens, USD 12.520, 2208 ms mean per call
+
+[e1h] pass 6/6  M_free thinking=default r1  (116 groups, 2000 calls)
+  group   1/116 c09_storm2_w80_u100_0000.json    n=60  done=60    ok=9     err=0   usd=  0.322 elapsed=6682s
+  group   2/116 c09_storm2_w80_u100_0000.json    n=6   done=66    ok=9     err=0   usd=  0.375 elapsed=6689s
+  group   3/116 c09_storm2_w80_u100_0001.json    n=49  done=115   ok=14    err=0   usd=  0.675 elapsed=6706s
+  group   4/116 c09_storm2_w80_u100_0001.json    n=5   done=120   ok=14    err=0   usd=  0.719 elapsed=6712s
+  group   5/116 c09_storm2_w80_u100_0002.json    n=41  done=161   ok=20    err=0   usd=  0.973 elapsed=6725s
+  group   6/116 c09_storm2_w80_u100_0002.json    n=5   done=166   ok=22    err=0   usd=  0.996 elapsed=6730s
+  group   7/116 c09_storm2_w80_u100_0003.json    n=31  done=197   ok=26    err=0   usd=  1.184 elapsed=6742s
+  group   8/116 c09_storm2_w80_u100_0003.json    n=3   done=200   ok=27    err=0   usd=  1.200 elapsed=6747s
+  group   9/116 c09_storm2_w80_u100_0004.json    n=25  done=225   ok=34    err=0   usd=  1.374 elapsed=6759s
+  group  10/116 c09_storm2_w80_u100_0004.json    n=3   done=228   ok=35    err=0   usd=  1.389 elapsed=6763s
+  group  11/116 c09_storm2_w80_u100_0005.json    n=54  done=282   ok=45    err=0   usd=  1.708 elapsed=6780s
+  group  12/116 c09_storm2_w80_u100_0005.json    n=5   done=287   ok=45    err=0   usd=  1.752 elapsed=6785s
+  group  13/116 c09_storm2_w80_u100_0006.json    n=46  done=333   ok=54    err=0   usd=  2.016 elapsed=6800s
+  group  14/116 c09_storm2_w80_u100_0006.json    n=5   done=338   ok=55    err=0   usd=  2.037 elapsed=6806s
+  group  15/116 c09_storm2_w80_u100_0007.json    n=38  done=376   ok=67    err=0   usd=  2.277 elapsed=6824s
+  group  16/116 c09_storm2_w80_u100_0007.json    n=5   done=381   ok=69    err=0   usd=  2.300 elapsed=6831s
+  group  17/116 c09_storm2_w80_u100_0008.json    n=29  done=410   ok=74    err=0   usd=  2.475 elapsed=6843s
+  group  18/116 c09_storm2_w80_u100_0008.json    n=3   done=413   ok=74    err=0   usd=  2.501 elapsed=6846s
+  group  19/116 c09_storm2_w80_u100_0009.json    n=25  done=438   ok=83    err=0   usd=  2.670 elapsed=6856s
+  group  20/116 c09_storm2_w80_u100_0009.json    n=3   done=441   ok=83    err=0   usd=  2.697 elapsed=6859s
+  group  21/116 c09_storm2_w80_u100_0010.json    n=54  done=495   ok=97    err=0   usd=  2.935 elapsed=6882s
+  group  22/116 c09_storm2_w80_u100_0010.json    n=5   done=500   ok=97    err=0   usd=  2.979 elapsed=6886s
+  group  23/116 c09_storm2_w80_u100_0011.json    n=46  done=546   ok=108   err=0   usd=  3.226 elapsed=6900s
+  group  24/116 c09_storm2_w80_u100_0011.json    n=5   done=551   ok=108   err=0   usd=  3.270 elapsed=6903s
+  group  25/116 c09_storm2_w80_u100_0012.json    n=38  done=589   ok=119   err=0   usd=  3.439 elapsed=6919s
+  group  26/116 c09_storm2_w80_u100_0012.json    n=5   done=594   ok=122   err=0   usd=  3.468 elapsed=6925s
+  group  27/116 c09_storm2_w80_u100_0013.json    n=26  done=620   ok=127   err=0   usd=  3.636 elapsed=6937s
+  group  28/116 c09_storm2_w80_u100_0013.json    n=3   done=623   ok=129   err=0   usd=  3.654 elapsed=6943s
+  group  29/116 c09_storm2_w80_u100_0014.json    n=19  done=642   ok=135   err=0   usd=  3.750 elapsed=6954s
+  group  30/116 c09_storm2_w80_u100_0014.json    n=1   done=643   ok=135   err=0   usd=  3.759 elapsed=6955s
+  group  31/116 c09_storm2_w80_u100_0015.json    n=54  done=697   ok=144   err=0   usd=  4.033 elapsed=6972s
+  group  32/116 c09_storm2_w80_u100_0015.json    n=5   done=702   ok=146   err=0   usd=  4.058 elapsed=6978s
+  group  33/116 c09_storm2_w80_u100_0016.json    n=46  done=748   ok=159   err=0   usd=  4.259 elapsed=6996s
+  group  34/116 c09_storm2_w80_u100_0016.json    n=5   done=753   ok=159   err=0   usd=  4.303 elapsed=7001s
+  group  35/116 c09_storm2_w80_u100_0017.json    n=38  done=791   ok=166   err=0   usd=  4.509 elapsed=7014s
+  group  36/116 c09_storm2_w80_u100_0017.json    n=5   done=796   ok=167   err=0   usd=  4.555 elapsed=7018s
+  group  37/116 c09_storm2_w80_u100_0018.json    n=26  done=822   ok=171   err=0   usd=  4.667 elapsed=7028s
+  group  38/116 c09_storm2_w80_u100_0018.json    n=3   done=825   ok=172   err=0   usd=  4.683 elapsed=7033s
+  group  39/116 c09_storm2_w80_u100_0019.json    n=19  done=844   ok=180   err=0   usd=  4.847 elapsed=7042s
+  group  40/116 c09_storm2_w80_u100_0019.json    n=1   done=845   ok=180   err=0   usd=  4.855 elapsed=7043s
+  group  41/116 c09_storm2_w80_u100_0020.json    n=49  done=894   ok=192   err=0   usd=  5.103 elapsed=7058s
+  group  42/116 c09_storm2_w80_u100_0020.json    n=5   done=899   ok=195   err=0   usd=  5.129 elapsed=7064s
+  group  43/116 c09_storm2_w80_u100_0021.json    n=29  done=928   ok=200   err=0   usd=  5.298 elapsed=7073s
+  group  44/116 c09_storm2_w80_u100_0021.json    n=5   done=933   ok=201   err=0   usd=  5.320 elapsed=7080s
+  group  45/116 c09_storm2_w80_u100_0022.json    n=43  done=976   ok=208   err=0   usd=  5.551 elapsed=7095s
+  group  46/116 c09_storm2_w80_u100_0022.json    n=3   done=979   ok=208   err=0   usd=  5.578 elapsed=7099s
+  group  47/116 c09_storm2_w80_u100_0023.json    n=27  done=1006  ok=214   err=0   usd=  5.751 elapsed=7109s
+  group  48/116 c09_storm2_w80_u100_0023.json    n=3   done=1009  ok=216   err=0   usd=  5.770 elapsed=7115s
+  group  49/116 c10_replay_400_0000.json         n=19  done=1028  ok=226   err=0   usd=  5.904 elapsed=7126s
+  group  50/116 c10_replay_400_0000.json         n=2   done=1030  ok=227   err=0   usd=  5.920 elapsed=7132s
+  group  51/116 c10_replay_400_0001.json         n=31  done=1061  ok=237   err=0   usd=  6.187 elapsed=7148s
+  group  52/116 c10_replay_400_0001.json         n=3   done=1064  ok=238   err=0   usd=  6.202 elapsed=7154s
+  group  53/116 c10_replay_400_0002.json         n=21  done=1085  ok=247   err=0   usd=  6.384 elapsed=7166s
+  group  54/116 c10_replay_400_0002.json         n=1   done=1086  ok=247   err=0   usd=  6.393 elapsed=7167s
+  group  55/116 c10_replay_400_0003.json         n=31  done=1117  ok=257   err=0   usd=  6.606 elapsed=7179s
+  group  56/116 c10_replay_400_0003.json         n=2   done=1119  ok=257   err=0   usd=  6.624 elapsed=7183s
+  group  57/116 c10_replay_400_0004.json         n=13  done=1132  ok=264   err=0   usd=  6.702 elapsed=7193s
+  group  58/116 c10_replay_400_0005.json         n=23  done=1155  ok=271   err=0   usd=  6.870 elapsed=7204s
+  group  59/116 c10_replay_400_0005.json         n=3   done=1158  ok=272   err=0   usd=  6.887 elapsed=7209s
+  group  60/116 c10_replay_400_0006.json         n=34  done=1192  ok=288   err=0   usd=  7.067 elapsed=7222s
+  group  61/116 c10_replay_400_0006.json         n=3   done=1195  ok=288   err=0   usd=  7.095 elapsed=7226s
+  group  62/116 c10_replay_400_0007.json         n=28  done=1223  ok=298   err=0   usd=  7.275 elapsed=7245s
+  group  63/116 c10_replay_400_0007.json         n=1   done=1224  ok=298   err=0   usd=  7.284 elapsed=7247s
+  group  64/116 c10_replay_400_0008.json         n=19  done=1243  ok=303   err=0   usd=  7.446 elapsed=7259s
+  group  65/116 c10_replay_400_0008.json         n=2   done=1245  ok=303   err=0   usd=  7.468 elapsed=7264s
+  group  66/116 c10_replay_400_0009.json         n=13  done=1258  ok=304   err=0   usd=  7.582 elapsed=7269s
+  group  67/116 c10_replay_400_0010.json         n=17  done=1275  ok=311   err=0   usd=  7.720 elapsed=7279s
+  group  68/116 c10_replay_400_0010.json         n=3   done=1278  ok=311   err=0   usd=  7.750 elapsed=7285s
+  group  69/116 c10_replay_400_0011.json         n=36  done=1314  ok=333   err=0   usd=  8.038 elapsed=7300s
+  group  70/116 c10_replay_400_0011.json         n=3   done=1317  ok=334   err=0   usd=  8.054 elapsed=7306s
+  group  71/116 c10_replay_400_0012.json         n=24  done=1341  ok=341   err=0   usd=  8.227 elapsed=7316s
+  group  72/116 c10_replay_400_0013.json         n=22  done=1363  ok=348   err=0   usd=  8.370 elapsed=7324s
+  group  73/116 c10_replay_400_0013.json         n=2   done=1365  ok=348   err=0   usd=  8.388 elapsed=7328s
+  group  74/116 c10_replay_400_0014.json         n=17  done=1382  ok=354   err=0   usd=  8.511 elapsed=7338s
+  group  75/116 c10_replay_400_0014.json         n=2   done=1384  ok=355   err=0   usd=  8.524 elapsed=7343s
+  group  76/116 c10_replay_400_0015.json         n=17  done=1401  ok=364   err=0   usd=  8.629 elapsed=7355s
+  group  77/116 c10_replay_400_0015.json         n=3   done=1404  ok=365   err=0   usd=  8.646 elapsed=7359s
+  group  78/116 c10_replay_400_0016.json         n=26  done=1430  ok=380   err=0   usd=  8.857 elapsed=7371s
+  group  79/116 c10_replay_400_0016.json         n=1   done=1431  ok=380   err=0   usd=  8.866 elapsed=7373s
+  group  80/116 c10_replay_400_0017.json         n=22  done=1453  ok=386   err=0   usd=  9.013 elapsed=7383s
+  group  81/116 c10_replay_400_0018.json         n=18  done=1471  ok=387   err=0   usd=  9.169 elapsed=7391s
+  group  82/116 c10_replay_400_0018.json         n=2   done=1473  ok=387   err=0   usd=  9.187 elapsed=7396s
+  group  83/116 c10_replay_400_0019.json         n=13  done=1486  ok=391   err=0   usd=  9.291 elapsed=7406s
+  group  84/116 c10_replay_400_0019.json         n=2   done=1488  ok=391   err=0   usd=  9.309 elapsed=7410s
+  group  85/116 c10_replay_400_0020.json         n=43  done=1531  ok=404   err=0   usd=  9.523 elapsed=7426s
+  group  86/116 c10_replay_400_0020.json         n=3   done=1534  ok=404   err=0   usd=  9.550 elapsed=7431s
+  group  87/116 c10_replay_400_0021.json         n=25  done=1559  ok=406   err=0   usd=  9.745 elapsed=7441s
+  group  88/116 c10_replay_400_0021.json         n=1   done=1560  ok=406   err=0   usd=  9.754 elapsed=7442s
+  group  89/116 c10_replay_400_0022.json         n=29  done=1589  ok=415   err=0   usd=  9.966 elapsed=7453s
+  group  90/116 c10_replay_400_0022.json         n=2   done=1591  ok=415   err=0   usd=  9.983 elapsed=7458s
+  group  91/116 c10_replay_400_0023.json         n=21  done=1612  ok=424   err=0   usd= 10.149 elapsed=7469s
+  group  92/116 c10_replay_400_0023.json         n=2   done=1614  ok=426   err=0   usd= 10.182 elapsed=7484s
+  group  93/116 c10_storm2_w80_u100_0000.json    n=37  done=1651  ok=433   err=0   usd= 10.385 elapsed=7499s
+  group  94/116 c10_storm2_w80_u100_0000.json    n=5   done=1656  ok=434   err=0   usd= 10.405 elapsed=7504s
+  group  95/116 c10_storm2_w80_u100_0001.json    n=30  done=1686  ok=436   err=0   usd= 10.594 elapsed=7516s
+  group  96/116 c10_storm2_w80_u100_0001.json    n=1   done=1687  ok=436   err=0   usd= 10.602 elapsed=7517s
+  group  97/116 c10_storm2_w80_u100_0002.json    n=27  done=1714  ok=443   err=0   usd= 10.701 elapsed=7529s
+  group  98/116 c10_storm2_w80_u100_0002.json    n=4   done=1718  ok=444   err=0   usd= 10.718 elapsed=7535s
+  group  99/116 c10_storm2_w80_u100_0003.json    n=25  done=1743  ok=448   err=0   usd= 10.866 elapsed=7544s
+  group 100/116 c10_storm2_w80_u100_0003.json    n=3   done=1746  ok=449   err=0   usd= 10.883 elapsed=7549s
+  group 101/116 c10_storm2_w80_u100_0004.json    n=37  done=1783  ok=456   err=0   usd= 11.122 elapsed=7565s
+  group 102/116 c10_storm2_w80_u100_0004.json    n=5   done=1788  ok=456   err=0   usd= 11.168 elapsed=7570s
+  group 103/116 c10_storm2_w80_u100_0005.json    n=30  done=1818  ok=465   err=0   usd= 11.346 elapsed=7581s
+  group 104/116 c10_storm2_w80_u100_0005.json    n=3   done=1821  ok=465   err=0   usd= 11.373 elapsed=7584s
+  group 105/116 c10_storm2_w80_u100_0006.json    n=27  done=1848  ok=468   err=0   usd= 11.540 elapsed=7594s
+  group 106/116 c10_storm2_w80_u100_0006.json    n=1   done=1849  ok=468   err=0   usd= 11.549 elapsed=7596s
+  group 107/116 c10_storm2_w80_u100_0007.json    n=26  done=1875  ok=477   err=0   usd= 11.671 elapsed=7609s
+  group 108/116 c10_storm2_w80_u100_0007.json    n=4   done=1879  ok=477   err=0   usd= 11.707 elapsed=7613s
+  group 109/116 c10_storm2_w80_u100_0008.json    n=30  done=1909  ok=478   err=0   usd= 11.983 elapsed=7622s
+  group 110/116 c10_storm2_w80_u100_0008.json    n=1   done=1910  ok=478   err=0   usd= 11.992 elapsed=7624s
+  group 111/116 c10_storm2_w80_u100_0009.json    n=31  done=1941  ok=483   err=0   usd= 12.183 elapsed=7634s
+  group 112/116 c10_storm2_w80_u100_0009.json    n=4   done=1945  ok=483   err=0   usd= 12.219 elapsed=7638s
+  group 113/116 c10_storm2_w80_u100_0010.json    n=25  done=1970  ok=493   err=0   usd= 12.390 elapsed=7650s
+  group 114/116 c10_storm2_w80_u100_0010.json    n=3   done=1973  ok=494   err=0   usd= 12.406 elapsed=7655s
+  group 115/116 c10_storm2_w80_u100_0011.json    n=26  done=1999  ok=496   err=0   usd= 12.580 elapsed=7664s
+  group 116/116 c10_storm2_w80_u100_0011.json    n=1   done=2000  ok=496   err=0   usd= 12.589 elapsed=7666s
+[e1h] pass done: 2000 calls, 496 ok, 0 error, 1504 other, 51004 output tokens, USD 12.589, 2238 ms mean per call
+
+[e1h] raw log : /home/ziheng/PaperL1/results/grid_e1_hosted_opus/proposals_raw.jsonl
+[e1h] meta    : /home/ziheng/PaperL1/results/grid_e1_hosted_opus/run_meta_20260812T093737Z.json
+[e1h] estimated spend this session: USD 79.16 (list base, retrieved 2026-08-11)

@@ -1,0 +1,18 @@
+# generated 2026-08-17 by phase1 circularity audit (scratchpad/phase1/circularity/perclass.py)
+# source: results/e1_eval_opus5 and results/e1_eval_qwen14b verdicts_G_FEAS/G_CERT.jsonl joined on (item_id,repeat)
+# slice: mode=M_constrained (opus thinking=default); the T5_ladder.csv rung-4/rung-5 full_suite slice
+arm,cls,n,feas_warr,cert_warr,rise_pts_within_class,a_relabel_empty,a_relabel_nonempty,b_new_block,nonempty_cert_rate
+opus_default_flagship,benign,1600,0,1537,96.0625,12,1525,0,0.953125
+opus_default_flagship,V1,320,72,320,77.5,227,18,3,0.290625
+opus_default_flagship,V2,400,21,400,94.75,197,170,12,0.5075
+opus_default_flagship,V3,440,0,440,100.0,0,42,398,1.0
+opus_default_flagship,V4,440,0,440,100.0,20,408,12,0.9545454545454546
+opus_default_flagship,V5,400,0,400,100.0,384,2,14,0.04
+opus_default_flagship,V6,400,0,398,99.5,89,297,12,0.7725
+qwen3-14b,benign,2400,0,2295,95.625,15,2280,0,0.95
+qwen3-14b,V1,480,310,480,35.416666666666664,41,119,10,0.9145833333333333
+qwen3-14b,V2,600,372,600,38.0,28,180,20,0.9533333333333334
+qwen3-14b,V3,660,3,660,99.54545454545455,0,114,543,1.0
+qwen3-14b,V4,660,7,660,98.93939393939394,3,617,33,0.9954545454545455
+qwen3-14b,V5,600,18,600,97.0,307,251,24,0.48833333333333334
+qwen3-14b,V6,600,42,600,93.0,9,519,30,0.985

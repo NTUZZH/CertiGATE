@@ -1,0 +1,28 @@
+{
+ "date": "2026-08-12 19:18:23 +08",
+ "items": 2000,
+ "modes": [
+  "M_constrained",
+  "M_free"
+ ],
+ "repeats": 1,
+ "suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+ "schema_sha256": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+ "model_snapshot": "/home/ziheng/.cache/huggingface/hub/models--zai-org--GLM-4-9B-0414/snapshots/645b8482494e31b6b752272bf7f7f273ef0f3caf",
+ "prompt_version": "l1-prompt-1.0.0",
+ "top_k": 10,
+ "max_tokens": 1024,
+ "max_model_len": 12288,
+ "temperature": 0.0,
+ "seed": 0,
+ "backend": "xgrammar",
+ "gpu_at_launch": "NVIDIA RTX PRO 5000 Blackwell, 430, 48935, 0",
+ "walls_s": {
+  "M_constrained-r0": 146.10083128500264,
+  "M_free-r0": 162.90427659099805
+ },
+ "repeat_agreement": {
+  "M_constrained": [],
+  "M_free": []
+ }
+}

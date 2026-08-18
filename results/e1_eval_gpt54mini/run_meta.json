@@ -1,0 +1,46 @@
+{
+ "arm_label": null,
+ "arms": [
+  "openai"
+ ],
+ "baseline_dispatches": 58,
+ "config_hashes": {
+  "G_CERT": "52c094406252bf1ab57350d1ec4f9165f8bc4f7d83df2b99e1fb52356e829a42",
+  "G_FEAS": "6176c8978a84adf727594d2a7a574dad6e03628e1d3cdddefbf76cfa79122390",
+  "UNGUARDED": "b932b4a480c187968da8445242479be77d62341b7f35753f9cba7fdc3500dc89"
+ },
+ "date": "2026-08-16 13:12:13 +08",
+ "eval_version": "l1-e1-eval-2",
+ "guard_schema_hash": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+ "instance_loads": 60,
+ "lb_tier": "tier2",
+ "limit": 0,
+ "log_path": "results/e1_eval_gpt54mini/proposals.jsonl",
+ "models": [
+  "gpt-5.4-mini-2026-03-17"
+ ],
+ "modes": [
+  "M_constrained",
+  "M_free"
+ ],
+ "n_rows": 8000,
+ "out_dir": "/home/ziheng/PaperL1/results/e1_eval_gpt54mini",
+ "prompt_versions": [
+  "l1-prompt-1.0.0"
+ ],
+ "raw_path": "/home/ziheng/PaperL1/results/grid_e1_hosted_openai/proposals_raw.dedup.jsonl",
+ "repeats": [
+  0,
+  1
+ ],
+ "schema_sha256": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+ "suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+ "tau": 0.2,
+ "tau_provisional": true,
+ "thinking": [
+  null
+ ],
+ "tier1_budget_s": 0.0,
+ "wall_s": 379.26925657101674,
+ "workers": 4
+}

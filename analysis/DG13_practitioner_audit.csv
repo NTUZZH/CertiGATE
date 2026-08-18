@@ -1,0 +1,53 @@
+# DG13. A practitioner audit of the suite's own dispositions: 30 cases, 5 reviewers, 150 judgements per measure
+# generated 2026-08-17 19:12:42 +0800 by code/scripts/practitioner_audit.py (l1-dg13-practitioner-audit-1)
+# input results/practitioner_audit/cases.csv sha256 730605630c3ed9e42110f7c6726c8fad35e3558fd7ce5e8506121d9d2d0febc4
+# counts are POSITIVE ratings out of 5: each reviewer answered on a four-point scale and a 3 or a 4 counts as positive
+# the disposition measure is the number of reviewer votes matching the suite's own disposition for that case
+# ci_lo_pct / ci_hi_pct: percentile endpoints of a cluster bootstrap over the 30 cases, 20000 replicates, random.seed(20260817), sorted replicates 500 and 19499
+# deff: (between-case variance of the per-case proportions / 30) over (p(1-p) / 150); above 1 means the cases disagree more than independent ratings would
+# rule_met / rule_below: cases with at least 4 of the 5 ratings positive, and the cases below that rule
+# self-check: 46 assertions passed
+block,measure,scope,count,denom,share_pct,ci_lo_pct,ci_hi_pct,deff,stat,rule_met,rule_below,note
+overall,realism,ALL,133,150,88.7,84.0,92.7,0.75,,28,V5-M05;V6-M05,positive ratings pooled over the 150 judgements
+overall,disposition,ALL,136,150,90.7,86.0,94.7,0.90,,28,V4-M06;V6-M06,positive ratings pooled over the 150 judgements
+overall,fidelity,ALL,132,150,88.0,83.3,92.0,0.71,,28,V5-M05;V6-M05,positive ratings pooled over the 150 judgements
+overall,clarity,ALL,132,150,88.0,84.0,92.0,0.58,,29,V6-M05,positive ratings pooled over the 150 judgements
+overall,actionability,ALL,120,150,80.0,75.3,84.7,0.58,,23,V4-M05;V5-M04;V5-M05;V6-M02;V6-M04;V6-M05;V6-M06,positive ratings pooled over the 150 judgements
+per_class,realism,benign,29,30,96.7,,,,,,,6 cases of class benign
+per_class,disposition,benign,29,30,96.7,,,,,,,6 cases of class benign
+per_class,fidelity,benign,29,30,96.7,,,,,,,6 cases of class benign
+per_class,clarity,benign,29,30,96.7,,,,,,,6 cases of class benign
+per_class,actionability,benign,28,30,93.3,,,,,,,6 cases of class benign
+per_class,realism,V3,28,30,93.3,,,,,,,6 cases of class V3
+per_class,disposition,V3,28,30,93.3,,,,,,,6 cases of class V3
+per_class,fidelity,V3,28,30,93.3,,,,,,,6 cases of class V3
+per_class,clarity,V3,28,30,93.3,,,,,,,6 cases of class V3
+per_class,actionability,V3,27,30,90.0,,,,,,,6 cases of class V3
+per_class,realism,V4,27,30,90.0,,,,,,,6 cases of class V4
+per_class,disposition,V4,26,30,86.7,,,,,,,6 cases of class V4
+per_class,fidelity,V4,26,30,86.7,,,,,,,6 cases of class V4
+per_class,clarity,V4,26,30,86.7,,,,,,,6 cases of class V4
+per_class,actionability,V4,23,30,76.7,,,,,,,6 cases of class V4
+per_class,realism,V5,25,30,83.3,,,,,,,6 cases of class V5
+per_class,disposition,V5,28,30,93.3,,,,,,,6 cases of class V5
+per_class,fidelity,V5,25,30,83.3,,,,,,,6 cases of class V5
+per_class,clarity,V5,25,30,83.3,,,,,,,6 cases of class V5
+per_class,actionability,V5,22,30,73.3,,,,,,,6 cases of class V5
+per_class,realism,V6,24,30,80.0,,,,,,,6 cases of class V6
+per_class,disposition,V6,25,30,83.3,,,,,,,6 cases of class V6
+per_class,fidelity,V6,24,30,80.0,,,,,,,6 cases of class V6
+per_class,clarity,V6,24,30,80.0,,,,,,,6 cases of class V6
+per_class,actionability,V6,20,30,66.7,,,,,,,6 cases of class V6
+register,disposition_unanimous,formal,10,10,100.0,,,,5.00,,,cases where all 5 reviewers chose the suite's disposition; stat is the mean number of agreeing reviewers
+register,disposition_nonunanimous,formal,0,10,0.0,,,,,,,
+register,disposition_unanimous,terse,7,10,70.0,,,,4.70,,,cases where all 5 reviewers chose the suite's disposition; stat is the mean number of agreeing reviewers
+register,disposition_nonunanimous,terse,3,10,30.0,,,,,,,
+register,disposition_unanimous,conversational,1,10,10.0,,,,3.90,,,cases where all 5 reviewers chose the suite's disposition; stat is the mean number of agreeing reviewers
+register,disposition_nonunanimous,conversational,9,10,90.0,,,,,,,
+register,disposition_nonunanimous,ALL,12,30,40.0,,,,,,,cases where at least one reviewer chose otherwise
+agreement,fleiss_kappa,ALL,,,,,,,0.7251,,,"three disposition categories, 5 raters, 30 cases; Po 0.8200, Pe 0.3452"
+agreement,observed_agreement,ALL,,,,,,,0.8200,,,mean share of agreeing rater pairs
+agreement,chance_agreement,ALL,,,,,,,0.3452,,,sum of squared category marginals
+agreement,votes_apply,ALL,37,150,24.7,,,,,,,reviewer votes for apply over every case
+agreement,votes_reject,ALL,59,150,39.3,,,,,,,reviewer votes for reject over every case
+agreement,votes_refer,ALL,54,150,36.0,,,,,,,reviewer votes for refer over every case

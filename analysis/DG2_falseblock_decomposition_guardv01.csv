@@ -1,0 +1,29 @@
+# generated 2026-08-14 18:46:44 +0800 by code/scripts/falseblock_decompose.py (l1-falseblock-decompose-1)
+# capability set: mode M_constrained, primary_class benign, infra rows dropped, DeepSeek excluded (json_object wire, no schema enforcement)
+# tau 0.2 (provisional), LB floor 1.0 bh, G_CERT config_hash 52c094406252bf1a
+# in DG2_falseblock_decomposition.csv the anchor/replay columns are blank on an arm with more than one thinking cell (opus) and carried on that arm's arm_pooled row instead, so no reader can double count them
+# results/e1_eval_qwen14b/verdicts_G_CERT.jsonl sha256 7aa71f03804c3213d7c842ddf1d917f96fa54f4190d076de41187e5177fbcea0
+# results/e1_eval_qwen27b/verdicts_G_CERT.jsonl sha256 59f9a49feb1d83cd82f3ac9bbfc1075f3bba80f28e0d50733f62e6acb37122b8
+# results/e1_eval_glm9b/verdicts_G_CERT.jsonl sha256 8d020fa65870c4614fc47806d8cd78a7d00b61e2295a4babeebcc2cd7aa42d79
+# results/e1_eval_gpt54mini/verdicts_G_CERT.jsonl sha256 fca80b7f847e7826942c8cbb008ce84be0931cf808bca28e661b56e9785d97e8
+# results/e1_eval_deepseek/verdicts_G_CERT.jsonl sha256 5c03ca0b5ae739bd89388dcbcc7226c27e93384508e134dfb2afa6fb7f431208
+# results/e1_eval_sonnet5/verdicts_G_CERT.jsonl sha256 374dd1a0edc50802d25a40563d0ed6f64ecea4c65c5d4fc1fee79cea5a881fbc
+# results/e1_eval_opus5/verdicts_G_CERT.jsonl sha256 30805ed2a08c551150a3a5a4ee43d363a74638886e3424c8faaf44195dcee517
+# results/e1_eval_sol/verdicts_G_CERT.jsonl sha256 5b7aa9b1a0a863a4e415ad0189fdb8252a6b9843184603bece890893a497a795
+# analysis/T3_guard_value_curve.csv sha256 2c2a80eb9d1c19612bbf8557846196ac838b3e528335cd336a760f6276dcd22e
+# analysis/ladder/rule_anchor.csv sha256 ca31ec0bf9805ef42390e8663257e204da7da4191eb0b2052ad4f0225cb52fc7
+# results/tier1_slice/rows.jsonl sha256 b43875f5c938c9d2e814a76d088bde22ba6655e88fbead88a3e2c5d38b255093
+scope,tier,arm,thinking,repeats,benign_rows,false_blocks,false_block_rate,blocked_schema,blocked_feas,blocked_qual,qual_share_of_benign_rows,qual_pp_per_800_twins,qual_anchor_above_tau,qual_obj_no_worse_than_anchor,qual_obj_equals_anchor,qual_rescued_1s,qual_rescued_5s,qual_instance_infeasible_at_tau,qual_bound_attributable,qual_proposal_attributable
+capability,1,qwen3-14b,-,3,2400,111,0.046250,0,12,99,0.041250,4.1250,66,63,54,0,0,66,0,33
+capability,2,qwen3.6-27b-fp8,-,3,2400,132,0.055000,0,69,63,0.026250,2.6250,63,63,51,0,0,63,0,0
+capability,3,glm-4-9b,-,1,800,74,0.092500,7,47,20,0.025000,2.5000,19,18,16,0,0,19,0,1
+capability,4,openai,-,2,1600,63,0.039375,3,18,42,0.026250,2.6250,42,42,34,0,0,42,0,0
+excluded_json_object,5,deepseek,non_think,2,1600,1555,0.971875,1553,0,2,0.001250,0.1250,,,,,,,,
+excluded_json_object,5,deepseek,think_high,2,1600,1591,0.994375,1591,0,0,0.000000,0.0000,,,,,,,,
+capability,6,sonnet,disabled,2,1600,62,0.038750,0,20,42,0.026250,2.6250,42,42,34,0,0,42,0,0
+capability,7,opus,default,2,1600,63,0.039375,0,21,42,0.026250,2.6250,,,,,,,,
+capability,7,opus,disabled,2,1600,80,0.050000,0,38,42,0.026250,2.6250,,,,,,,,
+capability,8,sol,none,1,800,69,0.086250,21,27,21,0.026250,2.6250,21,21,17,0,0,21,0,0
+excluded_json_object_pooled,5,deepseek,all,4,3200,3146,0.983125,3144,0,2,0.000625,0.0625,,,,,,,,
+arm_pooled,7,opus,all,4,3200,143,0.044687,0,59,84,0.026250,2.6250,84,84,68,0,0,84,0,0
+capability_pooled,,ALL,-,16,12800,654,0.051094,31,252,371,0.028984,2.8984,337,333,274,0,0,337,0,34

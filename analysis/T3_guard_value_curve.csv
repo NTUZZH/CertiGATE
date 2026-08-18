@@ -1,0 +1,26 @@
+# generated 2026-08-17 17:24:01 +0800 by paper_tables.py (l1-paper-tables-1)
+# dedup rule applied to the hosted raw logs before evaluation: last row per (mode, thinking, repeat, item_id); hosted logs only
+# suite suite.jsonl sha256 0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a
+# adjustment schema sha256 1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321
+# ladder anchors: /home/ziheng/PaperL1/analysis/ladder (reconciliation 4208/4208 passed)
+# /home/ziheng/PaperL1/results/e1_eval_qwen14b/summary.json sha256 793c76b07b492ef0fd70878913b6c90449fa7d884edd530817eaf98c1c51c1c8
+# /home/ziheng/PaperL1/results/e1_eval_qwen27b/summary.json sha256 78745e80ca0550e27d754b70e2e8f8bd7d33a6ba11b419852ec4c05a9c5a57d5
+# /home/ziheng/PaperL1/results/e1_eval_glm9b/summary.json sha256 bb806173f35bcd5013b1a9b77223f0d2e16346375670a6dca65dbb8859099724
+# /home/ziheng/PaperL1/results/e1_eval_gpt54mini/summary.json sha256 5da1e6beba8ac75283ee1e5f9352c2fff80eb08fe74f590e551b35b5364fa028
+# /home/ziheng/PaperL1/results/e1_eval_deepseek/summary.json sha256 574ebad8772fe47ec758487469231be95f2e457399fa619ad553b571dc8ee8f9
+# /home/ziheng/PaperL1/results/e1_eval_sonnet5/summary.json sha256 e50203a3a4474af675a4ed1e397c52ecd1f1b057502f21987d01ec6e8878e4f6
+# /home/ziheng/PaperL1/results/e1_eval_opus5/summary.json sha256 d1ab21e2a71280e44d8eed9feda0f8031e4c3160d17fd995414d6a1398ae4f15
+# /home/ziheng/PaperL1/results/e1_eval_sol/summary.json sha256 fa3ae6264fcdfbd3b311ad59a8ed88bc8540176adea8b4b043b2fecf5086379d
+# /home/ziheng/PaperL1/results/e2_tau_sweep/curves.csv sha256 e9ca179c57029c6ae23d0512f12da901884072192c96addff321de94bf04fc76
+# rows are the accepted record; every overlapping cell is asserted equal to it
+tier,arm,model,coverage_note,mode,enforcement,thinking,items,v3_items,v3_feas_pass,v3_separated,v3_separation_share,v3_gcert_block_rate,v3_gap_median,v3_gap_p90,v3_gap_max,v4_block_rate,v5_block_rate,v6_block_rate,benign_false_block_gfeas,benign_false_block_gcert,translation_exact_rate,translation_semantic_rate
+1,qwen3-14b,"Qwen3-14B (open, local, BF16)",full suite x 2 modes x 3 repeats,M_constrained,xgrammar,-,6000,660,657,543,0.822727,0.827273,0.523615,1.852276,52.035200,0.060606,0.070000,0.120000,0.002500,0.043750,0.592917,0.755417
+2,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)","quantized; breadth arm, carries no capability claim",M_constrained,xgrammar,-,6000,660,657,574,0.869697,0.874242,0.603047,2.803360,172.204800,0.027273,0.040000,0.050000,0.028750,0.055000,0.733333,0.890833
+3,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",SPOT-CHECK: open-side second family; both modes x 1 repeat,M_constrained,xgrammar,-,2000,220,214,160,0.727273,0.754545,0.456455,1.757053,52.035200,0.040909,0.195000,0.140000,0.053750,0.080000,0.607500,0.706250
+4,openai,"GPT-5.4-mini (closed, budget tier)",full suite x 2 modes x 2 repeats,M_constrained,json_schema,-,4000,440,438,347,0.788636,0.793182,0.502068,1.757053,78.273200,0.029545,0.177500,0.047500,0.012500,0.038750,0.654375,0.778125
+5,deepseek,"DeepSeek V4-Pro (open weights, hosted)",no user-supplied schema enforcement: M_constrained is JSON-object mode,M_constrained,json_object,non_think,4000,440,3,1,0.002273,0.995455,0.048034,0.286652,0.286652,0.934091,0.065000,0.845000,0.970625,0.971875,0.000000,0.000000
+5,deepseek,"DeepSeek V4-Pro (open weights, hosted)",no user-supplied schema enforcement: M_constrained is JSON-object mode,M_constrained,json_object,think_high,4000,440,0,0,0.000000,1.000000,,,,0.990909,0.227500,0.912500,0.994375,0.994375,0.000000,0.000000
+6,sonnet,Claude Sonnet 5 (closed),"full suite x 2 modes x 2 repeats, thinking disabled",M_constrained,json_schema,disabled,4000,440,438,378,0.859091,0.863636,0.586193,2.780640,172.204800,0.027273,0.035000,0.032500,0.011875,0.038125,0.704375,0.895625
+7,opus,"Claude Opus 5 (closed, flagship)","full suite x 2 modes x thinking {disabled, default} x 2 repeats; free mode carries the model-level refusal wall (eval-2 terminal)",M_constrained,json_schema,default,4000,440,440,398,0.904545,0.904545,0.618777,2.780640,172.204800,0.027273,0.035000,0.030000,0.013125,0.039375,0.724375,0.895000
+7,opus,"Claude Opus 5 (closed, flagship)","full suite x 2 modes x thinking {disabled, default} x 2 repeats; free mode carries the model-level refusal wall (eval-2 terminal)",M_constrained,json_schema,disabled,4000,440,440,396,0.900000,0.900000,0.618777,2.780640,172.204800,0.027273,0.035000,0.030000,0.023750,0.050000,0.725625,0.891250
+8,sol,"GPT-5.6 Sol (closed, flagship spot-check)",SPOT-CHECK: M_constrained x effort-none x 1 repeat,M_constrained,json_schema,none,2000,220,207,181,0.822727,0.881818,0.585101,1.757053,172.204800,0.077273,0.035000,0.030000,0.060000,0.086250,0.691250,0.827500

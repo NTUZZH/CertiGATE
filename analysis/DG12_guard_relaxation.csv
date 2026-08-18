@@ -1,0 +1,25 @@
+# DG12. Guard v0.2 against guard v0.1 on every recorded E3 proposal: what the correction withdrew, and what it added
+# generated 2026-08-17 18:42:36 +0800 by code/scripts/guard_relaxation_audit.py (l1-dg12-relaxation-1)
+# both guards run in one process on the same recorded proposal text, instance, standing frozen set and G_CERT configuration, through e3_replay._evaluate
+# v0.1 rule: release/CertiGATE git show a6594ec^:code/l1guard/guard.py, _frozen_edit_findings, copied verbatim into this script
+# fidelity: the reconstructed v0.1 verdict digest equals the fingerprint logged live in trajectories.jsonl on 8855 of 8855 proposals
+# withdrawn = refused by v0.1 and not by v0.2; added = the reverse, which is the counterexample to the relaxation claim
+# stop_index_* compare the proposal the replay adjudicates (e3_replay.py:294-305, the first proposal not blocked): later would mean the replay needs a proposal v0.1 never reached
+# per-proposal dump: analysis/DG12_guard_relaxation_proposals.jsonl
+# withdrawn refusals by v0.1 blocking-code set: {'frozen_order_edit': 25}
+# withdrawn refusals by class: {'V2': 13, 'benign': 11, 'V3': 1}; by subclass: {'freeze_shift_contradiction': 24, 'reorder_block_tight': 1}
+# results/e3_deepseek/trajectories.jsonl sha256 4d34fcdb78f405748b1cd8b7784f4b37f059c12a59232629b059f4593d04197f
+# results/e3_openai/trajectories.jsonl sha256 a43366e597f6d8b2d4daffc7aebc3c05aa81bbb589a47b61e51a28054483b788
+# results/e3_opus/trajectories.jsonl sha256 e8e32230b294a996e3e6cca11deae0fabf5f3d9d157707d540d628e189c27772
+# results/e3_qwen14b/trajectories.jsonl sha256 604f356e6dc1625f83c816221fe87a61676a25cfcb1d7942fb70461f699c1204
+# results/e3_qwen27b/trajectories.jsonl sha256 027f860346b1a8699699f98b05021a57f3087053d87d740770024d012bd1f278
+# results/e3_sonnet/trajectories.jsonl sha256 36fb12389daceec2a8b4a11779c4593c3af3bc25887c8888fb94d3aba49a129e
+# code/l1guard/guard.py sha256 ad94b85c67af1e3bf3a9a13c7ee9a7accbc42aa17e90b9c39800c4b45c337b65
+scope,trajectories,total_proposals,recorded_revision_rounds,fingerprint_matches,withdrawn_refusals,added_refusals,unchanged_refused,unchanged_accepted,withdrawn_first_final,withdrawn_revision,refused_both_codes_dropped,v02_differs_from_log,stop_index_same,stop_index_earlier,stop_index_later
+ALL,6720,8855,2135,8855,25,0,2760,6070,21,4,39,64,6705,15,0
+deepseek,960,2265,1305,2265,3,0,1576,686,0,3,1,4,957,3,0
+openai,960,1147,187,1147,2,0,269,876,1,1,0,2,959,1,0
+opus,960,1077,117,1077,2,0,170,905,2,0,17,19,959,1,0
+qwen14b,1920,2208,288,2208,13,0,385,1810,13,0,1,14,1913,7,0
+qwen27b,960,1090,130,1090,1,0,193,896,1,0,16,17,959,1,0
+sonnet,960,1068,108,1068,4,0,167,897,4,0,4,8,958,2,0

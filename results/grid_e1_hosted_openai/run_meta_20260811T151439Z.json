@@ -1,0 +1,78 @@
+{
+ "date": "2026-08-11 23:14:39 +08",
+ "arm": "openai",
+ "model": "gpt-5.4-mini-2026-03-17",
+ "backend": "openai",
+ "wire": "openai",
+ "modes": [
+  "M_constrained",
+  "M_free"
+ ],
+ "thinking": [
+  null
+ ],
+ "thinking_bodies": {
+  "None": {}
+ },
+ "repeats": 2,
+ "items": 2000,
+ "groups": 116,
+ "cache_prefixes_per_pass": 327,
+ "max_tokens": 4096,
+ "workers": 8,
+ "timeout_s": 240.0,
+ "max_retries": 4,
+ "suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+ "schema_sha256": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+ "prompt_version": "l1-prompt-1.0.0",
+ "top_k": 10,
+ "cache_boundary": "\n\nWork orders this request refers to:",
+ "cache_boundary_fallback": "\n\nINSTRUCTION",
+ "mock": false,
+ "interrupted": false,
+ "planned_calls": 8000,
+ "rows_written": 8000,
+ "wall_s": 7968.260974228993,
+ "price_base": "list",
+ "price_date": "2026-08-11",
+ "usd_estimated": 9.252881849999998,
+ "per_config": {
+  "M_constrained|None|r0": {
+   "calls": 2000,
+   "ok": 2000,
+   "error": 0,
+   "other": 0,
+   "usd": 2.751320999999997,
+   "out_tokens": 89516,
+   "latency_ms": 5589317.652658186
+  },
+  "M_constrained|None|r1": {
+   "calls": 2000,
+   "ok": 1998,
+   "error": 2,
+   "other": 0,
+   "usd": 2.7578995500000016,
+   "out_tokens": 88697,
+   "latency_ms": 5698153.984224982
+  },
+  "M_free|None|r0": {
+   "calls": 2000,
+   "ok": 2000,
+   "error": 0,
+   "other": 0,
+   "usd": 2.4248676000000007,
+   "out_tokens": 70150,
+   "latency_ms": 4239538.917210259
+  },
+  "M_free|None|r1": {
+   "calls": 2000,
+   "ok": 1118,
+   "error": 882,
+   "other": 0,
+   "usd": 1.318793699999999,
+   "out_tokens": 38867,
+   "latency_ms": 22292383.00593611
+  }
+ },
+ "dedupe_rule": "last row per (arm, mode, thinking, repeat, item_id) wins; an earlier row for a key is a superseded API error"
+}

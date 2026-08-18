@@ -1,0 +1,120 @@
+# DG8-A. The Eq. 2 gap-denominator floor: binding share and ell sensitivity
+# generated 2026-08-14 18:23:56 +0800 by code/scripts/dg8_floor.py (l1-dg8-floor-1)
+# Eq. 2: gap = (obj - LB) / max(LB, ell), ell = 1 weighted business hour (manuscript/drafts/s3_formulation.tex:207-219)
+# self-check 1: Eq.2 at ell=1 reproduces the logged certificate_gap on 33404 certificates, 0 mismatches, max |delta| 0.0
+# self-check 2: 912 published cells of Table 8 (analysis/T6_tau_calibration.csv sha256 2b4feaf7fb9d931c0ec865ca110b20114fc97ffd77012f4320e41a7ac8c99949) reproduced from the raw verdict logs, 0 mismatches
+# results/e1_eval_qwen14b/verdicts_G_CERT.jsonl sha256 7aa71f03804c3213d7c842ddf1d917f96fa54f4190d076de41187e5177fbcea0
+# results/e1_eval_qwen14b/verdicts_G_FEAS.jsonl sha256 1201506471f7d4690bae37d34a8b8e2cb677696797e64c5ce809c10f4fada8b8
+# results/e1_eval_qwen27b/verdicts_G_CERT.jsonl sha256 59f9a49feb1d83cd82f3ac9bbfc1075f3bba80f28e0d50733f62e6acb37122b8
+# results/e1_eval_qwen27b/verdicts_G_FEAS.jsonl sha256 9b774dd62cdb6f1f8c38a0855a09b17b380a4dbde78f6fa80c98e099e22a3243
+# results/e1_eval_glm9b/verdicts_G_CERT.jsonl sha256 8d020fa65870c4614fc47806d8cd78a7d00b61e2295a4babeebcc2cd7aa42d79
+# results/e1_eval_glm9b/verdicts_G_FEAS.jsonl sha256 6eb64c75f966cc42939c8d7b40d23576c3c2492a4e8faf9071e16a6e606e4a30
+# results/e1_eval_gpt54mini/verdicts_G_CERT.jsonl sha256 fca80b7f847e7826942c8cbb008ce84be0931cf808bca28e661b56e9785d97e8
+# results/e1_eval_gpt54mini/verdicts_G_FEAS.jsonl sha256 b3534a857c889622916becf54b1ea2eec540e63d8375c65f56f07e98132b318f
+# results/e1_eval_deepseek/verdicts_G_CERT.jsonl sha256 5c03ca0b5ae739bd89388dcbcc7226c27e93384508e134dfb2afa6fb7f431208
+# results/e1_eval_deepseek/verdicts_G_FEAS.jsonl sha256 418eaa3f06de2f41b6c525222e4b165a06c58cfe3302081ed11375e28682e689
+# results/e1_eval_sonnet5/verdicts_G_CERT.jsonl sha256 374dd1a0edc50802d25a40563d0ed6f64ecea4c65c5d4fc1fee79cea5a881fbc
+# results/e1_eval_sonnet5/verdicts_G_FEAS.jsonl sha256 3980eb3c53caabb656ca7e922eadef65fb47dd20cbfae5ecd0cdcbefb1f09e98
+# results/e1_eval_opus5/verdicts_G_CERT.jsonl sha256 30805ed2a08c551150a3a5a4ee43d363a74638886e3424c8faaf44195dcee517
+# results/e1_eval_opus5/verdicts_G_FEAS.jsonl sha256 767fa132db4aded9369c74f4be0d8584c7bb3fd7e25f0cf64f537ef6e2111afa
+# results/e1_eval_sol/verdicts_G_CERT.jsonl sha256 5b7aa9b1a0a863a4e415ad0189fdb8252a6b9843184603bece890893a497a795
+# results/e1_eval_sol/verdicts_G_FEAS.jsonl sha256 990f1cc648268d7ad1b6cc8a3fe5d94777a339d208e2f5e0ce7587f01dfa426b
+# REPORTED SCOPE: constrained_all_arms_noinfra (constrained mode, all ten arm configurations, infra rows dropped (THE REPORTED SCOPE))
+# reconciliation: 0 of 33404 certificate-carrying rows carry an infra_error finding, so dropping infra rows changes no certificate count; the two verification filters differ only in mode and in whether DeepSeek's two constrained rows are kept
+section,key,label,n,binding,share,note
+scope,all_e1_certificates,"every E1 certificate (8 arms, both modes, both thinking settings, infra rows kept)",33404,2511,0.075171,LB==0 on 2511 of them; 0 certificates have 0<LB<1; min positive LB 3.0 bh
+scope,all_modes_noinfra,"both modes, infra rows dropped, all ten arm configurations",33404,2511,0.075171,LB==0 on 2511 of them; 0 certificates have 0<LB<1; min positive LB 3.0 bh
+scope,constrained_all_arms,"constrained mode, all ten arm configurations, infra rows kept",29818,2202,0.073848,LB==0 on 2202 of them; 0 certificates have 0<LB<1; min positive LB 3.0 bh
+scope,constrained_all_arms_noinfra,"constrained mode, all ten arm configurations, infra rows dropped (THE REPORTED SCOPE)",29818,2202,0.073848,LB==0 on 2202 of them; 0 certificates have 0<LB<1; min positive LB 3.0 bh
+scope,capability_constrained_noinfra,"constrained mode, capability set (DeepSeek's two rows excluded), infra rows dropped",28469,2083,0.073167,LB==0 on 2083 of them; 0 certificates have 0<LB<1; min positive LB 3.0 bh
+scope,free_all_arms_noinfra,"free mode, all arm configurations, infra rows dropped",3586,309,0.086168,LB==0 on 309 of them; 0 certificates have 0<LB<1; min positive LB 3.0 bh
+scope,accepted_only,"certificates the guard accepted at tau = 0.20, constrained mode, infra rows dropped",25994,2119,0.081519,LB==0 on 2119 of them; 0 certificates have 0<LB<1; min positive LB 3.0 bh
+stratum,all_e1_certificates | c09_storm2_w80,"every E1 certificate (8 arms, both modes, both thinking settings, infra rows kept)",16897,0,0.000000,
+stratum,all_e1_certificates | c10_replay_400,"every E1 certificate (8 arms, both modes, both thinking settings, infra rows kept)",9930,2511,0.252870,
+stratum,all_e1_certificates | c10_storm2_w80,"every E1 certificate (8 arms, both modes, both thinking settings, infra rows kept)",6577,0,0.000000,
+stratum,all_modes_noinfra | c09_storm2_w80,"both modes, infra rows dropped, all ten arm configurations",16897,0,0.000000,
+stratum,all_modes_noinfra | c10_replay_400,"both modes, infra rows dropped, all ten arm configurations",9930,2511,0.252870,
+stratum,all_modes_noinfra | c10_storm2_w80,"both modes, infra rows dropped, all ten arm configurations",6577,0,0.000000,
+stratum,constrained_all_arms | c09_storm2_w80,"constrained mode, all ten arm configurations, infra rows kept",15033,0,0.000000,
+stratum,constrained_all_arms | c10_replay_400,"constrained mode, all ten arm configurations, infra rows kept",8997,2202,0.244748,
+stratum,constrained_all_arms | c10_storm2_w80,"constrained mode, all ten arm configurations, infra rows kept",5788,0,0.000000,
+stratum,constrained_all_arms_noinfra | c09_storm2_w80,"constrained mode, all ten arm configurations, infra rows dropped (THE REPORTED SCOPE)",15033,0,0.000000,REPORTED SCOPE
+stratum,constrained_all_arms_noinfra | c10_replay_400,"constrained mode, all ten arm configurations, infra rows dropped (THE REPORTED SCOPE)",8997,2202,0.244748,REPORTED SCOPE
+stratum,constrained_all_arms_noinfra | c10_storm2_w80,"constrained mode, all ten arm configurations, infra rows dropped (THE REPORTED SCOPE)",5788,0,0.000000,REPORTED SCOPE
+stratum,capability_constrained_noinfra | c09_storm2_w80,"constrained mode, capability set (DeepSeek's two rows excluded), infra rows dropped",14318,0,0.000000,
+stratum,capability_constrained_noinfra | c10_replay_400,"constrained mode, capability set (DeepSeek's two rows excluded), infra rows dropped",8636,2083,0.241200,
+stratum,capability_constrained_noinfra | c10_storm2_w80,"constrained mode, capability set (DeepSeek's two rows excluded), infra rows dropped",5515,0,0.000000,
+stratum,free_all_arms_noinfra | c09_storm2_w80,"free mode, all arm configurations, infra rows dropped",1864,0,0.000000,
+stratum,free_all_arms_noinfra | c10_replay_400,"free mode, all arm configurations, infra rows dropped",933,309,0.331190,
+stratum,free_all_arms_noinfra | c10_storm2_w80,"free mode, all arm configurations, infra rows dropped",789,0,0.000000,
+stratum,accepted_only | c09_storm2_w80,"certificates the guard accepted at tau = 0.20, constrained mode, infra rows dropped",12588,0,0.000000,
+stratum,accepted_only | c10_replay_400,"certificates the guard accepted at tau = 0.20, constrained mode, infra rows dropped",8209,2119,0.258131,
+stratum,accepted_only | c10_storm2_w80,"certificates the guard accepted at tau = 0.20, constrained mode, infra rows dropped",5197,0,0.000000,
+arm,qwen3-14b / -,reported scope,5233,369,0.070514,
+arm,qwen3.6-27b-fp8 / -,reported scope,5199,384,0.073860,
+arm,glm-4-9b / -,reported scope,1593,115,0.072191,
+arm,openai / -,reported scope,3406,244,0.071638,
+arm,deepseek / non_think,reported scope,769,68,0.088427,
+arm,deepseek / think_high,reported scope,580,51,0.087931,
+arm,sonnet / disabled,reported scope,3618,268,0.074074,
+arm,opus / default,reported scope,3871,291,0.075174,
+arm,opus / disabled,reported scope,3721,279,0.074980,
+arm,sol / none,reported scope,1828,133,0.072757,
+binding_by_class,benign,reported scope,,953,,count of floor-binding certificates in this class
+binding_by_class,V1,reported scope,,129,,count of floor-binding certificates in this class
+binding_by_class,V2,reported scope,,134,,count of floor-binding certificates in this class
+binding_by_class,V3,reported scope,,108,,count of floor-binding certificates in this class
+binding_by_class,V4,reported scope,,305,,count of floor-binding certificates in this class
+binding_by_class,V5,reported scope,,318,,count of floor-binding certificates in this class
+binding_by_class,V6,reported scope,,255,,count of floor-binding certificates in this class
+binding_composition,obj_eq_zero,reported scope,,2119,,gap = 0 at every ell
+binding_composition,obj_gt_zero,reported scope,,83,,obj range 24.71520000000001 to 172.2048 bh
+ell_flips_reported_scope,0.01,decisions differing from ell=1 at tau=0.20,29818,0,0.000000,
+ell_flips_reported_scope,0.1,decisions differing from ell=1 at tau=0.20,29818,0,0.000000,
+ell_flips_reported_scope,0.5,decisions differing from ell=1 at tau=0.20,29818,0,0.000000,
+ell_flips_reported_scope,1,decisions differing from ell=1 at tau=0.20,29818,0,0.000000,
+ell_flips_reported_scope,2,decisions differing from ell=1 at tau=0.20,29818,0,0.000000,
+ell_flips_reported_scope,5,decisions differing from ell=1 at tau=0.20,29818,0,0.000000,
+ell_flips_reported_scope,10,decisions differing from ell=1 at tau=0.20,29818,0,0.000000,
+ell_flips_reported_scope,25,decisions differing from ell=1 at tau=0.20,29818,1,0.000034,
+ell_flips_reported_scope,50,decisions differing from ell=1 at tau=0.20,29818,8,0.000268,
+ell_flips_reported_scope,100,decisions differing from ell=1 at tau=0.20,29818,170,0.005701,
+ell_flips_reported_scope,500,decisions differing from ell=1 at tau=0.20,29818,933,0.031290,
+ell_flips_all_e1_certificates,0.01,decisions differing from ell=1 at tau=0.20,33404,0,0.000000,
+ell_flips_all_e1_certificates,0.1,decisions differing from ell=1 at tau=0.20,33404,0,0.000000,
+ell_flips_all_e1_certificates,0.5,decisions differing from ell=1 at tau=0.20,33404,0,0.000000,
+ell_flips_all_e1_certificates,1,decisions differing from ell=1 at tau=0.20,33404,0,0.000000,
+ell_flips_all_e1_certificates,2,decisions differing from ell=1 at tau=0.20,33404,0,0.000000,
+ell_flips_all_e1_certificates,5,decisions differing from ell=1 at tau=0.20,33404,0,0.000000,
+ell_flips_all_e1_certificates,10,decisions differing from ell=1 at tau=0.20,33404,0,0.000000,
+ell_flips_all_e1_certificates,25,decisions differing from ell=1 at tau=0.20,33404,1,0.000030,
+ell_flips_all_e1_certificates,50,decisions differing from ell=1 at tau=0.20,33404,8,0.000239,
+ell_flips_all_e1_certificates,100,decisions differing from ell=1 at tau=0.20,33404,170,0.005089,
+ell_flips_all_e1_certificates,500,decisions differing from ell=1 at tau=0.20,33404,987,0.029547,
+table8_cells_differing_from_ell_1,0.01,60 cells = 10 arm configurations x 6 published columns,60,0,,
+table8_cells_differing_from_ell_1,0.1,60 cells = 10 arm configurations x 6 published columns,60,0,,
+table8_cells_differing_from_ell_1,0.5,60 cells = 10 arm configurations x 6 published columns,60,0,,
+table8_cells_differing_from_ell_1,1,60 cells = 10 arm configurations x 6 published columns,60,0,,
+table8_cells_differing_from_ell_1,2,60 cells = 10 arm configurations x 6 published columns,60,0,,
+table8_cells_differing_from_ell_1,5,60 cells = 10 arm configurations x 6 published columns,60,0,,
+table8_cells_differing_from_ell_1,10,60 cells = 10 arm configurations x 6 published columns,60,0,,
+table8_cells_differing_from_ell_1,25,60 cells = 10 arm configurations x 6 published columns,60,9,,"[(('qwen3-14b', '-'), 'sep_050', 0.5181818181818182, 0.4954545454545455), (('qwen3.6-27b-fp8', '-'), 'sep_050', 0.5727272727272728, 0.55), (('glm-4-9b', '-'), 'sep_050', 0.45, 0.42272727272727273), (('openai', '-'), 'sep_050', 0.4909090909090909, 0.4681818181818182)]"
+table8_cells_differing_from_ell_1,50,60 cells = 10 arm configurations x 6 published columns,60,13,,"[(('qwen3-14b', '-'), 'sep_050', 0.5181818181818182, 0.4681818181818182), (('qwen3.6-27b-fp8', '-'), 'sep_050', 0.5727272727272728, 0.5227272727272727), (('glm-4-9b', '-'), 'sep_020', 0.7272727272727273, 0.7227272727272728), (('glm-4-9b', '-'), 'sep_050', 0.45, 0.4)]"
+table8_cells_differing_from_ell_1,100,60 cells = 10 arm configurations x 6 published columns,60,17,,"[(('qwen3-14b', '-'), 'sep_020', 0.8227272727272728, 0.7772727272727272), (('qwen3-14b', '-'), 'sep_050', 0.5181818181818182, 0.45), (('qwen3.6-27b-fp8', '-'), 'sep_020', 0.8696969696969697, 0.8196969696969697), (('qwen3.6-27b-fp8', '-'), 'sep_050', 0.5727272727272728, 0.5)]"
+table8_cells_differing_from_ell_1,500,60 cells = 10 arm configurations x 6 published columns,60,35,,"[(('qwen3-14b', '-'), 'sep_005', 0.9181818181818182, 0.8409090909090909), (('qwen3-14b', '-'), 'sep_020', 0.8227272727272728, 0.6772727272727272), (('qwen3-14b', '-'), 'sep_050', 0.5181818181818182, 0.36818181818181817), (('qwen3-14b', '-'), 'fb_020', 0.04625, 0.03)]"
+full_sweep_row_tolerance_pairs_differing,0.01,"constrained rows x 8 swept tolerances; the whole T6 artifact and Fig. 4, not only Table 8's printed cells",320000,0,0.00000000,
+full_sweep_row_tolerance_pairs_differing,0.1,"constrained rows x 8 swept tolerances; the whole T6 artifact and Fig. 4, not only Table 8's printed cells",320000,0,0.00000000,
+full_sweep_row_tolerance_pairs_differing,0.5,"constrained rows x 8 swept tolerances; the whole T6 artifact and Fig. 4, not only Table 8's printed cells",320000,0,0.00000000,
+full_sweep_row_tolerance_pairs_differing,1,"constrained rows x 8 swept tolerances; the whole T6 artifact and Fig. 4, not only Table 8's printed cells",320000,0,0.00000000,
+full_sweep_row_tolerance_pairs_differing,2,"constrained rows x 8 swept tolerances; the whole T6 artifact and Fig. 4, not only Table 8's printed cells",320000,0,0.00000000,
+full_sweep_row_tolerance_pairs_differing,5,"constrained rows x 8 swept tolerances; the whole T6 artifact and Fig. 4, not only Table 8's printed cells",320000,0,0.00000000,
+full_sweep_row_tolerance_pairs_differing,10,"constrained rows x 8 swept tolerances; the whole T6 artifact and Fig. 4, not only Table 8's printed cells",320000,7,0.00002187,"by (tolerance, class): {('1.00', 'V3'): 7}"
+full_sweep_row_tolerance_pairs_differing,25,"constrained rows x 8 swept tolerances; the whole T6 artifact and Fig. 4, not only Table 8's printed cells",320000,264,0.00082500,"by (tolerance, class): {('0.50', 'V3'): 87, ('1.00', 'V3'): 175, ('0.20', 'V3'): 1, ('0.30', 'V3'): 1}"
+full_sweep_row_tolerance_pairs_differing,50,"constrained rows x 8 swept tolerances; the whole T6 artifact and Fig. 4, not only Table 8's printed cells",320000,565,0.00176563,"by (tolerance, class): {('1.00', 'V3'): 219, ('0.30', 'V3'): 161, ('0.50', 'V3'): 175, ('0.20', 'V3'): 8, ('0.10', 'V3'): 1, ('0.15', 'V3'): 1}"
+full_sweep_row_tolerance_pairs_differing,100,"constrained rows x 8 swept tolerances; the whole T6 artifact and Fig. 4, not only Table 8's printed cells",320000,1047,0.00327188,"by (tolerance, class): {('0.50', 'V3'): 250, ('1.00', 'V3'): 270, ('0.15', 'V3'): 161, ('0.20', 'V3'): 170, ('0.30', 'V3'): 186, ('0.10', 'V3'): 8, ('0.05', 'V3'): 1, ('0.30', 'V4'): 1}"
+full_sweep_row_tolerance_pairs_differing,500,"constrained rows x 8 swept tolerances; the whole T6 artifact and Fig. 4, not only Table 8's printed cells",320000,4834,0.01510625,"by (tolerance, class): {('0.10', 'benign'): 177, ('0.15', 'benign'): 166, ('0.20', 'benign'): 168, ('0.30', 'benign'): 3, ('0.10', 'V1'): 11, ('0.15', 'V1'): 11, ('0.20', 'V1'): 11, ('0.50', 'V1'): 3, ('0.05', 'V2'): 11, ('0.10', 'V2'): 34, ('0.15', 'V2'): 37, ('0.20', 'V2'): 34, ('0.30', 'V3'): 642, ('0.50', 'V3'): 613, ('0.05', 'V3'): 283, ('0.10', 'V3'): 509, ('0.15', 'V3'): 570, ('0.20', 'V3'): 563, ('1.00', 'V3'): 454, ('0.02', 'V3'): 26, ('0.10', 'V4'): 49, ('0.15', 'V4'): 49, ('0.20', 'V4'): 49, ('1.00', 'V4'): 4, ('0.10', 'V5'): 60, ('0.15', 'V5'): 60, ('0.20', 'V5'): 60, ('0.02', 'V5'): 9, ('0.05', 'V5'): 4, ('0.10', 'V6'): 64, ('0.15', 'V6'): 48, ('0.20', 'V6'): 48, ('0.30', 'V1'): 1, ('0.05', 'V4'): 1, ('0.30', 'V4'): 1, ('0.50', 'V4'): 1}"
+critical_ell,published_table8_cells,smallest ell that moves any PRINTED Table 8 cell,,18.511200000000002,,"witness {'item_id': 'V3-0148', 'arm': 'glm-4-9b', 'class': 'V3', 'tau': 0.5, 'obj_bh': 14.255600000000001, 'lb_bh': 5.0}"
+critical_ell,tau_0.20_all_e1,"all 33,404 E1 certificates",,24.632000000000005,,"witness {'item_id': 'V3-0195', 'arm': 'sol', 'tau': 0.2, 'obj_bh': 16.9264, 'lb_bh': 12.0}; rows able to flip below ell=1: 0"
+critical_ell,tau_0.20_reported_scope,reported scope,,24.632000000000005,,"witness {'item_id': 'V3-0195', 'arm': 'sol', 'tau': 0.2, 'obj_bh': 16.9264, 'lb_bh': 12.0}; rows able to flip below ell=1: 0"
+critical_ell,tau_grid_all_e1,"smallest ell that moves ANY decision anywhere on the swept tolerance grid 0.02-1.00 (the T6 artifact and Fig. 4, which print tolerances Table 8 does not)",,9.255600000000001,,"witness {'item_id': 'V3-0148', 'arm': 'glm-4-9b', 'tau': 1.0, 'obj_bh': 14.255600000000001, 'lb_bh': 5.0}; rows able to flip below ell=1: 0"
+critical_ell,tau_grid_reported_scope,reported scope,,9.255600000000001,,"witness {'item_id': 'V3-0148', 'arm': 'glm-4-9b', 'tau': 1.0, 'obj_bh': 14.255600000000001, 'lb_bh': 5.0}; rows able to flip below ell=1: 0"

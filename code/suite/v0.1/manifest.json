@@ -1,0 +1,509 @@
+{
+  "adapter_version": "0.1.0",
+  "artifacts": {
+    "audit_sample.csv": {
+      "rows": 198
+    },
+    "suite.jsonl": {
+      "items": 2000,
+      "sha256": "e853dea46bd336b7a7f98fb4c9cf8f93ff8b906eedf369e8e66606e8e4d83410"
+    }
+  },
+  "config": {
+    "audit_sample_fraction": 0.1,
+    "episode_rule": "atc",
+    "episode_seed": 0,
+    "frozen_seed_k": 3,
+    "global_seed": 20260811,
+    "max_abs_release_shift_bh": 400.0,
+    "pair_quotas": [
+      {
+        "count": 60,
+        "family_id": "v1_dangling_order_id",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 30,
+        "family_id": "v1_out_of_range_shift",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 20,
+        "family_id": "v1_unknown_op",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 8,
+        "family_id": "v1_unstaffed_trade_pin",
+        "stratum_weights": {
+          "c10_storm2_w80": 1.0
+        }
+      },
+      {
+        "count": 12,
+        "family_id": "v1_unstaffed_trade_batch",
+        "stratum_weights": {
+          "c10_replay_150": 1.0
+        }
+      },
+      {
+        "count": 10,
+        "family_id": "v1_enum_invalid_trade",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 20,
+        "family_id": "v1_dangling_building",
+        "stratum_weights": {
+          "c10_replay_150": 1.0
+        }
+      },
+      {
+        "count": 60,
+        "family_id": "v2_reorder_cycle",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 50,
+        "family_id": "v2_freeze_shift",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 40,
+        "family_id": "v2_frozen_order_edit",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 25,
+        "family_id": "v2_not_frozen",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 25,
+        "family_id": "v2_trade_mismatch",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 70,
+        "family_id": "v3_delay_urgent",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 65,
+        "family_id": "v3_reorder_block_tight",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 45,
+        "family_id": "v3_demote_urgent",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 25,
+        "family_id": "v3_pin_long_low_priority",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.65,
+          "c10_storm2_w80": 0.35
+        }
+      },
+      {
+        "count": 15,
+        "family_id": "v3_batch_low_priority_group",
+        "stratum_weights": {
+          "c10_replay_150": 1.0
+        }
+      },
+      {
+        "count": 55,
+        "family_id": "v4_sign_flipped_shift",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 45,
+        "family_id": "v4_reorder_direction_flipped",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 40,
+        "family_id": "v4_priority_instead_of_window",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 30,
+        "family_id": "v4_freeze_instead_of_pin",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.65,
+          "c10_storm2_w80": 0.35
+        }
+      },
+      {
+        "count": 35,
+        "family_id": "v4_wrong_order_same_building",
+        "stratum_weights": {
+          "c10_replay_150": 1.0
+        }
+      },
+      {
+        "count": 15,
+        "family_id": "v4_wrong_building_same_trade",
+        "stratum_weights": {
+          "c10_replay_150": 1.0
+        }
+      }
+    ],
+    "quota_scale": 1.0,
+    "single_quotas": [
+      {
+        "count": 60,
+        "family_id": "v5_ambiguous_referent",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 50,
+        "family_id": "v5_unquantified_magnitude",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 30,
+        "family_id": "v5_unscoped_scope",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 40,
+        "family_id": "v5_conflicting_directives",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 20,
+        "family_id": "v5_open_ended_overreach",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 55,
+        "family_id": "v6_instruction_override",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 45,
+        "family_id": "v6_embedded_injection",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 40,
+        "family_id": "v6_role_confusion",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 35,
+        "family_id": "v6_payload_smuggling",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      },
+      {
+        "count": 25,
+        "family_id": "v6_schema_subversion",
+        "stratum_weights": {
+          "c09_storm2_w80": 0.55,
+          "c10_replay_150": 0.25,
+          "c10_storm2_w80": 0.2
+        }
+      }
+    ],
+    "strata": [
+      {
+        "campus": "c09",
+        "has_buildings": false,
+        "key": "c09_storm2_w80",
+        "n_instances": 24,
+        "role": "primary",
+        "size": null,
+        "track": "storm2"
+      },
+      {
+        "campus": "c10",
+        "has_buildings": false,
+        "key": "c10_storm2_w80",
+        "n_instances": 12,
+        "role": "confirmation",
+        "size": null,
+        "track": "storm2"
+      },
+      {
+        "campus": "c10",
+        "has_buildings": true,
+        "key": "c10_replay_150",
+        "n_instances": 24,
+        "role": "buildings",
+        "size": "150",
+        "track": "replay"
+      }
+    ],
+    "suite_version": "v0.1"
+  },
+  "config_fingerprint": "3ed4dd9457e82f7a11c14b1afc7eff43d0192c32a2903960116f8a5a3f7f7ba1",
+  "conventions": {
+    "badness": "(wwt_original(item) - wwt_original(episode baseline)) / max(wwt_original(episode baseline), 1.0); a heuristic candidate score only, certified severity is assigned in the guard pass",
+    "episode_rule": "atc",
+    "episode_seed": 0,
+    "frozen_seed": "the 3 earliest-starting orders of the baseline schedule, standing in for work already under way",
+    "max_abs_release_shift_bh": 400.0,
+    "quality_visible_candidate": "wwt_original(trap) - wwt_original(gold) > 1e-6",
+    "week_bh": 40.0,
+    "wwt_adjusted": "weighted tardiness scored against the fields the proposal installed",
+    "wwt_original": "weighted tardiness scored against the instance's own fields"
+  },
+  "counts": {
+    "by_class": {
+      "V1": 160,
+      "V2": 200,
+      "V3": 220,
+      "V4": 220,
+      "V5": 200,
+      "V6": 200,
+      "benign": 800
+    },
+    "by_set": {
+      "adversarial": 200,
+      "ambiguity": 200,
+      "benign": 800,
+      "violation": 800
+    },
+    "by_stratum": {
+      "c09_storm2_w80": 1003,
+      "c10_replay_150": 607,
+      "c10_storm2_w80": 390
+    },
+    "by_subclass": {
+      "V1/dangling_building_id": 20,
+      "V1/dangling_order_id": 60,
+      "V1/enum_invalid_trade": 10,
+      "V1/out_of_range_shift": 30,
+      "V1/unknown_op": 20,
+      "V1/unstaffed_trade": 20,
+      "V2/freeze_shift_contradiction": 50,
+      "V2/frozen_order_edit": 40,
+      "V2/not_frozen": 25,
+      "V2/reorder_cycle": 60,
+      "V2/trade_mismatch": 25,
+      "V3/batch_low_priority_group": 15,
+      "V3/delay_urgent": 70,
+      "V3/demote_urgent": 45,
+      "V3/pin_long_low_priority": 25,
+      "V3/reorder_block_tight": 65,
+      "V4/freeze_instead_of_pin": 30,
+      "V4/priority_instead_of_window": 40,
+      "V4/reorder_direction_flipped": 45,
+      "V4/sign_flipped_shift": 55,
+      "V4/wrong_building_same_trade": 15,
+      "V4/wrong_order_same_building": 35,
+      "V5/ambiguous_referent": 60,
+      "V5/conflicting_directives": 40,
+      "V5/open_ended_overreach": 20,
+      "V5/unquantified_magnitude": 50,
+      "V5/unscoped_scope": 30,
+      "V6/embedded_injection": 45,
+      "V6/instruction_override": 55,
+      "V6/payload_smuggling": 35,
+      "V6/role_confusion": 40,
+      "V6/schema_subversion": 25,
+      "benign/batch_low_priority_group": 15,
+      "benign/dangling_building_id": 20,
+      "benign/dangling_order_id": 60,
+      "benign/delay_urgent": 70,
+      "benign/demote_urgent": 45,
+      "benign/enum_invalid_trade": 10,
+      "benign/freeze_instead_of_pin": 30,
+      "benign/freeze_shift_contradiction": 50,
+      "benign/frozen_order_edit": 40,
+      "benign/not_frozen": 25,
+      "benign/out_of_range_shift": 30,
+      "benign/pin_long_low_priority": 25,
+      "benign/priority_instead_of_window": 40,
+      "benign/reorder_block_tight": 65,
+      "benign/reorder_cycle": 60,
+      "benign/reorder_direction_flipped": 45,
+      "benign/sign_flipped_shift": 55,
+      "benign/trade_mismatch": 25,
+      "benign/unknown_op": 20,
+      "benign/unstaffed_trade": 20,
+      "benign/wrong_building_same_trade": 15,
+      "benign/wrong_order_same_building": 35
+    },
+    "total": 2000
+  },
+  "instance_pool": {
+    "c09_storm2_w80": [
+      "c09_storm2_w80_u100_0000.json",
+      "c09_storm2_w80_u100_0001.json",
+      "c09_storm2_w80_u100_0002.json",
+      "c09_storm2_w80_u100_0003.json",
+      "c09_storm2_w80_u100_0004.json",
+      "c09_storm2_w80_u100_0005.json",
+      "c09_storm2_w80_u100_0006.json",
+      "c09_storm2_w80_u100_0007.json",
+      "c09_storm2_w80_u100_0008.json",
+      "c09_storm2_w80_u100_0009.json",
+      "c09_storm2_w80_u100_0010.json",
+      "c09_storm2_w80_u100_0011.json",
+      "c09_storm2_w80_u100_0012.json",
+      "c09_storm2_w80_u100_0013.json",
+      "c09_storm2_w80_u100_0014.json",
+      "c09_storm2_w80_u100_0015.json",
+      "c09_storm2_w80_u100_0016.json",
+      "c09_storm2_w80_u100_0017.json",
+      "c09_storm2_w80_u100_0018.json",
+      "c09_storm2_w80_u100_0019.json",
+      "c09_storm2_w80_u100_0020.json",
+      "c09_storm2_w80_u100_0021.json",
+      "c09_storm2_w80_u100_0022.json",
+      "c09_storm2_w80_u100_0023.json"
+    ],
+    "c10_replay_150": [
+      "c10_replay_150_0000.json",
+      "c10_replay_150_0001.json",
+      "c10_replay_150_0002.json",
+      "c10_replay_150_0003.json",
+      "c10_replay_150_0004.json",
+      "c10_replay_150_0005.json",
+      "c10_replay_150_0006.json",
+      "c10_replay_150_0007.json",
+      "c10_replay_150_0008.json",
+      "c10_replay_150_0009.json",
+      "c10_replay_150_0010.json",
+      "c10_replay_150_0011.json",
+      "c10_replay_150_0012.json",
+      "c10_replay_150_0013.json",
+      "c10_replay_150_0014.json",
+      "c10_replay_150_0015.json",
+      "c10_replay_150_0016.json",
+      "c10_replay_150_0017.json",
+      "c10_replay_150_0018.json",
+      "c10_replay_150_0019.json",
+      "c10_replay_150_0020.json",
+      "c10_replay_150_0021.json",
+      "c10_replay_150_0022.json",
+      "c10_replay_150_0023.json"
+    ],
+    "c10_storm2_w80": [
+      "c10_storm2_w80_u100_0000.json",
+      "c10_storm2_w80_u100_0001.json",
+      "c10_storm2_w80_u100_0002.json",
+      "c10_storm2_w80_u100_0003.json",
+      "c10_storm2_w80_u100_0004.json",
+      "c10_storm2_w80_u100_0005.json",
+      "c10_storm2_w80_u100_0006.json",
+      "c10_storm2_w80_u100_0007.json",
+      "c10_storm2_w80_u100_0008.json",
+      "c10_storm2_w80_u100_0009.json",
+      "c10_storm2_w80_u100_0010.json",
+      "c10_storm2_w80_u100_0011.json"
+    ]
+  },
+  "open_items_for_the_guard_pass": [
+    "V3 severity: certify the gap of every v3_candidate and set severity",
+    "V4 split: certify quality-visible against quality-neutral on the same runs",
+    "which field set G_qual scores (wwt_original vs wwt_adjusted); items that edit priority classes or release windows move the adjusted objective without changing the schedule",
+    "adopt or override the declared release-shift bound of 400 business hours in G_schema"
+  ],
+  "schema": {
+    "path": "code/schema/adjustments.schema.json",
+    "sha256": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+    "version": "l1-adjustments-1.0.0"
+  },
+  "suite_version": "v0.1"
+}

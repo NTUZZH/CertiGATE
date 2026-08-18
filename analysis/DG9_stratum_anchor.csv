@@ -1,0 +1,99 @@
+# generated 2026-08-17 17:32:17 +0800 by analysis/DG9_stratum_split.py (l1-dg9-stratum-1)
+# DG9: the E1 headline rates split by stratum, the no-AI RULE anchor level per stratum, and a characterisation of the three strata.
+# scope: mode M_constrained, repeats pooled, cells are (arm, thinking) over the seven schema-enforced arms (the manuscript's capability set; DeepSeek is outside it and is not read).
+# metric definitions taken from code/scripts/e1_evaluate.py (Analysis.separation, Analysis.blocks) and code/scripts/e3_replay.py (violation pass-through), reused unchanged from code/scripts/e1_intervals.py.  Zero rows carry an infra_error finding, so the eligibility filter removes nothing on these logs.
+# stratum comes from the verdict row's own stratum field, checked against code/suite/v0.2/suite.jsonl on every row.
+# self-check: opus/default V3 separation 398/440 and benign false block under G-CERT 63/1600 (macros.tex); every pooled point estimate re-derived against T3/T1 to 5e-7; the three strata sum exactly to the pooled numerator and denominator on every (cell, metric) pair.
+# CI: nonparametric cluster bootstrap of the pooled ratio, cluster = instance, B=20000, 2.5/97.5 percentile.  Wilson is the naive interval on the row count.  Cluster counts are 24 / 12 / 24 by stratum, so these intervals are wide and under-cover.
+# code/suite/v0.2/suite.jsonl sha256 0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a
+# results/e1_eval_qwen14b/verdicts_G_CERT.jsonl sha256 007f9b7e128b9b40a1c8a6f20e1d7bf0688e7597c9ccf802b3d4603e11d5ff82
+# results/e1_eval_qwen14b/verdicts_G_FEAS.jsonl sha256 2e35dedecb9363433618b26c6f0d75f596ce88b931e35443661048d2a8823e23
+# results/e1_eval_qwen14b/proposals.jsonl sha256 1275be52a6a9e7cc36ebcc8c6f193b81a6c84e97671932fdf534e2b7a1c9dd47
+# results/e1_eval_qwen27b/verdicts_G_CERT.jsonl sha256 34f6a4c8b2b26b38a69a21c1a22d0d0ee7715b2d15a095399aa505c279377d10
+# results/e1_eval_qwen27b/verdicts_G_FEAS.jsonl sha256 5741e6c174e36e8d04a366fd648a051ccb6bf6a4ecfa182382cf43ba3f5b1d75
+# results/e1_eval_qwen27b/proposals.jsonl sha256 7d930c7633af776c55abe93c72a33e6132cd9eccdc22d0543ade32f1ec63811d
+# results/e1_eval_glm9b/verdicts_G_CERT.jsonl sha256 357ff6582097bd5c6656c14e6c47a6c85b5cb2c699e2206d1f8722ff1f0e6ed4
+# results/e1_eval_glm9b/verdicts_G_FEAS.jsonl sha256 c6aa59cb041ee235084646d185760383d6d81d979876146af42f136a3694633c
+# results/e1_eval_glm9b/proposals.jsonl sha256 94f9457a32e8776c6f403f4f619b2c96ce1d96bc3c2d1cb8118c1a2808c260bb
+# results/e1_eval_gpt54mini/verdicts_G_CERT.jsonl sha256 ab58fe9be34e97572208247ee13fbf9710af6b14f5b0004390faeb4031f1a78d
+# results/e1_eval_gpt54mini/verdicts_G_FEAS.jsonl sha256 0b54b9a910824885ff330ca5afab191320b01091f6e140d1edeacb395aed092c
+# results/e1_eval_gpt54mini/proposals.jsonl sha256 cbfcbd608fa2b03fa878089bda35dc2e8491307e7ab5c7bea0f6576e28b9a9cd
+# results/e1_eval_sonnet5/verdicts_G_CERT.jsonl sha256 87d3ebaefefe7b70915a861cc2f61dd3fb5e7e08df5f83756cf78ce5aa8f102c
+# results/e1_eval_sonnet5/verdicts_G_FEAS.jsonl sha256 4b25bfa946e1f6a8e56f627b84148f858ce6b2e0dd0e2716fb18d3bbbd257d7c
+# results/e1_eval_sonnet5/proposals.jsonl sha256 0a1387c342b1b9d551ab114ae13c9bf87871c27f7476fd96eecc5e5a1df3f94c
+# results/e1_eval_opus5/verdicts_G_CERT.jsonl sha256 2c4a3d99410ce0bc38a8c230ffa3770f8f1fc20d514c732abf4d53d898f77744
+# results/e1_eval_opus5/verdicts_G_FEAS.jsonl sha256 2e3f20d17f1a24f3e167bd443ae1f05f0bf7e9133777f70ada5dccf237124597
+# results/e1_eval_opus5/proposals.jsonl sha256 170c6b315c419a23e6f4663ed28849e39b2672d4c08aa529d242e31cfd24d95d
+# results/e1_eval_sol/verdicts_G_CERT.jsonl sha256 3a06dbde336b05951afd45cf08f609612a095c7a0d1861f68c447e6c7ab16dab
+# results/e1_eval_sol/verdicts_G_FEAS.jsonl sha256 e2436e281abdbd80e0702d221a839dc3f2c23b973d64fc2c507ca08c9a58762c
+# results/e1_eval_sol/proposals.jsonl sha256 d1717574dc9365777d11455354cc58be02ed4790f792491442adf80f68344195
+# analysis/T3_guard_value_curve.csv sha256 e9bf87e3856515e779897f6af7306a96ea02ea2f5b06eabf1e86f398a91f6911
+# analysis/T1_e1_main.csv sha256 8439dadb9dc81c401eecda7f661f459f54698ab146a7e02408043779dec69b5c
+# analysis/DG7_passthrough.csv sha256 0439d247809b65b818d708912dc6c5ac67b4ba4dde999a21aa61975755606708
+# analysis/ladder/rule_anchor.json sha256 d36b620d9ccd2240bd9e3c32ec1275bdca8ce2391db033d045664d3dcfbc0710
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json sha256 683cdb22b8903265bb9f594d1b10dbe8e37b94a9f73a723dd0f217c103da65c3
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0001.json sha256 f09856bc8d8a153820866dbd28543653ed963274a8a34a432511f1e83bc40968
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0002.json sha256 20b942049e53ef0791a0d7e2c32028d3bcb423812680bbfd6a4f705e33f6e548
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0003.json sha256 f3ace9e56e2bbd7d35b18991d2b7e511db9bf7d3148f7c90a5c9293747cac499
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0004.json sha256 e7bceaee3533e157855ffc411e427311decbd9e1e2b4ff40cf577fd5ed5767c1
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0005.json sha256 b134265cbc1e15053641697e9f923a292cc3bcca8606864e86313a6d0e2a1c72
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0006.json sha256 eb84cae9e7f53d0fb99e2b51746f34f30b7fe8f39132b93e6205e321aca61d41
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0007.json sha256 4561db94b0a39f52e63516b0b84a0674e0c7a1058f7a19f47587f98df38c16d4
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0008.json sha256 dbc455ff695736d8c79bc1acb6771dc418f26a623fa03d37143221b1d9f2243b
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0009.json sha256 256437b89826c52313af5676a2fa9552a1d9c77e0eeb6d9177fbd5c10a4e48f2
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0010.json sha256 752dfab9aa4443552188cc35693678766c8b4c3a890d0be74cdf21c5b0cf4199
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0011.json sha256 00b0d868199ff9a3f8f820c6e1f6ffd40d2a34a99dab5b3c4d1c9831367a6bf3
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0012.json sha256 a904d68373b6ab46e273770cf4cfbab8ce42f2b627f3edc970feea72cdb6f3fb
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0013.json sha256 bda79b8d4969d7061cef902b05cb8716a2ba392b1777c9ca696ec72d24a1ac8b
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0014.json sha256 5716c1aa2b462c36e85438cfb766908b7f1af2577c09e112171f344c5a1d833c
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0015.json sha256 e3ab52a8bce2967b9a2a2364c6e322a8b58c6f9d5cc6324675daf5ba87e39768
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0016.json sha256 7000dfae012b34270dce778d5619e55a76ffe6ed3f9e7cef43f0401003242957
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0017.json sha256 a706977687158fb9081bbd041256ad45748d635ad27a81b37bee4a267951da9a
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0018.json sha256 32d0361ad6d43b6e8921377d6084925e22315e7b0a7dba6db3e2378c2eee0a5a
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0019.json sha256 4efaeb9dba812f7023fecac7984c4626649c2116c99569ee9d29a213aa0ef37a
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0020.json sha256 06a8f16508e9e9c03c653d3cc7cd4e3aaf02c64cdf52a3f88cb85b92088e3223
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0021.json sha256 c3467526629726eac0654365d5f277f86b83073625b7d23865ff146340443b5f
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0022.json sha256 f75da099d21fd3f8bee303fbdbdec377edfa6f38a5a735ca697b1c1af3dd36c4
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0023.json sha256 6493954905142e678bbc3c30bc6f062970bd5840028afd7da90daf53dadf2960
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0000.json sha256 5e1faaaf97577fe0697f9cffd73ea7b840906fae4097712bb47813aae863d5fd
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0001.json sha256 64b74dd856a64b9ba0255f91502923cad674170d30f49e76cad9b3a1c5daa259
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0002.json sha256 e1d8ae8110b8040b7b2de364217895bcb4ee840d962ba69cdc393ce5470e2e07
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0003.json sha256 cbcd5c8e2c9152856b1959ac6a808dfe6ddc9593163c7a482c303954ce8a72a1
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0004.json sha256 090800c87a31c360003010f9a5d9fe27c3a97b4c9275abf09431d602738af773
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0005.json sha256 0a29ad0b9b27927a1e17e183dde07ed905ed6c743e7d3522899b395b08f6594b
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0006.json sha256 34c570f573fab35f3adfb094c89e4e49c8ee98fd4208440912f5c96cbe77462e
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0007.json sha256 935378e0b3784789da3baf4c7b60396f78a24ab632456b4dedd18760bfe10c40
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0008.json sha256 f574cc623400e431195196bb828056bf9b5ee40d07e32fa868406183877a38ff
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0009.json sha256 6faa8ef0d0ad63c498f589543462b23bd641d43db295f086be2782c5a110c3f0
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0010.json sha256 3665c089e29d8ff2041f22fd3f7efff2451bd8f15d143e5dbfede1e9d0560203
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0011.json sha256 17b53254506ff6755477d6946b7b3b4545bdb89ebec7f3cdea3f171fec478578
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0012.json sha256 41138ab322fd84fc84af6e1658a38dd625888c6685144e0599a29fb28528df65
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0013.json sha256 c25a69b354bc19cf4b8786b4fc02634399d93bcfe029fa15b1a5b458e3de4782
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0014.json sha256 f67266b5c18b8e0e62140620c7927e17303bf666e43e2dd516f40c6dfd952b92
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0015.json sha256 1c766d416fb48a481fdd49b676297c7fa299df7b461e20e358d9193c0018b555
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0016.json sha256 a23cb803b7d7966a87b825e5c45430b4b90955da34b9c15e8fc043d638c552ba
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0017.json sha256 bc71c9e4bbce0242ae83c1b1786544b7ae32a0d04bfbb506500b4862a917e90c
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0018.json sha256 67d95a086429a9696ca3b19e74156ab2f22ceb162efcf97bcd2a07c4c3a6e385
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0019.json sha256 7397f235fd51a39cfcf4c1c50286b47016bce4c7a5487ec886c68feb5994a4c2
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0020.json sha256 ac5f52c8ef91ca64fe44ddd254307477fa9453543c9372147370725d282229d4
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0021.json sha256 cc49b314ffd5fc6a12844409c6dbe3a5a630be9e95aa56453c9f06734cc9d311
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0022.json sha256 56796196a1cf7a7fc31ab62aec11094d5f7d4111796bccd63d4fc08fb56a9773
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/400/c10_replay_400_0023.json sha256 a59152143b134450dec6b6d3b2b781f1040723322f3b200592fb4f28bac192b5
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/storm2/w80/c10_storm2_w80_u100_0000.json sha256 af1e3202ba5363172739d85aa0ec93fab7b1ba92f76b9b9405efc3e09380049d
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/storm2/w80/c10_storm2_w80_u100_0001.json sha256 fdaf732105ff088e6d3a751bdce0cd5191c834d8cd5a2dfcc33a83c076b94e92
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/storm2/w80/c10_storm2_w80_u100_0002.json sha256 ced5dbdb0ad0cd194bc00b15b412ba5e3555a93a35c29bc91e6e6c7b3898aff5
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/storm2/w80/c10_storm2_w80_u100_0003.json sha256 aa703b1277691bc4629d2c9cfcc9c5cdacd071c95e3b4cde877d5a463eed98cb
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/storm2/w80/c10_storm2_w80_u100_0004.json sha256 d1fb8df2be75ccc26acd990c9ea372f7f7eb4cf16b5b5b241f1e4ad621c7aabc
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/storm2/w80/c10_storm2_w80_u100_0005.json sha256 cdd709e044247b2084a3eb1eb31ed9b8b861cd31f8bf5306666595bb87a56697
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/storm2/w80/c10_storm2_w80_u100_0006.json sha256 adde8dcf0073591e158cbc4752d383be6d9e932034c78cf4e31ff7697248229a
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/storm2/w80/c10_storm2_w80_u100_0007.json sha256 7d21eeaff011081a21f12c07504635a41b338789882afe296c4ceb29e99e11b4
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/storm2/w80/c10_storm2_w80_u100_0008.json sha256 6586b23b0d871a093dba6e2177598ba93f94fe844aa1a513023a821b1e143bee
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/storm2/w80/c10_storm2_w80_u100_0009.json sha256 53d71b229992effe56fe4ff7ddab4cd8a58a8a588953d50f1df4af3483adf5b3
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/storm2/w80/c10_storm2_w80_u100_0010.json sha256 635c2000ec895920eb8a02f82f7a918d5d0f6d6b865d1ab2fe93f3787479562a
+# /home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/storm2/w80/c10_storm2_w80_u100_0011.json sha256 e085aedded8f0496ce0b539793c9f17ed81fc1fea498ab561b745375e6ad7755
+# RULE anchor = the zero-operation proposal on one (instance, standing frozen set); analysis/ladder/rule_anchor.json holds 116 of them over the 60 instances.  mean_wwt_bh weights each anchor once; item_weighted_mean_wwt_bh weights each anchor by the number of suite items that run on it, which is the weighting the ladder's rung-1 number uses.
+stratum,stratum_label,n_instances,n_anchors,n_suite_items,mean_wwt_bh,sd_wwt_bh,min_wwt_bh,median_wwt_bh,max_wwt_bh,item_weighted_mean_wwt_bh
+c09_storm2_w80,"C9 storm2 (primary, constructed)",24,48,1009,717.97,338.65,196.46,645.36,1566.93,719.37
+c10_storm2_w80,"C10 storm2 (confirmation, constructed)",12,24,386,1533.04,700.62,548.29,1366.60,2859.51,1515.75
+c10_replay_400,"C10 replay 400 (buildings, recorded)",24,44,605,119.14,194.95,0.00,68.00,854.92,120.99
+ALL,all three strata pooled,60,116,2000,659.46,657.00,0.00,527.98,2859.51,692.06

@@ -1,0 +1,57 @@
+{
+ "date": "2026-08-12 17:22:19 +08",
+ "scaffold_version": "l1-e3-scaffold-1",
+ "arm": "openai",
+ "model": "gpt-5.4-mini-2026-03-17",
+ "backend": "openai",
+ "wire": "openai",
+ "mode": "M_constrained",
+ "thinking": null,
+ "thinking_body": {},
+ "slice": "E3-240",
+ "slice_sha256": "84b24f0232754344a4c16bcbe9e697b12aef9c707661a365c111424ee861e3e5",
+ "items": 240,
+ "pipelines": [
+  "SINGLE",
+  "MULTI"
+ ],
+ "repeats": 1,
+ "budget_levels": [
+  {
+   "level": "tight",
+   "tokens": 4500
+  },
+  {
+   "level": "loose",
+   "tokens": 18000
+  }
+ ],
+ "max_tokens": 1024,
+ "max_tool_rounds": 2,
+ "max_revisions": 99,
+ "workers": 6,
+ "top_k": 10,
+ "prompt_version": "l1-prompt-1.0.0",
+ "e3_prompt_version": "l1-e3-prompt-1.0.0",
+ "guard_config": "G_CERT",
+ "guard_config_hash": "52c094406252bf1ab57350d1ec4f9165f8bc4f7d83df2b99e1fb52356e829a42",
+ "suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+ "schema_sha256": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+ "mock": false,
+ "planned": 960,
+ "tally": {
+  "trajectories": 960,
+  "calls": 2705,
+  "usd": 3.173929500000003,
+  "tokens": 4377416,
+  "errors": 5,
+  "exhausted": 337,
+  "blocked_first": 173,
+  "revised": 106,
+  "interrupted": false,
+  "wall_s": 613.5867702359974
+ },
+ "calibration": null,
+ "dedupe_rule": "last row per (arm, budget_level, pipeline, repeat, item_id) wins; earlier rows for a key are superseded attempts, and each call row carries the run_uid of the attempt that produced it",
+ "budget_accounting": "sum over every call of reported prompt_tokens + completion_tokens, cache-status blind; a call with no reported usage is charged the pre-call estimate"
+}

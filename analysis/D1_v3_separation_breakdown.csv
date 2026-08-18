@@ -1,0 +1,106 @@
+# generated 2026-08-17 17:24:01 +0800 by paper_tables.py (l1-paper-tables-1)
+# dedup rule applied to the hosted raw logs before evaluation: last row per (mode, thinking, repeat, item_id); hosted logs only
+# suite suite.jsonl sha256 0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a
+# adjustment schema sha256 1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321
+# ladder anchors: /home/ziheng/PaperL1/analysis/ladder (reconciliation 4208/4208 passed)
+# /home/ziheng/PaperL1/results/e1_eval_qwen14b/summary.json sha256 793c76b07b492ef0fd70878913b6c90449fa7d884edd530817eaf98c1c51c1c8
+# /home/ziheng/PaperL1/results/e1_eval_qwen27b/summary.json sha256 78745e80ca0550e27d754b70e2e8f8bd7d33a6ba11b419852ec4c05a9c5a57d5
+# /home/ziheng/PaperL1/results/e1_eval_glm9b/summary.json sha256 bb806173f35bcd5013b1a9b77223f0d2e16346375670a6dca65dbb8859099724
+# /home/ziheng/PaperL1/results/e1_eval_gpt54mini/summary.json sha256 5da1e6beba8ac75283ee1e5f9352c2fff80eb08fe74f590e551b35b5364fa028
+# /home/ziheng/PaperL1/results/e1_eval_deepseek/summary.json sha256 574ebad8772fe47ec758487469231be95f2e457399fa619ad553b571dc8ee8f9
+# /home/ziheng/PaperL1/results/e1_eval_sonnet5/summary.json sha256 e50203a3a4474af675a4ed1e397c52ecd1f1b057502f21987d01ec6e8878e4f6
+# /home/ziheng/PaperL1/results/e1_eval_opus5/summary.json sha256 d1ab21e2a71280e44d8eed9feda0f8031e4c3160d17fd995414d6a1398ae4f15
+# /home/ziheng/PaperL1/results/e1_eval_sol/summary.json sha256 fa3ae6264fcdfbd3b311ad59a8ed88bc8540176adea8b4b043b2fecf5086379d
+# /home/ziheng/PaperL1/results/e2_tau_sweep/curves.csv sha256 e9ca179c57029c6ae23d0512f12da901884072192c96addff321de94bf04fc76
+# rows are the accepted record; every overlapping cell is asserted equal to it
+cut,cut_value,arm,model,mode,thinking,v3_items,v3_feas_pass,v3_separated,v3_separation_share,v3_cert_blocked,gold_match_exact,gold_match_semantic,gold_match_exact_rate,unseparated_applied_with_certificate,unseparated_blocked_feas,unseparated_blocked_schema,unseparated_other
+all,all,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,660,657,543,0.822727,546,249,567,0.377273,114,0,3,0
+register,conversational,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,192,192,141,0.734375,141,72,150,0.375000,51,0,0,0
+register,formal,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,276,273,225,0.815217,228,99,237,0.358696,48,0,3,0
+register,terse,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,192,192,177,0.921875,177,78,180,0.406250,15,0,0,0
+template,reorder_behind_batch_member,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,45,45,30,0.666667,30,0,33,0.000000,15,0,0,0
+template,reorder_block_tight,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,210,210,183,0.871429,183,129,210,0.614286,27,0,0,0
+template,reorder_cross_trade,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,135,135,111,0.822222,111,45,135,0.333333,24,0,0,0
+template,reorder_two_successors,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,135,135,129,0.955556,129,75,132,0.555556,6,0,0,0
+template,window_blocked_predecessor,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,135,132,90,0.666667,93,0,57,0.000000,42,0,3,0
+all,all,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,660,657,574,0.869697,577,251,618,0.380303,83,3,0,0
+register,conversational,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,192,192,147,0.765625,147,75,168,0.390625,45,0,0,0
+register,formal,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,276,273,246,0.891304,249,96,271,0.347826,27,3,0,0
+register,terse,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,192,192,181,0.942708,181,80,179,0.416667,11,0,0,0
+template,reorder_behind_batch_member,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,45,45,42,0.933333,42,0,45,0.000000,3,0,0,0
+template,reorder_block_tight,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,210,210,181,0.861905,181,124,208,0.590476,29,0,0,0
+template,reorder_cross_trade,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,135,135,105,0.777778,105,51,129,0.377778,30,0,0,0
+template,reorder_two_successors,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,135,135,132,0.977778,132,76,135,0.562963,3,0,0,0
+template,window_blocked_predecessor,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,135,132,114,0.844444,117,0,101,0.000000,18,3,0,0
+all,all,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,220,214,160,0.727273,166,84,164,0.381818,54,4,2,0
+register,conversational,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,64,64,41,0.640625,41,26,47,0.406250,23,0,0,0
+register,formal,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,92,89,72,0.782609,75,38,73,0.413043,17,2,1,0
+register,terse,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,64,61,47,0.734375,50,20,44,0.312500,14,2,1,0
+template,reorder_behind_batch_member,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,15,15,8,0.533333,8,0,8,0.000000,7,0,0,0
+template,reorder_block_tight,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,70,69,56,0.800000,57,48,64,0.685714,13,0,1,0
+template,reorder_cross_trade,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,45,43,35,0.777778,37,12,39,0.266667,8,2,0,0
+template,reorder_two_successors,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,45,44,39,0.866667,40,24,40,0.533333,5,0,1,0
+template,window_blocked_predecessor,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,45,43,22,0.488889,24,0,13,0.000000,21,2,0,0
+all,all,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,440,438,347,0.788636,349,162,360,0.368182,91,2,0,0
+register,conversational,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,128,128,96,0.750000,96,53,111,0.414062,32,0,0,0
+register,formal,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,184,182,148,0.804348,150,61,154,0.331522,34,2,0,0
+register,terse,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,128,128,103,0.804688,103,48,95,0.375000,25,0,0,0
+template,reorder_behind_batch_member,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,30,30,20,0.666667,20,0,20,0.000000,10,0,0,0
+template,reorder_block_tight,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,140,140,115,0.821429,115,78,127,0.557143,25,0,0,0
+template,reorder_cross_trade,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,90,90,74,0.822222,74,36,86,0.400000,16,0,0,0
+template,reorder_two_successors,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,90,90,78,0.866667,78,48,78,0.533333,12,0,0,0
+template,window_blocked_predecessor,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,90,88,60,0.666667,62,0,49,0.000000,28,2,0,0
+all,all,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,440,3,1,0.002273,438,0,0,0.000000,2,0,437,0
+all,all,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,440,0,0,0.000000,440,0,0,0.000000,0,0,440,0
+register,conversational,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,128,0,0,0.000000,128,0,0,0.000000,0,0,128,0
+register,conversational,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,128,0,0,0.000000,128,0,0,0.000000,0,0,128,0
+register,formal,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,184,0,0,0.000000,184,0,0,0.000000,0,0,184,0
+register,formal,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,184,0,0,0.000000,184,0,0,0.000000,0,0,184,0
+register,terse,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,128,3,1,0.007812,126,0,0,0.000000,2,0,125,0
+register,terse,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,128,0,0,0.000000,128,0,0,0.000000,0,0,128,0
+template,reorder_behind_batch_member,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,30,0,0,0.000000,30,0,0,0.000000,0,0,30,0
+template,reorder_behind_batch_member,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,30,0,0,0.000000,30,0,0,0.000000,0,0,30,0
+template,reorder_block_tight,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,140,0,0,0.000000,140,0,0,0.000000,0,0,140,0
+template,reorder_block_tight,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,140,0,0,0.000000,140,0,0,0.000000,0,0,140,0
+template,reorder_cross_trade,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,90,3,1,0.011111,88,0,0,0.000000,2,0,87,0
+template,reorder_cross_trade,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,90,0,0,0.000000,90,0,0,0.000000,0,0,90,0
+template,reorder_two_successors,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,90,0,0,0.000000,90,0,0,0.000000,0,0,90,0
+template,reorder_two_successors,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,90,0,0,0.000000,90,0,0,0.000000,0,0,90,0
+template,window_blocked_predecessor,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,90,0,0,0.000000,90,0,0,0.000000,0,0,90,0
+template,window_blocked_predecessor,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,90,0,0,0.000000,90,0,0,0.000000,0,0,90,0
+all,all,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,440,438,378,0.859091,380,155,406,0.352273,60,2,0,0
+register,conversational,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,128,128,99,0.773438,99,54,117,0.421875,29,0,0,0
+register,formal,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,184,182,164,0.891304,166,67,180,0.364130,18,2,0,0
+register,terse,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,128,128,115,0.898438,115,34,109,0.265625,13,0,0,0
+template,reorder_behind_batch_member,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,30,30,28,0.933333,28,0,30,0.000000,2,0,0,0
+template,reorder_block_tight,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,140,140,113,0.807143,113,79,129,0.564286,27,0,0,0
+template,reorder_cross_trade,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,90,90,72,0.800000,72,24,80,0.266667,18,0,0,0
+template,reorder_two_successors,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,90,90,88,0.977778,88,52,90,0.577778,2,0,0,0
+template,window_blocked_predecessor,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,90,88,77,0.855556,79,0,77,0.000000,11,2,0,0
+all,all,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,440,440,398,0.904545,398,169,426,0.384091,42,0,0,0
+all,all,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,440,440,396,0.900000,396,167,424,0.379545,44,0,0,0
+register,conversational,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,128,128,110,0.859375,110,52,128,0.406250,18,0,0,0
+register,conversational,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,128,128,110,0.859375,110,52,128,0.406250,18,0,0,0
+register,formal,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,184,184,164,0.891304,164,75,182,0.407609,20,0,0,0
+register,formal,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,184,184,162,0.880435,162,73,180,0.396739,22,0,0,0
+register,terse,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,128,128,124,0.968750,124,42,116,0.328125,4,0,0,0
+register,terse,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,128,128,124,0.968750,124,42,116,0.328125,4,0,0,0
+template,reorder_behind_batch_member,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,30,30,28,0.933333,28,0,30,0.000000,2,0,0,0
+template,reorder_behind_batch_member,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,30,30,28,0.933333,28,0,30,0.000000,2,0,0,0
+template,reorder_block_tight,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,140,140,122,0.871429,122,97,140,0.692857,18,0,0,0
+template,reorder_block_tight,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,140,140,122,0.871429,122,95,140,0.678571,18,0,0,0
+template,reorder_cross_trade,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,90,90,72,0.800000,72,24,78,0.266667,18,0,0,0
+template,reorder_cross_trade,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,90,90,72,0.800000,72,24,78,0.266667,18,0,0,0
+template,reorder_two_successors,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,90,90,88,0.977778,88,48,90,0.533333,2,0,0,0
+template,reorder_two_successors,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,90,90,88,0.977778,88,48,90,0.533333,2,0,0,0
+template,window_blocked_predecessor,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,90,90,88,0.977778,88,0,88,0.000000,2,0,0,0
+template,window_blocked_predecessor,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,90,90,86,0.955556,86,0,86,0.000000,4,0,0,0
+all,all,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,220,207,181,0.822727,194,84,197,0.381818,26,3,10,0
+register,conversational,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,64,60,46,0.718750,50,26,54,0.406250,14,0,4,0
+register,formal,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,92,86,76,0.826087,82,32,84,0.347826,10,3,3,0
+register,terse,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,64,61,59,0.921875,62,26,59,0.406250,2,0,3,0
+template,reorder_behind_batch_member,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,15,2,0,0.000000,13,0,0,0.000000,2,3,10,0
+template,reorder_block_tight,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,70,70,61,0.871429,61,42,70,0.600000,9,0,0,0
+template,reorder_cross_trade,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,45,45,37,0.822222,37,17,44,0.377778,8,0,0,0
+template,reorder_two_successors,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,45,45,44,0.977778,44,25,45,0.555556,1,0,0,0
+template,window_blocked_predecessor,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,45,45,39,0.866667,39,0,38,0.000000,6,0,0,0

@@ -1,0 +1,123 @@
+{
+ "date": "2026-08-17 17:24:06 +0800",
+ "ladder_reconciliation": {
+  "failed": 0,
+  "passed": 4208,
+  "total": 4208
+ },
+ "ladder_run": {
+  "cores": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "date": "2026-08-17 17:23:10 +0800",
+  "dedup_rule": "last row per (mode, thinking, repeat, item_id); hosted logs only",
+  "eval_dirs": [
+   "/home/ziheng/PaperL1/results/e1_eval_deepseek",
+   "/home/ziheng/PaperL1/results/e1_eval_glm9b",
+   "/home/ziheng/PaperL1/results/e1_eval_gpt54mini",
+   "/home/ziheng/PaperL1/results/e1_eval_opus5",
+   "/home/ziheng/PaperL1/results/e1_eval_qwen14b",
+   "/home/ziheng/PaperL1/results/e1_eval_qwen27b",
+   "/home/ziheng/PaperL1/results/e1_eval_sol",
+   "/home/ziheng/PaperL1/results/e1_eval_sonnet5"
+  ],
+  "inputs": {
+   "e1_eval_deepseek/summary.json": "574ebad8772fe47ec758487469231be95f2e457399fa619ad553b571dc8ee8f9",
+   "e1_eval_glm9b/summary.json": "bb806173f35bcd5013b1a9b77223f0d2e16346375670a6dca65dbb8859099724",
+   "e1_eval_gpt54mini/summary.json": "5da1e6beba8ac75283ee1e5f9352c2fff80eb08fe74f590e551b35b5364fa028",
+   "e1_eval_opus5/summary.json": "d1ab21e2a71280e44d8eed9feda0f8031e4c3160d17fd995414d6a1398ae4f15",
+   "e1_eval_qwen14b/summary.json": "793c76b07b492ef0fd70878913b6c90449fa7d884edd530817eaf98c1c51c1c8",
+   "e1_eval_qwen27b/summary.json": "78745e80ca0550e27d754b70e2e8f8bd7d33a6ba11b419852ec4c05a9c5a57d5",
+   "e1_eval_sol/summary.json": "fa3ae6264fcdfbd3b311ad59a8ed88bc8540176adea8b4b043b2fecf5086379d",
+   "e1_eval_sonnet5/summary.json": "e50203a3a4474af675a4ed1e397c52ecd1f1b057502f21987d01ec6e8878e4f6",
+   "schema_sha256": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+   "suite": "/home/ziheng/PaperL1/code/suite/v0.2/suite.jsonl",
+   "suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a"
+  },
+  "ladder_version": "l1-ladder-1",
+  "oracle_applied": 1485,
+  "oracle_exec_config_hash": "d228368a97501c4194bd21d3bd672c8a47d5ade7000cfad82c78bad1293ff6f1",
+  "oracle_guarded_config_hash": "52c094406252bf1ab57350d1ec4f9165f8bc4f7d83df2b99e1fb52356e829a42",
+  "oracle_referred": 515,
+  "out_dir": "/home/ziheng/PaperL1/analysis/ladder",
+  "patched_unguarded_rows": 604,
+  "reconciliation": {
+   "failed": 0,
+   "passed": 4208,
+   "total": 4208
+  },
+  "results_root": "/home/ziheng/PaperL1/results",
+  "rule_anchors": 116,
+  "spot_check_rows": 1200,
+  "suite_items": 2000,
+  "unguarded_cert_config_hash": "0352c186c19f35b4fe5f6aa52e7c0c82433b5d994c67ec4daa735dcc221faaca",
+  "wall_s": 128.91606831550598,
+  "workers": 8
+ },
+ "out_dir": "/home/ziheng/PaperL1/analysis",
+ "provenance": [
+  "generated 2026-08-17 17:24:01 +0800 by paper_tables.py (l1-paper-tables-1)",
+  "dedup rule applied to the hosted raw logs before evaluation: last row per (mode, thinking, repeat, item_id); hosted logs only",
+  "suite suite.jsonl sha256 0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+  "adjustment schema sha256 1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+  "ladder anchors: /home/ziheng/PaperL1/analysis/ladder (reconciliation 4208/4208 passed)",
+  "/home/ziheng/PaperL1/results/e1_eval_qwen14b/summary.json sha256 793c76b07b492ef0fd70878913b6c90449fa7d884edd530817eaf98c1c51c1c8",
+  "/home/ziheng/PaperL1/results/e1_eval_qwen27b/summary.json sha256 78745e80ca0550e27d754b70e2e8f8bd7d33a6ba11b419852ec4c05a9c5a57d5",
+  "/home/ziheng/PaperL1/results/e1_eval_glm9b/summary.json sha256 bb806173f35bcd5013b1a9b77223f0d2e16346375670a6dca65dbb8859099724",
+  "/home/ziheng/PaperL1/results/e1_eval_gpt54mini/summary.json sha256 5da1e6beba8ac75283ee1e5f9352c2fff80eb08fe74f590e551b35b5364fa028",
+  "/home/ziheng/PaperL1/results/e1_eval_deepseek/summary.json sha256 574ebad8772fe47ec758487469231be95f2e457399fa619ad553b571dc8ee8f9",
+  "/home/ziheng/PaperL1/results/e1_eval_sonnet5/summary.json sha256 e50203a3a4474af675a4ed1e397c52ecd1f1b057502f21987d01ec6e8878e4f6",
+  "/home/ziheng/PaperL1/results/e1_eval_opus5/summary.json sha256 d1ab21e2a71280e44d8eed9feda0f8031e4c3160d17fd995414d6a1398ae4f15",
+  "/home/ziheng/PaperL1/results/e1_eval_sol/summary.json sha256 fa3ae6264fcdfbd3b311ad59a8ed88bc8540176adea8b4b043b2fecf5086379d",
+  "/home/ziheng/PaperL1/results/e2_tau_sweep/curves.csv sha256 e9ca179c57029c6ae23d0512f12da901884072192c96addff321de94bf04fc76",
+  "rows are the accepted record; every overlapping cell is asserted equal to it"
+ ],
+ "table_reconciliation": {
+  "failed": 0,
+  "passed": 1036,
+  "total": 1036
+ },
+ "tables": [
+  {
+   "name": "T1_e1_main",
+   "rows": 133
+  },
+  {
+   "name": "T2_enforcement_ladder",
+   "rows": 19
+  },
+  {
+   "name": "T3_guard_value_curve",
+   "rows": 10
+  },
+  {
+   "name": "T4_trustworthiness",
+   "rows": 180
+  },
+  {
+   "name": "T5_ladder",
+   "rows": 193
+  },
+  {
+   "name": "T6_tau_calibration",
+   "rows": 152
+  },
+  {
+   "name": "D1_v3_separation_breakdown",
+   "rows": 90
+  },
+  {
+   "name": "D2_class_disposition",
+   "rows": 133
+  }
+ ],
+ "tables_version": "l1-paper-tables-1",
+ "wall_s": 5.226372957229614
+}

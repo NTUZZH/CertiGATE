@@ -1,0 +1,52 @@
+{
+ "date": "2026-08-12 11:13:34 +08",
+ "arm": "sol",
+ "model": "gpt-5.6-sol",
+ "backend": "openai",
+ "wire": "openai",
+ "modes": [
+  "M_constrained"
+ ],
+ "thinking": [
+  "none"
+ ],
+ "thinking_bodies": {
+  "none": {
+   "reasoning_effort": "none"
+  }
+ },
+ "repeats": 1,
+ "items": 2000,
+ "groups": 116,
+ "cache_prefixes_per_pass": 327,
+ "max_tokens": 4096,
+ "workers": 8,
+ "timeout_s": 240.0,
+ "max_retries": 4,
+ "suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+ "schema_sha256": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+ "prompt_version": "l1-prompt-1.0.0",
+ "top_k": 10,
+ "cache_boundary": "\n\nWork orders this request refers to:",
+ "cache_boundary_fallback": "\n\nINSTRUCTION",
+ "mock": false,
+ "interrupted": false,
+ "planned_calls": 2000,
+ "rows_written": 2000,
+ "wall_s": 1405.9909898350015,
+ "price_base": "list",
+ "price_date": "2026-08-12",
+ "usd_estimated": 25.361290000000054,
+ "per_config": {
+  "M_constrained|none|r0": {
+   "calls": 2000,
+   "ok": 2000,
+   "error": 0,
+   "other": 0,
+   "usd": 25.361290000000054,
+   "out_tokens": 227013,
+   "latency_ms": 5152871.382152047
+  }
+ },
+ "dedupe_rule": "last row per (arm, mode, thinking, repeat, item_id) wins; an earlier row for a key is a superseded API error"
+}

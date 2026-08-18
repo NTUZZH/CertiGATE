@@ -1,0 +1,10 @@
+# D3 equivalence-aware translation fidelity; generated 2026-08-12 23:11:47
+# normalisation: numeric type unified; reorder relation inverted to canonical 'before'
+arm,benign_equiv,V3_equiv,V4_equiv
+qwen3-14b,604/800 (76%),189/220 (86%),141/220 (64%)
+qwen3.6-27b-fp8,710/800 (89%),208/220 (95%),190/220 (86%)
+glm-4-9b,565/800 (71%),164/220 (75%),113/220 (51%)
+mini,623/800 (78%),178/220 (81%),180/220 (82%)
+sonnet,714/800 (89%),203/220 (92%),207/220 (94%)
+opus,713/800 (89%),211/220 (96%),200/220 (91%)
+sol,662/800 (83%),197/220 (90%),205/220 (93%)

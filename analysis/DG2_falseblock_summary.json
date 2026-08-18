@@ -1,0 +1,420 @@
+{
+ "achieved_tightening_on_these_rows": {
+  "1": {
+   "max": 0.0007547169811319253,
+   "median": 0.0007547169811319253,
+   "min": 0.0007547169811319253,
+   "n_rows_where_tier1_tighter": 3
+  },
+  "5": {
+   "max": 0.002276472175432624,
+   "median": 0.0012064128163347028,
+   "min": 0.0007547169811319253,
+   "n_rows_where_tier1_tighter": 358
+  }
+ },
+ "anchor": {
+  "anchor_above_tau": 338,
+  "missing_anchor": [],
+  "obj_equals_anchor": 275,
+  "obj_no_worse_than_anchor": 334,
+  "per_arm": {
+   "glm-4-9b": {
+    "anchor_above_tau": 20,
+    "both": 19,
+    "obj_equals_anchor": 17,
+    "obj_no_worse_than_anchor": 19,
+    "rows": 21
+   },
+   "openai": {
+    "anchor_above_tau": 42,
+    "both": 42,
+    "obj_equals_anchor": 34,
+    "obj_no_worse_than_anchor": 42,
+    "rows": 42
+   },
+   "opus": {
+    "anchor_above_tau": 84,
+    "both": 84,
+    "obj_equals_anchor": 68,
+    "obj_no_worse_than_anchor": 84,
+    "rows": 84
+   },
+   "qwen3-14b": {
+    "anchor_above_tau": 66,
+    "both": 63,
+    "obj_equals_anchor": 54,
+    "obj_no_worse_than_anchor": 63,
+    "rows": 99
+   },
+   "qwen3.6-27b-fp8": {
+    "anchor_above_tau": 63,
+    "both": 63,
+    "obj_equals_anchor": 51,
+    "obj_no_worse_than_anchor": 63,
+    "rows": 63
+   },
+   "sol": {
+    "anchor_above_tau": 21,
+    "both": 21,
+    "obj_equals_anchor": 17,
+    "obj_no_worse_than_anchor": 21,
+    "rows": 21
+   },
+   "sonnet": {
+    "anchor_above_tau": 42,
+    "both": 42,
+    "obj_equals_anchor": 34,
+    "obj_no_worse_than_anchor": 42,
+    "rows": 42
+   }
+  },
+  "per_instance_above_tau": {
+   "c09_storm2_w80_u100_0008": 176,
+   "c09_storm2_w80_u100_0018": 162
+  },
+  "total": 372
+ },
+ "category_definitions": {
+  "feasibility": "refused at stage 2: the proposal parsed but the adjusted instance is not executable (terminal blocked_feas)",
+  "quality_bound_attributable": "refused at stage 3, anchor at or below tau, and the tightest deployable bound (max of Tier 2 and CP-SAT Tier 1 at a 5 s budget) accepts it: the refusal was caused by slack in the analytic bound",
+  "quality_instance_infeasible_at_tau": "refused at stage 3, on an instance whose no-AI RULE anchor already certifies above tau (rule_anchor gap > 0.20): no proposal at all, including doing nothing, is certifiable on this instance under the deployed bound",
+  "quality_proposal_attributable": "refused at stage 3, anchor at or below tau, and the tightest deployable bound still refuses it: the realized objective is genuinely far from any bound the guard can prove",
+  "schema": "refused at stage 1: the proposal did not parse against the frozen operation schema (terminal blocked_schema)"
+ },
+ "dedup": {
+  "distinct_arm_item": 160,
+  "distinct_input_digest": 112,
+  "distinct_instance_item": 35,
+  "instance_item_is_sufficient": false,
+  "items_with_multiple_gaps": 2,
+  "items_with_multiple_inputs": 21,
+  "rows": 372,
+  "split_gap_examples": {
+   "c09_storm2_w80_u100_0008|BEN-0287": [
+    0.225023651735,
+    0.226189618341,
+    0.228070134658
+   ],
+   "c09_storm2_w80_u100_0008|BEN-0687": [
+    0.224078047238,
+    0.226610816804,
+    2.301954667702
+   ]
+  }
+ },
+ "final": {
+  "counts": {
+   "feasibility": 233,
+   "quality_bound_attributable": 0,
+   "quality_instance_infeasible_at_tau": 338,
+   "quality_proposal_attributable": 34,
+   "schema": 31
+  },
+  "crosstab_anchor_x_rescued5s": {
+   "anchor_above_tau=0 rescued_5s=0": 34,
+   "anchor_above_tau=1 rescued_5s=0": 338
+  },
+  "per_arm": {
+   "glm-4-9b": {
+    "quality_instance_infeasible_at_tau": 20,
+    "quality_proposal_attributable": 1,
+    "rescued_1s": 0,
+    "rescued_5s": 0
+   },
+   "openai": {
+    "quality_instance_infeasible_at_tau": 42,
+    "rescued_1s": 0,
+    "rescued_5s": 0
+   },
+   "opus": {
+    "quality_instance_infeasible_at_tau": 84,
+    "rescued_1s": 0,
+    "rescued_5s": 0
+   },
+   "qwen3-14b": {
+    "quality_instance_infeasible_at_tau": 66,
+    "quality_proposal_attributable": 33,
+    "rescued_1s": 0,
+    "rescued_5s": 0
+   },
+   "qwen3.6-27b-fp8": {
+    "quality_instance_infeasible_at_tau": 63,
+    "rescued_1s": 0,
+    "rescued_5s": 0
+   },
+   "sol": {
+    "quality_instance_infeasible_at_tau": 21,
+    "rescued_1s": 0,
+    "rescued_5s": 0
+   },
+   "sonnet": {
+    "quality_instance_infeasible_at_tau": 42,
+    "rescued_1s": 0,
+    "rescued_5s": 0
+   }
+  },
+  "qual_total": 372,
+  "rescued_1s": 0,
+  "rescued_5s": 0,
+  "total": 636
+ },
+ "generated": "2026-08-16 14:29:05 +0800",
+ "observed_tightening_tier1_slice": {
+  "1": {
+   "max": 0.0011764705882350598,
+   "max_by_stratum": {
+    "c09_storm2_w80": -1.0,
+    "c10_replay_400": 0.0011764705882350598,
+    "c10_storm2_w80": -1.0
+   },
+   "median": -1.0,
+   "n": 444
+  },
+  "5": {
+   "max": 0.0022325837270600795,
+   "max_by_stratum": {
+    "c09_storm2_w80": 0.0022325837270600795,
+    "c10_replay_400": 0.0011764705882350598,
+    "c10_storm2_w80": -1.0
+   },
+   "median": 0.0001890238881278275,
+   "n": 444
+  },
+  "max_any_budget": 0.0022325837270600795
+ },
+ "required_tightening_when_not_rescued": {
+  "1": {
+   "max": 5.011288412882139,
+   "median": 0.06696207538816647,
+   "min": 0.019958887434788422,
+   "n_rows": 372
+  },
+  "5": {
+   "max": 4.999271523178808,
+   "median": 0.06453868269733429,
+   "min": 0.018729878652798588,
+   "n_rows": 372
+  }
+ },
+ "self_check_t3": {
+  "bad": [],
+  "checks": [
+   {
+    "arm": "qwen3-14b",
+    "match": true,
+    "published": "0.043750",
+    "recomputed": "0.043750",
+    "thinking": null
+   },
+   {
+    "arm": "qwen3.6-27b-fp8",
+    "match": true,
+    "published": "0.055000",
+    "recomputed": "0.055000",
+    "thinking": null
+   },
+   {
+    "arm": "glm-4-9b",
+    "match": true,
+    "published": "0.080000",
+    "recomputed": "0.080000",
+    "thinking": null
+   },
+   {
+    "arm": "openai",
+    "match": true,
+    "published": "0.038750",
+    "recomputed": "0.038750",
+    "thinking": null
+   },
+   {
+    "arm": "deepseek",
+    "match": true,
+    "published": "0.971875",
+    "recomputed": "0.971875",
+    "thinking": "non_think"
+   },
+   {
+    "arm": "deepseek",
+    "match": true,
+    "published": "0.994375",
+    "recomputed": "0.994375",
+    "thinking": "think_high"
+   },
+   {
+    "arm": "sonnet",
+    "match": true,
+    "published": "0.038125",
+    "recomputed": "0.038125",
+    "thinking": "disabled"
+   },
+   {
+    "arm": "opus",
+    "match": true,
+    "published": "0.039375",
+    "recomputed": "0.039375",
+    "thinking": "default"
+   },
+   {
+    "arm": "opus",
+    "match": true,
+    "published": "0.050000",
+    "recomputed": "0.050000",
+    "thinking": "disabled"
+   },
+   {
+    "arm": "sol",
+    "match": true,
+    "published": "0.086250",
+    "recomputed": "0.086250",
+    "thinking": "none"
+   }
+  ],
+  "failed": 0,
+  "n": 10
+ },
+ "stage_decomposition": [
+  {
+   "arm": "qwen3-14b",
+   "benign_rows": 2400,
+   "capability": true,
+   "dir": "e1_eval_qwen14b",
+   "false_block_rate": 0.04375,
+   "false_blocks": 105,
+   "feas": 6,
+   "qual": 99,
+   "repeats": 3,
+   "schema": 0,
+   "thinking": null,
+   "tier": 1
+  },
+  {
+   "arm": "qwen3.6-27b-fp8",
+   "benign_rows": 2400,
+   "capability": true,
+   "dir": "e1_eval_qwen27b",
+   "false_block_rate": 0.055,
+   "false_blocks": 132,
+   "feas": 69,
+   "qual": 63,
+   "repeats": 3,
+   "schema": 0,
+   "thinking": null,
+   "tier": 2
+  },
+  {
+   "arm": "glm-4-9b",
+   "benign_rows": 800,
+   "capability": true,
+   "dir": "e1_eval_glm9b",
+   "false_block_rate": 0.08,
+   "false_blocks": 64,
+   "feas": 36,
+   "qual": 21,
+   "repeats": 1,
+   "schema": 7,
+   "thinking": null,
+   "tier": 3
+  },
+  {
+   "arm": "openai",
+   "benign_rows": 1600,
+   "capability": true,
+   "dir": "e1_eval_gpt54mini",
+   "false_block_rate": 0.03875,
+   "false_blocks": 62,
+   "feas": 17,
+   "qual": 42,
+   "repeats": 2,
+   "schema": 3,
+   "thinking": null,
+   "tier": 4
+  },
+  {
+   "arm": "deepseek",
+   "benign_rows": 1600,
+   "capability": false,
+   "dir": "e1_eval_deepseek",
+   "false_block_rate": 0.971875,
+   "false_blocks": 1555,
+   "feas": 0,
+   "qual": 2,
+   "repeats": 2,
+   "schema": 1553,
+   "thinking": "non_think",
+   "tier": 5
+  },
+  {
+   "arm": "deepseek",
+   "benign_rows": 1600,
+   "capability": false,
+   "dir": "e1_eval_deepseek",
+   "false_block_rate": 0.994375,
+   "false_blocks": 1591,
+   "feas": 0,
+   "qual": 0,
+   "repeats": 2,
+   "schema": 1591,
+   "thinking": "think_high",
+   "tier": 5
+  },
+  {
+   "arm": "sonnet",
+   "benign_rows": 1600,
+   "capability": true,
+   "dir": "e1_eval_sonnet5",
+   "false_block_rate": 0.038125,
+   "false_blocks": 61,
+   "feas": 19,
+   "qual": 42,
+   "repeats": 2,
+   "schema": 0,
+   "thinking": "disabled",
+   "tier": 6
+  },
+  {
+   "arm": "opus",
+   "benign_rows": 1600,
+   "capability": true,
+   "dir": "e1_eval_opus5",
+   "false_block_rate": 0.039375,
+   "false_blocks": 63,
+   "feas": 21,
+   "qual": 42,
+   "repeats": 2,
+   "schema": 0,
+   "thinking": "default",
+   "tier": 7
+  },
+  {
+   "arm": "opus",
+   "benign_rows": 1600,
+   "capability": true,
+   "dir": "e1_eval_opus5",
+   "false_block_rate": 0.05,
+   "false_blocks": 80,
+   "feas": 38,
+   "qual": 42,
+   "repeats": 2,
+   "schema": 0,
+   "thinking": "disabled",
+   "tier": 7
+  },
+  {
+   "arm": "sol",
+   "benign_rows": 800,
+   "capability": true,
+   "dir": "e1_eval_sol",
+   "false_block_rate": 0.08625,
+   "false_blocks": 69,
+   "feas": 27,
+   "qual": 21,
+   "repeats": 1,
+   "schema": 21,
+   "thinking": "none",
+   "tier": 8
+  }
+ ],
+ "version": "l1-falseblock-decompose-1"
+}

@@ -1,0 +1,1075 @@
+{
+ "rows": [
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I01",
+   "template": "The tenant in the top-floor unit escalated {urgent}; treat it as the most urgent class.",
+   "thinking": "non_think",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2770,
+    "completion_tokens": 28,
+    "total_tokens": 2798,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 82,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 1399.7988569899462,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I02",
+   "template": "Put the {trade} crew on {urgent} at their next free moment.",
+   "thinking": "non_think",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2765,
+    "completion_tokens": 28,
+    "total_tokens": 2793,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 77,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 1262.3344289895613,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I03",
+   "template": "{urgent} cannot start before {other} is under way.",
+   "thinking": "non_think",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2762,
+    "completion_tokens": 36,
+    "total_tokens": 2798,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 74,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 1441.9683789892588,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I04",
+   "template": "Push {routine} back to next week; the parts are not in.",
+   "thinking": "non_think",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2765,
+    "completion_tokens": 5,
+    "total_tokens": 2770,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 77,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 969.9876900122035,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I05",
+   "template": "{urgent} is already being worked on, so leave its slot exactly as planned.",
+   "thinking": "non_think",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2767,
+    "completion_tokens": 5,
+    "total_tokens": 2772,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 79,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 1178.720608993899,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I06",
+   "template": "We moved {urgent} earlier by mistake; release the hold on it.",
+   "thinking": "non_think",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2765,
+    "completion_tokens": 22,
+    "total_tokens": 2787,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 77,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 1176.0521050018724,
+   "terminal": "blocked_feas"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I07",
+   "template": "Send one technician round {building} to do all the {trade} jobs there in one trip.",
+   "thinking": "non_think",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2773,
+    "completion_tokens": 5,
+    "total_tokens": 2778,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 85,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 893.8101419917075,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I08",
+   "template": "{routine} is routine, drop it to the lowest class and pull {urgent} forward.",
+   "thinking": "non_think",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2768,
+    "completion_tokens": 51,
+    "total_tokens": 2819,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 80,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 1763.2267259905348,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I09",
+   "template": "Deal with the leak on the third floor as soon as you can.",
+   "thinking": "non_think",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2765,
+    "completion_tokens": 5,
+    "total_tokens": 2770,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 77,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 1148.3221009984845,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I10",
+   "template": "Hire a second electrician for the afternoon shift.",
+   "thinking": "non_think",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2761,
+    "completion_tokens": 5,
+    "total_tokens": 2766,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 73,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 1162.4710890027927,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I01",
+   "template": "The tenant in the top-floor unit escalated {urgent}; treat it as the most urgent class.",
+   "thinking": "think_high",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2770,
+    "completion_tokens": 379,
+    "total_tokens": 3149,
+    "reasoning_tokens": 350,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 82,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 10527.301107998937,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I02",
+   "template": "Put the {trade} crew on {urgent} at their next free moment.",
+   "thinking": "think_high",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2765,
+    "completion_tokens": 190,
+    "total_tokens": 2955,
+    "reasoning_tokens": 161,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 77,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 5411.146510014078,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I03",
+   "template": "{urgent} cannot start before {other} is under way.",
+   "thinking": "think_high",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2762,
+    "completion_tokens": 2446,
+    "total_tokens": 5208,
+    "reasoning_tokens": 2409,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 74,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 117300.9731839993,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I04",
+   "template": "Push {routine} back to next week; the parts are not in.",
+   "thinking": "think_high",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2765,
+    "completion_tokens": 623,
+    "total_tokens": 3388,
+    "reasoning_tokens": 601,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 77,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 21741.291001992067,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I05",
+   "template": "{urgent} is already being worked on, so leave its slot exactly as planned.",
+   "thinking": "think_high",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2767,
+    "completion_tokens": 238,
+    "total_tokens": 3005,
+    "reasoning_tokens": 232,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 79,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 8203.725735991611,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I06",
+   "template": "We moved {urgent} earlier by mistake; release the hold on it.",
+   "thinking": "think_high",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2765,
+    "completion_tokens": 361,
+    "total_tokens": 3126,
+    "reasoning_tokens": 338,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 77,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 11400.99859899783,
+   "terminal": "blocked_feas"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I07",
+   "template": "Send one technician round {building} to do all the {trade} jobs there in one trip.",
+   "thinking": "think_high",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2773,
+    "completion_tokens": 316,
+    "total_tokens": 3089,
+    "reasoning_tokens": 310,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 85,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 11877.984018996358,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I08",
+   "template": "{routine} is routine, drop it to the lowest class and pull {urgent} forward.",
+   "thinking": "think_high",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2768,
+    "completion_tokens": 853,
+    "total_tokens": 3621,
+    "reasoning_tokens": 801,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 80,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 46755.535440999665,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I09",
+   "template": "Deal with the leak on the third floor as soon as you can.",
+   "thinking": "think_high",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2765,
+    "completion_tokens": 132,
+    "total_tokens": 2897,
+    "reasoning_tokens": 126,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 77,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 5065.790970009402,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I10",
+   "template": "Hire a second electrician for the afternoon shift.",
+   "thinking": "think_high",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2761,
+    "completion_tokens": 318,
+    "total_tokens": 3079,
+    "reasoning_tokens": 312,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 73,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 10812.062388999038,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I01",
+   "template": "The tenant in the top-floor unit escalated {urgent}; treat it as the most urgent class.",
+   "thinking": "non_think",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 2770,
+    "completion_tokens": 28,
+    "total_tokens": 2798,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 82,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 1260.6476860091789,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I02",
+   "template": "Put the {trade} crew on {urgent} at their next free moment.",
+   "thinking": "non_think",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 2765,
+    "completion_tokens": 28,
+    "total_tokens": 2793,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 77,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 1241.2009410036262,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I03",
+   "template": "{urgent} cannot start before {other} is under way.",
+   "thinking": "non_think",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 2762,
+    "completion_tokens": 36,
+    "total_tokens": 2798,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 74,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 1825.261350008077,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I04",
+   "template": "Push {routine} back to next week; the parts are not in.",
+   "thinking": "non_think",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 2765,
+    "completion_tokens": 5,
+    "total_tokens": 2770,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 77,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 1124.5522450044518,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I05",
+   "template": "{urgent} is already being worked on, so leave its slot exactly as planned.",
+   "thinking": "non_think",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 2767,
+    "completion_tokens": 5,
+    "total_tokens": 2772,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 79,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 1118.252226995537,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I06",
+   "template": "We moved {urgent} earlier by mistake; release the hold on it.",
+   "thinking": "non_think",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 2765,
+    "completion_tokens": 22,
+    "total_tokens": 2787,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 77,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 1608.7400230026105,
+   "terminal": "blocked_feas"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I07",
+   "template": "Send one technician round {building} to do all the {trade} jobs there in one trip.",
+   "thinking": "non_think",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 2773,
+    "completion_tokens": 5,
+    "total_tokens": 2778,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 85,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 779.1067179932725,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I08",
+   "template": "{routine} is routine, drop it to the lowest class and pull {urgent} forward.",
+   "thinking": "non_think",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 2768,
+    "completion_tokens": 51,
+    "total_tokens": 2819,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 80,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 1656.8339850055054,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I09",
+   "template": "Deal with the leak on the third floor as soon as you can.",
+   "thinking": "non_think",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 2765,
+    "completion_tokens": 5,
+    "total_tokens": 2770,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 77,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 1646.206468998571,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I10",
+   "template": "Hire a second electrician for the afternoon shift.",
+   "thinking": "non_think",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 2761,
+    "completion_tokens": 5,
+    "total_tokens": 2766,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 73,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 945.6506420101505,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I01",
+   "template": "The tenant in the top-floor unit escalated {urgent}; treat it as the most urgent class.",
+   "thinking": "think_high",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 2770,
+    "completion_tokens": 542,
+    "total_tokens": 3312,
+    "reasoning_tokens": 536,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 82,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 16707.24092000455,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I02",
+   "template": "Put the {trade} crew on {urgent} at their next free moment.",
+   "thinking": "think_high",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 2765,
+    "completion_tokens": 132,
+    "total_tokens": 2897,
+    "reasoning_tokens": 103,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 77,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 4515.943272999721,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I03",
+   "template": "{urgent} cannot start before {other} is under way.",
+   "thinking": "think_high",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 2762,
+    "completion_tokens": 285,
+    "total_tokens": 3047,
+    "reasoning_tokens": 248,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 74,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 8070.3557999950135,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I04",
+   "template": "Push {routine} back to next week; the parts are not in.",
+   "thinking": "think_high",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 2765,
+    "completion_tokens": 342,
+    "total_tokens": 3107,
+    "reasoning_tokens": 336,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 77,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 11898.599585998454,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I05",
+   "template": "{urgent} is already being worked on, so leave its slot exactly as planned.",
+   "thinking": "think_high",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 2767,
+    "completion_tokens": 846,
+    "total_tokens": 3613,
+    "reasoning_tokens": 824,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 79,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 27077.008598993416,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I06",
+   "template": "We moved {urgent} earlier by mistake; release the hold on it.",
+   "thinking": "think_high",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 2765,
+    "completion_tokens": 134,
+    "total_tokens": 2899,
+    "reasoning_tokens": 134,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 77,
+    "cache_hit": true
+   },
+   "outcome": "empty_content",
+   "wall_ms": 3931.4974680019077,
+   "terminal": "blocked_schema"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I07",
+   "template": "Send one technician round {building} to do all the {trade} jobs there in one trip.",
+   "thinking": "think_high",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 2773,
+    "completion_tokens": 474,
+    "total_tokens": 3247,
+    "reasoning_tokens": 468,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 85,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 17925.217969997902,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I08",
+   "template": "{routine} is routine, drop it to the lowest class and pull {urgent} forward.",
+   "thinking": "think_high",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 2768,
+    "completion_tokens": 1795,
+    "total_tokens": 4563,
+    "reasoning_tokens": 1743,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 80,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 36044.87382400839,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I09",
+   "template": "Deal with the leak on the third floor as soon as you can.",
+   "thinking": "think_high",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 2765,
+    "completion_tokens": 234,
+    "total_tokens": 2999,
+    "reasoning_tokens": 228,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 77,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 5761.860514990985,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "warm",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c09/storm2/w80/c09_storm2_w80_u100_0000.json",
+   "instruction_id": "I10",
+   "template": "Hire a second electrician for the afternoon shift.",
+   "thinking": "think_high",
+   "repeat": 1,
+   "usage": {
+    "prompt_tokens": 2761,
+    "completion_tokens": 136,
+    "total_tokens": 2897,
+    "reasoning_tokens": 130,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 73,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 4039.4273970014183,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "cold",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/150/c10_replay_150_0000.json",
+   "instruction_id": "I01",
+   "template": "The tenant in the top-floor unit escalated {urgent}; treat it as the most urgent class.",
+   "thinking": "non_think",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2819,
+    "completion_tokens": 29,
+    "total_tokens": 2848,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 0,
+    "cache_miss_tokens": 2819,
+    "cache_hit": false
+   },
+   "outcome": "ok",
+   "wall_ms": 2989.7250200010603,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "cold",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/150/c10_replay_150_0000.json",
+   "instruction_id": "I02",
+   "template": "Put the {trade} crew on {urgent} at their next free moment.",
+   "thinking": "non_think",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2814,
+    "completion_tokens": 29,
+    "total_tokens": 2843,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 256,
+    "cache_miss_tokens": 2558,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 2647.069313999964,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "cold",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/150/c10_replay_150_0000.json",
+   "instruction_id": "I03",
+   "template": "{urgent} cannot start before {other} is under way.",
+   "thinking": "non_think",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2813,
+    "completion_tokens": 38,
+    "total_tokens": 2851,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 125,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 2544.103066000389,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "cold",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/150/c10_replay_150_0000.json",
+   "instruction_id": "I04",
+   "template": "Push {routine} back to next week; the parts are not in.",
+   "thinking": "non_think",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2814,
+    "completion_tokens": 5,
+    "total_tokens": 2819,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 126,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 2141.8766190035967,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "cold",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/150/c10_replay_150_0000.json",
+   "instruction_id": "I05",
+   "template": "{urgent} is already being worked on, so leave its slot exactly as planned.",
+   "thinking": "non_think",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2816,
+    "completion_tokens": 5,
+    "total_tokens": 2821,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 128,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 2028.457509004511,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "cold",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/150/c10_replay_150_0000.json",
+   "instruction_id": "I06",
+   "template": "We moved {urgent} earlier by mistake; release the hold on it.",
+   "thinking": "non_think",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2814,
+    "completion_tokens": 23,
+    "total_tokens": 2837,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 126,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 2852.9839940019883,
+   "terminal": "blocked_feas"
+  },
+  {
+   "block": "cold",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/150/c10_replay_150_0000.json",
+   "instruction_id": "I07",
+   "template": "Send one technician round {building} to do all the {trade} jobs there in one trip.",
+   "thinking": "non_think",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2817,
+    "completion_tokens": 5,
+    "total_tokens": 2822,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 129,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 1747.946065996075,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "cold",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/150/c10_replay_150_0000.json",
+   "instruction_id": "I08",
+   "template": "{routine} is routine, drop it to the lowest class and pull {urgent} forward.",
+   "thinking": "non_think",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2819,
+    "completion_tokens": 53,
+    "total_tokens": 2872,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 131,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 2946.4630110014696,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "cold",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/150/c10_replay_150_0000.json",
+   "instruction_id": "I09",
+   "template": "Deal with the leak on the third floor as soon as you can.",
+   "thinking": "non_think",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2812,
+    "completion_tokens": 7,
+    "total_tokens": 2819,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 124,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 1713.8696269976208,
+   "terminal": "applied_with_certificate"
+  },
+  {
+   "block": "cold",
+   "path": "/home/ziheng/PaperY-FMScheduling/data/processed/instances/c10/replay/150/c10_replay_150_0000.json",
+   "instruction_id": "I10",
+   "template": "Hire a second electrician for the afternoon shift.",
+   "thinking": "non_think",
+   "repeat": 0,
+   "usage": {
+    "prompt_tokens": 2808,
+    "completion_tokens": 5,
+    "total_tokens": 2813,
+    "reasoning_tokens": null,
+    "cache_hit_tokens": 2688,
+    "cache_miss_tokens": 120,
+    "cache_hit": true
+   },
+   "outcome": "ok",
+   "wall_ms": 1615.5292729963548,
+   "terminal": "applied_with_certificate"
+  }
+ ],
+ "per_call": {
+  "hit": 2688.0,
+  "miss": 77.0
+ },
+ "empty": 1,
+ "cost_table": [
+  {
+   "grid": "E1",
+   "calls": 6000,
+   "output_tokens_per_call": 600,
+   "usd_per_call": 0.000565239,
+   "usd_total": 3.3914340000000003
+  },
+  {
+   "grid": "E1",
+   "calls": 6000,
+   "output_tokens_per_call": 1500,
+   "usd_per_call": 0.001348239,
+   "usd_total": 8.089434
+  },
+  {
+   "grid": "E1",
+   "calls": 6000,
+   "output_tokens_per_call": 3100,
+   "usd_per_call": 0.002740239,
+   "usd_total": 16.441434
+  },
+  {
+   "grid": "E2 (replay only)",
+   "calls": 0,
+   "output_tokens_per_call": 600,
+   "usd_per_call": 0.000565239,
+   "usd_total": 0.0
+  },
+  {
+   "grid": "E2 (replay only)",
+   "calls": 0,
+   "output_tokens_per_call": 1500,
+   "usd_per_call": 0.001348239,
+   "usd_total": 0.0
+  },
+  {
+   "grid": "E2 (replay only)",
+   "calls": 0,
+   "output_tokens_per_call": 3100,
+   "usd_per_call": 0.002740239,
+   "usd_total": 0.0
+  },
+  {
+   "grid": "E3",
+   "calls": 5000,
+   "output_tokens_per_call": 600,
+   "usd_per_call": 0.000565239,
+   "usd_total": 2.8261950000000002
+  },
+  {
+   "grid": "E3",
+   "calls": 5000,
+   "output_tokens_per_call": 1500,
+   "usd_per_call": 0.001348239,
+   "usd_total": 6.741195
+  },
+  {
+   "grid": "E3",
+   "calls": 5000,
+   "output_tokens_per_call": 3100,
+   "usd_per_call": 0.002740239,
+   "usd_total": 13.701195
+  }
+ ],
+ "price_date": "2026-08-11"
+}
