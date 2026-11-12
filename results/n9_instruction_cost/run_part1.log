@@ -1,0 +1,261 @@
+[n9] 880 items prepared on 58 instances (146.5s)
+{
+  "items": {
+    "published:V3": 220,
+    "published:twin": 220,
+    "heldout:V3": 220,
+    "heldout:twin": 220
+  },
+  "distinct_components": 904,
+  "components_closed_without_solve": 183,
+  "constrained_solves": 721,
+  "trades_per_solve": {
+    "1": 87,
+    "2": 566,
+    "3": 68
+  },
+  "solves_by_component_orders": {
+    "<=150": 89,
+    "<=1500": 245,
+    "<=400": 150,
+    "<=700": 136,
+    ">1500": 101
+  },
+  "relaxed_trades_to_solve": 45,
+  "cap_wall_h": 12.766666666666667,
+  "est_wall_h_by_size": 5.449861111111111,
+  "items_with_relaxed_gaps": 90,
+  "baseline_reassembly_max_dev_bh": 0.0
+}
+[n9]   V3-0001 D30+E10 orders=701 edges=1 status=OPTIMAL lower=367.2800 upper=367.8464 wall=3.5s cpu_share=0.583 foreign=0.0
+[n9] 1 published/V3 V3-0001 c=[0.17301, 0.17409] complete=True elapsed=3s
+[n9]   V3-0002 D30+D50 orders=1292 edges=1 status=OPTIMAL lower=486.4800 upper=487.0976 wall=13.0s cpu_share=0.86 foreign=0.002
+[n9] 2 published/V3 V3-0002 c=[0.48084, 0.48219] complete=True elapsed=16s
+[n9]   V3-0003 C30+D40 orders=167 edges=1 status=OPTIMAL lower=636.8800 upper=637.3968 wall=0.1s cpu_share=0.365 foreign=0.031
+[n9] 3 published/V3 V3-0003 c=[0.88278, 0.88401] complete=True elapsed=17s
+[n9]   V3-0004 D30+D40 orders=701 edges=1 status=OPTIMAL lower=967.0000 upper=968.0636 wall=4.6s cpu_share=0.74 foreign=0.0
+[n9] 4 published/V3 V3-0004 c=[0.12916, 0.1302] complete=True elapsed=21s
+[n9]   V3-0005 D20+D30 orders=960 edges=1 status=OPTIMAL lower=403.5600 upper=403.9352 wall=18.0s cpu_share=0.927 foreign=0.002
+[n9] 5 published/V3 V3-0005 c=[0.04478, 0.0453] complete=True elapsed=39s
+[n9]   V3-0006 D20+D30 orders=953 edges=1 status=OPTIMAL lower=1023.3200 upper=1023.8628 wall=4.7s cpu_share=0.674 foreign=0.001
+[n9] 6 published/V3 V3-0006 c=[0.91175, 0.91281] complete=True elapsed=44s
+[n9]   V3-0007 D20 orders=367 edges=1 status=OPTIMAL lower=363.6800 upper=363.7784 wall=1.0s cpu_share=0.768 foreign=0.0
+[n9] 7 published/V3 V3-0007 c=[0.29765, 0.29779] complete=True elapsed=45s
+[n9]   V3-0008 D20+D30 orders=975 edges=1 status=OPTIMAL lower=455.1600 upper=455.6244 wall=15.9s cpu_share=0.912 foreign=0.001
+[n9] 8 published/V3 V3-0008 c=[0.42206, 0.42314] complete=True elapsed=61s
+[n9]   V3-0009 D30+D40 orders=751 edges=1 status=OPTIMAL lower=374.4800 upper=375.2376 wall=4.7s cpu_share=0.711 foreign=0.003
+[n9] 9 published/V3 V3-0009 c=[0.29991, 0.30188] complete=True elapsed=65s
+[n9]   V3-0010 D20+D30 orders=967 edges=1 status=OPTIMAL lower=977.9200 upper=978.8040 wall=23.8s cpu_share=0.932 foreign=0.001
+[n9] 10 published/V3 V3-0010 c=[0.86588, 0.8675] complete=True elapsed=89s
+[n9]   V3-0011 D30 orders=620 edges=1 status=OPTIMAL lower=277.4000 upper=277.6228 wall=4.0s cpu_share=0.68 foreign=0.001
+[n9] 11 published/V3 V3-0011 c=[0.29714, 0.29773] complete=True elapsed=93s
+[n9]   V3-0012 D20+D40 orders=486 edges=1 status=OPTIMAL lower=1174.8800 upper=1176.0556 wall=1.3s cpu_share=0.675 foreign=0.0
+[n9] 12 published/V3 V3-0012 c=[0.22194, 0.2233] complete=True elapsed=94s
+[n9]   V3-0013 E10+MISC orders=95 edges=1 status=OPTIMAL lower=771.4400 upper=771.5272 wall=0.1s cpu_share=0.597 foreign=0.058
+[n9] 13 published/V3 V3-0013 c=[0.72313, 0.72476] complete=True elapsed=95s
+[n9]   V3-0014 C10+E10 orders=153 edges=1 status=OPTIMAL lower=1005.7600 upper=1005.9312 wall=0.1s cpu_share=0.632 foreign=0.0
+[n9] 14 published/V3 V3-0014 c=[0.90281, 0.90316] complete=True elapsed=95s
+[n9]   V3-0015 C10+D30 orders=715 edges=1 status=OPTIMAL lower=945.3600 upper=945.9360 wall=5.9s cpu_share=0.797 foreign=0.0
+[n9] 15 published/V3 V3-0015 c=[0.8649, 0.8661] complete=True elapsed=101s
+[n9]   V3-0016 D20+D40 orders=481 edges=1 status=OPTIMAL lower=279.8400 upper=280.1224 wall=0.9s cpu_share=0.697 foreign=0.007
+[n9] 16 published/V3 V3-0016 c=[0.05352, 0.05409] complete=True elapsed=101s
+[n9]   V3-0017 D90+E10 orders=166 edges=1 status=OPTIMAL lower=147.9600 upper=148.0532 wall=0.1s cpu_share=0.477 foreign=0.003
+[n9] 17 published/V3 V3-0017 c=[0.05156, 0.05167] complete=True elapsed=102s
+[n9]   V3-0018 D50+E10 orders=757 edges=1 status=OPTIMAL lower=1095.5200 upper=1095.8080 wall=6.6s cpu_share=0.885 foreign=0.0
+[n9] 18 published/V3 V3-0018 c=[0.92626, 0.92671] complete=True elapsed=108s
+[n9]   V3-0019 D30+D40 orders=721 edges=1 status=OPTIMAL lower=209.4400 upper=209.8596 wall=7.4s cpu_share=0.838 foreign=0.001
+[n9] 19 published/V3 V3-0019 c=[0.5136, 0.52336] complete=True elapsed=116s
+[n9]   V3-0020 D30+E10 orders=696 edges=1 status=OPTIMAL lower=829.6000 upper=830.5360 wall=13.4s cpu_share=0.912 foreign=0.001
+[n9] 20 published/V3 V3-0020 c=[0.02417, 0.025] complete=True elapsed=129s
+[n9]   V3-0021 C30+D50 orders=757 edges=1 status=OPTIMAL lower=246.9600 upper=247.1152 wall=3.1s cpu_share=0.605 foreign=0.007
+[n9] 21 published/V3 V3-0021 c=[0.20114, 0.20193] complete=True elapsed=132s
+[n9]   V3-0022 D50+E10 orders=783 edges=1 status=OPTIMAL lower=1058.8000 upper=1059.0872 wall=4.0s cpu_share=0.796 foreign=0.002
+[n9] 22 published/V3 V3-0022 c=[0.53691, 0.53725] complete=True elapsed=136s
+[n9]   V3-0023 D30+E10 orders=660 edges=1 status=OPTIMAL lower=950.1200 upper=950.5680 wall=4.3s cpu_share=0.74 foreign=0.001
+[n9] 23 published/V3 V3-0023 c=[0.97296, 0.9737] complete=True elapsed=140s
+[n9]   V3-0024 C30+D20 orders=405 edges=1 status=OPTIMAL lower=226.4400 upper=227.0180 wall=0.9s cpu_share=0.682 foreign=0.0
+[n9] 24 published/V3 V3-0024 c=[0.05535, 0.05684] complete=True elapsed=141s
+[n9]   V3-0025 D50+E10 orders=779 edges=1 status=OPTIMAL lower=292.1600 upper=292.4352 wall=18.0s cpu_share=0.958 foreign=0.001
+[n9] 25 published/V3 V3-0025 c=[0.18598, 0.18656] complete=True elapsed=159s
+[n9]   V3-0026 D30+D50 orders=1292 edges=1 status=OPTIMAL lower=482.5600 upper=483.2208 wall=15.9s cpu_share=0.88 foreign=0.002
+[n9] 26 published/V3 V3-0026 c=[0.47226, 0.47371] complete=True elapsed=175s
+[n9]   V3-0027 D40+D90 orders=233 edges=1 status=OPTIMAL lower=645.5200 upper=646.0168 wall=0.1s cpu_share=0.364 foreign=0.019
+[n9] 27 published/V3 V3-0027 c=[0.90326, 0.90444] complete=True elapsed=175s
+[n9]   V3-0028 D20+D40 orders=463 edges=1 status=OPTIMAL lower=1089.3600 upper=1090.1696 wall=2.0s cpu_share=0.866 foreign=0.0
+[n9] 28 published/V3 V3-0028 c=[0.12621, 0.12937] complete=True elapsed=177s
+[n9]   V3-0029 D30 orders=602 edges=1 status=OPTIMAL lower=402.2000 upper=402.5576 wall=12.0s cpu_share=0.91 foreign=0.001
+[n9] 29 published/V3 V3-0029 c=[0.04289, 0.04339] complete=True elapsed=190s
+[n9]   V3-0030 D30+D50 orders=1298 edges=1 status=OPTIMAL lower=1024.2800 upper=1024.8564 wall=21.7s cpu_share=0.92 foreign=0.001
+[n9] 30 published/V3 V3-0030 c=[0.91323, 0.91434] complete=True elapsed=211s
+[n9]   V3-0031 D20 orders=367 edges=1 status=OPTIMAL lower=363.5200 upper=363.5608 wall=1.6s cpu_share=0.862 foreign=0.0
+[n9] 31 published/V3 V3-0031 c=[0.29742, 0.29748] complete=True elapsed=213s
+[n9]   V3-0032 D30 orders=625 edges=1 status=OPTIMAL lower=427.3600 upper=427.7724 wall=4.9s cpu_share=0.746 foreign=0.001
+[n9] 32 published/V3 V3-0032 c=[0.42814, 0.4291] complete=True elapsed=218s
+[n9]   V3-0033 D40+E10 orders=177 edges=1 status=OPTIMAL lower=330.1600 upper=330.4584 wall=0.1s cpu_share=0.363 foreign=0.018
+[n9] 33 published/V3 V3-0033 c=[0.32001, 0.32096] complete=True elapsed=218s
+[n9]   V3-0034 D30+D50 orders=1295 edges=1 status=OPTIMAL lower=944.2400 upper=944.9688 wall=9.4s cpu_share=0.804 foreign=0.001
+[n9] 34 published/V3 V3-0034 c=[0.86283, 0.86423] complete=True elapsed=227s
+[n9]   V3-0035 D30 orders=620 edges=1 status=OPTIMAL lower=277.6400 upper=277.8492 wall=10.4s cpu_share=0.89 foreign=0.001
+[n9] 35 published/V3 V3-0035 c=[0.29778, 0.29833] complete=True elapsed=238s
+[n9]   V3-0036 D30+D40 orders=752 edges=1 status=OPTIMAL lower=1173.0400 upper=1174.0516 wall=3.7s cpu_share=0.629 foreign=0.002
+[n9] 36 published/V3 V3-0036 c=[0.22178, 0.22305] complete=True elapsed=242s
+[n9]   V3-0037 MISC orders=19 edges=1 status=OPTIMAL lower=775.6000 upper=775.7160 wall=0.0s cpu_share=0.19 foreign=0.002
+[n9] 37 published/V3 V3-0037 c=[0.7283, 0.72997] complete=True elapsed=242s
+[n9]   V3-0038 D30+E10 orders=625 edges=1 status=OPTIMAL lower=1027.7200 upper=1028.0704 wall=7.5s cpu_share=0.843 foreign=0.004
+[n9] 38 published/V3 V3-0038 c=[0.90157, 0.90226] complete=True elapsed=249s
+[n9]   V3-0039 D30 orders=612 edges=1 status=OPTIMAL lower=940.0800 upper=940.6656 wall=3.6s cpu_share=0.672 foreign=0.0
+[n9] 39 published/V3 V3-0039 c=[0.85748, 0.85868] complete=True elapsed=253s
+[n9]   V3-0040 B30+D30 orders=118 edges=1 status=OPTIMAL lower=209.3200 upper=209.3600 wall=0.3s cpu_share=0.409 foreign=0.002
+[n9] 40 published/V3 V3-0040 c=[0.08708, 0.08717] complete=True elapsed=253s
+[n9]   V3-0041 D40+D50 orders=28 edges=1 status=OPTIMAL lower=148.8000 upper=148.8344 wall=0.0s cpu_share=0.297 foreign=0.0
+[n9] 41 published/V3 V3-0041 c=[0.10222, 0.10248] complete=True elapsed=253s
+[n9]   V3-0042 D20+D50 orders=221 edges=1 status=OPTIMAL lower=20.7200 upper=20.7288 wall=0.6s cpu_share=0.336 foreign=0.011
+[n9] 42 published/V3 V3-0042 c=[20.72, 20.7288] complete=True elapsed=254s
+[n9]   V3-0043 D30+D40 orders=169 edges=1 status=OPTIMAL lower=110.6400 upper=110.6968 wall=0.6s cpu_share=0.543 foreign=0.0
+[n9] 43 published/V3 V3-0043 c=[0.44, 0.44054] complete=True elapsed=254s
+[n9]   V3-0044 C10+D40 orders=108 edges=1 status=OPTIMAL lower=815.2800 upper=815.4984 wall=0.3s cpu_share=0.406 foreign=0.009
+[n9] 44 published/V3 V3-0044 c=[0.02382, 0.02407] complete=True elapsed=255s
+[n9]   V3-0045 D40+D50 orders=106 edges=1 status=OPTIMAL lower=37.6800 upper=37.7784 wall=0.2s cpu_share=0.393 foreign=0.005
+[n9] 45 published/V3 V3-0045 c=[37.68, 37.7784] complete=True elapsed=255s
+[n9]   V3-0046 D30+D50 orders=295 edges=1 status=OPTIMAL lower=154.8000 upper=154.9288 wall=1.2s cpu_share=0.535 foreign=0.0
+[n9] 46 published/V3 V3-0046 c=[0.1, 0.10087] complete=True elapsed=256s
+[n9]   V3-0047 D20+D30 orders=136 edges=1 status=OPTIMAL lower=12.3200 upper=12.3600 wall=0.3s cpu_share=0.473 foreign=0.001
+[n9] 47 published/V3 V3-0047 c=[1.464, 1.472] complete=True elapsed=256s
+[n9]   V3-0048 D30+D50 orders=270 edges=1 status=OPTIMAL lower=110.8400 upper=110.8780 wall=0.6s cpu_share=0.321 foreign=0.006
+[n9] 48 published/V3 V3-0048 c=[0.44189, 0.44225] complete=True elapsed=257s
+[n9]   V3-0049 C10+D30 orders=151 edges=1 status=OPTIMAL lower=345.6200 upper=345.7116 wall=0.5s cpu_share=0.333 foreign=0.004
+[n9] 49 published/V3 V3-0049 c=[0.76221, 0.76265] complete=True elapsed=258s
+[n9]   V3-0050 D20+D50 orders=271 edges=1 status=OPTIMAL lower=155.6800 upper=155.8184 wall=0.5s cpu_share=0.408 foreign=0.0
+[n9] 50 published/V3 V3-0050 c=[0.49742, 0.49854] complete=True elapsed=258s
+[n9]   V3-0051 D20+D30 orders=345 edges=1 status=OPTIMAL lower=6.0400 upper=6.0536 wall=1.1s cpu_share=0.445 foreign=0.015
+[n9] 51 published/V3 V3-0051 c=[1.01333, 1.01787] complete=True elapsed=259s
+[n9]   V3-0052 D20+D50 orders=271 edges=1 status=OPTIMAL lower=12.3200 upper=12.3588 wall=0.6s cpu_share=0.41 foreign=0.004
+[n9] 52 published/V3 V3-0052 c=[1.464, 1.47176] complete=True elapsed=260s
+[n9]   V3-0053 D30 orders=141 edges=1 status=OPTIMAL lower=103.2800 upper=103.3300 wall=0.4s cpu_share=0.383 foreign=0.0
+[n9] 53 published/V3 V3-0053 c=[0.37057, 0.37104] complete=True elapsed=260s
+[n9]   V3-0054 D30+D50 orders=269 edges=1 status=OPTIMAL lower=95.0400 upper=95.1036 wall=0.8s cpu_share=0.5 foreign=0.002
+[n9] 54 published/V3 V3-0054 c=[0.17861, 0.17924] complete=True elapsed=261s
+[n9]   V3-0055 D30 orders=100 edges=1 status=OPTIMAL lower=161.8400 upper=161.8612 wall=0.4s cpu_share=0.448 foreign=0.0
+[n9] 55 published/V3 V3-0055 c=[0.22606, 0.22622] complete=True elapsed=261s
+[n9]   V3-0056 D20+D30 orders=345 edges=1 status=OPTIMAL lower=6.0400 upper=6.0544 wall=1.2s cpu_share=0.357 foreign=0.006
+[n9] 56 published/V3 V3-0056 c=[1.01333, 1.01813] complete=True elapsed=263s
+[n9]   V3-0057 D40+D50 orders=4298 edges=1 status=UNKNOWN lower=853.6800 upper=943.5428 wall=63.2s cpu_share=0.663 foreign=0.005
+[n9] 57 published/V3 V3-0057 c=[None, None] complete=False elapsed=326s
+[n9]   V3-0058 D30+D40 orders=3367 edges=1 status=OPTIMAL lower=2146.4000 upper=2147.1040 wall=60.2s cpu_share=0.651 foreign=0.004
+[n9] 58 published/V3 V3-0058 c=[0.33859, 0.339] complete=True elapsed=386s
+[n9]   V3-0059 D30+D40 orders=3320 edges=1 status=FEASIBLE lower=1747.8600 upper=1825.7900 wall=63.6s cpu_share=0.692 foreign=0.003
+[n9] 59 published/V3 V3-0059 c=[None, None] complete=False elapsed=450s
+[n9]   V3-0060 D40+D50 orders=4343 edges=1 status=UNKNOWN lower=3142.9600 upper=3271.1592 wall=63.1s cpu_share=0.705 foreign=0.004
+[n9] 60 published/V3 V3-0060 c=[None, None] complete=False elapsed=513s
+[n9]   V3-0061 D40+D50 orders=4265 edges=1 status=FEASIBLE lower=2172.9800 upper=2200.0464 wall=63.2s cpu_share=0.701 foreign=0.01
+[n9] 61 published/V3 V3-0061 c=[None, None] complete=False elapsed=576s
+[n9]   V3-0062 D30+D40 orders=3355 edges=1 status=FEASIBLE lower=939.4600 upper=1019.1600 wall=63.6s cpu_share=0.67 foreign=0.005
+[n9] 62 published/V3 V3-0062 c=[None, None] complete=False elapsed=640s
+[n9]   V3-0063 D30+D40 orders=3347 edges=1 status=OPTIMAL lower=835.9200 upper=836.5740 wall=55.2s cpu_share=0.635 foreign=0.01
+[n9] 63 published/V3 V3-0063 c=[0.54393, 0.54513] complete=True elapsed=695s
+[n9]   V3-0064 D40+D50 orders=4180 edges=1 status=OPTIMAL lower=3332.4800 upper=3333.5456 wall=42.6s cpu_share=0.584 foreign=0.004
+[n9] 64 published/V3 V3-0064 c=[0.22092, 0.22188] complete=True elapsed=738s
+[n9]   V3-0065 D40+D50 orders=4210 edges=1 status=OPTIMAL lower=1093.1400 upper=1093.8632 wall=58.4s cpu_share=0.68 foreign=0.007
+[n9] 65 published/V3 V3-0065 c=[0.27465, 0.27537] complete=True elapsed=796s
+[n9]   V3-0066 D40+D50 orders=4123 edges=1 status=FEASIBLE lower=2017.8200 upper=2035.7324 wall=63.0s cpu_share=0.729 foreign=0.006
+[n9] 66 published/V3 V3-0066 c=[None, None] complete=False elapsed=859s
+[n9]   V3-0067 D40+D50 orders=4182 edges=1 status=FEASIBLE lower=1434.4800 upper=1445.6216 wall=63.0s cpu_share=0.721 foreign=0.004
+[n9] 67 published/V3 V3-0067 c=[None, None] complete=False elapsed=922s
+[n9]   V3-0068 D40+D50 orders=4287 edges=1 status=FEASIBLE lower=1678.3600 upper=1704.3216 wall=69.0s cpu_share=0.661 foreign=0.004
+[n9] 68 published/V3 V3-0068 c=[None, None] complete=False elapsed=991s
+[n9]   V3-0069 D40+D50 orders=4298 edges=1 status=UNKNOWN lower=854.5600 upper=936.4860 wall=63.2s cpu_share=0.694 foreign=0.004
+[n9] 69 published/V3 V3-0069 c=[None, None] complete=False elapsed=1054s
+[n9]   V3-0070 D20+D40 orders=1629 edges=1 status=OPTIMAL lower=2213.3600 upper=2214.3688 wall=44.6s cpu_share=0.928 foreign=0.001
+[n9] 70 published/V3 V3-0070 c=[0.33889, 0.33948] complete=True elapsed=1099s
+[n9]   V3-0071 D40+D50+E10 orders=903 edges=2 status=OPTIMAL lower=596.3200 upper=597.0048 wall=36.2s cpu_share=0.979 foreign=0.0
+[n9] 71 published/V3 V3-0071 c=[0.50646, 0.50843] complete=True elapsed=1135s
+[n9]   V3-0072 D20+D30 orders=961 edges=2 status=OPTIMAL lower=543.0400 upper=543.6064 wall=27.9s cpu_share=0.951 foreign=0.001
+[n9] 72 published/V3 V3-0072 c=[0.50357, 0.50481] complete=True elapsed=1163s
+[n9]   V3-0073 D40+D50+E10 orders=895 edges=2 status=OPTIMAL lower=1153.3600 upper=1154.0896 wall=7.4s cpu_share=0.889 foreign=0.0
+[n9] 73 published/V3 V3-0073 c=[2.01037, 2.0121] complete=True elapsed=1170s
+[n9]   V3-0074 D30+D40+D50 orders=1372 edges=2 status=OPTIMAL lower=1276.1200 upper=1277.1276 wall=11.9s cpu_share=0.854 foreign=0.004
+[n9] 74 published/V3 V3-0074 c=[0.33368, 0.33515] complete=True elapsed=1182s
+[n9]   V3-0075 D20+D30 orders=960 edges=1 status=OPTIMAL lower=413.8800 upper=414.2192 wall=9.7s cpu_share=0.861 foreign=0.001
+[n9]   V3-0075 E10 orders=71 edges=1 status=OPTIMAL lower=153.7600 upper=153.7872 wall=0.0s cpu_share=0.472 foreign=0.024
+[n9] 75 published/V3 V3-0075 c=[0.14068, 0.14119] complete=True elapsed=1192s
+[n9]   V3-0076 C30+D30 orders=651 edges=2 status=OPTIMAL lower=1346.6000 upper=1347.1632 wall=6.5s cpu_share=0.827 foreign=0.001
+[n9] 76 published/V3 V3-0076 c=[1.23873, 1.23991] complete=True elapsed=1199s
+[n9]   V3-0077 C30+D40 orders=182 edges=1 status=OPTIMAL lower=798.1600 upper=798.7504 wall=0.1s cpu_share=0.381 foreign=0.028
+[n9]   V3-0077 D20+D30 orders=988 edges=1 status=OPTIMAL lower=442.3200 upper=442.7288 wall=11.7s cpu_share=0.884 foreign=0.0
+[n9] 77 published/V3 V3-0077 c=[1.09993, 1.10138] complete=True elapsed=1210s
+[n9]   V3-0078 D20+MISC orders=370 edges=1 status=OPTIMAL lower=342.0000 upper=342.1320 wall=1.0s cpu_share=0.758 foreign=0.001
+[n9]   V3-0078 D30+D40 orders=745 edges=1 status=OPTIMAL lower=503.1600 upper=503.8264 wall=4.7s cpu_share=0.717 foreign=0.001
+[n9] 78 published/V3 V3-0078 c=[0.99317, 0.99503] complete=True elapsed=1216s
+[n9]   V3-0079 B30+D50 orders=761 edges=1 status=OPTIMAL lower=364.8800 upper=364.9640 wall=7.6s cpu_share=0.888 foreign=0.0
+[n9]   V3-0079 D30+D40 orders=751 edges=1 status=OPTIMAL lower=371.4400 upper=372.2224 wall=5.9s cpu_share=0.783 foreign=0.001
+[n9] 79 published/V3 V3-0079 c=[0.855, 0.85777] complete=True elapsed=1230s
+[n9]   V3-0080 B20+D40 orders=150 edges=1 status=OPTIMAL lower=443.7600 upper=445.9727 wall=0.2s cpu_share=0.583 foreign=0.01
+[n9]   V3-0080 D10+D30 orders=632 edges=1 status=OPTIMAL lower=943.0400 upper=943.6416 wall=4.0s cpu_share=0.695 foreign=0.001
+[n9] 80 published/V3 V3-0080 c=[1.00743, 1.01228] complete=True elapsed=1234s
+[n9]   V3-0081 D30+D50 orders=1310 edges=1 status=OPTIMAL lower=284.8400 upper=285.0680 wall=6.5s cpu_share=0.605 foreign=0.002
+[n9]   V3-0081 E20+MISC orders=57 edges=1 status=OPTIMAL lower=354.1600 upper=354.2208 wall=0.0s cpu_share=0.363 foreign=0.0
+[n9] 81 published/V3 V3-0081 c=[0.95837, 0.95914] complete=True elapsed=1240s
+[n9]   V3-0082 B30+D30+D40 orders=783 edges=2 status=OPTIMAL lower=1571.0400 upper=1572.0900 wall=4.4s cpu_share=0.707 foreign=0.003
+[n9] 82 published/V3 V3-0082 c=[0.25965, 0.26097] complete=True elapsed=1245s
+[n9]   V3-0083 D20+MISC orders=397 edges=1 status=OPTIMAL lower=762.0000 upper=762.1872 wall=1.2s cpu_share=0.741 foreign=0.005
+[n9]   V3-0083 D40+D50 orders=869 edges=1 status=OPTIMAL lower=1061.2800 upper=1062.1784 wall=3.1s cpu_share=0.697 foreign=0.001
+[n9] 83 published/V3 V3-0083 c=[1.48052, 1.48707] complete=True elapsed=1249s
+[n9]   V3-0084 D90+E10+E20 orders=179 edges=2 status=OPTIMAL lower=1198.4000 upper=1198.5712 wall=0.1s cpu_share=0.331 foreign=0.023
+[n9] 84 published/V3 V3-0084 c=[1.25924, 1.25961] complete=True elapsed=1249s
+[n9]   V3-0085 C10+D30+D40 orders=844 edges=2 status=OPTIMAL lower=1380.8800 upper=1381.7584 wall=5.1s cpu_share=0.75 foreign=0.001
+[n9] 85 published/V3 V3-0085 c=[0.99911, 1.00123] complete=True elapsed=1254s
+[n9]   V3-0086 B20+D20 orders=351 edges=1 status=OPTIMAL lower=248.1600 upper=248.3948 wall=0.6s cpu_share=0.657 foreign=0.0
+[n9]   V3-0086 D40+D50 orders=870 edges=1 status=OPTIMAL lower=192.9600 upper=193.1624 wall=8.2s cpu_share=0.899 foreign=0.0
+[n9] 86 published/V3 V3-0086 c=[0.34142, 0.3423] complete=True elapsed=1263s
+[n9]   V3-0087 C30+D30+E10 orders=729 edges=2 status=OPTIMAL lower=1150.6800 upper=1151.7080 wall=5.0s cpu_share=0.749 foreign=0.002
+[n9] 87 published/V3 V3-0087 c=[0.66111, 0.66234] complete=True elapsed=1268s
+[n9]   V3-0088 D30+D50+E10 orders=1405 edges=2 status=OPTIMAL lower=1195.2000 upper=1195.9272 wall=19.1s cpu_share=0.9 foreign=0.001
+[n9] 88 published/V3 V3-0088 c=[0.94041, 0.94153] complete=True elapsed=1287s
+[n9]   V3-0089 D30+D40 orders=721 edges=2 status=OPTIMAL lower=516.2000 upper=516.6416 wall=2.8s cpu_share=0.534 foreign=0.002
+[n9] 89 published/V3 V3-0089 c=[2.49555, 2.53251] complete=True elapsed=1290s
+[n9]   V3-0090 C10+D30+E10 orders=799 edges=2 status=OPTIMAL lower=1462.0000 upper=1463.0064 wall=8.9s cpu_share=0.863 foreign=0.001
+[n9] 90 published/V3 V3-0090 c=[0.52702, 0.52967] complete=True elapsed=1299s
+[n9]   V3-0091 C30+D90 orders=167 edges=1 status=OPTIMAL lower=243.2000 upper=243.2992 wall=0.1s cpu_share=0.315 foreign=0.0
+[n9]   V3-0091 D40+D50 orders=834 edges=1 status=OPTIMAL lower=203.4400 upper=203.8456 wall=2.4s cpu_share=0.617 foreign=0.0
+[n9] 91 published/V3 V3-0091 c=[0.33172, 0.33414] complete=True elapsed=1301s
+[n9]   V3-0092 D30+D40 orders=763 edges=1 status=OPTIMAL lower=623.8400 upper=624.9576 wall=8.4s cpu_share=0.851 foreign=0.001
+[n9]   V3-0092 D50+E10 orders=783 edges=1 status=OPTIMAL lower=1064.8000 upper=1065.0880 wall=3.2s cpu_share=0.749 foreign=0.0
+[n9] 92 published/V3 V3-0092 c=[0.54327, 0.5446] complete=True elapsed=1313s
+[n9]   V3-0093 D40+D50+E10 orders=807 edges=2 status=OPTIMAL lower=1497.8400 upper=1498.2012 wall=7.1s cpu_share=0.911 foreign=0.0
+[n9] 93 published/V3 V3-0093 c=[1.66194, 1.66254] complete=True elapsed=1320s
+[n9]   V3-0094 D20 orders=348 edges=1 status=OPTIMAL lower=201.3200 upper=201.5384 wall=1.0s cpu_share=0.722 foreign=0.003
+[n9]   V3-0094 D40+D50 orders=846 edges=1 status=OPTIMAL lower=420.4800 upper=420.6344 wall=4.1s cpu_share=0.803 foreign=0.0
+[n9] 94 published/V3 V3-0094 c=[0.97521, 0.97617] complete=True elapsed=1325s
+[n9]   V3-0095 D30+D40+E10 orders=825 edges=2 status=OPTIMAL lower=667.9200 upper=668.8760 wall=5.0s cpu_share=0.732 foreign=0.0
+[n9] 95 published/V3 V3-0095 c=[0.48729, 0.48973] complete=True elapsed=1330s
+[n9]   V3-0096 D30 orders=100 edges=2 status=OPTIMAL lower=254.2400 upper=254.2812 wall=0.4s cpu_share=0.451 foreign=0.005
+[n9] 96 published/V3 V3-0096 c=[0.92606, 0.92637] complete=True elapsed=1331s
+[n9]   V3-0097 C30+D20+D30 orders=349 edges=2 status=OPTIMAL lower=6.0400 upper=6.0544 wall=1.1s cpu_share=0.479 foreign=0.002
+[n9] 97 published/V3 V3-0097 c=[1.01333, 1.01813] complete=True elapsed=1332s
+[n9]   V3-0098 C30+E10 orders=16 edges=1 status=OPTIMAL lower=74.6400 upper=74.6744 wall=0.0s cpu_share=0.208 foreign=0.0
+[n9]   V3-0098 D30+D50 orders=270 edges=1 status=OPTIMAL lower=99.2000 upper=99.2312 wall=0.8s cpu_share=0.431 foreign=0.0
+[n9] 98 published/V3 V3-0098 c=[0.64, 0.64062] complete=True elapsed=1332s
+[n9]   V3-0099 C30+D20 orders=53 edges=1 status=OPTIMAL lower=66.9600 upper=67.0056 wall=0.1s cpu_share=0.314 foreign=0.029
+[n9]   V3-0099 D30+E10 orders=152 edges=1 status=OPTIMAL lower=113.3600 upper=113.4092 wall=0.4s cpu_share=0.385 foreign=0.0
+[n9] 99 published/V3 V3-0099 c=[0.70113, 0.70203] complete=True elapsed=1333s
+[n9]   V3-0100 C10+D20 orders=55 edges=1 status=OPTIMAL lower=34.2400 upper=34.2944 wall=0.1s cpu_share=0.299 foreign=0.005
+[n9]   V3-0100 D30+D50 orders=269 edges=1 status=OPTIMAL lower=95.0400 upper=95.1024 wall=0.8s cpu_share=0.494 foreign=0.002
+[n9] 100 published/V3 V3-0100 c=[0.28, 0.28116] complete=True elapsed=1334s
+[n9]   V3-0101 D20+D30 orders=161 edges=2 status=OPTIMAL lower=254.2400 upper=254.2812 wall=0.4s cpu_share=0.394 foreign=0.0
+[n9] 101 published/V3 V3-0101 c=[0.92606, 0.92637] complete=True elapsed=1334s
+[n9]   V3-0102 C30+D20+D30 orders=349 edges=2 status=OPTIMAL lower=6.0400 upper=6.0524 wall=1.2s cpu_share=0.488 foreign=0.0
+[n9] 102 published/V3 V3-0102 c=[1.01333, 1.01747] complete=True elapsed=1335s
+[n9]   V3-0103 D30 orders=141 edges=1 status=OPTIMAL lower=112.2400 upper=112.2856 wall=0.5s cpu_share=0.361 foreign=0.002
+[n9] 103 published/V3 V3-0103 c=[0.76302, 0.76377] complete=True elapsed=1336s
+[n9]   V3-0104 D20+D40 orders=128 edges=1 status=OPTIMAL lower=124.0000 upper=124.0000 wall=0.3s cpu_share=0.566 foreign=0.007
+[n9]   V3-0104 D30+D50 orders=211 edges=1 status=OPTIMAL lower=128.0800 upper=128.1448 wall=0.5s cpu_share=0.338 foreign=0.0
+[n9] 104 published/V3 V3-0104 c=[0.70324, 0.70368] complete=True elapsed=1337s
+[n9]   V3-0105 B30+D90 orders=48 edges=1 status=OPTIMAL lower=179.3600 upper=179.3668 wall=0.0s cpu_share=0.32 foreign=0.002
+[n9]   V3-0105 D30+D40 orders=122 edges=1 status=OPTIMAL lower=285.2400 upper=285.4464 wall=0.4s cpu_share=0.542 foreign=0.0
+[n9] 105 published/V3 V3-0105 c=[0.24536, 0.24582] complete=True elapsed=1337s
+[n9]   V3-0106 D20+D40+E10 orders=171 edges=2 status=OPTIMAL lower=148.8000 upper=148.8368 wall=0.1s cpu_share=0.423 foreign=0.012
+[n9] 106 published/V3 V3-0106 c=[0.10222, 0.10249] complete=True elapsed=1337s
+[n9]   V3-0107 C10+D40+D50 orders=4504 edges=2 status=FEASIBLE lower=2378.1800 upper=2550.2384 wall=63.3s cpu_share=0.715 foreign=0.004
+[n9] 107 published/V3 V3-0107 c=[None, None] complete=False elapsed=1401s
+[n9]   V3-0108 D40+D50+E20 orders=4374 edges=2 status=FEASIBLE lower=1193.3800 upper=1317.3616 wall=62.9s cpu_share=0.705 foreign=0.006
+[n9] 108 published/V3 V3-0108 c=[None, None] complete=False elapsed=1464s

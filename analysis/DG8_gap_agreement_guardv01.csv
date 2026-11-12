@@ -1,0 +1,71 @@
+# DG8-B. Per-item agreement between the ORACLE rung's certified gap and each proposer's, class V3
+# generated 2026-08-14 18:23:56 +0800 by code/scripts/dg8_gap_agreement.py (l1-dg8-gap-1)
+# join key: item_id (the ORACLE rung and every proposer arm are evaluated on the same suite items); constrained mode, repeats kept separate so every logged certificate is one row
+# self-check: 31 published statistics (ladder_anchors.json per_class.ORACLE.V3, T3_guard_value_curve.csv v3_gap_*) recomputed from the raw files, 0 mismatches
+# analysis/ladder/oracle_items.jsonl sha256 915f0a6850a996e43b8e641a7e0e9ce511350fcbfa7016dd5fc4fda11b8f6815
+# analysis/ladder/ladder_anchors.json sha256 a9a1191afdfdb5dd6233e95c9e64e6f3fd79388b42a303e0f0cd6705579e1e00
+# results/e1_eval_qwen14b/verdicts_G_CERT.jsonl sha256 7aa71f03804c3213d7c842ddf1d917f96fa54f4190d076de41187e5177fbcea0
+# results/e1_eval_qwen27b/verdicts_G_CERT.jsonl sha256 59f9a49feb1d83cd82f3ac9bbfc1075f3bba80f28e0d50733f62e6acb37122b8
+# results/e1_eval_glm9b/verdicts_G_CERT.jsonl sha256 8d020fa65870c4614fc47806d8cd78a7d00b61e2295a4babeebcc2cd7aa42d79
+# results/e1_eval_gpt54mini/verdicts_G_CERT.jsonl sha256 fca80b7f847e7826942c8cbb008ce84be0931cf808bca28e661b56e9785d97e8
+# results/e1_eval_deepseek/verdicts_G_CERT.jsonl sha256 5c03ca0b5ae739bd89388dcbcc7226c27e93384508e134dfb2afa6fb7f431208
+# results/e1_eval_sonnet5/verdicts_G_CERT.jsonl sha256 374dd1a0edc50802d25a40563d0ed6f64ecea4c65c5d4fc1fee79cea5a881fbc
+# results/e1_eval_opus5/verdicts_G_CERT.jsonl sha256 30805ed2a08c551150a3a5a4ee43d363a74638886e3424c8faaf44195dcee517
+# results/e1_eval_sol/verdicts_G_CERT.jsonl sha256 5b7aa9b1a0a863a4e415ad0189fdb8252a6b9843184603bece890893a497a795
+# analysis/T3_guard_value_curve.csv sha256 2c2a80eb9d1c19612bbf8557846196ac838b3e528335cd336a760f6276dcd22e
+arm,thinking,certificates,joined,identical,share_identical,identical_executed_objective,differing,arm_gap_lower,arm_gap_higher,same_direction,max_abs_difference,in_capability_set
+qwen3-14b,-,657,657,567,0.863014,567,90,78,12,False,172.205,yes
+qwen3.6-27b-fp8,-,657,657,618,0.940639,618,39,33,6,False,30.9624,yes
+glm-4-9b,-,213,213,165,0.774648,165,48,46,2,False,78.2732,yes
+openai,-,433,433,364,0.840647,364,69,66,3,False,172.205,yes
+deepseek,non_think,3,3,0,0.000000,0,3,3,0,True,1.10087,no
+deepseek,think_high,0,0,0,,0,0,0,0,,0,no
+sonnet,disabled,438,438,408,0.931507,408,30,30,0,True,30.9624,yes
+opus,default,440,440,428,0.972727,428,12,12,0,True,0.95224,yes
+opus,disabled,440,440,426,0.968182,426,14,14,0,True,1.13439,yes
+sol,none,207,207,197,0.951691,197,10,10,0,True,30.9624,yes
+
+# estimator fragility of the published median comparison
+fragility,oracle_n,220
+fragility,flagship_n,440
+fragility,oracle_median_nearest_rank_pipeline,0.6187768481151357
+fragility,flagship_median_nearest_rank_pipeline,0.6187768481151357
+fragility,medians_agree_nearest_rank_pipeline,True
+fragility,oracle_median_linear_numpy_default,0.6216898246513489
+fragility,flagship_median_linear_numpy_default,0.6216898246513489
+fragility,medians_agree_linear_numpy_default,True
+fragility,oracle_median_lower,0.6187768481151357
+fragility,flagship_median_lower,0.6187768481151357
+fragility,medians_agree_lower,True
+fragility,oracle_median_higher,0.6246028011875622
+fragility,flagship_median_higher,0.6246028011875622
+fragility,medians_agree_higher,True
+fragility,oracle_median_midpoint,0.6216898246513489
+fragility,flagship_median_midpoint,0.6216898246513489
+fragility,medians_agree_midpoint,True
+fragility,oracle_median_statistics_median,0.6216898246513489
+fragility,flagship_median_statistics_median,0.6216898246513489
+fragility,medians_agree_statistics_median,True
+fragility,oracle_max,172.2048
+fragility,flagship_max,172.2048
+fragility,max_on_same_item,True
+fragility,max_item_oracle,V3-0188
+fragility,max_item_flagship,V3-0188
+fragility,flagship_repeat0_certificates,220
+fragility,flagship_repeat0_identical_to_oracle,214
+fragility,flagship_repeat0_median_linear,0.6216898246513489
+
+# every differing certificate of the flagship (opus / default)
+item_id,repeat,arm_gap,oracle_gap,difference
+V3-0120,0,0.06821297697297211,0.26249457433357276,-0.19428159736060063
+V3-0120,1,0.06821297697297211,0.26249457433357276,-0.19428159736060063
+V3-0127,0,0.24788038806065335,0.3056222321917076,-0.05774184413105424
+V3-0127,1,0.24788038806065335,0.3056222321917076,-0.05774184413105424
+V3-0134,0,0.8449117310357306,1.3875268186235872,-0.5426150875878566
+V3-0134,1,0.8449117310357306,1.3875268186235872,-0.5426150875878566
+V3-0148,0,1.8511200000000003,2.8033600000000005,-0.9522400000000002
+V3-0148,1,1.8511200000000003,2.8033600000000005,-0.9522400000000002
+V3-0155,0,0.22409915216961912,0.2743773675517488,-0.050278215382129676
+V3-0155,1,0.22409915216961912,0.2743773675517488,-0.050278215382129676
+V3-0181,0,0.10448212596614843,0.6171761078784007,-0.5126939819122522
+V3-0181,1,0.10448212596614843,0.6171761078784007,-0.5126939819122522

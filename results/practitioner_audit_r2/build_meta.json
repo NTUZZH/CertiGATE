@@ -1,0 +1,51 @@
+{
+ "version": "l1-audit-pack-v12-1",
+ "protocol": "l1-policy-1.2.0",
+ "seed": 20261104,
+ "tau": 0.2,
+ "tau_hard": 0.4,
+ "instance_root_name": "instances_v10",
+ "n_cases": 30,
+ "deviations": [],
+ "n_checks": 308,
+ "inputs": {
+  "code/suite/v0.2/suite.jsonl": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+  "analysis/DG1_direct_guard.csv": "32d8e190b4b0ecb725f2ae3ddcf506dec062e736fb6b0d725a273a3f35293a4f",
+  "analysis/N2_rows_direct.csv": "b6b5082b576469e34a548098f036ca7ceeff8062e1b57c271277a5ebf74b5407",
+  "analysis/ladder/rule_anchor.json": "7ded7f45baf116aeade7e2c9d431db9b67fe7220118b01c2145d5bdd90f0db28",
+  "results/suite_gate/proposals.jsonl": "95a97f3d14da913425b58953bc61d1d934a7a92806903fec94acf2268411418a",
+  "code/scripts/n3_evaluate.py": "1b00df0b6b3c02773baf7e9706d362f6b3a48f223a487669355d2b2ad56bd190",
+  "code/scripts/instance_manifest_l1.json": "786c3c65735e2cdbd4f8eba371553128c8770c106d6b844cb23c9c2700591c98",
+  "code/scripts/practitioner_audit_r2_pack.py": "d52b594e6851cd429dfc93a1417beb97362d5f183607f78d15d8d108239438f8",
+  "code/l1guard/guard.py": "ad94b85c67af1e3bf3a9a13c7ee9a7accbc42aa17e90b9c39800c4b45c337b65",
+  "code/l1guard/guard_v11.py": "ad7e9dbf2627af03d850f51df0810f3b89fc125211116ecd1bce79f42303659d",
+  "code/l1guard/verdict.py": "eb562f02f7e449751cf789e33118a6f8abd80c2c1b1a0ab5c87dc3f737ef9751",
+  "code/l1guard/findings.py": "93017aecb2975b696a7c4a897582c5531305ae075ca42e533eebc020bf9a2932",
+  "code/l1guard/lb2.py": "01093c9f3a46dd3cc2e52f16b7d37f6364e68feb1caff642a7fe5404196b1adf",
+  "code/l1guard/config.py": "90789e15a934803e0efb582e0b1fb60f1dd22e85cbbfe78093fcb8c9816fb149"
+ },
+ "outputs": {
+  "draw.csv": "5472a7285b9d0d9b72e8b02ef00941abf0dbd26724bd692d631719f6d9b3cd75",
+  "label_map.csv": "292df17d7cd619c52435321a5549008d8a0dfdc1c8b6ba1e9708cba883c571b1",
+  "stage_a.jsonl": "fa8d3abd0cd9b2597b4dd361949ae22e13e50e128bd05db21cf9e6045e5cde12",
+  "stage_b.jsonl": "03851d12eed2548a81c8ad09bda08373d75ed6576ec594f4d0cde0693433b5f7",
+  "Stage_A_Workbook.xlsx": "83c328ab8996fd6f62f5ce95881ed8182561abc69153613bbe703c61637e5e05",
+  "Stage_B_Workbook.xlsx": "3242da3fde3d40ac8198adee89235b8c3491d2dfdc9ccfbd4c8fbbbff566028e",
+  "Panel_Instructions.md": "55b36e5de4e52551a46235aeb8ed6fccf7acbfbdd5a900bde0f8c65b27bc1faa",
+  "README.md": "a394442b7ccd6210929ccff9177fb5ba8338f8e360cab5c351968be7e80df44c"
+ },
+ "guard_differs": [
+  "V5-01",
+  "V5-02",
+  "V5-03",
+  "V5-04",
+  "V5-05",
+  "V5-06",
+  "V6-01",
+  "V6-02",
+  "V6-03",
+  "V6-04",
+  "V6-05",
+  "V6-06"
+ ]
+}

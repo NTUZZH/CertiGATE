@@ -1,0 +1,92 @@
+{
+ "arms": {
+  "glm-4-9b": {
+   "exceed_max_model_len": 0,
+   "exceed_max_model_len_with_residual": 0,
+   "exceed_room_for_max_tokens": 0,
+   "fit_items": 1723,
+   "fit_max_abs_residual": 356.9886005507087,
+   "intercept": -1034.0533596460568,
+   "items": 1723,
+   "known_board_estimate": {
+    "max": 7661.0,
+    "max_plus_residual": 8017.988600550709,
+    "median": 1373.0,
+    "p90": 1974.7008218915012
+   },
+   "known_board_regression": {
+    "max": 7304.011399449291,
+    "median": 1370.125372477729
+   },
+   "max_model_len": 12288,
+   "max_tokens": 1024,
+   "method": "character-based estimate (no tokenizer on disk): logged whole-window count + slope x char difference; slope from a least-squares fit of the arm's logged prompt tokens on whole-window chars",
+   "slope_tokens_per_char": 0.5650243788775055,
+   "snapshot_on_disk": false,
+   "whole_window_logged": {
+    "max": 7661,
+    "median": 1317
+   },
+   "whole_window_logged_exceed": 0
+  },
+  "qwen3-14b": {
+   "exceed_max_model_len": 0,
+   "exceed_max_model_len_with_residual": 0,
+   "exceed_room_for_max_tokens": 0,
+   "fit_items": 1723,
+   "fit_max_abs_residual": 537.768109431443,
+   "intercept": -1559.4215340535616,
+   "items": 1723,
+   "known_board_estimate": {
+    "max": 9914.0,
+    "max_plus_residual": 10451.768109431443,
+    "median": 1591.0,
+    "p90": 2361.1911483831627
+   },
+   "known_board_regression": {
+    "max": 9376.231890568557,
+    "median": 1593.7400382014434
+   },
+   "max_model_len": 12288,
+   "max_tokens": 1024,
+   "method": "character-based estimate (no tokenizer on disk): logged whole-window count + slope x char difference; slope from a least-squares fit of the arm's logged prompt tokens on whole-window chars",
+   "slope_tokens_per_char": 0.7410485481210353,
+   "snapshot_on_disk": false,
+   "whole_window_logged": {
+    "max": 9914,
+    "median": 1525
+   },
+   "whole_window_logged_exceed": 0
+  },
+  "qwen3.6-27b-fp8": {
+   "exceed_max_model_len": 0,
+   "exceed_max_model_len_with_residual": 0,
+   "exceed_room_for_max_tokens": 0,
+   "fit_items": 1723,
+   "fit_max_abs_residual": 521.2209338489338,
+   "intercept": -1538.0353368440735,
+   "items": 1723,
+   "known_board_estimate": {
+    "max": 9932.0,
+    "max_plus_residual": 10453.220933848934,
+    "median": 1612.0,
+    "p90": 2397.6217016330947
+   },
+   "known_board_regression": {
+    "max": 9413.107114619064,
+    "median": 1619.5923063744433
+   },
+   "max_model_len": 16384,
+   "max_tokens": 1024,
+   "method": "character-based estimate (no tokenizer on disk): logged whole-window count + slope x char difference; slope from a least-squares fit of the arm's logged prompt tokens on whole-window chars",
+   "slope_tokens_per_char": 0.7420981535178653,
+   "snapshot_on_disk": false,
+   "whole_window_logged": {
+    "max": 9932,
+    "median": 1551
+   },
+   "whole_window_logged_exceed": 0
+  }
+ },
+ "probe": null
+}

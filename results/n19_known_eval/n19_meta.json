@@ -1,0 +1,189 @@
+{
+ "affinity": [
+  8,
+  9,
+  14
+ ],
+ "arms": {
+  "opus": {
+   "cells": [
+    [
+     "opus",
+     "default"
+    ],
+    [
+     "opus",
+     "disabled"
+    ]
+   ],
+   "ingest": {
+    "arm": "opus",
+    "config_hashes": {
+     "G_CERT": "52c094406252bf1ab57350d1ec4f9165f8bc4f7d83df2b99e1fb52356e829a42",
+     "G_FEAS": "6176c8978a84adf727594d2a7a574dad6e03628e1d3cdddefbf76cfa79122390",
+     "UNGUARDED": "b932b4a480c187968da8445242479be77d62341b7f35753f9cba7fdc3500dc89"
+    },
+    "eval_version": "l1-e1-eval-2",
+    "raw_sha256": "9a49d96af4bed75d458ae3f90c9e68bfbc26efc3407af0c12b157a4e7a8fac99",
+    "rows": 6892,
+    "version": "l1-n19-known-eval-2",
+    "wall_s": 923.8,
+    "workers": 3
+   },
+   "raw_path": [
+    "results/grid_e1_known_opus_default/proposals_raw.jsonl",
+    "results/grid_e1_known_opus_disabled/proposals_raw.jsonl"
+   ],
+   "replay": {
+    "distinct_proposals": 2495,
+    "instances": 60,
+    "memo": {
+     "direct": 107,
+     "hit": 1096,
+     "miss": 1292,
+     "spot_checked": 13
+    },
+    "wall_s": 170.2
+   },
+   "rows": 6892
+  },
+  "opus:control": {
+   "cells": [
+    [
+     "opus",
+     "default"
+    ],
+    [
+     "opus",
+     "disabled"
+    ]
+   ],
+   "ingest": {
+    "arm": "opus",
+    "config_hashes": {
+     "G_CERT": "52c094406252bf1ab57350d1ec4f9165f8bc4f7d83df2b99e1fb52356e829a42",
+     "G_FEAS": "6176c8978a84adf727594d2a7a574dad6e03628e1d3cdddefbf76cfa79122390",
+     "UNGUARDED": "b932b4a480c187968da8445242479be77d62341b7f35753f9cba7fdc3500dc89"
+    },
+    "eval_version": "l1-e1-eval-2",
+    "raw_sha256": "17d1277daa81fa860c16afdd3d58ff277fb134a97cee9d70383ec16f97e86314",
+    "rows": 400,
+    "version": "l1-n19-known-eval-2",
+    "wall_s": 466.6,
+    "workers": 1
+   },
+   "raw_path": [
+    "results/grid_e1_control_opus_default/proposals_raw.jsonl",
+    "results/grid_e1_control_opus_disabled/proposals_raw.jsonl"
+   ],
+   "replay": {
+    "distinct_proposals": 254,
+    "instances": 55,
+    "memo": {
+     "direct": 9,
+     "hit": 56,
+     "miss": 189
+    },
+    "wall_s": 38.3
+   },
+   "rows": 400
+  },
+  "sonnet": {
+   "cells": [
+    [
+     "sonnet",
+     "disabled"
+    ]
+   ],
+   "ingest": {
+    "arm": "sonnet",
+    "config_hashes": {
+     "G_CERT": "52c094406252bf1ab57350d1ec4f9165f8bc4f7d83df2b99e1fb52356e829a42",
+     "G_FEAS": "6176c8978a84adf727594d2a7a574dad6e03628e1d3cdddefbf76cfa79122390",
+     "UNGUARDED": "b932b4a480c187968da8445242479be77d62341b7f35753f9cba7fdc3500dc89"
+    },
+    "eval_version": "l1-e1-eval-2",
+    "raw_sha256": "9ce874903aefa46dbfdbae931b7d9cf151c2295c38a01d010b34ecbafaeba152",
+    "rows": 3446,
+    "version": "l1-n19-known-eval-2",
+    "wall_s": 437.2,
+    "workers": 3
+   },
+   "raw_path": [
+    "results/grid_e1_known_sonnet/proposals_raw.jsonl"
+   ],
+   "replay": {
+    "distinct_proposals": 2115,
+    "instances": 60,
+    "memo": {
+     "direct": 129,
+     "hit": 695,
+     "miss": 1291,
+     "spot_checked": 1
+    },
+    "wall_s": 157.0
+   },
+   "rows": 3446
+  },
+  "sonnet:control": {
+   "cells": [
+    [
+     "sonnet",
+     "disabled"
+    ]
+   ],
+   "ingest": {
+    "arm": "sonnet",
+    "config_hashes": {
+     "G_CERT": "52c094406252bf1ab57350d1ec4f9165f8bc4f7d83df2b99e1fb52356e829a42",
+     "G_FEAS": "6176c8978a84adf727594d2a7a574dad6e03628e1d3cdddefbf76cfa79122390",
+     "UNGUARDED": "b932b4a480c187968da8445242479be77d62341b7f35753f9cba7fdc3500dc89"
+    },
+    "eval_version": "l1-e1-eval-2",
+    "raw_sha256": "4025b8b6b25bb4b79c8f5837cacffa52313f60c0a871f3b6d78e85121c2e5fd1",
+    "rows": 200,
+    "version": "l1-n19-known-eval-2",
+    "wall_s": 219.4,
+    "workers": 1
+   },
+   "raw_path": [
+    "results/grid_e1_control_sonnet/proposals_raw.jsonl"
+   ],
+   "replay": {
+    "distinct_proposals": 200,
+    "instances": 55,
+    "memo": {
+     "direct": 12,
+     "hit": 6,
+     "miss": 182
+    },
+    "wall_s": 32.6
+   },
+   "rows": 200
+  }
+ },
+ "code": {
+  "n19_known_prompt_eval.py": "cbab0a642f060b9a76f2b9ae7dd48de6741a420bf9a1664caa78e2b72e4b21e7"
+ },
+ "cores": [
+  8,
+  9,
+  14
+ ],
+ "finished": "2026-11-11T04:37:04+08:00",
+ "load_avg_end": [
+  11.93,
+  10.96,
+  11.01
+ ],
+ "macros_written": 2250,
+ "mode": "known-board logs",
+ "outputs": {
+  "analysis/N19_macros.tex": "c5440326d5dab25fcb32673c7766c88151548cc93b984198fdc0c43776c94c41",
+  "analysis/N19_rows.csv": "37248b01e61d3881de952c8dd10a19f1fee581815d2eb1148c1edf225574ca83",
+  "analysis/N19_summary.md": "2dc833684cbbb7ee717f50effa2cfca851f8fee7c81e7d9728bc41ef7a38b07e"
+ },
+ "version": "l1-n19-known-eval-2",
+ "wall_s": 1777.8,
+ "workers": 3
+}

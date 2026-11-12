@@ -1,0 +1,67 @@
+# DG11. The reach of the retired guard-v0.1 frozen-order rule in the 240-instruction E3 slice
+# generated 2026-08-17 19:03:59 +0800 by code/scripts/e3_exposure.py (l1-dg11-exposure-1)
+# exposed = at least one recorded proposal whose v0.1 and v0.2 guard verdict differ (blocked flag, blocking codes or terminal); the digest definition selects the same set
+# exposure is assigned per item and pooled over arms: an item exposed in any arm is dropped for every arm in the leave-one-out
+# the paired v0.1/v0.2 evaluation is read from analysis/DG12_guard_relaxation_proposals.jsonl, not recomputed
+# spurious rounds and tokens: on the 25 trajectories where v0.1 refused a proposal v0.2 accepts, every later revision round and every token charged from that call onward
+# self-check: 10 assertions passed, including 24 E7 loop statistics reproduced with 0 mismatches
+# exposed items: BEN-0241, BEN-0248, BEN-0259, V2-0081, V2-0088, V2-0093, V2-0099, V3-0063
+# analysis/DG12_guard_relaxation_proposals.jsonl sha256 3731d62302a7a816b8c5f49262a5179f2b8f96f0b14a7e9744d26c72f6209263
+# results/e3_deepseek/trajectories.jsonl sha256 fd95a9e6caca201f58f4fb27e4d665d46664d7aa5987e6254d5f9fcde95dbeca
+# results/e3_openai/trajectories.jsonl sha256 b8ce912fe2bcb1eca2340e150ec38946b3fd27ce6cd7a543dfa653fd8d99a89c
+# results/e3_opus/trajectories.jsonl sha256 ad125d716133164b3487648128b0448486b548bafc29d84e9a4c19ac186eac96
+# results/e3_qwen14b/trajectories.jsonl sha256 75996f6c940e5732d516d353da7f7a483088916893396becfa070b7e79159d73
+# results/e3_qwen27b/trajectories.jsonl sha256 c6a03147f7d1cd9f5f92e38ebb329b0bc558a2d089bf49bda32a6693ca1e6f8f
+# results/e3_sonnet/trajectories.jsonl sha256 3343dc4737fa2630ce32c582a8dacc606f5fc9bb941cb7431d923d08f50dc7c4
+# results/e3_deepseek/calls.jsonl sha256 e27dd7d19e9b1613dab14d2b85bc49c97b3471e52d4880f3e6ab8367e230b7c5
+# results/e3_replay_deepseek/verdicts.jsonl sha256 8e42a2c7a2730cee28e6de7aba54b4f96f88c87a712eb5a95c83fb8549106d4b
+# results/e3_openai/calls.jsonl sha256 d77aca570ce5a50376931a1ae0d35fff1ed3fea87895e83b6c3a7ef8604f1136
+# results/e3_replay_openai/verdicts.jsonl sha256 168a8b20626a3b70ea16308f7a56af95abe146da4e5607fdb3d3b6f36692dfee
+# results/e3_opus/calls.jsonl sha256 9e0d0e5ec13594ddb69278766aaadcff2d0e89dfb1c7bc78e422bac1a019ade6
+# results/e3_replay_opus/verdicts.jsonl sha256 9af87fa798a1aede09a82db34cadee9455d6d20b65302c16f0a4ac89b2453a17
+# results/e3_qwen14b/calls.jsonl sha256 1b975a312ce9ed24306d0a7fe69d8f977bb79af682d6ae04a19a3d32341d2cba
+# results/e3_replay_qwen14b/verdicts.jsonl sha256 d4a7de38e598b24bbb7e10c5b8c745b29fa547a158005962f65f99a9209d290a
+# results/e3_qwen27b/calls.jsonl sha256 966faf1abe0557ff7b5c6d3b42e9396e9689235a8dbd15f47e036961978bb3c7
+# results/e3_replay_qwen27b/verdicts.jsonl sha256 c932d3122723f50857c1ce4f78de3ac983a936df1e69e6b316fb0f458667aca6
+# results/e3_sonnet/calls.jsonl sha256 951b14ebefb47a1fe40b4caffab1c97f397551ff4d921e9e4e00f47678c87753
+# results/e3_replay_sonnet/verdicts.jsonl sha256 8784318b09fb75599bb1d562cf156c3838b407833647fe82712e333b3d46ca36
+# analysis/E7_e3_profiles.csv sha256 6393b673d1bd82c37d0a78bb3976ecd6a8fce14a1b4c94b8f8b0be7d35fe9af2
+section,scope,quantity,value,denominator,share,note
+exposure,ALL,exposed_items,8,240,0.033333,instructions of the E3 slice the two guard versions ever judged differently
+exposure,ALL,exposed_trajectories,64,6720,0.009524,
+exposure,ALL,exposed_proposals,64,8855,0.007228,
+exposure,ALL,withdrawn_refusal_trajectories,25,6720,0.003720,trajectories where v0.1 refused a proposal v0.2 accepts; the direction is one-way
+exposure,deepseek,exposed_trajectories,4,,,
+exposure,deepseek,exposed_items,4,240,0.016667,
+exposure,openai,exposed_trajectories,2,,,
+exposure,openai,exposed_items,2,240,0.008333,
+exposure,opus,exposed_trajectories,19,,,
+exposure,opus,exposed_items,6,240,0.025000,
+exposure,qwen14b,exposed_trajectories,14,,,
+exposure,qwen14b,exposed_items,3,240,0.012500,
+exposure,qwen27b,exposed_trajectories,17,,,
+exposure,qwen27b,exposed_items,6,240,0.025000,
+exposure,sonnet,exposed_trajectories,8,,,
+exposure,sonnet,exposed_items,4,240,0.016667,
+loop_cost,ALL,spurious_revision_rounds,19,2135,0.008899,revision rounds that exist only because the retired rule refused a proposal the corrected guard accepts
+loop_cost,ALL,spurious_tokens,36354,40221032,0.000904,charged tokens from the call that produced the first proposal after the corrected guard's stopping point
+loop_cost,deepseek,spurious_tokens,8678,,,
+loop_cost,openai,spurious_tokens,4391,,,
+loop_cost,opus,spurious_tokens,3251,,,
+loop_cost,qwen14b,spurious_tokens,11673,,,
+loop_cost,qwen27b,spurious_tokens,1851,,,
+loop_cost,sonnet,spurious_tokens,6510,,,
+leave_one_out,deepseek,proposals_per_accepted_all_items,9.552381,,,"loose budget, SINGLE+G; equals analysis/E7_e3_profiles.csv proposals_per_accepted_adjustment"
+leave_one_out,deepseek,proposals_per_accepted_dropped,9.574257,,,the same cell with the exposed instructions removed; the wire artifact the macro range excludes
+leave_one_out,openai,proposals_per_accepted_all_items,1.798913,,,"loose budget, SINGLE+G; equals analysis/E7_e3_profiles.csv proposals_per_accepted_adjustment"
+leave_one_out,openai,proposals_per_accepted_dropped,1.819209,,,the same cell with the exposed instructions removed
+leave_one_out,opus,proposals_per_accepted_all_items,1.911392,,,"loose budget, SINGLE+G; equals analysis/E7_e3_profiles.csv proposals_per_accepted_adjustment"
+leave_one_out,opus,proposals_per_accepted_dropped,1.900662,,,the same cell with the exposed instructions removed
+leave_one_out,qwen14b,proposals_per_accepted_all_items,1.968553,,,"loose budget, SINGLE+G; equals analysis/E7_e3_profiles.csv proposals_per_accepted_adjustment"
+leave_one_out,qwen14b,proposals_per_accepted_dropped,2.000000,,,the same cell with the exposed instructions removed
+leave_one_out,qwen27b,proposals_per_accepted_all_items,1.939759,,,"loose budget, SINGLE+G; equals analysis/E7_e3_profiles.csv proposals_per_accepted_adjustment"
+leave_one_out,qwen27b,proposals_per_accepted_dropped,1.773006,,,the same cell with the exposed instructions removed
+leave_one_out,sonnet,proposals_per_accepted_all_items,1.823171,,,"loose budget, SINGLE+G; equals analysis/E7_e3_profiles.csv proposals_per_accepted_adjustment"
+leave_one_out,sonnet,proposals_per_accepted_dropped,1.834395,,,the same cell with the exposed instructions removed
+leave_one_out,five arms (DeepSeek excluded),proposals_per_accepted_dropped_min,1.773006,,,"minimum over openai, opus, qwen14b, qwen27b, sonnet"
+leave_one_out,five arms (DeepSeek excluded),proposals_per_accepted_dropped_max,2.000000,,,"maximum over openai, opus, qwen14b, qwen27b, sonnet"

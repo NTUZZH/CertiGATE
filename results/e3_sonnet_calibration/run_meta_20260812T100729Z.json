@@ -1,0 +1,75 @@
+{
+ "date": "2026-08-12 18:07:29 +08",
+ "scaffold_version": "l1-e3-scaffold-1",
+ "arm": "sonnet",
+ "model": "claude-sonnet-5",
+ "backend": "anthropic",
+ "wire": "anthropic",
+ "mode": "M_constrained",
+ "thinking": "disabled",
+ "thinking_body": {
+  "thinking": {
+   "type": "disabled"
+  }
+ },
+ "slice": "E3-CAL-60",
+ "slice_sha256": "a847735b1ba2bd776b9595058a03891f92da7887c27a5ae431eb1b2b0bb6cbe9",
+ "items": 60,
+ "pipelines": [
+  "SINGLE"
+ ],
+ "repeats": 1,
+ "budget_levels": [
+  {
+   "level": "cal",
+   "tokens": 60000
+  }
+ ],
+ "max_tokens": 1024,
+ "max_tool_rounds": 2,
+ "max_revisions": 1,
+ "workers": 6,
+ "top_k": 10,
+ "prompt_version": "l1-prompt-1.0.0",
+ "e3_prompt_version": "l1-e3-prompt-1.0.0",
+ "guard_config": "G_CERT",
+ "guard_config_hash": "52c094406252bf1ab57350d1ec4f9165f8bc4f7d83df2b99e1fb52356e829a42",
+ "suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+ "schema_sha256": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+ "mock": false,
+ "planned": 60,
+ "tally": {
+  "trajectories": 60,
+  "calls": 169,
+  "usd": 0.8302255999999996,
+  "tokens": 394906,
+  "errors": 0,
+  "exhausted": 0,
+  "blocked_first": 10,
+  "revised": 10,
+  "interrupted": false,
+  "wall_s": 86.54809464598657
+ },
+ "calibration": {
+  "arm": "sonnet",
+  "model": "claude-sonnet-5",
+  "pipeline": "SINGLE",
+  "n": 60,
+  "safety_ceiling_tokens": 60000,
+  "trajectories_that_hit_the_ceiling": 0,
+  "all_tokens": {
+   "min": 4087,
+   "p25": 5005,
+   "p50": 5837.5,
+   "p75": 6698,
+   "p90": 8638,
+   "max": 23286,
+   "mean": 6581.766666666666
+  },
+  "B_tight": 6000,
+  "B_loose": 24000,
+  "rule": "B_tight = p50 of this arm's own SINGLE-pipeline all-token need on E3-CAL-60, rounded UP to the nearest 500; B_loose = 4 x B_tight"
+ },
+ "dedupe_rule": "last row per (arm, budget_level, pipeline, repeat, item_id) wins; earlier rows for a key are superseded attempts, and each call row carries the run_uid of the attempt that produced it",
+ "budget_accounting": "sum over every call of reported prompt_tokens + completion_tokens, cache-status blind; a call with no reported usage is charged the pre-call estimate"
+}

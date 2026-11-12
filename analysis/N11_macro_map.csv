@@ -1,0 +1,1427 @@
+# N11 macro map (Stage 1 and Stage 2)
+published_macro,published_value,twin,late_twin,value,exhibit,note
+,,nElevenIssuableBenignItems,,623,census,
+,,nElevenIssuableBenignExcluded,,177,census,
+,,nElevenIssuableBenignExcludedShare,,22.1\%,census,
+,,nElevenIssuableStrictBenignExcluded,,341,census,
+,,nElevenInfoBenignDecisionMedian,,0.0,census,
+,,nElevenIssuableVOneItems,,160,census,
+,,nElevenIssuableVOneExcluded,,0,census,
+,,nElevenIssuableVOneExcludedShare,,0.0\%,census,
+,,nElevenIssuableStrictVOneExcluded,,9,census,
+,,nElevenInfoVOneDecisionMedian,,0.0,census,
+,,nElevenIssuableVTwoItems,,185,census,
+,,nElevenIssuableVTwoExcluded,,15,census,
+,,nElevenIssuableVTwoExcludedShare,,7.5\%,census,
+,,nElevenIssuableStrictVTwoExcluded,,39,census,
+,,nElevenInfoVTwoDecisionMedian,,0.0,census,
+,,nElevenIssuableVThreeItems,,154,census,
+,,nElevenIssuableVThreeExcluded,,66,census,
+,,nElevenIssuableVThreeExcludedShare,,30.0\%,census,
+,,nElevenIssuableStrictVThreeExcluded,,173,census,
+,,nElevenInfoVThreeDecisionMedian,,31.4,census,
+,,nElevenIssuableVFourItems,,201,census,
+,,nElevenIssuableVFourExcluded,,19,census,
+,,nElevenIssuableVFourExcludedShare,,8.6\%,census,
+,,nElevenIssuableStrictVFourExcluded,,95,census,
+,,nElevenInfoVFourDecisionMedian,,10.4,census,
+,,nElevenIssuableVFiveItems,,200,census,
+,,nElevenIssuableVFiveExcluded,,0,census,
+,,nElevenIssuableVFiveExcludedShare,,0.0\%,census,
+,,nElevenIssuableStrictVFiveExcluded,,25,census,
+,,nElevenInfoVFiveDecisionMedian,,0.0,census,
+,,nElevenIssuableVSixItems,,200,census,
+,,nElevenIssuableVSixExcluded,,0,census,
+,,nElevenIssuableVSixExcludedShare,,0.0\%,census,
+,,nElevenIssuableStrictVSixExcluded,,49,census,
+,,nElevenInfoVSixDecisionMedian,,0.0,census,
+,,nElevenIssuableAllItems,,"1{,}723",census,
+,,nElevenIssuableAllExcluded,,277,census,
+,,nElevenIssuableAllExcludedShare,,13.9\%,census,
+,,nElevenIssuableStrictAllExcluded,,731,census,
+,,nElevenInfoKnownMedian,,"1{,}732",census,
+,,nElevenIssuableHeldoutVThree,,162,census,
+,,nElevenIssuableHeldoutTwins,,73,census,
+,,nElevenInfoSeedNotFrozen,,130,census,issuable items whose standing frozen set holds a planned order not frozen on K
+dgBenignCanonicalBlocks,21,nElevenDgBenignCanonicalBlocks,nElevenLateDgBenignCanonicalBlocks,0,Table 10,
+dgBenignCanonicalShare,2.6\%,nElevenDgBenignCanonicalShare,nElevenLateDgBenignCanonicalShare,0.0\%,Table 10,
+dgBenignCanonicalFeasBlocks,0,nElevenDgBenignCanonicalFeasBlocks,nElevenLateDgBenignCanonicalFeasBlocks,0,Table 10,
+dgBenignCanonicalFeasShare,0.0\%,nElevenDgBenignCanonicalFeasShare,nElevenLateDgBenignCanonicalFeasShare,0.0\%,Table 10,
+dgBenignCanonicalQualBlocks,21,nElevenDgBenignCanonicalQualBlocks,nElevenLateDgBenignCanonicalQualBlocks,0,Table 10,
+dgVOneCanonicalShare,81.2\%,nElevenDgVOneCanonicalShare,nElevenLateDgVOneCanonicalShare,81.2\%,Table 10,
+dgVOneCanonicalEmpty,30,nElevenDgVOneCanonicalEmpty,nElevenLateDgVOneCanonicalEmpty,30,Table 10,
+dgVTwoCanonicalShare,100.0\%,nElevenDgVTwoCanonicalShare,nElevenLateDgVTwoCanonicalShare,100.0\%,Table 10,
+dgVThreeCanonicalShare,91.4\%,nElevenDgVThreeCanonicalShare,nElevenLateDgVThreeCanonicalShare,91.6\%,Table 10,
+dgVThreeCanonicalRefused,201,nElevenDgVThreeCanonicalRefused,nElevenLateDgVThreeCanonicalRefused,141,Table 10,
+dgVThreeCanonicalItems,220,nElevenDgVThreeCanonicalItems,nElevenLateDgVThreeCanonicalItems,154,Table 10,
+dgVThreeCanonicalCI,86.2 to 95.8 percent,nElevenDgVThreeCanonicalCI,nElevenLateDgVThreeCanonicalCI,85.2 to 96.8 percent,Table 10,
+dgVFourCanonicalShare,20.9\%,nElevenDgVFourCanonicalShare,nElevenLateDgVFourCanonicalShare,21.4\%,Table 10,
+dgVFiveCanonicalShare,3.5\%,nElevenDgVFiveCanonicalShare,nElevenLateDgVFiveCanonicalShare,0.0\%,Table 10,
+dgVFiveCanonicalEmpty,200,nElevenDgVFiveCanonicalEmpty,nElevenLateDgVFiveCanonicalEmpty,200,Table 10,
+dgVFiveCanonicalRefused,7,nElevenDgVFiveCanonicalRefused,nElevenLateDgVFiveCanonicalRefused,0,Table 10,
+dgVSixCanonicalShare,19.5\%,nElevenDgVSixCanonicalShare,nElevenLateDgVSixCanonicalShare,25.5\%,Table 10,
+dgVSixCanonicalEmpty,25,nElevenDgVSixCanonicalEmpty,nElevenLateDgVSixCanonicalEmpty,25,Table 10,
+,,nElevenTerminalChangesFrozenConvention,,3,Table 10,
+,,nElevenTerminalChanges,,56,Table 10,
+nTwoDirectCertMedianError,0.000,nElevenNTwoDirectCertMedianError,nElevenLateNTwoDirectCertMedianError,0.000,Table 14,
+nTwoDirectCertUnderShare,0.0\%,nElevenNTwoDirectCertUnderShare,nElevenLateNTwoDirectCertUnderShare,0.0\%,Table 14,
+nTwoDirectCertOverShare,0.0\%,nElevenNTwoDirectCertOverShare,nElevenLateNTwoDirectCertOverShare,0.0\%,Table 14,
+nTwoDirectCertMMedianError,-0.010,nElevenNTwoDirectCertMMedianError,nElevenLateNTwoDirectCertMMedianError,0.000,Table 14,
+nTwoDirectCertMUnderShare,19.5\%,nElevenNTwoDirectCertMUnderShare,nElevenLateNTwoDirectCertMUnderShare,0.7\%,Table 14,
+nTwoDirectCertMOverShare,0.0\%,nElevenNTwoDirectCertMOverShare,nElevenLateNTwoDirectCertMOverShare,0.0\%,Table 14,
+nTwoDirectRelOneMedianError,-0.010,nElevenNTwoDirectRelOneMedianError,nElevenLateNTwoDirectRelOneMedianError,0.000,Table 14,
+nTwoDirectRelOneUnderShare,21.7\%,nElevenNTwoDirectRelOneUnderShare,nElevenLateNTwoDirectRelOneUnderShare,2.4\%,Table 14,
+nTwoDirectRelOneOverShare,1.5\%,nElevenNTwoDirectRelOneOverShare,nElevenLateNTwoDirectRelOneOverShare,3.4\%,Table 14,
+nTwoDirectRelTwoMedianError,-0.011,nElevenNTwoDirectRelTwoMedianError,nElevenLateNTwoDirectRelTwoMedianError,0.000,Table 14,
+nTwoDirectRelTwoUnderShare,21.2\%,nElevenNTwoDirectRelTwoUnderShare,nElevenLateNTwoDirectRelTwoUnderShare,0.7\%,Table 14,
+nTwoDirectRelTwoOverShare,0.0\%,nElevenNTwoDirectRelTwoOverShare,nElevenLateNTwoDirectRelTwoOverShare,0.0\%,Table 14,
+nTwoDirectAbsMedianError,-0.010,nElevenNTwoDirectAbsMedianError,nElevenLateNTwoDirectAbsMedianError,0.000,Table 14,
+nTwoDirectAbsUnderShare,19.8\%,nElevenNTwoDirectAbsUnderShare,nElevenLateNTwoDirectAbsUnderShare,2.4\%,Table 14,
+nTwoDirectAbsOverShare,1.4\%,nElevenNTwoDirectAbsOverShare,nElevenLateNTwoDirectAbsOverShare,3.4\%,Table 14,
+nTwoDirectMargCertMedianError,0.010,nElevenNTwoDirectMargCertMedianError,nElevenLateNTwoDirectMargCertMedianError,0.000,Table 14,
+nTwoDirectMargCertUnderShare,0.0\%,nElevenNTwoDirectMargCertUnderShare,nElevenLateNTwoDirectMargCertUnderShare,0.0\%,Table 14,
+nTwoDirectMargCertOverShare,19.5\%,nElevenNTwoDirectMargCertOverShare,nElevenLateNTwoDirectMargCertOverShare,0.7\%,Table 14,
+nTwoDirectMargCertMMedianError,0.000,nElevenNTwoDirectMargCertMMedianError,nElevenLateNTwoDirectMargCertMMedianError,0.000,Table 14,
+nTwoDirectMargCertMUnderShare,0.0\%,nElevenNTwoDirectMargCertMUnderShare,nElevenLateNTwoDirectMargCertMUnderShare,0.0\%,Table 14,
+nTwoDirectMargCertMOverShare,0.0\%,nElevenNTwoDirectMargCertMOverShare,nElevenLateNTwoDirectMargCertMOverShare,0.0\%,Table 14,
+nTwoDirectMargRelOneMedianError,0.000,nElevenNTwoDirectMargRelOneMedianError,nElevenLateNTwoDirectMargRelOneMedianError,0.000,Table 14,
+nTwoDirectMargRelOneUnderShare,2.4\%,nElevenNTwoDirectMargRelOneUnderShare,nElevenLateNTwoDirectMargRelOneUnderShare,1.8\%,Table 14,
+nTwoDirectMargRelOneOverShare,1.7\%,nElevenNTwoDirectMargRelOneOverShare,nElevenLateNTwoDirectMargRelOneOverShare,3.4\%,Table 14,
+nTwoDirectMargRelTwoMedianError,0.000,nElevenNTwoDirectMargRelTwoMedianError,nElevenLateNTwoDirectMargRelTwoMedianError,0.000,Table 14,
+nTwoDirectMargRelTwoUnderShare,1.5\%,nElevenNTwoDirectMargRelTwoUnderShare,nElevenLateNTwoDirectMargRelTwoUnderShare,0.0\%,Table 14,
+nTwoDirectMargRelTwoOverShare,0.1\%,nElevenNTwoDirectMargRelTwoOverShare,nElevenLateNTwoDirectMargRelTwoOverShare,0.1\%,Table 14,
+nTwoDirectMargAbsMedianError,0.000,nElevenNTwoDirectMargAbsMedianError,nElevenLateNTwoDirectMargAbsMedianError,0.000,Table 14,
+nTwoDirectMargAbsUnderShare,0.9\%,nElevenNTwoDirectMargAbsUnderShare,nElevenLateNTwoDirectMargAbsUnderShare,1.8\%,Table 14,
+nTwoDirectMargAbsOverShare,1.6\%,nElevenNTwoDirectMargAbsOverShare,nElevenLateNTwoDirectMargAbsOverShare,3.4\%,Table 14,
+nTwoDirectMargSeqCertUnderShare,0.0\%,nElevenNTwoDirectMargSeqCertUnderShare,nElevenLateNTwoDirectMargSeqCertUnderShare,0.0\%,Table 14,
+nTwoDirectMargFieldCertUnderShare,0.0\%,nElevenNTwoDirectMargFieldCertUnderShare,nElevenLateNTwoDirectMargFieldCertUnderShare,0.0\%,Table 14,
+nTwoDirectMargEmptyCertUnderShare,0.0\%,nElevenNTwoDirectMargEmptyCertUnderShare,nElevenLateNTwoDirectMargEmptyCertUnderShare,0.0\%,Table 14,
+nTwoDirectMargSeqCertMUnderShare,0.0\%,nElevenNTwoDirectMargSeqCertMUnderShare,nElevenLateNTwoDirectMargSeqCertMUnderShare,0.0\%,Table 14,
+nTwoDirectMargFieldCertMUnderShare,0.0\%,nElevenNTwoDirectMargFieldCertMUnderShare,nElevenLateNTwoDirectMargFieldCertMUnderShare,0.0\%,Table 14,
+nTwoDirectMargEmptyCertMUnderShare,0.0\%,nElevenNTwoDirectMargEmptyCertMUnderShare,nElevenLateNTwoDirectMargEmptyCertMUnderShare,0.0\%,Table 14,
+nTwoDirectMargSeqRelOneUnderShare,2.3\%,nElevenNTwoDirectMargSeqRelOneUnderShare,nElevenLateNTwoDirectMargSeqRelOneUnderShare,0.0\%,Table 14,
+nTwoDirectMargFieldRelOneUnderShare,3.7\%,nElevenNTwoDirectMargFieldRelOneUnderShare,nElevenLateNTwoDirectMargFieldRelOneUnderShare,4.5\%,Table 14,
+nTwoDirectMargEmptyRelOneUnderShare,0.0\%,nElevenNTwoDirectMargEmptyRelOneUnderShare,nElevenLateNTwoDirectMargEmptyRelOneUnderShare,0.0\%,Table 14,
+nTwoDirectMargSeqRelTwoUnderShare,2.3\%,nElevenNTwoDirectMargSeqRelTwoUnderShare,nElevenLateNTwoDirectMargSeqRelTwoUnderShare,0.0\%,Table 14,
+nTwoDirectMargFieldRelTwoUnderShare,1.1\%,nElevenNTwoDirectMargFieldRelTwoUnderShare,nElevenLateNTwoDirectMargFieldRelTwoUnderShare,0.0\%,Table 14,
+nTwoDirectMargEmptyRelTwoUnderShare,0.0\%,nElevenNTwoDirectMargEmptyRelTwoUnderShare,nElevenLateNTwoDirectMargEmptyRelTwoUnderShare,0.0\%,Table 14,
+nTwoDirectMargSeqAbsUnderShare,0.0\%,nElevenNTwoDirectMargSeqAbsUnderShare,nElevenLateNTwoDirectMargSeqAbsUnderShare,0.0\%,Table 14,
+nTwoDirectMargFieldAbsUnderShare,2.8\%,nElevenNTwoDirectMargFieldAbsUnderShare,nElevenLateNTwoDirectMargFieldAbsUnderShare,4.7\%,Table 14,
+nTwoDirectMargEmptyAbsUnderShare,0.0\%,nElevenNTwoDirectMargEmptyAbsUnderShare,nElevenLateNTwoDirectMargEmptyAbsUnderShare,0.0\%,Table 14,
+nTwoDirectCovered,"1{,}635",nElevenNTwoDirectCovered,nElevenLateNTwoDirectCovered,"1{,}356",Table 14 / Fig. 5,
+nTwoDirectRows,"1{,}635",nElevenNTwoDirectRows,nElevenLateNTwoDirectRows,"1{,}356",Table 14,
+nTwoRefGapAllMedian,0.3\%,nElevenNTwoRefGapAllMedian,nElevenLateNTwoRefGapAllMedian,0.0\%,Table 15,
+nTwoRefGapAllMax,"[26.9, 28.7]\%",nElevenNTwoRefGapAllMax,nElevenLateNTwoRefGapAllMax,20.6\%,Table 15,
+nTwoRefGapCNineStormMedian,"[4.0, 4.1]\%",nElevenNTwoRefGapCNineStormMedian,nElevenLateNTwoRefGapCNineStormMedian,0.0\%,Table 15,
+nTwoRefGapCNineStormMax,"[26.9, 28.7]\%",nElevenNTwoRefGapCNineStormMax,nElevenLateNTwoRefGapCNineStormMax,20.6\%,Table 15,
+nTwoDirectCNineStormRelTwoMedianError,"[-0.043, -0.042]",nElevenNTwoDirectCNineStormRelTwoMedianError,nElevenLateNTwoDirectCNineStormRelTwoMedianError,0.000,Table 15,
+nTwoDirectMargCNineStormRelTwoMedianError,0.000,nElevenNTwoDirectMargCNineStormRelTwoMedianError,nElevenLateNTwoDirectMargCNineStormRelTwoMedianError,0.000,Table 15,
+nTwoRefGapCTenStormMedian,"[0.1, 0.2]\%",nElevenNTwoRefGapCTenStormMedian,nElevenLateNTwoRefGapCTenStormMedian,0.0\%,Table 15,
+nTwoRefGapCTenStormMax,9.0\%,nElevenNTwoRefGapCTenStormMax,nElevenLateNTwoRefGapCTenStormMax,0.0\%,Table 15,
+nTwoDirectCTenStormRelTwoMedianError,"[-0.002, -0.000]",nElevenNTwoDirectCTenStormRelTwoMedianError,nElevenLateNTwoDirectCTenStormRelTwoMedianError,0.000,Table 15,
+nTwoDirectMargCTenStormRelTwoMedianError,"[-0.000, 0.000]",nElevenNTwoDirectMargCTenStormRelTwoMedianError,nElevenLateNTwoDirectMargCTenStormRelTwoMedianError,0.000,Table 15,
+nTwoRefGapCTenReplayMedian,0.0\%,nElevenNTwoRefGapCTenReplayMedian,nElevenLateNTwoRefGapCTenReplayMedian,0.0\%,Table 15,
+nTwoRefGapCTenReplayMax,1.6\%,nElevenNTwoRefGapCTenReplayMax,nElevenLateNTwoRefGapCTenReplayMax,0.0\%,Table 15,
+nTwoDirectCTenReplayRelTwoMedianError,0.000,nElevenNTwoDirectCTenReplayRelTwoMedianError,nElevenLateNTwoDirectCTenReplayRelTwoMedianError,0.000,Table 15,
+nTwoDirectMargCTenReplayRelTwoMedianError,0.000,nElevenNTwoDirectMargCTenReplayRelTwoMedianError,nElevenLateNTwoDirectMargCTenReplayRelTwoMedianError,0.000,Table 15,
+nTwoDirectBenignCertReferred,21,nElevenNTwoDirectBenignCertReferred,nElevenLateNTwoDirectBenignCertReferred,0,Table 15,
+nTwoDirectBenignCertMReferred,0,nElevenNTwoDirectBenignCertMReferred,nElevenLateNTwoDirectBenignCertMReferred,0,Table 15,
+nTwoDirectBenignCertMRemoved,21,nElevenNTwoDirectBenignCertMRemoved,nElevenLateNTwoDirectBenignCertMRemoved,0,Table 15,
+nTwoDirectBenignCertReferredExplainedByAnchor,21,nElevenNTwoDirectBenignCertReferredExplainedByAnchor,nElevenLateNTwoDirectBenignCertReferredExplainedByAnchor,0,Table 15,
+nTwoDirectVThreeCertMReferred,193,nElevenNTwoDirectVThreeCertMReferred,nElevenLateNTwoDirectVThreeCertMReferred,141,Table 15,
+nTwoDirectVThreeCertMRemoved,8,nElevenNTwoDirectVThreeCertMRemoved,nElevenLateNTwoDirectVThreeCertMRemoved,0,Table 15,
+nTwoDirectVThreeCertReferredExplainedByAnchor,7,nElevenNTwoDirectVThreeCertReferredExplainedByAnchor,nElevenLateNTwoDirectVThreeCertReferredExplainedByAnchor,0,Table 15,
+nTwoDirectAllCertReferred,279,nElevenNTwoDirectAllCertReferred,nElevenLateNTwoDirectAllCertReferred,183,Table 15,
+nTwoDirectAllCertMReferred,232,nElevenNTwoDirectAllCertMReferred,nElevenLateNTwoDirectAllCertMReferred,182,Table 15,
+nTwoDirectAllCertMRemoved,47,nElevenNTwoDirectAllCertMRemoved,nElevenLateNTwoDirectAllCertMRemoved,1,Table 15,
+nTwoDirectAllCertReferredExplainedByAnchor,46,nElevenNTwoDirectAllCertReferredExplainedByAnchor,nElevenLateNTwoDirectAllCertReferredExplainedByAnchor,1,Table 15,
+nTwoDirectRelTwoMissRateTen,29.1\%,nElevenNTwoDirectRelTwoMissRateTen,nElevenLateNTwoDirectRelTwoMissRateTen,0.0\%,Table 16,
+nTwoDirectCertMissRateTen,22.7\%,nElevenNTwoDirectCertMissRateTen,nElevenLateNTwoDirectCertMissRateTen,6.6\%,Table 16,
+nTwoDirectCertMMissRateTen,35.7\%,nElevenNTwoDirectCertMMissRateTen,nElevenLateNTwoDirectCertMMissRateTen,7.1\%,Table 16,
+nTwoDirectMargCertFalseReferralRateTen,2.8\%,nElevenNTwoDirectMargCertFalseReferralRateTen,nElevenLateNTwoDirectMargCertFalseReferralRateTen,0.0\%,Table 16,
+nTwoDirectMargCertMMissRateTen,8.7\%,nElevenNTwoDirectMargCertMMissRateTen,nElevenLateNTwoDirectMargCertMMissRateTen,6.2\%,Table 16,
+nTwoDirectMargUnionFalseReferralRateTen,0.9\%,nElevenNTwoDirectMargUnionFalseReferralRateTen,nElevenLateNTwoDirectMargUnionFalseReferralRateTen,0.6\%,Table 16,
+nTwoDirectRelTwoMissRateTwenty,13.3\%,nElevenNTwoDirectRelTwoMissRateTwenty,nElevenLateNTwoDirectRelTwoMissRateTwenty,0.0\%,Table 16,
+nTwoDirectCertMissRateTwenty,0.0\%,nElevenNTwoDirectCertMissRateTwenty,nElevenLateNTwoDirectCertMissRateTwenty,0.0\%,Table 16,
+nTwoDirectCertMMissRateTwenty,16.5\%,nElevenNTwoDirectCertMMissRateTwenty,nElevenLateNTwoDirectCertMMissRateTwenty,0.5\%,Table 16,
+nTwoDirectMargCertFalseReferralRateTwenty,3.3\%,nElevenNTwoDirectMargCertFalseReferralRateTwenty,nElevenLateNTwoDirectMargCertFalseReferralRateTwenty,0.1\%,Table 16,
+nTwoDirectMargCertMMissRateTwenty,0.0\%,nElevenNTwoDirectMargCertMMissRateTwenty,nElevenLateNTwoDirectMargCertMMissRateTwenty,0.0\%,Table 16,
+nTwoDirectMargUnionFalseReferralRateTwenty,2.5\%,nElevenNTwoDirectMargUnionFalseReferralRateTwenty,nElevenLateNTwoDirectMargUnionFalseReferralRateTwenty,1.6\%,Table 16,
+nTwoDirectCNineStormRelTwoMissRateTen,43.3\%,nElevenNTwoDirectCNineStormRelTwoMissRateTen,nElevenLateNTwoDirectCNineStormRelTwoMissRateTen,0.0\%,Table 16,
+nTwoDirectCNineStormCertMissRateTen,29.4\%,nElevenNTwoDirectCNineStormCertMissRateTen,nElevenLateNTwoDirectCNineStormCertMissRateTen,5.4\%,Table 16,
+nTwoDirectCNineStormCertMMissRateTen,49.2\%,nElevenNTwoDirectCNineStormCertMMissRateTen,nElevenLateNTwoDirectCNineStormCertMMissRateTen,6.2\%,Table 16,
+nTwoDirectMargCNineStormCertFalseReferralRateTen,5.5\%,nElevenNTwoDirectMargCNineStormCertFalseReferralRateTen,nElevenLateNTwoDirectMargCNineStormCertFalseReferralRateTen,0.0\%,Table 16,
+nTwoDirectMargCNineStormCertMMissRateTen,9.7\%,nElevenNTwoDirectMargCNineStormCertMMissRateTen,nElevenLateNTwoDirectMargCNineStormCertMMissRateTen,4.5\%,Table 16,
+nTwoDirectMargCNineStormUnionFalseReferralRateTen,0.7\%,nElevenNTwoDirectMargCNineStormUnionFalseReferralRateTen,nElevenLateNTwoDirectMargCNineStormUnionFalseReferralRateTen,1.0\%,Table 16,
+nTwoDirectCNineStormRelTwoMissRateTwenty,22.2\%,nElevenNTwoDirectCNineStormRelTwoMissRateTwenty,nElevenLateNTwoDirectCNineStormRelTwoMissRateTwenty,0.0\%,Table 16,
+nTwoDirectCNineStormCertMissRateTwenty,0.0\%,nElevenNTwoDirectCNineStormCertMissRateTwenty,nElevenLateNTwoDirectCNineStormCertMissRateTwenty,0.0\%,Table 16,
+nTwoDirectCNineStormCertMMissRateTwenty,27.5\%,nElevenNTwoDirectCNineStormCertMMissRateTwenty,nElevenLateNTwoDirectCNineStormCertMMissRateTwenty,0.9\%,Table 16,
+nTwoDirectMargCNineStormCertFalseReferralRateTwenty,6.6\%,nElevenNTwoDirectMargCNineStormCertFalseReferralRateTwenty,nElevenLateNTwoDirectMargCNineStormCertFalseReferralRateTwenty,0.2\%,Table 16,
+nTwoDirectMargCNineStormCertMMissRateTwenty,0.0\%,nElevenNTwoDirectMargCNineStormCertMMissRateTwenty,nElevenLateNTwoDirectMargCNineStormCertMMissRateTwenty,0.0\%,Table 16,
+nTwoDirectMargCNineStormUnionFalseReferralRateTwenty,2.5\%,nElevenNTwoDirectMargCNineStormUnionFalseReferralRateTwenty,nElevenLateNTwoDirectMargCNineStormUnionFalseReferralRateTwenty,1.8\%,Table 16,
+nTwoDirectCTenStormRelTwoMissRateTen,3.9\%,nElevenNTwoDirectCTenStormRelTwoMissRateTen,nElevenLateNTwoDirectCTenStormRelTwoMissRateTen,0.0\%,Table 16,
+nTwoDirectCTenStormCertMissRateTen,7.8\%,nElevenNTwoDirectCTenStormCertMissRateTen,nElevenLateNTwoDirectCTenStormCertMissRateTen,5.6\%,Table 16,
+nTwoDirectCTenStormCertMMissRateTen,7.8\%,nElevenNTwoDirectCTenStormCertMMissRateTen,nElevenLateNTwoDirectCTenStormCertMMissRateTen,5.6\%,Table 16,
+nTwoDirectMargCTenStormCertFalseReferralRateTen,0.0\%,nElevenNTwoDirectMargCTenStormCertFalseReferralRateTen,nElevenLateNTwoDirectMargCTenStormCertFalseReferralRateTen,0.0\%,Table 16,
+nTwoDirectMargCTenStormCertMMissRateTen,4.1\%,nElevenNTwoDirectMargCTenStormCertMMissRateTen,nElevenLateNTwoDirectMargCTenStormCertMMissRateTen,5.6\%,Table 16,
+nTwoDirectMargCTenStormUnionFalseReferralRateTen,0.8\%,nElevenNTwoDirectMargCTenStormUnionFalseReferralRateTen,nElevenLateNTwoDirectMargCTenStormUnionFalseReferralRateTen,0.4\%,Table 16,
+nTwoDirectCTenStormRelTwoMissRateTwenty,0.0\%,nElevenNTwoDirectCTenStormRelTwoMissRateTwenty,nElevenLateNTwoDirectCTenStormRelTwoMissRateTwenty,0.0\%,Table 16,
+nTwoDirectCTenStormCertMissRateTwenty,0.0\%,nElevenNTwoDirectCTenStormCertMissRateTwenty,nElevenLateNTwoDirectCTenStormCertMissRateTwenty,0.0\%,Table 16,
+nTwoDirectCTenStormCertMMissRateTwenty,0.0\%,nElevenNTwoDirectCTenStormCertMMissRateTwenty,nElevenLateNTwoDirectCTenStormCertMMissRateTwenty,0.0\%,Table 16,
+nTwoDirectMargCTenStormCertFalseReferralRateTwenty,0.0\%,nElevenNTwoDirectMargCTenStormCertFalseReferralRateTwenty,nElevenLateNTwoDirectMargCTenStormCertFalseReferralRateTwenty,0.0\%,Table 16,
+nTwoDirectMargCTenStormCertMMissRateTwenty,0.0\%,nElevenNTwoDirectMargCTenStormCertMMissRateTwenty,nElevenLateNTwoDirectMargCTenStormCertMMissRateTwenty,0.0\%,Table 16,
+nTwoDirectMargCTenStormUnionFalseReferralRateTwenty,1.5\%,nElevenNTwoDirectMargCTenStormUnionFalseReferralRateTwenty,nElevenLateNTwoDirectMargCTenStormUnionFalseReferralRateTwenty,1.3\%,Table 16,
+nTwoDirectCTenReplayRelTwoMissRateTen,0.0\%,nElevenNTwoDirectCTenReplayRelTwoMissRateTen,nElevenLateNTwoDirectCTenReplayRelTwoMissRateTen,0.0\%,Table 16,
+nTwoDirectCTenReplayCertMissRateTen,11.1\%,nElevenNTwoDirectCTenReplayCertMissRateTen,nElevenLateNTwoDirectCTenReplayCertMissRateTen,10.4\%,Table 16,
+nTwoDirectCTenReplayCertMMissRateTen,11.1\%,nElevenNTwoDirectCTenReplayCertMMissRateTen,nElevenLateNTwoDirectCTenReplayCertMMissRateTen,10.4\%,Table 16,
+nTwoDirectMargCTenReplayCertFalseReferralRateTen,0.0\%,nElevenNTwoDirectMargCTenReplayCertFalseReferralRateTen,nElevenLateNTwoDirectMargCTenReplayCertFalseReferralRateTen,0.0\%,Table 16,
+nTwoDirectMargCTenReplayCertMMissRateTen,9.9\%,nElevenNTwoDirectMargCTenReplayCertMMissRateTen,nElevenLateNTwoDirectMargCTenReplayCertMMissRateTen,10.4\%,Table 16,
+nTwoDirectMargCTenReplayUnionFalseReferralRateTen,1.4\%,nElevenNTwoDirectMargCTenReplayUnionFalseReferralRateTen,nElevenLateNTwoDirectMargCTenReplayUnionFalseReferralRateTen,0.0\%,Table 16,
+nTwoDirectCTenReplayRelTwoMissRateTwenty,0.0\%,nElevenNTwoDirectCTenReplayRelTwoMissRateTwenty,nElevenLateNTwoDirectCTenReplayRelTwoMissRateTwenty,0.0\%,Table 16,
+nTwoDirectCTenReplayCertMissRateTwenty,0.0\%,nElevenNTwoDirectCTenReplayCertMissRateTwenty,nElevenLateNTwoDirectCTenReplayCertMissRateTwenty,0.0\%,Table 16,
+nTwoDirectCTenReplayCertMMissRateTwenty,0.0\%,nElevenNTwoDirectCTenReplayCertMMissRateTwenty,nElevenLateNTwoDirectCTenReplayCertMMissRateTwenty,0.0\%,Table 16,
+nTwoDirectMargCTenReplayCertFalseReferralRateTwenty,0.0\%,nElevenNTwoDirectMargCTenReplayCertFalseReferralRateTwenty,nElevenLateNTwoDirectMargCTenReplayCertFalseReferralRateTwenty,0.0\%,Table 16,
+nTwoDirectMargCTenReplayCertMMissRateTwenty,0.0\%,nElevenNTwoDirectMargCTenReplayCertMMissRateTwenty,nElevenLateNTwoDirectMargCTenReplayCertMMissRateTwenty,0.0\%,Table 16,
+nTwoDirectMargCTenReplayUnionFalseReferralRateTwenty,3.0\%,nElevenNTwoDirectMargCTenReplayUnionFalseReferralRateTwenty,nElevenLateNTwoDirectMargCTenReplayUnionFalseReferralRateTwenty,1.4\%,Table 16,
+,,nElevenRealDirectRelTwoMissRateTen,,36.1\%,Table 16 consequence panel,
+,,nElevenRealDirectCertMissRateTen,,38.8\%,Table 16 consequence panel,
+,,nElevenRealDirectCertMMissRateTen,,39.1\%,Table 16 consequence panel,
+,,nElevenRealDirectMargCertFalseReferralRateTen,,0.0\%,Table 16 consequence panel,
+,,nElevenRealDirectMargCertMMissRateTen,,10.3\%,Table 16 consequence panel,
+,,nElevenRealDirectMargUnionFalseReferralRateTen,,1.2\%,Table 16 consequence panel,
+,,nElevenRealDirectRelTwoMissRateTwenty,,20.5\%,Table 16 consequence panel,
+,,nElevenRealDirectCertMissRateTwenty,,21.4\%,Table 16 consequence panel,
+,,nElevenRealDirectCertMMissRateTwenty,,21.9\%,Table 16 consequence panel,
+,,nElevenRealDirectMargCertFalseReferralRateTwenty,,1.3\%,Table 16 consequence panel,
+,,nElevenRealDirectMargCertMMissRateTwenty,,8.2\%,Table 16 consequence panel,
+,,nElevenRealDirectMargUnionFalseReferralRateTwenty,,2.8\%,Table 16 consequence panel,
+,,nElevenRealDirectCNineStormRelTwoMissRateTen,,47.9\%,Table 16 consequence panel,
+,,nElevenRealDirectCNineStormCertMissRateTen,,49.8\%,Table 16 consequence panel,
+,,nElevenRealDirectCNineStormCertMMissRateTen,,50.2\%,Table 16 consequence panel,
+,,nElevenRealDirectMargCNineStormCertFalseReferralRateTen,,0.0\%,Table 16 consequence panel,
+,,nElevenRealDirectMargCNineStormCertMMissRateTen,,11.0\%,Table 16 consequence panel,
+,,nElevenRealDirectMargCNineStormUnionFalseReferralRateTen,,1.5\%,Table 16 consequence panel,
+,,nElevenRealDirectCNineStormRelTwoMissRateTwenty,,28.3\%,Table 16 consequence panel,
+,,nElevenRealDirectCNineStormCertMissRateTwenty,,29.7\%,Table 16 consequence panel,
+,,nElevenRealDirectCNineStormCertMMissRateTwenty,,30.3\%,Table 16 consequence panel,
+,,nElevenRealDirectMargCNineStormCertFalseReferralRateTwenty,,2.0\%,Table 16 consequence panel,
+,,nElevenRealDirectMargCNineStormCertMMissRateTwenty,,9.7\%,Table 16 consequence panel,
+,,nElevenRealDirectMargCNineStormUnionFalseReferralRateTwenty,,3.7\%,Table 16 consequence panel,
+,,nElevenRealDirectCTenStormRelTwoMissRateTen,,12.5\%,Table 16 consequence panel,
+,,nElevenRealDirectCTenStormCertMissRateTen,,15.0\%,Table 16 consequence panel,
+,,nElevenRealDirectCTenStormCertMMissRateTen,,15.0\%,Table 16 consequence panel,
+,,nElevenRealDirectMargCTenStormCertFalseReferralRateTen,,0.0\%,Table 16 consequence panel,
+,,nElevenRealDirectMargCTenStormCertMMissRateTen,,10.5\%,Table 16 consequence panel,
+,,nElevenRealDirectMargCTenStormUnionFalseReferralRateTen,,0.9\%,Table 16 consequence panel,
+,,nElevenRealDirectCTenStormRelTwoMissRateTwenty,,8.1\%,Table 16 consequence panel,
+,,nElevenRealDirectCTenStormCertMissRateTwenty,,8.1\%,Table 16 consequence panel,
+,,nElevenRealDirectCTenStormCertMMissRateTwenty,,8.1\%,Table 16 consequence panel,
+,,nElevenRealDirectMargCTenStormCertFalseReferralRateTwenty,,0.0\%,Table 16 consequence panel,
+,,nElevenRealDirectMargCTenStormCertMMissRateTwenty,,8.1\%,Table 16 consequence panel,
+,,nElevenRealDirectMargCTenStormUnionFalseReferralRateTwenty,,1.3\%,Table 16 consequence panel,
+,,nElevenRealDirectCTenReplayRelTwoMissRateTen,,4.2\%,Table 16 consequence panel,
+,,nElevenRealDirectCTenReplayCertMissRateTen,,10.4\%,Table 16 consequence panel,
+,,nElevenRealDirectCTenReplayCertMMissRateTen,,10.4\%,Table 16 consequence panel,
+,,nElevenRealDirectMargCTenReplayCertFalseReferralRateTen,,0.0\%,Table 16 consequence panel,
+,,nElevenRealDirectMargCTenReplayCertMMissRateTen,,8.5\%,Table 16 consequence panel,
+,,nElevenRealDirectMargCTenReplayUnionFalseReferralRateTen,,0.9\%,Table 16 consequence panel,
+,,nElevenRealDirectCTenReplayRelTwoMissRateTwenty,,4.8\%,Table 16 consequence panel,
+,,nElevenRealDirectCTenReplayCertMissRateTwenty,,4.8\%,Table 16 consequence panel,
+,,nElevenRealDirectCTenReplayCertMMissRateTwenty,,4.8\%,Table 16 consequence panel,
+,,nElevenRealDirectMargCTenReplayCertFalseReferralRateTwenty,,0.9\%,Table 16 consequence panel,
+,,nElevenRealDirectMargCTenReplayCertMMissRateTwenty,,4.8\%,Table 16 consequence panel,
+,,nElevenRealDirectMargCTenReplayUnionFalseReferralRateTwenty,,2.3\%,Table 16 consequence panel,
+nTwoDirectMargCertAtDeltaTprFive,100.0\%,nElevenNTwoDirectMargCertAtDeltaTprFive,nElevenLateNTwoDirectMargCertAtDeltaTprFive,100.0\%,Table 16 / delta sweep,
+nTwoDirectMargCertAtDeltaFprFive,19.5\%,nElevenNTwoDirectMargCertAtDeltaFprFive,nElevenLateNTwoDirectMargCertAtDeltaFprFive,0.3\%,Table 16 / delta sweep,
+nTwoDirectMargCertAtDeltaTprTen,100.0\%,nElevenNTwoDirectMargCertAtDeltaTprTen,nElevenLateNTwoDirectMargCertAtDeltaTprTen,100.0\%,Table 16 / delta sweep,
+nTwoDirectMargCertAtDeltaFprTen,7.7\%,nElevenNTwoDirectMargCertAtDeltaFprTen,nElevenLateNTwoDirectMargCertAtDeltaFprTen,0.2\%,Table 16 / delta sweep,
+nTwoDirectMargCertAtDeltaTprTwenty,100.0\%,nElevenNTwoDirectMargCertAtDeltaTprTwenty,nElevenLateNTwoDirectMargCertAtDeltaTprTwenty,100.0\%,Table 16 / delta sweep,
+nTwoDirectMargCertAtDeltaFprTwenty,3.3\%,nElevenNTwoDirectMargCertAtDeltaFprTwenty,nElevenLateNTwoDirectMargCertAtDeltaFprTwenty,0.1\%,Table 16 / delta sweep,
+nTwoDirectMargCertMAtDeltaTprFive,100.0\%,nElevenNTwoDirectMargCertMAtDeltaTprFive,nElevenLateNTwoDirectMargCertMAtDeltaTprFive,100.0\%,Table 16 / delta sweep,
+nTwoDirectMargCertMAtDeltaFprFive,0.0\%,nElevenNTwoDirectMargCertMAtDeltaFprFive,nElevenLateNTwoDirectMargCertMAtDeltaFprFive,0.0\%,Table 16 / delta sweep,
+nTwoDirectMargCertMAtDeltaTprTen,100.0\%,nElevenNTwoDirectMargCertMAtDeltaTprTen,nElevenLateNTwoDirectMargCertMAtDeltaTprTen,100.0\%,Table 16 / delta sweep,
+nTwoDirectMargCertMAtDeltaFprTen,0.0\%,nElevenNTwoDirectMargCertMAtDeltaFprTen,nElevenLateNTwoDirectMargCertMAtDeltaFprTen,0.0\%,Table 16 / delta sweep,
+nTwoDirectMargCertMAtDeltaTprTwenty,100.0\%,nElevenNTwoDirectMargCertMAtDeltaTprTwenty,nElevenLateNTwoDirectMargCertMAtDeltaTprTwenty,100.0\%,Table 16 / delta sweep,
+nTwoDirectMargCertMAtDeltaFprTwenty,0.0\%,nElevenNTwoDirectMargCertMAtDeltaFprTwenty,nElevenLateNTwoDirectMargCertMAtDeltaFprTwenty,0.0\%,Table 16 / delta sweep,
+nTwoDirectMargRelTwoAtDeltaTprFive,100.0\%,nElevenNTwoDirectMargRelTwoAtDeltaTprFive,nElevenLateNTwoDirectMargRelTwoAtDeltaTprFive,100.0\%,Table 16 / delta sweep,
+nTwoDirectMargRelTwoAtDeltaFprFive,0.0\%,nElevenNTwoDirectMargRelTwoAtDeltaFprFive,nElevenLateNTwoDirectMargRelTwoAtDeltaFprFive,0.0\%,Table 16 / delta sweep,
+nTwoDirectMargRelTwoAtDeltaTprTen,99.6\%,nElevenNTwoDirectMargRelTwoAtDeltaTprTen,nElevenLateNTwoDirectMargRelTwoAtDeltaTprTen,100.0\%,Table 16 / delta sweep,
+nTwoDirectMargRelTwoAtDeltaFprTen,0.0\%,nElevenNTwoDirectMargRelTwoAtDeltaFprTen,nElevenLateNTwoDirectMargRelTwoAtDeltaFprTen,0.0\%,Table 16 / delta sweep,
+nTwoDirectMargRelTwoAtDeltaTprTwenty,99.1\%,nElevenNTwoDirectMargRelTwoAtDeltaTprTwenty,nElevenLateNTwoDirectMargRelTwoAtDeltaTprTwenty,100.0\%,Table 16 / delta sweep,
+nTwoDirectMargRelTwoAtDeltaFprTwenty,0.0\%,nElevenNTwoDirectMargRelTwoAtDeltaFprTwenty,nElevenLateNTwoDirectMargRelTwoAtDeltaFprTwenty,0.0\%,Table 16 / delta sweep,
+nTwoDirectMargRelOneAtDeltaTprFive,,nElevenNTwoDirectMargRelOneAtDeltaTprFive,nElevenLateNTwoDirectMargRelOneAtDeltaTprFive,100.0\%,Table 16 / delta sweep,published macro not found
+nTwoDirectMargRelOneAtDeltaFprFive,,nElevenNTwoDirectMargRelOneAtDeltaFprFive,nElevenLateNTwoDirectMargRelOneAtDeltaFprFive,4.0\%,Table 16 / delta sweep,published macro not found
+nTwoDirectMargRelOneAtDeltaTprTen,,nElevenNTwoDirectMargRelOneAtDeltaTprTen,nElevenLateNTwoDirectMargRelOneAtDeltaTprTen,100.0\%,Table 16 / delta sweep,published macro not found
+nTwoDirectMargRelOneAtDeltaFprTen,,nElevenNTwoDirectMargRelOneAtDeltaFprTen,nElevenLateNTwoDirectMargRelOneAtDeltaFprTen,3.9\%,Table 16 / delta sweep,published macro not found
+nTwoDirectMargRelOneAtDeltaTprTwenty,,nElevenNTwoDirectMargRelOneAtDeltaTprTwenty,nElevenLateNTwoDirectMargRelOneAtDeltaTprTwenty,100.0\%,Table 16 / delta sweep,published macro not found
+nTwoDirectMargRelOneAtDeltaFprTwenty,,nElevenNTwoDirectMargRelOneAtDeltaFprTwenty,nElevenLateNTwoDirectMargRelOneAtDeltaFprTwenty,3.7\%,Table 16 / delta sweep,published macro not found
+nNineHeldoutCDetectCertTwenty,100.0\%,nElevenNNineHeldoutCDetectCertTwenty,nElevenLateNNineHeldoutCDetectCertTwenty,100.0\%,Table 17,
+nNineHeldoutCCheapReferCertTwenty,49.0\%,nElevenNNineHeldoutCCheapReferCertTwenty,nElevenLateNNineHeldoutCCheapReferCertTwenty,36.4\%,Table 17,
+nNineHeldoutTwinReferCert,3.6\%,nElevenNNineHeldoutTwinReferCert,nElevenLateNNineHeldoutTwinReferCert,0.0\%,Table 17,
+nNineHeldoutUnderGCert,0.0\%,nElevenNNineHeldoutUnderGCert,nElevenLateNNineHeldoutUnderGCert,0.0\%,Table 17,
+nNineHeldoutUnderCCert,0.0\%,nElevenNNineHeldoutUnderCCert,nElevenLateNNineHeldoutUnderCCert,0.0\%,Table 17,
+nNineHeldoutCDetectCertMTwenty,100.0\%,nElevenNNineHeldoutCDetectCertMTwenty,nElevenLateNNineHeldoutCDetectCertMTwenty,100.0\%,Table 17,
+nNineHeldoutCCheapReferCertMTwenty,32.7\%,nElevenNNineHeldoutCCheapReferCertMTwenty,nElevenLateNNineHeldoutCCheapReferCertMTwenty,27.3\%,Table 17,
+nNineHeldoutTwinReferCertM,0.0\%,nElevenNNineHeldoutTwinReferCertM,nElevenLateNNineHeldoutTwinReferCertM,0.0\%,Table 17,
+nNineHeldoutUnderGCertM,17.7\%,nElevenNNineHeldoutUnderGCertM,nElevenLateNNineHeldoutUnderGCertM,2.1\%,Table 17,
+nNineHeldoutUnderCCertM,0.0\%,nElevenNNineHeldoutUnderCCertM,nElevenLateNNineHeldoutUnderCCertM,0.4\%,Table 17,
+nNineHeldoutCDetectRelOneTwenty,100.0\%,nElevenNNineHeldoutCDetectRelOneTwenty,nElevenLateNNineHeldoutCDetectRelOneTwenty,100.0\%,Table 17,
+nNineHeldoutCCheapReferRelOneTwenty,85.7\%,nElevenNNineHeldoutCCheapReferRelOneTwenty,nElevenLateNNineHeldoutCCheapReferRelOneTwenty,81.8\%,Table 17,
+nNineHeldoutTwinReferRelOne,0.0\%,nElevenNNineHeldoutTwinReferRelOne,nElevenLateNNineHeldoutTwinReferRelOne,1.4\%,Table 17,
+nNineHeldoutUnderGRelOne,28.6\%,nElevenNNineHeldoutUnderGRelOne,nElevenLateNNineHeldoutUnderGRelOne,2.1\%,Table 17,
+nNineHeldoutUnderCRelOne,4.1\%,nElevenNNineHeldoutUnderCRelOne,nElevenLateNNineHeldoutUnderCRelOne,0.4\%,Table 17,
+nNineHeldoutCDetectRelTwoTwenty,100.0\%,nElevenNNineHeldoutCDetectRelTwoTwenty,nElevenLateNNineHeldoutCDetectRelTwoTwenty,100.0\%,Table 17,
+nNineHeldoutCCheapReferRelTwoTwenty,85.7\%,nElevenNNineHeldoutCCheapReferRelTwoTwenty,nElevenLateNNineHeldoutCCheapReferRelTwoTwenty,81.8\%,Table 17,
+nNineHeldoutTwinReferRelTwo,0.0\%,nElevenNNineHeldoutTwinReferRelTwo,nElevenLateNNineHeldoutTwinReferRelTwo,1.4\%,Table 17,
+nNineHeldoutUnderGRelTwo,28.6\%,nElevenNNineHeldoutUnderGRelTwo,nElevenLateNNineHeldoutUnderGRelTwo,2.1\%,Table 17,
+nNineHeldoutUnderCRelTwo,4.1\%,nElevenNNineHeldoutUnderCRelTwo,nElevenLateNNineHeldoutUnderCRelTwo,0.4\%,Table 17,
+nNineHeldoutCDetectAbsTwenty,100.0\%,nElevenNNineHeldoutCDetectAbsTwenty,nElevenLateNNineHeldoutCDetectAbsTwenty,100.0\%,Table 17,
+nNineHeldoutCCheapReferAbsTwenty,85.7\%,nElevenNNineHeldoutCCheapReferAbsTwenty,nElevenLateNNineHeldoutCCheapReferAbsTwenty,81.8\%,Table 17,
+nNineHeldoutTwinReferAbs,0.5\%,nElevenNNineHeldoutTwinReferAbs,nElevenLateNNineHeldoutTwinReferAbs,1.4\%,Table 17,
+nNineHeldoutUnderGAbs,17.7\%,nElevenNNineHeldoutUnderGAbs,nElevenLateNNineHeldoutUnderGAbs,2.1\%,Table 17,
+nNineHeldoutUnderCAbs,0.0\%,nElevenNNineHeldoutUnderCAbs,nElevenLateNNineHeldoutUnderCAbs,0.4\%,Table 17,
+nNineHeldoutItems,220,nElevenNNineHeldoutItems,nElevenLateNNineHeldoutItems,162,Table 17,
+nNinePubCertMWithinFive,51.4\%,nElevenNNinePubCertMWithinFive,nElevenLateNNinePubCertMWithinFive,63.0\%,Section 5.2,
+nNinePubCertMDistMedian,0.045,nElevenNNinePubCertMDistMedian,nElevenLateNNinePubCertMDistMedian,0.008,Section 5.2,
+nNinePubRelTwoWithinFive,49.5\%,nElevenNNinePubRelTwoWithinFive,nElevenLateNNinePubRelTwoWithinFive,63.0\%,Section 5.2,
+nNinePubRelTwoDistMedian,0.050,nElevenNNinePubRelTwoDistMedian,nElevenLateNNinePubRelTwoDistMedian,0.008,Section 5.2,
+,,nElevenFieldDirectBenignFieldQual,,313,Table S10 (direct),
+,,nElevenFieldDirectBenignFieldApplied,,313,Table S10 (direct),
+,,nElevenFieldDirectBenignFieldDmgTwoCount,,0,Table S10 (direct),
+,,nElevenFieldDirectBenignFieldDmgTenCount,,0,Table S10 (direct),
+,,nElevenFieldDirectBenignFieldOrigAboveTau,,0,Table S10 (direct),
+,,nElevenFieldDirectBenignSeqQual,,310,Table S10 (direct),
+,,nElevenFieldDirectBenignSeqApplied,,310,Table S10 (direct),
+,,nElevenFieldDirectBenignSeqDmgTwoCount,,3,Table S10 (direct),
+,,nElevenFieldDirectBenignSeqDmgTenCount,,1,Table S10 (direct),
+,,nElevenFieldDirectVThreeFieldQual,,43,Table S10 (direct),
+,,nElevenFieldDirectVThreeFieldApplied,,0,Table S10 (direct),
+,,nElevenFieldDirectVThreeFieldDmgTwoCount,,0,Table S10 (direct),
+,,nElevenFieldDirectVThreeFieldDmgTenCount,,0,Table S10 (direct),
+,,nElevenFieldDirectVThreeFieldOrigAboveTau,,0,Table S10 (direct),
+,,nElevenFieldDirectVThreeSeqQual,,111,Table S10 (direct),
+,,nElevenFieldDirectVThreeSeqApplied,,13,Table S10 (direct),
+,,nElevenFieldDirectVThreeSeqDmgTwoCount,,13,Table S10 (direct),
+,,nElevenFieldDirectVThreeSeqDmgTenCount,,13,Table S10 (direct),
+,,nElevenFieldDirectVFourFieldQual,,120,Table S10 (direct),
+,,nElevenFieldDirectVFourFieldApplied,,120,Table S10 (direct),
+,,nElevenFieldDirectVFourFieldDmgTwoCount,,36,Table S10 (direct),
+,,nElevenFieldDirectVFourFieldDmgTenCount,,34,Table S10 (direct),
+,,nElevenFieldDirectVFourFieldOrigAboveTau,,24,Table S10 (direct),
+,,nElevenFieldDirectVFourSeqQual,,80,Table S10 (direct),
+,,nElevenFieldDirectVFourSeqApplied,,38,Table S10 (direct),
+,,nElevenFieldDirectVFourSeqDmgTwoCount,,4,Table S10 (direct),
+,,nElevenFieldDirectVFourSeqDmgTenCount,,4,Table S10 (direct),
+,,nElevenFieldDirectOtherFieldQual,,55,Table S10 (direct),
+,,nElevenFieldDirectOtherFieldApplied,,55,Table S10 (direct),
+,,nElevenFieldDirectOtherFieldDmgTwoCount,,1,Table S10 (direct),
+,,nElevenFieldDirectOtherFieldDmgTenCount,,0,Table S10 (direct),
+,,nElevenFieldDirectOtherFieldOrigAboveTau,,1,Table S10 (direct),
+,,nElevenFieldDirectOtherSeqQual,,69,Table S10 (direct),
+,,nElevenFieldDirectOtherSeqApplied,,69,Table S10 (direct),
+,,nElevenFieldDirectOtherSeqDmgTwoCount,,0,Table S10 (direct),
+,,nElevenFieldDirectOtherSeqDmgTenCount,,0,Table S10 (direct),
+,,nElevenDamageDirectVThreeFeas,,326.08,Section 5.1 (direct),
+,,nElevenDamageDirectVThreeFeasLo,,256.33,Section 5.1 (direct),
+,,nElevenDamageDirectVThreeFeasHi,,399.43,Section 5.1 (direct),
+,,nElevenDamageDirectPubVThreeFeas,,326.08,"Section 5.1 (direct, t = 0 on issuable)",
+,,nElevenDamageDirectVThreeCert,,3.60,Section 5.1 (direct),
+,,nElevenDamageDirectVThreeCertLo,,0.94,Section 5.1 (direct),
+,,nElevenDamageDirectVThreeCertHi,,7.62,Section 5.1 (direct),
+,,nElevenDamageDirectPubVThreeCert,,5.09,"Section 5.1 (direct, t = 0 on issuable)",
+,,nElevenDamageDirectVThreeCertM,,3.60,Section 5.1 (direct),
+,,nElevenDamageDirectVThreeCertMLo,,0.94,Section 5.1 (direct),
+,,nElevenDamageDirectVThreeCertMHi,,7.62,Section 5.1 (direct),
+,,nElevenDamageDirectPubVThreeCertM,,12.11,"Section 5.1 (direct, t = 0 on issuable)",
+,,nElevenDamageDirectVThreeRelTwo,,0.00,Section 5.1 (direct),
+,,nElevenDamageDirectVThreeRelTwoLo,,0.00,Section 5.1 (direct),
+,,nElevenDamageDirectVThreeRelTwoHi,,0.00,Section 5.1 (direct),
+,,nElevenDamageDirectPubVThreeRelTwo,,0.40,"Section 5.1 (direct, t = 0 on issuable)",
+,,nElevenDamageDirectVThreeUnion,,0.00,Section 5.1 (direct),
+,,nElevenDamageDirectVThreeUnionLo,,0.00,Section 5.1 (direct),
+,,nElevenDamageDirectVThreeUnionHi,,0.00,Section 5.1 (direct),
+,,nElevenDamageDirectPubVThreeUnion,,0.40,"Section 5.1 (direct, t = 0 on issuable)",
+,,nElevenDamageDirectBenignFeas,,-0.05,Section 5.1 (direct),
+,,nElevenDamageDirectBenignFeasLo,,-0.15,Section 5.1 (direct),
+,,nElevenDamageDirectBenignFeasHi,,0.06,Section 5.1 (direct),
+,,nElevenDamageDirectPubBenignFeas,,-1.86,"Section 5.1 (direct, t = 0 on issuable)",
+,,nElevenDamageDirectBenignCert,,-0.05,Section 5.1 (direct),
+,,nElevenDamageDirectBenignCertLo,,-0.15,Section 5.1 (direct),
+,,nElevenDamageDirectBenignCertHi,,0.06,Section 5.1 (direct),
+,,nElevenDamageDirectPubBenignCert,,-1.85,"Section 5.1 (direct, t = 0 on issuable)",
+,,nElevenDamageDirectBenignCertM,,-0.05,Section 5.1 (direct),
+,,nElevenDamageDirectBenignCertMLo,,-0.15,Section 5.1 (direct),
+,,nElevenDamageDirectBenignCertMHi,,0.06,Section 5.1 (direct),
+,,nElevenDamageDirectPubBenignCertM,,-1.86,"Section 5.1 (direct, t = 0 on issuable)",
+,,nElevenDamageDirectBenignRelTwo,,-0.05,Section 5.1 (direct),
+,,nElevenDamageDirectBenignRelTwoLo,,-0.15,Section 5.1 (direct),
+,,nElevenDamageDirectBenignRelTwoHi,,0.06,Section 5.1 (direct),
+,,nElevenDamageDirectPubBenignRelTwo,,-1.86,"Section 5.1 (direct, t = 0 on issuable)",
+,,nElevenDamageDirectBenignUnion,,-0.05,Section 5.1 (direct),
+,,nElevenDamageDirectBenignUnionLo,,-0.15,Section 5.1 (direct),
+,,nElevenDamageDirectBenignUnionHi,,0.06,Section 5.1 (direct),
+,,nElevenDamageDirectPubBenignUnion,,-1.86,"Section 5.1 (direct, t = 0 on issuable)",
+,,nElevenDamageDirectVFourFeas,,90.26,Section 5.1 (direct),
+,,nElevenDamageDirectVFourFeasLo,,69.37,Section 5.1 (direct),
+,,nElevenDamageDirectVFourFeasHi,,111.42,Section 5.1 (direct),
+,,nElevenDamageDirectPubVFourFeas,,90.26,"Section 5.1 (direct, t = 0 on issuable)",
+,,nElevenDamageDirectVFourCert,,24.92,Section 5.1 (direct),
+,,nElevenDamageDirectVFourCertLo,,16.60,Section 5.1 (direct),
+,,nElevenDamageDirectVFourCertHi,,34.04,Section 5.1 (direct),
+,,nElevenDamageDirectPubVFourCert,,26.50,"Section 5.1 (direct, t = 0 on issuable)",
+,,nElevenDamageDirectVFourCertM,,25.36,Section 5.1 (direct),
+,,nElevenDamageDirectVFourCertMLo,,16.93,Section 5.1 (direct),
+,,nElevenDamageDirectVFourCertMHi,,34.53,Section 5.1 (direct),
+,,nElevenDamageDirectPubVFourCertM,,29.60,"Section 5.1 (direct, t = 0 on issuable)",
+,,nElevenDamageDirectVFourRelTwo,,22.92,Section 5.1 (direct),
+,,nElevenDamageDirectVFourRelTwoLo,,14.77,Section 5.1 (direct),
+,,nElevenDamageDirectVFourRelTwoHi,,31.61,Section 5.1 (direct),
+,,nElevenDamageDirectPubVFourRelTwo,,22.92,"Section 5.1 (direct, t = 0 on issuable)",
+,,nElevenDamageDirectVFourUnion,,22.92,Section 5.1 (direct),
+,,nElevenDamageDirectVFourUnionLo,,14.77,Section 5.1 (direct),
+,,nElevenDamageDirectVFourUnionHi,,31.61,Section 5.1 (direct),
+,,nElevenDamageDirectPubVFourUnion,,22.92,"Section 5.1 (direct, t = 0 on issuable)",
+,,nElevenDamageDirectAllFeas,,39.64,Section 5.1 (direct),
+,,nElevenDamageDirectAllFeasLo,,31.03,Section 5.1 (direct),
+,,nElevenDamageDirectAllFeasHi,,48.95,Section 5.1 (direct),
+,,nElevenDamageDirectPubAllFeas,,38.98,"Section 5.1 (direct, t = 0 on issuable)",
+,,nElevenDamageDirectAllCert,,3.19,Section 5.1 (direct),
+,,nElevenDamageDirectAllCertLo,,2.15,Section 5.1 (direct),
+,,nElevenDamageDirectAllCertHi,,4.34,Section 5.1 (direct),
+,,nElevenDamageDirectPubAllCert,,2.86,"Section 5.1 (direct, t = 0 on issuable)",
+,,nElevenDamageDirectAllCertM,,3.25,Section 5.1 (direct),
+,,nElevenDamageDirectAllCertMLo,,2.20,Section 5.1 (direct),
+,,nElevenDamageDirectAllCertMHi,,4.40,Section 5.1 (direct),
+,,nElevenDamageDirectPubAllCertM,,3.85,"Section 5.1 (direct, t = 0 on issuable)",
+,,nElevenDamageDirectAllRelTwo,,2.64,Section 5.1 (direct),
+,,nElevenDamageDirectAllRelTwoLo,,1.68,Section 5.1 (direct),
+,,nElevenDamageDirectAllRelTwoHi,,3.67,Section 5.1 (direct),
+,,nElevenDamageDirectPubAllRelTwo,,2.02,"Section 5.1 (direct, t = 0 on issuable)",
+,,nElevenDamageDirectAllUnion,,2.64,Section 5.1 (direct),
+,,nElevenDamageDirectAllUnionLo,,1.68,Section 5.1 (direct),
+,,nElevenDamageDirectAllUnionHi,,3.67,Section 5.1 (direct),
+,,nElevenDamageDirectPubAllUnion,,2.02,"Section 5.1 (direct, t = 0 on issuable)",
+,,nElevenInfoVThreeErrAbsMedian,,0.162,information gap (replaces Table 20),
+,,nElevenInfoVThreeErrAbsPNinetyFive,,1.879,information gap (replaces Table 20),
+,,nElevenInfoVThreeErrMargMedian,,0.203,information gap (replaces Table 20),
+,,nElevenInfoVThreeErrMargPNinetyFive,,1.901,information gap (replaces Table 20),
+,,nElevenInfoVThreeErrBhMedian,,-1.681,information gap (replaces Table 20),
+,,nElevenInfoVThreeErrBhPNinetyFive,,2.299,information gap (replaces Table 20),
+,,nElevenInfoBenignErrAbsMedian,,-0.011,information gap (replaces Table 20),
+,,nElevenInfoBenignErrAbsPNinetyFive,,0.000,information gap (replaces Table 20),
+,,nElevenInfoBenignErrMargMedian,,0.000,information gap (replaces Table 20),
+,,nElevenInfoBenignErrMargPNinetyFive,,0.000,information gap (replaces Table 20),
+,,nElevenInfoBenignErrBhMedian,,0.000,information gap (replaces Table 20),
+,,nElevenInfoBenignErrBhPNinetyFive,,9.567,information gap (replaces Table 20),
+,,nElevenInfoAllErrAbsMedian,,-0.005,information gap (replaces Table 20),
+,,nElevenInfoAllErrAbsPNinetyFive,,0.388,information gap (replaces Table 20),
+,,nElevenInfoAllErrMargMedian,,0.000,information gap (replaces Table 20),
+,,nElevenInfoAllErrMargPNinetyFive,,0.438,information gap (replaces Table 20),
+,,nElevenInfoAllErrBhMedian,,0.000,information gap (replaces Table 20),
+,,nElevenInfoAllErrBhPNinetyFive,,1.652,information gap (replaces Table 20),
+nTwoOraclePooledBrackets,"1{,}340",nElevenNTwoOraclePooledBrackets,nElevenLateNTwoOraclePooledBrackets,960,Table S7,
+nTwoOraclePooledProved,"1{,}258",nElevenNTwoOraclePooledProved,nElevenLateNTwoOraclePooledProved,960,Table S7,
+nTwoOraclePooledProvedShare,93.9\%,nElevenNTwoOraclePooledProvedShare,nElevenLateNTwoOraclePooledProvedShare,100.0\%,Table S7,
+nTwoOraclePooledWidthPNinetyFive,0.23\%,nElevenNTwoOraclePooledWidthPNinetyFive,nElevenLateNTwoOraclePooledWidthPNinetyFive,0.00\%,Table S7,
+nTwoOraclePooledWidthMax,1.44\%,nElevenNTwoOraclePooledWidthMax,nElevenLateNTwoOraclePooledWidthMax,0.03\%,Table S7,
+nTwoOracleCNineStormBrackets,655,nElevenNTwoOracleCNineStormBrackets,nElevenLateNTwoOracleCNineStormBrackets,495,Table S7,
+nTwoOracleCNineStormProved,655,nElevenNTwoOracleCNineStormProved,nElevenLateNTwoOracleCNineStormProved,495,Table S7,
+nTwoOracleCNineStormProvedShare,100.0\%,nElevenNTwoOracleCNineStormProvedShare,nElevenLateNTwoOracleCNineStormProvedShare,100.0\%,Table S7,
+nTwoOracleCNineStormWidthPNinetyFive,0.35\%,nElevenNTwoOracleCNineStormWidthPNinetyFive,nElevenLateNTwoOracleCNineStormWidthPNinetyFive,0.00\%,Table S7,
+nTwoOracleCNineStormWidthMax,1.44\%,nElevenNTwoOracleCNineStormWidthMax,nElevenLateNTwoOracleCNineStormWidthMax,0.03\%,Table S7,
+nTwoOracleCTenStormBrackets,237,nElevenNTwoOracleCTenStormBrackets,nElevenLateNTwoOracleCTenStormBrackets,194,Table S7,
+nTwoOracleCTenStormProved,155,nElevenNTwoOracleCTenStormProved,nElevenLateNTwoOracleCTenStormProved,194,Table S7,
+nTwoOracleCTenStormProvedShare,65.4\%,nElevenNTwoOracleCTenStormProvedShare,nElevenLateNTwoOracleCTenStormProvedShare,100.0\%,Table S7,
+nTwoOracleCTenStormWidthPNinetyFive,0.20\%,nElevenNTwoOracleCTenStormWidthPNinetyFive,nElevenLateNTwoOracleCTenStormWidthPNinetyFive,0.00\%,Table S7,
+nTwoOracleCTenStormWidthMax,0.27\%,nElevenNTwoOracleCTenStormWidthMax,nElevenLateNTwoOracleCTenStormWidthMax,0.02\%,Table S7,
+nTwoOracleCTenReplayBrackets,448,nElevenNTwoOracleCTenReplayBrackets,nElevenLateNTwoOracleCTenReplayBrackets,271,Table S7,
+nTwoOracleCTenReplayProved,448,nElevenNTwoOracleCTenReplayProved,nElevenLateNTwoOracleCTenReplayProved,271,Table S7,
+nTwoOracleCTenReplayProvedShare,100.0\%,nElevenNTwoOracleCTenReplayProvedShare,nElevenLateNTwoOracleCTenReplayProvedShare,100.0\%,Table S7,
+nTwoOracleCTenReplayWidthPNinetyFive,0.00\%,nElevenNTwoOracleCTenReplayWidthPNinetyFive,nElevenLateNTwoOracleCTenReplayWidthPNinetyFive,0.00\%,Table S7,
+nTwoOracleCTenReplayWidthMax,0.00\%,nElevenNTwoOracleCTenReplayWidthMax,nElevenLateNTwoOracleCTenReplayWidthMax,0.00\%,Table S7,
+,,nElevenCoverageStatus,,complete,coverage,
+,,nElevenBoardsNeeded,,960,coverage,
+,,nElevenBoardsCovered,,960,coverage,
+eOneVThreeSepGlm,72.7\%,nElevenEOneVThreeSepGlm,nElevenLateEOneVThreeSepGlm,70.1\%,Table 11 / 5.1 (eOne),issuable t=0: 70.8\%
+eOneVThreeSepOpus,90.5\%,nElevenEOneVThreeSepOpus,nElevenLateEOneVThreeSepOpus,90.3\%,Table 11 / 5.1 (eOne),issuable t=0: 89.6\%
+eOneVThreeFeasPassOpus,440,nElevenEOneVThreeFeasPassOpus,nElevenLateEOneVThreeFeasPassOpus,308,Table 11 / 5.1 (eOne),issuable t=0: 308
+eOneVThreeSepMin,72.7\%,nElevenEOneVThreeSepMin,nElevenLateEOneVThreeSepMin,70.1\%,Table 11 / 5.1 (eOne),issuable t=0: 70.8\%
+eOneVThreeSepMax,90.5\%,nElevenEOneVThreeSepMax,nElevenLateEOneVThreeSepMax,90.3\%,Table 11 / 5.1 (eOne),issuable t=0: 89.6\%
+eOneFalseBlockOpus,3.9\%,nElevenEOneFalseBlockOpus,nElevenLateEOneFalseBlockOpus,1.7\%,Table 11 / 5.1 (eOne),issuable t=0: 4.4\%
+eOneFalseBlockMin,3.8\%,nElevenEOneFalseBlockMin,nElevenLateEOneFalseBlockMin,1.5\%,Table 11 / 5.1 (eOne),issuable t=0: 4.3\%
+eOneFalseBlockMax,8.6\%,nElevenEOneFalseBlockMax,nElevenLateEOneFalseBlockMax,7.5\%,Table 11 / 5.1 (eOne),issuable t=0: 9.8\%
+eOneFalseBlockFeasMin,0.2\%,nElevenEOneFalseBlockFeasMin,nElevenLateEOneFalseBlockFeasMin,1.5\%,Table 11 / 5.1 (eOne),issuable t=0: 0.3\%
+eOneFalseBlockFeasMax,6.0\%,nElevenEOneFalseBlockFeasMax,nElevenLateEOneFalseBlockFeasMax,7.5\%,Table 11 / 5.1 (eOne),issuable t=0: 7.1\%
+eOneOffShapeNoneMin,15.05\%,nElevenEOneOffShapeNoneMin,nElevenLateEOneOffShapeNoneMin,13.46\%,Table 11 / 5.1 (eOne),issuable t=0: 13.46\%
+eOneOffShapeNoneMax,100.00\%,nElevenEOneOffShapeNoneMax,nElevenLateEOneOffShapeNoneMax,100.00\%,Table 11 / 5.1 (eOne),issuable t=0: 100.00\%
+eOneOffShapeEnforcedMax,1.55\%,nElevenEOneOffShapeEnforcedMax,nElevenLateEOneOffShapeEnforcedMax,1.22\%,Table 11 / 5.1 (eOne),issuable t=0: 1.22\%
+eOneGlmOffShapeFree,100.00\%,nElevenEOneGlmOffShapeFree,nElevenLateEOneGlmOffShapeFree,100.00\%,Table 11 / 5.1 (eOne),issuable t=0: 100.00\%
+eOneGlmSchemaValidFree,0.00\%,nElevenEOneGlmSchemaValidFree,nElevenLateEOneGlmSchemaValidFree,0.00\%,Table 11 / 5.1 (eOne),issuable t=0: 0.00\%
+eOneGlmOffShapeGrammar,0.00\%,nElevenEOneGlmOffShapeGrammar,nElevenLateEOneGlmOffShapeGrammar,0.00\%,Table 11 / 5.1 (eOne),issuable t=0: 0.00\%
+eOneGlmItems,"2{,}000",nElevenEOneGlmItems,nElevenLateEOneGlmItems,"1{,}723",Table 11 / 5.1 (eOne),"issuable t=0: 1{,}723"
+eOneTranslationExactNoneMin,0.0,nElevenEOneTranslationExactNoneMin,nElevenLateEOneTranslationExactNoneMin,0.0,Table 11 / 5.1 (eOne),issuable t=0: 0.0
+eOneTranslationExactNoneMax,4.1,nElevenEOneTranslationExactNoneMax,nElevenLateEOneTranslationExactNoneMax,5.1,Table 11 / 5.1 (eOne),issuable t=0: 5.1
+eOneTranslationExactGrammarMin,59.3,nElevenEOneTranslationExactGrammarMin,nElevenLateEOneTranslationExactGrammarMin,59.6,Table 11 / 5.1 (eOne),issuable t=0: 59.6
+eOneTranslationExactGrammarMax,73.3,nElevenEOneTranslationExactGrammarMax,nElevenLateEOneTranslationExactGrammarMax,77.0,Table 11 / 5.1 (eOne),issuable t=0: 77.0
+eOneTranslationExactStrictMin,65.4,nElevenEOneTranslationExactStrictMin,nElevenLateEOneTranslationExactStrictMin,67.3,Table 11 / 5.1 (eOne),issuable t=0: 67.3
+eOneTranslationExactStrictMax,72.6,nElevenEOneTranslationExactStrictMax,nElevenLateEOneTranslationExactStrictMax,76.8,Table 11 / 5.1 (eOne),issuable t=0: 76.8
+eOneRegisterSepConversationalMini,75.0,nElevenEOneRegisterSepConversationalMini,nElevenLateEOneRegisterSepConversationalMini,70.5,Table 11 / 5.1 (eOne),issuable t=0: 72.7
+eOneRegisterSepFormalMini,80.4,nElevenEOneRegisterSepFormalMini,nElevenLateEOneRegisterSepFormalMini,76.9,Table 11 / 5.1 (eOne),issuable t=0: 76.9
+eOneRegisterSepTerseMini,80.5,nElevenEOneRegisterSepTerseMini,nElevenLateEOneRegisterSepTerseMini,91.1,Table 11 / 5.1 (eOne),issuable t=0: 88.9
+eOneRegisterSpreadMin,10.9,nElevenEOneRegisterSpreadMin,nElevenLateEOneRegisterSpreadMin,13.7,Table 11 / 5.1 (eOne),issuable t=0: 9.2
+eOneRegisterSpreadMax,20.3,nElevenEOneRegisterSpreadMax,nElevenLateEOneRegisterSpreadMax,29.6,Table 11 / 5.1 (eOne),issuable t=0: 25.1
+eOneVOneGuardBlockQwenFourteenB,66.7\%,nElevenEOneVOneGuardBlockQwenFourteenB,nElevenLateEOneVOneGuardBlockQwenFourteenB,66.0\%,Table 11 / 5.1 (eOne),issuable t=0: 66.7\%
+eOneVOneDeclinedQwenFourteenB,8.5\%,nElevenEOneVOneDeclinedQwenFourteenB,nElevenLateEOneVOneDeclinedQwenFourteenB,9.2\%,Table 11 / 5.1 (eOne),issuable t=0: 8.5\%
+eOneVOneGuardBlockOpus,23.4\%,nElevenEOneVOneGuardBlockOpus,nElevenLateEOneVOneGuardBlockOpus,22.5\%,Table 11 / 5.1 (eOne),issuable t=0: 23.4\%
+eOneVOneDeclinedOpus,70.9\%,nElevenEOneVOneDeclinedOpus,nElevenLateEOneVOneDeclinedOpus,71.9\%,Table 11 / 5.1 (eOne),issuable t=0: 70.9\%
+eOneVTwoGuardBlockGlm,76.5\%,nElevenEOneVTwoGuardBlockGlm,nElevenLateEOneVTwoGuardBlockGlm,74.1\%,Table 11 / 5.1 (eOne),issuable t=0: 74.6\%
+eOneVTwoGuardBlockOpus,8.2\%,nElevenEOneVTwoGuardBlockOpus,nElevenLateEOneVTwoGuardBlockOpus,5.7\%,Table 11 / 5.1 (eOne),issuable t=0: 8.9\%
+eOneBenignDeclineMin,0.0\%,nElevenEOneBenignDeclineMin,nElevenLateEOneBenignDeclineMin,0.0\%,Table 11 / 5.1 (eOne),issuable t=0: 0.0\%
+eOneBenignDeclineMax,0.8\%,nElevenEOneBenignDeclineMax,nElevenLateEOneBenignDeclineMax,1.0\%,Table 11 / 5.1 (eOne),issuable t=0: 1.0\%
+eOneOpusRefusalFreeDisabled,78.0\%,nElevenEOneOpusRefusalFreeDisabled,nElevenLateEOneOpusRefusalFreeDisabled,78.8\%,Table 11 / 5.1 (eOne),issuable t=0: 78.8\%
+eOneOpusFreeRowsDisabled,"4{,}000",nElevenEOneOpusFreeRowsDisabled,nElevenLateEOneOpusFreeRowsDisabled,"3{,}446",Table 11 / 5.1 (eOne),"issuable t=0: 3{,}446"
+eOneOpusRefusalFreeDefault,75.2\%,nElevenEOneOpusRefusalFreeDefault,nElevenLateEOneOpusRefusalFreeDefault,75.9\%,Table 11 / 5.1 (eOne),issuable t=0: 75.9\%
+eOneOpusFreeRowsDefault,"4{,}000",nElevenEOneOpusFreeRowsDefault,nElevenLateEOneOpusFreeRowsDefault,"3{,}446",Table 11 / 5.1 (eOne),"issuable t=0: 3{,}446"
+eTwoSepGainMin,8.2,nElevenETwoSepGainMin,nElevenLateETwoSepGainMin,7.1,Fig. 7 / Table S20 (eTwo),issuable t=0: 9.7
+eTwoSepGainMax,10.9,nElevenETwoSepGainMax,nElevenLateETwoSepGainMax,10.4,Fig. 7 / Table S20 (eTwo),issuable t=0: 13.0
+eTwoSepLossMin,27.7,nElevenETwoSepLossMin,nElevenLateETwoSepLossMin,15.6,Fig. 7 / Table S20 (eTwo),issuable t=0: 31.2
+eTwoSepLossMax,31.8,nElevenETwoSepLossMax,nElevenLateETwoSepLossMax,18.2,Fig. 7 / Table S20 (eTwo),issuable t=0: 33.8
+eTwoFloorMin,0.2\%,nElevenETwoFloorMin,nElevenLateETwoFloorMin,1.5\%,Fig. 7 / Table S20 (eTwo),issuable t=0: 0.3\%
+eTwoFloorMax,6.0\%,nElevenETwoFloorMax,nElevenLateETwoFloorMax,7.5\%,Fig. 7 / Table S20 (eTwo),issuable t=0: 7.1\%
+dgNineCNineVThreeSepQwenFourteenB,89.5\%,nElevenDgNineCNineVThreeSepQwenFourteenB,nElevenLateDgNineCNineVThreeSepQwenFourteenB,84.1\%,"Table S (E1 strata, DG9)",issuable t=0: 86.4\%
+dgNineCNineFalseBlockQwenFourteenB,7.5\%,nElevenDgNineCNineFalseBlockQwenFourteenB,nElevenLateDgNineCNineFalseBlockQwenFourteenB,3.4\%,"Table S (E1 strata, DG9)",issuable t=0: 8.2\%
+dgNineCNineVThreeSepQwenTwentySevenB,91.2\%,nElevenDgNineCNineVThreeSepQwenTwentySevenB,nElevenLateDgNineCNineVThreeSepQwenTwentySevenB,87.5\%,"Table S (E1 strata, DG9)",issuable t=0: 88.6\%
+dgNineCNineFalseBlockQwenTwentySevenB,9.1\%,nElevenDgNineCNineFalseBlockQwenTwentySevenB,nElevenLateDgNineCNineFalseBlockQwenTwentySevenB,4.7\%,"Table S (E1 strata, DG9)",issuable t=0: 10.1\%
+dgNineCNineVThreeSepGlm,79.8\%,nElevenDgNineCNineVThreeSepGlm,nElevenLateDgNineCNineVThreeSepGlm,70.5\%,"Table S (E1 strata, DG9)",issuable t=0: 73.9\%
+dgNineCNineFalseBlockGlm,10.7\%,nElevenDgNineCNineFalseBlockGlm,nElevenLateDgNineCNineFalseBlockGlm,7.1\%,"Table S (E1 strata, DG9)",issuable t=0: 11.5\%
+dgNineCNineVThreeSepMini,86.4\%,nElevenDgNineCNineVThreeSepMini,nElevenLateDgNineCNineVThreeSepMini,82.4\%,"Table S (E1 strata, DG9)",issuable t=0: 84.7\%
+dgNineCNineFalseBlockMini,7.1\%,nElevenDgNineCNineFalseBlockMini,nElevenLateDgNineCNineFalseBlockMini,2.2\%,"Table S (E1 strata, DG9)",issuable t=0: 7.7\%
+dgNineCNineVThreeSepSonnet,87.7\%,nElevenDgNineCNineVThreeSepSonnet,nElevenLateDgNineCNineVThreeSepSonnet,83.0\%,"Table S (E1 strata, DG9)",issuable t=0: 84.1\%
+dgNineCNineFalseBlockSonnet,6.9\%,nElevenDgNineCNineFalseBlockSonnet,nElevenLateDgNineCNineFalseBlockSonnet,1.9\%,"Table S (E1 strata, DG9)",issuable t=0: 7.4\%
+dgNineCNineVThreeSepOpus,93.0\%,nElevenDgNineCNineVThreeSepOpus,nElevenLateDgNineCNineVThreeSepOpus,89.8\%,"Table S (E1 strata, DG9)",issuable t=0: 90.9\%
+dgNineCNineFalseBlockOpus,6.9\%,nElevenDgNineCNineFalseBlockOpus,nElevenLateDgNineCNineFalseBlockOpus,1.9\%,"Table S (E1 strata, DG9)",issuable t=0: 7.4\%
+dgNineCNineVThreeSepOpusDisabled,92.5\%,nElevenDgNineCNineVThreeSepOpusDisabled,nElevenLateDgNineCNineVThreeSepOpusDisabled,89.2\%,"Table S (E1 strata, DG9)",issuable t=0: 90.3\%
+dgNineCNineFalseBlockOpusDisabled,8.0\%,nElevenDgNineCNineFalseBlockOpusDisabled,nElevenLateDgNineCNineFalseBlockOpusDisabled,3.4\%,"Table S (E1 strata, DG9)",issuable t=0: 8.8\%
+dgNineCNineVThreeSepSol,92.1\%,nElevenDgNineCNineVThreeSepSol,nElevenLateDgNineCNineVThreeSepSol,88.6\%,"Table S (E1 strata, DG9)",issuable t=0: 89.8\%
+dgNineCNineFalseBlockSol,8.9\%,nElevenDgNineCNineFalseBlockSol,nElevenLateDgNineCNineFalseBlockSol,4.5\%,"Table S (E1 strata, DG9)",issuable t=0: 9.9\%
+dgNineCTenStormVThreeSepQwenFourteenB,85.4\%,nElevenDgNineCTenStormVThreeSepQwenFourteenB,nElevenLateDgNineCTenStormVThreeSepQwenFourteenB,82.1\%,"Table S (E1 strata, DG9)",issuable t=0: 82.1\%
+dgNineCTenStormFalseBlockQwenFourteenB,2.8\%,nElevenDgNineCTenStormFalseBlockQwenFourteenB,nElevenLateDgNineCTenStormFalseBlockQwenFourteenB,5.4\%,"Table S (E1 strata, DG9)",issuable t=0: 3.7\%
+dgNineCTenStormVThreeSepQwenTwentySevenB,85.4\%,nElevenDgNineCTenStormVThreeSepQwenTwentySevenB,nElevenLateDgNineCTenStormVThreeSepQwenTwentySevenB,85.7\%,"Table S (E1 strata, DG9)",issuable t=0: 85.7\%
+dgNineCTenStormFalseBlockQwenTwentySevenB,3.5\%,nElevenDgNineCTenStormFalseBlockQwenTwentySevenB,nElevenLateDgNineCTenStormFalseBlockQwenTwentySevenB,4.6\%,"Table S (E1 strata, DG9)",issuable t=0: 4.6\%
+dgNineCTenStormVThreeSepGlm,70.7\%,nElevenDgNineCTenStormVThreeSepGlm,nElevenLateDgNineCTenStormVThreeSepGlm,71.4\%,"Table S (E1 strata, DG9)",issuable t=0: 71.4\%
+dgNineCTenStormFalseBlockGlm,7.8\%,nElevenDgNineCTenStormFalseBlockGlm,nElevenLateDgNineCTenStormFalseBlockGlm,8.5\%,"Table S (E1 strata, DG9)",issuable t=0: 7.7\%
+dgNineCTenStormVThreeSepMini,79.3\%,nElevenDgNineCTenStormVThreeSepMini,nElevenLateDgNineCTenStormVThreeSepMini,76.8\%,"Table S (E1 strata, DG9)",issuable t=0: 76.8\%
+dgNineCTenStormFalseBlockMini,1.0\%,nElevenDgNineCTenStormFalseBlockMini,nElevenLateDgNineCTenStormFalseBlockMini,1.3\%,"Table S (E1 strata, DG9)",issuable t=0: 1.3\%
+dgNineCTenStormVThreeSepSonnet,87.8\%,nElevenDgNineCTenStormVThreeSepSonnet,nElevenLateDgNineCTenStormVThreeSepSonnet,85.7\%,"Table S (E1 strata, DG9)",issuable t=0: 85.7\%
+dgNineCTenStormFalseBlockSonnet,1.0\%,nElevenDgNineCTenStormFalseBlockSonnet,nElevenLateDgNineCTenStormFalseBlockSonnet,1.3\%,"Table S (E1 strata, DG9)",issuable t=0: 1.3\%
+dgNineCTenStormVThreeSepOpus,92.7\%,nElevenDgNineCTenStormVThreeSepOpus,nElevenLateDgNineCTenStormVThreeSepOpus,92.9\%,"Table S (E1 strata, DG9)",issuable t=0: 92.9\%
+dgNineCTenStormFalseBlockOpus,1.3\%,nElevenDgNineCTenStormFalseBlockOpus,nElevenLateDgNineCTenStormFalseBlockOpus,1.7\%,"Table S (E1 strata, DG9)",issuable t=0: 1.7\%
+dgNineCTenStormVThreeSepOpusDisabled,91.5\%,nElevenDgNineCTenStormVThreeSepOpusDisabled,nElevenLateDgNineCTenStormVThreeSepOpusDisabled,91.1\%,"Table S (E1 strata, DG9)",issuable t=0: 91.1\%
+dgNineCTenStormFalseBlockOpusDisabled,2.9\%,nElevenDgNineCTenStormFalseBlockOpusDisabled,nElevenLateDgNineCTenStormFalseBlockOpusDisabled,3.8\%,"Table S (E1 strata, DG9)",issuable t=0: 3.8\%
+dgNineCTenStormVThreeSepSol,90.2\%,nElevenDgNineCTenStormVThreeSepSol,nElevenLateDgNineCTenStormVThreeSepSol,89.3\%,"Table S (E1 strata, DG9)",issuable t=0: 89.3\%
+dgNineCTenStormFalseBlockSol,3.3\%,nElevenDgNineCTenStormFalseBlockSol,nElevenLateDgNineCTenStormFalseBlockSol,4.3\%,"Table S (E1 strata, DG9)",issuable t=0: 4.3\%
+dgNineReplayVThreeSepQwenFourteenB,67.7\%,nElevenDgNineReplayVThreeSepQwenFourteenB,nElevenLateDgNineReplayVThreeSepQwenFourteenB,71.1\%,"Table S (E1 strata, DG9)",issuable t=0: 65.8\%
+dgNineReplayFalseBlockQwenFourteenB,0.4\%,nElevenDgNineReplayFalseBlockQwenFourteenB,nElevenLateDgNineReplayFalseBlockQwenFourteenB,3.1\%,"Table S (E1 strata, DG9)",issuable t=0: 0.5\%
+dgNineReplayVThreeSepQwenTwentySevenB,80.5\%,nElevenDgNineReplayVThreeSepQwenTwentySevenB,nElevenLateDgNineReplayVThreeSepQwenTwentySevenB,84.2\%,"Table S (E1 strata, DG9)",issuable t=0: 78.9\%
+dgNineReplayFalseBlockQwenTwentySevenB,1.2\%,nElevenDgNineReplayFalseBlockQwenTwentySevenB,nElevenLateDgNineReplayFalseBlockQwenTwentySevenB,1.5\%,"Table S (E1 strata, DG9)",issuable t=0: 1.5\%
+dgNineReplayVThreeSepGlm,61.5\%,nElevenDgNineReplayVThreeSepGlm,nElevenLateDgNineReplayVThreeSepGlm,68.4\%,"Table S (E1 strata, DG9)",issuable t=0: 63.2\%
+dgNineReplayFalseBlockGlm,4.0\%,nElevenDgNineReplayFalseBlockGlm,nElevenLateDgNineReplayFalseBlockGlm,5.2\%,"Table S (E1 strata, DG9)",issuable t=0: 5.2\%
+dgNineReplayVThreeSepMini,65.4\%,nElevenDgNineReplayVThreeSepMini,nElevenLateDgNineReplayVThreeSepMini,73.7\%,"Table S (E1 strata, DG9)",issuable t=0: 68.4\%
+dgNineReplayFalseBlockMini,0.6\%,nElevenDgNineReplayFalseBlockMini,nElevenLateDgNineReplayFalseBlockMini,0.8\%,"Table S (E1 strata, DG9)",issuable t=0: 0.8\%
+dgNineReplayVThreeSepSonnet,81.5\%,nElevenDgNineReplayVThreeSepSonnet,nElevenLateDgNineReplayVThreeSepSonnet,84.2\%,"Table S (E1 strata, DG9)",issuable t=0: 78.9\%
+dgNineReplayFalseBlockSonnet,0.8\%,nElevenDgNineReplayFalseBlockSonnet,nElevenLateDgNineReplayFalseBlockSonnet,1.0\%,"Table S (E1 strata, DG9)",issuable t=0: 1.0\%
+dgNineReplayVThreeSepOpus,84.6\%,nElevenDgNineReplayVThreeSepOpus,nElevenLateDgNineReplayVThreeSepOpus,89.5\%,"Table S (E1 strata, DG9)",issuable t=0: 84.2\%
+dgNineReplayFalseBlockOpus,1.0\%,nElevenDgNineReplayFalseBlockOpus,nElevenLateDgNineReplayFalseBlockOpus,1.3\%,"Table S (E1 strata, DG9)",issuable t=0: 1.3\%
+dgNineReplayVThreeSepOpusDisabled,84.6\%,nElevenDgNineReplayVThreeSepOpusDisabled,nElevenLateDgNineReplayVThreeSepOpusDisabled,89.5\%,"Table S (E1 strata, DG9)",issuable t=0: 84.2\%
+dgNineReplayFalseBlockOpusDisabled,1.6\%,nElevenDgNineReplayFalseBlockOpusDisabled,nElevenLateDgNineReplayFalseBlockOpusDisabled,2.1\%,"Table S (E1 strata, DG9)",issuable t=0: 2.1\%
+dgNineReplayVThreeSepSol,60.0\%,nElevenDgNineReplayVThreeSepSol,nElevenLateDgNineReplayVThreeSepSol,71.1\%,"Table S (E1 strata, DG9)",issuable t=0: 65.8\%
+dgNineReplayFalseBlockSol,11.5\%,nElevenDgNineReplayFalseBlockSol,nElevenLateDgNineReplayFalseBlockSol,14.4\%,"Table S (E1 strata, DG9)",issuable t=0: 12.9\%
+dgNineCertOnlyCNineOpusItems,42,nElevenDgNineCertOnlyCNineOpusItems,nElevenLateDgNineCertOnlyCNineOpusItems,0,"Table S (E1 strata, DG9)",issuable t=0: 34
+dgNineCertOnlyCNineOpusPp,5.3\%,nElevenDgNineCertOnlyCNineOpusPp,nElevenLateDgNineCertOnlyCNineOpusPp,0.0\%,"Table S (E1 strata, DG9)",issuable t=0: 5.4\%
+dgEOneDeltaFlagshipFeasDamage,+36.96,nElevenDgEOneDeltaFlagshipFeasDamage,nElevenLateDgEOneDeltaFlagshipFeasDamage,+28.81,5.1 damage sentences (DG17),issuable t=0: +27.50
+dgEOneDeltaFlagshipFeasDamageLo,+28.70,nElevenDgEOneDeltaFlagshipFeasDamageLo,nElevenLateDgEOneDeltaFlagshipFeasDamageLo,+22.09,5.1 damage sentences (DG17),issuable t=0: +21.00
+dgEOneDeltaFlagshipFeasDamageHi,+45.81,nElevenDgEOneDeltaFlagshipFeasDamageHi,nElevenLateDgEOneDeltaFlagshipFeasDamageHi,+36.17,5.1 damage sentences (DG17),issuable t=0: +34.62
+dgEOneDeltaFlagshipCertDamage,-0.55,nElevenDgEOneDeltaFlagshipCertDamage,nElevenLateDgEOneDeltaFlagshipCertDamage,+0.42,5.1 damage sentences (DG17),issuable t=0: -0.75
+dgEOneDeltaFlagshipCertDamageLo,-1.21,nElevenDgEOneDeltaFlagshipCertDamageLo,nElevenLateDgEOneDeltaFlagshipCertDamageLo,+0.13,5.1 damage sentences (DG17),issuable t=0: -1.50
+dgEOneDeltaFlagshipCertDamageHi,+0.07,nElevenDgEOneDeltaFlagshipCertDamageHi,nElevenLateDgEOneDeltaFlagshipCertDamageHi,+0.80,5.1 damage sentences (DG17),issuable t=0: -0.07
+dgEOneDeltaCertAcceptedAboveTau,0.0\%,nElevenDgEOneDeltaCertAcceptedAboveTau,nElevenLateDgEOneDeltaCertAcceptedAboveTau,0.0\%,5.1 damage sentences (DG17),issuable t=0: 0.0\%
+dgEOneDeltaRelTwoAcceptedAboveTauMin,2.8\%,nElevenDgEOneDeltaRelTwoAcceptedAboveTauMin,nElevenLateDgEOneDeltaRelTwoAcceptedAboveTauMin,0.0\%,5.1 damage sentences (DG17),issuable t=0: 2.9\%
+dgEOneDeltaRelTwoAcceptedAboveTauMax,3.2\%,nElevenDgEOneDeltaRelTwoAcceptedAboveTauMax,nElevenLateDgEOneDeltaRelTwoAcceptedAboveTauMax,0.0\%,5.1 damage sentences (DG17),issuable t=0: 3.4\%
+dgEOneDeltaAbsAcceptedAboveTauMin,4.0\%,nElevenDgEOneDeltaAbsAcceptedAboveTauMin,nElevenLateDgEOneDeltaAbsAcceptedAboveTauMin,4.8\%,5.1 damage sentences (DG17),issuable t=0: 4.2\%
+dgEOneDeltaAbsAcceptedAboveTauMax,5.0\%,nElevenDgEOneDeltaAbsAcceptedAboveTauMax,nElevenLateDgEOneDeltaAbsAcceptedAboveTauMax,6.9\%,5.1 damage sentences (DG17),issuable t=0: 5.3\%
+dgEOneDeltaRelOneAcceptedAboveTauMin,4.8\%,nElevenDgEOneDeltaRelOneAcceptedAboveTauMin,nElevenLateDgEOneDeltaRelOneAcceptedAboveTauMin,8.4\%,5.1 damage sentences (DG17),issuable t=0: 5.1\%
+dgEOneDeltaRelOneAcceptedAboveTauMax,8.9\%,nElevenDgEOneDeltaRelOneAcceptedAboveTauMax,nElevenLateDgEOneDeltaRelOneAcceptedAboveTauMax,9.5\%,5.1 damage sentences (DG17),issuable t=0: 8.5\%
+dgEOneDeltaRelTwoDispatchMin,0.176,nElevenDgEOneDeltaRelTwoDispatchMin,nElevenLateDgEOneDeltaRelTwoDispatchMin,0.142,5.1 damage sentences (DG17),issuable t=0: 0.156
+dgEOneDeltaRelTwoDispatchMax,0.544,nElevenDgEOneDeltaRelTwoDispatchMax,nElevenLateDgEOneDeltaRelTwoDispatchMax,0.465,5.1 damage sentences (DG17),issuable t=0: 0.494
+dgEOneDeltaRefDispatchMin,0.019,nElevenDgEOneDeltaRefDispatchMin,nElevenLateDgEOneDeltaRefDispatchMin,0.022,5.1 damage sentences (DG17),issuable t=0: 0.022
+dgEOneDeltaRefDispatchMax,0.058,nElevenDgEOneDeltaRefDispatchMax,nElevenLateDgEOneDeltaRefDispatchMax,0.067,5.1 damage sentences (DG17),issuable t=0: 0.067
+dgEOneDeltaCertVFourQualSep,64,nElevenDgEOneDeltaCertVFourQualSep,nElevenLateDgEOneDeltaCertVFourQualSep,0,5.1 damage sentences (DG17),issuable t=0: 64
+dgEOneDeltaCertVFourQualSelfBlock,64,nElevenDgEOneDeltaCertVFourQualSelfBlock,nElevenLateDgEOneDeltaCertVFourQualSelfBlock,0,5.1 damage sentences (DG17),issuable t=0: 64
+dgEOneDeltaCertVThreeSelfBlock,128,nElevenDgEOneDeltaCertVThreeSelfBlock,nElevenLateDgEOneDeltaCertVThreeSelfBlock,0,5.1 damage sentences (DG17),issuable t=0: 96
+dgEOneDeltaCertVThreeSepTotal,"2{,}977",nElevenDgEOneDeltaCertVThreeSepTotal,nElevenLateDgEOneDeltaCertVThreeSepTotal,"2{,}065",5.1 damage sentences (DG17),"issuable t=0: 2{,}056"
+dgEOneDeltaCertFalseBlockSelfBlock,340,nElevenDgEOneDeltaCertFalseBlockSelfBlock,nElevenLateDgEOneDeltaCertFalseBlockSelfBlock,0,5.1 damage sentences (DG17),issuable t=0: 276
+dgEOneDeltaCertFalseBlockTotal,636,nElevenDgEOneDeltaCertFalseBlockTotal,nElevenLateDgEOneDeltaCertFalseBlockTotal,325,5.1 damage sentences (DG17),issuable t=0: 563
+nTenTau,0.20,nElevenNTenTau,nElevenLateNTenTau,0.20,N10 field change (e2e),issuable t=0: 0.20
+nTenRows,"40{,}000",nElevenNTenRows,nElevenLateNTenRows,"34{,}460",N10 field change (e2e),"issuable t=0: 34{,}460"
+nTenQualRows,"29{,}980",nElevenNTenQualRows,nElevenLateNTenQualRows,"24{,}343",N10 field change (e2e),"issuable t=0: 25{,}600"
+nTenBenignFieldQual,"4{,}787",nElevenNTenBenignFieldQual,nElevenLateNTenBenignFieldQual,"4{,}730",N10 field change (e2e),"issuable t=0: 4{,}749"
+nTenBenignFieldApplied,"4{,}638",nElevenNTenBenignFieldApplied,nElevenLateNTenBenignFieldApplied,"4{,}730",N10 field change (e2e),"issuable t=0: 4{,}600"
+nTenBenignFieldDmgTwoCount,7,nElevenNTenBenignFieldDmgTwoCount,nElevenLateNTenBenignFieldDmgTwoCount,4,N10 field change (e2e),issuable t=0: 7
+nTenBenignFieldDmgTwoShare,0.2\%,nElevenNTenBenignFieldDmgTwoShare,nElevenLateNTenBenignFieldDmgTwoShare,0.1\%,N10 field change (e2e),issuable t=0: 0.2\%
+nTenBenignFieldDmgTenCount,7,nElevenNTenBenignFieldDmgTenCount,nElevenLateNTenBenignFieldDmgTenCount,4,N10 field change (e2e),issuable t=0: 7
+nTenBenignFieldDmgTenShare,0.2\%,nElevenNTenBenignFieldDmgTenShare,nElevenLateNTenBenignFieldDmgTenShare,0.1\%,N10 field change (e2e),issuable t=0: 0.2\%
+nTenBenignFieldDmgMax,316.50,nElevenNTenBenignFieldDmgMax,nElevenLateNTenBenignFieldDmgMax,316.50,N10 field change (e2e),issuable t=0: 316.50
+nTenBenignFieldOrigAboveTau,30,nElevenNTenBenignFieldOrigAboveTau,nElevenLateNTenBenignFieldOrigAboveTau,2,N10 field change (e2e),issuable t=0: 30
+nTenBenignFieldOrigAboveTauSelfBlocking,28,nElevenNTenBenignFieldOrigAboveTauSelfBlocking,nElevenLateNTenBenignFieldOrigAboveTauSelfBlocking,0,N10 field change (e2e),issuable t=0: 28
+nTenBenignSeqQual,"7{,}699",nElevenNTenBenignSeqQual,nElevenLateNTenBenignSeqQual,"4{,}867",N10 field change (e2e),"issuable t=0: 4{,}918"
+nTenBenignSeqApplied,"7{,}476",nElevenNTenBenignSeqApplied,nElevenLateNTenBenignSeqApplied,"4{,}867",N10 field change (e2e),"issuable t=0: 4{,}759"
+nTenBenignSeqDmgTwoCount,51,nElevenNTenBenignSeqDmgTwoCount,nElevenLateNTenBenignSeqDmgTwoCount,46,N10 field change (e2e),issuable t=0: 51
+nTenBenignSeqDmgTwoShare,0.7\%,nElevenNTenBenignSeqDmgTwoShare,nElevenLateNTenBenignSeqDmgTwoShare,0.9\%,N10 field change (e2e),issuable t=0: 1.1\%
+nTenBenignSeqDmgTenCount,19,nElevenNTenBenignSeqDmgTenCount,nElevenLateNTenBenignSeqDmgTenCount,14,N10 field change (e2e),issuable t=0: 19
+nTenBenignSeqDmgTenShare,0.3\%,nElevenNTenBenignSeqDmgTenShare,nElevenLateNTenBenignSeqDmgTenShare,0.3\%,N10 field change (e2e),issuable t=0: 0.4\%
+nTenBenignSeqDmgMax,381.70,nElevenNTenBenignSeqDmgMax,nElevenLateNTenBenignSeqDmgMax,21.99,N10 field change (e2e),issuable t=0: 381.70
+nTenVThreeFieldQual,702,nElevenNTenVThreeFieldQual,nElevenLateNTenVThreeFieldQual,669,N10 field change (e2e),issuable t=0: 669
+nTenVThreeFieldApplied,132,nElevenNTenVThreeFieldApplied,nElevenLateNTenVThreeFieldApplied,133,N10 field change (e2e),issuable t=0: 126
+nTenVThreeFieldDmgTwoCount,20,nElevenNTenVThreeFieldDmgTwoCount,nElevenLateNTenVThreeFieldDmgTwoCount,33,N10 field change (e2e),issuable t=0: 20
+nTenVThreeFieldDmgTwoShare,15.2\%,nElevenNTenVThreeFieldDmgTwoShare,nElevenLateNTenVThreeFieldDmgTwoShare,24.8\%,N10 field change (e2e),issuable t=0: 15.9\%
+nTenVThreeFieldDmgTenCount,20,nElevenNTenVThreeFieldDmgTenCount,nElevenLateNTenVThreeFieldDmgTenCount,26,N10 field change (e2e),issuable t=0: 20
+nTenVThreeFieldDmgTenShare,15.2\%,nElevenNTenVThreeFieldDmgTenShare,nElevenLateNTenVThreeFieldDmgTenShare,19.5\%,N10 field change (e2e),issuable t=0: 15.9\%
+nTenVThreeFieldDmgMax,320.00,nElevenNTenVThreeFieldDmgMax,nElevenLateNTenVThreeFieldDmgMax,320.00,N10 field change (e2e),issuable t=0: 320.00
+nTenVThreeFieldOrigAboveTau,5,nElevenNTenVThreeFieldOrigAboveTau,nElevenLateNTenVThreeFieldOrigAboveTau,6,N10 field change (e2e),issuable t=0: 5
+nTenVThreeSeqQual,"2{,}789",nElevenNTenVThreeSeqQual,nElevenLateNTenVThreeSeqQual,"1{,}775",N10 field change (e2e),"issuable t=0: 1{,}775"
+nTenVThreeSeqApplied,382,nElevenNTenVThreeSeqApplied,nElevenLateNTenVThreeSeqApplied,246,N10 field change (e2e),issuable t=0: 262
+nTenVThreeSeqDmgTwoCount,311,nElevenNTenVThreeSeqDmgTwoCount,nElevenLateNTenVThreeSeqDmgTwoCount,213,N10 field change (e2e),issuable t=0: 229
+nTenVThreeSeqDmgTwoShare,81.4\%,nElevenNTenVThreeSeqDmgTwoShare,nElevenLateNTenVThreeSeqDmgTwoShare,86.6\%,N10 field change (e2e),issuable t=0: 87.4\%
+nTenVThreeSeqDmgTenCount,293,nElevenNTenVThreeSeqDmgTenCount,nElevenLateNTenVThreeSeqDmgTenCount,213,N10 field change (e2e),issuable t=0: 229
+nTenVThreeSeqDmgTenShare,76.7\%,nElevenNTenVThreeSeqDmgTenShare,nElevenLateNTenVThreeSeqDmgTenShare,86.6\%,N10 field change (e2e),issuable t=0: 87.4\%
+nTenVThreeSeqDmgMax,237.42,nElevenNTenVThreeSeqDmgMax,nElevenLateNTenVThreeSeqDmgMax,144.43,N10 field change (e2e),issuable t=0: 237.42
+nTenVFourFieldQual,"1{,}422",nElevenNTenVFourFieldQual,nElevenLateNTenVFourFieldQual,"1{,}266",N10 field change (e2e),"issuable t=0: 1{,}274"
+nTenVFourFieldApplied,"1{,}385",nElevenNTenVFourFieldApplied,nElevenLateNTenVFourFieldApplied,"1{,}265",N10 field change (e2e),"issuable t=0: 1{,}237"
+nTenVFourFieldDmgTwoCount,44,nElevenNTenVFourFieldDmgTwoCount,nElevenLateNTenVFourFieldDmgTwoCount,36,N10 field change (e2e),issuable t=0: 36
+nTenVFourFieldDmgTwoShare,3.2\%,nElevenNTenVFourFieldDmgTwoShare,nElevenLateNTenVFourFieldDmgTwoShare,2.8\%,N10 field change (e2e),issuable t=0: 2.9\%
+nTenVFourFieldDmgTenCount,44,nElevenNTenVFourFieldDmgTenCount,nElevenLateNTenVFourFieldDmgTenCount,36,N10 field change (e2e),issuable t=0: 36
+nTenVFourFieldDmgTenShare,3.2\%,nElevenNTenVFourFieldDmgTenShare,nElevenLateNTenVFourFieldDmgTenShare,2.8\%,N10 field change (e2e),issuable t=0: 2.9\%
+nTenVFourFieldDmgMax,576.00,nElevenNTenVFourFieldDmgMax,nElevenLateNTenVFourFieldDmgMax,576.00,N10 field change (e2e),issuable t=0: 576.00
+nTenVFourFieldOrigAboveTau,34,nElevenNTenVFourFieldOrigAboveTau,nElevenLateNTenVFourFieldOrigAboveTau,28,N10 field change (e2e),issuable t=0: 26
+nTenVFourSeqQual,"2{,}025",nElevenNTenVFourSeqQual,nElevenLateNTenVFourSeqQual,"1{,}854",N10 field change (e2e),"issuable t=0: 1{,}885"
+nTenVFourSeqApplied,"1{,}949",nElevenNTenVFourSeqApplied,nElevenLateNTenVFourSeqApplied,"1{,}854",N10 field change (e2e),"issuable t=0: 1{,}809"
+nTenVFourSeqDmgTwoCount,16,nElevenNTenVFourSeqDmgTwoCount,nElevenLateNTenVFourSeqDmgTwoCount,16,N10 field change (e2e),issuable t=0: 16
+nTenVFourSeqDmgTwoShare,0.8\%,nElevenNTenVFourSeqDmgTwoShare,nElevenLateNTenVFourSeqDmgTwoShare,0.9\%,N10 field change (e2e),issuable t=0: 0.9\%
+nTenVFourSeqDmgTenCount,0,nElevenNTenVFourSeqDmgTenCount,nElevenLateNTenVFourSeqDmgTenCount,0,N10 field change (e2e),issuable t=0: 0
+nTenVFourSeqDmgTenShare,0.0\%,nElevenNTenVFourSeqDmgTenShare,nElevenLateNTenVFourSeqDmgTenShare,0.0\%,N10 field change (e2e),issuable t=0: 0.0\%
+nTenVFourSeqDmgMax,2.30,nElevenNTenVFourSeqDmgMax,nElevenLateNTenVFourSeqDmgMax,2.30,N10 field change (e2e),issuable t=0: 2.30
+nTenOtherFieldQual,"3{,}576",nElevenNTenOtherFieldQual,nElevenLateNTenOtherFieldQual,"2{,}696",N10 field change (e2e),"issuable t=0: 3{,}576"
+nTenOtherFieldApplied,"3{,}451",nElevenNTenOtherFieldApplied,nElevenLateNTenOtherFieldApplied,"2{,}696",N10 field change (e2e),"issuable t=0: 3{,}451"
+nTenOtherFieldDmgTwoCount,144,nElevenNTenOtherFieldDmgTwoCount,nElevenLateNTenOtherFieldDmgTwoCount,38,N10 field change (e2e),issuable t=0: 144
+nTenOtherFieldDmgTwoShare,4.2\%,nElevenNTenOtherFieldDmgTwoShare,nElevenLateNTenOtherFieldDmgTwoShare,1.4\%,N10 field change (e2e),issuable t=0: 4.2\%
+nTenOtherFieldDmgTenCount,88,nElevenNTenOtherFieldDmgTenCount,nElevenLateNTenOtherFieldDmgTenCount,15,N10 field change (e2e),issuable t=0: 88
+nTenOtherFieldDmgTenShare,2.5\%,nElevenNTenOtherFieldDmgTenShare,nElevenLateNTenOtherFieldDmgTenShare,0.6\%,N10 field change (e2e),issuable t=0: 2.5\%
+nTenOtherFieldDmgMax,763.52,nElevenNTenOtherFieldDmgMax,nElevenLateNTenOtherFieldDmgMax,640.00,N10 field change (e2e),issuable t=0: 763.52
+nTenOtherFieldOrigAboveTau,63,nElevenNTenOtherFieldOrigAboveTau,nElevenLateNTenOtherFieldOrigAboveTau,30,N10 field change (e2e),issuable t=0: 63
+nTenOtherSeqQual,"1{,}578",nElevenNTenOtherSeqQual,nElevenLateNTenOtherSeqQual,"1{,}294",N10 field change (e2e),"issuable t=0: 1{,}562"
+nTenOtherSeqApplied,"1{,}511",nElevenNTenOtherSeqApplied,nElevenLateNTenOtherSeqApplied,"1{,}294",N10 field change (e2e),"issuable t=0: 1{,}495"
+nTenOtherSeqDmgTwoCount,29,nElevenNTenOtherSeqDmgTwoCount,nElevenLateNTenOtherSeqDmgTwoCount,1,N10 field change (e2e),issuable t=0: 29
+nTenOtherSeqDmgTwoShare,1.9\%,nElevenNTenOtherSeqDmgTwoShare,nElevenLateNTenOtherSeqDmgTwoShare,0.1\%,N10 field change (e2e),issuable t=0: 1.9\%
+nTenOtherSeqDmgTenCount,25,nElevenNTenOtherSeqDmgTenCount,nElevenLateNTenOtherSeqDmgTenCount,0,N10 field change (e2e),issuable t=0: 25
+nTenOtherSeqDmgTenShare,1.7\%,nElevenNTenOtherSeqDmgTenShare,nElevenLateNTenOtherSeqDmgTenShare,0.0\%,N10 field change (e2e),issuable t=0: 1.7\%
+nTenOtherSeqDmgMax,427.31,nElevenNTenOtherSeqDmgMax,nElevenLateNTenOtherSeqDmgMax,6.70,N10 field change (e2e),issuable t=0: 427.31
+nTenAllFieldQual,"10{,}487",nElevenNTenAllFieldQual,nElevenLateNTenAllFieldQual,"9{,}361",N10 field change (e2e),"issuable t=0: 10{,}268"
+nTenAllFieldApplied,"9{,}606",nElevenNTenAllFieldApplied,nElevenLateNTenAllFieldApplied,"8{,}824",N10 field change (e2e),"issuable t=0: 9{,}414"
+nTenAllFieldDmgTwoCount,215,nElevenNTenAllFieldDmgTwoCount,nElevenLateNTenAllFieldDmgTwoCount,111,N10 field change (e2e),issuable t=0: 207
+nTenAllFieldDmgTwoShare,2.2\%,nElevenNTenAllFieldDmgTwoShare,nElevenLateNTenAllFieldDmgTwoShare,1.3\%,N10 field change (e2e),issuable t=0: 2.2\%
+nTenAllFieldDmgTenCount,159,nElevenNTenAllFieldDmgTenCount,nElevenLateNTenAllFieldDmgTenCount,81,N10 field change (e2e),issuable t=0: 151
+nTenAllFieldDmgTenShare,1.7\%,nElevenNTenAllFieldDmgTenShare,nElevenLateNTenAllFieldDmgTenShare,0.9\%,N10 field change (e2e),issuable t=0: 1.6\%
+nTenAllFieldDmgMax,763.52,nElevenNTenAllFieldDmgMax,nElevenLateNTenAllFieldDmgMax,640.00,N10 field change (e2e),issuable t=0: 763.52
+nTenAllFieldOrigAboveTau,132,nElevenNTenAllFieldOrigAboveTau,nElevenLateNTenAllFieldOrigAboveTau,66,N10 field change (e2e),issuable t=0: 124
+nTenAllFieldOrigAboveTauShare,1.4\%,nElevenNTenAllFieldOrigAboveTauShare,nElevenLateNTenAllFieldOrigAboveTauShare,0.7\%,N10 field change (e2e),issuable t=0: 1.3\%
+nTenAllFieldOrigNegative,449,nElevenNTenAllFieldOrigNegative,nElevenLateNTenAllFieldOrigNegative,0,N10 field change (e2e),issuable t=0: 449
+nTenAllFieldOrigAboveTauDmgTen,72,nElevenNTenAllFieldOrigAboveTauDmgTen,nElevenLateNTenAllFieldOrigAboveTauDmgTen,49,N10 field change (e2e),issuable t=0: 64
+nTenAllFieldOrigAboveTauSelfBlocking,61,nElevenNTenAllFieldOrigAboveTauSelfBlocking,nElevenLateNTenAllFieldOrigAboveTauSelfBlocking,16,N10 field change (e2e),issuable t=0: 61
+nTenAllSeqQual,"14{,}091",nElevenNTenAllSeqQual,nElevenLateNTenAllSeqQual,"9{,}790",N10 field change (e2e),"issuable t=0: 10{,}140"
+nTenAllSeqApplied,"11{,}318",nElevenNTenAllSeqApplied,nElevenLateNTenAllSeqApplied,"8{,}261",N10 field change (e2e),"issuable t=0: 8{,}325"
+nTenAllSeqDmgTwoCount,407,nElevenNTenAllSeqDmgTwoCount,nElevenLateNTenAllSeqDmgTwoCount,276,N10 field change (e2e),issuable t=0: 325
+nTenAllSeqDmgTwoShare,3.6\%,nElevenNTenAllSeqDmgTwoShare,nElevenLateNTenAllSeqDmgTwoShare,3.3\%,N10 field change (e2e),issuable t=0: 3.9\%
+nTenAllSeqDmgTenCount,337,nElevenNTenAllSeqDmgTenCount,nElevenLateNTenAllSeqDmgTenCount,227,N10 field change (e2e),issuable t=0: 273
+nTenAllSeqDmgTenShare,3.0\%,nElevenNTenAllSeqDmgTenShare,nElevenLateNTenAllSeqDmgTenShare,2.7\%,N10 field change (e2e),issuable t=0: 3.3\%
+nTenAllSeqDmgMax,427.31,nElevenNTenAllSeqDmgMax,nElevenLateNTenAllSeqDmgMax,144.43,N10 field change (e2e),issuable t=0: 427.31
+,,nElevenTabEOneQwenFourteenVThreeFeas,,0.6\%,Table 11,published cell 0.5\%; issuable t=0 0.6\%
+,,nElevenTabEOneQwenFourteenVThreeReferred,,80.5\%,Table 11,published cell 82.3\%; issuable t=0 80.5\%
+,,nElevenTabEOneQwenFourteenVFour,,5.6\%,Table 11,published cell 6.1\%; issuable t=0 6.0\%
+,,nElevenTabEOneQwenFourteenVFive,,31.2\%,Table 11,published cell 7.0\%; issuable t=0 7.0\%
+,,nElevenTabEOneQwenFourteenVSix,,32.3\%,Table 11,published cell 12.0\%; issuable t=0 12.0\%
+,,nElevenTabEOneQwenFourteenBenignFeas,,3.7\%,Table 11,published cell 0.2\%; issuable t=0 0.3\%
+,,nElevenTabEOneQwenFourteenBenignCert,,3.7\%,Table 11,published cell 4.4\%; issuable t=0 5.0\%
+,,nElevenTabEOneQwenFourteenVThreeFidelity,,82.5\%,Table 11,published cell 85.9\%; issuable t=0 82.5\%
+,,nElevenTabEOneQwenTwentySevenVThreeFeas,,0.6\%,Table 11,published cell 0.5\%; issuable t=0 0.6\%
+,,nElevenTabEOneQwenTwentySevenVThreeReferred,,86.4\%,Table 11,published cell 87.0\%; issuable t=0 85.7\%
+,,nElevenTabEOneQwenTwentySevenVFour,,0.5\%,Table 11,published cell 2.7\%; issuable t=0 3.0\%
+,,nElevenTabEOneQwenTwentySevenVFive,,18.5\%,Table 11,published cell 4.0\%; issuable t=0 4.0\%
+,,nElevenTabEOneQwenTwentySevenVSix,,21.5\%,Table 11,published cell 5.0\%; issuable t=0 5.0\%
+,,nElevenTabEOneQwenTwentySevenBenignFeas,,3.7\%,Table 11,published cell 2.9\%; issuable t=0 3.7\%
+,,nElevenTabEOneQwenTwentySevenBenignCert,,3.7\%,Table 11,published cell 5.5\%; issuable t=0 6.4\%
+,,nElevenTabEOneQwenTwentySevenVThreeFidelity,,93.5\%,Table 11,published cell 94.5\%; issuable t=0 93.5\%
+,,nElevenTabEOneGlmVThreeFeas,,3.2\%,Table 11,published cell 2.7\%; issuable t=0 3.2\%
+,,nElevenTabEOneGlmVThreeReferred,,70.1\%,Table 11,published cell 72.7\%; issuable t=0 70.8\%
+,,nElevenTabEOneGlmVFour,,2.0\%,Table 11,published cell 4.1\%; issuable t=0 4.5\%
+,,nElevenTabEOneGlmVFive,,54.0\%,Table 11,published cell 19.5\%; issuable t=0 19.5\%
+,,nElevenTabEOneGlmVSix,,33.5\%,Table 11,published cell 14.0\%; issuable t=0 14.0\%
+,,nElevenTabEOneGlmBenignFeas,,6.7\%,Table 11,published cell 5.4\%; issuable t=0 6.1\%
+,,nElevenTabEOneGlmBenignCert,,6.7\%,Table 11,published cell 8.0\%; issuable t=0 8.8\%
+,,nElevenTabEOneGlmVThreeFidelity,,70.8\%,Table 11,published cell 74.5\%; issuable t=0 70.8\%
+,,nElevenTabEOneMiniVThreeFeas,,0.6\%,Table 11,published cell 0.5\%; issuable t=0 0.6\%
+,,nElevenTabEOneMiniVThreeReferred,,79.2\%,Table 11,published cell 78.9\%; issuable t=0 79.2\%
+,,nElevenTabEOneMiniVFour,,0.2\%,Table 11,published cell 3.0\%; issuable t=0 3.2\%
+,,nElevenTabEOneMiniVFive,,59.8\%,Table 11,published cell 17.8\%; issuable t=0 17.8\%
+,,nElevenTabEOneMiniVSix,,20.2\%,Table 11,published cell 4.8\%; issuable t=0 4.8\%
+,,nElevenTabEOneMiniBenignFeas,,1.6\%,Table 11,published cell 1.2\%; issuable t=0 1.6\%
+,,nElevenTabEOneMiniBenignCert,,1.6\%,Table 11,published cell 3.9\%; issuable t=0 4.3\%
+,,nElevenTabEOneMiniVThreeFidelity,,79.9\%,Table 11,published cell 80.9\%; issuable t=0 79.9\%
+,,nElevenTabEOneSonnetVThreeFeas,,0.6\%,Table 11,published cell 0.5\%; issuable t=0 0.6\%
+,,nElevenTabEOneSonnetVThreeReferred,,83.8\%,Table 11,published cell 85.9\%; issuable t=0 83.1\%
+,,nElevenTabEOneSonnetVFour,,0.0\%,Table 11,published cell 2.7\%; issuable t=0 3.0\%
+,,nElevenTabEOneSonnetVFive,,8.0\%,Table 11,published cell 3.5\%; issuable t=0 3.5\%
+,,nElevenTabEOneSonnetVSix,,9.2\%,Table 11,published cell 3.2\%; issuable t=0 3.2\%
+,,nElevenTabEOneSonnetBenignFeas,,1.5\%,Table 11,published cell 1.2\%; issuable t=0 1.5\%
+,,nElevenTabEOneSonnetBenignCert,,1.5\%,Table 11,published cell 3.8\%; issuable t=0 4.3\%
+,,nElevenTabEOneSonnetVThreeFidelity,,89.0\%,Table 11,published cell 92.3\%; issuable t=0 89.0\%
+,,nElevenTabEOneOpusVThreeFeas,,0.0\%,Table 11,published cell 0.0\%; issuable t=0 0.0\%
+,,nElevenTabEOneOpusVThreeReferred,,90.3\%,Table 11,published cell 90.5\%; issuable t=0 89.6\%
+,,nElevenTabEOneOpusVFour,,0.0\%,Table 11,published cell 2.7\%; issuable t=0 3.0\%
+,,nElevenTabEOneOpusVFive,,0.5\%,Table 11,published cell 3.5\%; issuable t=0 3.5\%
+,,nElevenTabEOneOpusVSix,,6.0\%,Table 11,published cell 3.0\%; issuable t=0 3.0\%
+,,nElevenTabEOneOpusBenignFeas,,1.7\%,Table 11,published cell 1.3\%; issuable t=0 1.7\%
+,,nElevenTabEOneOpusBenignCert,,1.7\%,Table 11,published cell 3.9\%; issuable t=0 4.4\%
+,,nElevenTabEOneOpusVThreeFidelity,,94.2\%,Table 11,published cell 95.9\%; issuable t=0 94.2\%
+,,nElevenTabEOneOpusNoThinkVThreeFeas,,0.0\%,Table 11,published cell 0.0\%; issuable t=0 0.0\%
+,,nElevenTabEOneOpusNoThinkVThreeReferred,,89.6\%,Table 11,published cell 90.0\%; issuable t=0 89.0\%
+,,nElevenTabEOneOpusNoThinkVFour,,0.0\%,Table 11,published cell 2.7\%; issuable t=0 3.0\%
+,,nElevenTabEOneOpusNoThinkVFive,,1.2\%,Table 11,published cell 3.5\%; issuable t=0 3.5\%
+,,nElevenTabEOneOpusNoThinkVSix,,7.0\%,Table 11,published cell 3.0\%; issuable t=0 3.0\%
+,,nElevenTabEOneOpusNoThinkBenignFeas,,3.0\%,Table 11,published cell 2.4\%; issuable t=0 3.0\%
+,,nElevenTabEOneOpusNoThinkBenignCert,,3.0\%,Table 11,published cell 5.0\%; issuable t=0 5.8\%
+,,nElevenTabEOneOpusNoThinkVThreeFidelity,,n/a,Table 11,published cell n/a; issuable t=0 n/a
+,,nElevenTabEOneSolVThreeFeas,,3.2\%,Table 11,published cell 5.9\%; issuable t=0 3.2\%
+,,nElevenTabEOneSolVThreeReferred,,84.4\%,Table 11,published cell 82.3\%; issuable t=0 83.8\%
+,,nElevenTabEOneSolVFour,,5.0\%,Table 11,published cell 7.7\%; issuable t=0 6.5\%
+,,nElevenTabEOneSolVFive,,0.5\%,Table 11,published cell 3.5\%; issuable t=0 3.5\%
+,,nElevenTabEOneSolVSix,,9.0\%,Table 11,published cell 3.0\%; issuable t=0 3.0\%
+,,nElevenTabEOneSolBenignFeas,,7.5\%,Table 11,published cell 6.0\%; issuable t=0 7.1\%
+,,nElevenTabEOneSolBenignCert,,7.5\%,Table 11,published cell 8.6\%; issuable t=0 9.8\%
+,,nElevenTabEOneSolVThreeFidelity,,91.6\%,Table 11,published cell 89.5\%; issuable t=0 91.6\%
+,,nElevenTabEOneDeepseekVThreeFeas,,99.0\%,Table 11,published cell 99.3\%; issuable t=0 99.0\%
+,,nElevenTabEOneDeepseekVThreeReferred,,0.0\%,Table 11,published cell 0.2\%; issuable t=0 0.3\%
+,,nElevenTabEOneDeepseekVFour,,95.3\%,Table 11,published cell 93.4\%; issuable t=0 95.3\%
+,,nElevenTabEOneDeepseekVFive,,3.0\%,Table 11,published cell 6.5\%; issuable t=0 6.5\%
+,,nElevenTabEOneDeepseekVSix,,84.5\%,Table 11,published cell 84.5\%; issuable t=0 84.5\%
+,,nElevenTabEOneDeepseekBenignFeas,,96.3\%,Table 11,published cell 97.1\%; issuable t=0 96.3\%
+,,nElevenTabEOneDeepseekBenignCert,,96.3\%,Table 11,published cell 97.2\%; issuable t=0 96.5\%
+,,nElevenTabEOneDeepseekVThreeFidelity,,n/a,Table 11,published cell n/a; issuable t=0 n/a
+,,nElevenTabEOneDeepseekThinkVThreeFeas,,100.0\%,Table 11,published cell 100.0\%; issuable t=0 100.0\%
+,,nElevenTabEOneDeepseekThinkVThreeReferred,,0.0\%,Table 11,published cell 0.0\%; issuable t=0 0.0\%
+,,nElevenTabEOneDeepseekThinkVFour,,99.8\%,Table 11,published cell 99.1\%; issuable t=0 99.8\%
+,,nElevenTabEOneDeepseekThinkVFive,,19.5\%,Table 11,published cell 22.8\%; issuable t=0 22.8\%
+,,nElevenTabEOneDeepseekThinkVSix,,94.2\%,Table 11,published cell 91.2\%; issuable t=0 91.2\%
+,,nElevenTabEOneDeepseekThinkBenignFeas,,99.4\%,Table 11,published cell 99.4\%; issuable t=0 99.4\%
+,,nElevenTabEOneDeepseekThinkBenignCert,,99.4\%,Table 11,published cell 99.4\%; issuable t=0 99.4\%
+,,nElevenTabEOneDeepseekThinkVThreeFidelity,,n/a,Table 11,published cell n/a; issuable t=0 n/a
+,,nElevenTabEnforceFreeQwenFourteenOffShape,,91.12\%,Table 13,published cell 92.30\%; issuable t=0 91.12\%
+,,nElevenTabEnforceFreeQwenFourteenSchemaValid,,8.88\%,Table 13,published cell 7.70\%; issuable t=0 8.88\%
+,,nElevenTabEnforceFreeQwenFourteenBlockedSchema,,91.8\%,Table 13,published cell 92.3\%; issuable t=0 91.1\%
+,,nElevenTabEnforceFreeQwenFourteenSilentNoop,,92.6\%,Table 13,published cell 92.8\%; issuable t=0 92.7\%
+,,nElevenTabEnforceFreeQwenFourteenTranslationExact,,0.0\%,Table 13,published cell 0.0\%; issuable t=0 0.0\%
+,,nElevenTabEnforceFreeQwenTwentySevenOffShape,,87.99\%,Table 13,published cell 89.30\%; issuable t=0 87.99\%
+,,nElevenTabEnforceFreeQwenTwentySevenSchemaValid,,12.01\%,Table 13,published cell 10.70\%; issuable t=0 12.01\%
+,,nElevenTabEnforceFreeQwenTwentySevenBlockedSchema,,88.6\%,Table 13,published cell 89.3\%; issuable t=0 88.0\%
+,,nElevenTabEnforceFreeQwenTwentySevenSilentNoop,,99.2\%,Table 13,published cell 99.5\%; issuable t=0 99.4\%
+,,nElevenTabEnforceFreeQwenTwentySevenTranslationExact,,0.0\%,Table 13,published cell 0.0\%; issuable t=0 0.0\%
+,,nElevenTabEnforceFreeGlmOffShape,,100.00\%,Table 13,published cell 100.00\%; issuable t=0 100.00\%
+,,nElevenTabEnforceFreeGlmSchemaValid,,0.00\%,Table 13,published cell 0.00\%; issuable t=0 0.00\%
+,,nElevenTabEnforceFreeGlmBlockedSchema,,100.0\%,Table 13,published cell 100.0\%; issuable t=0 100.0\%
+,,nElevenTabEnforceFreeGlmSilentNoop,,99.3\%,Table 13,published cell 99.5\%; issuable t=0 99.5\%
+,,nElevenTabEnforceFreeGlmTranslationExact,,0.0\%,Table 13,published cell 0.0\%; issuable t=0 0.0\%
+,,nElevenTabEnforceFreeMiniOffShape,,94.37\%,Table 13,published cell 95.08\%; issuable t=0 94.37\%
+,,nElevenTabEnforceFreeMiniSchemaValid,,5.63\%,Table 13,published cell 4.92\%; issuable t=0 5.63\%
+,,nElevenTabEnforceFreeMiniBlockedSchema,,94.6\%,Table 13,published cell 95.1\%; issuable t=0 94.4\%
+,,nElevenTabEnforceFreeMiniSilentNoop,,99.3\%,Table 13,published cell 99.6\%; issuable t=0 99.5\%
+,,nElevenTabEnforceFreeMiniTranslationExact,,0.2\%,Table 13,published cell 0.2\%; issuable t=0 0.2\%
+,,nElevenTabEnforceFreeDeepseekOffShape,,80.85\%,Table 13,published cell 82.75\%; issuable t=0 80.85\%
+,,nElevenTabEnforceFreeDeepseekSchemaValid,,19.15\%,Table 13,published cell 17.25\%; issuable t=0 19.15\%
+,,nElevenTabEnforceFreeDeepseekBlockedSchema,,81.1\%,Table 13,published cell 82.8\%; issuable t=0 80.8\%
+,,nElevenTabEnforceFreeDeepseekSilentNoop,,99.6\%,Table 13,published cell 99.8\%; issuable t=0 99.8\%
+,,nElevenTabEnforceFreeDeepseekTranslationExact,,0.0\%,Table 13,published cell 0.0\%; issuable t=0 0.0\%
+,,nElevenTabEnforceFreeDeepseekThinkOffShape,,84.10\%,Table 13,published cell 85.62\%; issuable t=0 84.10\%
+,,nElevenTabEnforceFreeDeepseekThinkSchemaValid,,15.90\%,Table 13,published cell 14.37\%; issuable t=0 15.90\%
+,,nElevenTabEnforceFreeDeepseekThinkBlockedSchema,,84.4\%,Table 13,published cell 85.6\%; issuable t=0 84.1\%
+,,nElevenTabEnforceFreeDeepseekThinkSilentNoop,,98.6\%,Table 13,published cell 98.9\%; issuable t=0 98.8\%
+,,nElevenTabEnforceFreeDeepseekThinkTranslationExact,,0.0\%,Table 13,published cell 0.0\%; issuable t=0 0.0\%
+,,nElevenTabEnforceFreeSonnetOffShape,,86.07\%,Table 13,published cell 87.52\%; issuable t=0 86.07\%
+,,nElevenTabEnforceFreeSonnetSchemaValid,,13.93\%,Table 13,published cell 12.47\%; issuable t=0 13.93\%
+,,nElevenTabEnforceFreeSonnetBlockedSchema,,86.4\%,Table 13,published cell 87.5\%; issuable t=0 86.1\%
+,,nElevenTabEnforceFreeSonnetSilentNoop,,99.2\%,Table 13,published cell 99.5\%; issuable t=0 99.4\%
+,,nElevenTabEnforceFreeSonnetTranslationExact,,0.0\%,Table 13,published cell 0.0\%; issuable t=0 0.0\%
+,,nElevenTabEnforceFreeOpusOffShape,,16.66\%,Table 13,published cell 18.30\%; issuable t=0 16.66\%
+,,nElevenTabEnforceFreeOpusSchemaValid,,7.49\%,Table 13,published cell 6.48\%; issuable t=0 7.49\%
+,,nElevenTabEnforceFreeOpusBlockedSchema,,16.7\%,Table 13,published cell 18.3\%; issuable t=0 16.7\%
+,,nElevenTabEnforceFreeOpusSilentNoop,,22.9\%,Table 13,published cell 23.6\%; issuable t=0 22.9\%
+,,nElevenTabEnforceFreeOpusTranslationExact,,1.3\%,Table 13,published cell 1.0\%; issuable t=0 1.3\%
+,,nElevenTabEnforceFreeOpusNoThinkOffShape,,13.46\%,Table 13,published cell 15.05\%; issuable t=0 13.46\%
+,,nElevenTabEnforceFreeOpusNoThinkSchemaValid,,7.72\%,Table 13,published cell 6.95\%; issuable t=0 7.72\%
+,,nElevenTabEnforceFreeOpusNoThinkBlockedSchema,,13.8\%,Table 13,published cell 15.2\%; issuable t=0 13.6\%
+,,nElevenTabEnforceFreeOpusNoThinkSilentNoop,,16.4\%,Table 13,published cell 17.7\%; issuable t=0 16.4\%
+,,nElevenTabEnforceFreeOpusNoThinkTranslationExact,,5.1\%,Table 13,published cell 4.1\%; issuable t=0 5.1\%
+,,nElevenTabEnforceJsonDeepseekOffShape,,78.87\%,Table 13,published cell 80.77\%; issuable t=0 78.87\%
+,,nElevenTabEnforceJsonDeepseekSchemaValid,,21.13\%,Table 13,published cell 19.23\%; issuable t=0 21.13\%
+,,nElevenTabEnforceJsonDeepseekBlockedSchema,,78.9\%,Table 13,published cell 80.8\%; issuable t=0 78.9\%
+,,nElevenTabEnforceJsonDeepseekSilentNoop,,99.8\%,Table 13,published cell 100.0\%; issuable t=0 100.0\%
+,,nElevenTabEnforceJsonDeepseekTranslationExact,,0.0\%,Table 13,published cell 0.0\%; issuable t=0 0.0\%
+,,nElevenTabEnforceJsonDeepseekThinkOffShape,,83.98\%,Table 13,published cell 85.50\%; issuable t=0 83.98\%
+,,nElevenTabEnforceJsonDeepseekThinkSchemaValid,,16.02\%,Table 13,published cell 14.50\%; issuable t=0 16.02\%
+,,nElevenTabEnforceJsonDeepseekThinkBlockedSchema,,84.3\%,Table 13,published cell 85.5\%; issuable t=0 84.0\%
+,,nElevenTabEnforceJsonDeepseekThinkSilentNoop,,97.2\%,Table 13,published cell 97.8\%; issuable t=0 97.4\%
+,,nElevenTabEnforceJsonDeepseekThinkTranslationExact,,0.0\%,Table 13,published cell 0.0\%; issuable t=0 0.0\%
+,,nElevenTabEnforceGrammarQwenFourteenOffShape,,0.35\%,Table 13,published cell 0.37\%; issuable t=0 0.35\%
+,,nElevenTabEnforceGrammarQwenFourteenSchemaValid,,99.65\%,Table 13,published cell 99.63\%; issuable t=0 99.65\%
+,,nElevenTabEnforceGrammarQwenFourteenBlockedSchema,,16.5\%,Table 13,published cell 6.7\%; issuable t=0 7.4\%
+,,nElevenTabEnforceGrammarQwenFourteenSilentNoop,,8.2\%,Table 13,published cell 7.1\%; issuable t=0 8.2\%
+,,nElevenTabEnforceGrammarQwenFourteenTranslationExact,,59.6\%,Table 13,published cell 59.3\%; issuable t=0 59.6\%
+,,nElevenTabEnforceGrammarQwenTwentySevenOffShape,,0.00\%,Table 13,published cell 0.00\%; issuable t=0 0.00\%
+,,nElevenTabEnforceGrammarQwenTwentySevenSchemaValid,,100.00\%,Table 13,published cell 100.00\%; issuable t=0 100.00\%
+,,nElevenTabEnforceGrammarQwenTwentySevenBlockedSchema,,10.9\%,Table 13,published cell 5.5\%; issuable t=0 6.3\%
+,,nElevenTabEnforceGrammarQwenTwentySevenSilentNoop,,11.7\%,Table 13,published cell 10.5\%; issuable t=0 11.7\%
+,,nElevenTabEnforceGrammarQwenTwentySevenTranslationExact,,77.0\%,Table 13,published cell 73.3\%; issuable t=0 77.0\%
+,,nElevenTabEnforceGrammarGlmOffShape,,0.00\%,Table 13,published cell 0.00\%; issuable t=0 0.00\%
+,,nElevenTabEnforceGrammarGlmSchemaValid,,100.00\%,Table 13,published cell 100.00\%; issuable t=0 100.00\%
+,,nElevenTabEnforceGrammarGlmBlockedSchema,,18.0\%,Table 13,published cell 9.2\%; issuable t=0 10.0\%
+,,nElevenTabEnforceGrammarGlmSilentNoop,,1.6\%,Table 13,published cell 1.4\%; issuable t=0 1.6\%
+,,nElevenTabEnforceGrammarGlmTranslationExact,,61.0\%,Table 13,published cell 60.8\%; issuable t=0 61.0\%
+,,nElevenTabEnforceSchemaMiniOffShape,,0.00\%,Table 13,published cell 0.00\%; issuable t=0 0.00\%
+,,nElevenTabEnforceSchemaMiniSchemaValid,,100.00\%,Table 13,published cell 100.00\%; issuable t=0 100.00\%
+,,nElevenTabEnforceSchemaMiniBlockedSchema,,16.1\%,Table 13,published cell 7.2\%; issuable t=0 8.4\%
+,,nElevenTabEnforceSchemaMiniSilentNoop,,4.2\%,Table 13,published cell 3.8\%; issuable t=0 4.2\%
+,,nElevenTabEnforceSchemaMiniTranslationExact,,67.3\%,Table 13,published cell 65.4\%; issuable t=0 67.3\%
+,,nElevenTabEnforceSchemaSonnetOffShape,,0.00\%,Table 13,published cell 0.00\%; issuable t=0 0.00\%
+,,nElevenTabEnforceSchemaSonnetSchemaValid,,100.00\%,Table 13,published cell 100.00\%; issuable t=0 100.00\%
+,,nElevenTabEnforceSchemaSonnetBlockedSchema,,7.2\%,Table 13,published cell 4.5\%; issuable t=0 5.2\%
+,,nElevenTabEnforceSchemaSonnetSilentNoop,,17.6\%,Table 13,published cell 15.8\%; issuable t=0 17.6\%
+,,nElevenTabEnforceSchemaSonnetTranslationExact,,74.3\%,Table 13,published cell 70.4\%; issuable t=0 74.3\%
+,,nElevenTabEnforceSchemaOpusOffShape,,0.00\%,Table 13,published cell 0.00\%; issuable t=0 0.00\%
+,,nElevenTabEnforceSchemaOpusSchemaValid,,99.94\%,Table 13,published cell 99.95\%; issuable t=0 99.94\%
+,,nElevenTabEnforceSchemaOpusBlockedSchema,,2.8\%,Table 13,published cell 1.8\%; issuable t=0 2.1\%
+,,nElevenTabEnforceSchemaOpusSilentNoop,,26.9\%,Table 13,published cell 23.9\%; issuable t=0 26.9\%
+,,nElevenTabEnforceSchemaOpusTranslationExact,,76.0\%,Table 13,published cell 72.4\%; issuable t=0 76.0\%
+,,nElevenTabEnforceSchemaOpusNoThinkOffShape,,0.00\%,Table 13,published cell 0.00\%; issuable t=0 0.00\%
+,,nElevenTabEnforceSchemaOpusNoThinkSchemaValid,,99.94\%,Table 13,published cell 99.95\%; issuable t=0 99.94\%
+,,nElevenTabEnforceSchemaOpusNoThinkBlockedSchema,,5.0\%,Table 13,published cell 3.5\%; issuable t=0 4.1\%
+,,nElevenTabEnforceSchemaOpusNoThinkSilentNoop,,23.1\%,Table 13,published cell 20.9\%; issuable t=0 23.1\%
+,,nElevenTabEnforceSchemaOpusNoThinkTranslationExact,,76.8\%,Table 13,published cell 72.6\%; issuable t=0 76.8\%
+,,nElevenTabEnforceSchemaSolOffShape,,1.22\%,Table 13,published cell 1.55\%; issuable t=0 1.22\%
+,,nElevenTabEnforceSchemaSolSchemaValid,,98.78\%,Table 13,published cell 98.45\%; issuable t=0 98.78\%
+,,nElevenTabEnforceSchemaSolBlockedSchema,,6.4\%,Table 13,published cell 4.2\%; issuable t=0 4.1\%
+,,nElevenTabEnforceSchemaSolSilentNoop,,22.8\%,Table 13,published cell 20.4\%; issuable t=0 22.8\%
+,,nElevenTabEnforceSchemaSolTranslationExact,,73.2\%,Table 13,published cell 69.1\%; issuable t=0 73.2\%
+dgFalseBlockOpusCiLo,1.0,nElevenDgFalseBlockOpusCiLo,nElevenLateDgFalseBlockOpusCiLo,0.8,DG5 intervals,issuable t=0: 1.3
+dgFalseBlockOpusCiHi,8.1,nElevenDgFalseBlockOpusCiHi,nElevenLateDgFalseBlockOpusCiHi,2.7,DG5 intervals,issuable t=0: 8.8
+dgVThreeSepOpusCiLo,85.2,nElevenDgVThreeSepOpusCiLo,nElevenLateDgVThreeSepOpusCiLo,83.8,DG5 intervals,issuable t=0: 83.1
+dgVThreeSepOpusCiHi,95.0,nElevenDgVThreeSepOpusCiHi,nElevenLateDgVThreeSepOpusCiHi,95.7,DG5 intervals,issuable t=0: 95.2
+dgFalseBlockMinArmCiLo,0.9,nElevenDgFalseBlockMinArmCiLo,nElevenLateDgFalseBlockMinArmCiLo,0.7,DG5 intervals,"endpoint arm ('sonnet', 'disabled') (published ('sonnet', 'disabled'))"
+dgFalseBlockMinArmCiHi,8.0,nElevenDgFalseBlockMinArmCiHi,nElevenLateDgFalseBlockMinArmCiHi,2.4,DG5 intervals,"endpoint arm ('sonnet', 'disabled') (published ('sonnet', 'disabled'))"
+dgFalseBlockMaxArmCiLo,5.3,nElevenDgFalseBlockMaxArmCiLo,nElevenLateDgFalseBlockMaxArmCiLo,5.2,DG5 intervals,"endpoint arm ('sol', 'none') (published ('sol', 'none'))"
+dgFalseBlockMaxArmCiHi,12.9,nElevenDgFalseBlockMaxArmCiHi,nElevenLateDgFalseBlockMaxArmCiHi,10.2,DG5 intervals,"endpoint arm ('sol', 'none') (published ('sol', 'none'))"
+,,nElevenFigFourPearson,,0.97,Fig. 4,published 0.98
+dgVThreeCanonicalRefusedCNine,108,nElevenDgVThreeCanonicalRefusedCNine,nElevenLateDgVThreeCanonicalRefusedCNine,81,Table 12,
+dgVThreeCanonicalItemsCNine,114,nElevenDgVThreeCanonicalItemsCNine,nElevenLateDgVThreeCanonicalItemsCNine,88,Table 12,
+dgVThreeCanonicalShareCNine,94.7\%,nElevenDgVThreeCanonicalShareCNine,nElevenLateDgVThreeCanonicalShareCNine,92.0\%,Table 12,
+dgBenignCanonicalBlocksCNine,21,nElevenDgBenignCanonicalBlocksCNine,nElevenLateDgBenignCanonicalBlocksCNine,0,Table 12,
+dgBenignCanonicalItemsCNine,394,nElevenDgBenignCanonicalItemsCNine,nElevenLateDgBenignCanonicalItemsCNine,312,Table 12,
+dgBenignCanonicalShareCNine,5.3\%,nElevenDgBenignCanonicalShareCNine,nElevenLateDgBenignCanonicalShareCNine,0.0\%,Table 12,
+dgVThreeCanonicalRefusedCTenStorm,38,nElevenDgVThreeCanonicalRefusedCTenStorm,nElevenLateDgVThreeCanonicalRefusedCTenStorm,26,Table 12,
+dgVThreeCanonicalItemsCTenStorm,41,nElevenDgVThreeCanonicalItemsCTenStorm,nElevenLateDgVThreeCanonicalItemsCTenStorm,28,Table 12,
+dgVThreeCanonicalShareCTenStorm,92.7\%,nElevenDgVThreeCanonicalShareCTenStorm,nElevenLateDgVThreeCanonicalShareCTenStorm,92.9\%,Table 12,
+dgBenignCanonicalBlocksCTenStorm,0,nElevenDgBenignCanonicalBlocksCTenStorm,nElevenLateDgBenignCanonicalBlocksCTenStorm,0,Table 12,
+dgBenignCanonicalItemsCTenStorm,153,nElevenDgBenignCanonicalItemsCTenStorm,nElevenLateDgBenignCanonicalItemsCTenStorm,117,Table 12,
+dgBenignCanonicalShareCTenStorm,0.0\%,nElevenDgBenignCanonicalShareCTenStorm,nElevenLateDgBenignCanonicalShareCTenStorm,0.0\%,Table 12,
+dgVThreeCanonicalRefusedReplay,55,nElevenDgVThreeCanonicalRefusedReplay,nElevenLateDgVThreeCanonicalRefusedReplay,34,Table 12,
+dgVThreeCanonicalItemsReplay,65,nElevenDgVThreeCanonicalItemsReplay,nElevenLateDgVThreeCanonicalItemsReplay,38,Table 12,
+dgVThreeCanonicalShareReplay,84.6\%,nElevenDgVThreeCanonicalShareReplay,nElevenLateDgVThreeCanonicalShareReplay,89.5\%,Table 12,
+dgBenignCanonicalBlocksReplay,0,nElevenDgBenignCanonicalBlocksReplay,nElevenLateDgBenignCanonicalBlocksReplay,0,Table 12,
+dgBenignCanonicalItemsReplay,253,nElevenDgBenignCanonicalItemsReplay,nElevenLateDgBenignCanonicalItemsReplay,194,Table 12,
+dgBenignCanonicalShareReplay,0.0\%,nElevenDgBenignCanonicalShareReplay,nElevenLateDgBenignCanonicalShareReplay,0.0\%,Table 12,
+dgJackVThreeMin,91.00\%,nElevenDgJackVThreeMin,nElevenLateDgJackVThreeMin,91.22\%,Table 12 / DG16,issuable t=0: 90.54
+dgJackVThreeMax,92.20\%,nElevenDgJackVThreeMax,nElevenLateDgJackVThreeMax,92.72\%,Table 12 / DG16,issuable t=0: 92.11
+dgJackVThreeFolds,56,nElevenDgJackVThreeFolds,nElevenLateDgJackVThreeFolds,52,Table 12 / DG16,
+dgJackBenignMin,1.27\%,nElevenDgJackBenignMin,nElevenLateDgJackBenignMin,0.00\%,Table 12 / DG16,issuable t=0: 1.14
+dgJackBenignMax,2.71\%,nElevenDgJackBenignMax,nElevenLateDgJackBenignMax,0.00\%,Table 12 / DG16,issuable t=0: 2.83
+dgJackBenignFolds,60,nElevenDgJackBenignFolds,nElevenLateDgJackBenignFolds,60,Table 12 / DG16,
+nThreeArmsRun,5,nElevenNThreeArmsRun,nElevenLateNThreeArmsRun,5,Tables 18-19 (N3),issuable t=0: 5
+nThreeTau,0.20,nElevenNThreeTau,nElevenLateNThreeTau,0.20,Tables 18-19 (N3),issuable t=0: 0.20
+nThreeTauHard,0.40,nElevenNThreeTauHard,nElevenLateNThreeTauHard,0.40,Tables 18-19 (N3),issuable t=0: 0.40
+nThreeTauHardSweepThirty,0.30,nElevenNThreeTauHardSweepThirty,nElevenLateNThreeTauHardSweepThirty,0.30,Tables 18-19 (N3),issuable t=0: 0.30
+nThreeTauHardSweepForty,0.40,nElevenNThreeTauHardSweepForty,nElevenLateNThreeTauHardSweepForty,0.40,Tables 18-19 (N3),issuable t=0: 0.40
+nThreeTauHardSweepSixty,0.60,nElevenNThreeTauHardSweepSixty,nElevenLateNThreeTauHardSweepSixty,0.60,Tables 18-19 (N3),issuable t=0: 0.60
+nThreeBootstrapB,"20{,}000",nElevenNThreeBootstrapB,nElevenLateNThreeBootstrapB,"20{,}000",Tables 18-19 (N3),"issuable t=0: 20{,}000"
+nThreeItemsCA,220,nElevenNThreeItemsCA,nElevenLateNThreeItemsCA,154,Tables 18-19 (N3),issuable t=0: 154
+nThreeItemsVThree,220,nElevenNThreeItemsVThree,nElevenLateNThreeItemsVThree,154,Tables 18-19 (N3),issuable t=0: 154
+nThreeItemsBenign,200,nElevenNThreeItemsBenign,nElevenLateNThreeItemsBenign,153,Tables 18-19 (N3),issuable t=0: 153
+nThreeItemsTotal,640,nElevenNThreeItemsTotal,nElevenLateNThreeItemsTotal,461,Tables 18-19 (N3),issuable t=0: 461
+nThreeDeepseekCASchemaValid,0.0\%,nElevenNThreeDeepseekCASchemaValid,nElevenLateNThreeDeepseekCASchemaValid,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekCAAccept,99.5\%,nElevenNThreeDeepseekCAAccept,nElevenLateNThreeDeepseekCAAccept,99.4\%,Tables 18-19 (N3),issuable t=0: 99.4\%
+nThreeDeepseekCAAcceptCiLo,98.8,nElevenNThreeDeepseekCAAcceptCiLo,nElevenLateNThreeDeepseekCAAcceptCiLo,98.4,Tables 18-19 (N3),issuable t=0: 98.4
+nThreeDeepseekCAAcceptCiHi,100.0,nElevenNThreeDeepseekCAAcceptCiHi,nElevenLateNThreeDeepseekCAAcceptCiHi,100.0,Tables 18-19 (N3),issuable t=0: 100.0
+nThreeDeepseekVThreeFalseAccept,2.0\%,nElevenNThreeDeepseekVThreeFalseAccept,nElevenLateNThreeDeepseekVThreeFalseAccept,2.9\%,Tables 18-19 (N3),issuable t=0: 2.9\%
+nThreeDeepseekVThreeFalseAcceptCiLo,0.5,nElevenNThreeDeepseekVThreeFalseAcceptCiLo,nElevenLateNThreeDeepseekVThreeFalseAcceptCiLo,0.7,Tables 18-19 (N3),issuable t=0: 0.7
+nThreeDeepseekVThreeFalseAcceptCiHi,3.7,nElevenNThreeDeepseekVThreeFalseAcceptCiHi,nElevenLateNThreeDeepseekVThreeFalseAcceptCiHi,5.5,Tables 18-19 (N3),issuable t=0: 5.5
+nThreeDeepseekBenignFalseAccept,1.5\%,nElevenNThreeDeepseekBenignFalseAccept,nElevenLateNThreeDeepseekBenignFalseAccept,2.0\%,Tables 18-19 (N3),issuable t=0: 2.0\%
+nThreeDeepseekBenignFalseAcceptCiLo,0.2,nElevenNThreeDeepseekBenignFalseAcceptCiLo,nElevenLateNThreeDeepseekBenignFalseAcceptCiLo,0.3,Tables 18-19 (N3),issuable t=0: 0.3
+nThreeDeepseekBenignFalseAcceptCiHi,3.1,nElevenNThreeDeepseekBenignFalseAcceptCiHi,nElevenLateNThreeDeepseekBenignFalseAcceptCiHi,4.1,Tables 18-19 (N3),issuable t=0: 4.1
+nThreeDeepseekFreeCASchemaValid,0.0\%,nElevenNThreeDeepseekFreeCASchemaValid,nElevenLateNThreeDeepseekFreeCASchemaValid,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekFreeCAAccept,99.1\%,nElevenNThreeDeepseekFreeCAAccept,nElevenLateNThreeDeepseekFreeCAAccept,98.7\%,Tables 18-19 (N3),issuable t=0: 98.7\%
+nThreeDeepseekFreeCAAcceptCiLo,97.9,nElevenNThreeDeepseekFreeCAAcceptCiLo,nElevenLateNThreeDeepseekFreeCAAcceptCiLo,97.0,Tables 18-19 (N3),issuable t=0: 97.0
+nThreeDeepseekFreeCAAcceptCiHi,100.0,nElevenNThreeDeepseekFreeCAAcceptCiHi,nElevenLateNThreeDeepseekFreeCAAcceptCiHi,100.0,Tables 18-19 (N3),issuable t=0: 100.0
+nThreeDeepseekFreeVThreeFalseAccept,5.2\%,nElevenNThreeDeepseekFreeVThreeFalseAccept,nElevenLateNThreeDeepseekFreeVThreeFalseAccept,5.5\%,Tables 18-19 (N3),issuable t=0: 5.5\%
+nThreeDeepseekFreeVThreeFalseAcceptCiLo,3.0,nElevenNThreeDeepseekFreeVThreeFalseAcceptCiLo,nElevenLateNThreeDeepseekFreeVThreeFalseAcceptCiLo,2.7,Tables 18-19 (N3),issuable t=0: 2.7
+nThreeDeepseekFreeVThreeFalseAcceptCiHi,7.7,nElevenNThreeDeepseekFreeVThreeFalseAcceptCiHi,nElevenLateNThreeDeepseekFreeVThreeFalseAcceptCiHi,8.7,Tables 18-19 (N3),issuable t=0: 8.7
+nThreeDeepseekFreeBenignFalseAccept,5.0\%,nElevenNThreeDeepseekFreeBenignFalseAccept,nElevenLateNThreeDeepseekFreeBenignFalseAccept,6.5\%,Tables 18-19 (N3),issuable t=0: 6.5\%
+nThreeDeepseekFreeBenignFalseAcceptCiLo,2.4,nElevenNThreeDeepseekFreeBenignFalseAcceptCiLo,nElevenLateNThreeDeepseekFreeBenignFalseAcceptCiLo,3.2,Tables 18-19 (N3),issuable t=0: 3.2
+nThreeDeepseekFreeBenignFalseAcceptCiHi,7.9,nElevenNThreeDeepseekFreeBenignFalseAcceptCiHi,nElevenLateNThreeDeepseekFreeBenignFalseAcceptCiHi,10.4,Tables 18-19 (N3),issuable t=0: 10.4
+nThreeOpenaiCASchemaValid,99.8\%,nElevenNThreeOpenaiCASchemaValid,nElevenLateNThreeOpenaiCASchemaValid,100.0\%,Tables 18-19 (N3),issuable t=0: 100.0\%
+nThreeOpenaiCAAccept,99.8\%,nElevenNThreeOpenaiCAAccept,nElevenLateNThreeOpenaiCAAccept,100.0\%,Tables 18-19 (N3),issuable t=0: 100.0\%
+nThreeOpenaiCAAcceptCiLo,99.3,nElevenNThreeOpenaiCAAcceptCiLo,nElevenLateNThreeOpenaiCAAcceptCiLo,100.0,Tables 18-19 (N3),issuable t=0: 100.0
+nThreeOpenaiCAAcceptCiHi,100.0,nElevenNThreeOpenaiCAAcceptCiHi,nElevenLateNThreeOpenaiCAAcceptCiHi,100.0,Tables 18-19 (N3),issuable t=0: 100.0
+nThreeOpenaiVThreeFalseAccept,0.9\%,nElevenNThreeOpenaiVThreeFalseAccept,nElevenLateNThreeOpenaiVThreeFalseAccept,1.0\%,Tables 18-19 (N3),issuable t=0: 1.0\%
+nThreeOpenaiVThreeFalseAcceptCiLo,0.2,nElevenNThreeOpenaiVThreeFalseAcceptCiLo,nElevenLateNThreeOpenaiVThreeFalseAcceptCiLo,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeOpenaiVThreeFalseAcceptCiHi,1.8,nElevenNThreeOpenaiVThreeFalseAcceptCiHi,nElevenLateNThreeOpenaiVThreeFalseAcceptCiHi,2.1,Tables 18-19 (N3),issuable t=0: 2.1
+nThreeOpenaiBenignFalseAccept,1.2\%,nElevenNThreeOpenaiBenignFalseAccept,nElevenLateNThreeOpenaiBenignFalseAccept,1.3\%,Tables 18-19 (N3),issuable t=0: 1.3\%
+nThreeOpenaiBenignFalseAcceptCiLo,0.0,nElevenNThreeOpenaiBenignFalseAcceptCiLo,nElevenLateNThreeOpenaiBenignFalseAcceptCiLo,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeOpenaiBenignFalseAcceptCiHi,3.4,nElevenNThreeOpenaiBenignFalseAcceptCiHi,nElevenLateNThreeOpenaiBenignFalseAcceptCiHi,3.5,Tables 18-19 (N3),issuable t=0: 3.5
+nThreeOpenaiFreeCASchemaValid,0.0\%,nElevenNThreeOpenaiFreeCASchemaValid,nElevenLateNThreeOpenaiFreeCASchemaValid,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpenaiFreeCAFlagMissing,134,nElevenNThreeOpenaiFreeCAFlagMissing,nElevenLateNThreeOpenaiFreeCAFlagMissing,104,Tables 18-19 (N3),issuable t=0: 104
+nThreeOpenaiFreeCAAccept,69.1\%,nElevenNThreeOpenaiFreeCAAccept,nElevenLateNThreeOpenaiFreeCAAccept,65.9\%,Tables 18-19 (N3),issuable t=0: 65.9\%
+nThreeOpenaiFreeCAAcceptCiLo,63.1,nElevenNThreeOpenaiFreeCAAcceptCiLo,nElevenLateNThreeOpenaiFreeCAAcceptCiLo,58.9,Tables 18-19 (N3),issuable t=0: 58.9
+nThreeOpenaiFreeCAAcceptCiHi,74.9,nElevenNThreeOpenaiFreeCAAcceptCiHi,nElevenLateNThreeOpenaiFreeCAAcceptCiHi,72.8,Tables 18-19 (N3),issuable t=0: 72.8
+nThreeOpenaiFreeVThreeFalseAccept,0.7\%,nElevenNThreeOpenaiFreeVThreeFalseAccept,nElevenLateNThreeOpenaiFreeVThreeFalseAccept,1.0\%,Tables 18-19 (N3),issuable t=0: 1.0\%
+nThreeOpenaiFreeVThreeFalseAcceptCiLo,0.0,nElevenNThreeOpenaiFreeVThreeFalseAcceptCiLo,nElevenLateNThreeOpenaiFreeVThreeFalseAcceptCiLo,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeOpenaiFreeVThreeFalseAcceptCiHi,1.5,nElevenNThreeOpenaiFreeVThreeFalseAcceptCiHi,nElevenLateNThreeOpenaiFreeVThreeFalseAcceptCiHi,2.2,Tables 18-19 (N3),issuable t=0: 2.2
+nThreeOpenaiFreeBenignFalseAccept,0.5\%,nElevenNThreeOpenaiFreeBenignFalseAccept,nElevenLateNThreeOpenaiFreeBenignFalseAccept,0.7\%,Tables 18-19 (N3),issuable t=0: 0.7\%
+nThreeOpenaiFreeBenignFalseAcceptCiLo,0.0,nElevenNThreeOpenaiFreeBenignFalseAcceptCiLo,nElevenLateNThreeOpenaiFreeBenignFalseAcceptCiLo,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeOpenaiFreeBenignFalseAcceptCiHi,1.7,nElevenNThreeOpenaiFreeBenignFalseAcceptCiHi,nElevenLateNThreeOpenaiFreeBenignFalseAcceptCiHi,2.1,Tables 18-19 (N3),issuable t=0: 2.1
+nThreeOpusCASchemaValid,100.0\%,nElevenNThreeOpusCASchemaValid,nElevenLateNThreeOpusCASchemaValid,100.0\%,Tables 18-19 (N3),issuable t=0: 100.0\%
+nThreeOpusCAAccept,100.0\%,nElevenNThreeOpusCAAccept,nElevenLateNThreeOpusCAAccept,100.0\%,Tables 18-19 (N3),issuable t=0: 100.0\%
+nThreeOpusCAAcceptCiLo,100.0,nElevenNThreeOpusCAAcceptCiLo,nElevenLateNThreeOpusCAAcceptCiLo,100.0,Tables 18-19 (N3),issuable t=0: 100.0
+nThreeOpusCAAcceptCiHi,100.0,nElevenNThreeOpusCAAcceptCiHi,nElevenLateNThreeOpusCAAcceptCiHi,100.0,Tables 18-19 (N3),issuable t=0: 100.0
+nThreeOpusVThreeFalseAccept,0.0\%,nElevenNThreeOpusVThreeFalseAccept,nElevenLateNThreeOpusVThreeFalseAccept,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpusVThreeFalseAcceptCiLo,0.0,nElevenNThreeOpusVThreeFalseAcceptCiLo,nElevenLateNThreeOpusVThreeFalseAcceptCiLo,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeOpusVThreeFalseAcceptCiHi,0.0,nElevenNThreeOpusVThreeFalseAcceptCiHi,nElevenLateNThreeOpusVThreeFalseAcceptCiHi,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeOpusBenignFalseAccept,0.0\%,nElevenNThreeOpusBenignFalseAccept,nElevenLateNThreeOpusBenignFalseAccept,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpusBenignFalseAcceptCiLo,0.0,nElevenNThreeOpusBenignFalseAcceptCiLo,nElevenLateNThreeOpusBenignFalseAcceptCiLo,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeOpusBenignFalseAcceptCiHi,0.0,nElevenNThreeOpusBenignFalseAcceptCiHi,nElevenLateNThreeOpusBenignFalseAcceptCiHi,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeOpusFreeCASchemaValid,4.5\%,nElevenNThreeOpusFreeCASchemaValid,nElevenLateNThreeOpusFreeCASchemaValid,5.8\%,Tables 18-19 (N3),issuable t=0: 5.8\%
+nThreeOpusFreeCAAccept,18.9\%,nElevenNThreeOpusFreeCAAccept,nElevenLateNThreeOpusFreeCAAccept,20.1\%,Tables 18-19 (N3),issuable t=0: 20.1\%
+nThreeOpusFreeCAAcceptCiLo,14.3,nElevenNThreeOpusFreeCAAcceptCiLo,nElevenLateNThreeOpusFreeCAAcceptCiLo,14.4,Tables 18-19 (N3),issuable t=0: 14.4
+nThreeOpusFreeCAAcceptCiHi,23.8,nElevenNThreeOpusFreeCAAcceptCiHi,nElevenLateNThreeOpusFreeCAAcceptCiHi,26.2,Tables 18-19 (N3),issuable t=0: 26.2
+nThreeOpusFreeVThreeFalseAccept,0.0\%,nElevenNThreeOpusFreeVThreeFalseAccept,nElevenLateNThreeOpusFreeVThreeFalseAccept,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpusFreeVThreeFalseAcceptCiLo,0.0,nElevenNThreeOpusFreeVThreeFalseAcceptCiLo,nElevenLateNThreeOpusFreeVThreeFalseAcceptCiLo,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeOpusFreeVThreeFalseAcceptCiHi,0.0,nElevenNThreeOpusFreeVThreeFalseAcceptCiHi,nElevenLateNThreeOpusFreeVThreeFalseAcceptCiHi,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeOpusFreeBenignFalseAccept,0.0\%,nElevenNThreeOpusFreeBenignFalseAccept,nElevenLateNThreeOpusFreeBenignFalseAccept,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpusFreeBenignFalseAcceptCiLo,0.0,nElevenNThreeOpusFreeBenignFalseAcceptCiLo,nElevenLateNThreeOpusFreeBenignFalseAcceptCiLo,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeOpusFreeBenignFalseAcceptCiHi,0.0,nElevenNThreeOpusFreeBenignFalseAcceptCiHi,nElevenLateNThreeOpusFreeBenignFalseAcceptCiHi,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeSolCASchemaValid,100.0\%,nElevenNThreeSolCASchemaValid,nElevenLateNThreeSolCASchemaValid,100.0\%,Tables 18-19 (N3),issuable t=0: 100.0\%
+nThreeSolCAAccept,100.0\%,nElevenNThreeSolCAAccept,nElevenLateNThreeSolCAAccept,100.0\%,Tables 18-19 (N3),issuable t=0: 100.0\%
+nThreeSolCAAcceptCiLo,100.0,nElevenNThreeSolCAAcceptCiLo,nElevenLateNThreeSolCAAcceptCiLo,100.0,Tables 18-19 (N3),issuable t=0: 100.0
+nThreeSolCAAcceptCiHi,100.0,nElevenNThreeSolCAAcceptCiHi,nElevenLateNThreeSolCAAcceptCiHi,100.0,Tables 18-19 (N3),issuable t=0: 100.0
+nThreeSolVThreeFalseAccept,0.0\%,nElevenNThreeSolVThreeFalseAccept,nElevenLateNThreeSolVThreeFalseAccept,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolVThreeFalseAcceptCiLo,0.0,nElevenNThreeSolVThreeFalseAcceptCiLo,nElevenLateNThreeSolVThreeFalseAcceptCiLo,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeSolVThreeFalseAcceptCiHi,0.0,nElevenNThreeSolVThreeFalseAcceptCiHi,nElevenLateNThreeSolVThreeFalseAcceptCiHi,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeSolBenignFalseAccept,0.0\%,nElevenNThreeSolBenignFalseAccept,nElevenLateNThreeSolBenignFalseAccept,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolBenignFalseAcceptCiLo,0.0,nElevenNThreeSolBenignFalseAcceptCiLo,nElevenLateNThreeSolBenignFalseAcceptCiLo,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeSolBenignFalseAcceptCiHi,0.0,nElevenNThreeSolBenignFalseAcceptCiHi,nElevenLateNThreeSolBenignFalseAcceptCiHi,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeSolFreeCAN,440,nElevenNThreeSolFreeCAN,nElevenLateNThreeSolFreeCAN,308,Tables 18-19 (N3),issuable t=0: 308
+nThreeSolFreeCASchemaValid,0.0\%,nElevenNThreeSolFreeCASchemaValid,nElevenLateNThreeSolFreeCASchemaValid,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolFreeCAAccept,0.0\%,nElevenNThreeSolFreeCAAccept,nElevenLateNThreeSolFreeCAAccept,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolFreeCAAcceptCiLo,0.0,nElevenNThreeSolFreeCAAcceptCiLo,nElevenLateNThreeSolFreeCAAcceptCiLo,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeSolFreeCAAcceptCiHi,0.0,nElevenNThreeSolFreeCAAcceptCiHi,nElevenLateNThreeSolFreeCAAcceptCiHi,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeSolFreeVThreeFalseAccept,0.0\%,nElevenNThreeSolFreeVThreeFalseAccept,nElevenLateNThreeSolFreeVThreeFalseAccept,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolFreeVThreeFalseAcceptCiLo,0.0,nElevenNThreeSolFreeVThreeFalseAcceptCiLo,nElevenLateNThreeSolFreeVThreeFalseAcceptCiLo,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeSolFreeVThreeFalseAcceptCiHi,0.0,nElevenNThreeSolFreeVThreeFalseAcceptCiHi,nElevenLateNThreeSolFreeVThreeFalseAcceptCiHi,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeSolFreeBenignFalseAccept,0.0\%,nElevenNThreeSolFreeBenignFalseAccept,nElevenLateNThreeSolFreeBenignFalseAccept,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolFreeBenignFalseAcceptCiLo,0.0,nElevenNThreeSolFreeBenignFalseAcceptCiLo,nElevenLateNThreeSolFreeBenignFalseAcceptCiLo,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeSolFreeBenignFalseAcceptCiHi,0.0,nElevenNThreeSolFreeBenignFalseAcceptCiHi,nElevenLateNThreeSolFreeBenignFalseAcceptCiHi,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeSonnetCASchemaValid,100.0\%,nElevenNThreeSonnetCASchemaValid,nElevenLateNThreeSonnetCASchemaValid,100.0\%,Tables 18-19 (N3),issuable t=0: 100.0\%
+nThreeSonnetCAAccept,100.0\%,nElevenNThreeSonnetCAAccept,nElevenLateNThreeSonnetCAAccept,100.0\%,Tables 18-19 (N3),issuable t=0: 100.0\%
+nThreeSonnetCAAcceptCiLo,100.0,nElevenNThreeSonnetCAAcceptCiLo,nElevenLateNThreeSonnetCAAcceptCiLo,100.0,Tables 18-19 (N3),issuable t=0: 100.0
+nThreeSonnetCAAcceptCiHi,100.0,nElevenNThreeSonnetCAAcceptCiHi,nElevenLateNThreeSonnetCAAcceptCiHi,100.0,Tables 18-19 (N3),issuable t=0: 100.0
+nThreeSonnetVThreeFalseAccept,20.5\%,nElevenNThreeSonnetVThreeFalseAccept,nElevenLateNThreeSonnetVThreeFalseAccept,26.6\%,Tables 18-19 (N3),issuable t=0: 26.6\%
+nThreeSonnetVThreeFalseAcceptCiLo,16.3,nElevenNThreeSonnetVThreeFalseAcceptCiLo,nElevenLateNThreeSonnetVThreeFalseAcceptCiLo,20.7,Tables 18-19 (N3),issuable t=0: 20.7
+nThreeSonnetVThreeFalseAcceptCiHi,24.9,nElevenNThreeSonnetVThreeFalseAcceptCiHi,nElevenLateNThreeSonnetVThreeFalseAcceptCiHi,32.9,Tables 18-19 (N3),issuable t=0: 32.9
+nThreeSonnetBenignFalseAccept,16.8\%,nElevenNThreeSonnetBenignFalseAccept,nElevenLateNThreeSonnetBenignFalseAccept,20.6\%,Tables 18-19 (N3),issuable t=0: 20.6\%
+nThreeSonnetBenignFalseAcceptCiLo,12.0,nElevenNThreeSonnetBenignFalseAcceptCiLo,nElevenLateNThreeSonnetBenignFalseAcceptCiLo,14.9,Tables 18-19 (N3),issuable t=0: 14.9
+nThreeSonnetBenignFalseAcceptCiHi,21.8,nElevenNThreeSonnetBenignFalseAcceptCiHi,nElevenLateNThreeSonnetBenignFalseAcceptCiHi,26.5,Tables 18-19 (N3),issuable t=0: 26.5
+nThreeSonnetFreeCASchemaValid,0.0\%,nElevenNThreeSonnetFreeCASchemaValid,nElevenLateNThreeSonnetFreeCASchemaValid,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSonnetFreeCAFlagMissing,43,nElevenNThreeSonnetFreeCAFlagMissing,nElevenLateNThreeSonnetFreeCAFlagMissing,35,Tables 18-19 (N3),issuable t=0: 35
+nThreeSonnetFreeCAAccept,77.3\%,nElevenNThreeSonnetFreeCAAccept,nElevenLateNThreeSonnetFreeCAAccept,74.7\%,Tables 18-19 (N3),issuable t=0: 74.7\%
+nThreeSonnetFreeCAAcceptCiLo,71.7,nElevenNThreeSonnetFreeCAAcceptCiLo,nElevenLateNThreeSonnetFreeCAAcceptCiLo,68.2,Tables 18-19 (N3),issuable t=0: 68.2
+nThreeSonnetFreeCAAcceptCiHi,82.9,nElevenNThreeSonnetFreeCAAcceptCiHi,nElevenLateNThreeSonnetFreeCAAcceptCiHi,81.2,Tables 18-19 (N3),issuable t=0: 81.2
+nThreeSonnetFreeVThreeFalseAccept,0.9\%,nElevenNThreeSonnetFreeVThreeFalseAccept,nElevenLateNThreeSonnetFreeVThreeFalseAccept,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSonnetFreeVThreeFalseAcceptCiLo,0.0,nElevenNThreeSonnetFreeVThreeFalseAcceptCiLo,nElevenLateNThreeSonnetFreeVThreeFalseAcceptCiLo,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeSonnetFreeVThreeFalseAcceptCiHi,2.4,nElevenNThreeSonnetFreeVThreeFalseAcceptCiHi,nElevenLateNThreeSonnetFreeVThreeFalseAcceptCiHi,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeSonnetFreeBenignFalseAccept,0.8\%,nElevenNThreeSonnetFreeBenignFalseAccept,nElevenLateNThreeSonnetFreeBenignFalseAccept,1.0\%,Tables 18-19 (N3),issuable t=0: 1.0\%
+nThreeSonnetFreeBenignFalseAcceptCiLo,0.0,nElevenNThreeSonnetFreeBenignFalseAcceptCiLo,nElevenLateNThreeSonnetFreeBenignFalseAcceptCiLo,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeSonnetFreeBenignFalseAcceptCiHi,2.0,nElevenNThreeSonnetFreeBenignFalseAcceptCiHi,nElevenLateNThreeSonnetFreeBenignFalseAcceptCiHi,2.6,Tables 18-19 (N3),issuable t=0: 2.6
+nThreeOpenaiNegFalseAccept,0.5\%,nElevenNThreeOpenaiNegFalseAccept,nElevenLateNThreeOpenaiNegFalseAccept,0.6\%,Tables 18-19 (N3),issuable t=0: 0.6\%
+nThreeOpenaiNegFalseAcceptCiLo,0.0,nElevenNThreeOpenaiNegFalseAcceptCiLo,nElevenLateNThreeOpenaiNegFalseAcceptCiLo,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeOpenaiNegFalseAcceptCiHi,1.5,nElevenNThreeOpenaiNegFalseAcceptCiHi,nElevenLateNThreeOpenaiNegFalseAcceptCiHi,2.1,Tables 18-19 (N3),issuable t=0: 2.1
+nThreeOpusNegFalseAccept,0.0\%,nElevenNThreeOpusNegFalseAccept,nElevenLateNThreeOpusNegFalseAccept,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpusNegFalseAcceptCiLo,0.0,nElevenNThreeOpusNegFalseAcceptCiLo,nElevenLateNThreeOpusNegFalseAcceptCiLo,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeOpusNegFalseAcceptCiHi,0.0,nElevenNThreeOpusNegFalseAcceptCiHi,nElevenLateNThreeOpusNegFalseAcceptCiHi,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeSolNegFalseAccept,0.0\%,nElevenNThreeSolNegFalseAccept,nElevenLateNThreeSolNegFalseAccept,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolNegFalseAcceptCiLo,0.0,nElevenNThreeSolNegFalseAcceptCiLo,nElevenLateNThreeSolNegFalseAcceptCiLo,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeSolNegFalseAcceptCiHi,0.0,nElevenNThreeSolNegFalseAcceptCiHi,nElevenLateNThreeSolNegFalseAcceptCiHi,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeSonnetNegFalseAccept,0.0\%,nElevenNThreeSonnetNegFalseAccept,nElevenLateNThreeSonnetNegFalseAccept,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSonnetNegFalseAcceptCiLo,0.0,nElevenNThreeSonnetNegFalseAcceptCiLo,nElevenLateNThreeSonnetNegFalseAcceptCiLo,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeSonnetNegFalseAcceptCiHi,0.0,nElevenNThreeSonnetNegFalseAcceptCiHi,nElevenLateNThreeSonnetNegFalseAcceptCiHi,0.0,Tables 18-19 (N3),issuable t=0: 0.0
+nThreeDeepseekCADispCorrectCert,0.0\%,nElevenNThreeDeepseekCADispCorrectCert,nElevenLateNThreeDeepseekCADispCorrectCert,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekCADispCorrectRel,0.0\%,nElevenNThreeDeepseekCADispCorrectRel,nElevenLateNThreeDeepseekCADispCorrectRel,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekVThreeDispCorrectCert,0.0\%,nElevenNThreeDeepseekVThreeDispCorrectCert,nElevenLateNThreeDeepseekVThreeDispCorrectCert,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekVThreeDispCorrectRel,0.0\%,nElevenNThreeDeepseekVThreeDispCorrectRel,nElevenLateNThreeDeepseekVThreeDispCorrectRel,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekBenignDispCorrectCert,0.0\%,nElevenNThreeDeepseekBenignDispCorrectCert,nElevenLateNThreeDeepseekBenignDispCorrectCert,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekBenignDispCorrectRel,0.0\%,nElevenNThreeDeepseekBenignDispCorrectRel,nElevenLateNThreeDeepseekBenignDispCorrectRel,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpenaiCADispCorrectCert,88.6\%,nElevenNThreeOpenaiCADispCorrectCert,nElevenLateNThreeOpenaiCADispCorrectCert,90.9\%,Tables 18-19 (N3),issuable t=0: 89.6\%
+nThreeOpenaiCADispCorrectRel,89.1\%,nElevenNThreeOpenaiCADispCorrectRel,nElevenLateNThreeOpenaiCADispCorrectRel,90.9\%,Tables 18-19 (N3),issuable t=0: 90.3\%
+nThreeOpenaiVThreeDispCorrectCert,90.2\%,nElevenNThreeOpenaiVThreeDispCorrectCert,nElevenLateNThreeOpenaiVThreeDispCorrectCert,91.2\%,Tables 18-19 (N3),issuable t=0: 91.6\%
+nThreeOpenaiVThreeDispCorrectRel,89.8\%,nElevenNThreeOpenaiVThreeDispCorrectRel,nElevenLateNThreeOpenaiVThreeDispCorrectRel,91.2\%,Tables 18-19 (N3),issuable t=0: 91.6\%
+nThreeOpenaiBenignDispCorrectCert,95.2\%,nElevenNThreeOpenaiBenignDispCorrectCert,nElevenLateNThreeOpenaiBenignDispCorrectCert,97.7\%,Tables 18-19 (N3),issuable t=0: 95.1\%
+nThreeOpenaiBenignDispCorrectRel,98.2\%,nElevenNThreeOpenaiBenignDispCorrectRel,nElevenLateNThreeOpenaiBenignDispCorrectRel,97.7\%,Tables 18-19 (N3),issuable t=0: 97.7\%
+nThreeOpusCADispCorrectCert,99.3\%,nElevenNThreeOpusCADispCorrectCert,nElevenLateNThreeOpusCADispCorrectCert,99.0\%,Tables 18-19 (N3),issuable t=0: 99.0\%
+nThreeOpusCADispCorrectRel,98.9\%,nElevenNThreeOpusCADispCorrectRel,nElevenLateNThreeOpusCADispCorrectRel,99.0\%,Tables 18-19 (N3),issuable t=0: 98.4\%
+nThreeOpusVThreeDispCorrectCert,99.1\%,nElevenNThreeOpusVThreeDispCorrectCert,nElevenLateNThreeOpusVThreeDispCorrectCert,99.0\%,Tables 18-19 (N3),issuable t=0: 99.0\%
+nThreeOpusVThreeDispCorrectRel,98.6\%,nElevenNThreeOpusVThreeDispCorrectRel,nElevenLateNThreeOpusVThreeDispCorrectRel,99.0\%,Tables 18-19 (N3),issuable t=0: 98.4\%
+nThreeOpusBenignDispCorrectCert,95.5\%,nElevenNThreeOpusBenignDispCorrectCert,nElevenLateNThreeOpusBenignDispCorrectCert,98.0\%,Tables 18-19 (N3),issuable t=0: 95.4\%
+nThreeOpusBenignDispCorrectRel,98.5\%,nElevenNThreeOpusBenignDispCorrectRel,nElevenLateNThreeOpusBenignDispCorrectRel,98.0\%,Tables 18-19 (N3),issuable t=0: 98.0\%
+nThreeSolCADispCorrectCert,97.3\%,nElevenNThreeSolCADispCorrectCert,nElevenLateNThreeSolCADispCorrectCert,96.1\%,Tables 18-19 (N3),issuable t=0: 96.1\%
+nThreeSolCADispCorrectRel,97.3\%,nElevenNThreeSolCADispCorrectRel,nElevenLateNThreeSolCADispCorrectRel,96.1\%,Tables 18-19 (N3),issuable t=0: 96.1\%
+nThreeSolVThreeDispCorrectCert,96.8\%,nElevenNThreeSolVThreeDispCorrectCert,nElevenLateNThreeSolVThreeDispCorrectCert,95.5\%,Tables 18-19 (N3),issuable t=0: 95.5\%
+nThreeSolVThreeDispCorrectRel,97.3\%,nElevenNThreeSolVThreeDispCorrectRel,nElevenLateNThreeSolVThreeDispCorrectRel,95.5\%,Tables 18-19 (N3),issuable t=0: 96.1\%
+nThreeSolBenignDispCorrectCert,93.2\%,nElevenNThreeSolBenignDispCorrectCert,nElevenLateNThreeSolBenignDispCorrectCert,95.1\%,Tables 18-19 (N3),issuable t=0: 92.5\%
+nThreeSolBenignDispCorrectRel,96.2\%,nElevenNThreeSolBenignDispCorrectRel,nElevenLateNThreeSolBenignDispCorrectRel,95.1\%,Tables 18-19 (N3),issuable t=0: 95.1\%
+nThreeSonnetCADispCorrectCert,96.8\%,nElevenNThreeSonnetCADispCorrectCert,nElevenLateNThreeSonnetCADispCorrectCert,95.1\%,Tables 18-19 (N3),issuable t=0: 95.5\%
+nThreeSonnetCADispCorrectRel,96.8\%,nElevenNThreeSonnetCADispCorrectRel,nElevenLateNThreeSonnetCADispCorrectRel,95.1\%,Tables 18-19 (N3),issuable t=0: 95.5\%
+nThreeSonnetVThreeDispCorrectCert,89.8\%,nElevenNThreeSonnetVThreeDispCorrectCert,nElevenLateNThreeSonnetVThreeDispCorrectCert,90.6\%,Tables 18-19 (N3),issuable t=0: 86.4\%
+nThreeSonnetVThreeDispCorrectRel,90.5\%,nElevenNThreeSonnetVThreeDispCorrectRel,nElevenLateNThreeSonnetVThreeDispCorrectRel,90.6\%,Tables 18-19 (N3),issuable t=0: 87.3\%
+nThreeSonnetBenignDispCorrectCert,95.8\%,nElevenNThreeSonnetBenignDispCorrectCert,nElevenLateNThreeSonnetBenignDispCorrectCert,98.4\%,Tables 18-19 (N3),issuable t=0: 95.8\%
+nThreeSonnetBenignDispCorrectRel,98.8\%,nElevenNThreeSonnetBenignDispCorrectRel,nElevenLateNThreeSonnetBenignDispCorrectRel,98.4\%,Tables 18-19 (N3),issuable t=0: 98.4\%
+nThreeDeepseekCAOverrideRate,0.0\%,nElevenNThreeDeepseekCAOverrideRate,nElevenLateNThreeDeepseekCAOverrideRate,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekCAOverrideRateVTwelve,0.0\%,nElevenNThreeDeepseekCAOverrideRateVTwelve,nElevenLateNThreeDeepseekCAOverrideRateVTwelve,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekCAOverrideRateRel,0.0\%,nElevenNThreeDeepseekCAOverrideRateRel,nElevenLateNThreeDeepseekCAOverrideRateRel,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekCAOverrideRateRelVTwelve,0.0\%,nElevenNThreeDeepseekCAOverrideRateRelVTwelve,nElevenLateNThreeDeepseekCAOverrideRateRelVTwelve,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekVThreeFalseOverride,0.0\%,nElevenNThreeDeepseekVThreeFalseOverride,nElevenLateNThreeDeepseekVThreeFalseOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekVThreeFalseOverrideVTwelve,0.0\%,nElevenNThreeDeepseekVThreeFalseOverrideVTwelve,nElevenLateNThreeDeepseekVThreeFalseOverrideVTwelve,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekVThreeFalseOverrideRel,0.0\%,nElevenNThreeDeepseekVThreeFalseOverrideRel,nElevenLateNThreeDeepseekVThreeFalseOverrideRel,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekVThreeFalseOverrideRelVTwelve,0.0\%,nElevenNThreeDeepseekVThreeFalseOverrideRelVTwelve,nElevenLateNThreeDeepseekVThreeFalseOverrideRelVTwelve,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekBenignFalseOverride,0.0\%,nElevenNThreeDeepseekBenignFalseOverride,nElevenLateNThreeDeepseekBenignFalseOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekBenignFalseOverrideVTwelve,0.0\%,nElevenNThreeDeepseekBenignFalseOverrideVTwelve,nElevenLateNThreeDeepseekBenignFalseOverrideVTwelve,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekBenignFalseOverrideRel,0.0\%,nElevenNThreeDeepseekBenignFalseOverrideRel,nElevenLateNThreeDeepseekBenignFalseOverrideRel,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekBenignFalseOverrideRelVTwelve,0.0\%,nElevenNThreeDeepseekBenignFalseOverrideRelVTwelve,nElevenLateNThreeDeepseekBenignFalseOverrideRelVTwelve,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpenaiCAOverrideRate,21.6\%,nElevenNThreeOpenaiCAOverrideRate,nElevenLateNThreeOpenaiCAOverrideRate,14.0\%,Tables 18-19 (N3),issuable t=0: 25.0\%
+nThreeOpenaiCAOverrideRateVTwelve,21.6\%,nElevenNThreeOpenaiCAOverrideRateVTwelve,nElevenLateNThreeOpenaiCAOverrideRateVTwelve,14.0\%,Tables 18-19 (N3),issuable t=0: 25.0\%
+nThreeOpenaiCAOverrideRateRel,19.3\%,nElevenNThreeOpenaiCAOverrideRateRel,nElevenLateNThreeOpenaiCAOverrideRateRel,14.0\%,Tables 18-19 (N3),issuable t=0: 21.8\%
+nThreeOpenaiCAOverrideRateRelVTwelve,19.3\%,nElevenNThreeOpenaiCAOverrideRateRelVTwelve,nElevenLateNThreeOpenaiCAOverrideRateRelVTwelve,14.0\%,Tables 18-19 (N3),issuable t=0: 21.8\%
+nThreeOpenaiVThreeFalseOverride,0.2\%,nElevenNThreeOpenaiVThreeFalseOverride,nElevenLateNThreeOpenaiVThreeFalseOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.3\%
+nThreeOpenaiVThreeFalseOverrideVTwelve,0.0\%,nElevenNThreeOpenaiVThreeFalseOverrideVTwelve,nElevenLateNThreeOpenaiVThreeFalseOverrideVTwelve,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpenaiVThreeExcessBhDiffVTwelve,1.09,nElevenNThreeOpenaiVThreeExcessBhDiffVTwelve,nElevenLateNThreeOpenaiVThreeExcessBhDiffVTwelve,0.00,Tables 18-19 (N3),issuable t=0: 1.55
+nThreeOpenaiVThreeFalseOverrideRel,0.2\%,nElevenNThreeOpenaiVThreeFalseOverrideRel,nElevenLateNThreeOpenaiVThreeFalseOverrideRel,0.0\%,Tables 18-19 (N3),issuable t=0: 0.3\%
+nThreeOpenaiVThreeFalseOverrideRelVTwelve,0.0\%,nElevenNThreeOpenaiVThreeFalseOverrideRelVTwelve,nElevenLateNThreeOpenaiVThreeFalseOverrideRelVTwelve,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpenaiBenignFalseOverride,0.0\%,nElevenNThreeOpenaiBenignFalseOverride,nElevenLateNThreeOpenaiBenignFalseOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpenaiBenignFalseOverrideVTwelve,0.0\%,nElevenNThreeOpenaiBenignFalseOverrideVTwelve,nElevenLateNThreeOpenaiBenignFalseOverrideVTwelve,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpenaiBenignFalseOverrideRel,0.0\%,nElevenNThreeOpenaiBenignFalseOverrideRel,nElevenLateNThreeOpenaiBenignFalseOverrideRel,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpenaiBenignFalseOverrideRelVTwelve,0.0\%,nElevenNThreeOpenaiBenignFalseOverrideRelVTwelve,nElevenLateNThreeOpenaiBenignFalseOverrideRelVTwelve,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpusCAOverrideRate,23.6\%,nElevenNThreeOpusCAOverrideRate,nElevenLateNThreeOpusCAOverrideRate,14.3\%,Tables 18-19 (N3),issuable t=0: 26.0\%
+nThreeOpusCAOverrideRateVTwelve,23.6\%,nElevenNThreeOpusCAOverrideRateVTwelve,nElevenLateNThreeOpusCAOverrideRateVTwelve,14.3\%,Tables 18-19 (N3),issuable t=0: 26.0\%
+nThreeOpusCARefRate,67.0\%,nElevenNThreeOpusCARefRate,nElevenLateNThreeOpusCARefRate,76.3\%,Tables 18-19 (N3),issuable t=0: 64.0\%
+nThreeOpusCAOverrideRateRel,20.9\%,nElevenNThreeOpusCAOverrideRateRel,nElevenLateNThreeOpusCAOverrideRateRel,14.3\%,Tables 18-19 (N3),issuable t=0: 21.4\%
+nThreeOpusCAOverrideRateRelVTwelve,20.9\%,nElevenNThreeOpusCAOverrideRateRelVTwelve,nElevenLateNThreeOpusCAOverrideRateRelVTwelve,14.3\%,Tables 18-19 (N3),issuable t=0: 21.4\%
+nThreeOpusVThreeFalseOverride,0.0\%,nElevenNThreeOpusVThreeFalseOverride,nElevenLateNThreeOpusVThreeFalseOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpusVThreeFalseOverrideVTwelve,0.0\%,nElevenNThreeOpusVThreeFalseOverrideVTwelve,nElevenLateNThreeOpusVThreeFalseOverrideVTwelve,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpusVThreeFalseOverrideRel,0.0\%,nElevenNThreeOpusVThreeFalseOverrideRel,nElevenLateNThreeOpusVThreeFalseOverrideRel,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpusVThreeFalseOverrideRelVTwelve,0.0\%,nElevenNThreeOpusVThreeFalseOverrideRelVTwelve,nElevenLateNThreeOpusVThreeFalseOverrideRelVTwelve,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpusBenignFalseOverride,0.0\%,nElevenNThreeOpusBenignFalseOverride,nElevenLateNThreeOpusBenignFalseOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpusBenignFalseOverrideVTwelve,0.0\%,nElevenNThreeOpusBenignFalseOverrideVTwelve,nElevenLateNThreeOpusBenignFalseOverrideVTwelve,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpusBenignFalseOverrideRel,0.0\%,nElevenNThreeOpusBenignFalseOverrideRel,nElevenLateNThreeOpusBenignFalseOverrideRel,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpusBenignFalseOverrideRelVTwelve,0.0\%,nElevenNThreeOpusBenignFalseOverrideRelVTwelve,nElevenLateNThreeOpusBenignFalseOverrideRelVTwelve,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolCAOverrideRate,23.6\%,nElevenNThreeSolCAOverrideRate,nElevenLateNThreeSolCAOverrideRate,14.9\%,Tables 18-19 (N3),issuable t=0: 26.0\%
+nThreeSolCAOverrideRateVTwelve,23.6\%,nElevenNThreeSolCAOverrideRateVTwelve,nElevenLateNThreeSolCAOverrideRateVTwelve,14.9\%,Tables 18-19 (N3),issuable t=0: 26.0\%
+nThreeSolCAOverrideRateRel,21.4\%,nElevenNThreeSolCAOverrideRateRel,nElevenLateNThreeSolCAOverrideRateRel,14.9\%,Tables 18-19 (N3),issuable t=0: 22.1\%
+nThreeSolCAOverrideRateRelVTwelve,21.4\%,nElevenNThreeSolCAOverrideRateRelVTwelve,nElevenLateNThreeSolCAOverrideRateRelVTwelve,14.9\%,Tables 18-19 (N3),issuable t=0: 22.1\%
+nThreeSolVThreeFalseOverride,0.0\%,nElevenNThreeSolVThreeFalseOverride,nElevenLateNThreeSolVThreeFalseOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolVThreeFalseOverrideVTwelve,0.0\%,nElevenNThreeSolVThreeFalseOverrideVTwelve,nElevenLateNThreeSolVThreeFalseOverrideVTwelve,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolVThreeFalseOverrideRel,0.0\%,nElevenNThreeSolVThreeFalseOverrideRel,nElevenLateNThreeSolVThreeFalseOverrideRel,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolVThreeFalseOverrideRelVTwelve,0.0\%,nElevenNThreeSolVThreeFalseOverrideRelVTwelve,nElevenLateNThreeSolVThreeFalseOverrideRelVTwelve,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolBenignFalseOverride,0.0\%,nElevenNThreeSolBenignFalseOverride,nElevenLateNThreeSolBenignFalseOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolBenignFalseOverrideVTwelve,0.0\%,nElevenNThreeSolBenignFalseOverrideVTwelve,nElevenLateNThreeSolBenignFalseOverrideVTwelve,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolBenignFalseOverrideRel,0.0\%,nElevenNThreeSolBenignFalseOverrideRel,nElevenLateNThreeSolBenignFalseOverrideRel,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolBenignFalseOverrideRelVTwelve,0.0\%,nElevenNThreeSolBenignFalseOverrideRelVTwelve,nElevenLateNThreeSolBenignFalseOverrideRelVTwelve,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSonnetCAOverrideRate,23.2\%,nElevenNThreeSonnetCAOverrideRate,nElevenLateNThreeSonnetCAOverrideRate,14.0\%,Tables 18-19 (N3),issuable t=0: 25.3\%
+nThreeSonnetCAOverrideRateVTwelve,23.2\%,nElevenNThreeSonnetCAOverrideRateVTwelve,nElevenLateNThreeSonnetCAOverrideRateVTwelve,14.0\%,Tables 18-19 (N3),issuable t=0: 25.3\%
+nThreeSonnetCAOverrideRateRel,20.9\%,nElevenNThreeSonnetCAOverrideRateRel,nElevenLateNThreeSonnetCAOverrideRateRel,14.0\%,Tables 18-19 (N3),issuable t=0: 21.4\%
+nThreeSonnetCAOverrideRateRelVTwelve,20.9\%,nElevenNThreeSonnetCAOverrideRateRelVTwelve,nElevenLateNThreeSonnetCAOverrideRateRelVTwelve,14.0\%,Tables 18-19 (N3),issuable t=0: 21.4\%
+nThreeSonnetVThreeFalseOverride,4.5\%,nElevenNThreeSonnetVThreeFalseOverride,nElevenLateNThreeSonnetVThreeFalseOverride,1.3\%,Tables 18-19 (N3),issuable t=0: 5.5\%
+nThreeSonnetVThreeFalseOverrideCiLo,2.2,nElevenNThreeSonnetVThreeFalseOverrideCiLo,nElevenLateNThreeSonnetVThreeFalseOverrideCiLo,0.0,Tables 18-19 (N3),issuable t=0: 2.5
+nThreeSonnetVThreeFalseOverrideCiHi,7.4,nElevenNThreeSonnetVThreeFalseOverrideCiHi,nElevenLateNThreeSonnetVThreeFalseOverrideCiHi,3.4,Tables 18-19 (N3),issuable t=0: 9.1
+nThreeSonnetVThreeFalseOverrideVTwelve,0.0\%,nElevenNThreeSonnetVThreeFalseOverrideVTwelve,nElevenLateNThreeSonnetVThreeFalseOverrideVTwelve,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSonnetVThreeFalseOverrideVTwelveCount,0,nElevenNThreeSonnetVThreeFalseOverrideVTwelveCount,nElevenLateNThreeSonnetVThreeFalseOverrideVTwelveCount,0,Tables 18-19 (N3),issuable t=0: 0
+nThreeSonnetVThreeExcessBh,19.47,nElevenNThreeSonnetVThreeExcessBh,nElevenLateNThreeSonnetVThreeExcessBh,8.51,Tables 18-19 (N3),issuable t=0: 24.98
+nThreeSonnetVThreeExcessBhTrue,4.97,nElevenNThreeSonnetVThreeExcessBhTrue,nElevenLateNThreeSonnetVThreeExcessBhTrue,4.28,Tables 18-19 (N3),issuable t=0: 5.76
+nThreeSonnetVThreeExcessBhDiff,14.50,nElevenNThreeSonnetVThreeExcessBhDiff,nElevenLateNThreeSonnetVThreeExcessBhDiff,4.23,Tables 18-19 (N3),issuable t=0: 19.21
+nThreeSonnetVThreeExcessBhDiffCiLo,5.20,nElevenNThreeSonnetVThreeExcessBhDiffCiLo,nElevenLateNThreeSonnetVThreeExcessBhDiffCiLo,0.00,Tables 18-19 (N3),issuable t=0: 6.77
+nThreeSonnetVThreeExcessBhDiffCiHi,26.28,nElevenNThreeSonnetVThreeExcessBhDiffCiHi,nElevenLateNThreeSonnetVThreeExcessBhDiffCiHi,11.34,Tables 18-19 (N3),issuable t=0: 35.80
+nThreeSonnetVThreeExcessBhVTwelve,4.97,nElevenNThreeSonnetVThreeExcessBhVTwelve,nElevenLateNThreeSonnetVThreeExcessBhVTwelve,4.28,Tables 18-19 (N3),issuable t=0: 5.76
+nThreeSonnetVThreeFalseOverrideRel,3.9\%,nElevenNThreeSonnetVThreeFalseOverrideRel,nElevenLateNThreeSonnetVThreeFalseOverrideRel,1.3\%,Tables 18-19 (N3),issuable t=0: 4.5\%
+nThreeSonnetVThreeFalseOverrideRelVTwelve,0.0\%,nElevenNThreeSonnetVThreeFalseOverrideRelVTwelve,nElevenLateNThreeSonnetVThreeFalseOverrideRelVTwelve,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSonnetBenignFalseOverride,0.2\%,nElevenNThreeSonnetBenignFalseOverride,nElevenLateNThreeSonnetBenignFalseOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.3\%
+nThreeSonnetBenignFalseOverrideVTwelve,0.0\%,nElevenNThreeSonnetBenignFalseOverrideVTwelve,nElevenLateNThreeSonnetBenignFalseOverrideVTwelve,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSonnetBenignFalseOverrideRel,0.0\%,nElevenNThreeSonnetBenignFalseOverrideRel,nElevenLateNThreeSonnetBenignFalseOverrideRel,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSonnetBenignFalseOverrideRelVTwelve,0.0\%,nElevenNThreeSonnetBenignFalseOverrideRelVTwelve,nElevenLateNThreeSonnetBenignFalseOverrideRelVTwelve,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekCASweepCertTauThirtyOverride,0.0\%,nElevenNThreeDeepseekCASweepCertTauThirtyOverride,nElevenLateNThreeDeepseekCASweepCertTauThirtyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekCASweepCertTauThirtyCorrect,0.0\%,nElevenNThreeDeepseekCASweepCertTauThirtyCorrect,nElevenLateNThreeDeepseekCASweepCertTauThirtyCorrect,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekCASweepCertTauFortyOverride,0.0\%,nElevenNThreeDeepseekCASweepCertTauFortyOverride,nElevenLateNThreeDeepseekCASweepCertTauFortyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekCASweepCertTauFortyCorrect,0.0\%,nElevenNThreeDeepseekCASweepCertTauFortyCorrect,nElevenLateNThreeDeepseekCASweepCertTauFortyCorrect,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekCASweepCertTauSixtyOverride,0.0\%,nElevenNThreeDeepseekCASweepCertTauSixtyOverride,nElevenLateNThreeDeepseekCASweepCertTauSixtyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekCASweepCertTauSixtyCorrect,0.0\%,nElevenNThreeDeepseekCASweepCertTauSixtyCorrect,nElevenLateNThreeDeepseekCASweepCertTauSixtyCorrect,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekCASweepCertTauNoneOverride,0.0\%,nElevenNThreeDeepseekCASweepCertTauNoneOverride,nElevenLateNThreeDeepseekCASweepCertTauNoneOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekCASweepCertTauNoneCorrect,0.0\%,nElevenNThreeDeepseekCASweepCertTauNoneCorrect,nElevenLateNThreeDeepseekCASweepCertTauNoneCorrect,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekVThreeSweepCertTauThirtyOverride,0.0\%,nElevenNThreeDeepseekVThreeSweepCertTauThirtyOverride,nElevenLateNThreeDeepseekVThreeSweepCertTauThirtyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekVThreeSweepCertTauThirtyCorrect,0.0\%,nElevenNThreeDeepseekVThreeSweepCertTauThirtyCorrect,nElevenLateNThreeDeepseekVThreeSweepCertTauThirtyCorrect,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekVThreeSweepCertTauFortyOverride,0.0\%,nElevenNThreeDeepseekVThreeSweepCertTauFortyOverride,nElevenLateNThreeDeepseekVThreeSweepCertTauFortyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekVThreeSweepCertTauFortyCorrect,0.0\%,nElevenNThreeDeepseekVThreeSweepCertTauFortyCorrect,nElevenLateNThreeDeepseekVThreeSweepCertTauFortyCorrect,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekVThreeSweepCertTauSixtyOverride,0.0\%,nElevenNThreeDeepseekVThreeSweepCertTauSixtyOverride,nElevenLateNThreeDeepseekVThreeSweepCertTauSixtyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekVThreeSweepCertTauSixtyCorrect,0.0\%,nElevenNThreeDeepseekVThreeSweepCertTauSixtyCorrect,nElevenLateNThreeDeepseekVThreeSweepCertTauSixtyCorrect,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekVThreeSweepCertTauNoneOverride,0.0\%,nElevenNThreeDeepseekVThreeSweepCertTauNoneOverride,nElevenLateNThreeDeepseekVThreeSweepCertTauNoneOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekVThreeSweepCertTauNoneCorrect,0.0\%,nElevenNThreeDeepseekVThreeSweepCertTauNoneCorrect,nElevenLateNThreeDeepseekVThreeSweepCertTauNoneCorrect,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekBenignSweepCertTauThirtyOverride,0.0\%,nElevenNThreeDeepseekBenignSweepCertTauThirtyOverride,nElevenLateNThreeDeepseekBenignSweepCertTauThirtyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekBenignSweepCertTauThirtyCorrect,0.0\%,nElevenNThreeDeepseekBenignSweepCertTauThirtyCorrect,nElevenLateNThreeDeepseekBenignSweepCertTauThirtyCorrect,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekBenignSweepCertTauFortyOverride,0.0\%,nElevenNThreeDeepseekBenignSweepCertTauFortyOverride,nElevenLateNThreeDeepseekBenignSweepCertTauFortyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekBenignSweepCertTauFortyCorrect,0.0\%,nElevenNThreeDeepseekBenignSweepCertTauFortyCorrect,nElevenLateNThreeDeepseekBenignSweepCertTauFortyCorrect,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekBenignSweepCertTauSixtyOverride,0.0\%,nElevenNThreeDeepseekBenignSweepCertTauSixtyOverride,nElevenLateNThreeDeepseekBenignSweepCertTauSixtyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekBenignSweepCertTauSixtyCorrect,0.0\%,nElevenNThreeDeepseekBenignSweepCertTauSixtyCorrect,nElevenLateNThreeDeepseekBenignSweepCertTauSixtyCorrect,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekBenignSweepCertTauNoneOverride,0.0\%,nElevenNThreeDeepseekBenignSweepCertTauNoneOverride,nElevenLateNThreeDeepseekBenignSweepCertTauNoneOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeDeepseekBenignSweepCertTauNoneCorrect,0.0\%,nElevenNThreeDeepseekBenignSweepCertTauNoneCorrect,nElevenLateNThreeDeepseekBenignSweepCertTauNoneCorrect,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpenaiCASweepCertTauThirtyOverride,10.5\%,nElevenNThreeOpenaiCASweepCertTauThirtyOverride,nElevenLateNThreeOpenaiCASweepCertTauThirtyOverride,6.5\%,Tables 18-19 (N3),issuable t=0: 11.7\%
+nThreeOpenaiCASweepCertTauThirtyCorrect,89.8\%,nElevenNThreeOpenaiCASweepCertTauThirtyCorrect,nElevenLateNThreeOpenaiCASweepCertTauThirtyCorrect,91.2\%,Tables 18-19 (N3),issuable t=0: 91.2\%
+nThreeOpenaiCASweepCertTauFortyOverride,21.6\%,nElevenNThreeOpenaiCASweepCertTauFortyOverride,nElevenLateNThreeOpenaiCASweepCertTauFortyOverride,14.0\%,Tables 18-19 (N3),issuable t=0: 25.0\%
+nThreeOpenaiCASweepCertTauFortyCorrect,88.6\%,nElevenNThreeOpenaiCASweepCertTauFortyCorrect,nElevenLateNThreeOpenaiCASweepCertTauFortyCorrect,90.9\%,Tables 18-19 (N3),issuable t=0: 89.6\%
+nThreeOpenaiCASweepCertTauSixtyOverride,36.1\%,nElevenNThreeOpenaiCASweepCertTauSixtyOverride,nElevenLateNThreeOpenaiCASweepCertTauSixtyOverride,23.7\%,Tables 18-19 (N3),issuable t=0: 41.2\%
+nThreeOpenaiCASweepCertTauSixtyCorrect,88.4\%,nElevenNThreeOpenaiCASweepCertTauSixtyCorrect,nElevenLateNThreeOpenaiCASweepCertTauSixtyCorrect,90.3\%,Tables 18-19 (N3),issuable t=0: 89.3\%
+nThreeOpenaiCASweepCertTauNoneOverride,82.0\%,nElevenNThreeOpenaiCASweepCertTauNoneOverride,nElevenLateNThreeOpenaiCASweepCertTauNoneOverride,82.8\%,Tables 18-19 (N3),issuable t=0: 82.8\%
+nThreeOpenaiCASweepCertTauNoneCorrect,90.7\%,nElevenNThreeOpenaiCASweepCertTauNoneCorrect,nElevenLateNThreeOpenaiCASweepCertTauNoneCorrect,91.2\%,Tables 18-19 (N3),issuable t=0: 91.9\%
+nThreeOpenaiVThreeSweepCertTauThirtyOverride,0.0\%,nElevenNThreeOpenaiVThreeSweepCertTauThirtyOverride,nElevenLateNThreeOpenaiVThreeSweepCertTauThirtyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpenaiVThreeSweepCertTauThirtyCorrect,90.5\%,nElevenNThreeOpenaiVThreeSweepCertTauThirtyCorrect,nElevenLateNThreeOpenaiVThreeSweepCertTauThirtyCorrect,91.2\%,Tables 18-19 (N3),issuable t=0: 91.9\%
+nThreeOpenaiVThreeSweepCertTauFortyOverride,0.2\%,nElevenNThreeOpenaiVThreeSweepCertTauFortyOverride,nElevenLateNThreeOpenaiVThreeSweepCertTauFortyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.3\%
+nThreeOpenaiVThreeSweepCertTauFortyCorrect,90.2\%,nElevenNThreeOpenaiVThreeSweepCertTauFortyCorrect,nElevenLateNThreeOpenaiVThreeSweepCertTauFortyCorrect,91.2\%,Tables 18-19 (N3),issuable t=0: 91.6\%
+nThreeOpenaiVThreeSweepCertTauSixtyOverride,0.5\%,nElevenNThreeOpenaiVThreeSweepCertTauSixtyOverride,nElevenLateNThreeOpenaiVThreeSweepCertTauSixtyOverride,0.3\%,Tables 18-19 (N3),issuable t=0: 0.6\%
+nThreeOpenaiVThreeSweepCertTauSixtyCorrect,90.0\%,nElevenNThreeOpenaiVThreeSweepCertTauSixtyCorrect,nElevenLateNThreeOpenaiVThreeSweepCertTauSixtyCorrect,90.9\%,Tables 18-19 (N3),issuable t=0: 91.2\%
+nThreeOpenaiVThreeSweepCertTauNoneOverride,0.9\%,nElevenNThreeOpenaiVThreeSweepCertTauNoneOverride,nElevenLateNThreeOpenaiVThreeSweepCertTauNoneOverride,1.0\%,Tables 18-19 (N3),issuable t=0: 1.0\%
+nThreeOpenaiVThreeSweepCertTauNoneCorrect,89.5\%,nElevenNThreeOpenaiVThreeSweepCertTauNoneCorrect,nElevenLateNThreeOpenaiVThreeSweepCertTauNoneCorrect,90.3\%,Tables 18-19 (N3),issuable t=0: 90.9\%
+nThreeOpenaiBenignSweepCertTauThirtyOverride,0.0\%,nElevenNThreeOpenaiBenignSweepCertTauThirtyOverride,nElevenLateNThreeOpenaiBenignSweepCertTauThirtyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpenaiBenignSweepCertTauThirtyCorrect,95.2\%,nElevenNThreeOpenaiBenignSweepCertTauThirtyCorrect,nElevenLateNThreeOpenaiBenignSweepCertTauThirtyCorrect,97.7\%,Tables 18-19 (N3),issuable t=0: 95.1\%
+nThreeOpenaiBenignSweepCertTauFortyOverride,0.0\%,nElevenNThreeOpenaiBenignSweepCertTauFortyOverride,nElevenLateNThreeOpenaiBenignSweepCertTauFortyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpenaiBenignSweepCertTauFortyCorrect,95.2\%,nElevenNThreeOpenaiBenignSweepCertTauFortyCorrect,nElevenLateNThreeOpenaiBenignSweepCertTauFortyCorrect,97.7\%,Tables 18-19 (N3),issuable t=0: 95.1\%
+nThreeOpenaiBenignSweepCertTauSixtyOverride,0.0\%,nElevenNThreeOpenaiBenignSweepCertTauSixtyOverride,nElevenLateNThreeOpenaiBenignSweepCertTauSixtyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpenaiBenignSweepCertTauSixtyCorrect,95.2\%,nElevenNThreeOpenaiBenignSweepCertTauSixtyCorrect,nElevenLateNThreeOpenaiBenignSweepCertTauSixtyCorrect,97.7\%,Tables 18-19 (N3),issuable t=0: 95.1\%
+nThreeOpenaiBenignSweepCertTauNoneOverride,0.0\%,nElevenNThreeOpenaiBenignSweepCertTauNoneOverride,nElevenLateNThreeOpenaiBenignSweepCertTauNoneOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpenaiBenignSweepCertTauNoneCorrect,95.2\%,nElevenNThreeOpenaiBenignSweepCertTauNoneCorrect,nElevenLateNThreeOpenaiBenignSweepCertTauNoneCorrect,97.7\%,Tables 18-19 (N3),issuable t=0: 95.1\%
+nThreeOpusCASweepCertTauThirtyOverride,11.8\%,nElevenNThreeOpusCASweepCertTauThirtyOverride,nElevenLateNThreeOpusCASweepCertTauThirtyOverride,6.5\%,Tables 18-19 (N3),issuable t=0: 13.0\%
+nThreeOpusCASweepCertTauThirtyCorrect,98.4\%,nElevenNThreeOpusCASweepCertTauThirtyCorrect,nElevenLateNThreeOpusCASweepCertTauThirtyCorrect,99.0\%,Tables 18-19 (N3),issuable t=0: 97.7\%
+nThreeOpusCASweepCertTauFortyOverride,23.6\%,nElevenNThreeOpusCASweepCertTauFortyOverride,nElevenLateNThreeOpusCASweepCertTauFortyOverride,14.3\%,Tables 18-19 (N3),issuable t=0: 26.0\%
+nThreeOpusCASweepCertTauFortyCorrect,99.3\%,nElevenNThreeOpusCASweepCertTauFortyCorrect,nElevenLateNThreeOpusCASweepCertTauFortyCorrect,99.0\%,Tables 18-19 (N3),issuable t=0: 99.0\%
+nThreeOpusCASweepCertTauSixtyOverride,38.6\%,nElevenNThreeOpusCASweepCertTauSixtyOverride,nElevenLateNThreeOpusCASweepCertTauSixtyOverride,26.0\%,Tables 18-19 (N3),issuable t=0: 42.9\%
+nThreeOpusCASweepCertTauSixtyCorrect,99.3\%,nElevenNThreeOpusCASweepCertTauSixtyCorrect,nElevenLateNThreeOpusCASweepCertTauSixtyCorrect,99.0\%,Tables 18-19 (N3),issuable t=0: 99.0\%
+nThreeOpusCASweepCertTauNoneOverride,90.7\%,nElevenNThreeOpusCASweepCertTauNoneOverride,nElevenLateNThreeOpusCASweepCertTauNoneOverride,90.6\%,Tables 18-19 (N3),issuable t=0: 89.9\%
+nThreeOpusCASweepCertTauNoneCorrect,99.3\%,nElevenNThreeOpusCASweepCertTauNoneCorrect,nElevenLateNThreeOpusCASweepCertTauNoneCorrect,99.0\%,Tables 18-19 (N3),issuable t=0: 99.0\%
+nThreeOpusVThreeSweepCertTauThirtyOverride,0.0\%,nElevenNThreeOpusVThreeSweepCertTauThirtyOverride,nElevenLateNThreeOpusVThreeSweepCertTauThirtyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpusVThreeSweepCertTauThirtyCorrect,99.1\%,nElevenNThreeOpusVThreeSweepCertTauThirtyCorrect,nElevenLateNThreeOpusVThreeSweepCertTauThirtyCorrect,99.0\%,Tables 18-19 (N3),issuable t=0: 99.0\%
+nThreeOpusVThreeSweepCertTauFortyOverride,0.0\%,nElevenNThreeOpusVThreeSweepCertTauFortyOverride,nElevenLateNThreeOpusVThreeSweepCertTauFortyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpusVThreeSweepCertTauFortyCorrect,99.1\%,nElevenNThreeOpusVThreeSweepCertTauFortyCorrect,nElevenLateNThreeOpusVThreeSweepCertTauFortyCorrect,99.0\%,Tables 18-19 (N3),issuable t=0: 99.0\%
+nThreeOpusVThreeSweepCertTauSixtyOverride,0.0\%,nElevenNThreeOpusVThreeSweepCertTauSixtyOverride,nElevenLateNThreeOpusVThreeSweepCertTauSixtyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpusVThreeSweepCertTauSixtyCorrect,99.1\%,nElevenNThreeOpusVThreeSweepCertTauSixtyCorrect,nElevenLateNThreeOpusVThreeSweepCertTauSixtyCorrect,99.0\%,Tables 18-19 (N3),issuable t=0: 99.0\%
+nThreeOpusVThreeSweepCertTauNoneOverride,0.0\%,nElevenNThreeOpusVThreeSweepCertTauNoneOverride,nElevenLateNThreeOpusVThreeSweepCertTauNoneOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpusVThreeSweepCertTauNoneCorrect,99.1\%,nElevenNThreeOpusVThreeSweepCertTauNoneCorrect,nElevenLateNThreeOpusVThreeSweepCertTauNoneCorrect,99.0\%,Tables 18-19 (N3),issuable t=0: 99.0\%
+nThreeOpusBenignSweepCertTauThirtyOverride,0.0\%,nElevenNThreeOpusBenignSweepCertTauThirtyOverride,nElevenLateNThreeOpusBenignSweepCertTauThirtyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpusBenignSweepCertTauThirtyCorrect,95.5\%,nElevenNThreeOpusBenignSweepCertTauThirtyCorrect,nElevenLateNThreeOpusBenignSweepCertTauThirtyCorrect,98.0\%,Tables 18-19 (N3),issuable t=0: 95.4\%
+nThreeOpusBenignSweepCertTauFortyOverride,0.0\%,nElevenNThreeOpusBenignSweepCertTauFortyOverride,nElevenLateNThreeOpusBenignSweepCertTauFortyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpusBenignSweepCertTauFortyCorrect,95.5\%,nElevenNThreeOpusBenignSweepCertTauFortyCorrect,nElevenLateNThreeOpusBenignSweepCertTauFortyCorrect,98.0\%,Tables 18-19 (N3),issuable t=0: 95.4\%
+nThreeOpusBenignSweepCertTauSixtyOverride,0.0\%,nElevenNThreeOpusBenignSweepCertTauSixtyOverride,nElevenLateNThreeOpusBenignSweepCertTauSixtyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpusBenignSweepCertTauSixtyCorrect,95.5\%,nElevenNThreeOpusBenignSweepCertTauSixtyCorrect,nElevenLateNThreeOpusBenignSweepCertTauSixtyCorrect,98.0\%,Tables 18-19 (N3),issuable t=0: 95.4\%
+nThreeOpusBenignSweepCertTauNoneOverride,0.0\%,nElevenNThreeOpusBenignSweepCertTauNoneOverride,nElevenLateNThreeOpusBenignSweepCertTauNoneOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeOpusBenignSweepCertTauNoneCorrect,95.5\%,nElevenNThreeOpusBenignSweepCertTauNoneCorrect,nElevenLateNThreeOpusBenignSweepCertTauNoneCorrect,98.0\%,Tables 18-19 (N3),issuable t=0: 95.4\%
+nThreeSolCASweepCertTauThirtyOverride,11.4\%,nElevenNThreeSolCASweepCertTauThirtyOverride,nElevenLateNThreeSolCASweepCertTauThirtyOverride,6.5\%,Tables 18-19 (N3),issuable t=0: 12.3\%
+nThreeSolCASweepCertTauThirtyCorrect,96.8\%,nElevenNThreeSolCASweepCertTauThirtyCorrect,nElevenLateNThreeSolCASweepCertTauThirtyCorrect,96.1\%,Tables 18-19 (N3),issuable t=0: 95.5\%
+nThreeSolCASweepCertTauFortyOverride,23.6\%,nElevenNThreeSolCASweepCertTauFortyOverride,nElevenLateNThreeSolCASweepCertTauFortyOverride,14.9\%,Tables 18-19 (N3),issuable t=0: 26.0\%
+nThreeSolCASweepCertTauFortyCorrect,97.3\%,nElevenNThreeSolCASweepCertTauFortyCorrect,nElevenLateNThreeSolCASweepCertTauFortyCorrect,96.1\%,Tables 18-19 (N3),issuable t=0: 96.1\%
+nThreeSolCASweepCertTauSixtyOverride,38.2\%,nElevenNThreeSolCASweepCertTauSixtyOverride,nElevenLateNThreeSolCASweepCertTauSixtyOverride,25.3\%,Tables 18-19 (N3),issuable t=0: 42.2\%
+nThreeSolCASweepCertTauSixtyCorrect,97.3\%,nElevenNThreeSolCASweepCertTauSixtyCorrect,nElevenLateNThreeSolCASweepCertTauSixtyCorrect,96.1\%,Tables 18-19 (N3),issuable t=0: 96.1\%
+nThreeSolCASweepCertTauNoneOverride,88.6\%,nElevenNThreeSolCASweepCertTauNoneOverride,nElevenLateNThreeSolCASweepCertTauNoneOverride,87.7\%,Tables 18-19 (N3),issuable t=0: 87.0\%
+nThreeSolCASweepCertTauNoneCorrect,97.3\%,nElevenNThreeSolCASweepCertTauNoneCorrect,nElevenLateNThreeSolCASweepCertTauNoneCorrect,96.1\%,Tables 18-19 (N3),issuable t=0: 96.1\%
+nThreeSolVThreeSweepCertTauThirtyOverride,0.0\%,nElevenNThreeSolVThreeSweepCertTauThirtyOverride,nElevenLateNThreeSolVThreeSweepCertTauThirtyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolVThreeSweepCertTauThirtyCorrect,96.8\%,nElevenNThreeSolVThreeSweepCertTauThirtyCorrect,nElevenLateNThreeSolVThreeSweepCertTauThirtyCorrect,95.5\%,Tables 18-19 (N3),issuable t=0: 95.5\%
+nThreeSolVThreeSweepCertTauFortyOverride,0.0\%,nElevenNThreeSolVThreeSweepCertTauFortyOverride,nElevenLateNThreeSolVThreeSweepCertTauFortyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolVThreeSweepCertTauFortyCorrect,96.8\%,nElevenNThreeSolVThreeSweepCertTauFortyCorrect,nElevenLateNThreeSolVThreeSweepCertTauFortyCorrect,95.5\%,Tables 18-19 (N3),issuable t=0: 95.5\%
+nThreeSolVThreeSweepCertTauSixtyOverride,0.0\%,nElevenNThreeSolVThreeSweepCertTauSixtyOverride,nElevenLateNThreeSolVThreeSweepCertTauSixtyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolVThreeSweepCertTauSixtyCorrect,96.8\%,nElevenNThreeSolVThreeSweepCertTauSixtyCorrect,nElevenLateNThreeSolVThreeSweepCertTauSixtyCorrect,95.5\%,Tables 18-19 (N3),issuable t=0: 95.5\%
+nThreeSolVThreeSweepCertTauNoneOverride,0.0\%,nElevenNThreeSolVThreeSweepCertTauNoneOverride,nElevenLateNThreeSolVThreeSweepCertTauNoneOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolVThreeSweepCertTauNoneCorrect,96.8\%,nElevenNThreeSolVThreeSweepCertTauNoneCorrect,nElevenLateNThreeSolVThreeSweepCertTauNoneCorrect,95.5\%,Tables 18-19 (N3),issuable t=0: 95.5\%
+nThreeSolBenignSweepCertTauThirtyOverride,0.0\%,nElevenNThreeSolBenignSweepCertTauThirtyOverride,nElevenLateNThreeSolBenignSweepCertTauThirtyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolBenignSweepCertTauThirtyCorrect,93.2\%,nElevenNThreeSolBenignSweepCertTauThirtyCorrect,nElevenLateNThreeSolBenignSweepCertTauThirtyCorrect,95.1\%,Tables 18-19 (N3),issuable t=0: 92.5\%
+nThreeSolBenignSweepCertTauFortyOverride,0.0\%,nElevenNThreeSolBenignSweepCertTauFortyOverride,nElevenLateNThreeSolBenignSweepCertTauFortyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolBenignSweepCertTauFortyCorrect,93.2\%,nElevenNThreeSolBenignSweepCertTauFortyCorrect,nElevenLateNThreeSolBenignSweepCertTauFortyCorrect,95.1\%,Tables 18-19 (N3),issuable t=0: 92.5\%
+nThreeSolBenignSweepCertTauSixtyOverride,0.0\%,nElevenNThreeSolBenignSweepCertTauSixtyOverride,nElevenLateNThreeSolBenignSweepCertTauSixtyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolBenignSweepCertTauSixtyCorrect,93.2\%,nElevenNThreeSolBenignSweepCertTauSixtyCorrect,nElevenLateNThreeSolBenignSweepCertTauSixtyCorrect,95.1\%,Tables 18-19 (N3),issuable t=0: 92.5\%
+nThreeSolBenignSweepCertTauNoneOverride,0.0\%,nElevenNThreeSolBenignSweepCertTauNoneOverride,nElevenLateNThreeSolBenignSweepCertTauNoneOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.0\%
+nThreeSolBenignSweepCertTauNoneCorrect,93.2\%,nElevenNThreeSolBenignSweepCertTauNoneCorrect,nElevenLateNThreeSolBenignSweepCertTauNoneCorrect,95.1\%,Tables 18-19 (N3),issuable t=0: 92.5\%
+nThreeSonnetCASweepCertTauThirtyOverride,10.9\%,nElevenNThreeSonnetCASweepCertTauThirtyOverride,nElevenLateNThreeSonnetCASweepCertTauThirtyOverride,6.2\%,Tables 18-19 (N3),issuable t=0: 11.7\%
+nThreeSonnetCASweepCertTauThirtyCorrect,96.4\%,nElevenNThreeSonnetCASweepCertTauThirtyCorrect,nElevenLateNThreeSonnetCASweepCertTauThirtyCorrect,95.1\%,Tables 18-19 (N3),issuable t=0: 94.8\%
+nThreeSonnetCASweepCertTauFortyOverride,23.2\%,nElevenNThreeSonnetCASweepCertTauFortyOverride,nElevenLateNThreeSonnetCASweepCertTauFortyOverride,14.0\%,Tables 18-19 (N3),issuable t=0: 25.3\%
+nThreeSonnetCASweepCertTauFortyCorrect,96.8\%,nElevenNThreeSonnetCASweepCertTauFortyCorrect,nElevenLateNThreeSonnetCASweepCertTauFortyCorrect,95.1\%,Tables 18-19 (N3),issuable t=0: 95.5\%
+nThreeSonnetCASweepCertTauSixtyOverride,37.7\%,nElevenNThreeSonnetCASweepCertTauSixtyOverride,nElevenLateNThreeSonnetCASweepCertTauSixtyOverride,24.4\%,Tables 18-19 (N3),issuable t=0: 41.6\%
+nThreeSonnetCASweepCertTauSixtyCorrect,96.8\%,nElevenNThreeSonnetCASweepCertTauSixtyCorrect,nElevenLateNThreeSonnetCASweepCertTauSixtyCorrect,95.1\%,Tables 18-19 (N3),issuable t=0: 95.5\%
+nThreeSonnetCASweepCertTauNoneOverride,88.2\%,nElevenNThreeSonnetCASweepCertTauNoneOverride,nElevenLateNThreeSonnetCASweepCertTauNoneOverride,86.7\%,Tables 18-19 (N3),issuable t=0: 86.4\%
+nThreeSonnetCASweepCertTauNoneCorrect,96.8\%,nElevenNThreeSonnetCASweepCertTauNoneCorrect,nElevenLateNThreeSonnetCASweepCertTauNoneCorrect,95.1\%,Tables 18-19 (N3),issuable t=0: 95.5\%
+nThreeSonnetVThreeSweepCertTauThirtyOverride,1.8\%,nElevenNThreeSonnetVThreeSweepCertTauThirtyOverride,nElevenLateNThreeSonnetVThreeSweepCertTauThirtyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 2.3\%
+nThreeSonnetVThreeSweepCertTauThirtyCorrect,92.5\%,nElevenNThreeSonnetVThreeSweepCertTauThirtyCorrect,nElevenLateNThreeSonnetVThreeSweepCertTauThirtyCorrect,91.9\%,Tables 18-19 (N3),issuable t=0: 89.6\%
+nThreeSonnetVThreeSweepCertTauFortyOverride,4.5\%,nElevenNThreeSonnetVThreeSweepCertTauFortyOverride,nElevenLateNThreeSonnetVThreeSweepCertTauFortyOverride,1.3\%,Tables 18-19 (N3),issuable t=0: 5.5\%
+nThreeSonnetVThreeSweepCertTauFortyCorrect,89.8\%,nElevenNThreeSonnetVThreeSweepCertTauFortyCorrect,nElevenLateNThreeSonnetVThreeSweepCertTauFortyCorrect,90.6\%,Tables 18-19 (N3),issuable t=0: 86.4\%
+nThreeSonnetVThreeSweepCertTauSixtyOverride,6.8\%,nElevenNThreeSonnetVThreeSweepCertTauSixtyOverride,nElevenLateNThreeSonnetVThreeSweepCertTauSixtyOverride,3.2\%,Tables 18-19 (N3),issuable t=0: 8.8\%
+nThreeSonnetVThreeSweepCertTauSixtyCorrect,87.5\%,nElevenNThreeSonnetVThreeSweepCertTauSixtyCorrect,nElevenLateNThreeSonnetVThreeSweepCertTauSixtyCorrect,88.6\%,Tables 18-19 (N3),issuable t=0: 83.1\%
+nThreeSonnetVThreeSweepCertTauNoneOverride,18.0\%,nElevenNThreeSonnetVThreeSweepCertTauNoneOverride,nElevenLateNThreeSonnetVThreeSweepCertTauNoneOverride,22.7\%,Tables 18-19 (N3),issuable t=0: 23.1\%
+nThreeSonnetVThreeSweepCertTauNoneCorrect,76.4\%,nElevenNThreeSonnetVThreeSweepCertTauNoneCorrect,nElevenLateNThreeSonnetVThreeSweepCertTauNoneCorrect,69.2\%,Tables 18-19 (N3),issuable t=0: 68.8\%
+nThreeSonnetBenignSweepCertTauThirtyOverride,0.2\%,nElevenNThreeSonnetBenignSweepCertTauThirtyOverride,nElevenLateNThreeSonnetBenignSweepCertTauThirtyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.3\%
+nThreeSonnetBenignSweepCertTauThirtyCorrect,95.8\%,nElevenNThreeSonnetBenignSweepCertTauThirtyCorrect,nElevenLateNThreeSonnetBenignSweepCertTauThirtyCorrect,98.4\%,Tables 18-19 (N3),issuable t=0: 95.8\%
+nThreeSonnetBenignSweepCertTauFortyOverride,0.2\%,nElevenNThreeSonnetBenignSweepCertTauFortyOverride,nElevenLateNThreeSonnetBenignSweepCertTauFortyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.3\%
+nThreeSonnetBenignSweepCertTauFortyCorrect,95.8\%,nElevenNThreeSonnetBenignSweepCertTauFortyCorrect,nElevenLateNThreeSonnetBenignSweepCertTauFortyCorrect,98.4\%,Tables 18-19 (N3),issuable t=0: 95.8\%
+nThreeSonnetBenignSweepCertTauSixtyOverride,0.2\%,nElevenNThreeSonnetBenignSweepCertTauSixtyOverride,nElevenLateNThreeSonnetBenignSweepCertTauSixtyOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.3\%
+nThreeSonnetBenignSweepCertTauSixtyCorrect,95.8\%,nElevenNThreeSonnetBenignSweepCertTauSixtyCorrect,nElevenLateNThreeSonnetBenignSweepCertTauSixtyCorrect,98.4\%,Tables 18-19 (N3),issuable t=0: 95.8\%
+nThreeSonnetBenignSweepCertTauNoneOverride,0.2\%,nElevenNThreeSonnetBenignSweepCertTauNoneOverride,nElevenLateNThreeSonnetBenignSweepCertTauNoneOverride,0.0\%,Tables 18-19 (N3),issuable t=0: 0.3\%
+nThreeSonnetBenignSweepCertTauNoneCorrect,95.8\%,nElevenNThreeSonnetBenignSweepCertTauNoneCorrect,nElevenLateNThreeSonnetBenignSweepCertTauNoneCorrect,98.4\%,Tables 18-19 (N3),issuable t=0: 95.8\%
+nThreeGoldVThreeCertAboveHard,148,nElevenNThreeGoldVThreeCertAboveHard,nElevenLateNThreeGoldVThreeCertAboveHard,118,Tables 18-19 (N3),issuable t=0: 99
+nThreeGoldBenignCertLeTau,194,nElevenNThreeGoldBenignCertLeTau,nElevenLateNThreeGoldBenignCertLeTau,153,Tables 18-19 (N3),issuable t=0: 149
+nThreeSonnetFalseFlagCount,157,nElevenNThreeSonnetFalseFlagCount,nElevenLateNThreeSonnetFalseFlagCount,145,Tables 18-19 (N3),issuable t=0: 145
+nThreeSonnetFalseFlagControlN,840,nElevenNThreeSonnetFalseFlagControlN,nElevenLateNThreeSonnetFalseFlagControlN,614,Tables 18-19 (N3),issuable t=0: 614
+nThreeSonnetFalseFlagItemsAllRepeats,66,nElevenNThreeSonnetFalseFlagItemsAllRepeats,nElevenLateNThreeSonnetFalseFlagItemsAllRepeats,62,Tables 18-19 (N3),issuable t=0: 62
+nThreeSonnetFalseFlagItemsAnyRepeat,91,nElevenNThreeSonnetFalseFlagItemsAnyRepeat,nElevenLateNThreeSonnetFalseFlagItemsAnyRepeat,83,Tables 18-19 (N3),issuable t=0: 83
+nThreeSonnetFalseFlagItemsN,420,nElevenNThreeSonnetFalseFlagItemsN,nElevenLateNThreeSonnetFalseFlagItemsN,307,Tables 18-19 (N3),issuable t=0: 307
+nThreeSonnetFalseFlagRegTerseRate,13.4\%,nElevenNThreeSonnetFalseFlagRegTerseRate,nElevenLateNThreeSonnetFalseFlagRegTerseRate,17.2\%,Tables 18-19 (N3),issuable t=0: 17.2\%
+nThreeSonnetFalseFlagRegConversationalRate,22.3\%,nElevenNThreeSonnetFalseFlagRegConversationalRate,nElevenLateNThreeSonnetFalseFlagRegConversationalRate,30.2\%,Tables 18-19 (N3),issuable t=0: 30.2\%
+nThreeSonnetFalseFlagStratumConfirmationRate,26.6\%,nElevenNThreeSonnetFalseFlagStratumConfirmationRate,nElevenLateNThreeSonnetFalseFlagStratumConfirmationRate,34.2\%,Tables 18-19 (N3),issuable t=0: 34.2\%
+nThreeSonnetFalseFlagStratumBuildingsRate,14.5\%,nElevenNThreeSonnetFalseFlagStratumBuildingsRate,nElevenLateNThreeSonnetFalseFlagStratumBuildingsRate,17.7\%,Tables 18-19 (N3),issuable t=0: 17.7\%
+nThreeSonnetFalseFlagPinOrPriorityFlaggedShare,26.8\%,nElevenNThreeSonnetFalseFlagPinOrPriorityFlaggedShare,nElevenLateNThreeSonnetFalseFlagPinOrPriorityFlaggedShare,29.0\%,Tables 18-19 (N3),issuable t=0: 29.0\%
+nThreeSonnetFalseFlagWordNextFlaggedShare,26.8\%,nElevenNThreeSonnetFalseFlagWordNextFlaggedShare,nElevenLateNThreeSonnetFalseFlagWordNextFlaggedShare,29.0\%,Tables 18-19 (N3),issuable t=0: 29.0\%
+nThreeSonnetFalseFlagPinOrPriorityUnflaggedShare,7.8\%,nElevenNThreeSonnetFalseFlagPinOrPriorityUnflaggedShare,nElevenLateNThreeSonnetFalseFlagPinOrPriorityUnflaggedShare,10.9\%,Tables 18-19 (N3),issuable t=0: 10.9\%
+nThreeSonnetFalseFlagWordNextUnflaggedShare,6.1\%,nElevenNThreeSonnetFalseFlagWordNextUnflaggedShare,nElevenLateNThreeSonnetFalseFlagWordNextUnflaggedShare,9.0\%,Tables 18-19 (N3),issuable t=0: 9.0\%
+nThreeOpusFreeRefusedShare,78.7\%,nElevenNThreeOpusFreeRefusedShare,nElevenLateNThreeOpusFreeRefusedShare,78.3\%,Tables 18-19 (N3),issuable t=0: 78.3\%
+nThreeNegItems,220,nElevenNThreeNegItems,nElevenLateNThreeNegItems,220,Tables 18-19 (N3),issuable t=0: 220
+nThreeOpenaiNegCertOverrides,2,nElevenNThreeOpenaiNegCertOverrides,nElevenLateNThreeOpenaiNegCertOverrides,0,Tables 18-19 (N3),issuable t=0: 2
+nThreeOpenaiNegCertOverridesVTwelve,0,nElevenNThreeOpenaiNegCertOverridesVTwelve,nElevenLateNThreeOpenaiNegCertOverridesVTwelve,0,Tables 18-19 (N3),issuable t=0: 0
+nThreeOpenaiNegCertExcessBh,6.22,nElevenNThreeOpenaiNegCertExcessBh,nElevenLateNThreeOpenaiNegCertExcessBh,3.25,Tables 18-19 (N3),issuable t=0: 7.55
+nThreeOpenaiNegCertExcessBhVTwelve,4.05,nElevenNThreeOpenaiNegCertExcessBhVTwelve,nElevenLateNThreeOpenaiNegCertExcessBhVTwelve,3.25,Tables 18-19 (N3),issuable t=0: 4.45
+nThreeOpusNegCertOverrides,0,nElevenNThreeOpusNegCertOverrides,nElevenLateNThreeOpusNegCertOverrides,0,Tables 18-19 (N3),issuable t=0: 0
+nThreeOpusNegCertExcessBhVTwelve,4.86,nElevenNThreeOpusNegCertExcessBhVTwelve,nElevenLateNThreeOpusNegCertExcessBhVTwelve,5.66,Tables 18-19 (N3),issuable t=0: 5.61
+nThreeSolNegCertOverrides,0,nElevenNThreeSolNegCertOverrides,nElevenLateNThreeSolNegCertOverrides,0,Tables 18-19 (N3),issuable t=0: 0
+nThreeSolNegCertExcessBhVTwelve,5.71,nElevenNThreeSolNegCertExcessBhVTwelve,nElevenLateNThreeSolNegCertExcessBhVTwelve,7.10,Tables 18-19 (N3),issuable t=0: 7.05
+nThreeSonnetNegCertOverrides,0,nElevenNThreeSonnetNegCertOverrides,nElevenLateNThreeSonnetNegCertOverrides,0,Tables 18-19 (N3),issuable t=0: 0
+nThreeSonnetNegCertExcessBhVTwelve,4.25,nElevenNThreeSonnetNegCertExcessBhVTwelve,nElevenLateNThreeSonnetNegCertExcessBhVTwelve,3.25,Tables 18-19 (N3),issuable t=0: 4.74
+,,nElevenDanglingQwenFourteenRows,,419,dangling identifiers,
+,,nElevenDanglingQwenFourteenWithOps,,"4{,}763",dangling identifiers,
+,,nElevenDanglingQwenFourteenShare,,8.8\%,dangling identifiers,
+,,nElevenDanglingQwenTwentySevenRows,,268,dangling identifiers,
+,,nElevenDanglingQwenTwentySevenWithOps,,"4{,}595",dangling identifiers,
+,,nElevenDanglingQwenTwentySevenShare,,5.8\%,dangling identifiers,
+,,nElevenDanglingGlmRows,,130,dangling identifiers,
+,,nElevenDanglingGlmWithOps,,"1{,}695",dangling identifiers,
+,,nElevenDanglingGlmShare,,7.7\%,dangling identifiers,
+,,nElevenDanglingMiniRows,,261,dangling identifiers,
+,,nElevenDanglingMiniWithOps,,"3{,}318",dangling identifiers,
+,,nElevenDanglingMiniShare,,7.9\%,dangling identifiers,
+,,nElevenDanglingDeepseekRows,,29,dangling identifiers,
+,,nElevenDanglingDeepseekWithOps,,30,dangling identifiers,
+,,nElevenDanglingDeepseekShare,,96.7\%,dangling identifiers,
+,,nElevenDanglingSonnetRows,,80,dangling identifiers,
+,,nElevenDanglingSonnetWithOps,,"2{,}855",dangling identifiers,
+,,nElevenDanglingSonnetShare,,2.8\%,dangling identifiers,
+,,nElevenDanglingOpusRows,,65,dangling identifiers,
+,,nElevenDanglingOpusWithOps,,"5{,}374",dangling identifiers,
+,,nElevenDanglingOpusShare,,1.2\%,dangling identifiers,
+,,nElevenDanglingSolRows,,40,dangling identifiers,
+,,nElevenDanglingSolWithOps,,"1{,}309",dangling identifiers,
+,,nElevenDanglingSolShare,,3.1\%,dangling identifiers,
+,,nElevenDanglingRows,,"1{,}292",dangling identifiers,
+,,nElevenDanglingWithOps,,"23{,}939",dangling identifiers,
+,,nElevenDanglingShare,,5.4\%,dangling identifiers,
+,,nElevenEOneRowsIssuable,,"67{,}197",e2e population,
+,,nElevenEOneRowsLogged,,"78{,}000",e2e population,
+nTwoEtoeCertMedianError,0.000,nElevenNTwoEtoeCertMedianError,nElevenLateNTwoEtoeCertMedianError,0.000,e2e Table 14,
+nTwoEtoeCertUnderShare,0.0\%,nElevenNTwoEtoeCertUnderShare,nElevenLateNTwoEtoeCertUnderShare,0.0\%,e2e Table 14,
+nTwoEtoeCertOverShare,0.0\%,nElevenNTwoEtoeCertOverShare,nElevenLateNTwoEtoeCertOverShare,0.0\%,e2e Table 14,
+nTwoEtoeCertMMedianError,-0.010,nElevenNTwoEtoeCertMMedianError,nElevenLateNTwoEtoeCertMMedianError,0.000,e2e Table 14,
+nTwoEtoeCertMUnderShare,19.6\%,nElevenNTwoEtoeCertMUnderShare,nElevenLateNTwoEtoeCertMUnderShare,0.6\%,e2e Table 14,
+nTwoEtoeCertMOverShare,0.0\%,nElevenNTwoEtoeCertMOverShare,nElevenLateNTwoEtoeCertMOverShare,0.0\%,e2e Table 14,
+nTwoEtoeRelOneMedianError,-0.010,nElevenNTwoEtoeRelOneMedianError,nElevenLateNTwoEtoeRelOneMedianError,0.000,e2e Table 14,
+nTwoEtoeRelOneUnderShare,20.7\%,nElevenNTwoEtoeRelOneUnderShare,nElevenLateNTwoEtoeRelOneUnderShare,1.0\%,e2e Table 14,
+nTwoEtoeRelOneOverShare,1.5\%,nElevenNTwoEtoeRelOneOverShare,nElevenLateNTwoEtoeRelOneOverShare,4.1\%,e2e Table 14,
+nTwoEtoeRelTwoMedianError,-0.011,nElevenNTwoEtoeRelTwoMedianError,nElevenLateNTwoEtoeRelTwoMedianError,0.000,e2e Table 14,
+nTwoEtoeRelTwoUnderShare,20.8\%,nElevenNTwoEtoeRelTwoUnderShare,nElevenLateNTwoEtoeRelTwoUnderShare,0.6\%,e2e Table 14,
+nTwoEtoeRelTwoOverShare,0.0\%,nElevenNTwoEtoeRelTwoOverShare,nElevenLateNTwoEtoeRelTwoOverShare,0.0\%,e2e Table 14,
+nTwoEtoeAbsMedianError,-0.010,nElevenNTwoEtoeAbsMedianError,nElevenLateNTwoEtoeAbsMedianError,0.000,e2e Table 14,
+nTwoEtoeAbsUnderShare,19.5\%,nElevenNTwoEtoeAbsUnderShare,nElevenLateNTwoEtoeAbsUnderShare,1.1\%,e2e Table 14,
+nTwoEtoeAbsOverShare,1.5\%,nElevenNTwoEtoeAbsOverShare,nElevenLateNTwoEtoeAbsOverShare,4.1\%,e2e Table 14,
+nTwoEtoeMargCertMedianError,0.010,nElevenNTwoEtoeMargCertMedianError,nElevenLateNTwoEtoeMargCertMedianError,0.000,e2e Table 14,
+nTwoEtoeMargCertUnderShare,0.0\%,nElevenNTwoEtoeMargCertUnderShare,nElevenLateNTwoEtoeMargCertUnderShare,0.0\%,e2e Table 14,
+nTwoEtoeMargCertOverShare,19.6\%,nElevenNTwoEtoeMargCertOverShare,nElevenLateNTwoEtoeMargCertOverShare,0.6\%,e2e Table 14,
+nTwoEtoeMargCertMMedianError,0.000,nElevenNTwoEtoeMargCertMMedianError,nElevenLateNTwoEtoeMargCertMMedianError,0.000,e2e Table 14,
+nTwoEtoeMargCertMUnderShare,0.0\%,nElevenNTwoEtoeMargCertMUnderShare,nElevenLateNTwoEtoeMargCertMUnderShare,0.0\%,e2e Table 14,
+nTwoEtoeMargCertMOverShare,0.0\%,nElevenNTwoEtoeMargCertMOverShare,nElevenLateNTwoEtoeMargCertMOverShare,0.0\%,e2e Table 14,
+nTwoEtoeMargRelOneMedianError,0.000,nElevenNTwoEtoeMargRelOneMedianError,nElevenLateNTwoEtoeMargRelOneMedianError,0.000,e2e Table 14,
+nTwoEtoeMargRelOneUnderShare,1.3\%,nElevenNTwoEtoeMargRelOneUnderShare,nElevenLateNTwoEtoeMargRelOneUnderShare,0.6\%,e2e Table 14,
+nTwoEtoeMargRelOneOverShare,1.7\%,nElevenNTwoEtoeMargRelOneOverShare,nElevenLateNTwoEtoeMargRelOneOverShare,4.1\%,e2e Table 14,
+nTwoEtoeMargRelTwoMedianError,0.000,nElevenNTwoEtoeMargRelTwoMedianError,nElevenLateNTwoEtoeMargRelTwoMedianError,0.000,e2e Table 14,
+nTwoEtoeMargRelTwoUnderShare,1.0\%,nElevenNTwoEtoeMargRelTwoUnderShare,nElevenLateNTwoEtoeMargRelTwoUnderShare,0.0\%,e2e Table 14,
+nTwoEtoeMargRelTwoOverShare,0.1\%,nElevenNTwoEtoeMargRelTwoOverShare,nElevenLateNTwoEtoeMargRelTwoOverShare,0.1\%,e2e Table 14,
+nTwoEtoeMargAbsMedianError,0.000,nElevenNTwoEtoeMargAbsMedianError,nElevenLateNTwoEtoeMargAbsMedianError,0.000,e2e Table 14,
+nTwoEtoeMargAbsUnderShare,0.4\%,nElevenNTwoEtoeMargAbsUnderShare,nElevenLateNTwoEtoeMargAbsUnderShare,0.6\%,e2e Table 14,
+nTwoEtoeMargAbsOverShare,1.6\%,nElevenNTwoEtoeMargAbsOverShare,nElevenLateNTwoEtoeMargAbsOverShare,4.1\%,e2e Table 14,
+nTwoEtoeMargSeqCertUnderShare,0.0\%,nElevenNTwoEtoeMargSeqCertUnderShare,nElevenLateNTwoEtoeMargSeqCertUnderShare,0.0\%,e2e Table 14,
+nTwoEtoeMargFieldCertUnderShare,0.0\%,nElevenNTwoEtoeMargFieldCertUnderShare,nElevenLateNTwoEtoeMargFieldCertUnderShare,0.0\%,e2e Table 14,
+nTwoEtoeMargEmptyCertUnderShare,0.0\%,nElevenNTwoEtoeMargEmptyCertUnderShare,nElevenLateNTwoEtoeMargEmptyCertUnderShare,0.0\%,e2e Table 14,
+nTwoEtoeMargSeqCertMUnderShare,0.0\%,nElevenNTwoEtoeMargSeqCertMUnderShare,nElevenLateNTwoEtoeMargSeqCertMUnderShare,0.0\%,e2e Table 14,
+nTwoEtoeMargFieldCertMUnderShare,0.0\%,nElevenNTwoEtoeMargFieldCertMUnderShare,nElevenLateNTwoEtoeMargFieldCertMUnderShare,0.0\%,e2e Table 14,
+nTwoEtoeMargEmptyCertMUnderShare,0.0\%,nElevenNTwoEtoeMargEmptyCertMUnderShare,nElevenLateNTwoEtoeMargEmptyCertMUnderShare,0.0\%,e2e Table 14,
+nTwoEtoeMargSeqRelOneUnderShare,1.8\%,nElevenNTwoEtoeMargSeqRelOneUnderShare,nElevenLateNTwoEtoeMargSeqRelOneUnderShare,0.0\%,e2e Table 14,
+nTwoEtoeMargFieldRelOneUnderShare,1.6\%,nElevenNTwoEtoeMargFieldRelOneUnderShare,nElevenLateNTwoEtoeMargFieldRelOneUnderShare,1.6\%,e2e Table 14,
+nTwoEtoeMargEmptyRelOneUnderShare,0.0\%,nElevenNTwoEtoeMargEmptyRelOneUnderShare,nElevenLateNTwoEtoeMargEmptyRelOneUnderShare,0.0\%,e2e Table 14,
+nTwoEtoeMargSeqRelTwoUnderShare,1.8\%,nElevenNTwoEtoeMargSeqRelTwoUnderShare,nElevenLateNTwoEtoeMargSeqRelTwoUnderShare,0.0\%,e2e Table 14,
+nTwoEtoeMargFieldRelTwoUnderShare,0.5\%,nElevenNTwoEtoeMargFieldRelTwoUnderShare,nElevenLateNTwoEtoeMargFieldRelTwoUnderShare,0.0\%,e2e Table 14,
+nTwoEtoeMargEmptyRelTwoUnderShare,0.0\%,nElevenNTwoEtoeMargEmptyRelTwoUnderShare,nElevenLateNTwoEtoeMargEmptyRelTwoUnderShare,0.0\%,e2e Table 14,
+nTwoEtoeMargSeqAbsUnderShare,0.0\%,nElevenNTwoEtoeMargSeqAbsUnderShare,nElevenLateNTwoEtoeMargSeqAbsUnderShare,0.0\%,e2e Table 14,
+nTwoEtoeMargFieldAbsUnderShare,1.2\%,nElevenNTwoEtoeMargFieldAbsUnderShare,nElevenLateNTwoEtoeMargFieldAbsUnderShare,1.8\%,e2e Table 14,
+nTwoEtoeMargEmptyAbsUnderShare,0.0\%,nElevenNTwoEtoeMargEmptyAbsUnderShare,nElevenLateNTwoEtoeMargEmptyAbsUnderShare,0.0\%,e2e Table 14,
+nTwoEtoeCovered,"33{,}566",nElevenNTwoEtoeCovered,nElevenLateNTwoEtoeCovered,"27{,}705",e2e Table 14 / Fig. 5,
+nTwoEtoeRows,"33{,}566",nElevenNTwoEtoeRows,nElevenLateNTwoEtoeRows,"27{,}705",e2e Table 14,
+nTwoEtoeRelTwoMissRateTen,42.0\%,nElevenNTwoEtoeRelTwoMissRateTen,nElevenLateNTwoEtoeRelTwoMissRateTen,0.0\%,e2e Table 16,
+nTwoEtoeCertMissRateTen,29.0\%,nElevenNTwoEtoeCertMissRateTen,nElevenLateNTwoEtoeCertMissRateTen,7.5\%,e2e Table 16,
+nTwoEtoeCertMMissRateTen,47.4\%,nElevenNTwoEtoeCertMMissRateTen,nElevenLateNTwoEtoeCertMMissRateTen,7.5\%,e2e Table 16,
+nTwoEtoeMargCertFalseReferralRateTen,3.0\%,nElevenNTwoEtoeMargCertFalseReferralRateTen,nElevenLateNTwoEtoeMargCertFalseReferralRateTen,0.0\%,e2e Table 16,
+nTwoEtoeMargCertMMissRateTen,8.5\%,nElevenNTwoEtoeMargCertMMissRateTen,nElevenLateNTwoEtoeMargCertMMissRateTen,6.1\%,e2e Table 16,
+nTwoEtoeMargUnionFalseReferralRateTen,0.7\%,nElevenNTwoEtoeMargUnionFalseReferralRateTen,nElevenLateNTwoEtoeMargUnionFalseReferralRateTen,0.4\%,e2e Table 16,
+nTwoEtoeRelTwoMissRateTwenty,22.7\%,nElevenNTwoEtoeRelTwoMissRateTwenty,nElevenLateNTwoEtoeRelTwoMissRateTwenty,0.0\%,e2e Table 16,
+nTwoEtoeCertMissRateTwenty,0.0\%,nElevenNTwoEtoeCertMissRateTwenty,nElevenLateNTwoEtoeCertMissRateTwenty,0.0\%,e2e Table 16,
+nTwoEtoeCertMMissRateTwenty,25.6\%,nElevenNTwoEtoeCertMMissRateTwenty,nElevenLateNTwoEtoeCertMMissRateTwenty,0.0\%,e2e Table 16,
+nTwoEtoeMargCertFalseReferralRateTwenty,3.3\%,nElevenNTwoEtoeMargCertFalseReferralRateTwenty,nElevenLateNTwoEtoeMargCertFalseReferralRateTwenty,0.0\%,e2e Table 16,
+nTwoEtoeMargCertMMissRateTwenty,0.0\%,nElevenNTwoEtoeMargCertMMissRateTwenty,nElevenLateNTwoEtoeMargCertMMissRateTwenty,0.0\%,e2e Table 16,
+nTwoEtoeMargUnionFalseReferralRateTwenty,1.5\%,nElevenNTwoEtoeMargUnionFalseReferralRateTwenty,nElevenLateNTwoEtoeMargUnionFalseReferralRateTwenty,1.0\%,e2e Table 16,
+nTwoEtoeCNineStormRelTwoMissRateTen,57.3\%,nElevenNTwoEtoeCNineStormRelTwoMissRateTen,nElevenLateNTwoEtoeCNineStormRelTwoMissRateTen,0.0\%,e2e Table 16,
+nTwoEtoeCNineStormCertMissRateTen,36.6\%,nElevenNTwoEtoeCNineStormCertMissRateTen,nElevenLateNTwoEtoeCNineStormCertMissRateTen,6.8\%,e2e Table 16,
+nTwoEtoeCNineStormCertMMissRateTen,61.8\%,nElevenNTwoEtoeCNineStormCertMMissRateTen,nElevenLateNTwoEtoeCNineStormCertMMissRateTen,6.8\%,e2e Table 16,
+nTwoEtoeMargCNineStormCertFalseReferralRateTen,6.0\%,nElevenNTwoEtoeMargCNineStormCertFalseReferralRateTen,nElevenLateNTwoEtoeMargCNineStormCertFalseReferralRateTen,0.0\%,e2e Table 16,
+nTwoEtoeMargCNineStormCertMMissRateTen,9.2\%,nElevenNTwoEtoeMargCNineStormCertMMissRateTen,nElevenLateNTwoEtoeMargCNineStormCertMMissRateTen,4.5\%,e2e Table 16,
+nTwoEtoeMargCNineStormUnionFalseReferralRateTen,0.5\%,nElevenNTwoEtoeMargCNineStormUnionFalseReferralRateTen,nElevenLateNTwoEtoeMargCNineStormUnionFalseReferralRateTen,0.7\%,e2e Table 16,
+nTwoEtoeCNineStormRelTwoMissRateTwenty,34.9\%,nElevenNTwoEtoeCNineStormRelTwoMissRateTwenty,nElevenLateNTwoEtoeCNineStormRelTwoMissRateTwenty,0.0\%,e2e Table 16,
+nTwoEtoeCNineStormCertMissRateTwenty,0.0\%,nElevenNTwoEtoeCNineStormCertMissRateTwenty,nElevenLateNTwoEtoeCNineStormCertMissRateTwenty,0.0\%,e2e Table 16,
+nTwoEtoeCNineStormCertMMissRateTwenty,39.4\%,nElevenNTwoEtoeCNineStormCertMMissRateTwenty,nElevenLateNTwoEtoeCNineStormCertMMissRateTwenty,0.0\%,e2e Table 16,
+nTwoEtoeMargCNineStormCertFalseReferralRateTwenty,6.6\%,nElevenNTwoEtoeMargCNineStormCertFalseReferralRateTwenty,nElevenLateNTwoEtoeMargCNineStormCertFalseReferralRateTwenty,0.0\%,e2e Table 16,
+nTwoEtoeMargCNineStormCertMMissRateTwenty,0.0\%,nElevenNTwoEtoeMargCNineStormCertMMissRateTwenty,nElevenLateNTwoEtoeMargCNineStormCertMMissRateTwenty,0.0\%,e2e Table 16,
+nTwoEtoeMargCNineStormUnionFalseReferralRateTwenty,1.5\%,nElevenNTwoEtoeMargCNineStormUnionFalseReferralRateTwenty,nElevenLateNTwoEtoeMargCNineStormUnionFalseReferralRateTwenty,1.1\%,e2e Table 16,
+nTwoEtoeCTenStormRelTwoMissRateTen,2.2\%,nElevenNTwoEtoeCTenStormRelTwoMissRateTen,nElevenLateNTwoEtoeCTenStormRelTwoMissRateTen,0.0\%,e2e Table 16,
+nTwoEtoeCTenStormCertMissRateTen,5.1\%,nElevenNTwoEtoeCTenStormCertMissRateTen,nElevenLateNTwoEtoeCTenStormCertMissRateTen,4.0\%,e2e Table 16,
+nTwoEtoeCTenStormCertMMissRateTen,5.1\%,nElevenNTwoEtoeCTenStormCertMMissRateTen,nElevenLateNTwoEtoeCTenStormCertMMissRateTen,4.0\%,e2e Table 16,
+nTwoEtoeMargCTenStormCertFalseReferralRateTen,0.0\%,nElevenNTwoEtoeMargCTenStormCertFalseReferralRateTen,nElevenLateNTwoEtoeMargCTenStormCertFalseReferralRateTen,0.0\%,e2e Table 16,
+nTwoEtoeMargCTenStormCertMMissRateTen,2.9\%,nElevenNTwoEtoeMargCTenStormCertMMissRateTen,nElevenLateNTwoEtoeMargCTenStormCertMMissRateTen,4.0\%,e2e Table 16,
+nTwoEtoeMargCTenStormUnionFalseReferralRateTen,0.9\%,nElevenNTwoEtoeMargCTenStormUnionFalseReferralRateTen,nElevenLateNTwoEtoeMargCTenStormUnionFalseReferralRateTen,0.4\%,e2e Table 16,
+nTwoEtoeCTenStormRelTwoMissRateTwenty,0.0\%,nElevenNTwoEtoeCTenStormRelTwoMissRateTwenty,nElevenLateNTwoEtoeCTenStormRelTwoMissRateTwenty,0.0\%,e2e Table 16,
+nTwoEtoeCTenStormCertMissRateTwenty,0.0\%,nElevenNTwoEtoeCTenStormCertMissRateTwenty,nElevenLateNTwoEtoeCTenStormCertMissRateTwenty,0.0\%,e2e Table 16,
+nTwoEtoeCTenStormCertMMissRateTwenty,0.0\%,nElevenNTwoEtoeCTenStormCertMMissRateTwenty,nElevenLateNTwoEtoeCTenStormCertMMissRateTwenty,0.0\%,e2e Table 16,
+nTwoEtoeMargCTenStormCertFalseReferralRateTwenty,0.0\%,nElevenNTwoEtoeMargCTenStormCertFalseReferralRateTwenty,nElevenLateNTwoEtoeMargCTenStormCertFalseReferralRateTwenty,0.0\%,e2e Table 16,
+nTwoEtoeMargCTenStormCertMMissRateTwenty,0.0\%,nElevenNTwoEtoeMargCTenStormCertMMissRateTwenty,nElevenLateNTwoEtoeMargCTenStormCertMMissRateTwenty,0.0\%,e2e Table 16,
+nTwoEtoeMargCTenStormUnionFalseReferralRateTwenty,1.2\%,nElevenNTwoEtoeMargCTenStormUnionFalseReferralRateTwenty,nElevenLateNTwoEtoeMargCTenStormUnionFalseReferralRateTwenty,0.7\%,e2e Table 16,
+nTwoEtoeCTenReplayRelTwoMissRateTen,0.0\%,nElevenNTwoEtoeCTenReplayRelTwoMissRateTen,nElevenLateNTwoEtoeCTenReplayRelTwoMissRateTen,0.0\%,e2e Table 16,
+nTwoEtoeCTenReplayCertMissRateTen,10.8\%,nElevenNTwoEtoeCTenReplayCertMissRateTen,nElevenLateNTwoEtoeCTenReplayCertMissRateTen,11.5\%,e2e Table 16,
+nTwoEtoeCTenReplayCertMMissRateTen,10.8\%,nElevenNTwoEtoeCTenReplayCertMMissRateTen,nElevenLateNTwoEtoeCTenReplayCertMMissRateTen,11.5\%,e2e Table 16,
+nTwoEtoeMargCTenReplayCertFalseReferralRateTen,0.0\%,nElevenNTwoEtoeMargCTenReplayCertFalseReferralRateTen,nElevenLateNTwoEtoeMargCTenReplayCertFalseReferralRateTen,0.0\%,e2e Table 16,
+nTwoEtoeMargCTenReplayCertMMissRateTen,10.8\%,nElevenNTwoEtoeMargCTenReplayCertMMissRateTen,nElevenLateNTwoEtoeMargCTenReplayCertMMissRateTen,11.5\%,e2e Table 16,
+nTwoEtoeMargCTenReplayUnionFalseReferralRateTen,0.8\%,nElevenNTwoEtoeMargCTenReplayUnionFalseReferralRateTen,nElevenLateNTwoEtoeMargCTenReplayUnionFalseReferralRateTen,0.0\%,e2e Table 16,
+nTwoEtoeCTenReplayRelTwoMissRateTwenty,0.0\%,nElevenNTwoEtoeCTenReplayRelTwoMissRateTwenty,nElevenLateNTwoEtoeCTenReplayRelTwoMissRateTwenty,0.0\%,e2e Table 16,
+nTwoEtoeCTenReplayCertMissRateTwenty,0.0\%,nElevenNTwoEtoeCTenReplayCertMissRateTwenty,nElevenLateNTwoEtoeCTenReplayCertMissRateTwenty,0.0\%,e2e Table 16,
+nTwoEtoeCTenReplayCertMMissRateTwenty,0.0\%,nElevenNTwoEtoeCTenReplayCertMMissRateTwenty,nElevenLateNTwoEtoeCTenReplayCertMMissRateTwenty,0.0\%,e2e Table 16,
+nTwoEtoeMargCTenReplayCertFalseReferralRateTwenty,0.0\%,nElevenNTwoEtoeMargCTenReplayCertFalseReferralRateTwenty,nElevenLateNTwoEtoeMargCTenReplayCertFalseReferralRateTwenty,0.0\%,e2e Table 16,
+nTwoEtoeMargCTenReplayCertMMissRateTwenty,0.0\%,nElevenNTwoEtoeMargCTenReplayCertMMissRateTwenty,nElevenLateNTwoEtoeMargCTenReplayCertMMissRateTwenty,0.0\%,e2e Table 16,
+nTwoEtoeMargCTenReplayUnionFalseReferralRateTwenty,1.8\%,nElevenNTwoEtoeMargCTenReplayUnionFalseReferralRateTwenty,nElevenLateNTwoEtoeMargCTenReplayUnionFalseReferralRateTwenty,0.8\%,e2e Table 16,
+,,nElevenRealEtoeRelTwoMissRateTen,,54.1\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeCertMissRateTen,,56.3\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeCertMMissRateTen,,56.3\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargCertFalseReferralRateTen,,0.0\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargCertMMissRateTen,,22.0\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargUnionFalseReferralRateTen,,0.8\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeRelTwoMissRateTwenty,,38.1\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeCertMissRateTwenty,,39.3\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeCertMMissRateTwenty,,39.3\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargCertFalseReferralRateTwenty,,0.6\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargCertMMissRateTwenty,,20.4\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargUnionFalseReferralRateTwenty,,1.6\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeCNineStormRelTwoMissRateTen,,65.2\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeCNineStormCertMissRateTen,,67.1\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeCNineStormCertMMissRateTen,,67.1\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargCNineStormCertFalseReferralRateTen,,0.0\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargCNineStormCertMMissRateTen,,24.3\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargCNineStormUnionFalseReferralRateTen,,1.0\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeCNineStormRelTwoMissRateTwenty,,47.6\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeCNineStormCertMissRateTwenty,,49.2\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeCNineStormCertMMissRateTwenty,,49.2\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargCNineStormCertFalseReferralRateTwenty,,0.9\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargCNineStormCertMMissRateTwenty,,23.2\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargCNineStormUnionFalseReferralRateTwenty,,2.0\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeCTenStormRelTwoMissRateTen,,23.7\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeCTenStormCertMissRateTen,,23.7\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeCTenStormCertMMissRateTen,,23.7\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargCTenStormCertFalseReferralRateTen,,0.0\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargCTenStormCertMMissRateTen,,21.5\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargCTenStormUnionFalseReferralRateTen,,0.8\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeCTenStormRelTwoMissRateTwenty,,21.2\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeCTenStormCertMissRateTwenty,,21.2\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeCTenStormCertMMissRateTwenty,,21.2\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargCTenStormCertFalseReferralRateTwenty,,0.0\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargCTenStormCertMMissRateTwenty,,21.2\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargCTenStormUnionFalseReferralRateTwenty,,0.8\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeCTenReplayRelTwoMissRateTen,,10.8\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeCTenReplayCertMissRateTen,,16.2\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeCTenReplayCertMMissRateTen,,16.2\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargCTenReplayCertFalseReferralRateTen,,0.0\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargCTenReplayCertMMissRateTen,,16.2\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargCTenReplayUnionFalseReferralRateTen,,0.4\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeCTenReplayRelTwoMissRateTwenty,,12.2\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeCTenReplayCertMissRateTwenty,,12.2\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeCTenReplayCertMMissRateTwenty,,12.2\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargCTenReplayCertFalseReferralRateTwenty,,0.4\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargCTenReplayCertMMissRateTwenty,,12.2\%,e2e Table 16 consequence panel,
+,,nElevenRealEtoeMargCTenReplayUnionFalseReferralRateTwenty,,1.3\%,e2e Table 16 consequence panel,
+nTwoEtoeMargCertAtDeltaTprFive,100.0\%,nElevenNTwoEtoeMargCertAtDeltaTprFive,nElevenLateNTwoEtoeMargCertAtDeltaTprFive,100.0\%,e2e Table 16 / delta sweep,
+nTwoEtoeMargCertAtDeltaFprFive,19.8\%,nElevenNTwoEtoeMargCertAtDeltaFprFive,nElevenLateNTwoEtoeMargCertAtDeltaFprFive,0.3\%,e2e Table 16 / delta sweep,
+nTwoEtoeMargCertAtDeltaTprTen,100.0\%,nElevenNTwoEtoeMargCertAtDeltaTprTen,nElevenLateNTwoEtoeMargCertAtDeltaTprTen,100.0\%,e2e Table 16 / delta sweep,
+nTwoEtoeMargCertAtDeltaFprTen,7.8\%,nElevenNTwoEtoeMargCertAtDeltaFprTen,nElevenLateNTwoEtoeMargCertAtDeltaFprTen,0.1\%,e2e Table 16 / delta sweep,
+nTwoEtoeMargCertAtDeltaTprTwenty,100.0\%,nElevenNTwoEtoeMargCertAtDeltaTprTwenty,nElevenLateNTwoEtoeMargCertAtDeltaTprTwenty,100.0\%,e2e Table 16 / delta sweep,
+nTwoEtoeMargCertAtDeltaFprTwenty,3.3\%,nElevenNTwoEtoeMargCertAtDeltaFprTwenty,nElevenLateNTwoEtoeMargCertAtDeltaFprTwenty,0.0\%,e2e Table 16 / delta sweep,
+nTwoEtoeMargCertMAtDeltaTprFive,100.0\%,nElevenNTwoEtoeMargCertMAtDeltaTprFive,nElevenLateNTwoEtoeMargCertMAtDeltaTprFive,100.0\%,e2e Table 16 / delta sweep,
+nTwoEtoeMargCertMAtDeltaFprFive,0.0\%,nElevenNTwoEtoeMargCertMAtDeltaFprFive,nElevenLateNTwoEtoeMargCertMAtDeltaFprFive,0.0\%,e2e Table 16 / delta sweep,
+nTwoEtoeMargCertMAtDeltaTprTen,100.0\%,nElevenNTwoEtoeMargCertMAtDeltaTprTen,nElevenLateNTwoEtoeMargCertMAtDeltaTprTen,100.0\%,e2e Table 16 / delta sweep,
+nTwoEtoeMargCertMAtDeltaFprTen,0.0\%,nElevenNTwoEtoeMargCertMAtDeltaFprTen,nElevenLateNTwoEtoeMargCertMAtDeltaFprTen,0.0\%,e2e Table 16 / delta sweep,
+nTwoEtoeMargCertMAtDeltaTprTwenty,100.0\%,nElevenNTwoEtoeMargCertMAtDeltaTprTwenty,nElevenLateNTwoEtoeMargCertMAtDeltaTprTwenty,100.0\%,e2e Table 16 / delta sweep,
+nTwoEtoeMargCertMAtDeltaFprTwenty,0.0\%,nElevenNTwoEtoeMargCertMAtDeltaFprTwenty,nElevenLateNTwoEtoeMargCertMAtDeltaFprTwenty,0.0\%,e2e Table 16 / delta sweep,
+nTwoEtoeMargRelTwoAtDeltaTprFive,100.0\%,nElevenNTwoEtoeMargRelTwoAtDeltaTprFive,nElevenLateNTwoEtoeMargRelTwoAtDeltaTprFive,100.0\%,e2e Table 16 / delta sweep,
+nTwoEtoeMargRelTwoAtDeltaFprFive,0.0\%,nElevenNTwoEtoeMargRelTwoAtDeltaFprFive,nElevenLateNTwoEtoeMargRelTwoAtDeltaFprFive,0.0\%,e2e Table 16 / delta sweep,
+nTwoEtoeMargRelTwoAtDeltaTprTen,99.8\%,nElevenNTwoEtoeMargRelTwoAtDeltaTprTen,nElevenLateNTwoEtoeMargRelTwoAtDeltaTprTen,100.0\%,e2e Table 16 / delta sweep,
+nTwoEtoeMargRelTwoAtDeltaFprTen,0.0\%,nElevenNTwoEtoeMargRelTwoAtDeltaFprTen,nElevenLateNTwoEtoeMargRelTwoAtDeltaFprTen,0.0\%,e2e Table 16 / delta sweep,
+nTwoEtoeMargRelTwoAtDeltaTprTwenty,100.0\%,nElevenNTwoEtoeMargRelTwoAtDeltaTprTwenty,nElevenLateNTwoEtoeMargRelTwoAtDeltaTprTwenty,100.0\%,e2e Table 16 / delta sweep,
+nTwoEtoeMargRelTwoAtDeltaFprTwenty,0.0\%,nElevenNTwoEtoeMargRelTwoAtDeltaFprTwenty,nElevenLateNTwoEtoeMargRelTwoAtDeltaFprTwenty,0.0\%,e2e Table 16 / delta sweep,
+nTwoEtoeMargRelOneAtDeltaTprFive,,nElevenNTwoEtoeMargRelOneAtDeltaTprFive,nElevenLateNTwoEtoeMargRelOneAtDeltaTprFive,100.0\%,e2e Table 16 / delta sweep,published macro not found
+nTwoEtoeMargRelOneAtDeltaFprFive,,nElevenNTwoEtoeMargRelOneAtDeltaFprFive,nElevenLateNTwoEtoeMargRelOneAtDeltaFprFive,4.4\%,e2e Table 16 / delta sweep,published macro not found
+nTwoEtoeMargRelOneAtDeltaTprTen,,nElevenNTwoEtoeMargRelOneAtDeltaTprTen,nElevenLateNTwoEtoeMargRelOneAtDeltaTprTen,100.0\%,e2e Table 16 / delta sweep,published macro not found
+nTwoEtoeMargRelOneAtDeltaFprTen,,nElevenNTwoEtoeMargRelOneAtDeltaFprTen,nElevenLateNTwoEtoeMargRelOneAtDeltaFprTen,4.4\%,e2e Table 16 / delta sweep,published macro not found
+nTwoEtoeMargRelOneAtDeltaTprTwenty,,nElevenNTwoEtoeMargRelOneAtDeltaTprTwenty,nElevenLateNTwoEtoeMargRelOneAtDeltaTprTwenty,100.0\%,e2e Table 16 / delta sweep,published macro not found
+nTwoEtoeMargRelOneAtDeltaFprTwenty,,nElevenNTwoEtoeMargRelOneAtDeltaFprTwenty,nElevenLateNTwoEtoeMargRelOneAtDeltaFprTwenty,4.2\%,e2e Table 16 / delta sweep,published macro not found
+,,nElevenEtoeCoverageStatus,,complete,coverage,
+,,nElevenEtoeBoardsNeeded,,"1{,}412",coverage,
+,,nElevenEtoeBoardsCovered,,"1{,}412",coverage,

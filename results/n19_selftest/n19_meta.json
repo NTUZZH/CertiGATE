@@ -1,0 +1,133 @@
+{
+ "affinity": [
+  15
+ ],
+ "arms": {
+  "qwen3-14b": {
+   "cells": [
+    [
+     "qwen3-14b",
+     "-"
+    ]
+   ],
+   "ingest": {
+    "arm": "qwen3-14b",
+    "config_hashes": {
+     "G_CERT": "52c094406252bf1ab57350d1ec4f9165f8bc4f7d83df2b99e1fb52356e829a42",
+     "G_FEAS": "6176c8978a84adf727594d2a7a574dad6e03628e1d3cdddefbf76cfa79122390",
+     "UNGUARDED": "b932b4a480c187968da8445242479be77d62341b7f35753f9cba7fdc3500dc89"
+    },
+    "eval_version": "l1-e1-eval-2",
+    "raw_sha256": "641cc9b69a3fa7e9e6fcc3d05063296e6454011b707bb278f43d221c8359e7be",
+    "rows": 10338,
+    "version": "l1-n19-known-eval-1",
+    "wall_s": 1157.0,
+    "workers": 2
+   },
+   "raw_path": "./results/grid_e1_local/proposals_raw.jsonl",
+   "replay": {
+    "distinct_proposals": 3391,
+    "instances": 60,
+    "memo": {
+     "direct": 1926,
+     "hit": 210,
+     "miss": 1255
+    },
+    "wall_s": 903.5
+   },
+   "rows": 10338
+  },
+  "sol": {
+   "cells": [
+    [
+     "sol",
+     "none"
+    ]
+   ],
+   "ingest": {
+    "arm": "sol",
+    "config_hashes": {
+     "G_CERT": "52c094406252bf1ab57350d1ec4f9165f8bc4f7d83df2b99e1fb52356e829a42",
+     "G_FEAS": "6176c8978a84adf727594d2a7a574dad6e03628e1d3cdddefbf76cfa79122390",
+     "UNGUARDED": "b932b4a480c187968da8445242479be77d62341b7f35753f9cba7fdc3500dc89"
+    },
+    "eval_version": "l1-e1-eval-2",
+    "raw_sha256": "f938b2ae260a663308c93d5de9ffbdd24504235a6d21fe5e8eea356b9bc7077f",
+    "rows": 1723,
+    "version": "l1-n19-known-eval-1",
+    "wall_s": 291.8,
+    "workers": 2
+   },
+   "raw_path": "./results/grid_e1_hosted_sol/proposals_raw.dedup.jsonl",
+   "replay": {
+    "distinct_proposals": 1723,
+    "instances": 60,
+    "memo": {
+     "direct": 110,
+     "hit": 438,
+     "miss": 1175
+    },
+    "wall_s": 1502.0
+   },
+   "rows": 1723
+  },
+  "sol:control": {
+   "cells": [
+    [
+     "sol",
+     "none"
+    ]
+   ],
+   "ingest": {
+    "arm": "sol",
+    "config_hashes": {
+     "G_CERT": "52c094406252bf1ab57350d1ec4f9165f8bc4f7d83df2b99e1fb52356e829a42",
+     "G_FEAS": "6176c8978a84adf727594d2a7a574dad6e03628e1d3cdddefbf76cfa79122390",
+     "UNGUARDED": "b932b4a480c187968da8445242479be77d62341b7f35753f9cba7fdc3500dc89"
+    },
+    "eval_version": "l1-e1-eval-2",
+    "raw_sha256": "114db2d86b6067af2fa1ac0089ef92f914c24d81cb807dc38f860cd4415e3aca",
+    "rows": 200,
+    "version": "l1-n19-known-eval-2",
+    "wall_s": 228.5,
+    "workers": 1
+   },
+   "raw_path": [
+    "./results/n19_selftest/sol_control_input/proposals_raw.jsonl"
+   ],
+   "replay": {
+    "distinct_proposals": 200,
+    "instances": 55,
+    "memo": {
+     "direct": 8,
+     "hit": 12,
+     "miss": 180
+    },
+    "wall_s": 293.6
+   },
+   "rows": 200
+  }
+ },
+ "code": {
+  "n19_known_prompt_eval.py": "c78a3ec4a6f5ecce315d6d6f411bae34e3562a00388e265634570124df6996ad"
+ },
+ "cores": [
+  15
+ ],
+ "finished": "2026-11-11T02:34:14+08:00",
+ "load_avg_end": [
+  5.99,
+  6.84,
+  7.25
+ ],
+ "macros_written": 1324,
+ "mode": "selftest on the published logs",
+ "outputs": {
+  "results/n19_selftest/N19_macros.tex": "bc9c50f420e65d696efa6ac9d46dd59ef035ebb7322ef15adcc8532bcf2a5b19",
+  "results/n19_selftest/N19_rows.csv": "ca37748bf487957804b3b343896a37ecd5a2d127d92bfa682ad4fbbd0c665790",
+  "results/n19_selftest/N19_summary.md": "4d74e2912cdfc83e3042299c01b6146d0fd4a0121cce1848b9ec4b543527a836"
+ },
+ "version": "l1-n19-known-eval-2",
+ "wall_s": 2951.1,
+ "workers": 1
+}

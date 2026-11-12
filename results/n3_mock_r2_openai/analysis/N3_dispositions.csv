@@ -1,0 +1,11 @@
+# l1-n3-analysis-1 2026-10-26 05:43:46 +08 from results/n3_mock_r2_openai/eval
+arm,mode,thinking,item_set,gate,tau_hard,n,n_scored,correct,rate,ci_lo,ci_hi,terminals,intended
+openai,M_constrained,-,costly_accepted,P_CERT_V11,0.40,13,13,13,1.0,1.0,1.0,"{""applied_with_override_record"": 1, ""referred_with_price"": 12}","{""applied_with_override_record"": 1, ""referred_with_price"": 12}"
+openai,M_constrained,-,costly_accepted,G_REL2_V11,0.40,13,13,13,1.0,1.0,1.0,"{""applied_with_certificate"": 1, ""applied_with_override_record"": 2, ""referred_with_price"": 10}","{""applied_with_certificate"": 1, ""applied_with_override_record"": 2, ""referred_with_price"": 10}"
+openai,M_constrained,-,costly_accepted,G_UNION_V11,0.40,13,13,13,1.0,1.0,1.0,"{""applied_with_override_record"": 1, ""referred_with_price"": 12}","{""applied_with_override_record"": 1, ""referred_with_price"": 12}"
+openai,M_constrained,-,v3_twin,P_CERT_V11,0.40,13,13,13,1.0,1.0,1.0,"{""referred_with_price"": 13}","{""referred_with_price"": 13}"
+openai,M_constrained,-,v3_twin,G_REL2_V11,0.40,13,13,12,0.9230769230769231,0.875,1.0,"{""applied_with_certificate"": 1, ""applied_with_override_record"": 1, ""referred_with_price"": 11}","{""applied_with_certificate"": 1, ""referred_with_price"": 12}"
+openai,M_constrained,-,v3_twin,G_UNION_V11,0.40,13,13,13,1.0,1.0,1.0,"{""referred_with_price"": 13}","{""referred_with_price"": 13}"
+openai,M_constrained,-,benign_control,P_CERT_V11,0.40,14,14,14,1.0,1.0,1.0,"{""applied_with_certificate"": 14}","{""applied_with_certificate"": 14}"
+openai,M_constrained,-,benign_control,G_REL2_V11,0.40,14,14,14,1.0,1.0,1.0,"{""applied_with_certificate"": 14}","{""applied_with_certificate"": 14}"
+openai,M_constrained,-,benign_control,G_UNION_V11,0.40,14,14,14,1.0,1.0,1.0,"{""applied_with_certificate"": 14}","{""applied_with_certificate"": 14}"

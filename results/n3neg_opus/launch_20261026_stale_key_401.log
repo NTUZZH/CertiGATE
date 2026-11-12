@@ -1,0 +1,87 @@
+================================================================================
+FOUR LAUNCH QUESTIONS (house experiment rules), answered before the
+first paid call: the negated-acceptance control
+================================================================================
+1. PURPOSE.  Whether the stated-acceptance flag answers the vocabulary of delay
+   or an explicit acceptance.  The opus arm (claude-opus-5): 220 costly_negated items
+   (the V3 twins with a clause that refuses the knock-on delay, gold intent
+   false) x {M_constrained} x thinking default x 2 repeats, under prompt
+   l1-prompt-1.1.0.  A flag set here is the sharpest false acceptance.  The
+   numbers land in the intent-fidelity table as one more control column and
+   in the false-acceptance profile.
+2. EXPECTED RESULT.  The flag rate is at most the arm's rate on the V3 twins.
+   If an arm still flags negated items, implied displacement is read as
+   acceptance and the hard ceiling tau_hard is what contains it; if all arms
+   drop to zero, the negation is read correctly.  Either outcome is reported.
+3. CONTAMINATION.  New output directory (results/n3neg_<arm>/), never a
+   resume into results/n3_<arm>/; append-only log keyed by (mode, thinking,
+   repeat, item_id); a log of another arm, prompt version or prompt text is
+   refused.  suite_ext.jsonl and manifest.json are read, never written.
+   Wall time is a network measurement.
+   Log: <project>/results/n3neg_opus/proposals_raw.jsonl
+4. DATA ACCURACY.  Fatal before the first call: suite v0.2, schema v1.0.0 and
+   v1.1.0, suite_ext.jsonl and suite_ext_neg.jsonl sha256 and their
+   manifests; the v1.1.0 system prompt; every V3 twin rendered and checked
+   against its v1.0.0 render and published prompt_hash; for every
+   costly_negated item the user message equals its twin's with the
+   instruction replaced; instance files hash-checked against the manifest
+   from the instances_v10 snapshot.
+================================================================================
+[n3h] suite_sha256                  0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a OK
+[n3h] schema_sha256                 1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321 OK
+[n3h] schema_v11_sha256             8b9b11a333a27462bd0c5b95e1c79f733f43a6ba9b2ff7fa0058e90b5b7ed1fb OK
+[n3h] suite_ext_sha256              2bc5789a3d15aca0e97991407622dabbb9d225d38c3eb69096044844b30f38c5 OK
+[n3h] suite_ext_manifest_sha256     d95d212ea8e4b96ca825d7112242a5f67dca60ca3308546e6474c58895e48083 OK
+[n3h] suite_ext_neg_sha256          5205e34621fa60a816c9ecdda145fbf3ecab71d952ada684fa084c27469dfb02 OK
+[n3h] suite_ext_neg_manifest_sha256 f0baa4c33df5a8520f66e11fff7775ac697e79d63e03a16a14f5041a6b9ec877 OK
+[n3h] prompt version l1-prompt-1.1.0 OK
+[n3h] 220 prompts rendered, split and checked in 1.4s
+
+CALL PLAN  (arm opus, model claude-opus-5, wire anthropic)
+  items            : 220 per pass (costly_negated 220)
+  modes            : M_constrained
+  prompt checks    : {'v10_hash_equal': 220, 'v10_hash_absent': 0, 'user_equal_v10': 220, 'twin_user_equal': 0, 'neg_twin_user_equal': 220, 'twins_rendered_for_check': 220}
+  groups           : 56 | distinct prefixes per pass: 56
+  M_constrained    : json_schema (canonical v1.1.0 schema, flag required)
+  thinking         : default -> no field sent
+  repeats          : 2 | max_tokens 4096 | workers 8
+  calls            : 440 planned in full
+  already logged   : 0 rows, 0 API errors
+  complete keys    : 0 | this run would make 440 calls
+  log              : <project>/results/n3neg_opus/proposals_raw.jsonl
+
+PROJECTED COST  (prices retrieved 2026-08-11; Anthropic pricing ($5/$25 per M, cache 0.5/6.25))
+  token model: 1.92 chars/token, pilot output 68/call (results/opus5_pilot/anthropic_pilot_summary.json (29 out constrained thinking-disabled; the single default-thinking probe returned 68 output tokens, thinking billed inside them))
+  list                           USD    5.63 at pilot output, USD    7.13 at 3x output
+  list                           USD    3.79 from E1-measured usage per call
+
+[n3h] key ANTHROPIC_API_KEY present (never printed).
+
+[n3h] pass 1/2  M_constrained thinking=default r0  (56 groups, 220 calls)
+  group   1/56  c09_storm2_w80_u100_0000.json    n=8   done=8     ok=0     err=8   usd=  0.000 elapsed=1s
+  group   2/56  c09_storm2_w80_u100_0001.json    n=5   done=13    ok=0     err=13  usd=  0.000 elapsed=1s
+  group   3/56  c09_storm2_w80_u100_0002.json    n=5   done=18    ok=0     err=18  usd=  0.000 elapsed=2s
+  group   4/56  c09_storm2_w80_u100_0003.json    n=4   done=22    ok=0     err=22  usd=  0.000 elapsed=3s
+  group   5/56  c09_storm2_w80_u100_0004.json    n=4   done=26    ok=0     err=26  usd=  0.000 elapsed=3s
+  group   6/56  c09_storm2_w80_u100_0005.json    n=5   done=31    ok=0     err=31  usd=  0.000 elapsed=4s
+  group   7/56  c09_storm2_w80_u100_0006.json    n=5   done=36    ok=0     err=36  usd=  0.000 elapsed=5s
+  group   8/56  c09_storm2_w80_u100_0007.json    n=5   done=41    ok=0     err=41  usd=  0.000 elapsed=6s
+  group   9/56  c09_storm2_w80_u100_0008.json    n=4   done=45    ok=0     err=45  usd=  0.000 elapsed=7s
+  group  10/56  c09_storm2_w80_u100_0009.json    n=4   done=49    ok=0     err=49  usd=  0.000 elapsed=8s
+  group  11/56  c09_storm2_w80_u100_0010.json    n=5   done=54    ok=0     err=54  usd=  0.000 elapsed=8s
+  group  12/56  c09_storm2_w80_u100_0011.json    n=5   done=59    ok=0     err=59  usd=  0.000 elapsed=9s
+  group  13/56  c09_storm2_w80_u100_0012.json    n=5   done=64    ok=0     err=64  usd=  0.000 elapsed=10s
+  group  14/56  c09_storm2_w80_u100_0013.json    n=4   done=68    ok=0     err=68  usd=  0.000 elapsed=11s
+  group  15/56  c09_storm2_w80_u100_0014.json    n=4   done=72    ok=0     err=72  usd=  0.000 elapsed=12s
+  group  16/56  c09_storm2_w80_u100_0015.json    n=5   done=77    ok=0     err=77  usd=  0.000 elapsed=12s
+  group  17/56  c09_storm2_w80_u100_0016.json    n=5   done=82    ok=0     err=82  usd=  0.000 elapsed=13s
+  group  18/56  c09_storm2_w80_u100_0017.json    n=5   done=87    ok=0     err=87  usd=  0.000 elapsed=14s
+  group  19/56  c09_storm2_w80_u100_0018.json    n=4   done=91    ok=0     err=91  usd=  0.000 elapsed=14s
+  group  20/56  c09_storm2_w80_u100_0019.json    n=4   done=95    ok=0     err=95  usd=  0.000 elapsed=15s
+  group  21/56  c09_storm2_w80_u100_0020.json    n=5   done=100   ok=0     err=100 usd=  0.000 elapsed=16s
+
+[n3h] INTERRUPTED after 100 rows
+
+[n3h] raw log : <project>/results/n3neg_opus/proposals_raw.jsonl
+[n3h] meta    : <project>/results/n3neg_opus/run_meta_20261026T032911Z.json
+[n3h] estimated spend this session: USD 0.00

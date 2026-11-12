@@ -1,0 +1,11 @@
+# N18 (l1-n18-further-2): gate stress test at t_d, constrained mode, the eight Table 6 cells, repeats pooled; cost-bearing (V3) proposals that pass the feasibility check, split by equivalence to the reference translation (D3's rule on the parsed operations); referred = certified gap above 0.20; intervals = 95% cluster bootstrap over instances (n2 seed, 20,000 replicates)
+arm,thinking,display,repeats,v3_rows,passed,same_n,same_referred,same_share,same_lo,same_hi,same_instances,diff_n,diff_referred,diff_share,diff_lo,diff_hi,diff_instances
+qwen3-14b,-,Qwen3-14B,3,462,459,381,342,0.8976,0.8189,0.9609,49,78,30,0.3846,0.1935,0.5882,25
+qwen3.6-27b-fp8,-,Qwen3.6-27B-FP8,3,462,459,428,389,0.9089,0.8393,0.9654,51,31,10,0.3226,0.0690,0.6400,11
+glm-4-9b,-,GLM-4-9B-0414,1,154,149,109,97,0.8899,0.8020,0.9623,47,40,11,0.2750,0.1463,0.4200,35
+openai,-,GPT-5.4-mini,2,308,306,249,223,0.8956,0.8174,0.9600,48,57,21,0.3684,0.2097,0.5333,26
+sonnet,disabled,Claude Sonnet 5,2,308,306,274,248,0.9051,0.8345,0.9638,51,32,10,0.3125,0.0833,0.5556,17
+opus,default,Claude Opus 5,2,308,308,294,268,0.9116,0.8462,0.9662,52,14,10,0.7143,0.3333,1.0000,7
+opus,disabled,Claude Opus 5 (no think),2,308,308,292,266,0.9110,0.8445,0.9661,52,16,10,0.6250,0.2500,0.9333,9
+sol,none,GPT-5.6 Sol,1,154,149,141,128,0.9078,0.8380,0.9648,49,8,2,0.2500,0.0000,0.6000,8
+pooled,,pooled (eight cells),,2464,2444,2168,1961,0.9045,0.8327,0.9637,52,276,104,0.3768,0.2465,0.5229,41

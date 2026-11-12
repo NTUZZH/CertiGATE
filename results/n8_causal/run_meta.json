@@ -1,0 +1,36 @@
+{
+ "version": "l1-n8-causal-1",
+ "date": "2026-11-03T18:24:57+0800",
+ "wall_s": 911.3252069950104,
+ "dispatch_wall_s": 910.0100886821747,
+ "cores": [
+  8,
+  9
+ ],
+ "cores_str": "8-9",
+ "workers": 2,
+ "omp_num_threads": "2",
+ "n_items": 1745,
+ "n_instances": 60,
+ "n_groups": 116,
+ "n_checks": 13253,
+ "B": 2000,
+ "tau": 0.2,
+ "seed": 20261103,
+ "instance_root": "${L1_Y1_ROOT}/data/processed/instances_v10",
+ "inputs": {
+  "code/suite/v0.2/suite.jsonl": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+  "analysis/DG1_direct_guard.csv": "32d8e190b4b0ecb725f2ae3ddcf506dec062e736fb6b0d725a273a3f35293a4f",
+  "analysis/ladder/rule_anchor.json": "7ded7f45baf116aeade7e2c9d431db9b67fe7220118b01c2145d5bdd90f0db28",
+  "results/oracle_v1/brackets.jsonl": "ef1b81a29a546fe574e9fbf0896f96446a69c64238900bc95b39f285ba1592ab",
+  "results/oracle_v1/items.jsonl": "1cefab0c4a4f24ed86a3076864055fd5bfbb4f494f6aeeecc06b601e056c1d13",
+  "code/scripts/n8_causal.py": "86b31d73db72842275ed4ed37e94f161ca27b7b640802eeaeebe8fb3e8b558d1"
+ },
+ "assertion_lines": [
+  "Suite SHA-256 0a0b471f4d04ba03 ; all 60 instance files verified against the instances_v10 manifest by `suite_gate.instance_path`.",
+  "Baseline trajectory with each item's frozen set places every order at the plain Y1 ATC dispatch's start and end on all 116 (instance, frozen set) groups; on 1 of them some orders sit on a different, identical technician of the same trade, and running work is pinned to the trajectory's technician.",
+  "Omniscient reading of the causal code (full instance, t_d = 0) reproduces DG1's G_CERT terminal on all 1745 items and its certified gap on all 1380 priced items (tolerance 1e-6).",
+  "No-proposal realised run (prefix pinned, continuation from t_d) equals the published anchor objective on every item (1e-6 bh).",
+  "LB_K <= obj_K on every causal certificate and every causal anchor."
+ ]
+}

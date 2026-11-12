@@ -1,0 +1,28 @@
+{
+  "items": {
+    "published:V3": 220,
+    "published:twin": 220,
+    "heldout:V3": 220,
+    "heldout:twin": 220
+  },
+  "distinct_components": 904,
+  "components_closed_without_solve": 183,
+  "constrained_solves": 721,
+  "trades_per_solve": {
+    "1": 87,
+    "2": 566,
+    "3": 68
+  },
+  "solves_by_component_orders": {
+    "<=150": 89,
+    "<=1500": 245,
+    "<=400": 150,
+    "<=700": 136,
+    ">1500": 101
+  },
+  "relaxed_trades_to_solve": 45,
+  "cap_wall_h": 12.766666666666667,
+  "est_wall_h_by_size": 5.449861111111111,
+  "items_with_relaxed_gaps": 90,
+  "baseline_reassembly_max_dev_bh": 0.0
+}

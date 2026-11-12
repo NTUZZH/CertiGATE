@@ -1,0 +1,20 @@
+{
+ "arm": "deepseek",
+ "model": "deepseek-v4-pro",
+ "pipeline": "SINGLE",
+ "n": 60,
+ "safety_ceiling_tokens": 60000,
+ "trajectories_that_hit_the_ceiling": 0,
+ "all_tokens": {
+  "min": 2200,
+  "p25": 3597,
+  "p50": 4733.0,
+  "p75": 5391,
+  "p90": 6161,
+  "max": 25172,
+  "mean": 5236.2
+ },
+ "B_tight": 5000,
+ "B_loose": 20000,
+ "rule": "B_tight = p50 of this arm's own SINGLE-pipeline all-token need on E3-CAL-60, rounded UP to the nearest 500; B_loose = 4 x B_tight"
+}

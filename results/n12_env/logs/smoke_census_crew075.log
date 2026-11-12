@@ -1,0 +1,22 @@
+[n12 census crew075] 3 instances, 60 items, 4 workers on cores [8, 9, 10, 11]
+[n11]   done c10_replay_400_0004 (0s), 1 of 3
+[n11]   done c09_storm2_w80_u100_0014 (6s), 2 of 3
+[n11]   done c10_storm2_w80_u100_0011 (145s), 3 of 3
+{
+ "items": 60,
+ "published": 60,
+ "published_not_issuable_closed": 5,
+ "published_not_issuable_strict": 20,
+ "boards": 27,
+ "board_trades": 300,
+ "trades_closed_by_lb2": 300,
+ "open_relaxed_trades": 0,
+ "open_relaxed_by_size": {},
+ "c_components": 0,
+ "c_components_closed_by_lb2_already": 0,
+ "c_components_by_size": {},
+ "c_items_with_error": 0,
+ "a6_items": null,
+ "a8_items": null
+}
+[n12 census crew075] PASS: 1669 checks in 149s

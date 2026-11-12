@@ -1,0 +1,118 @@
+{
+ "affinity": [
+  8,
+  9,
+  10,
+  11
+ ],
+ "budget_s": 60.0,
+ "code": {
+  "_fmwos.py": "0efc3060821d68f18c3d5c99fb55b4dd8d50ef3a4ae5f5094836adafb05e2530",
+  "apply.py": "1c846afa64c357f12093b31ea864c937677ac9d070dc7006ee1036b4dbf39435",
+  "cpsat.py": "7504e4133be8848e7f1604b8860b899490b6eaa897f2d128b490a6805327a903",
+  "cpsat_avail.py": "10d17fb8f12430524364dda17a1a3a02c963de27f5b934341aa51871de54033b",
+  "dispatch.py": "8c7961aa8044991eeefa5e7a5df1120e72796c44f72fee865d5af804d7a9d79b",
+  "evaluate.py": "5779288990097866d072a73850efa225b6819b961b15c4b516666f9ec1f6d3bc",
+  "guard.py": "ad94b85c67af1e3bf3a9a13c7ee9a7accbc42aa17e90b9c39800c4b45c337b65",
+  "lb2.py": "01093c9f3a46dd3cc2e52f16b7d37f6364e68feb1caff642a7fe5404196b1adf",
+  "n11_decision_time.py": "05978a918888782627f1cba89e67e590c306e0e6d52997e0181cbfc1fff2bc90",
+  "n11_forecast.py": "efb44dfa42c7b209d1a007244df9f038da26f188f624d58a4189ceda08f81800",
+  "n12_env_sensitivity.py": "27bcd59ce7a3c5e9bfe55814d78a22428080c9b5d195ea352ef4d42d5f9eeee3",
+  "n2_pricing.py": "7d45a57b0bfb5625144a6e0f9e2bf9d1278b537f8de19d4a4e2120472438ef66",
+  "n8_causal.py": "86b31d73db72842275ed4ed37e94f161ca27b7b640802eeaeebe8fb3e8b558d1",
+  "oracle_cost.py": "031098d638f63b618324ab1f001f6151c5c6d40660cff194df9e3c3d02d9a031"
+ },
+ "cores": [
+  8,
+  9,
+  10,
+  11
+ ],
+ "cpsat_py_sha256": "7504e4133be8848e7f1604b8860b899490b6eaa897f2d128b490a6805327a903",
+ "dt_boards": 953,
+ "dt_complete": 953,
+ "env": "win150",
+ "finished": "2026-11-04T12:15:24+08:00",
+ "foreign_processes_at_start": [],
+ "foreign_share_max": 0.1,
+ "full_brackets": 499,
+ "full_proved": 486,
+ "gate": {
+  "census": {
+   "finished": "2026-11-04T12:04:30+08:00",
+   "n_checks": 38067
+  }
+ },
+ "host": "<host>",
+ "identity": {},
+ "load_avg_end": [
+  5.04,
+  4.71,
+  5.45
+ ],
+ "load_avg_start": [
+  5.47,
+  5.87,
+  6.35
+ ],
+ "max_resolves": 2,
+ "mkl_num_threads": "1",
+ "new_dt_solves": 12,
+ "omp_num_threads": "1",
+ "ortools": "9.14.6206",
+ "outputs": {
+  "dt_brackets.jsonl": "e07c4c9d2b3afb9682f820881bb0b25536eb0e77abf573ef302822e21ce9b760",
+  "dt_trade_solves.jsonl": "4a7e2fd8cd78b20f55fd8aa9ad44eba2373509b29ffe928e1b23671c31ca4ec7",
+  "full_brackets.jsonl": "16674b1ca84cdc477c13789a87c49c1db1305a7ad29b819bf802e7337f4aa052",
+  "full_trade_solves.jsonl": "2278378f2816fcf2cc49df2230ccae26a11e015a733532c3ee7fa19e68e15d50"
+ },
+ "platform": "Linux-7.0.0-30-generic-x86_64-with-glibc2.39",
+ "python": "3.11.15",
+ "recipe": "l1-n1-oracle-cost-1",
+ "reused_n11_rows": 0,
+ "reused_oracle_v1_rows": 0,
+ "stage": "oracle",
+ "started": "2026-11-04T12:04:30+08:00",
+ "timing": {
+  "dt": {
+   "budget_limited": 0,
+   "cpu_share_median": 0.3507386298137739,
+   "foreign_share_max": 0.5096337185620137,
+   "foreign_share_max_budget_limited": null,
+   "foreign_share_median": 0.00012727384658821838,
+   "invalid": 0,
+   "invalid_persistent": 0,
+   "low_solve_cpu_share": 12,
+   "solve_cpu_share_median": 0.36998117532944685,
+   "solves": 12,
+   "statuses": {
+    "OPTIMAL": 12
+   },
+   "wall_s": 3.707453961484134
+  },
+  "full": {
+   "budget_limited": 2,
+   "cpu_share_median": 0.5629200409504462,
+   "foreign_share_max": 0.15224889223155305,
+   "foreign_share_max_budget_limited": 0.001750755462019239,
+   "foreign_share_median": 6.634141296180572e-05,
+   "invalid": 0,
+   "invalid_persistent": 0,
+   "low_solve_cpu_share": 126,
+   "solve_cpu_share_median": 0.6171892796078384,
+   "solves": 131,
+   "statuses": {
+    "FEASIBLE": 2,
+    "OPTIMAL": 129
+   },
+   "wall_s": 592.7182780615985
+  }
+ },
+ "version": "l1-n12-env-sensitivity-1",
+ "wall_s": 653.8344368934631,
+ "walls": {
+  "dt_s": 3.792412519454956,
+  "full_s": 649.9255428314209
+ },
+ "workers": 4
+}

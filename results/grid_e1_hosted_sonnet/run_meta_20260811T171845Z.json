@@ -1,0 +1,82 @@
+{
+ "date": "2026-08-12 01:18:45 +08",
+ "arm": "sonnet",
+ "model": "claude-sonnet-5",
+ "backend": "anthropic",
+ "wire": "anthropic",
+ "modes": [
+  "M_constrained",
+  "M_free"
+ ],
+ "thinking": [
+  "disabled"
+ ],
+ "thinking_bodies": {
+  "disabled": {
+   "thinking": {
+    "type": "disabled"
+   }
+  }
+ },
+ "repeats": 2,
+ "items": 2000,
+ "groups": 116,
+ "cache_prefixes_per_pass": 327,
+ "max_tokens": 4096,
+ "workers": 8,
+ "timeout_s": 240.0,
+ "max_retries": 4,
+ "suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+ "schema_sha256": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+ "prompt_version": "l1-prompt-1.0.0",
+ "top_k": 10,
+ "cache_boundary": "\n\nWork orders this request refers to:",
+ "cache_boundary_fallback": "\n\nINSTRUCTION",
+ "mock": false,
+ "interrupted": false,
+ "planned_calls": 6363,
+ "rows_written": 6363,
+ "wall_s": 4720.442418081002,
+ "price_base": "intro (through 2026-08-31)",
+ "price_date": "2026-08-11",
+ "usd_estimated": 15.680465699999992,
+ "per_config": {
+  "M_constrained|disabled|r0": {
+   "calls": 363,
+   "ok": 363,
+   "error": 0,
+   "other": 0,
+   "usd": 1.0345176999999992,
+   "out_tokens": 16047,
+   "latency_ms": 1290481.2823199742
+  },
+  "M_constrained|disabled|r1": {
+   "calls": 2000,
+   "ok": 1993,
+   "error": 7,
+   "other": 0,
+   "usd": 5.9313764000000075,
+   "out_tokens": 92479,
+   "latency_ms": 8937379.029674828
+  },
+  "M_free|disabled|r0": {
+   "calls": 2000,
+   "ok": 2000,
+   "error": 0,
+   "other": 0,
+   "usd": 4.354626799999992,
+   "out_tokens": 109650,
+   "latency_ms": 6037899.822354211
+  },
+  "M_free|disabled|r1": {
+   "calls": 2000,
+   "ok": 2000,
+   "error": 0,
+   "other": 0,
+   "usd": 4.359944799999993,
+   "out_tokens": 109869,
+   "latency_ms": 6015638.101898586
+  }
+ },
+ "dedupe_rule": "last row per (arm, mode, thinking, repeat, item_id) wins; an earlier row for a key is a superseded API error"
+}

@@ -1,0 +1,38 @@
+{
+ "checks_by_group": {
+  "A1": 2,
+  "AF9": 1,
+  "E5": 5823,
+  "E6": 96540,
+  "E7": 7,
+  "E9": 2
+ },
+ "failures": [],
+ "finished": "2026-11-04T10:38:17+08:00",
+ "gates": {
+  "census": {
+   "finished": "2026-11-04T10:16:41+08:00",
+   "n_checks": 132675
+  },
+  "forecast": {
+   "finished": "2026-11-04T10:38:03+08:00",
+   "n_checks": 87862
+  },
+  "oracle": {
+   "finished": "2026-11-04T10:17:39+08:00",
+   "n_checks": 12142
+  }
+ },
+ "identity": {
+  "n11_cells": 29832,
+  "n11f_consequence_rows": 504,
+  "n11f_damage_rows": 72,
+  "n2_cells": 60495,
+  "n2_max_abs_dev": 9.856959720540813e-07
+ },
+ "n_checks": 102375,
+ "n_failures": 0,
+ "outputs": {},
+ "smoke": false,
+ "status": "PASS"
+}

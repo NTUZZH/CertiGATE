@@ -1,0 +1,3 @@
+<project>/code/scripts/n11_forecast.py:1653: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho = spearmanr([p for p, _ in pr], [q for _, q in pr]).statistic
+[n12 analyse cal] PASS: 177 checks, 2s

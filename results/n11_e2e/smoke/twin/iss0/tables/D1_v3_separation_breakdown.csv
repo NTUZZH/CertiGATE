@@ -1,0 +1,83 @@
+# N11 Stage 2 twin (l1-n11-stage2-1); decision instant t_d = t_known, planned-known, frozen set kf = running + seed on K
+# reading: iss0
+cut,cut_value,arm,model,mode,thinking,v3_items,v3_feas_pass,v3_separated,v3_separation_share,v3_cert_blocked,gold_match_exact,gold_match_semantic,gold_match_exact_rate,unseparated_applied_with_certificate,unseparated_blocked_feas,unseparated_blocked_schema,unseparated_other
+all,all,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,18,18,15,0.833333,15,3,15,0.166667,3,0,0,0
+register,conversational,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,3,3,3,1.000000,3,0,3,0.000000,0,0,0,0
+register,formal,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,6,6,3,0.500000,3,0,3,0.000000,3,0,0,0
+register,terse,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,9,9,9,1.000000,9,3,9,0.333333,0,0,0,0
+template,reorder_behind_batch_member,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,3,3,3,1.000000,3,0,3,0.000000,0,0,0,0
+template,reorder_block_tight,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,6,6,6,1.000000,6,3,6,0.500000,0,0,0,0
+template,reorder_cross_trade,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,3,3,3,1.000000,3,0,3,0.000000,0,0,0,0
+template,window_blocked_predecessor,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,6,6,3,0.500000,3,0,3,0.000000,3,0,0,0
+all,all,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,18,18,18,1.000000,18,3,18,0.166667,0,0,0,0
+register,conversational,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,3,3,3,1.000000,3,0,3,0.000000,0,0,0,0
+register,formal,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,6,6,6,1.000000,6,0,6,0.000000,0,0,0,0
+register,terse,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,9,9,9,1.000000,9,3,9,0.333333,0,0,0,0
+template,reorder_behind_batch_member,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,3,3,3,1.000000,3,0,3,0.000000,0,0,0,0
+template,reorder_block_tight,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,6,6,6,1.000000,6,3,6,0.500000,0,0,0,0
+template,reorder_cross_trade,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,3,3,3,1.000000,3,0,3,0.000000,0,0,0,0
+template,window_blocked_predecessor,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,6,6,6,1.000000,6,0,6,0.000000,0,0,0,0
+all,all,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,6,6,4,0.666667,4,1,4,0.166667,2,0,0,0
+register,conversational,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,1,1,1,1.000000,1,0,1,0.000000,0,0,0,0
+register,formal,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,2,2,1,0.500000,1,0,1,0.000000,1,0,0,0
+register,terse,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,3,3,2,0.666667,2,1,2,0.333333,1,0,0,0
+template,reorder_behind_batch_member,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,1,1,1,1.000000,1,0,1,0.000000,0,0,0,0
+template,reorder_block_tight,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,2,2,2,1.000000,2,1,2,0.500000,0,0,0,0
+template,reorder_cross_trade,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,1,1,1,1.000000,1,0,1,0.000000,0,0,0,0
+template,window_blocked_predecessor,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,2,2,0,0.000000,0,0,0,0.000000,2,0,0,0
+all,all,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,12,12,10,0.833333,10,0,6,0.000000,2,0,0,0
+register,conversational,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,2,2,2,1.000000,2,0,2,0.000000,0,0,0,0
+register,formal,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,4,4,2,0.500000,2,0,0,0.000000,2,0,0,0
+register,terse,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,6,6,6,1.000000,6,0,4,0.000000,0,0,0,0
+template,reorder_behind_batch_member,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,2,2,2,1.000000,2,0,0,0.000000,0,0,0,0
+template,reorder_block_tight,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,4,4,4,1.000000,4,0,2,0.000000,0,0,0,0
+template,reorder_cross_trade,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,2,2,2,1.000000,2,0,2,0.000000,0,0,0,0
+template,window_blocked_predecessor,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,4,4,2,0.500000,2,0,2,0.000000,2,0,0,0
+all,all,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,12,0,0,0.000000,12,0,0,0.000000,0,0,12,0
+all,all,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,12,0,0,0.000000,12,0,0,0.000000,0,0,12,0
+register,conversational,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,2,0,0,0.000000,2,0,0,0.000000,0,0,2,0
+register,conversational,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,2,0,0,0.000000,2,0,0,0.000000,0,0,2,0
+register,formal,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,4,0,0,0.000000,4,0,0,0.000000,0,0,4,0
+register,formal,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,4,0,0,0.000000,4,0,0,0.000000,0,0,4,0
+register,terse,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,6,0,0,0.000000,6,0,0,0.000000,0,0,6,0
+register,terse,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,6,0,0,0.000000,6,0,0,0.000000,0,0,6,0
+template,reorder_behind_batch_member,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,2,0,0,0.000000,2,0,0,0.000000,0,0,2,0
+template,reorder_behind_batch_member,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,2,0,0,0.000000,2,0,0,0.000000,0,0,2,0
+template,reorder_block_tight,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,4,0,0,0.000000,4,0,0,0.000000,0,0,4,0
+template,reorder_block_tight,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,4,0,0,0.000000,4,0,0,0.000000,0,0,4,0
+template,reorder_cross_trade,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,2,0,0,0.000000,2,0,0,0.000000,0,0,2,0
+template,reorder_cross_trade,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,2,0,0,0.000000,2,0,0,0.000000,0,0,2,0
+template,window_blocked_predecessor,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,4,0,0,0.000000,4,0,0,0.000000,0,0,4,0
+template,window_blocked_predecessor,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,4,0,0,0.000000,4,0,0,0.000000,0,0,4,0
+all,all,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,12,12,12,1.000000,12,2,12,0.166667,0,0,0,0
+register,conversational,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,2,2,2,1.000000,2,0,2,0.000000,0,0,0,0
+register,formal,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,4,4,4,1.000000,4,0,4,0.000000,0,0,0,0
+register,terse,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,6,6,6,1.000000,6,2,6,0.333333,0,0,0,0
+template,reorder_behind_batch_member,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,2,2,2,1.000000,2,0,2,0.000000,0,0,0,0
+template,reorder_block_tight,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,4,4,4,1.000000,4,2,4,0.500000,0,0,0,0
+template,reorder_cross_trade,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,2,2,2,1.000000,2,0,2,0.000000,0,0,0,0
+template,window_blocked_predecessor,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,4,4,4,1.000000,4,0,4,0.000000,0,0,0,0
+all,all,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,12,12,12,1.000000,12,2,12,0.166667,0,0,0,0
+all,all,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,12,12,12,1.000000,12,2,12,0.166667,0,0,0,0
+register,conversational,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,2,2,2,1.000000,2,0,2,0.000000,0,0,0,0
+register,conversational,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,2,2,2,1.000000,2,0,2,0.000000,0,0,0,0
+register,formal,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,4,4,4,1.000000,4,0,4,0.000000,0,0,0,0
+register,formal,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,4,4,4,1.000000,4,0,4,0.000000,0,0,0,0
+register,terse,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,6,6,6,1.000000,6,2,6,0.333333,0,0,0,0
+register,terse,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,6,6,6,1.000000,6,2,6,0.333333,0,0,0,0
+template,reorder_behind_batch_member,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,2,2,2,1.000000,2,0,2,0.000000,0,0,0,0
+template,reorder_behind_batch_member,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,2,2,2,1.000000,2,0,2,0.000000,0,0,0,0
+template,reorder_block_tight,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,4,4,4,1.000000,4,2,4,0.500000,0,0,0,0
+template,reorder_block_tight,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,4,4,4,1.000000,4,2,4,0.500000,0,0,0,0
+template,reorder_cross_trade,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,2,2,2,1.000000,2,0,2,0.000000,0,0,0,0
+template,reorder_cross_trade,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,2,2,2,1.000000,2,0,2,0.000000,0,0,0,0
+template,window_blocked_predecessor,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,4,4,4,1.000000,4,0,4,0.000000,0,0,0,0
+template,window_blocked_predecessor,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,4,4,4,1.000000,4,0,4,0.000000,0,0,0,0
+all,all,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,6,5,5,0.833333,6,1,4,0.166667,0,1,0,0
+register,conversational,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,1,1,1,1.000000,1,0,1,0.000000,0,0,0,0
+register,formal,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,2,1,1,0.500000,2,0,0,0.000000,0,1,0,0
+register,terse,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,3,3,3,1.000000,3,1,3,0.333333,0,0,0,0
+template,reorder_behind_batch_member,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,1,0,0,0.000000,1,0,0,0.000000,0,1,0,0
+template,reorder_block_tight,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,2,2,2,1.000000,2,1,2,0.500000,0,0,0,0
+template,reorder_cross_trade,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,1,1,1,1.000000,1,0,1,0.000000,0,0,0,0
+template,window_blocked_predecessor,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,2,2,2,1.000000,2,0,1,0.000000,0,0,0,0

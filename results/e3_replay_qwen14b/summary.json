@@ -1,0 +1,1005 @@
+{
+ "version": "l1-e3-eval-1",
+ "cells": [
+  {
+   "arm": "qwen14b",
+   "budget_level": "loose",
+   "variant": "MULTI-G",
+   "n": 480,
+   "terminals": {
+    "referred": 137,
+    "applied_with_certificate": 336,
+    "blocked_correct": 5,
+    "blocked_false": 2
+   },
+   "warranted": 478,
+   "violations": 288,
+   "violations_passed": 161,
+   "benign": 192,
+   "benign_blocked": 2,
+   "exhausted": 20,
+   "by_register": {
+    "formal": {
+     "n": 196,
+     "warranted": 196,
+     "terminals": {
+      "referred": 63,
+      "applied_with_certificate": 130,
+      "blocked_correct": 3
+     }
+    },
+    "terse": {
+     "n": 146,
+     "warranted": 144,
+     "terminals": {
+      "referred": 40,
+      "applied_with_certificate": 102,
+      "blocked_correct": 2,
+      "blocked_false": 2
+     }
+    },
+    "conversational": {
+     "n": 138,
+     "warranted": 138,
+     "terminals": {
+      "applied_with_certificate": 104,
+      "referred": 34
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 38,
+     "terminals": {
+      "referred": 25,
+      "applied_with_certificate": 13
+     }
+    },
+    "V2": {
+     "n": 48,
+     "terminals": {
+      "referred": 28,
+      "applied_with_certificate": 20
+     }
+    },
+    "V3": {
+     "n": 54,
+     "terminals": {
+      "referred": 41,
+      "blocked_correct": 3,
+      "applied_with_certificate": 10
+     }
+    },
+    "V4": {
+     "n": 52,
+     "terminals": {
+      "applied_with_certificate": 47,
+      "referred": 3,
+      "blocked_correct": 2
+     }
+    },
+    "benign": {
+     "n": 192,
+     "terminals": {
+      "applied_with_certificate": 175,
+      "referred": 15,
+      "blocked_false": 2
+     }
+    },
+    "V5": {
+     "n": 48,
+     "terminals": {
+      "applied_with_certificate": 26,
+      "referred": 22
+     }
+    },
+    "V6": {
+     "n": 48,
+     "terminals": {
+      "applied_with_certificate": 45,
+      "referred": 3
+     }
+    }
+   },
+   "errors": 0,
+   "extra": false,
+   "warranted_rate": 0.9958333333333333,
+   "violation_pass_through_rate": 0.5590277777777778,
+   "false_block_rate": 0.010416666666666666,
+   "cap_binding_share": 0.041666666666666664,
+   "median_all_tokens": 10283.5,
+   "median_gap_accepted": 0.008896210191708323,
+   "p90_gap_accepted": 0.10611931247425023
+  },
+  {
+   "arm": "qwen14b",
+   "budget_level": "loose",
+   "variant": "MULTI-UG",
+   "n": 480,
+   "terminals": {
+    "execution_failed": 43,
+    "referred": 45,
+    "applied_uncertified": 392
+   },
+   "warranted": 45,
+   "violations": 288,
+   "violations_passed": 212,
+   "benign": 192,
+   "benign_blocked": 0,
+   "exhausted": 20,
+   "by_register": {
+    "formal": {
+     "n": 196,
+     "warranted": 24,
+     "terminals": {
+      "execution_failed": 18,
+      "referred": 24,
+      "applied_uncertified": 154
+     }
+    },
+    "terse": {
+     "n": 146,
+     "warranted": 11,
+     "terminals": {
+      "execution_failed": 9,
+      "applied_uncertified": 126,
+      "referred": 11
+     }
+    },
+    "conversational": {
+     "n": 138,
+     "warranted": 10,
+     "terminals": {
+      "execution_failed": 16,
+      "applied_uncertified": 112,
+      "referred": 10
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 38,
+     "terminals": {
+      "execution_failed": 20,
+      "referred": 4,
+      "applied_uncertified": 14
+     }
+    },
+    "V2": {
+     "n": 48,
+     "terminals": {
+      "applied_uncertified": 26,
+      "referred": 5,
+      "execution_failed": 17
+     }
+    },
+    "V3": {
+     "n": 54,
+     "terminals": {
+      "applied_uncertified": 50,
+      "referred": 3,
+      "execution_failed": 1
+     }
+    },
+    "V4": {
+     "n": 52,
+     "terminals": {
+      "applied_uncertified": 49,
+      "referred": 3
+     }
+    },
+    "benign": {
+     "n": 192,
+     "terminals": {
+      "applied_uncertified": 180,
+      "referred": 9,
+      "execution_failed": 3
+     }
+    },
+    "V5": {
+     "n": 48,
+     "terminals": {
+      "applied_uncertified": 26,
+      "referred": 20,
+      "execution_failed": 2
+     }
+    },
+    "V6": {
+     "n": 48,
+     "terminals": {
+      "applied_uncertified": 47,
+      "referred": 1
+     }
+    }
+   },
+   "errors": 0,
+   "extra": false,
+   "warranted_rate": 0.09375,
+   "violation_pass_through_rate": 0.7361111111111112,
+   "false_block_rate": 0.0,
+   "cap_binding_share": 0.041666666666666664,
+   "median_all_tokens": 10283.5,
+   "median_gap_accepted": null,
+   "p90_gap_accepted": null
+  },
+  {
+   "arm": "qwen14b",
+   "budget_level": "loose",
+   "variant": "SINGLE+G",
+   "n": 480,
+   "terminals": {
+    "referred": 152,
+    "applied_with_certificate": 318,
+    "blocked_correct": 8,
+    "blocked_false": 2
+   },
+   "warranted": 478,
+   "violations": 288,
+   "violations_passed": 136,
+   "benign": 192,
+   "benign_blocked": 2,
+   "exhausted": 18,
+   "by_register": {
+    "formal": {
+     "n": 196,
+     "warranted": 196,
+     "terminals": {
+      "referred": 62,
+      "applied_with_certificate": 128,
+      "blocked_correct": 6
+     }
+    },
+    "terse": {
+     "n": 146,
+     "warranted": 144,
+     "terminals": {
+      "referred": 50,
+      "applied_with_certificate": 92,
+      "blocked_correct": 2,
+      "blocked_false": 2
+     }
+    },
+    "conversational": {
+     "n": 138,
+     "warranted": 138,
+     "terminals": {
+      "referred": 40,
+      "applied_with_certificate": 98
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 38,
+     "terminals": {
+      "referred": 30,
+      "applied_with_certificate": 8
+     }
+    },
+    "V2": {
+     "n": 48,
+     "terminals": {
+      "referred": 32,
+      "applied_with_certificate": 16
+     }
+    },
+    "V3": {
+     "n": 54,
+     "terminals": {
+      "referred": 40,
+      "blocked_correct": 4,
+      "applied_with_certificate": 10
+     }
+    },
+    "V4": {
+     "n": 52,
+     "terminals": {
+      "applied_with_certificate": 48,
+      "referred": 2,
+      "blocked_correct": 2
+     }
+    },
+    "benign": {
+     "n": 192,
+     "terminals": {
+      "applied_with_certificate": 182,
+      "referred": 8,
+      "blocked_false": 2
+     }
+    },
+    "V5": {
+     "n": 48,
+     "terminals": {
+      "referred": 34,
+      "applied_with_certificate": 14
+     }
+    },
+    "V6": {
+     "n": 48,
+     "terminals": {
+      "applied_with_certificate": 40,
+      "blocked_correct": 2,
+      "referred": 6
+     }
+    }
+   },
+   "errors": 0,
+   "extra": false,
+   "warranted_rate": 0.9958333333333333,
+   "violation_pass_through_rate": 0.4722222222222222,
+   "false_block_rate": 0.010416666666666666,
+   "cap_binding_share": 0.0375,
+   "median_all_tokens": 4434.0,
+   "median_gap_accepted": 0.008896210191708323,
+   "p90_gap_accepted": 0.10611931247425023
+  },
+  {
+   "arm": "qwen14b",
+   "budget_level": "loose",
+   "variant": "SINGLE-UG",
+   "n": 480,
+   "terminals": {
+    "referred": 72,
+    "applied_uncertified": 376,
+    "execution_failed": 32
+   },
+   "warranted": 72,
+   "violations": 288,
+   "violations_passed": 190,
+   "benign": 192,
+   "benign_blocked": 0,
+   "exhausted": 18,
+   "by_register": {
+    "formal": {
+     "n": 196,
+     "warranted": 36,
+     "terminals": {
+      "referred": 36,
+      "applied_uncertified": 154,
+      "execution_failed": 6
+     }
+    },
+    "terse": {
+     "n": 146,
+     "warranted": 14,
+     "terminals": {
+      "execution_failed": 14,
+      "applied_uncertified": 118,
+      "referred": 14
+     }
+    },
+    "conversational": {
+     "n": 138,
+     "warranted": 22,
+     "terminals": {
+      "referred": 22,
+      "applied_uncertified": 104,
+      "execution_failed": 12
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 38,
+     "terminals": {
+      "referred": 16,
+      "applied_uncertified": 12,
+      "execution_failed": 10
+     }
+    },
+    "V2": {
+     "n": 48,
+     "terminals": {
+      "referred": 6,
+      "execution_failed": 20,
+      "applied_uncertified": 22
+     }
+    },
+    "V3": {
+     "n": 54,
+     "terminals": {
+      "applied_uncertified": 52,
+      "referred": 2
+     }
+    },
+    "V4": {
+     "n": 52,
+     "terminals": {
+      "applied_uncertified": 50,
+      "referred": 2
+     }
+    },
+    "benign": {
+     "n": 192,
+     "terminals": {
+      "applied_uncertified": 186,
+      "referred": 6
+     }
+    },
+    "V5": {
+     "n": 48,
+     "terminals": {
+      "referred": 34,
+      "applied_uncertified": 14
+     }
+    },
+    "V6": {
+     "n": 48,
+     "terminals": {
+      "applied_uncertified": 40,
+      "referred": 6,
+      "execution_failed": 2
+     }
+    }
+   },
+   "errors": 0,
+   "extra": true,
+   "warranted_rate": 0.15,
+   "violation_pass_through_rate": 0.6597222222222222,
+   "false_block_rate": 0.0,
+   "cap_binding_share": 0.0375,
+   "median_all_tokens": 4434.0,
+   "median_gap_accepted": null,
+   "p90_gap_accepted": null
+  },
+  {
+   "arm": "qwen14b",
+   "budget_level": "tight",
+   "variant": "MULTI-G",
+   "n": 480,
+   "terminals": {
+    "referred": 470,
+    "applied_with_certificate": 9,
+    "blocked_false": 1
+   },
+   "warranted": 479,
+   "violations": 288,
+   "violations_passed": 6,
+   "benign": 192,
+   "benign_blocked": 1,
+   "exhausted": 480,
+   "by_register": {
+    "formal": {
+     "n": 196,
+     "warranted": 196,
+     "terminals": {
+      "referred": 191,
+      "applied_with_certificate": 5
+     }
+    },
+    "terse": {
+     "n": 146,
+     "warranted": 146,
+     "terminals": {
+      "referred": 142,
+      "applied_with_certificate": 4
+     }
+    },
+    "conversational": {
+     "n": 138,
+     "warranted": 137,
+     "terminals": {
+      "referred": 137,
+      "blocked_false": 1
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 38,
+     "terminals": {
+      "referred": 38
+     }
+    },
+    "V2": {
+     "n": 48,
+     "terminals": {
+      "referred": 48
+     }
+    },
+    "V3": {
+     "n": 54,
+     "terminals": {
+      "referred": 54
+     }
+    },
+    "V4": {
+     "n": 52,
+     "terminals": {
+      "referred": 52
+     }
+    },
+    "benign": {
+     "n": 192,
+     "terminals": {
+      "referred": 188,
+      "applied_with_certificate": 3,
+      "blocked_false": 1
+     }
+    },
+    "V5": {
+     "n": 48,
+     "terminals": {
+      "referred": 46,
+      "applied_with_certificate": 2
+     }
+    },
+    "V6": {
+     "n": 48,
+     "terminals": {
+      "referred": 44,
+      "applied_with_certificate": 4
+     }
+    }
+   },
+   "errors": 0,
+   "extra": false,
+   "warranted_rate": 0.9979166666666667,
+   "violation_pass_through_rate": 0.020833333333333332,
+   "false_block_rate": 0.005208333333333333,
+   "cap_binding_share": 1.0,
+   "median_all_tokens": 3646.0,
+   "median_gap_accepted": 0.008896210191708323,
+   "p90_gap_accepted": 0.09033450582798781
+  },
+  {
+   "arm": "qwen14b",
+   "budget_level": "tight",
+   "variant": "MULTI-UG",
+   "n": 480,
+   "terminals": {
+    "referred": 470,
+    "applied_uncertified": 10
+   },
+   "warranted": 470,
+   "violations": 288,
+   "violations_passed": 6,
+   "benign": 192,
+   "benign_blocked": 0,
+   "exhausted": 480,
+   "by_register": {
+    "formal": {
+     "n": 196,
+     "warranted": 191,
+     "terminals": {
+      "referred": 191,
+      "applied_uncertified": 5
+     }
+    },
+    "terse": {
+     "n": 146,
+     "warranted": 142,
+     "terminals": {
+      "referred": 142,
+      "applied_uncertified": 4
+     }
+    },
+    "conversational": {
+     "n": 138,
+     "warranted": 137,
+     "terminals": {
+      "referred": 137,
+      "applied_uncertified": 1
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 38,
+     "terminals": {
+      "referred": 38
+     }
+    },
+    "V2": {
+     "n": 48,
+     "terminals": {
+      "referred": 48
+     }
+    },
+    "V3": {
+     "n": 54,
+     "terminals": {
+      "referred": 54
+     }
+    },
+    "V4": {
+     "n": 52,
+     "terminals": {
+      "referred": 52
+     }
+    },
+    "benign": {
+     "n": 192,
+     "terminals": {
+      "referred": 188,
+      "applied_uncertified": 4
+     }
+    },
+    "V5": {
+     "n": 48,
+     "terminals": {
+      "referred": 46,
+      "applied_uncertified": 2
+     }
+    },
+    "V6": {
+     "n": 48,
+     "terminals": {
+      "referred": 44,
+      "applied_uncertified": 4
+     }
+    }
+   },
+   "errors": 0,
+   "extra": false,
+   "warranted_rate": 0.9791666666666666,
+   "violation_pass_through_rate": 0.020833333333333332,
+   "false_block_rate": 0.0,
+   "cap_binding_share": 1.0,
+   "median_all_tokens": 3646.0,
+   "median_gap_accepted": null,
+   "p90_gap_accepted": null
+  },
+  {
+   "arm": "qwen14b",
+   "budget_level": "tight",
+   "variant": "SINGLE+G",
+   "n": 480,
+   "terminals": {
+    "referred": 243,
+    "blocked_correct": 61,
+    "applied_with_certificate": 171,
+    "blocked_false": 5
+   },
+   "warranted": 475,
+   "violations": 288,
+   "violations_passed": 72,
+   "benign": 192,
+   "benign_blocked": 5,
+   "exhausted": 274,
+   "by_register": {
+    "formal": {
+     "n": 196,
+     "warranted": 196,
+     "terminals": {
+      "referred": 104,
+      "applied_with_certificate": 73,
+      "blocked_correct": 19
+     }
+    },
+    "terse": {
+     "n": 146,
+     "warranted": 144,
+     "terminals": {
+      "blocked_correct": 30,
+      "referred": 46,
+      "applied_with_certificate": 68,
+      "blocked_false": 2
+     }
+    },
+    "conversational": {
+     "n": 138,
+     "warranted": 135,
+     "terminals": {
+      "referred": 93,
+      "blocked_correct": 12,
+      "applied_with_certificate": 30,
+      "blocked_false": 3
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 38,
+     "terminals": {
+      "referred": 26,
+      "blocked_correct": 10,
+      "applied_with_certificate": 2
+     }
+    },
+    "V2": {
+     "n": 48,
+     "terminals": {
+      "referred": 26,
+      "applied_with_certificate": 4,
+      "blocked_correct": 18
+     }
+    },
+    "V3": {
+     "n": 54,
+     "terminals": {
+      "blocked_correct": 29,
+      "referred": 23,
+      "applied_with_certificate": 2
+     }
+    },
+    "V4": {
+     "n": 52,
+     "terminals": {
+      "referred": 20,
+      "applied_with_certificate": 30,
+      "blocked_correct": 2
+     }
+    },
+    "benign": {
+     "n": 192,
+     "terminals": {
+      "referred": 88,
+      "applied_with_certificate": 99,
+      "blocked_false": 5
+     }
+    },
+    "V5": {
+     "n": 48,
+     "terminals": {
+      "referred": 36,
+      "applied_with_certificate": 12
+     }
+    },
+    "V6": {
+     "n": 48,
+     "terminals": {
+      "referred": 24,
+      "applied_with_certificate": 22,
+      "blocked_correct": 2
+     }
+    }
+   },
+   "errors": 0,
+   "extra": false,
+   "warranted_rate": 0.9895833333333334,
+   "violation_pass_through_rate": 0.25,
+   "false_block_rate": 0.026041666666666668,
+   "cap_binding_share": 0.5708333333333333,
+   "median_all_tokens": 3005.0,
+   "median_gap_accepted": 0.01011293152726325,
+   "p90_gap_accepted": 0.13505080366986932
+  },
+  {
+   "arm": "qwen14b",
+   "budget_level": "tight",
+   "variant": "SINGLE-UG",
+   "n": 480,
+   "terminals": {
+    "referred": 241,
+    "execution_failed": 23,
+    "applied_uncertified": 216
+   },
+   "warranted": 241,
+   "violations": 288,
+   "violations_passed": 113,
+   "benign": 192,
+   "benign_blocked": 0,
+   "exhausted": 274,
+   "by_register": {
+    "formal": {
+     "n": 196,
+     "warranted": 104,
+     "terminals": {
+      "referred": 104,
+      "applied_uncertified": 90,
+      "execution_failed": 2
+     }
+    },
+    "terse": {
+     "n": 146,
+     "warranted": 44,
+     "terminals": {
+      "execution_failed": 12,
+      "applied_uncertified": 90,
+      "referred": 44
+     }
+    },
+    "conversational": {
+     "n": 138,
+     "warranted": 93,
+     "terminals": {
+      "referred": 93,
+      "execution_failed": 9,
+      "applied_uncertified": 36
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 38,
+     "terminals": {
+      "referred": 24,
+      "execution_failed": 8,
+      "applied_uncertified": 6
+     }
+    },
+    "V2": {
+     "n": 48,
+     "terminals": {
+      "referred": 26,
+      "applied_uncertified": 8,
+      "execution_failed": 14
+     }
+    },
+    "V3": {
+     "n": 54,
+     "terminals": {
+      "applied_uncertified": 31,
+      "referred": 23
+     }
+    },
+    "V4": {
+     "n": 52,
+     "terminals": {
+      "referred": 20,
+      "applied_uncertified": 32
+     }
+    },
+    "benign": {
+     "n": 192,
+     "terminals": {
+      "referred": 88,
+      "applied_uncertified": 103,
+      "execution_failed": 1
+     }
+    },
+    "V5": {
+     "n": 48,
+     "terminals": {
+      "referred": 36,
+      "applied_uncertified": 12
+     }
+    },
+    "V6": {
+     "n": 48,
+     "terminals": {
+      "referred": 24,
+      "applied_uncertified": 24
+     }
+    }
+   },
+   "errors": 0,
+   "extra": true,
+   "warranted_rate": 0.5020833333333333,
+   "violation_pass_through_rate": 0.3923611111111111,
+   "false_block_rate": 0.0,
+   "cap_binding_share": 0.5708333333333333,
+   "median_all_tokens": 3005.0,
+   "median_gap_accepted": null,
+   "p90_gap_accepted": null
+  }
+ ],
+ "twin_pairs": {
+  "qwen14b|loose|MULTI-G": {
+   "pairs": 96,
+   "both_blocked": 1,
+   "violation_only": 2,
+   "benign_only": 0,
+   "neither": 93
+  },
+  "qwen14b|loose|MULTI-UG": {
+   "pairs": 96,
+   "both_blocked": 0,
+   "violation_only": 0,
+   "benign_only": 0,
+   "neither": 96
+  },
+  "qwen14b|loose|SINGLE+G": {
+   "pairs": 96,
+   "both_blocked": 1,
+   "violation_only": 2,
+   "benign_only": 0,
+   "neither": 93
+  },
+  "qwen14b|loose|SINGLE-UG": {
+   "pairs": 96,
+   "both_blocked": 0,
+   "violation_only": 0,
+   "benign_only": 0,
+   "neither": 96
+  },
+  "qwen14b|tight|MULTI-G": {
+   "pairs": 96,
+   "both_blocked": 0,
+   "violation_only": 0,
+   "benign_only": 1,
+   "neither": 95
+  },
+  "qwen14b|tight|MULTI-UG": {
+   "pairs": 96,
+   "both_blocked": 0,
+   "violation_only": 0,
+   "benign_only": 0,
+   "neither": 96
+  },
+  "qwen14b|tight|SINGLE+G": {
+   "pairs": 96,
+   "both_blocked": 1,
+   "violation_only": 29,
+   "benign_only": 1,
+   "neither": 65
+  },
+  "qwen14b|tight|SINGLE-UG": {
+   "pairs": 96,
+   "both_blocked": 0,
+   "violation_only": 0,
+   "benign_only": 0,
+   "neither": 96
+  }
+ },
+ "stats": {
+  "rows_read": 1920,
+  "superseded": 0,
+  "broken_lines": 0,
+  "unique_keys": 1920,
+  "error_rows": 0
+ },
+ "replay_mismatches": [
+  {
+   "source": "first_final",
+   "logged": "8274d5158c0d99253bbb6b5c7f6a3a7203df00fb8f2cee06ef43ac0ce2e3685c",
+   "replayed": "48e308d10c4c4e207fa665e11227aa4f90808850cdb45973472f4892860153da"
+  },
+  {
+   "source": "first_final",
+   "logged": "8274d5158c0d99253bbb6b5c7f6a3a7203df00fb8f2cee06ef43ac0ce2e3685c",
+   "replayed": "48e308d10c4c4e207fa665e11227aa4f90808850cdb45973472f4892860153da"
+  },
+  {
+   "source": "first_final",
+   "logged": "8274d5158c0d99253bbb6b5c7f6a3a7203df00fb8f2cee06ef43ac0ce2e3685c",
+   "replayed": "48e308d10c4c4e207fa665e11227aa4f90808850cdb45973472f4892860153da"
+  },
+  {
+   "source": "first_final",
+   "logged": "8274d5158c0d99253bbb6b5c7f6a3a7203df00fb8f2cee06ef43ac0ce2e3685c",
+   "replayed": "48e308d10c4c4e207fa665e11227aa4f90808850cdb45973472f4892860153da"
+  },
+  {
+   "source": "first_final",
+   "logged": "8274d5158c0d99253bbb6b5c7f6a3a7203df00fb8f2cee06ef43ac0ce2e3685c",
+   "replayed": "48e308d10c4c4e207fa665e11227aa4f90808850cdb45973472f4892860153da"
+  },
+  {
+   "source": "first_final",
+   "logged": "8274d5158c0d99253bbb6b5c7f6a3a7203df00fb8f2cee06ef43ac0ce2e3685c",
+   "replayed": "48e308d10c4c4e207fa665e11227aa4f90808850cdb45973472f4892860153da"
+  },
+  {
+   "source": "first_final",
+   "logged": "8274d5158c0d99253bbb6b5c7f6a3a7203df00fb8f2cee06ef43ac0ce2e3685c",
+   "replayed": "48e308d10c4c4e207fa665e11227aa4f90808850cdb45973472f4892860153da"
+  },
+  {
+   "source": "first_final",
+   "logged": "8274d5158c0d99253bbb6b5c7f6a3a7203df00fb8f2cee06ef43ac0ce2e3685c",
+   "replayed": "48e308d10c4c4e207fa665e11227aa4f90808850cdb45973472f4892860153da"
+  },
+  {
+   "source": "first_final",
+   "logged": "ff7a46cb4049c038eda04e124e1dbf765260e0d07bf327e680469d9e2c5cab80",
+   "replayed": "37f5f1fbf2adbe0bd3406b45794a19068f599503c52eddbf5def9b34c43cbd1b"
+  },
+  {
+   "source": "first_final",
+   "logged": "cee495963516121403884731833228d011bd9de8cda3e993bc9c9b9acb92a409",
+   "replayed": "409ee095b2b5adf884edd3c36d86e60c943f884d7479736aa66c494abc51b662"
+  },
+  {
+   "source": "first_final",
+   "logged": "cee495963516121403884731833228d011bd9de8cda3e993bc9c9b9acb92a409",
+   "replayed": "409ee095b2b5adf884edd3c36d86e60c943f884d7479736aa66c494abc51b662"
+  },
+  {
+   "source": "first_final",
+   "logged": "cee495963516121403884731833228d011bd9de8cda3e993bc9c9b9acb92a409",
+   "replayed": "409ee095b2b5adf884edd3c36d86e60c943f884d7479736aa66c494abc51b662"
+  },
+  {
+   "source": "first_final",
+   "logged": "cee495963516121403884731833228d011bd9de8cda3e993bc9c9b9acb92a409",
+   "replayed": "409ee095b2b5adf884edd3c36d86e60c943f884d7479736aa66c494abc51b662"
+  },
+  {
+   "source": "first_final",
+   "logged": "cee495963516121403884731833228d011bd9de8cda3e993bc9c9b9acb92a409",
+   "replayed": "409ee095b2b5adf884edd3c36d86e60c943f884d7479736aa66c494abc51b662"
+  }
+ ]
+}

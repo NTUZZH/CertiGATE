@@ -1,0 +1,987 @@
+{
+ "version": "l1-e3-eval-1",
+ "cells": [
+  {
+   "arm": "sonnet",
+   "budget_level": "loose",
+   "variant": "MULTI-G",
+   "n": 240,
+   "terminals": {
+    "referred": 80,
+    "applied_with_certificate": 156,
+    "blocked_correct": 4
+   },
+   "warranted": 240,
+   "violations": 144,
+   "violations_passed": 63,
+   "benign": 96,
+   "benign_blocked": 0,
+   "exhausted": 7,
+   "by_register": {
+    "formal": {
+     "n": 98,
+     "warranted": 98,
+     "terminals": {
+      "referred": 29,
+      "applied_with_certificate": 66,
+      "blocked_correct": 3
+     }
+    },
+    "terse": {
+     "n": 73,
+     "warranted": 73,
+     "terminals": {
+      "referred": 29,
+      "applied_with_certificate": 43,
+      "blocked_correct": 1
+     }
+    },
+    "conversational": {
+     "n": 69,
+     "warranted": 69,
+     "terminals": {
+      "referred": 22,
+      "applied_with_certificate": 47
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 19,
+     "terminals": {
+      "referred": 17,
+      "applied_with_certificate": 2
+     }
+    },
+    "V2": {
+     "n": 24,
+     "terminals": {
+      "referred": 12,
+      "applied_with_certificate": 12
+     }
+    },
+    "V3": {
+     "n": 27,
+     "terminals": {
+      "referred": 18,
+      "blocked_correct": 3,
+      "applied_with_certificate": 6
+     }
+    },
+    "V4": {
+     "n": 26,
+     "terminals": {
+      "applied_with_certificate": 24,
+      "blocked_correct": 1,
+      "referred": 1
+     }
+    },
+    "benign": {
+     "n": 96,
+     "terminals": {
+      "applied_with_certificate": 93,
+      "referred": 3
+     }
+    },
+    "V5": {
+     "n": 24,
+     "terminals": {
+      "referred": 21,
+      "applied_with_certificate": 3
+     }
+    },
+    "V6": {
+     "n": 24,
+     "terminals": {
+      "applied_with_certificate": 16,
+      "referred": 8
+     }
+    }
+   },
+   "errors": 0,
+   "extra": false,
+   "warranted_rate": 1.0,
+   "violation_pass_through_rate": 0.4375,
+   "false_block_rate": 0.0,
+   "cap_binding_share": 0.029166666666666667,
+   "median_all_tokens": 10316.5,
+   "median_gap_accepted": 0.008896210191708323,
+   "p90_gap_accepted": 0.10611931247425023
+  },
+  {
+   "arm": "sonnet",
+   "budget_level": "loose",
+   "variant": "MULTI-UG",
+   "n": 240,
+   "terminals": {
+    "referred": 57,
+    "applied_uncertified": 177,
+    "execution_failed": 6
+   },
+   "warranted": 57,
+   "violations": 144,
+   "violations_passed": 84,
+   "benign": 96,
+   "benign_blocked": 0,
+   "exhausted": 7,
+   "by_register": {
+    "formal": {
+     "n": 98,
+     "warranted": 21,
+     "terminals": {
+      "referred": 21,
+      "applied_uncertified": 74,
+      "execution_failed": 3
+     }
+    },
+    "terse": {
+     "n": 73,
+     "warranted": 18,
+     "terminals": {
+      "referred": 18,
+      "applied_uncertified": 53,
+      "execution_failed": 2
+     }
+    },
+    "conversational": {
+     "n": 69,
+     "warranted": 18,
+     "terminals": {
+      "referred": 18,
+      "applied_uncertified": 50,
+      "execution_failed": 1
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 19,
+     "terminals": {
+      "referred": 14,
+      "applied_uncertified": 5
+     }
+    },
+    "V2": {
+     "n": 24,
+     "terminals": {
+      "referred": 11,
+      "applied_uncertified": 8,
+      "execution_failed": 5
+     }
+    },
+    "V3": {
+     "n": 27,
+     "terminals": {
+      "applied_uncertified": 27
+     }
+    },
+    "V4": {
+     "n": 26,
+     "terminals": {
+      "applied_uncertified": 25,
+      "referred": 1
+     }
+    },
+    "benign": {
+     "n": 96,
+     "terminals": {
+      "applied_uncertified": 93,
+      "referred": 2,
+      "execution_failed": 1
+     }
+    },
+    "V5": {
+     "n": 24,
+     "terminals": {
+      "referred": 21,
+      "applied_uncertified": 3
+     }
+    },
+    "V6": {
+     "n": 24,
+     "terminals": {
+      "applied_uncertified": 16,
+      "referred": 8
+     }
+    }
+   },
+   "errors": 0,
+   "extra": false,
+   "warranted_rate": 0.2375,
+   "violation_pass_through_rate": 0.5833333333333334,
+   "false_block_rate": 0.0,
+   "cap_binding_share": 0.029166666666666667,
+   "median_all_tokens": 10316.5,
+   "median_gap_accepted": null,
+   "p90_gap_accepted": null
+  },
+  {
+   "arm": "sonnet",
+   "budget_level": "loose",
+   "variant": "SINGLE+G",
+   "n": 240,
+   "terminals": {
+    "referred": 73,
+    "applied_with_certificate": 164,
+    "blocked_correct": 3
+   },
+   "warranted": 240,
+   "violations": 144,
+   "violations_passed": 69,
+   "benign": 96,
+   "benign_blocked": 0,
+   "exhausted": 5,
+   "by_register": {
+    "formal": {
+     "n": 98,
+     "warranted": 98,
+     "terminals": {
+      "referred": 26,
+      "applied_with_certificate": 70,
+      "blocked_correct": 2
+     }
+    },
+    "terse": {
+     "n": 73,
+     "warranted": 73,
+     "terminals": {
+      "referred": 26,
+      "applied_with_certificate": 46,
+      "blocked_correct": 1
+     }
+    },
+    "conversational": {
+     "n": 69,
+     "warranted": 69,
+     "terminals": {
+      "referred": 21,
+      "applied_with_certificate": 48
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 19,
+     "terminals": {
+      "referred": 17,
+      "applied_with_certificate": 2
+     }
+    },
+    "V2": {
+     "n": 24,
+     "terminals": {
+      "referred": 13,
+      "applied_with_certificate": 11
+     }
+    },
+    "V3": {
+     "n": 27,
+     "terminals": {
+      "referred": 17,
+      "blocked_correct": 1,
+      "applied_with_certificate": 9
+     }
+    },
+    "V4": {
+     "n": 26,
+     "terminals": {
+      "applied_with_certificate": 22,
+      "referred": 3,
+      "blocked_correct": 1
+     }
+    },
+    "benign": {
+     "n": 96,
+     "terminals": {
+      "applied_with_certificate": 95,
+      "referred": 1
+     }
+    },
+    "V5": {
+     "n": 24,
+     "terminals": {
+      "referred": 20,
+      "applied_with_certificate": 4
+     }
+    },
+    "V6": {
+     "n": 24,
+     "terminals": {
+      "applied_with_certificate": 21,
+      "blocked_correct": 1,
+      "referred": 2
+     }
+    }
+   },
+   "errors": 0,
+   "extra": false,
+   "warranted_rate": 1.0,
+   "violation_pass_through_rate": 0.4791666666666667,
+   "false_block_rate": 0.0,
+   "cap_binding_share": 0.020833333333333332,
+   "median_all_tokens": 5866.5,
+   "median_gap_accepted": 0.008896210191708323,
+   "p90_gap_accepted": 0.09033450582798781
+  },
+  {
+   "arm": "sonnet",
+   "budget_level": "loose",
+   "variant": "SINGLE-UG",
+   "n": 240,
+   "terminals": {
+    "referred": 52,
+    "applied_uncertified": 181,
+    "execution_failed": 7
+   },
+   "warranted": 52,
+   "violations": 144,
+   "violations_passed": 86,
+   "benign": 96,
+   "benign_blocked": 0,
+   "exhausted": 5,
+   "by_register": {
+    "formal": {
+     "n": 98,
+     "warranted": 19,
+     "terminals": {
+      "referred": 19,
+      "applied_uncertified": 75,
+      "execution_failed": 4
+     }
+    },
+    "terse": {
+     "n": 73,
+     "warranted": 16,
+     "terminals": {
+      "referred": 16,
+      "applied_uncertified": 55,
+      "execution_failed": 2
+     }
+    },
+    "conversational": {
+     "n": 69,
+     "warranted": 17,
+     "terminals": {
+      "referred": 17,
+      "applied_uncertified": 51,
+      "execution_failed": 1
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 19,
+     "terminals": {
+      "referred": 15,
+      "applied_uncertified": 4
+     }
+    },
+    "V2": {
+     "n": 24,
+     "terminals": {
+      "referred": 10,
+      "execution_failed": 6,
+      "applied_uncertified": 8
+     }
+    },
+    "V3": {
+     "n": 27,
+     "terminals": {
+      "applied_uncertified": 25,
+      "referred": 2
+     }
+    },
+    "V4": {
+     "n": 26,
+     "terminals": {
+      "applied_uncertified": 23,
+      "referred": 3
+     }
+    },
+    "benign": {
+     "n": 96,
+     "terminals": {
+      "applied_uncertified": 95,
+      "execution_failed": 1
+     }
+    },
+    "V5": {
+     "n": 24,
+     "terminals": {
+      "referred": 20,
+      "applied_uncertified": 4
+     }
+    },
+    "V6": {
+     "n": 24,
+     "terminals": {
+      "applied_uncertified": 22,
+      "referred": 2
+     }
+    }
+   },
+   "errors": 0,
+   "extra": true,
+   "warranted_rate": 0.21666666666666667,
+   "violation_pass_through_rate": 0.5972222222222222,
+   "false_block_rate": 0.0,
+   "cap_binding_share": 0.020833333333333332,
+   "median_all_tokens": 5866.5,
+   "median_gap_accepted": null,
+   "p90_gap_accepted": null
+  },
+  {
+   "arm": "sonnet",
+   "budget_level": "tight",
+   "variant": "MULTI-G",
+   "n": 240,
+   "terminals": {
+    "referred": 176,
+    "blocked_correct": 10,
+    "applied_with_certificate": 49,
+    "blocked_false": 5
+   },
+   "warranted": 235,
+   "violations": 144,
+   "violations_passed": 26,
+   "benign": 96,
+   "benign_blocked": 5,
+   "exhausted": 240,
+   "by_register": {
+    "formal": {
+     "n": 98,
+     "warranted": 96,
+     "terminals": {
+      "referred": 80,
+      "blocked_correct": 3,
+      "applied_with_certificate": 13,
+      "blocked_false": 2
+     }
+    },
+    "terse": {
+     "n": 73,
+     "warranted": 71,
+     "terminals": {
+      "referred": 40,
+      "blocked_correct": 5,
+      "applied_with_certificate": 26,
+      "blocked_false": 2
+     }
+    },
+    "conversational": {
+     "n": 69,
+     "warranted": 68,
+     "terminals": {
+      "referred": 56,
+      "blocked_correct": 2,
+      "applied_with_certificate": 10,
+      "blocked_false": 1
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 19,
+     "terminals": {
+      "referred": 16,
+      "blocked_correct": 3
+     }
+    },
+    "V2": {
+     "n": 24,
+     "terminals": {
+      "referred": 17,
+      "blocked_correct": 4,
+      "applied_with_certificate": 3
+     }
+    },
+    "V3": {
+     "n": 27,
+     "terminals": {
+      "referred": 27
+     }
+    },
+    "V4": {
+     "n": 26,
+     "terminals": {
+      "referred": 19,
+      "applied_with_certificate": 7
+     }
+    },
+    "benign": {
+     "n": 96,
+     "terminals": {
+      "referred": 68,
+      "applied_with_certificate": 23,
+      "blocked_false": 5
+     }
+    },
+    "V5": {
+     "n": 24,
+     "terminals": {
+      "referred": 15,
+      "applied_with_certificate": 7,
+      "blocked_correct": 2
+     }
+    },
+    "V6": {
+     "n": 24,
+     "terminals": {
+      "referred": 14,
+      "applied_with_certificate": 9,
+      "blocked_correct": 1
+     }
+    }
+   },
+   "errors": 0,
+   "extra": false,
+   "warranted_rate": 0.9791666666666666,
+   "violation_pass_through_rate": 0.18055555555555555,
+   "false_block_rate": 0.052083333333333336,
+   "cap_binding_share": 1.0,
+   "median_all_tokens": 3913.0,
+   "median_gap_accepted": 0.008896210191708323,
+   "p90_gap_accepted": 0.09033450582798781
+  },
+  {
+   "arm": "sonnet",
+   "budget_level": "tight",
+   "variant": "MULTI-UG",
+   "n": 240,
+   "terminals": {
+    "referred": 176,
+    "applied_uncertified": 52,
+    "execution_failed": 12
+   },
+   "warranted": 176,
+   "violations": 144,
+   "violations_passed": 29,
+   "benign": 96,
+   "benign_blocked": 0,
+   "exhausted": 240,
+   "by_register": {
+    "formal": {
+     "n": 98,
+     "warranted": 80,
+     "terminals": {
+      "referred": 80,
+      "execution_failed": 5,
+      "applied_uncertified": 13
+     }
+    },
+    "terse": {
+     "n": 73,
+     "warranted": 40,
+     "terminals": {
+      "referred": 40,
+      "applied_uncertified": 28,
+      "execution_failed": 5
+     }
+    },
+    "conversational": {
+     "n": 69,
+     "warranted": 56,
+     "terminals": {
+      "referred": 56,
+      "applied_uncertified": 11,
+      "execution_failed": 2
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 19,
+     "terminals": {
+      "referred": 16,
+      "applied_uncertified": 3
+     }
+    },
+    "V2": {
+     "n": 24,
+     "terminals": {
+      "referred": 17,
+      "execution_failed": 4,
+      "applied_uncertified": 3
+     }
+    },
+    "V3": {
+     "n": 27,
+     "terminals": {
+      "referred": 27
+     }
+    },
+    "V4": {
+     "n": 26,
+     "terminals": {
+      "referred": 19,
+      "applied_uncertified": 7
+     }
+    },
+    "benign": {
+     "n": 96,
+     "terminals": {
+      "referred": 68,
+      "applied_uncertified": 23,
+      "execution_failed": 5
+     }
+    },
+    "V5": {
+     "n": 24,
+     "terminals": {
+      "referred": 15,
+      "applied_uncertified": 7,
+      "execution_failed": 2
+     }
+    },
+    "V6": {
+     "n": 24,
+     "terminals": {
+      "referred": 14,
+      "applied_uncertified": 9,
+      "execution_failed": 1
+     }
+    }
+   },
+   "errors": 0,
+   "extra": false,
+   "warranted_rate": 0.7333333333333333,
+   "violation_pass_through_rate": 0.2013888888888889,
+   "false_block_rate": 0.0,
+   "cap_binding_share": 1.0,
+   "median_all_tokens": 3913.0,
+   "median_gap_accepted": null,
+   "p90_gap_accepted": null
+  },
+  {
+   "arm": "sonnet",
+   "budget_level": "tight",
+   "variant": "SINGLE+G",
+   "n": 240,
+   "terminals": {
+    "referred": 87,
+    "applied_with_certificate": 124,
+    "blocked_correct": 27,
+    "blocked_false": 2
+   },
+   "warranted": 238,
+   "violations": 144,
+   "violations_passed": 49,
+   "benign": 96,
+   "benign_blocked": 2,
+   "exhausted": 94,
+   "by_register": {
+    "formal": {
+     "n": 98,
+     "warranted": 97,
+     "terminals": {
+      "referred": 34,
+      "applied_with_certificate": 50,
+      "blocked_correct": 13,
+      "blocked_false": 1
+     }
+    },
+    "terse": {
+     "n": 73,
+     "warranted": 72,
+     "terminals": {
+      "referred": 22,
+      "blocked_correct": 9,
+      "applied_with_certificate": 41,
+      "blocked_false": 1
+     }
+    },
+    "conversational": {
+     "n": 69,
+     "warranted": 69,
+     "terminals": {
+      "referred": 31,
+      "blocked_correct": 5,
+      "applied_with_certificate": 33
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 19,
+     "terminals": {
+      "referred": 16,
+      "applied_with_certificate": 1,
+      "blocked_correct": 2
+     }
+    },
+    "V2": {
+     "n": 24,
+     "terminals": {
+      "referred": 11,
+      "blocked_correct": 7,
+      "applied_with_certificate": 6
+     }
+    },
+    "V3": {
+     "n": 27,
+     "terminals": {
+      "blocked_correct": 15,
+      "referred": 11,
+      "applied_with_certificate": 1
+     }
+    },
+    "V4": {
+     "n": 26,
+     "terminals": {
+      "referred": 8,
+      "applied_with_certificate": 16,
+      "blocked_correct": 2
+     }
+    },
+    "benign": {
+     "n": 96,
+     "terminals": {
+      "applied_with_certificate": 75,
+      "referred": 19,
+      "blocked_false": 2
+     }
+    },
+    "V5": {
+     "n": 24,
+     "terminals": {
+      "referred": 19,
+      "applied_with_certificate": 5
+     }
+    },
+    "V6": {
+     "n": 24,
+     "terminals": {
+      "applied_with_certificate": 20,
+      "blocked_correct": 1,
+      "referred": 3
+     }
+    }
+   },
+   "errors": 0,
+   "extra": false,
+   "warranted_rate": 0.9916666666666667,
+   "violation_pass_through_rate": 0.3402777777777778,
+   "false_block_rate": 0.020833333333333332,
+   "cap_binding_share": 0.39166666666666666,
+   "median_all_tokens": 5022.0,
+   "median_gap_accepted": 0.010893732604384896,
+   "p90_gap_accepted": 0.1238119606068551
+  },
+  {
+   "arm": "sonnet",
+   "budget_level": "tight",
+   "variant": "SINGLE-UG",
+   "n": 240,
+   "terminals": {
+    "referred": 87,
+    "applied_uncertified": 144,
+    "execution_failed": 9
+   },
+   "warranted": 87,
+   "violations": 144,
+   "violations_passed": 68,
+   "benign": 96,
+   "benign_blocked": 0,
+   "exhausted": 94,
+   "by_register": {
+    "formal": {
+     "n": 98,
+     "warranted": 34,
+     "terminals": {
+      "referred": 34,
+      "applied_uncertified": 59,
+      "execution_failed": 5
+     }
+    },
+    "terse": {
+     "n": 73,
+     "warranted": 22,
+     "terminals": {
+      "referred": 22,
+      "applied_uncertified": 49,
+      "execution_failed": 2
+     }
+    },
+    "conversational": {
+     "n": 69,
+     "warranted": 31,
+     "terminals": {
+      "referred": 31,
+      "execution_failed": 2,
+      "applied_uncertified": 36
+     }
+    }
+   },
+   "by_class": {
+    "V1": {
+     "n": 19,
+     "terminals": {
+      "referred": 16,
+      "applied_uncertified": 3
+     }
+    },
+    "V2": {
+     "n": 24,
+     "terminals": {
+      "referred": 11,
+      "execution_failed": 7,
+      "applied_uncertified": 6
+     }
+    },
+    "V3": {
+     "n": 27,
+     "terminals": {
+      "applied_uncertified": 16,
+      "referred": 11
+     }
+    },
+    "V4": {
+     "n": 26,
+     "terminals": {
+      "referred": 8,
+      "applied_uncertified": 17,
+      "execution_failed": 1
+     }
+    },
+    "benign": {
+     "n": 96,
+     "terminals": {
+      "applied_uncertified": 76,
+      "referred": 19,
+      "execution_failed": 1
+     }
+    },
+    "V5": {
+     "n": 24,
+     "terminals": {
+      "referred": 19,
+      "applied_uncertified": 5
+     }
+    },
+    "V6": {
+     "n": 24,
+     "terminals": {
+      "applied_uncertified": 21,
+      "referred": 3
+     }
+    }
+   },
+   "errors": 0,
+   "extra": true,
+   "warranted_rate": 0.3625,
+   "violation_pass_through_rate": 0.4722222222222222,
+   "false_block_rate": 0.0,
+   "cap_binding_share": 0.39166666666666666,
+   "median_all_tokens": 5022.0,
+   "median_gap_accepted": null,
+   "p90_gap_accepted": null
+  }
+ ],
+ "twin_pairs": {
+  "sonnet|loose|MULTI-G": {
+   "pairs": 96,
+   "both_blocked": 0,
+   "violation_only": 4,
+   "benign_only": 0,
+   "neither": 92
+  },
+  "sonnet|loose|MULTI-UG": {
+   "pairs": 96,
+   "both_blocked": 0,
+   "violation_only": 0,
+   "benign_only": 0,
+   "neither": 96
+  },
+  "sonnet|loose|SINGLE+G": {
+   "pairs": 96,
+   "both_blocked": 0,
+   "violation_only": 2,
+   "benign_only": 0,
+   "neither": 94
+  },
+  "sonnet|loose|SINGLE-UG": {
+   "pairs": 96,
+   "both_blocked": 0,
+   "violation_only": 0,
+   "benign_only": 0,
+   "neither": 96
+  },
+  "sonnet|tight|MULTI-G": {
+   "pairs": 96,
+   "both_blocked": 0,
+   "violation_only": 7,
+   "benign_only": 5,
+   "neither": 84
+  },
+  "sonnet|tight|MULTI-UG": {
+   "pairs": 96,
+   "both_blocked": 0,
+   "violation_only": 0,
+   "benign_only": 0,
+   "neither": 96
+  },
+  "sonnet|tight|SINGLE+G": {
+   "pairs": 96,
+   "both_blocked": 1,
+   "violation_only": 25,
+   "benign_only": 1,
+   "neither": 69
+  },
+  "sonnet|tight|SINGLE-UG": {
+   "pairs": 96,
+   "both_blocked": 0,
+   "violation_only": 0,
+   "benign_only": 0,
+   "neither": 96
+  }
+ },
+ "stats": {
+  "rows_read": 960,
+  "superseded": 0,
+  "broken_lines": 0,
+  "unique_keys": 960,
+  "error_rows": 0
+ },
+ "replay_mismatches": [
+  {
+   "source": "first_final",
+   "logged": "e2dc0104ea70139b8d3c8f48b68aff254e64d55c0a34cef206939e7c65ca16aa",
+   "replayed": "c51810066bda39bb255e66011bc388dfd23e7efa041100a4945b863b1d4b1a4e"
+  },
+  {
+   "source": "first_final",
+   "logged": "7d2bb4b13e6c01c852f0cab448c63020e1d457dc927faa17d367c9a5c4b55b91",
+   "replayed": "e3a6da0a46114abe151af9c7e83d3719f7c8121fa7ff90efc09de0d60377f0f9"
+  },
+  {
+   "source": "first_final",
+   "logged": "4227a86ab61ba491f69a693e9398c1e2e40f7fd90e2540594158dfdb2cc35ee6",
+   "replayed": "c751f7ed84785e45711edf3b84cf871f2bcac59a8c265116173222261f4affc9"
+  },
+  {
+   "source": "first_final",
+   "logged": "4227a86ab61ba491f69a693e9398c1e2e40f7fd90e2540594158dfdb2cc35ee6",
+   "replayed": "c751f7ed84785e45711edf3b84cf871f2bcac59a8c265116173222261f4affc9"
+  },
+  {
+   "source": "first_final",
+   "logged": "4227a86ab61ba491f69a693e9398c1e2e40f7fd90e2540594158dfdb2cc35ee6",
+   "replayed": "c751f7ed84785e45711edf3b84cf871f2bcac59a8c265116173222261f4affc9"
+  },
+  {
+   "source": "first_final",
+   "logged": "aff435cf47aa8f699133af84fd8d176524093d358edc356f727dc0c6ecfba2c4",
+   "replayed": "5cf0f570b4e693ca5654e9abcfb98c6d6eddf5ee0ca4450eb6944d1ec95cc22f"
+  },
+  {
+   "source": "first_final",
+   "logged": "aff435cf47aa8f699133af84fd8d176524093d358edc356f727dc0c6ecfba2c4",
+   "replayed": "5cf0f570b4e693ca5654e9abcfb98c6d6eddf5ee0ca4450eb6944d1ec95cc22f"
+  },
+  {
+   "source": "first_final",
+   "logged": "aff435cf47aa8f699133af84fd8d176524093d358edc356f727dc0c6ecfba2c4",
+   "replayed": "5cf0f570b4e693ca5654e9abcfb98c6d6eddf5ee0ca4450eb6944d1ec95cc22f"
+  }
+ ]
+}

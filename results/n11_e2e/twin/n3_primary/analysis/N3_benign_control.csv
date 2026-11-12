@@ -1,0 +1,12 @@
+# l1-n3-analysis-1 2026-11-04 05:30:20 +08 from ./results/n11_e2e/twin/n3_primary/n3_eval_opus, ./results/n11_e2e/twin/n3_primary/n3_eval_sol, ./results/n11_e2e/twin/n3_primary/n3_eval_sonnet, ./results/n11_e2e/twin/n3_primary/n3_eval_openai, ./results/n11_e2e/twin/n3_primary/n3_eval_deepseek
+arm,mode,thinking,status,pairs_v11_vs_v10,same_ops_v11_vs_v10,rate_v11_vs_v10,pairs_v10_r0_vs_r1,same_ops_v10_r0_vs_r1,rate_v10_r0_vs_r1
+opus,M_constrained,default,ok,400,388,0.97,200,196,0.98
+opus,M_free,default,ok,400,266,0.665,200,177,0.885
+sol,M_constrained,none,ok,200,172,0.86,0,0,
+sol,M_free,none,ok,0,0,,0,0,
+sonnet,M_constrained,disabled,ok,400,386,0.965,200,194,0.97
+sonnet,M_free,disabled,ok,400,307,0.7675,200,173,0.865
+openai,M_constrained,-,ok,400,370,0.925,200,191,0.955
+openai,M_free,-,ok,400,114,0.285,200,156,0.78
+deepseek,M_constrained,non_think,ok,400,285,0.7125,200,192,0.96
+deepseek,M_free,non_think,ok,400,165,0.4125,200,183,0.915

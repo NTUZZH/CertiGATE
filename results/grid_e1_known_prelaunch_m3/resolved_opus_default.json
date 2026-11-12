@@ -1,0 +1,320 @@
+{
+ "anthropic_version_header": "2023-06-01",
+ "checks": {
+  "by_group": {
+   "CFG": 2,
+   "FILE": 5176,
+   "GLOB": 1,
+   "LEAK": 1723,
+   "RUN": 7,
+   "WIRE": 4
+  },
+  "failures": [],
+  "n_checks": 6913
+ },
+ "comparator_meta": {
+  "arm": "opus",
+  "backend": "anthropic",
+  "cache_boundary": "\n\nWork orders this request refers to:",
+  "cache_boundary_fallback": "\n\nINSTRUCTION",
+  "cache_prefixes_per_pass": 327,
+  "date": "2026-08-12 17:37:37 +08",
+  "dedupe_rule": "last row per (arm, mode, thinking, repeat, item_id) wins; an earlier row for a key is a superseded API error",
+  "groups": 116,
+  "interrupted": false,
+  "items": 2000,
+  "max_retries": 4,
+  "max_tokens": 4096,
+  "mock": false,
+  "model": "claude-opus-5",
+  "modes": [
+   "M_constrained",
+   "M_free"
+  ],
+  "per_config": {
+   "M_constrained|default|r0": {
+    "calls": 1392,
+    "error": 0,
+    "latency_ms": 6408779.5392413875,
+    "ok": 1392,
+    "other": 0,
+    "out_tokens": 130282,
+    "usd": 12.367321499999996
+   },
+   "M_constrained|default|r1": {
+    "calls": 2000,
+    "error": 0,
+    "latency_ms": 9276514.573328711,
+    "ok": 1999,
+    "other": 1,
+    "out_tokens": 185380,
+    "usd": 17.228609750000018
+   },
+   "M_free|default|r0": {
+    "calls": 2000,
+    "error": 0,
+    "latency_ms": 4416025.29124357,
+    "ok": 495,
+    "other": 1505,
+    "out_tokens": 46534,
+    "usd": 12.52042149999997
+   },
+   "M_free|default|r1": {
+    "calls": 2000,
+    "error": 0,
+    "latency_ms": 4475305.573932771,
+    "ok": 496,
+    "other": 1504,
+    "out_tokens": 51004,
+    "usd": 12.588500250000004
+   },
+   "M_free|disabled|r0": {
+    "calls": 2000,
+    "error": 0,
+    "latency_ms": 4861873.454478224,
+    "ok": 439,
+    "other": 1561,
+    "out_tokens": 19776,
+    "usd": 12.20123824999998
+   },
+   "M_free|disabled|r1": {
+    "calls": 2000,
+    "error": 0,
+    "latency_ms": 5484366.867654996,
+    "ok": 441,
+    "other": 1559,
+    "out_tokens": 19894,
+    "usd": 12.252177749999985
+   }
+  },
+  "planned_calls": 11392,
+  "price_base": "list",
+  "price_date": "2026-08-11",
+  "prompt_version": "l1-prompt-1.0.0",
+  "repeats": 2,
+  "rows_written": 11392,
+  "schema_sha256": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+  "suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+  "thinking": [
+   "disabled",
+   "default"
+  ],
+  "thinking_bodies": {
+   "default": {},
+   "disabled": {
+    "thinking": {
+     "type": "disabled"
+    }
+   }
+  },
+  "timeout_s": 240.0,
+  "top_k": 10,
+  "usd_estimated": 79.15826899999996,
+  "wall_s": 7665.85803632802,
+  "wire": "anthropic",
+  "workers": 8
+ },
+ "comparator_meta_files": 1,
+ "comparator_run_meta": "run_meta_20260812T093737Z.json",
+ "config": {
+  "arm": "opus",
+  "backend": "anthropic",
+  "cache_boundary": "\n\nWork orders this request refers to:",
+  "cache_boundary_fallback": "\n\nINSTRUCTION",
+  "cache_group": "(instance, frozen seed, t_d): the known board differs between decision instants, so items share a cached prefix only within one t_d",
+  "item_set_sha256": "d0ac569d0d85f62288bf3856ac709581ada28dc1b017d6d53372ea34af905d4e",
+  "items": 1723,
+  "max_retries": 4,
+  "max_tokens": 4096,
+  "model": "claude-opus-5",
+  "modes": [
+   "M_constrained"
+  ],
+  "out_dir": "results/grid_e1_known_opus_default",
+  "prompt_variant": "known-board",
+  "prompt_version": "l1-prompt-1.0.0+known-board",
+  "prompts_sha256": "513f2cf8f59c590eb2016b54b1d322b3ddddb111070d0a31271be58549295eda",
+  "repeats": 2,
+  "schema_sha256": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+  "suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+  "thinking": [
+   "default"
+  ],
+  "thinking_bodies": {
+   "default": {}
+  },
+  "timeout_s": 240.0,
+  "top_k": 10,
+  "wire": "anthropic",
+  "workers": 4
+ },
+ "diffs_vs_published": [
+  {
+   "category": "modes",
+   "key": "modes",
+   "known_board": [
+    "M_constrained"
+   ],
+   "published": [
+    "M_constrained",
+    "M_free"
+   ]
+  },
+  {
+   "category": "item set",
+   "key": "items",
+   "known_board": 1723,
+   "published": 2000
+  },
+  {
+   "category": "request cap (design M3: at most 4 in flight per arm)",
+   "key": "workers",
+   "known_board": 4,
+   "published": 8
+  },
+  {
+   "category": "prompt version",
+   "key": "prompt_version",
+   "known_board": "l1-prompt-1.0.0+known-board",
+   "published": "l1-prompt-1.0.0"
+  },
+  {
+   "category": "not recorded in the published run_meta",
+   "key": "item_set_sha256",
+   "known_board": "d0ac569d0d85f62288bf3856ac709581ada28dc1b017d6d53372ea34af905d4e",
+   "published": "<not recorded>"
+  },
+  {
+   "category": "not recorded in the published run_meta",
+   "key": "prompt_variant",
+   "known_board": "known-board",
+   "published": "<not recorded>"
+  },
+  {
+   "category": "not recorded in the published run_meta",
+   "key": "prompts_sha256",
+   "known_board": "513f2cf8f59c590eb2016b54b1d322b3ddddb111070d0a31271be58549295eda",
+   "published": "<not recorded>"
+  },
+  {
+   "category": "not recorded in the published run_meta",
+   "key": "cache_group",
+   "known_board": "(instance, frozen seed, t_d): the known board differs between decision instants, so items share a cached prefix only within one t_d",
+   "published": "<not recorded>"
+  },
+  {
+   "category": "not recorded in the published run_meta",
+   "key": "out_dir",
+   "known_board": "results/grid_e1_known_opus_default",
+   "published": "<not recorded>"
+  },
+  {
+   "category": "process split: this process runs one of the published settings, with the same request body (design M3: one process per Claude configuration, each within the cap)",
+   "key": "thinking",
+   "known_board": [
+    "default"
+   ],
+   "published": [
+    "disabled",
+    "default"
+   ]
+  }
+ ],
+ "effort": "not sent: the model's default",
+ "endpoint": "https://api.anthropic.com/v1/messages",
+ "glob_audit": {
+  "files_scanned": 97,
+  "hits": [],
+  "names": [
+   "grid_e1_known_qwen14b",
+   "grid_e1_known_qwen27b",
+   "grid_e1_known_glm9b",
+   "grid_e1_known_openai",
+   "grid_e1_known_sonnet",
+   "grid_e1_known_opus",
+   "grid_e1_known_sol",
+   "grid_e1_known_deepseek",
+   "grid_e1_known_dryrun",
+   "n19_known_eval",
+   "n19_selftest",
+   "grid_e1_known_opus_default",
+   "grid_e1_known_opus_default_smoke",
+   "grid_e1_known_prelaunch_m3"
+  ]
+ },
+ "out_dir": "./results/grid_e1_known_opus_default",
+ "plan_calls_total": 3446,
+ "retries": {
+  "client": {
+   "max_retries": 4,
+   "retry_sleep_s": 2.0,
+   "schedule": "linear 2 x attempt on 429/5xx/529 and connection errors"
+  },
+  "transport": "exponential on [429, 529]: 7 tries, base 2.0 s, x2, cap 120.0 s, +<=25% jitter, retry-after honoured"
+ },
+ "seed": "none (published client drops it)",
+ "stop_conditions": "none sent: the model's own end of turn, max_tokens 4096, or a refusal",
+ "temperature": "never sent on the anthropic wire (published client)",
+ "wire": {
+  "default": {
+   "body_keys": [
+    "max_tokens",
+    "messages",
+    "model",
+    "output_config",
+    "system"
+   ],
+   "fields_not_sent": [
+    "temperature",
+    "top_p",
+    "top_k",
+    "stop_sequences",
+    "stream",
+    "metadata",
+    "tools",
+    "tool_choice",
+    "service_tier",
+    "inference_geo",
+    "speed",
+    "fallbacks"
+   ],
+   "headers_sent_besides_key": {
+    "Content-Type": "application/json",
+    "anthropic-version": "2023-06-01"
+   },
+   "identical_except_user_text": true,
+   "max_tokens": 4096,
+   "model": "claude-opus-5",
+   "output_config_schema_sha256": "8a818c88071d0a6eb04e6aa3c32a443027b04b6dd2817d17e1958e7863e11e15",
+   "path": "/v1/messages",
+   "system_prompt_sha256": "e4eaad1233460bc9d52acd03dfcdfa7d4a7cb4797101f46615da690e85995307",
+   "thinking_field": "<not sent: provider default>",
+   "user_blocks_known": [
+    {
+     "cache_control": {
+      "type": "ephemeral"
+     },
+     "text": "<1058 chars, sha256 29e1121dadb05dbe>",
+     "type": "text"
+    },
+    {
+     "text": "<1022 chars, sha256 95f36811ae295651>",
+     "type": "text"
+    }
+   ],
+   "user_blocks_whole_window": [
+    {
+     "cache_control": {
+      "type": "ephemeral"
+     },
+     "text": "<1058 chars, sha256 baf74cee04aaf22e>",
+     "type": "text"
+    },
+    {
+     "text": "<1022 chars, sha256 c3367b2840c2b67b>",
+     "type": "text"
+    }
+   ]
+  }
+ }
+}

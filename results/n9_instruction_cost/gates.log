@@ -1,0 +1,62 @@
+[n9d] wrote analysis/N9_heldout.csv, N9_published_v3.csv, N9_summary.md, N9_macros.tex
+[n9d] coverage: c held-out 440/440, published 440/440; g held-out 440/440
+# N9. Instruction cost under optimal execution, and the gates on a held-out V3 draw
+
+Generated 2026-11-03T20:44:52+08:00 by `code/scripts/n9_gates.py` (l1-n9-gates-1).
+
+**Coverage: COMPLETE.** c brackets present for 440/440 held-out rows and 440/440 published rows; g brackets for 440/440 held-out rows (reorder-only items use the baseline bracket; window items need the campaign's relaxed solves).
+
+## Held-out draw (no badness screen)
+
+| family | items |
+|---|---|
+| v3_reorder_behind_batch_member | 15 |
+| v3_reorder_block_tight | 70 |
+| v3_reorder_cross_trade | 45 |
+| v3_reorder_two_successors | 45 |
+| v3_window_blocked_predecessor | 45 |
+
+Share of held-out V3 items whose faithful translation degrades the ATC dispatch (badness > 0, the published admission statistic): 96.8%. badness_relative: min 0.0000, median 0.5703.
+
+## Gates at the published operating points, against g (no CP-SAT needed for reorder-only items)
+
+Detection on held-out V3 items with g_lo > delta (whole interval above delta), among 220 items with a g bracket:
+
+| delta | g-costly items | G-CERT | G-CERT-M | D-REL1 | D-REL2 | D-ABS |
+|---|---|---|---|---|---|---|
+| 0.05 | 211 | 92.4% [87.4%, 96.5%] (195/211) | 88.6% [82.2%, 94.2%] (187/211) | 100.0% [100.0%, 100.0%] (211/211) | 100.0% [100.0%, 100.0%] (211/211) | 100.0% [100.0%, 100.0%] (211/211) |
+| 0.1 | 205 | 95.1% [91.3%, 98.2%] (195/205) | 91.2% [85.7%, 96.0%] (187/205) | 100.0% [100.0%, 100.0%] (205/205) | 100.0% [100.0%, 100.0%] (205/205) | 100.0% [100.0%, 100.0%] (205/205) |
+| 0.2 | 195 | 100.0% [100.0%, 100.0%] (195/195) | 95.9% [91.4%, 99.5%] (187/195) | 100.0% [100.0%, 100.0%] (195/195) | 100.0% [100.0%, 100.0%] (195/195) | 100.0% [100.0%, 100.0%] (195/195) |
+
+Referrals of the 220 held-out benign twins (all twins):
+
+| G-CERT | G-CERT-M | D-REL1 | D-REL2 | D-ABS |
+|---|---|---|---|---|
+| 3.6% [0.0%, 9.3%] (8/220) | 0.0% [0.0%, 0.0%] (0/220) | 0.0% [0.0%, 0.0%] (0/220) | 0.0% [0.0%, 0.0%] (0/220) | 0.5% [0.0%, 1.4%] (1/220) |
+
+Under-/over-pricing against g on held-out V3 items (e < -0.05 / e > +0.05, decided rows):
+
+| gate | under | over | decided |
+|---|---|---|---|
+| G-CERT | 0 | 0 | 220 |
+| G-CERT-M | 39 | 0 | 220 |
+| D-REL1 | 63 | 0 | 220 |
+| D-REL2 | 63 | 0 | 220 |
+| D-ABS | 39 | 0 | 220 |
+
+## Gates against the instruction cost c (held-out)
+
+| delta | point | gate | c-costly | detect | false referral, c-cheap V3 | false referral, twins | false referral, c-cheap twins |
+|---|---|---|---|---|---|---|---|
+| 0.05 | published | G-CERT | 200 | 94.0% [89.4%, 97.6%] (188/200) | 35.0% [16.7%, 54.5%] (7/20) | 3.6% [0.0%, 9.3%] (8/220) | 3.6% [0.0%, 9.3%] (8/220) |
+| 0.05 | published | G-CERT-M | 200 | 90.5% [84.8%, 95.5%] (181/200) | 30.0% [11.8%, 50.0%] (6/20) | 0.0% [0.0%, 0.0%] (0/220) | 0.0% [0.0%, 0.0%] (0/220) |
+| 0.05 | published | D-REL1 | 200 | 100.0% [100.0%, 100.0%] (200/200) | 65.0% [43.8%, 86.7%] (13/20) | 0.0% [0.0%, 0.0%] (0/220) | 0.0% [0.0%, 0.0%] (0/220) |
+| 0.05 | published | D-REL2 | 200 | 100.0% [100.0%, 100.0%] (200/200) | 65.0% [43.8%, 86.7%] (13/20) | 0.0% [0.0%, 0.0%] (0/220) | 0.0% [0.0%, 0.0%] (0/220) |
+| 0.05 | published | D-ABS | 200 | 100.0% [100.0%, 100.0%] (200/200) | 65.0% [43.8%, 86.7%] (13/20) | 0.5% [0.0%, 1.4%] (1/220) | 0.5% [0.0%, 1.4%] (1/220) |
+| 0.05 | at_delta | G-CERT | 200 | 100.0% [100.0%, 100.0%] (200/200) | 55.0% [35.3%, 76.5%] (11/20) | 17.7% [7.4%, 29.7%] (39/220) | 17.7% [7.4%, 29.7%] (39/220) |
+| 0.05 | at_delta | G-CERT-M | 200 | 100.0% [100.0%, 100.0%] (200/200) | 50.0% [33.3%, 69.2%] (10/20) | 0.0% [0.0%, 0.0%] (0/220) | 0.0% [0.0%, 0.0%] (0/220) |
+| 0.05 | at_delta | D-REL1 | 200 | 100.0% [100.0%, 100.0%] (200/200) | 50.0% [33.3%, 69.2%] (10/20) | 0.0% [0.0%, 0.0%] (0/220) | 0.0% [0.0%, 0.0%] (0/220) |
+| 0.05 | at_delta | D-REL2 | 200 | 100.0% [100.0%, 100.0%] (200/200) | 50.0% [33.3%, 69.2%] (10/20) | 0.0% [0.0%, 0.0%] (0/220) | 0.0% [0.0%, 0.0%] (0/220) |
+| 0.1 | published | G-CERT | 188 | 96.8% [93.5%, 99.4%] (182/188) | 40.6% [25.8%, 56.5%] (13/32) | 3.6% [0.0%, 9.3%] (8/220) | 3.6% [0.0%, 9.3%] (8/220) |
+| 0.1 | published | G-CERT-M | 188 | 94.1% [89.7%, 97.8%] (177/188) | 31.2% [17.4%, 46.2%] (10/32) | 0.0% [0.0%, 0.0%] (0/220) | 0.0% [0.0%, 0.0%] (0/220) |
+| 0.1 | published | D-REL1 | 188 | 100.0% [100.0%, 100.0%] (188/188) | 78.1% [61.3%, 92.9%] (25/32) | 0.0% [0.0%, 0.0%] (0/220) | 0.0% [0.0%, 0.0%] (0/220) |

@@ -1,0 +1,8 @@
+items      : 2000
+out        : <project>/results/n17_heldout/published_rebuild
+sha256     : 0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a
+by set     : {'benign': 800, 'violation': 800, 'ambiguity': 200, 'adversarial': 200}
+by class   : {'benign': 800, 'V1': 160, 'V2': 200, 'V3': 220, 'V4': 220, 'V5': 200, 'V6': 200}
+build time : 460.9 s
+{"suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a", "identical_to_published": true, "items": 2000, "wall_s": 460.9}
+exit 0

@@ -1,0 +1,87 @@
+{
+ "code": {
+  "_fmwos.py": "0efc3060821d68f18c3d5c99fb55b4dd8d50ef3a4ae5f5094836adafb05e2530",
+  "apply.py": "1c846afa64c357f12093b31ea864c937677ac9d070dc7006ee1036b4dbf39435",
+  "cpsat.py": "7504e4133be8848e7f1604b8860b899490b6eaa897f2d128b490a6805327a903",
+  "cpsat_avail.py": "10d17fb8f12430524364dda17a1a3a02c963de27f5b934341aa51871de54033b",
+  "dispatch.py": "8c7961aa8044991eeefa5e7a5df1120e72796c44f72fee865d5af804d7a9d79b",
+  "evaluate.py": "5779288990097866d072a73850efa225b6819b961b15c4b516666f9ec1f6d3bc",
+  "guard.py": "ad94b85c67af1e3bf3a9a13c7ee9a7accbc42aa17e90b9c39800c4b45c337b65",
+  "lb2.py": "01093c9f3a46dd3cc2e52f16b7d37f6364e68feb1caff642a7fe5404196b1adf",
+  "n11_decision_time.py": "05978a918888782627f1cba89e67e590c306e0e6d52997e0181cbfc1fff2bc90",
+  "n11_forecast.py": "efb44dfa42c7b209d1a007244df9f038da26f188f624d58a4189ceda08f81800",
+  "n12_env_sensitivity.py": "4da07191000dd805a7e814ff9175492fbf6c881c57f734388388d47fc6f64681",
+  "n2_pricing.py": "7d45a57b0bfb5625144a6e0f9e2bf9d1278b537f8de19d4a4e2120472438ef66",
+  "n8_causal.py": "86b31d73db72842275ed4ed37e94f161ca27b7b640802eeaeebe8fb3e8b558d1",
+  "oracle_cost.py": "031098d638f63b618324ab1f001f6151c5c6d40660cff194df9e3c3d02d9a031"
+ },
+ "cores": [
+  8,
+  9,
+  10,
+  11
+ ],
+ "env": "cal",
+ "finished": "2026-11-04T09:56:04+08:00",
+ "host": "<host>",
+ "identity": {
+  "boards_compared": 27,
+  "fields_compared": 6000,
+  "fields_differing": {},
+  "running_work_code_added": [
+   "BEN-0383",
+   "BEN-0405",
+   "BEN-0428",
+   "BEN-0498",
+   "BEN-0519",
+   "V3-0093"
+  ]
+ },
+ "instance_wall_s": {
+  "c09_storm2_w80_u100_0014": 3.551463633775711,
+  "c10_replay_400_0004": 0.4792432775720954,
+  "c10_storm2_w80_u100_0011": 54.91585820168257
+ },
+ "load_avg_end": [
+  2.94,
+  2.66,
+  3.76
+ ],
+ "mkl_num_threads": "1",
+ "omp_num_threads": "1",
+ "outputs": {
+  "anchors.jsonl": "6d1738a39ef2557d031ff511f4a7dd5abfd898732e3d7f55cdba1a2ead3fb290",
+  "boards.jsonl": "9fb16d57b87c6a48241eb99b90c2fcf21c627f90e513c889b54c514761c89d3f",
+  "items.jsonl": "fa1282e88cd283145568b5e14670e4ee40820a08c69a365e875aa6107602d64c",
+  "om_tuples.jsonl": "692bcb044612eac6bff644602d917d757b4b6e9d565977e2d71bd84468604be8",
+  "relaxed_inputs.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+ },
+ "settings": {
+  "crew": 1.0,
+  "label": "calibrated",
+  "token": "Cal",
+  "window": 1.0
+ },
+ "smoke": true,
+ "stage": "census",
+ "summary": {
+  "a6_items": 51,
+  "a8_items": 20,
+  "board_trades": 299,
+  "boards": 27,
+  "c_components": 0,
+  "c_components_by_size": {},
+  "c_components_closed_by_lb2_already": 0,
+  "c_items_with_error": 0,
+  "items": 60,
+  "open_relaxed_by_size": {},
+  "open_relaxed_trades": 0,
+  "published": 60,
+  "published_not_issuable_closed": 11,
+  "published_not_issuable_strict": 28,
+  "trades_closed_by_lb2": 299
+ },
+ "version": "l1-n12-env-sensitivity-1",
+ "wall_s": 58.24831986427307,
+ "workers": 4
+}

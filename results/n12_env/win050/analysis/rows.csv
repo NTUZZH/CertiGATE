@@ -1,0 +1,953 @@
+# N12 win050 (l1-n12-env-sensitivity-1): metric rows
+env,window,crew,reading,table,quantity,design,group,value,n,den,lo,hi
+win050,0.500000,1.000000,full,Table 14,absolute_under_share,G-CERT,all,0.000000,0,1635,,
+win050,0.500000,1.000000,full,Table 14,absolute_over_share,G-CERT,all,0.000000,0,1635,,
+win050,0.500000,1.000000,full,Table 14,absolute_median_error,G-CERT,all,0.000015,,,0.000000,0.000031
+win050,0.500000,1.000000,full,Table 14,absolute_max_error,G-CERT,all,0.005238,,,,
+win050,0.500000,1.000000,full,Table 14,absolute_under_share,G-CERT-M,all,0.270336,442,1635,,
+win050,0.500000,1.000000,full,Table 14,absolute_over_share,G-CERT-M,all,0.000000,0,1635,,
+win050,0.500000,1.000000,full,Table 14,absolute_median_error,G-CERT-M,all,-0.019177,,,-0.019177,-0.019177
+win050,0.500000,1.000000,full,Table 14,absolute_max_error,G-CERT-M,all,0.000000,,,,
+win050,0.500000,1.000000,full,Table 14,absolute_under_share,D-REL1,all,0.285627,467,1635,,
+win050,0.500000,1.000000,full,Table 14,absolute_over_share,D-REL1,all,0.005505,9,1635,,
+win050,0.500000,1.000000,full,Table 14,absolute_median_error,D-REL1,all,-0.020197,,,-0.020197,-0.020197
+win050,0.500000,1.000000,full,Table 14,absolute_max_error,D-REL1,all,0.992466,,,,
+win050,0.500000,1.000000,full,Table 14,absolute_under_share,D-REL2,all,0.283180,463,1635,,
+win050,0.500000,1.000000,full,Table 14,absolute_over_share,D-REL2,all,0.000000,0,1635,,
+win050,0.500000,1.000000,full,Table 14,absolute_median_error,D-REL2,all,-0.020197,,,-0.020197,-0.020197
+win050,0.500000,1.000000,full,Table 14,absolute_max_error,D-REL2,all,0.000000,,,,
+win050,0.500000,1.000000,full,Table 14,absolute_under_share,D-ABS,all,0.276010,451,1635,,
+win050,0.500000,1.000000,full,Table 14,absolute_over_share,D-ABS,all,0.004893,8,1635,,
+win050,0.500000,1.000000,full,Table 14,absolute_median_error,D-ABS,all,-0.019177,,,-0.019177,-0.019177
+win050,0.500000,1.000000,full,Table 14,absolute_max_error,D-ABS,all,0.498109,,,,
+win050,0.500000,1.000000,full,Table 14,absolute_under_share,D-REL2|sequencing_only,all,0.275449,,835,,
+win050,0.500000,1.000000,full,Table 14,absolute_under_share,D-REL2|field_changing,all,0.291743,,545,,
+win050,0.500000,1.000000,full,Table 14,marginal_under_share,G-CERT,all,0.000000,0,1635,,
+win050,0.500000,1.000000,full,Table 14,marginal_over_share,G-CERT,all,0.270667,442,1635,,
+win050,0.500000,1.000000,full,Table 14,marginal_median_error,G-CERT,all,0.019177,,,0.019177,0.019177
+win050,0.500000,1.000000,full,Table 14,marginal_max_error,G-CERT,all,0.179005,,,,
+win050,0.500000,1.000000,full,Table 14,marginal_under_share,G-CERT-M,all,0.000000,0,1635,,
+win050,0.500000,1.000000,full,Table 14,marginal_over_share,G-CERT-M,all,0.000000,0,1635,,
+win050,0.500000,1.000000,full,Table 14,marginal_median_error,G-CERT-M,all,0.000000,,,0.000000,0.000000
+win050,0.500000,1.000000,full,Table 14,marginal_max_error,G-CERT-M,all,0.004926,,,,
+win050,0.500000,1.000000,full,Table 14,marginal_under_share,D-REL1,all,0.011016,18,1635,,
+win050,0.500000,1.000000,full,Table 14,marginal_over_share,D-REL1,all,0.015902,26,1635,,
+win050,0.500000,1.000000,full,Table 14,marginal_median_error,D-REL1,all,0.000000,,,0.000000,0.000000
+win050,0.500000,1.000000,full,Table 14,marginal_max_error,D-REL1,all,0.992466,,,,
+win050,0.500000,1.000000,full,Table 14,marginal_under_share,D-REL2,all,0.002446,4,1635,,
+win050,0.500000,1.000000,full,Table 14,marginal_over_share,D-REL2,all,0.000000,0,1635,,
+win050,0.500000,1.000000,full,Table 14,marginal_median_error,D-REL2,all,0.000000,,,0.000000,0.000000
+win050,0.500000,1.000000,full,Table 14,marginal_max_error,D-REL2,all,0.047433,,,,
+win050,0.500000,1.000000,full,Table 14,marginal_under_share,D-ABS,all,0.008568,14,1635,,
+win050,0.500000,1.000000,full,Table 14,marginal_over_share,D-ABS,all,0.015902,26,1635,,
+win050,0.500000,1.000000,full,Table 14,marginal_median_error,D-ABS,all,0.000000,,,0.000000,0.000000
+win050,0.500000,1.000000,full,Table 14,marginal_max_error,D-ABS,all,0.498109,,,,
+win050,0.500000,1.000000,full,Table 14,marginal_under_share,D-REL2|sequencing_only,all,0.004790,,835,,
+win050,0.500000,1.000000,full,Table 14,marginal_under_share,D-REL2|field_changing,all,0.000000,,545,,
+win050,0.500000,1.000000,full,Table 14,absolute_under_share,D-REL2|c09_storm2_w80,all,0.529554,,829,,
+win050,0.500000,1.000000,full,Table 14,absolute_median_error,D-REL2|c09_storm2_w80,all,-0.057992,,,-0.057992,-0.057992
+win050,0.500000,1.000000,full,Table 14,absolute_under_share,D-REL2|c10_storm2_w80,all,0.076677,,313,,
+win050,0.500000,1.000000,full,Table 14,absolute_median_error,D-REL2|c10_storm2_w80,all,-0.007018,,,-0.007252,-0.006783
+win050,0.500000,1.000000,full,Table 14,absolute_under_share,D-REL2|c10_replay_400,all,0.000000,,493,,
+win050,0.500000,1.000000,full,Table 14,absolute_median_error,D-REL2|c10_replay_400,all,0.000000,,,0.000000,0.000000
+win050,0.500000,1.000000,full,Table 14,certificate_overprice_max,G-CERT,all,0.005238,,,,
+win050,0.500000,1.000000,full,Table 14,certificate_overprice_p95,G-CERT,all,0.003116,,,,
+win050,0.500000,1.000000,full,Table 14,certificate_min_margin,G-CERT,all,0.000000,,,,
+win050,0.500000,1.000000,full,Table 15,anchor_gap_median,ATC dispatch,all,0.010107,60,,0.009750,0.010464
+win050,0.500000,1.000000,full,Table 15,anchor_gap_max,ATC dispatch,all,0.178989,60,,,
+win050,0.500000,1.000000,full,Table 15,certified_anchor_gap_median,G-CERT,all,0.010464,,,,
+win050,0.500000,1.000000,full,Table 15,anchor_gap_median,ATC dispatch,c09_storm2_w80,0.058822,24,,0.058822,0.058822
+win050,0.500000,1.000000,full,Table 15,anchor_gap_max,ATC dispatch,c09_storm2_w80,0.178989,24,,,
+win050,0.500000,1.000000,full,Table 15,certified_anchor_gap_median,G-CERT,c09_storm2_w80,0.058976,,,,
+win050,0.500000,1.000000,full,Table 15,anchor_gap_median,ATC dispatch,c10_storm2_w80,0.006722,12,,0.006425,0.007018
+win050,0.500000,1.000000,full,Table 15,anchor_gap_max,ATC dispatch,c10_storm2_w80,0.104152,12,,,
+win050,0.500000,1.000000,full,Table 15,certified_anchor_gap_median,G-CERT,c10_storm2_w80,0.007031,,,,
+win050,0.500000,1.000000,full,Table 15,anchor_gap_median,ATC dispatch,c10_replay_400,0.000000,24,,0.000000,0.000000
+win050,0.500000,1.000000,full,Table 15,anchor_gap_max,ATC dispatch,c10_replay_400,0.020988,24,,,
+win050,0.500000,1.000000,full,Table 15,certified_anchor_gap_median,G-CERT,c10_replay_400,0.000000,,,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_rule_miss_rate_delta0.1,rule,all,0.348168,133,382,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_cert_miss_rate_delta0.1,cert,all,0.507853,194,382,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_certm_miss_rate_delta0.1,certm,all,0.562827,215,382,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_union_miss_rate_delta0.1,union,all,0.348168,133,382,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_cert_fr_rate_delta0.1,cert,all,0.002137,3,1404,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_certm_fr_rate_delta0.1,certm,all,0.000000,0,1404,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_rule_fr_rate_delta0.1,rule,all,0.024217,34,1404,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_certm_miss_rate_delta0.1,certm,all,0.277056,64,231,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_unionm_fr_rate_delta0.1,unionm,all,0.024217,34,1404,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_rule_miss_rate_delta0.1,rule,all,0.000000,0,231,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_cert_fr_rate_delta0.1,cert,all,0.000000,0,1253,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_rule_fr_rate_delta0.1,rule,all,0.012769,16,1253,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_rule_miss_rate_delta0.2,rule,all,0.000000,0,188,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_cert_miss_rate_delta0.2,cert,all,0.000000,0,188,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_certm_miss_rate_delta0.2,certm,all,0.111702,21,188,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_union_miss_rate_delta0.2,union,all,0.000000,0,188,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_cert_fr_rate_delta0.2,cert,all,0.014305,21,1468,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_certm_fr_rate_delta0.2,certm,all,0.000000,0,1468,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_rule_fr_rate_delta0.2,rule,all,0.066757,98,1468,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_certm_miss_rate_delta0.2,certm,all,0.000000,0,167,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_unionm_fr_rate_delta0.2,unionm,all,0.066757,98,1468,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_rule_miss_rate_delta0.2,rule,all,0.000000,0,167,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_cert_fr_rate_delta0.2,cert,all,0.000000,0,1447,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_rule_fr_rate_delta0.2,rule,all,0.053214,77,1447,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_rule_miss_rate_delta0.1,rule,c09_storm2_w80,0.453061,111,245,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_cert_miss_rate_delta0.1,cert,c09_storm2_w80,0.563265,138,245,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_certm_miss_rate_delta0.1,certm,c09_storm2_w80,0.648980,159,245,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_union_miss_rate_delta0.1,union,c09_storm2_w80,0.453061,111,245,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_cert_fr_rate_delta0.1,cert,c09_storm2_w80,0.004219,3,711,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_certm_fr_rate_delta0.1,certm,c09_storm2_w80,0.000000,0,711,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_rule_fr_rate_delta0.1,rule,c09_storm2_w80,0.028129,20,711,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_certm_miss_rate_delta0.1,certm,c09_storm2_w80,0.271186,32,118,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_unionm_fr_rate_delta0.1,unionm,c09_storm2_w80,0.028129,20,711,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_rule_miss_rate_delta0.1,rule,c09_storm2_w80,0.000000,0,118,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_cert_fr_rate_delta0.1,cert,c09_storm2_w80,0.000000,0,584,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_rule_fr_rate_delta0.1,rule,c09_storm2_w80,0.006849,4,584,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_rule_miss_rate_delta0.2,rule,c09_storm2_w80,0.000000,0,107,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_cert_miss_rate_delta0.2,cert,c09_storm2_w80,0.000000,0,107,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_certm_miss_rate_delta0.2,certm,c09_storm2_w80,0.196262,21,107,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_union_miss_rate_delta0.2,union,c09_storm2_w80,0.000000,0,107,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_cert_fr_rate_delta0.2,cert,c09_storm2_w80,0.028264,21,743,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_certm_fr_rate_delta0.2,certm,c09_storm2_w80,0.000000,0,743,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_rule_fr_rate_delta0.2,rule,c09_storm2_w80,0.069987,52,743,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_certm_miss_rate_delta0.2,certm,c09_storm2_w80,0.000000,0,86,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_unionm_fr_rate_delta0.2,unionm,c09_storm2_w80,0.069987,52,743,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_rule_miss_rate_delta0.2,rule,c09_storm2_w80,0.000000,0,86,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_cert_fr_rate_delta0.2,cert,c09_storm2_w80,0.000000,0,722,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_rule_fr_rate_delta0.2,rule,c09_storm2_w80,0.042936,31,722,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_rule_miss_rate_delta0.1,rule,c10_storm2_w80,0.309859,22,71,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_cert_miss_rate_delta0.1,cert,c10_storm2_w80,0.436620,31,71,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_certm_miss_rate_delta0.1,certm,c10_storm2_w80,0.436620,31,71,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_union_miss_rate_delta0.1,union,c10_storm2_w80,0.309859,22,71,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_cert_fr_rate_delta0.1,cert,c10_storm2_w80,0.000000,0,265,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_certm_fr_rate_delta0.1,certm,c10_storm2_w80,0.000000,0,265,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_rule_fr_rate_delta0.1,rule,c10_storm2_w80,0.015094,4,265,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_certm_miss_rate_delta0.1,certm,c10_storm2_w80,0.166667,8,48,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_unionm_fr_rate_delta0.1,unionm,c10_storm2_w80,0.015094,4,265,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_rule_miss_rate_delta0.1,rule,c10_storm2_w80,0.000000,0,48,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_cert_fr_rate_delta0.1,cert,c10_storm2_w80,0.000000,0,242,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_rule_fr_rate_delta0.1,rule,c10_storm2_w80,0.012397,3,242,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_rule_miss_rate_delta0.2,rule,c10_storm2_w80,0.000000,0,40,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_cert_miss_rate_delta0.2,cert,c10_storm2_w80,0.000000,0,40,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_certm_miss_rate_delta0.2,certm,c10_storm2_w80,0.000000,0,40,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_union_miss_rate_delta0.2,union,c10_storm2_w80,0.000000,0,40,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_cert_fr_rate_delta0.2,cert,c10_storm2_w80,0.000000,0,273,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_certm_fr_rate_delta0.2,certm,c10_storm2_w80,0.000000,0,273,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_rule_fr_rate_delta0.2,rule,c10_storm2_w80,0.043956,12,273,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_certm_miss_rate_delta0.2,certm,c10_storm2_w80,0.000000,0,40,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_unionm_fr_rate_delta0.2,unionm,c10_storm2_w80,0.043956,12,273,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_rule_miss_rate_delta0.2,rule,c10_storm2_w80,0.000000,0,40,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_cert_fr_rate_delta0.2,cert,c10_storm2_w80,0.000000,0,273,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_rule_fr_rate_delta0.2,rule,c10_storm2_w80,0.043956,12,273,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_rule_miss_rate_delta0.1,rule,c10_replay_400,0.000000,0,66,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_cert_miss_rate_delta0.1,cert,c10_replay_400,0.378788,25,66,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_certm_miss_rate_delta0.1,certm,c10_replay_400,0.378788,25,66,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_union_miss_rate_delta0.1,union,c10_replay_400,0.000000,0,66,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_cert_fr_rate_delta0.1,cert,c10_replay_400,0.000000,0,428,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_certm_fr_rate_delta0.1,certm,c10_replay_400,0.000000,0,428,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_rule_fr_rate_delta0.1,rule,c10_replay_400,0.023364,10,428,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_certm_miss_rate_delta0.1,certm,c10_replay_400,0.369231,24,65,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_unionm_fr_rate_delta0.1,unionm,c10_replay_400,0.023364,10,428,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_rule_miss_rate_delta0.1,rule,c10_replay_400,0.000000,0,65,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_cert_fr_rate_delta0.1,cert,c10_replay_400,0.000000,0,427,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_rule_fr_rate_delta0.1,rule,c10_replay_400,0.021077,9,427,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_rule_miss_rate_delta0.2,rule,c10_replay_400,0.000000,0,41,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_cert_miss_rate_delta0.2,cert,c10_replay_400,0.000000,0,41,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_certm_miss_rate_delta0.2,certm,c10_replay_400,0.000000,0,41,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_union_miss_rate_delta0.2,union,c10_replay_400,0.000000,0,41,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_cert_fr_rate_delta0.2,cert,c10_replay_400,0.000000,0,452,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_certm_fr_rate_delta0.2,certm,c10_replay_400,0.000000,0,452,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_rule_fr_rate_delta0.2,rule,c10_replay_400,0.075221,34,452,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_certm_miss_rate_delta0.2,certm,c10_replay_400,0.000000,0,41,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_unionm_fr_rate_delta0.2,unionm,c10_replay_400,0.075221,34,452,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,marginal_rule_miss_rate_delta0.2,rule,c10_replay_400,0.000000,0,41,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_cert_fr_rate_delta0.2,cert,c10_replay_400,0.000000,0,452,,
+win050,0.500000,1.000000,full,Table 16 pricing panel,absolute_rule_fr_rate_delta0.2,rule,c10_replay_400,0.075221,34,452,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-FEAS,all,0.182500,365,2000,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-FEAS,benign,0.000000,0,800,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-FEAS,V1,0.812500,130,160,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-FEAS,V2,1.000000,200,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-FEAS,V3,0.000000,0,220,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-FEAS,V4,0.000000,0,220,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-FEAS,V5,0.000000,0,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-FEAS,V6,0.175000,35,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT,all,0.276500,553,2000,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT,benign,0.000000,0,800,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT,V1,0.812500,130,160,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT,V2,1.000000,200,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT,V3,0.740909,163,220,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT,V4,0.113636,25,220,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT,V5,0.000000,0,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT,V6,0.175000,35,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT-M,all,0.266000,532,2000,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT-M,benign,0.000000,0,800,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT-M,V1,0.812500,130,160,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT-M,V2,1.000000,200,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT-M,V3,0.668182,147,220,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT-M,V4,0.090909,20,220,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT-M,V5,0.000000,0,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT-M,V6,0.175000,35,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-REL1,all,0.329000,658,2000,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-REL1,benign,0.018750,15,800,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-REL1,V1,0.812500,130,160,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-REL1,V2,1.000000,200,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-REL1,V3,0.968182,213,220,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-REL1,V4,0.222727,49,220,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-REL1,V5,0.000000,0,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-REL1,V6,0.255000,51,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-REL2,all,0.315000,630,2000,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-REL2,benign,0.003750,3,800,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-REL2,V1,0.812500,130,160,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-REL2,V2,1.000000,200,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-REL2,V3,0.968182,213,220,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-REL2,V4,0.222727,49,220,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-REL2,V5,0.000000,0,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-REL2,V6,0.175000,35,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-ABS,all,0.356500,713,2000,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-ABS,benign,0.068750,55,800,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-ABS,V1,0.812500,130,160,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-ABS,V2,1.000000,200,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-ABS,V3,1.000000,220,220,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-ABS,V4,0.259091,57,220,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-ABS,V5,0.000000,0,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,D-ABS,V6,0.255000,51,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT|D-REL2,all,0.315000,630,2000,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT|D-REL2,benign,0.003750,3,800,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT|D-REL2,V1,0.812500,130,160,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT|D-REL2,V2,1.000000,200,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT|D-REL2,V3,0.968182,213,220,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT|D-REL2,V4,0.222727,49,220,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT|D-REL2,V5,0.000000,0,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT|D-REL2,V6,0.175000,35,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT-M|D-REL2,all,0.315000,630,2000,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT-M|D-REL2,benign,0.003750,3,800,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT-M|D-REL2,V1,0.812500,130,160,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT-M|D-REL2,V2,1.000000,200,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT-M|D-REL2,V3,0.968182,213,220,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT-M|D-REL2,V4,0.222727,49,220,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT-M|D-REL2,V5,0.000000,0,200,,
+win050,0.500000,1.000000,full,Table 10,stopped_share,G-CERT-M|D-REL2,V6,0.175000,35,200,,
+win050,0.500000,1.000000,known,Table 14,absolute_under_share,G-CERT,all,0.000000,0,1357,,
+win050,0.500000,1.000000,known,Table 14,absolute_over_share,G-CERT,all,0.002948,4,1357,,
+win050,0.500000,1.000000,known,Table 14,absolute_median_error,G-CERT,all,0.000000,,,0.000000,0.000000
+win050,0.500000,1.000000,known,Table 14,absolute_max_error,G-CERT,all,0.182338,,,,
+win050,0.500000,1.000000,known,Table 14,absolute_under_share,G-CERT-M,all,0.015475,21,1357,,
+win050,0.500000,1.000000,known,Table 14,absolute_over_share,G-CERT-M,all,0.000000,0,1357,,
+win050,0.500000,1.000000,known,Table 14,absolute_median_error,G-CERT-M,all,0.000000,,,0.000000,0.000000
+win050,0.500000,1.000000,known,Table 14,absolute_max_error,G-CERT-M,all,0.043499,,,,
+win050,0.500000,1.000000,known,Table 14,absolute_under_share,D-REL1,all,0.050111,68,1357,,
+win050,0.500000,1.000000,known,Table 14,absolute_over_share,D-REL1,all,0.036109,49,1357,,
+win050,0.500000,1.000000,known,Table 14,absolute_median_error,D-REL1,all,0.000000,,,0.000000,0.000000
+win050,0.500000,1.000000,known,Table 14,absolute_max_error,D-REL1,all,10.276767,,,,
+win050,0.500000,1.000000,known,Table 14,absolute_under_share,D-REL2,all,0.016949,23,1357,,
+win050,0.500000,1.000000,known,Table 14,absolute_over_share,D-REL2,all,0.000000,0,1357,,
+win050,0.500000,1.000000,known,Table 14,absolute_median_error,D-REL2,all,0.000000,,,0.000000,0.000000
+win050,0.500000,1.000000,known,Table 14,absolute_max_error,D-REL2,all,0.000000,,,,
+win050,0.500000,1.000000,known,Table 14,absolute_under_share,D-ABS,all,0.047900,65,1357,,
+win050,0.500000,1.000000,known,Table 14,absolute_over_share,D-ABS,all,0.036109,49,1357,,
+win050,0.500000,1.000000,known,Table 14,absolute_median_error,D-ABS,all,0.000000,,,0.000000,0.000000
+win050,0.500000,1.000000,known,Table 14,absolute_max_error,D-ABS,all,0.911322,,,,
+win050,0.500000,1.000000,known,Table 14,absolute_under_share,D-REL2|sequencing_only,all,0.017513,,571,,
+win050,0.500000,1.000000,known,Table 14,absolute_under_share,D-REL2|field_changing,all,0.013183,,531,,
+win050,0.500000,1.000000,known,Table 14,marginal_under_share,G-CERT,all,0.000000,0,1357,,
+win050,0.500000,1.000000,known,Table 14,marginal_over_share,G-CERT,all,0.016949,23,1357,,
+win050,0.500000,1.000000,known,Table 14,marginal_median_error,G-CERT,all,0.000000,,,0.000000,0.000000
+win050,0.500000,1.000000,known,Table 14,marginal_max_error,G-CERT,all,5.499000,,,,
+win050,0.500000,1.000000,known,Table 14,marginal_under_share,G-CERT-M,all,0.001474,2,1357,,
+win050,0.500000,1.000000,known,Table 14,marginal_over_share,G-CERT-M,all,0.000000,0,1357,,
+win050,0.500000,1.000000,known,Table 14,marginal_median_error,G-CERT-M,all,0.000000,,,0.000000,0.000000
+win050,0.500000,1.000000,known,Table 14,marginal_max_error,G-CERT-M,all,0.043766,,,,
+win050,0.500000,1.000000,known,Table 14,marginal_under_share,D-REL1,all,0.033161,45,1357,,
+win050,0.500000,1.000000,known,Table 14,marginal_over_share,D-REL1,all,0.036109,49,1357,,
+win050,0.500000,1.000000,known,Table 14,marginal_median_error,D-REL1,all,0.000000,,,0.000000,0.000000
+win050,0.500000,1.000000,known,Table 14,marginal_max_error,D-REL1,all,10.276767,,,,
+win050,0.500000,1.000000,known,Table 14,marginal_under_share,D-REL2,all,0.000737,1,1357,,
+win050,0.500000,1.000000,known,Table 14,marginal_over_share,D-REL2,all,0.000000,0,1357,,
+win050,0.500000,1.000000,known,Table 14,marginal_median_error,D-REL2,all,0.000000,,,0.000000,0.000000
+win050,0.500000,1.000000,known,Table 14,marginal_max_error,D-REL2,all,0.022847,,,,
+win050,0.500000,1.000000,known,Table 14,marginal_under_share,D-ABS,all,0.033161,45,1357,,
+win050,0.500000,1.000000,known,Table 14,marginal_over_share,D-ABS,all,0.036109,49,1357,,
+win050,0.500000,1.000000,known,Table 14,marginal_median_error,D-ABS,all,0.000000,,,0.000000,0.000000
+win050,0.500000,1.000000,known,Table 14,marginal_max_error,D-ABS,all,0.911322,,,,
+win050,0.500000,1.000000,known,Table 14,marginal_under_share,D-REL2|sequencing_only,all,0.000000,,571,,
+win050,0.500000,1.000000,known,Table 14,marginal_under_share,D-REL2|field_changing,all,0.001883,,531,,
+win050,0.500000,1.000000,known,Table 14,absolute_under_share,D-REL2|c09_storm2_w80,all,0.032624,,705,,
+win050,0.500000,1.000000,known,Table 14,absolute_median_error,D-REL2|c09_storm2_w80,all,0.000000,,,0.000000,0.000000
+win050,0.500000,1.000000,known,Table 14,absolute_under_share,D-REL2|c10_storm2_w80,all,0.000000,,263,,
+win050,0.500000,1.000000,known,Table 14,absolute_median_error,D-REL2|c10_storm2_w80,all,0.000000,,,0.000000,0.000000
+win050,0.500000,1.000000,known,Table 14,absolute_under_share,D-REL2|c10_replay_400,all,0.000000,,389,,
+win050,0.500000,1.000000,known,Table 14,absolute_median_error,D-REL2|c10_replay_400,all,0.000000,,,0.000000,0.000000
+win050,0.500000,1.000000,known,Table 14,certificate_overprice_max,G-CERT,all,0.182338,,,,
+win050,0.500000,1.000000,known,Table 14,certificate_overprice_p95,G-CERT,all,0.000000,,,,
+win050,0.500000,1.000000,known,Table 14,certificate_min_margin,G-CERT,all,0.000000,,,,
+win050,0.500000,1.000000,known,Table 15,anchor_gap_median,ATC dispatch,all,0.000000,1724,,0.000000,0.000000
+win050,0.500000,1.000000,known,Table 15,anchor_gap_max,ATC dispatch,all,5.499000,1724,,,
+win050,0.500000,1.000000,known,Table 15,certified_anchor_gap_median,G-CERT,all,0.000000,,,,
+win050,0.500000,1.000000,known,Table 15,anchor_gap_median,ATC dispatch,c09_storm2_w80,0.000000,889,,0.000000,0.000000
+win050,0.500000,1.000000,known,Table 15,anchor_gap_max,ATC dispatch,c09_storm2_w80,5.499000,889,,,
+win050,0.500000,1.000000,known,Table 15,certified_anchor_gap_median,G-CERT,c09_storm2_w80,0.000000,,,,
+win050,0.500000,1.000000,known,Table 15,anchor_gap_median,ATC dispatch,c10_storm2_w80,0.000000,337,,0.000000,0.000000
+win050,0.500000,1.000000,known,Table 15,anchor_gap_max,ATC dispatch,c10_storm2_w80,0.000660,337,,,
+win050,0.500000,1.000000,known,Table 15,certified_anchor_gap_median,G-CERT,c10_storm2_w80,0.000000,,,,
+win050,0.500000,1.000000,known,Table 15,anchor_gap_median,ATC dispatch,c10_replay_400,0.000000,498,,0.000000,0.000000
+win050,0.500000,1.000000,known,Table 15,anchor_gap_max,ATC dispatch,c10_replay_400,0.048172,498,,,
+win050,0.500000,1.000000,known,Table 15,certified_anchor_gap_median,G-CERT,c10_replay_400,0.000000,,,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_rule_miss_rate_delta0.1,rule,all,0.086758,19,219,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_cert_miss_rate_delta0.1,cert,all,0.150685,33,219,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_certm_miss_rate_delta0.1,certm,all,0.242009,53,219,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_union_miss_rate_delta0.1,union,all,0.000000,0,219,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_cert_fr_rate_delta0.1,cert,all,0.016408,19,1158,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_certm_fr_rate_delta0.1,certm,all,0.000000,0,1158,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_rule_fr_rate_delta0.1,rule,all,0.013817,16,1158,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_certm_miss_rate_delta0.1,certm,all,0.165829,33,199,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_unionm_fr_rate_delta0.1,unionm,all,0.013817,16,1158,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_rule_miss_rate_delta0.1,rule,all,0.000000,0,199,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_cert_fr_rate_delta0.1,cert,all,0.000000,0,1138,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_rule_fr_rate_delta0.1,rule,all,0.013181,15,1138,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_rule_miss_rate_delta0.2,rule,all,0.102151,19,186,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_cert_miss_rate_delta0.2,cert,all,0.000000,0,186,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_certm_miss_rate_delta0.2,certm,all,0.107527,20,186,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_union_miss_rate_delta0.2,union,all,0.000000,0,186,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_cert_fr_rate_delta0.2,cert,all,0.016793,20,1191,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_certm_fr_rate_delta0.2,certm,all,0.000000,0,1191,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_rule_fr_rate_delta0.2,rule,all,0.041142,49,1191,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_certm_miss_rate_delta0.2,certm,all,0.000000,0,166,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_unionm_fr_rate_delta0.2,unionm,all,0.041142,49,1191,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_rule_miss_rate_delta0.2,rule,all,0.000000,0,166,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_cert_fr_rate_delta0.2,cert,all,0.000000,0,1171,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_rule_fr_rate_delta0.2,rule,all,0.040991,48,1171,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_rule_miss_rate_delta0.1,rule,c09_storm2_w80,0.138686,19,137,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_cert_miss_rate_delta0.1,cert,c09_storm2_w80,0.124088,17,137,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_certm_miss_rate_delta0.1,certm,c09_storm2_w80,0.270073,37,137,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_union_miss_rate_delta0.1,union,c09_storm2_w80,0.000000,0,137,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_cert_fr_rate_delta0.1,cert,c09_storm2_w80,0.032368,19,587,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_certm_fr_rate_delta0.1,certm,c09_storm2_w80,0.000000,0,587,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_rule_fr_rate_delta0.1,rule,c09_storm2_w80,0.013629,8,587,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_certm_miss_rate_delta0.1,certm,c09_storm2_w80,0.152542,18,118,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_unionm_fr_rate_delta0.1,unionm,c09_storm2_w80,0.013629,8,587,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_rule_miss_rate_delta0.1,rule,c09_storm2_w80,0.000000,0,118,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_cert_fr_rate_delta0.1,cert,c09_storm2_w80,0.000000,0,568,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_rule_fr_rate_delta0.1,rule,c09_storm2_w80,0.014085,8,568,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_rule_miss_rate_delta0.2,rule,c09_storm2_w80,0.158333,19,120,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_cert_miss_rate_delta0.2,cert,c09_storm2_w80,0.000000,0,120,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_certm_miss_rate_delta0.2,certm,c09_storm2_w80,0.166667,20,120,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_union_miss_rate_delta0.2,union,c09_storm2_w80,0.000000,0,120,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_cert_fr_rate_delta0.2,cert,c09_storm2_w80,0.033058,20,605,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_certm_fr_rate_delta0.2,certm,c09_storm2_w80,0.000000,0,605,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_rule_fr_rate_delta0.2,rule,c09_storm2_w80,0.042975,26,605,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_certm_miss_rate_delta0.2,certm,c09_storm2_w80,0.000000,0,100,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_unionm_fr_rate_delta0.2,unionm,c09_storm2_w80,0.042975,26,605,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_rule_miss_rate_delta0.2,rule,c09_storm2_w80,0.000000,0,100,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_cert_fr_rate_delta0.2,cert,c09_storm2_w80,0.000000,0,585,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_rule_fr_rate_delta0.2,rule,c09_storm2_w80,0.042735,25,585,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_rule_miss_rate_delta0.1,rule,c10_storm2_w80,0.000000,0,39,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_cert_miss_rate_delta0.1,cert,c10_storm2_w80,0.025641,1,39,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_certm_miss_rate_delta0.1,certm,c10_storm2_w80,0.025641,1,39,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_union_miss_rate_delta0.1,union,c10_storm2_w80,0.000000,0,39,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_cert_fr_rate_delta0.1,cert,c10_storm2_w80,0.000000,0,224,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_certm_fr_rate_delta0.1,certm,c10_storm2_w80,0.000000,0,224,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_rule_fr_rate_delta0.1,rule,c10_storm2_w80,0.008929,2,224,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_certm_miss_rate_delta0.1,certm,c10_storm2_w80,0.025641,1,39,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_unionm_fr_rate_delta0.1,unionm,c10_storm2_w80,0.008929,2,224,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_rule_miss_rate_delta0.1,rule,c10_storm2_w80,0.000000,0,39,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_cert_fr_rate_delta0.1,cert,c10_storm2_w80,0.000000,0,224,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_rule_fr_rate_delta0.1,rule,c10_storm2_w80,0.008929,2,224,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_rule_miss_rate_delta0.2,rule,c10_storm2_w80,0.000000,0,38,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_cert_miss_rate_delta0.2,cert,c10_storm2_w80,0.000000,0,38,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_certm_miss_rate_delta0.2,certm,c10_storm2_w80,0.000000,0,38,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_union_miss_rate_delta0.2,union,c10_storm2_w80,0.000000,0,38,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_cert_fr_rate_delta0.2,cert,c10_storm2_w80,0.000000,0,225,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_certm_fr_rate_delta0.2,certm,c10_storm2_w80,0.000000,0,225,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_rule_fr_rate_delta0.2,rule,c10_storm2_w80,0.013333,3,225,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_certm_miss_rate_delta0.2,certm,c10_storm2_w80,0.000000,0,38,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_unionm_fr_rate_delta0.2,unionm,c10_storm2_w80,0.013333,3,225,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_rule_miss_rate_delta0.2,rule,c10_storm2_w80,0.000000,0,38,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_cert_fr_rate_delta0.2,cert,c10_storm2_w80,0.000000,0,225,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_rule_fr_rate_delta0.2,rule,c10_storm2_w80,0.013333,3,225,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_rule_miss_rate_delta0.1,rule,c10_replay_400,0.000000,0,43,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_cert_miss_rate_delta0.1,cert,c10_replay_400,0.348837,15,43,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_certm_miss_rate_delta0.1,certm,c10_replay_400,0.348837,15,43,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_union_miss_rate_delta0.1,union,c10_replay_400,0.000000,0,43,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_cert_fr_rate_delta0.1,cert,c10_replay_400,0.000000,0,347,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_certm_fr_rate_delta0.1,certm,c10_replay_400,0.000000,0,347,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_rule_fr_rate_delta0.1,rule,c10_replay_400,0.017291,6,347,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_certm_miss_rate_delta0.1,certm,c10_replay_400,0.333333,14,42,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_unionm_fr_rate_delta0.1,unionm,c10_replay_400,0.017291,6,347,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_rule_miss_rate_delta0.1,rule,c10_replay_400,0.000000,0,42,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_cert_fr_rate_delta0.1,cert,c10_replay_400,0.000000,0,346,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_rule_fr_rate_delta0.1,rule,c10_replay_400,0.014451,5,346,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_rule_miss_rate_delta0.2,rule,c10_replay_400,0.000000,0,28,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_cert_miss_rate_delta0.2,cert,c10_replay_400,0.000000,0,28,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_certm_miss_rate_delta0.2,certm,c10_replay_400,0.000000,0,28,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_union_miss_rate_delta0.2,union,c10_replay_400,0.000000,0,28,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_cert_fr_rate_delta0.2,cert,c10_replay_400,0.000000,0,361,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_certm_fr_rate_delta0.2,certm,c10_replay_400,0.000000,0,361,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_rule_fr_rate_delta0.2,rule,c10_replay_400,0.055402,20,361,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_certm_miss_rate_delta0.2,certm,c10_replay_400,0.000000,0,28,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_unionm_fr_rate_delta0.2,unionm,c10_replay_400,0.055402,20,361,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,marginal_rule_miss_rate_delta0.2,rule,c10_replay_400,0.000000,0,28,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_cert_fr_rate_delta0.2,cert,c10_replay_400,0.000000,0,361,,
+win050,0.500000,1.000000,known,Table 16 pricing panel,absolute_rule_fr_rate_delta0.2,rule,c10_replay_400,0.055402,20,361,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_rule_miss_rate_delta0.1,rule,all,0.410095,130,317,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_cert_miss_rate_delta0.1,cert,all,0.504732,160,317,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_certm_miss_rate_delta0.1,certm,all,0.507886,161,317,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_union_miss_rate_delta0.1,union,all,0.410095,130,317,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_cert_fr_rate_delta0.1,cert,all,0.031489,37,1175,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_certm_fr_rate_delta0.1,certm,all,0.014468,17,1175,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_rule_fr_rate_delta0.1,rule,all,0.042553,50,1175,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_certm_miss_rate_delta0.1,certm,all,0.181319,33,182,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_unionm_fr_rate_delta0.1,unionm,all,0.042553,50,1175,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_rule_miss_rate_delta0.1,rule,all,0.093407,17,182,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_cert_fr_rate_delta0.1,cert,all,0.027885,29,1040,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_rule_fr_rate_delta0.1,rule,all,0.026923,28,1040,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_rule_miss_rate_delta0.2,rule,all,0.061644,9,146,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_cert_miss_rate_delta0.2,cert,all,0.075342,11,146,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_certm_miss_rate_delta0.2,certm,all,0.075342,11,146,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_union_miss_rate_delta0.2,union,all,0.061644,9,146,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_cert_fr_rate_delta0.2,cert,all,0.056680,70,1235,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_certm_fr_rate_delta0.2,certm,all,0.040486,50,1235,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_rule_fr_rate_delta0.2,rule,all,0.080162,99,1235,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_certm_miss_rate_delta0.2,certm,all,0.049180,6,122,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_unionm_fr_rate_delta0.2,unionm,all,0.080162,99,1235,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_rule_miss_rate_delta0.2,rule,all,0.049180,6,122,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_cert_fr_rate_delta0.2,cert,all,0.042114,51,1211,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_rule_fr_rate_delta0.2,rule,all,0.064410,78,1211,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_rule_miss_rate_delta0.1,rule,c09_storm2_w80,0.476636,102,214,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_cert_miss_rate_delta0.1,cert,c09_storm2_w80,0.556075,119,214,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_certm_miss_rate_delta0.1,certm,c09_storm2_w80,0.560748,120,214,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_union_miss_rate_delta0.1,union,c09_storm2_w80,0.476636,102,214,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_cert_fr_rate_delta0.1,cert,c09_storm2_w80,0.054636,33,604,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_certm_fr_rate_delta0.1,certm,c09_storm2_w80,0.021523,13,604,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_rule_fr_rate_delta0.1,rule,c09_storm2_w80,0.057947,35,604,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_certm_miss_rate_delta0.1,certm,c09_storm2_w80,0.138614,14,101,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_unionm_fr_rate_delta0.1,unionm,c09_storm2_w80,0.057947,35,604,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_rule_miss_rate_delta0.1,rule,c09_storm2_w80,0.099010,10,101,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_cert_fr_rate_delta0.1,cert,c09_storm2_w80,0.050916,25,491,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_rule_fr_rate_delta0.1,rule,c09_storm2_w80,0.028513,14,491,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_rule_miss_rate_delta0.2,rule,c09_storm2_w80,0.078652,7,89,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_cert_miss_rate_delta0.2,cert,c09_storm2_w80,0.101124,9,89,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_certm_miss_rate_delta0.2,certm,c09_storm2_w80,0.101124,9,89,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_union_miss_rate_delta0.2,union,c09_storm2_w80,0.078652,7,89,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_cert_fr_rate_delta0.2,cert,c09_storm2_w80,0.092188,59,640,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_certm_fr_rate_delta0.2,certm,c09_storm2_w80,0.060937,39,640,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_rule_fr_rate_delta0.2,rule,c09_storm2_w80,0.101562,65,640,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_certm_miss_rate_delta0.2,certm,c09_storm2_w80,0.061538,4,65,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_unionm_fr_rate_delta0.2,unionm,c09_storm2_w80,0.101562,65,640,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_rule_miss_rate_delta0.2,rule,c09_storm2_w80,0.061538,4,65,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_cert_fr_rate_delta0.2,cert,c09_storm2_w80,0.064935,40,616,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_rule_fr_rate_delta0.2,rule,c09_storm2_w80,0.071429,44,616,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_rule_miss_rate_delta0.1,rule,c10_storm2_w80,0.406780,24,59,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_cert_miss_rate_delta0.1,cert,c10_storm2_w80,0.423729,25,59,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_certm_miss_rate_delta0.1,certm,c10_storm2_w80,0.423729,25,59,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_union_miss_rate_delta0.1,union,c10_storm2_w80,0.406780,24,59,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_cert_fr_rate_delta0.1,cert,c10_storm2_w80,0.017778,4,225,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_certm_fr_rate_delta0.1,certm,c10_storm2_w80,0.017778,4,225,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_rule_fr_rate_delta0.1,rule,c10_storm2_w80,0.026667,6,225,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_certm_miss_rate_delta0.1,certm,c10_storm2_w80,0.105263,4,38,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_unionm_fr_rate_delta0.1,unionm,c10_storm2_w80,0.026667,6,225,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_rule_miss_rate_delta0.1,rule,c10_storm2_w80,0.078947,3,38,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_cert_fr_rate_delta0.1,cert,c10_storm2_w80,0.019608,4,204,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_rule_fr_rate_delta0.1,rule,c10_storm2_w80,0.029412,6,204,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_rule_miss_rate_delta0.2,rule,c10_storm2_w80,0.032258,1,31,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_cert_miss_rate_delta0.2,cert,c10_storm2_w80,0.032258,1,31,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_certm_miss_rate_delta0.2,certm,c10_storm2_w80,0.032258,1,31,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_union_miss_rate_delta0.2,union,c10_storm2_w80,0.032258,1,31,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_cert_fr_rate_delta0.2,cert,c10_storm2_w80,0.034483,8,232,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_certm_fr_rate_delta0.2,certm,c10_storm2_w80,0.034483,8,232,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_rule_fr_rate_delta0.2,rule,c10_storm2_w80,0.047414,11,232,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_certm_miss_rate_delta0.2,certm,c10_storm2_w80,0.032258,1,31,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_unionm_fr_rate_delta0.2,unionm,c10_storm2_w80,0.047414,11,232,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_rule_miss_rate_delta0.2,rule,c10_storm2_w80,0.032258,1,31,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_cert_fr_rate_delta0.2,cert,c10_storm2_w80,0.034483,8,232,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_rule_fr_rate_delta0.2,rule,c10_storm2_w80,0.047414,11,232,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_rule_miss_rate_delta0.1,rule,c10_replay_400,0.090909,4,44,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_cert_miss_rate_delta0.1,cert,c10_replay_400,0.363636,16,44,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_certm_miss_rate_delta0.1,certm,c10_replay_400,0.363636,16,44,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_union_miss_rate_delta0.1,union,c10_replay_400,0.090909,4,44,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_cert_fr_rate_delta0.1,cert,c10_replay_400,0.000000,0,346,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_certm_fr_rate_delta0.1,certm,c10_replay_400,0.000000,0,346,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_rule_fr_rate_delta0.1,rule,c10_replay_400,0.026012,9,346,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_certm_miss_rate_delta0.1,certm,c10_replay_400,0.348837,15,43,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_unionm_fr_rate_delta0.1,unionm,c10_replay_400,0.026012,9,346,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_rule_miss_rate_delta0.1,rule,c10_replay_400,0.093023,4,43,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_cert_fr_rate_delta0.1,cert,c10_replay_400,0.000000,0,345,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_rule_fr_rate_delta0.1,rule,c10_replay_400,0.023188,8,345,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_rule_miss_rate_delta0.2,rule,c10_replay_400,0.038462,1,26,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_cert_miss_rate_delta0.2,cert,c10_replay_400,0.038462,1,26,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_certm_miss_rate_delta0.2,certm,c10_replay_400,0.038462,1,26,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_union_miss_rate_delta0.2,union,c10_replay_400,0.038462,1,26,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_cert_fr_rate_delta0.2,cert,c10_replay_400,0.008264,3,363,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_certm_fr_rate_delta0.2,certm,c10_replay_400,0.008264,3,363,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_rule_fr_rate_delta0.2,rule,c10_replay_400,0.063361,23,363,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_certm_miss_rate_delta0.2,certm,c10_replay_400,0.038462,1,26,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_unionm_fr_rate_delta0.2,unionm,c10_replay_400,0.063361,23,363,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",marginal_rule_miss_rate_delta0.2,rule,c10_replay_400,0.038462,1,26,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_cert_fr_rate_delta0.2,cert,c10_replay_400,0.008264,3,363,,
+win050,0.500000,1.000000,known,"Table 16 consequence panel (realised, adjusted fields)",absolute_rule_fr_rate_delta0.2,rule,c10_replay_400,0.063361,23,363,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-FEAS,all,0.212877,367,1724,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-FEAS,benign,0.000000,0,624,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-FEAS,V1,0.812500,130,160,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-FEAS,V2,1.000000,185,185,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-FEAS,V3,0.000000,0,154,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-FEAS,V4,0.004975,1,201,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-FEAS,V5,0.000000,0,200,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-FEAS,V6,0.255000,51,200,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT,all,0.320766,553,1724,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT,benign,0.038462,24,624,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT,V1,0.818750,131,160,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT,V2,1.000000,185,185,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT,V3,0.779221,120,154,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT,V4,0.174129,35,201,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT,V5,0.025000,5,200,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT,V6,0.265000,53,200,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT-M,all,0.309165,533,1724,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT-M,benign,0.022436,14,624,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT-M,V1,0.812500,130,160,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT-M,V2,1.000000,185,185,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT-M,V3,0.779221,120,154,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT-M,V4,0.164179,33,201,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT-M,V5,0.000000,0,200,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT-M,V6,0.255000,51,200,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-REL1,all,0.366009,631,1724,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-REL1,benign,0.076923,48,624,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-REL1,V1,0.812500,130,160,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-REL1,V2,1.000000,185,185,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-REL1,V3,1.000000,154,154,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-REL1,V4,0.233831,47,201,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-REL1,V5,0.000000,0,200,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-REL1,V6,0.335000,67,200,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-REL2,all,0.337587,582,1724,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-REL2,benign,0.024038,15,624,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-REL2,V1,0.812500,130,160,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-REL2,V2,1.000000,185,185,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-REL2,V3,1.000000,154,154,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-REL2,V4,0.233831,47,201,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-REL2,V5,0.000000,0,200,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-REL2,V6,0.255000,51,200,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-ABS,all,0.369490,637,1724,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-ABS,benign,0.084936,53,624,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-ABS,V1,0.812500,130,160,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-ABS,V2,1.000000,185,185,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-ABS,V3,1.000000,154,154,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-ABS,V4,0.238806,48,201,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-ABS,V5,0.000000,0,200,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,D-ABS,V6,0.335000,67,200,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT|D-REL2,all,0.348608,601,1724,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT|D-REL2,benign,0.040064,25,624,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT|D-REL2,V1,0.818750,131,160,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT|D-REL2,V2,1.000000,185,185,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT|D-REL2,V3,1.000000,154,154,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT|D-REL2,V4,0.238806,48,201,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT|D-REL2,V5,0.025000,5,200,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT|D-REL2,V6,0.265000,53,200,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT-M|D-REL2,all,0.337587,582,1724,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT-M|D-REL2,benign,0.024038,15,624,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT-M|D-REL2,V1,0.812500,130,160,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT-M|D-REL2,V2,1.000000,185,185,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT-M|D-REL2,V3,1.000000,154,154,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT-M|D-REL2,V4,0.233831,47,201,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT-M|D-REL2,V5,0.000000,0,200,,
+win050,0.500000,1.000000,known,Table 10,stopped_share,G-CERT-M|D-REL2,V6,0.255000,51,200,,
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT,all,0.203209,38,187,0.128707,0.288560
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT,all,0.031624,37,1170,0.010999,0.066152
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT,c09_storm2_w80,0.163462,17,104,0.086207,0.256198
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT,c09_storm2_w80,0.054908,33,601,0.016393,0.122483
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT,c10_storm2_w80,0.105263,4,38,0.027778,0.187500
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT,c10_storm2_w80,0.017778,4,225,0.003984,0.035972
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT,c10_replay_400,0.377778,17,45,0.146341,0.610193
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT,c10_replay_400,0.000000,0,344,0.000000,0.000000
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT,all,0.056911,7,123,0.021978,0.096491
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT,all,0.056726,70,1234,0.030397,0.093344
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT,c09_storm2_w80,0.061538,4,65,0.014925,0.116667
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT,c09_storm2_w80,0.092188,59,640,0.045996,0.159151
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT,c10_storm2_w80,0.032258,1,31,0.000000,0.100000
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT,c10_storm2_w80,0.034483,8,232,0.012766,0.058537
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT,c10_replay_400,0.074074,2,27,0.000000,0.210526
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT,c10_replay_400,0.008287,3,362,0.000000,0.021605
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT-M,all,0.203209,38,187,0.128707,0.288560
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT-M,all,0.014530,17,1170,0.008210,0.021602
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT-M,c09_storm2_w80,0.163462,17,104,0.086207,0.256198
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT-M,c09_storm2_w80,0.021631,13,601,0.011062,0.033929
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT-M,c10_storm2_w80,0.105263,4,38,0.027778,0.187500
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT-M,c10_storm2_w80,0.017778,4,225,0.003984,0.035972
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT-M,c10_replay_400,0.377778,17,45,0.146341,0.610193
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT-M,c10_replay_400,0.000000,0,344,0.000000,0.000000
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT-M,all,0.056911,7,123,0.021978,0.096491
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT-M,all,0.040519,50,1234,0.026851,0.055556
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT-M,c09_storm2_w80,0.061538,4,65,0.014925,0.116667
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT-M,c09_storm2_w80,0.060937,39,640,0.039474,0.084992
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT-M,c10_storm2_w80,0.032258,1,31,0.000000,0.100000
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT-M,c10_storm2_w80,0.034483,8,232,0.012766,0.058537
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT-M,c10_replay_400,0.074074,2,27,0.000000,0.210526
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT-M,c10_replay_400,0.008287,3,362,0.000000,0.021605
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-REL1,all,0.117647,22,187,0.077419,0.160804
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-REL1,all,0.084615,99,1170,0.064620,0.105916
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-REL1,c09_storm2_w80,0.125000,13,104,0.072917,0.183099
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-REL1,c09_storm2_w80,0.116473,70,601,0.087500,0.150259
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-REL1,c10_storm2_w80,0.078947,3,38,0.000000,0.145455
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-REL1,c10_storm2_w80,0.053333,12,225,0.019704,0.096774
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-REL1,c10_replay_400,0.133333,6,45,0.035714,0.264706
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-REL1,c10_replay_400,0.049419,17,344,0.022346,0.078550
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-REL1,all,0.056911,7,123,0.021978,0.096491
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-REL1,all,0.119935,148,1234,0.095157,0.144075
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-REL1,c09_storm2_w80,0.061538,4,65,0.014925,0.116667
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-REL1,c09_storm2_w80,0.156250,100,640,0.124345,0.188721
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-REL1,c10_storm2_w80,0.032258,1,31,0.000000,0.100000
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-REL1,c10_storm2_w80,0.073276,17,232,0.027024,0.130745
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-REL1,c10_replay_400,0.074074,2,27,0.000000,0.210526
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-REL1,c10_replay_400,0.085635,31,362,0.043748,0.128359
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-REL2,all,0.117647,22,187,0.077419,0.160804
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-REL2,all,0.042735,50,1170,0.027472,0.059432
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-REL2,c09_storm2_w80,0.125000,13,104,0.072917,0.183099
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-REL2,c09_storm2_w80,0.058236,35,601,0.033810,0.086882
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-REL2,c10_storm2_w80,0.078947,3,38,0.000000,0.145455
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-REL2,c10_storm2_w80,0.026667,6,225,0.004184,0.059860
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-REL2,c10_replay_400,0.133333,6,45,0.035714,0.264706
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-REL2,c10_replay_400,0.026163,9,344,0.005540,0.050000
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-REL2,all,0.056911,7,123,0.021978,0.096491
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-REL2,all,0.080227,99,1234,0.058966,0.101926
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-REL2,c09_storm2_w80,0.061538,4,65,0.014925,0.116667
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-REL2,c09_storm2_w80,0.101562,65,640,0.070475,0.133758
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-REL2,c10_storm2_w80,0.032258,1,31,0.000000,0.100000
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-REL2,c10_storm2_w80,0.047414,11,232,0.012987,0.095588
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-REL2,c10_replay_400,0.074074,2,27,0.000000,0.210526
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-REL2,c10_replay_400,0.063536,23,362,0.029069,0.100000
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-ABS,all,0.112299,21,187,0.072222,0.155914
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-ABS,all,0.088889,104,1170,0.068505,0.110162
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-ABS,c09_storm2_w80,0.115385,12,104,0.061856,0.175262
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-ABS,c09_storm2_w80,0.123128,74,601,0.094136,0.155865
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-ABS,c10_storm2_w80,0.078947,3,38,0.000000,0.145455
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-ABS,c10_storm2_w80,0.057778,13,225,0.025104,0.100000
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-ABS,c10_replay_400,0.133333,6,45,0.035714,0.264706
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-ABS,c10_replay_400,0.049419,17,344,0.022346,0.078550
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-ABS,all,0.056911,7,123,0.021978,0.096491
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-ABS,all,0.124797,154,1234,0.099279,0.149766
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-ABS,c09_storm2_w80,0.061538,4,65,0.014925,0.116667
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-ABS,c09_storm2_w80,0.164062,105,640,0.129890,0.197850
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-ABS,c10_storm2_w80,0.032258,1,31,0.000000,0.100000
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-ABS,c10_storm2_w80,0.077586,18,232,0.032967,0.133690
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-ABS,c10_replay_400,0.074074,2,27,0.000000,0.210526
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-ABS,c10_replay_400,0.085635,31,362,0.043748,0.128359
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT|D-REL2,all,0.117647,22,187,0.077419,0.160804
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT|D-REL2,all,0.058974,69,1170,0.032638,0.094721
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT|D-REL2,c09_storm2_w80,0.125000,13,104,0.072917,0.183099
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT|D-REL2,c09_storm2_w80,0.089850,54,601,0.043716,0.156389
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT|D-REL2,c10_storm2_w80,0.078947,3,38,0.000000,0.145455
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT|D-REL2,c10_storm2_w80,0.026667,6,225,0.004184,0.059860
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT|D-REL2,c10_replay_400,0.133333,6,45,0.035714,0.264706
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT|D-REL2,c10_replay_400,0.026163,9,344,0.005540,0.050000
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT|D-REL2,all,0.056911,7,123,0.021978,0.096491
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT|D-REL2,all,0.095624,118,1234,0.064437,0.132330
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT|D-REL2,c09_storm2_w80,0.061538,4,65,0.014925,0.116667
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT|D-REL2,c09_storm2_w80,0.131250,84,640,0.080592,0.196262
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT|D-REL2,c10_storm2_w80,0.032258,1,31,0.000000,0.100000
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT|D-REL2,c10_storm2_w80,0.047414,11,232,0.012987,0.095588
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT|D-REL2,c10_replay_400,0.074074,2,27,0.000000,0.210526
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT|D-REL2,c10_replay_400,0.063536,23,362,0.029069,0.100000
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT-M|D-REL2,all,0.117647,22,187,0.077419,0.160804
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT-M|D-REL2,all,0.042735,50,1170,0.027472,0.059432
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT-M|D-REL2,c09_storm2_w80,0.125000,13,104,0.072917,0.183099
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT-M|D-REL2,c09_storm2_w80,0.058236,35,601,0.033810,0.086882
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT-M|D-REL2,c10_storm2_w80,0.078947,3,38,0.000000,0.145455
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT-M|D-REL2,c10_storm2_w80,0.026667,6,225,0.004184,0.059860
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT-M|D-REL2,c10_replay_400,0.133333,6,45,0.035714,0.264706
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT-M|D-REL2,c10_replay_400,0.026163,9,344,0.005540,0.050000
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT-M|D-REL2,all,0.056911,7,123,0.021978,0.096491
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT-M|D-REL2,all,0.080227,99,1234,0.058966,0.101926
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT-M|D-REL2,c09_storm2_w80,0.061538,4,65,0.014925,0.116667
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT-M|D-REL2,c09_storm2_w80,0.101562,65,640,0.070475,0.133758
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT-M|D-REL2,c10_storm2_w80,0.032258,1,31,0.000000,0.100000
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT-M|D-REL2,c10_storm2_w80,0.047414,11,232,0.012987,0.095588
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT-M|D-REL2,c10_replay_400,0.074074,2,27,0.000000,0.210526
+win050,0.500000,1.000000,known,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT-M|D-REL2,c10_replay_400,0.063536,23,362,0.029069,0.100000
+win050,0.500000,1.000000,known,predicted damage (D-ABS) vs realised damage,under_by_2bh_share,D-ABS,All,0.149595,203,1357,,
+win050,0.500000,1.000000,known,predicted damage (D-ABS) vs realised damage,spearman,D-ABS,All,0.602838,1357,,,
+win050,0.500000,1.000000,known,predicted damage (D-ABS) vs realised damage,shortfall_bh,D-ABS,All,13041.402000,1357,,,
+win050,0.500000,1.000000,known,predicted damage (D-ABS) vs realised damage,under_by_2bh_share,D-ABS,VThree,0.487013,75,154,,
+win050,0.500000,1.000000,known,predicted damage (D-ABS) vs realised damage,spearman,D-ABS,VThree,0.994043,154,,,
+win050,0.500000,1.000000,known,predicted damage (D-ABS) vs realised damage,shortfall_bh,D-ABS,VThree,3265.073200,154,,,
+win050,0.500000,1.000000,known,predicted damage (D-ABS) vs realised damage,under_by_2bh_share,D-ABS,Benign,0.076923,48,624,,
+win050,0.500000,1.000000,known,predicted damage (D-ABS) vs realised damage,spearman,D-ABS,Benign,0.263047,624,,,
+win050,0.500000,1.000000,known,predicted damage (D-ABS) vs realised damage,shortfall_bh,D-ABS,Benign,1739.969100,624,,,
+win050,0.500000,1.000000,known,predicted damage (D-ABS) vs realised damage,under_by_2bh_share,D-ABS,Seq,0.180385,103,571,,
+win050,0.500000,1.000000,known,predicted damage (D-ABS) vs realised damage,spearman,D-ABS,Seq,0.948140,571,,,
+win050,0.500000,1.000000,known,predicted damage (D-ABS) vs realised damage,shortfall_bh,D-ABS,Seq,4465.190400,571,,,
+win050,0.500000,1.000000,known,predicted damage (D-ABS) vs realised damage,under_by_2bh_share,D-ABS,Field,0.188324,100,531,,
+win050,0.500000,1.000000,known,predicted damage (D-ABS) vs realised damage,spearman,D-ABS,Field,0.232848,531,,,
+win050,0.500000,1.000000,known,predicted damage (D-ABS) vs realised damage,shortfall_bh,D-ABS,Field,8576.211600,531,,,
+win050,0.500000,1.000000,known,predicted damage (D-ABS) vs realised damage,under_by_2bh_share,D-ABS,DamagingSeqAll,0.607143,102,168,,
+win050,0.500000,1.000000,known,predicted damage (D-ABS) vs realised damage,spearman,D-ABS,DamagingSeqAll,0.992726,168,,,
+win050,0.500000,1.000000,known,predicted damage (D-ABS) vs realised damage,shortfall_bh,D-ABS,DamagingSeqAll,4461.854400,168,,,
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,G-CERT,all,4.949630,1724,,3.490615,6.472548
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,G-CERT,V3,16.185003,154,,7.738392,26.040681
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,G-CERT,benign,0.112346,624,,-0.035374,0.265484
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,G-CERT-M,all,5.063777,1724,,3.562662,6.619233
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,G-CERT-M,V3,16.185003,154,,7.738392,26.040681
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,G-CERT-M,benign,0.132515,624,,-0.017176,0.288210
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,D-REL1,all,2.864883,1724,,1.895850,3.898714
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,D-REL1,V3,0.000000,154,,0.000000,0.000000
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,D-REL1,benign,0.133202,624,,-0.016251,0.287819
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,D-REL2,all,2.849830,1724,,1.879241,3.886183
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,D-REL2,V3,0.000000,154,,0.000000,0.000000
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,D-REL2,benign,0.128528,624,,-0.021027,0.284054
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,D-ABS,all,2.766662,1724,,1.793542,3.811351
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,D-ABS,V3,0.000000,154,,0.000000,0.000000
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,D-ABS,benign,0.082427,624,,-0.054648,0.223756
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,G-CERT|D-REL2,all,2.842530,1724,,1.871584,3.880097
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,G-CERT|D-REL2,V3,0.000000,154,,0.000000,0.000000
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,G-CERT|D-REL2,benign,0.108359,624,,-0.039073,0.261457
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,G-CERT-M|D-REL2,all,2.849830,1724,,1.879241,3.886183
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,G-CERT-M|D-REL2,V3,0.000000,154,,0.000000,0.000000
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,G-CERT-M|D-REL2,benign,0.128528,624,,-0.021027,0.284054
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,G-FEAS,all,40.109851,1724,,,
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,G-FEAS,V3,327.144468,154,,,
+win050,0.500000,1.000000,known,realised damage per issuable instruction (bh),mean_damage,G-FEAS,benign,0.652659,624,,,
+win050,0.500000,1.000000,known,under-pricing against the realised cost,under_share,G-FEAS,all,0.157701,214,1357,,
+win050,0.500000,1.000000,known,benign referrals,benign_referred_share,G-FEAS,benign,0.000000,0,624,,
+win050,0.500000,1.000000,known,under-pricing against the realised cost,under_share,G-CERT,all,0.251290,341,1357,,
+win050,0.500000,1.000000,known,benign referrals,benign_referred_share,G-CERT,benign,0.038462,24,624,,
+win050,0.500000,1.000000,known,under-pricing against the realised cost,under_share,G-CERT-M,all,0.022108,30,1357,,
+win050,0.500000,1.000000,known,benign referrals,benign_referred_share,G-CERT-M,benign,0.022436,14,624,,
+win050,0.500000,1.000000,known,under-pricing against the realised cost,under_share,D-REL1,all,0.051584,70,1357,,
+win050,0.500000,1.000000,known,benign referrals,benign_referred_share,D-REL1,benign,0.076923,48,624,,
+win050,0.500000,1.000000,known,under-pricing against the realised cost,under_share,D-REL2,all,0.020634,28,1357,,
+win050,0.500000,1.000000,known,benign referrals,benign_referred_share,D-REL2,benign,0.024038,15,624,,
+win050,0.500000,1.000000,known,under-pricing against the realised cost,under_share,D-ABS,all,0.149595,203,1357,,
+win050,0.500000,1.000000,known,benign referrals,benign_referred_share,D-ABS,benign,0.084936,53,624,,
+win050,0.500000,1.000000,known,under-pricing against the realised cost,under_share,G-CERT|D-REL2,all,,,,,
+win050,0.500000,1.000000,known,benign referrals,benign_referred_share,G-CERT|D-REL2,benign,0.040064,25,624,,
+win050,0.500000,1.000000,known,under-pricing against the realised cost,under_share,G-CERT-M|D-REL2,all,,,,,
+win050,0.500000,1.000000,known,benign referrals,benign_referred_share,G-CERT-M|D-REL2,benign,0.024038,15,624,,
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT,all,0.231638,41,177,0.140000,0.335196
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT,all,0.004284,5,1167,0.000812,0.009224
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT,c09_storm2_w80,0.180000,18,100,0.084211,0.311321
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT,c09_storm2_w80,0.005008,3,599,0.000000,0.013812
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT,c10_storm2_w80,0.121212,4,33,0.032258,0.212121
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT,c10_storm2_w80,0.008929,2,224,0.000000,0.022936
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT,c10_replay_400,0.431818,19,44,0.169811,0.680000
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT,c10_replay_400,0.000000,0,344,0.000000,0.000000
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT,all,0.058824,7,119,0.022727,0.100000
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT,all,0.023673,29,1225,0.012291,0.036269
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT,c09_storm2_w80,0.061538,4,65,0.014925,0.116667
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT,c09_storm2_w80,0.037855,24,634,0.018364,0.059106
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT,c10_storm2_w80,0.035714,1,28,0.000000,0.107143
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT,c10_storm2_w80,0.017467,4,229,0.000000,0.039428
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT,c10_replay_400,0.076923,2,26,0.000000,0.222222
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT,c10_replay_400,0.002762,1,362,0.000000,0.009238
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT-M,all,0.258427,46,178,0.163934,0.361583
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT-M,all,0.002568,3,1168,0.000000,0.005795
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT-M,c09_storm2_w80,0.223301,23,103,0.115385,0.355074
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT-M,c09_storm2_w80,0.001667,1,600,0.000000,0.005682
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT-M,c10_storm2_w80,0.129032,4,31,0.033333,0.227273
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT-M,c10_storm2_w80,0.008929,2,224,0.000000,0.022936
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT-M,c10_replay_400,0.431818,19,44,0.169811,0.680000
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT-M,c10_replay_400,0.000000,0,344,0.000000,0.000000
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT-M,all,0.059829,7,117,0.023075,0.101852
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT-M,all,0.020342,25,1229,0.009607,0.032670
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT-M,c09_storm2_w80,0.061538,4,65,0.014925,0.116667
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT-M,c09_storm2_w80,0.031348,20,638,0.012784,0.052411
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT-M,c10_storm2_w80,0.038462,1,26,0.000000,0.125000
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT-M,c10_storm2_w80,0.017467,4,229,0.000000,0.039428
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT-M,c10_replay_400,0.076923,2,26,0.000000,0.222222
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT-M,c10_replay_400,0.002762,1,362,0.000000,0.009238
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-REL1,all,0.117647,22,187,0.077419,0.160804
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-REL1,all,0.077911,91,1168,0.060386,0.096137
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-REL1,c09_storm2_w80,0.125000,13,104,0.072917,0.183099
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-REL1,c09_storm2_w80,0.103506,62,599,0.079316,0.131483
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-REL1,c10_storm2_w80,0.078947,3,38,0.000000,0.145455
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-REL1,c10_storm2_w80,0.053333,12,225,0.019704,0.096774
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-REL1,c10_replay_400,0.133333,6,45,0.035714,0.264706
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-REL1,c10_replay_400,0.049419,17,344,0.022346,0.078550
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-REL1,all,0.056911,7,123,0.021978,0.096491
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-REL1,all,0.113636,140,1232,0.090386,0.136011
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-REL1,c09_storm2_w80,0.061538,4,65,0.014925,0.116667
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-REL1,c09_storm2_w80,0.144201,92,638,0.115073,0.172867
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-REL1,c10_storm2_w80,0.032258,1,31,0.000000,0.100000
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-REL1,c10_storm2_w80,0.073276,17,232,0.027024,0.130745
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-REL1,c10_replay_400,0.074074,2,27,0.000000,0.210526
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-REL1,c10_replay_400,0.085635,31,362,0.043748,0.128359
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-REL2,all,0.117647,22,187,0.077419,0.160804
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-REL2,all,0.035959,42,1168,0.023234,0.049622
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-REL2,c09_storm2_w80,0.125000,13,104,0.072917,0.183099
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-REL2,c09_storm2_w80,0.045075,27,599,0.025707,0.066811
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-REL2,c10_storm2_w80,0.078947,3,38,0.000000,0.145455
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-REL2,c10_storm2_w80,0.026667,6,225,0.004184,0.059860
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-REL2,c10_replay_400,0.133333,6,45,0.035714,0.264706
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-REL2,c10_replay_400,0.026163,9,344,0.005540,0.050000
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-REL2,all,0.056911,7,123,0.021978,0.096491
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-REL2,all,0.073864,91,1232,0.053819,0.094253
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-REL2,c09_storm2_w80,0.061538,4,65,0.014925,0.116667
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-REL2,c09_storm2_w80,0.089342,57,638,0.060160,0.118812
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-REL2,c10_storm2_w80,0.032258,1,31,0.000000,0.100000
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-REL2,c10_storm2_w80,0.047414,11,232,0.012987,0.095588
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-REL2,c10_replay_400,0.074074,2,27,0.000000,0.210526
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-REL2,c10_replay_400,0.063536,23,362,0.029069,0.100000
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-ABS,all,0.102703,19,185,0.061726,0.147059
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-ABS,all,0.089117,104,1167,0.068877,0.110405
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-ABS,c09_storm2_w80,0.098039,10,102,0.043478,0.160000
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-ABS,c09_storm2_w80,0.123746,74,598,0.095238,0.156504
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-ABS,c10_storm2_w80,0.078947,3,38,0.000000,0.145455
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-ABS,c10_storm2_w80,0.057778,13,225,0.025104,0.100000
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,D-ABS,c10_replay_400,0.133333,6,45,0.035714,0.264706
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,D-ABS,c10_replay_400,0.049419,17,344,0.022346,0.078550
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-ABS,all,0.056911,7,123,0.021978,0.096491
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-ABS,all,0.125305,154,1229,0.099764,0.150267
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-ABS,c09_storm2_w80,0.061538,4,65,0.014925,0.116667
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-ABS,c09_storm2_w80,0.165354,105,635,0.131958,0.198748
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-ABS,c10_storm2_w80,0.032258,1,31,0.000000,0.100000
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-ABS,c10_storm2_w80,0.077586,18,232,0.032967,0.133690
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,D-ABS,c10_replay_400,0.074074,2,27,0.000000,0.210526
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,D-ABS,c10_replay_400,0.085635,31,362,0.043748,0.128359
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT|D-REL2,all,0.124294,22,177,0.081481,0.170455
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT|D-REL2,all,0.033476,39,1165,0.021190,0.046888
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT|D-REL2,c09_storm2_w80,0.130000,13,100,0.075269,0.191919
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT|D-REL2,c09_storm2_w80,0.041876,25,597,0.023769,0.062827
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT|D-REL2,c10_storm2_w80,0.090909,3,33,0.000000,0.166667
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT|D-REL2,c10_storm2_w80,0.022321,5,224,0.000000,0.055739
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT|D-REL2,c10_replay_400,0.136364,6,44,0.036364,0.277778
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT|D-REL2,c10_replay_400,0.026163,9,344,0.005540,0.050000
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT|D-REL2,all,0.058824,7,119,0.022727,0.100000
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT|D-REL2,all,0.067048,82,1223,0.047107,0.087521
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT|D-REL2,c09_storm2_w80,0.061538,4,65,0.014925,0.116667
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT|D-REL2,c09_storm2_w80,0.080696,51,632,0.052065,0.110329
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT|D-REL2,c10_storm2_w80,0.035714,1,28,0.000000,0.107143
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT|D-REL2,c10_storm2_w80,0.034934,8,229,0.004184,0.085471
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT|D-REL2,c10_replay_400,0.076923,2,26,0.000000,0.222222
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT|D-REL2,c10_replay_400,0.063536,23,362,0.029069,0.100000
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT-M|D-REL2,all,0.123596,22,178,0.081081,0.169399
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT-M|D-REL2,all,0.034305,40,1166,0.021758,0.047894
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT-M|D-REL2,c09_storm2_w80,0.126214,13,103,0.073394,0.185185
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT-M|D-REL2,c09_storm2_w80,0.043478,26,598,0.024648,0.064655
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT-M|D-REL2,c10_storm2_w80,0.096774,3,31,0.000000,0.181818
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT-M|D-REL2,c10_storm2_w80,0.022321,5,224,0.000000,0.055739
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.1,G-CERT-M|D-REL2,c10_replay_400,0.136364,6,44,0.036364,0.277778
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.1,G-CERT-M|D-REL2,c10_replay_400,0.026163,9,344,0.005540,0.050000
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT-M|D-REL2,all,0.059829,7,117,0.023075,0.101852
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT-M|D-REL2,all,0.070090,86,1227,0.049505,0.091111
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT-M|D-REL2,c09_storm2_w80,0.061538,4,65,0.014925,0.116667
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT-M|D-REL2,c09_storm2_w80,0.086478,55,636,0.056787,0.116641
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT-M|D-REL2,c10_storm2_w80,0.038462,1,26,0.000000,0.125000
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT-M|D-REL2,c10_storm2_w80,0.034934,8,229,0.004184,0.085471
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",miss_share_delta0.2,G-CERT-M|D-REL2,c10_replay_400,0.076923,2,26,0.000000,0.222222
+win050,0.500000,1.000000,forecast_F2,"consequence (realised marginal cost, original fields)",false_referral_share_delta0.2,G-CERT-M|D-REL2,c10_replay_400,0.063536,23,362,0.029069,0.100000
+win050,0.500000,1.000000,forecast_F2,predicted damage (D-ABS) vs realised damage,under_by_2bh_share,D-ABS,All,0.113486,154,1357,,
+win050,0.500000,1.000000,forecast_F2,predicted damage (D-ABS) vs realised damage,spearman,D-ABS,All,0.614661,1357,,,
+win050,0.500000,1.000000,forecast_F2,predicted damage (D-ABS) vs realised damage,shortfall_bh,D-ABS,All,9380.360800,1357,,,
+win050,0.500000,1.000000,forecast_F2,predicted damage (D-ABS) vs realised damage,under_by_2bh_share,D-ABS,VThree,0.240260,37,154,,
+win050,0.500000,1.000000,forecast_F2,predicted damage (D-ABS) vs realised damage,spearman,D-ABS,VThree,0.998060,154,,,
+win050,0.500000,1.000000,forecast_F2,predicted damage (D-ABS) vs realised damage,shortfall_bh,D-ABS,VThree,720.653400,154,,,
+win050,0.500000,1.000000,forecast_F2,predicted damage (D-ABS) vs realised damage,under_by_2bh_share,D-ABS,Benign,0.075321,47,624,,
+win050,0.500000,1.000000,forecast_F2,predicted damage (D-ABS) vs realised damage,spearman,D-ABS,Benign,0.273000,624,,,
+win050,0.500000,1.000000,forecast_F2,predicted damage (D-ABS) vs realised damage,shortfall_bh,D-ABS,Benign,1727.428450,624,,,
+win050,0.500000,1.000000,forecast_F2,predicted damage (D-ABS) vs realised damage,under_by_2bh_share,D-ABS,Seq,0.101576,58,571,,
+win050,0.500000,1.000000,forecast_F2,predicted damage (D-ABS) vs realised damage,spearman,D-ABS,Seq,0.956517,571,,,
+win050,0.500000,1.000000,forecast_F2,predicted damage (D-ABS) vs realised damage,shortfall_bh,D-ABS,Seq,1010.952850,571,,,
+win050,0.500000,1.000000,forecast_F2,predicted damage (D-ABS) vs realised damage,under_by_2bh_share,D-ABS,Field,0.180791,96,531,,
+win050,0.500000,1.000000,forecast_F2,predicted damage (D-ABS) vs realised damage,spearman,D-ABS,Field,0.247307,531,,,
+win050,0.500000,1.000000,forecast_F2,predicted damage (D-ABS) vs realised damage,shortfall_bh,D-ABS,Field,8369.407950,531,,,
+win050,0.500000,1.000000,forecast_F2,predicted damage (D-ABS) vs realised damage,under_by_2bh_share,D-ABS,DamagingSeqAll,0.339286,57,168,,
+win050,0.500000,1.000000,forecast_F2,predicted damage (D-ABS) vs realised damage,spearman,D-ABS,DamagingSeqAll,0.996867,168,,,
+win050,0.500000,1.000000,forecast_F2,predicted damage (D-ABS) vs realised damage,shortfall_bh,D-ABS,DamagingSeqAll,1007.368650,168,,,
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,G-CERT,all,5.590713,1724,,3.962525,7.278837
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,G-CERT,V3,20.311855,154,,10.253203,32.052858
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,G-CERT,benign,0.495837,624,,0.158733,0.984445
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,G-CERT-M,all,6.262315,1724,,4.438684,8.174372
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,G-CERT-M,V3,24.471291,154,,13.098729,37.658978
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,G-CERT-M,benign,0.564607,624,,0.198699,1.061162
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,D-REL1,all,2.920874,1724,,1.949605,3.949495
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,D-REL1,V3,0.410912,154,,0.000000,1.128779
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,D-REL1,benign,0.186486,624,,0.032746,0.341880
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,D-REL2,all,2.905822,1724,,1.935517,3.934471
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,D-REL2,V3,0.410912,154,,0.000000,1.128779
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,D-REL2,benign,0.181812,624,,0.027411,0.337643
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,D-ABS,all,2.647654,1724,,1.711692,3.664813
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,D-ABS,V3,0.000000,154,,0.000000,0.000000
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,D-ABS,benign,0.064050,624,,-0.069275,0.199859
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,G-CERT|D-REL2,all,2.905822,1724,,1.935517,3.934471
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,G-CERT|D-REL2,V3,0.410912,154,,0.000000,1.128779
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,G-CERT|D-REL2,benign,0.181812,624,,0.027411,0.337643
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,G-CERT-M|D-REL2,all,2.905822,1724,,1.935517,3.934471
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,G-CERT-M|D-REL2,V3,0.410912,154,,0.000000,1.128779
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,G-CERT-M|D-REL2,benign,0.181812,624,,0.027411,0.337643
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,G-FEAS,all,40.109851,1724,,,
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,G-FEAS,V3,327.144468,154,,,
+win050,0.500000,1.000000,forecast_F2,realised damage per issuable instruction (bh),mean_damage,G-FEAS,benign,0.652659,624,,,
+win050,0.500000,1.000000,forecast_F2,under-pricing against the realised cost,under_share,G-FEAS,all,0.157701,214,1357,,
+win050,0.500000,1.000000,forecast_F2,benign referrals,benign_referred_share,G-FEAS,benign,0.000000,0,624,,
+win050,0.500000,1.000000,forecast_F2,under-pricing against the realised cost,under_share,G-CERT,all,0.222550,302,1357,,
+win050,0.500000,1.000000,forecast_F2,benign referrals,benign_referred_share,G-CERT,benign,0.006410,4,624,,
+win050,0.500000,1.000000,forecast_F2,under-pricing against the realised cost,under_share,G-CERT-M,all,0.036846,50,1357,,
+win050,0.500000,1.000000,forecast_F2,benign referrals,benign_referred_share,G-CERT-M,benign,0.003205,2,624,,
+win050,0.500000,1.000000,forecast_F2,under-pricing against the realised cost,under_share,D-REL1,all,0.057480,78,1357,,
+win050,0.500000,1.000000,forecast_F2,benign referrals,benign_referred_share,D-REL1,benign,0.070513,44,624,,
+win050,0.500000,1.000000,forecast_F2,under-pricing against the realised cost,under_share,D-REL2,all,0.036846,50,1357,,
+win050,0.500000,1.000000,forecast_F2,benign referrals,benign_referred_share,D-REL2,benign,0.017628,11,624,,
+win050,0.500000,1.000000,forecast_F2,under-pricing against the realised cost,under_share,D-ABS,all,0.113486,154,1357,,
+win050,0.500000,1.000000,forecast_F2,benign referrals,benign_referred_share,D-ABS,benign,0.086538,54,624,,
+win050,0.500000,1.000000,forecast_F2,under-pricing against the realised cost,under_share,G-CERT|D-REL2,all,,,,,
+win050,0.500000,1.000000,forecast_F2,benign referrals,benign_referred_share,G-CERT|D-REL2,benign,0.017628,11,624,,
+win050,0.500000,1.000000,forecast_F2,under-pricing against the realised cost,under_share,G-CERT-M|D-REL2,all,,,,,
+win050,0.500000,1.000000,forecast_F2,benign referrals,benign_referred_share,G-CERT-M|D-REL2,benign,0.017628,11,624,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-FEAS,all,0.212877,367,1724,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-FEAS,benign,0.000000,0,624,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-FEAS,V1,0.812500,130,160,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-FEAS,V2,1.000000,185,185,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-FEAS,V3,0.000000,0,154,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-FEAS,V4,0.004975,1,201,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-FEAS,V5,0.000000,0,200,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-FEAS,V6,0.255000,51,200,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT,all,0.299884,517,1724,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT,benign,0.006410,4,624,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT,V1,0.812500,130,160,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT,V2,1.000000,185,185,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT,V3,0.746753,115,154,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT,V4,0.159204,32,201,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT,V5,0.000000,0,200,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT,V6,0.255000,51,200,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT-M,all,0.295244,509,1724,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT-M,benign,0.003205,2,624,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT-M,V1,0.812500,130,160,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT-M,V2,1.000000,185,185,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT-M,V3,0.727273,112,154,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT-M,V4,0.144279,29,201,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT-M,V5,0.000000,0,200,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT-M,V6,0.255000,51,200,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-REL1,all,0.361949,624,1724,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-REL1,benign,0.070513,44,624,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-REL1,V1,0.812500,130,160,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-REL1,V2,1.000000,185,185,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-REL1,V3,0.980519,151,154,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-REL1,V4,0.233831,47,201,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-REL1,V5,0.000000,0,200,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-REL1,V6,0.335000,67,200,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-REL2,all,0.333527,575,1724,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-REL2,benign,0.017628,11,624,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-REL2,V1,0.812500,130,160,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-REL2,V2,1.000000,185,185,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-REL2,V3,0.980519,151,154,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-REL2,V4,0.233831,47,201,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-REL2,V5,0.000000,0,200,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-REL2,V6,0.255000,51,200,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-ABS,all,0.370650,639,1724,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-ABS,benign,0.086538,54,624,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-ABS,V1,0.812500,130,160,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-ABS,V2,1.000000,185,185,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-ABS,V3,1.000000,154,154,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-ABS,V4,0.243781,49,201,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-ABS,V5,0.000000,0,200,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,D-ABS,V6,0.335000,67,200,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT|D-REL2,all,0.333527,575,1724,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT|D-REL2,benign,0.017628,11,624,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT|D-REL2,V1,0.812500,130,160,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT|D-REL2,V2,1.000000,185,185,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT|D-REL2,V3,0.980519,151,154,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT|D-REL2,V4,0.233831,47,201,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT|D-REL2,V5,0.000000,0,200,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT|D-REL2,V6,0.255000,51,200,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT-M|D-REL2,all,0.333527,575,1724,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT-M|D-REL2,benign,0.017628,11,624,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT-M|D-REL2,V1,0.812500,130,160,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT-M|D-REL2,V2,1.000000,185,185,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT-M|D-REL2,V3,0.980519,151,154,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT-M|D-REL2,V4,0.233831,47,201,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT-M|D-REL2,V5,0.000000,0,200,,
+win050,0.500000,1.000000,forecast_F2,Table 10,stopped_share,G-CERT-M|D-REL2,V6,0.255000,51,200,,
+win050,0.500000,1.000000,known,disposition agreement with the full window,share,G-CERT,all,0.959397,1654,1724,,

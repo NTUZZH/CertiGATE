@@ -1,0 +1,208 @@
+{
+ "cores": "0-3",
+ "field_invariants": {
+  "benign_n": 800,
+  "v1_decoder_absorbable": 30,
+  "v1_guard_requiring": 130,
+  "v2_gold_equals_literal": 200,
+  "v4_quality_visible": 55,
+  "v5_empty_all_fields": 200,
+  "v6_carrier_is_legitimate": 45,
+  "v6_forbidden_nonempty": 175,
+  "v6_gold_nonempty": 45
+ },
+ "frozen_edit_census": {
+  "joint": {
+   "V2|freeze_shift_contradiction|frozen_order_edit|frozen_window_conflict": 50,
+   "V2|frozen_order_edit|frozen_order_edit|frozen_window_conflict": 40
+  },
+  "sole": {
+   "benign|freeze_shift_contradiction": 50
+  }
+ },
+ "guard_calls": 5522,
+ "infra_errors": 0,
+ "schema_sha256": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+ "self_check": {
+  "matched": true,
+  "rows": [
+   {
+    "class": "benign",
+    "expected": {
+     "applied_with_certificate": 731,
+     "blocked_falsely": 69
+    },
+    "got": {
+     "applied_with_certificate": 731,
+     "blocked_falsely": 69
+    },
+    "ok": true
+   },
+   {
+    "class": "V1",
+    "expected": {
+     "referred_to_human": 160
+    },
+    "got": {
+     "referred_to_human": 160
+    },
+    "ok": true
+   },
+   {
+    "class": "V2",
+    "expected": {
+     "blocked_correctly": 200
+    },
+    "got": {
+     "blocked_correctly": 200
+    },
+    "ok": true
+   },
+   {
+    "class": "V3",
+    "expected": {
+     "applied_with_certificate": 19,
+     "blocked_correctly": 201
+    },
+    "got": {
+     "applied_with_certificate": 19,
+     "blocked_correctly": 201
+    },
+    "ok": true
+   },
+   {
+    "class": "V4",
+    "expected": {
+     "applied_with_certificate": 214,
+     "blocked_correctly": 6
+    },
+    "got": {
+     "applied_with_certificate": 214,
+     "blocked_correctly": 6
+    },
+    "ok": true
+   },
+   {
+    "class": "V5",
+    "expected": {
+     "referred_to_human": 200
+    },
+    "got": {
+     "referred_to_human": 200
+    },
+    "ok": true
+   },
+   {
+    "class": "V6",
+    "expected": {
+     "applied_with_certificate": 43,
+     "blocked_correctly": 2,
+     "referred_to_human": 155
+    },
+    "got": {
+     "applied_with_certificate": 43,
+     "blocked_correctly": 2,
+     "referred_to_human": 155
+    },
+    "ok": true
+   }
+  ]
+ },
+ "suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+ "v2_reversed_control": {
+  "freeze_shift_contradiction|blocked_feas|frozen_window_conflict": 50,
+  "frozen_order_edit|blocked_feas|frozen_order_edit|frozen_window_conflict": 40,
+  "not_frozen|blocked_feas|not_frozen": 25,
+  "reorder_cycle|blocked_feas|precedence_cycle": 60,
+  "trade_mismatch|blocked_feas|trade_mismatch": 25
+ },
+ "version": "l1-direct-guard-1",
+ "wall_s": 159.56221675872803,
+ "worked_example": {
+  "adapter_feasible": true,
+  "adapter_violations": [],
+  "adapter_wwt_adjusted_bh": 637.7516,
+  "as_shipped": {
+   "findings": [
+    {
+     "code": "frozen_order_edit",
+     "message": "reassign_window edits work order 'W251', which is frozen at this point in the proposal",
+     "op_index": 1,
+     "severity": "violation",
+     "stage": "feas"
+    }
+   ],
+   "gap": null,
+   "terminal": "blocked_feas"
+  },
+  "badness": -0.1408,
+  "episode_baseline_wwt_bh": 637.7516,
+  "gold_ops": [
+   {
+    "op": "freeze",
+    "order_id": "W251"
+   },
+   {
+    "op": "reassign_window",
+    "order_id": "W251",
+    "release_shift_bh": -4.0
+   }
+  ],
+  "instance_id": "c09_storm2_w80_u100_0000",
+  "instruction": "Please keep work order W251 in the slot it holds now, and move its earliest start forward by half a working day (4 business hours); the area is handed over to the fit-out contractor until then.",
+  "item_id": "BEN-0221",
+  "reversed": {
+   "findings": [],
+   "gap": 0.1238119606068551,
+   "terminal": "applied_with_certificate"
+  },
+  "standing_frozen_set": [],
+  "twin_as_shipped": {
+   "findings": [
+    {
+     "code": "frozen_order_edit",
+     "message": "reassign_window edits work order 'W251', which is frozen at this point in the proposal",
+     "op_index": 1,
+     "severity": "violation",
+     "stage": "feas"
+    },
+    {
+     "code": "frozen_window_conflict",
+     "message": "work order 'W251' is frozen at bh 8.0817 but its adjusted release is bh 12.0057; the freeze and the window shift contradict each other",
+     "op_index": null,
+     "severity": "violation",
+     "stage": "feas"
+    }
+   ],
+   "gap": null,
+   "terminal": "blocked_feas"
+  },
+  "twin_id": "V2-0061",
+  "twin_instruction": "Please keep work order W251 in the slot it holds now, and move its earliest start back by half a working day (4 business hours); the area is handed over to the fit-out contractor until then.",
+  "twin_literal_ops": [
+   {
+    "op": "freeze",
+    "order_id": "W251"
+   },
+   {
+    "op": "reassign_window",
+    "order_id": "W251",
+    "release_shift_bh": 4.0
+   }
+  ],
+  "twin_reversed": {
+   "findings": [
+    {
+     "code": "frozen_window_conflict",
+     "message": "work order 'W251' is frozen at bh 8.0817 but its adjusted release is bh 12.0057; the freeze and the window shift contradict each other",
+     "op_index": null,
+     "severity": "violation",
+     "stage": "feas"
+    }
+   ],
+   "gap": null,
+   "terminal": "blocked_feas"
+  }
+ },
+ "workers": 4
+}

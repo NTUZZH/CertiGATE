@@ -1,0 +1,113 @@
+{
+ "date": "2026-10-26 05:59:37 +08",
+ "analysis": "N3 stated acceptance of cost, protocol v1.1.0",
+ "arm": "deepseek",
+ "model": "deepseek-v4-pro",
+ "backend": "deepseek",
+ "wire": "openai",
+ "modes": [
+  "M_constrained",
+  "M_free"
+ ],
+ "thinking": [
+  "non_think"
+ ],
+ "thinking_bodies": {
+  "non_think": {
+   "thinking": {
+    "type": "disabled"
+   }
+  }
+ },
+ "repeats": 2,
+ "items": 640,
+ "groups": 70,
+ "item_set_counts": {
+  "costly_accepted": 220,
+  "v3_twin": 220,
+  "benign_control": 200
+ },
+ "max_tokens": 4096,
+ "workers": 8,
+ "timeout_s": 240.0,
+ "max_retries": 4,
+ "suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+ "suite_ext_sha256": "2bc5789a3d15aca0e97991407622dabbb9d225d38c3eb69096044844b30f38c5",
+ "suite_ext_manifest_sha256": "d95d212ea8e4b96ca825d7112242a5f67dca60ca3308546e6474c58895e48083",
+ "schema_sha256": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+ "schema_v11_sha256": "8b9b11a333a27462bd0c5b95e1c79f733f43a6ba9b2ff7fa0058e90b5b7ed1fb",
+ "schema_version": "l1-adjustments-1.1.0",
+ "wire_schema": null,
+ "wire_schema_sha256": null,
+ "prompt_version": "l1-prompt-1.1.0",
+ "top_k": 10,
+ "system_prompt_sha256": "61772d15677e5edf095a539be8afc4dcf43c9fb5c272cb92e49800bd543cfd28",
+ "prompt_checks": {
+  "v10_hash_equal": 420,
+  "v10_hash_absent": 0,
+  "user_equal_v10": 420,
+  "twin_user_equal": 220
+ },
+ "instance_root": "${L1_Y1_ROOT}/data/processed/instances_v10",
+ "cache_boundary": "\n\nWork orders this request refers to:",
+ "mock": false,
+ "interrupted": false,
+ "planned_calls": 2552,
+ "rows_written": 2552,
+ "wall_s": 825.8126412034035,
+ "price_base": "list",
+ "price_date": "2026-08-11",
+ "usd_projected": {
+  "list": {
+   "pilot": 1.049347407522124,
+   "3x_out": 1.111709007522124
+  },
+  "e1_measured": {
+   "source": "./results/grid_e1_hosted_deepseek/proposals_raw.dedup.jsonl",
+   "borrowed_modes": [],
+   "usd": {
+    "list": 0.4255760671999991
+   }
+  }
+ },
+ "usd_estimated": 0.6326734249999995,
+ "per_config": {
+  "M_constrained|non_think|r0": {
+   "calls": 632,
+   "ok": 632,
+   "error": 0,
+   "other": 0,
+   "usd": 0.25622831099999965,
+   "out_tokens": 43664,
+   "latency_ms": 851851.062678732
+  },
+  "M_constrained|non_think|r1": {
+   "calls": 640,
+   "ok": 640,
+   "error": 0,
+   "other": 0,
+   "usd": 0.06115612800000007,
+   "out_tokens": 43730,
+   "latency_ms": 745624.6462389827
+  },
+  "M_free|non_think|r0": {
+   "calls": 640,
+   "ok": 640,
+   "error": 0,
+   "other": 0,
+   "usd": 0.25567409199999963,
+   "out_tokens": 41172,
+   "latency_ms": 877198.545104824
+  },
+  "M_free|non_think|r1": {
+   "calls": 640,
+   "ok": 640,
+   "error": 0,
+   "other": 0,
+   "usd": 0.0596148940000001,
+   "out_tokens": 41631,
+   "latency_ms": 707243.8492607325
+  }
+ },
+ "dedupe_rule": "last row per (arm, mode, thinking, repeat, item_id) wins; an earlier row for a key is a superseded API error"
+}

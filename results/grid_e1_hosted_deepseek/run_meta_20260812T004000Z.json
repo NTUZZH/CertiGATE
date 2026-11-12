@@ -1,0 +1,107 @@
+{
+ "date": "2026-08-12 08:40:00 +08",
+ "arm": "deepseek",
+ "model": "deepseek-v4-pro",
+ "backend": "deepseek",
+ "wire": "openai",
+ "modes": [
+  "M_constrained",
+  "M_free"
+ ],
+ "thinking": [
+  "non_think",
+  "think_high"
+ ],
+ "thinking_bodies": {
+  "non_think": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "think_high": {
+   "thinking": {
+    "type": "enabled"
+   },
+   "reasoning_effort": "high"
+  }
+ },
+ "repeats": 2,
+ "items": 2000,
+ "groups": 116,
+ "cache_prefixes_per_pass": 327,
+ "max_tokens": 4096,
+ "workers": 8,
+ "timeout_s": 240.0,
+ "max_retries": 4,
+ "suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+ "schema_sha256": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+ "prompt_version": "l1-prompt-1.0.0",
+ "top_k": 10,
+ "cache_boundary": "\n\nWork orders this request refers to:",
+ "cache_boundary_fallback": "\n\nINSTRUCTION",
+ "mock": false,
+ "interrupted": false,
+ "planned_calls": 11297,
+ "rows_written": 11297,
+ "wall_s": 31197.65872716601,
+ "price_base": "list",
+ "price_date": "2026-08-11",
+ "usd_estimated": 7.615709487999997,
+ "per_config": {
+  "M_constrained|think_high|r0": {
+   "calls": 1297,
+   "ok": 1274,
+   "error": 0,
+   "other": 23,
+   "usd": 1.3143443220000017,
+   "out_tokens": 1462168,
+   "latency_ms": 24436037.491935905
+  },
+  "M_constrained|think_high|r1": {
+   "calls": 2000,
+   "ok": 1969,
+   "error": 1,
+   "other": 30,
+   "usd": 2.0429069139999987,
+   "out_tokens": 2275470,
+   "latency_ms": 39994682.922282584
+  },
+  "M_free|non_think|r0": {
+   "calls": 2000,
+   "ok": 2000,
+   "error": 0,
+   "other": 0,
+   "usd": 0.5645338649999996,
+   "out_tokens": 62121,
+   "latency_ms": 3130210.953474541
+  },
+  "M_free|non_think|r1": {
+   "calls": 2000,
+   "ok": 2000,
+   "error": 0,
+   "other": 0,
+   "usd": 0.10550289900000023,
+   "out_tokens": 62288,
+   "latency_ms": 2732891.4067511177
+  },
+  "M_free|think_high|r0": {
+   "calls": 2000,
+   "ok": 1983,
+   "error": 0,
+   "other": 17,
+   "usd": 1.7857486889999974,
+   "out_tokens": 1993605,
+   "latency_ms": 27322380.2156839
+  },
+  "M_free|think_high|r1": {
+   "calls": 2000,
+   "ok": 1988,
+   "error": 0,
+   "other": 12,
+   "usd": 1.8026727989999993,
+   "out_tokens": 2013058,
+   "latency_ms": 29350329.891100373
+  }
+ },
+ "dedupe_rule": "last row per (arm, mode, thinking, repeat, item_id) wins; an earlier row for a key is a superseded API error"
+}

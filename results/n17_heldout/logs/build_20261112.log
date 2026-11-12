@@ -1,0 +1,8 @@
+items      : 2000
+out        : <project>/code/suite/v1.1_heldout_20261112
+sha256     : cb38759c69d526209e5854a46d934594eca6059ffbcb1c0680327faeb2deb956
+by set     : {'benign': 800, 'violation': 800, 'ambiguity': 200, 'adversarial': 200}
+by class   : {'benign': 800, 'V1': 160, 'V2': 200, 'V3': 220, 'V4': 220, 'V5': 200, 'V6': 200}
+build time : 315.0 s
+{"suite_sha256": "cb38759c69d526209e5854a46d934594eca6059ffbcb1c0680327faeb2deb956", "items": 2000, "by_class": {"V1": 160, "V2": 200, "V3": 220, "V4": 220, "V5": 200, "V6": 200, "benign": 800}, "wall_s": 315.0}
+exit 0

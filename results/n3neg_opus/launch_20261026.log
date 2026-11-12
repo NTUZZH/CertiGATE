@@ -1,0 +1,178 @@
+================================================================================
+FOUR LAUNCH QUESTIONS (house experiment rules), answered before the
+first paid call: the negated-acceptance control
+================================================================================
+1. PURPOSE.  Whether the stated-acceptance flag answers the vocabulary of delay
+   or an explicit acceptance.  The opus arm (claude-opus-5): 220 costly_negated items
+   (the V3 twins with a clause that refuses the knock-on delay, gold intent
+   false) x {M_constrained} x thinking default x 2 repeats, under prompt
+   l1-prompt-1.1.0.  A flag set here is the sharpest false acceptance.  The
+   numbers land in the intent-fidelity table as one more control column and
+   in the false-acceptance profile.
+2. EXPECTED RESULT.  The flag rate is at most the arm's rate on the V3 twins.
+   If an arm still flags negated items, implied displacement is read as
+   acceptance and the hard ceiling tau_hard is what contains it; if all arms
+   drop to zero, the negation is read correctly.  Either outcome is reported.
+3. CONTAMINATION.  New output directory (results/n3neg_<arm>/), never a
+   resume into results/n3_<arm>/; append-only log keyed by (mode, thinking,
+   repeat, item_id); a log of another arm, prompt version or prompt text is
+   refused.  suite_ext.jsonl and manifest.json are read, never written.
+   Wall time is a network measurement.
+   Log: <project>/results/n3neg_opus/proposals_raw.jsonl
+4. DATA ACCURACY.  Fatal before the first call: suite v0.2, schema v1.0.0 and
+   v1.1.0, suite_ext.jsonl and suite_ext_neg.jsonl sha256 and their
+   manifests; the v1.1.0 system prompt; every V3 twin rendered and checked
+   against its v1.0.0 render and published prompt_hash; for every
+   costly_negated item the user message equals its twin's with the
+   instruction replaced; instance files hash-checked against the manifest
+   from the instances_v10 snapshot.
+================================================================================
+[n3h] suite_sha256                  0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a OK
+[n3h] schema_sha256                 1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321 OK
+[n3h] schema_v11_sha256             8b9b11a333a27462bd0c5b95e1c79f733f43a6ba9b2ff7fa0058e90b5b7ed1fb OK
+[n3h] suite_ext_sha256              2bc5789a3d15aca0e97991407622dabbb9d225d38c3eb69096044844b30f38c5 OK
+[n3h] suite_ext_manifest_sha256     d95d212ea8e4b96ca825d7112242a5f67dca60ca3308546e6474c58895e48083 OK
+[n3h] suite_ext_neg_sha256          5205e34621fa60a816c9ecdda145fbf3ecab71d952ada684fa084c27469dfb02 OK
+[n3h] suite_ext_neg_manifest_sha256 f0baa4c33df5a8520f66e11fff7775ac697e79d63e03a16a14f5041a6b9ec877 OK
+[n3h] prompt version l1-prompt-1.1.0 OK
+[n3h] 220 prompts rendered, split and checked in 1.4s
+
+CALL PLAN  (arm opus, model claude-opus-5, wire anthropic)
+  items            : 220 per pass (costly_negated 220)
+  modes            : M_constrained
+  prompt checks    : {'v10_hash_equal': 220, 'v10_hash_absent': 0, 'user_equal_v10': 220, 'twin_user_equal': 0, 'neg_twin_user_equal': 220, 'twins_rendered_for_check': 220}
+  groups           : 56 | distinct prefixes per pass: 56
+  M_constrained    : json_schema (canonical v1.1.0 schema, flag required)
+  thinking         : default -> no field sent
+  repeats          : 2 | max_tokens 4096 | workers 8
+  calls            : 440 planned in full
+  already logged   : 100 rows, 100 API errors
+  complete keys    : 0 | this run would make 440 calls
+  log              : <project>/results/n3neg_opus/proposals_raw.jsonl
+
+PROJECTED COST  (prices retrieved 2026-08-11; Anthropic pricing ($5/$25 per M, cache 0.5/6.25))
+  token model: 1.92 chars/token, pilot output 68/call (results/opus5_pilot/anthropic_pilot_summary.json (29 out constrained thinking-disabled; the single default-thinking probe returned 68 output tokens, thinking billed inside them))
+  list                           USD    5.63 at pilot output, USD    7.13 at 3x output
+  list                           USD    3.79 from E1-measured usage per call
+
+[n3h] key ANTHROPIC_API_KEY present (never printed).
+
+[n3h] pass 1/2  M_constrained thinking=default r0  (56 groups, 220 calls)
+  group   1/56  c09_storm2_w80_u100_0000.json    n=8   done=8     ok=8     err=0   usd=  0.118 elapsed=21s
+  group   2/56  c09_storm2_w80_u100_0001.json    n=5   done=13    ok=13    err=0   usd=  0.191 elapsed=34s
+  group   3/56  c09_storm2_w80_u100_0002.json    n=5   done=18    ok=18    err=0   usd=  0.259 elapsed=45s
+  group   4/56  c09_storm2_w80_u100_0003.json    n=4   done=22    ok=22    err=0   usd=  0.317 elapsed=53s
+  group   5/56  c09_storm2_w80_u100_0004.json    n=4   done=26    ok=26    err=0   usd=  0.374 elapsed=60s
+  group   6/56  c09_storm2_w80_u100_0005.json    n=5   done=31    ok=31    err=0   usd=  0.432 elapsed=70s
+  group   7/56  c09_storm2_w80_u100_0006.json    n=5   done=36    ok=36    err=0   usd=  0.498 elapsed=81s
+  group   8/56  c09_storm2_w80_u100_0007.json    n=5   done=41    ok=41    err=0   usd=  0.584 elapsed=93s
+  group   9/56  c09_storm2_w80_u100_0008.json    n=4   done=45    ok=45    err=0   usd=  0.647 elapsed=106s
+  group  10/56  c09_storm2_w80_u100_0009.json    n=4   done=49    ok=49    err=0   usd=  0.722 elapsed=124s
+  group  11/56  c09_storm2_w80_u100_0010.json    n=5   done=54    ok=54    err=0   usd=  0.803 elapsed=137s
+  group  12/56  c09_storm2_w80_u100_0011.json    n=5   done=59    ok=59    err=0   usd=  0.889 elapsed=160s
+  group  13/56  c09_storm2_w80_u100_0012.json    n=5   done=64    ok=64    err=0   usd=  0.972 elapsed=177s
+  group  14/56  c09_storm2_w80_u100_0013.json    n=4   done=68    ok=68    err=0   usd=  1.066 elapsed=200s
+  group  15/56  c09_storm2_w80_u100_0014.json    n=4   done=72    ok=72    err=0   usd=  1.139 elapsed=215s
+  group  16/56  c09_storm2_w80_u100_0015.json    n=5   done=77    ok=77    err=0   usd=  1.230 elapsed=232s
+  group  17/56  c09_storm2_w80_u100_0016.json    n=5   done=82    ok=82    err=0   usd=  1.292 elapsed=240s
+  group  18/56  c09_storm2_w80_u100_0017.json    n=5   done=87    ok=87    err=0   usd=  1.380 elapsed=256s
+  group  19/56  c09_storm2_w80_u100_0018.json    n=4   done=91    ok=91    err=0   usd=  1.442 elapsed=268s
+  group  20/56  c09_storm2_w80_u100_0019.json    n=4   done=95    ok=95    err=0   usd=  1.498 elapsed=275s
+  group  21/56  c09_storm2_w80_u100_0020.json    n=5   done=100   ok=100   err=0   usd=  1.568 elapsed=284s
+  group  22/56  c09_storm2_w80_u100_0022.json    n=9   done=109   ok=109   err=0   usd=  1.698 elapsed=302s
+  group  23/56  c09_storm2_w80_u100_0023.json    n=5   done=114   ok=114   err=0   usd=  1.783 elapsed=314s
+  group  24/56  c10_replay_400_0000.json         n=1   done=115   ok=115   err=0   usd=  1.811 elapsed=319s
+  group  25/56  c10_replay_400_0001.json         n=6   done=121   ok=121   err=0   usd=  1.895 elapsed=326s
+  group  26/56  c10_replay_400_0002.json         n=2   done=123   ok=123   err=0   usd=  1.969 elapsed=353s
+  group  27/56  c10_replay_400_0003.json         n=3   done=126   ok=126   err=0   usd=  2.030 elapsed=367s
+  group  28/56  c10_replay_400_0004.json         n=1   done=127   ok=127   err=0   usd=  2.056 elapsed=371s
+  group  29/56  c10_replay_400_0005.json         n=4   done=131   ok=131   err=0   usd=  2.130 elapsed=382s
+  group  30/56  c10_replay_400_0006.json         n=6   done=137   ok=137   err=0   usd=  2.216 elapsed=392s
+  group  31/56  c10_replay_400_0007.json         n=3   done=140   ok=140   err=0   usd=  2.282 elapsed=408s
+  group  32/56  c10_replay_400_0008.json         n=2   done=142   ok=142   err=0   usd=  2.319 elapsed=417s
+  group  33/56  c10_replay_400_0009.json         n=1   done=143   ok=143   err=0   usd=  2.345 elapsed=420s
+  group  34/56  c10_replay_400_0010.json         n=2   done=145   ok=145   err=0   usd=  2.396 elapsed=433s
+  group  35/56  c10_replay_400_0011.json         n=8   done=153   ok=153   err=0   usd=  2.514 elapsed=442s
+  group  36/56  c10_replay_400_0012.json         n=1   done=154   ok=154   err=0   usd=  2.542 elapsed=445s
+  group  37/56  c10_replay_400_0013.json         n=1   done=155   ok=155   err=0   usd=  2.566 elapsed=448s
+  group  38/56  c10_replay_400_0015.json         n=2   done=157   ok=157   err=0   usd=  2.607 elapsed=457s
+  group  39/56  c10_replay_400_0016.json         n=6   done=163   ok=163   err=0   usd=  2.707 elapsed=470s
+  group  40/56  c10_replay_400_0017.json         n=1   done=164   ok=164   err=0   usd=  2.746 elapsed=476s
+  group  41/56  c10_replay_400_0020.json         n=9   done=173   ok=173   err=0   usd=  2.856 elapsed=492s
+  group  42/56  c10_replay_400_0021.json         n=4   done=177   ok=177   err=0   usd=  2.914 elapsed=503s
+  group  43/56  c10_replay_400_0022.json         n=1   done=178   ok=178   err=0   usd=  2.949 elapsed=510s
+  group  44/56  c10_replay_400_0023.json         n=1   done=179   ok=179   err=0   usd=  2.989 elapsed=522s
+  group  45/56  c10_storm2_w80_u100_0000.json    n=4   done=183   ok=183   err=0   usd=  3.046 elapsed=531s
+  group  46/56  c10_storm2_w80_u100_0001.json    n=4   done=187   ok=187   err=0   usd=  3.106 elapsed=542s
+  group  47/56  c10_storm2_w80_u100_0002.json    n=1   done=188   ok=188   err=0   usd=  3.142 elapsed=552s
+  group  48/56  c10_storm2_w80_u100_0003.json    n=4   done=192   ok=192   err=0   usd=  3.220 elapsed=565s
+  group  49/56  c10_storm2_w80_u100_0004.json    n=5   done=197   ok=197   err=0   usd=  3.292 elapsed=579s
+  group  50/56  c10_storm2_w80_u100_0005.json    n=4   done=201   ok=201   err=0   usd=  3.347 elapsed=586s
+  group  51/56  c10_storm2_w80_u100_0006.json    n=4   done=205   ok=205   err=0   usd=  3.424 elapsed=605s
+  group  52/56  c10_storm2_w80_u100_0007.json    n=1   done=206   ok=206   err=0   usd=  3.449 elapsed=608s
+  group  53/56  c10_storm2_w80_u100_0008.json    n=4   done=210   ok=210   err=0   usd=  3.516 elapsed=620s
+  group  54/56  c10_storm2_w80_u100_0009.json    n=2   done=212   ok=212   err=0   usd=  3.563 elapsed=634s
+  group  55/56  c10_storm2_w80_u100_0010.json    n=4   done=216   ok=216   err=0   usd=  3.628 elapsed=646s
+  group  56/56  c10_storm2_w80_u100_0011.json    n=4   done=220   ok=220   err=0   usd=  3.700 elapsed=663s
+
+[n3h] pass 2/2  M_constrained thinking=default r1  (56 groups, 220 calls)
+  group   1/56  c09_storm2_w80_u100_0000.json    n=8   done=8     ok=8     err=0   usd=  0.107 elapsed=675s
+  group   2/56  c09_storm2_w80_u100_0001.json    n=5   done=13    ok=13    err=0   usd=  0.181 elapsed=687s
+  group   3/56  c09_storm2_w80_u100_0002.json    n=5   done=18    ok=18    err=0   usd=  0.253 elapsed=696s
+  group   4/56  c09_storm2_w80_u100_0003.json    n=4   done=22    ok=22    err=0   usd=  0.307 elapsed=703s
+  group   5/56  c09_storm2_w80_u100_0004.json    n=4   done=26    ok=26    err=0   usd=  0.367 elapsed=710s
+  group   6/56  c09_storm2_w80_u100_0005.json    n=5   done=31    ok=31    err=0   usd=  0.427 elapsed=716s
+  group   7/56  c09_storm2_w80_u100_0006.json    n=5   done=36    ok=36    err=0   usd=  0.496 elapsed=728s
+  group   8/56  c09_storm2_w80_u100_0007.json    n=5   done=41    ok=41    err=0   usd=  0.581 elapsed=739s
+  group   9/56  c09_storm2_w80_u100_0008.json    n=4   done=45    ok=45    err=0   usd=  0.661 elapsed=760s
+  group  10/56  c09_storm2_w80_u100_0009.json    n=4   done=49    ok=49    err=0   usd=  0.728 elapsed=774s
+  group  11/56  c09_storm2_w80_u100_0010.json    n=5   done=54    ok=54    err=0   usd=  0.808 elapsed=788s
+  group  12/56  c09_storm2_w80_u100_0011.json    n=5   done=59    ok=59    err=0   usd=  0.882 elapsed=799s
+  group  13/56  c09_storm2_w80_u100_0012.json    n=5   done=64    ok=64    err=0   usd=  0.955 elapsed=809s
+  group  14/56  c09_storm2_w80_u100_0013.json    n=4   done=68    ok=68    err=0   usd=  1.076 elapsed=839s
+  group  15/56  c09_storm2_w80_u100_0014.json    n=4   done=72    ok=72    err=0   usd=  1.140 elapsed=854s
+  group  16/56  c09_storm2_w80_u100_0015.json    n=5   done=77    ok=77    err=0   usd=  1.241 elapsed=875s
+  group  17/56  c09_storm2_w80_u100_0016.json    n=5   done=82    ok=82    err=0   usd=  1.308 elapsed=888s
+  group  18/56  c09_storm2_w80_u100_0017.json    n=5   done=87    ok=87    err=0   usd=  1.404 elapsed=906s
+  group  19/56  c09_storm2_w80_u100_0018.json    n=4   done=91    ok=91    err=0   usd=  1.477 elapsed=922s
+  group  20/56  c09_storm2_w80_u100_0019.json    n=4   done=95    ok=95    err=0   usd=  1.536 elapsed=930s
+  group  21/56  c09_storm2_w80_u100_0020.json    n=5   done=100   ok=100   err=0   usd=  1.604 elapsed=939s
+  group  22/56  c09_storm2_w80_u100_0022.json    n=9   done=109   ok=109   err=0   usd=  1.742 elapsed=959s
+  group  23/56  c09_storm2_w80_u100_0023.json    n=5   done=114   ok=114   err=0   usd=  1.831 elapsed=973s
+  group  24/56  c10_replay_400_0000.json         n=1   done=115   ok=115   err=0   usd=  1.865 elapsed=982s
+  group  25/56  c10_replay_400_0001.json         n=6   done=121   ok=121   err=0   usd=  1.946 elapsed=987s
+  group  26/56  c10_replay_400_0002.json         n=2   done=123   ok=123   err=0   usd=  2.002 elapsed=1003s
+  group  27/56  c10_replay_400_0003.json         n=3   done=126   ok=126   err=0   usd=  2.054 elapsed=1013s
+  group  28/56  c10_replay_400_0004.json         n=1   done=127   ok=127   err=0   usd=  2.080 elapsed=1016s
+  group  29/56  c10_replay_400_0005.json         n=4   done=131   ok=131   err=0   usd=  2.152 elapsed=1029s
+  group  30/56  c10_replay_400_0006.json         n=6   done=137   ok=137   err=0   usd=  2.250 elapsed=1045s
+  group  31/56  c10_replay_400_0007.json         n=3   done=140   ok=140   err=0   usd=  2.323 elapsed=1066s
+  group  32/56  c10_replay_400_0008.json         n=2   done=142   ok=142   err=0   usd=  2.366 elapsed=1076s
+  group  33/56  c10_replay_400_0009.json         n=1   done=143   ok=143   err=0   usd=  2.391 elapsed=1080s
+  group  34/56  c10_replay_400_0010.json         n=2   done=145   ok=145   err=0   usd=  2.443 elapsed=1093s
+  group  35/56  c10_replay_400_0011.json         n=8   done=153   ok=153   err=0   usd=  2.552 elapsed=1103s
+  group  36/56  c10_replay_400_0012.json         n=1   done=154   ok=154   err=0   usd=  2.582 elapsed=1108s
+  group  37/56  c10_replay_400_0013.json         n=1   done=155   ok=155   err=0   usd=  2.607 elapsed=1110s
+  group  38/56  c10_replay_400_0015.json         n=2   done=157   ok=157   err=0   usd=  2.645 elapsed=1118s
+  group  39/56  c10_replay_400_0016.json         n=6   done=163   ok=163   err=0   usd=  2.757 elapsed=1136s
+  group  40/56  c10_replay_400_0017.json         n=1   done=164   ok=164   err=0   usd=  2.791 elapsed=1139s
+  group  41/56  c10_replay_400_0020.json         n=9   done=173   ok=173   err=0   usd=  2.902 elapsed=1151s
+  group  42/56  c10_replay_400_0021.json         n=4   done=177   ok=177   err=0   usd=  2.961 elapsed=1161s
+  group  43/56  c10_replay_400_0022.json         n=1   done=178   ok=178   err=0   usd=  2.997 elapsed=1169s
+  group  44/56  c10_replay_400_0023.json         n=1   done=179   ok=179   err=0   usd=  3.043 elapsed=1184s
+  group  45/56  c10_storm2_w80_u100_0000.json    n=4   done=183   ok=183   err=0   usd=  3.102 elapsed=1195s
+  group  46/56  c10_storm2_w80_u100_0001.json    n=4   done=187   ok=187   err=0   usd=  3.171 elapsed=1211s
+  group  47/56  c10_storm2_w80_u100_0002.json    n=1   done=188   ok=188   err=0   usd=  3.202 elapsed=1219s
+  group  48/56  c10_storm2_w80_u100_0003.json    n=4   done=192   ok=192   err=0   usd=  3.276 elapsed=1233s
+  group  49/56  c10_storm2_w80_u100_0004.json    n=5   done=197   ok=197   err=0   usd=  3.360 elapsed=1249s
+  group  50/56  c10_storm2_w80_u100_0005.json    n=4   done=201   ok=201   err=0   usd=  3.410 elapsed=1256s
+  group  51/56  c10_storm2_w80_u100_0006.json    n=4   done=205   ok=205   err=0   usd=  3.477 elapsed=1270s
+  group  52/56  c10_storm2_w80_u100_0007.json    n=1   done=206   ok=206   err=0   usd=  3.502 elapsed=1272s
+  group  53/56  c10_storm2_w80_u100_0008.json    n=4   done=210   ok=210   err=0   usd=  3.566 elapsed=1282s
+  group  54/56  c10_storm2_w80_u100_0009.json    n=2   done=212   ok=212   err=0   usd=  3.606 elapsed=1292s
+  group  55/56  c10_storm2_w80_u100_0010.json    n=4   done=216   ok=216   err=0   usd=  3.679 elapsed=1306s
+  group  56/56  c10_storm2_w80_u100_0011.json    n=4   done=220   ok=220   err=0   usd=  3.736 elapsed=1316s
+
+[n3h] raw log : <project>/results/n3neg_opus/proposals_raw.jsonl
+[n3h] meta    : <project>/results/n3neg_opus/run_meta_20261026T035137Z.json
+[n3h] estimated spend this session: USD 7.44

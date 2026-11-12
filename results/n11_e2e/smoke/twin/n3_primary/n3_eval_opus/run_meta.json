@@ -1,0 +1,113 @@
+{
+ "arms": [
+  "opus"
+ ],
+ "config_hashes": {
+  "G_CERT": "52c094406252bf1ab57350d1ec4f9165f8bc4f7d83df2b99e1fb52356e829a42",
+  "G_CERT_V11": "838fac787409de3f67e9a2aaff4ea6f0878a58883ab5470ed72c8562147188b4",
+  "G_FEAS": "6176c8978a84adf727594d2a7a574dad6e03628e1d3cdddefbf76cfa79122390",
+  "G_FEAS_V11": "0d0f220e3042a2b712716c36003ace6b2694f497a1f63dfc01d3378ccd313b4b"
+ },
+ "date": "2026-11-03 18:09:48 +08",
+ "dedup": {
+  "kept": 2560,
+  "keys": 2560,
+  "raw_rows": 2560,
+  "unresolved_errors": 0
+ },
+ "eval_version": "l1-n3-eval-2",
+ "instance_root": "${L1_Y1_ROOT}/data/processed/instances_v10",
+ "item_sets": {
+  "benign_control": 800,
+  "costly_accepted": 880,
+  "v3_twin": 880
+ },
+ "limit": 0,
+ "live_cert_disagreements": [],
+ "live_cert_disagreements_v12": [],
+ "modes": [
+  "M_constrained",
+  "M_free"
+ ],
+ "n11": {
+  "reading": "decision instant t_d = t_known, issuable items",
+  "rows": 80
+ },
+ "n_rows": 2560,
+ "out_dir": "./results/n3_eval_opus",
+ "policy_hashes": {
+  "G_REL2_V11": {
+   "0.30": "1c2f7f49fae1e38c3a13084e93bb2c0e39200e1092ff6e1865f7f5094d464a7d",
+   "0.40": "25949be91c3cd5d0c022882aca12144b99e9b64cc587e50aa20849db97c5714c",
+   "0.60": "7501618d8212a16e1566320b3767a174fb48844554a2d661eb3ff0c50ff82d3e",
+   "none": "1316361042812427f3d7e9d5be973387d9ea3f217f29ddb2f182f9aa8c0089bf"
+  },
+  "G_UNION_V11": {
+   "0.30": "a2320e01dcf8f0649f9efd2f3cc200825b4200437336bca782635c656bd48f86",
+   "0.40": "3e62dc491ac907042e0a53431c77d08e8ee68cde444776ba82a1f331e08e34df",
+   "0.60": "e74b8e04510dd1158fbe55c15d374c97c7a8ba480583c5c1647b1552fa7f35af",
+   "none": "1a0f9317bd6023f8afe11eab4a210300f1368892e471dde1ee8b9365f8266657"
+  },
+  "P_CERT_V11": {
+   "0.30": "3bac0612714ad32d3484bf8e2f7449272f14fe87a7f6e3beab3e4b52e40c9eb5",
+   "0.40": "b20e3558d02e193745e0463768fe42931e294561bf295b18b1a9f1987791b425",
+   "0.60": "76ff51fff38ea7a52e685d64bc7c7e21dd1521637217d6e64079493bd71ccd12",
+   "none": "11c71cd436f7e3f85e5c887238a7075a659e03ebb70845202c196c4e6d36b71e"
+  }
+ },
+ "policy_version": "l1-policy-1.1.0",
+ "protocol_v12": "l1-policy-1.2.0",
+ "raw_path": "./results/n3_opus/proposals_raw.jsonl",
+ "raw_sha256": "2db24133c056b79692cb94202b1440abdb27def2090a14e9514011935e72f6e8",
+ "schema_sha256": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+ "schema_v11_sha256": "8b9b11a333a27462bd0c5b95e1c79f733f43a6ba9b2ff7fa0058e90b5b7ed1fb",
+ "suite_ext_sha256": "2bc5789a3d15aca0e97991407622dabbb9d225d38c3eb69096044844b30f38c5",
+ "suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+ "tau_hard_primary": 0.4,
+ "tau_hard_sweep": [
+  "0.30",
+  "0.40",
+  "0.60",
+  "none"
+ ],
+ "terminals": {
+  "G_CERT": {
+   "applied_with_certificate": 488,
+   "blocked_feas": 6,
+   "blocked_qual": 836,
+   "blocked_schema": 223,
+   "model_refused": 1007
+  },
+  "G_CERT_V11": {
+   "applied_with_certificate": 486,
+   "applied_with_override_record": 110,
+   "blocked_feas": 6,
+   "blocked_schema": 225,
+   "model_refused": 1007,
+   "referred_with_price": 726
+  },
+  "G_FEAS": {
+   "applied_uncertified": 1324,
+   "blocked_feas": 6,
+   "blocked_schema": 223,
+   "model_refused": 1007
+  },
+  "G_FEAS_V11": {
+   "applied_uncertified": 1322,
+   "blocked_feas": 6,
+   "blocked_schema": 225,
+   "model_refused": 1007
+  }
+ },
+ "terminals_v12": {
+  "applied_with_certificate": 488,
+  "applied_with_override_record": 110,
+  "blocked_feas": 6,
+  "blocked_schema": 223,
+  "model_refused": 1007,
+  "referred_with_price": 726
+ },
+ "v12_base": "G_FEAS / G_CERT verdicts of the v1.0.0 view; flag = approver entry (gold_intent)",
+ "wall_s": 564.4171760044992,
+ "workers": 2
+}

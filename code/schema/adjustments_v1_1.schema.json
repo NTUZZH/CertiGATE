@@ -1,0 +1,212 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "l1-adjustments-1.1.0",
+  "title": "L1 dispatch adjustment proposal (v1.1.0, 2026-10-26)",
+  "description": "Structural contract for LLM-proposed dispatch adjustments over the FM work-order environment, version 1.1.0. The operations are those of the frozen v1.0.0 contract (l1-adjustments-1.0.0), unchanged. Version 1.1.0 adds one REQUIRED top-level boolean, issuer_accepts_cost: true when the instruction explicitly accepts that other work may be delayed as a result, false otherwise. A v1.0.0 object, which has no such field, is therefore not a valid v1.1.0 object; read under v1.1.0 it maps to issuer_accepts_cost = false. Instance-dependent validity is checked deterministically in G_schema, never in this schema. An empty operations array is the refusal/no-op signal.",
+  "type": "object",
+  "properties": {
+    "operations": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "type": "object",
+            "properties": {
+              "op": {
+                "enum": [
+                  "set_priority"
+                ]
+              },
+              "order_id": {
+                "type": "string"
+              },
+              "priority_class": {
+                "enum": [
+                  1,
+                  2,
+                  3,
+                  4
+                ]
+              }
+            },
+            "required": [
+              "op",
+              "order_id",
+              "priority_class"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": {
+                "enum": [
+                  "pin_next"
+                ]
+              },
+              "order_id": {
+                "type": "string"
+              },
+              "trade": {
+                "enum": [
+                  "B20",
+                  "B30",
+                  "C10",
+                  "C30",
+                  "D10",
+                  "D20",
+                  "D30",
+                  "D40",
+                  "D50",
+                  "D90",
+                  "E10",
+                  "E20",
+                  "MISC",
+                  "UNK"
+                ]
+              }
+            },
+            "required": [
+              "op",
+              "order_id",
+              "trade"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": {
+                "enum": [
+                  "reorder"
+                ]
+              },
+              "order_id": {
+                "type": "string"
+              },
+              "relation": {
+                "enum": [
+                  "before",
+                  "after"
+                ]
+              },
+              "ref_order_id": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "op",
+              "order_id",
+              "relation",
+              "ref_order_id"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": {
+                "enum": [
+                  "reassign_window"
+                ]
+              },
+              "order_id": {
+                "type": "string"
+              },
+              "release_shift_bh": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "op",
+              "order_id",
+              "release_shift_bh"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": {
+                "enum": [
+                  "freeze"
+                ]
+              },
+              "order_id": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "op",
+              "order_id"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": {
+                "enum": [
+                  "unfreeze"
+                ]
+              },
+              "order_id": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "op",
+              "order_id"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": {
+                "enum": [
+                  "batch"
+                ]
+              },
+              "building_id": {
+                "type": "string"
+              },
+              "trade": {
+                "enum": [
+                  "B20",
+                  "B30",
+                  "C10",
+                  "C30",
+                  "D10",
+                  "D20",
+                  "D30",
+                  "D40",
+                  "D50",
+                  "D90",
+                  "E10",
+                  "E20",
+                  "MISC",
+                  "UNK"
+                ]
+              }
+            },
+            "required": [
+              "op",
+              "building_id",
+              "trade"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      }
+    },
+    "issuer_accepts_cost": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "operations",
+    "issuer_accepts_cost"
+  ],
+  "additionalProperties": false
+}

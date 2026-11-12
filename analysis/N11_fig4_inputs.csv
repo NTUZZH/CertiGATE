@@ -1,0 +1,9 @@
+# N11 Stage 2: Fig. 4 inputs (fig3_guard_value.load) per arm; Pearson r published 0.9779, issuable t=0 0.9653, decision time 0.9715
+arm,tier,spot_check,referral_pct_published,fidelity_pct_published,referral_pct_issuable_t0,fidelity_pct_issuable_t0,referral_pct_decision_time,fidelity_pct_decision_time
+qwen3-14b,1,False,82.2727,85.9091,80.5195,82.4675,80.5195,82.4675
+qwen3.6-27b-fp8,2,False,86.9697,94.5455,85.7143,93.5065,86.3636,93.5065
+glm-4-9b,3,True,72.7273,74.5455,70.7792,70.7792,70.1299,70.7792
+openai,4,False,78.8636,80.9091,79.2208,79.8701,79.2208,79.8701
+sonnet,6,False,85.9091,92.2727,83.1169,88.961,83.7662,88.961
+opus,7,False,90.4545,95.9091,89.6104,94.1558,90.2597,94.1558
+sol,8,True,82.2727,89.5455,83.7662,91.5584,84.4156,91.5584

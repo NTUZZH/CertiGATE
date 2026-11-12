@@ -1,0 +1,30 @@
+# Phase-1 additive verification of the SINGLE-UG arm (loose budget).
+# Recomputed from results/e3_replay_<arm>/verdicts.jsonl, pooled over repeats,
+# and asserted equal to analysis/E7_e3_profiles.csv. warranted = applied_with_certificate
+# + blocked_correct + referred; denominator n excludes API-error trajectories only.
+# assertions failed: 0
+arm,budget_level,variant,repeats_pooled,n,warranted_recomputed,warranted_rate_recomputed,warranted_rate_E7,matches_E7,n_applied_with_certificate,n_applied_uncertified,n_blocked_correct,n_blocked_false,n_referred,n_execution_failed,wwt_vs_rule_mean_bh_E7,violation_pass_through_E7
+qwen14b,loose,SINGLE+G,2,480,478,0.995833,0.995833,yes,318,0,8,2,152,0,0.7769,0.472222
+qwen14b,loose,SINGLE-UG,2,480,72,0.150000,0.150000,yes,0,376,0,0,72,32,42.2300,0.659722
+qwen14b,loose,MULTI-G,2,480,478,0.995833,0.995833,yes,336,0,5,2,137,0,2.6245,0.559028
+qwen14b,loose,MULTI-UG,2,480,45,0.093750,0.093750,yes,0,392,0,0,45,43,41.8259,0.736111
+qwen27b,loose,SINGLE+G,1,240,237,0.987500,0.987500,yes,166,0,8,3,63,0,2.0854,0.513889
+qwen27b,loose,SINGLE-UG,1,240,42,0.175000,0.175000,yes,0,182,0,0,42,16,37.9932,0.625000
+qwen27b,loose,MULTI-G,1,240,235,0.979167,0.979167,yes,159,0,15,5,61,0,2.8250,0.500000
+qwen27b,loose,MULTI-UG,1,240,49,0.204167,0.204167,yes,0,177,0,0,49,14,39.6137,0.625000
+openai,loose,SINGLE+G,1,240,239,0.995833,0.995833,yes,184,0,4,1,51,0,3.2317,0.618056
+openai,loose,SINGLE-UG,1,240,17,0.070833,0.070833,yes,0,200,0,0,17,23,48.0181,0.722222
+openai,loose,MULTI-G,1,240,239,0.995833,0.995833,yes,185,0,7,1,47,0,4.6203,0.631944
+openai,loose,MULTI-UG,1,240,11,0.045833,0.045833,yes,0,203,0,0,11,26,42.6956,0.750000
+deepseek,loose,SINGLE+G,1,240,240,1.000000,1.000000,yes,105,0,4,0,131,0,0.2252,0.270833
+deepseek,loose,SINGLE-UG,1,240,240,1.000000,1.000000,yes,0,0,0,0,240,0,0.0000,0.000000
+deepseek,loose,MULTI-G,1,240,240,1.000000,1.000000,yes,121,0,1,0,118,0,0.0330,0.361111
+deepseek,loose,MULTI-UG,1,240,240,1.000000,1.000000,yes,0,0,0,0,240,0,0.0000,0.000000
+sonnet,loose,SINGLE+G,1,240,240,1.000000,1.000000,yes,164,0,3,0,73,0,0.1674,0.479167
+sonnet,loose,SINGLE-UG,1,240,52,0.216667,0.216667,yes,0,181,0,0,52,7,41.5991,0.597222
+sonnet,loose,MULTI-G,1,240,240,1.000000,1.000000,yes,156,0,4,0,80,0,0.3470,0.437500
+sonnet,loose,MULTI-UG,1,240,57,0.237500,0.237500,yes,0,177,0,0,57,6,40.8166,0.583333
+opus,loose,SINGLE+G,1,240,240,1.000000,1.000000,yes,158,0,0,0,82,0,3.1370,0.437500
+opus,loose,SINGLE-UG,1,240,55,0.229167,0.229167,yes,0,176,0,0,55,9,48.0133,0.576389
+opus,loose,MULTI-G,1,240,239,0.995833,0.995833,yes,153,0,1,1,85,0,3.0360,0.416667
+opus,loose,MULTI-UG,1,240,62,0.258333,0.258333,yes,0,170,0,0,62,8,47.3830,0.548611

@@ -1,0 +1,11 @@
+# Provider keys, loaded by the experiment runners into their own process only.
+.env
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Release assets unpacked in place (see results/README.md)
+*.tar.gz

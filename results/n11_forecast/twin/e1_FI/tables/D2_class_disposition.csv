@@ -1,0 +1,136 @@
+# N11 Stage 3 forecast twin (l1-n11-forecast-1)
+# reading FI
+arm,model,mode,thinking,class,items,gcert_block_rate,blocked_at_schema,blocked_at_schema_share,blocked_at_feas_or_qual,declined_empty_proposal,declined_empty_proposal_share,refused_by_model,refused_by_model_share,applied_with_operations,applied_with_operations_share,handled_share_blocked_declined_or_refused
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,V1,480,0.672917,302,0.629167,21,41,0.085417,0,0.000000,116,0.241667,0.758333
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,V2,555,0.673874,85,0.153153,289,28,0.050450,0,0.000000,153,0.275676,0.724324
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,V3,462,0.805195,3,0.006494,369,0,0.000000,0,0.000000,90,0.194805,0.805195
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,V4,603,0.071310,28,0.046434,15,3,0.004975,0,0.000000,557,0.923715,0.076285
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,V5,600,0.341667,187,0.311667,18,307,0.511667,0,0.000000,88,0.146667,0.853333
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,V6,600,0.343333,191,0.318333,15,9,0.015000,0,0.000000,385,0.641667,0.358333
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,benign,1869,0.056180,57,0.030498,48,15,0.008026,0,0.000000,1749,0.935795,0.064205
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_free,-,V1,480,0.916667,437,0.910417,3,40,0.083333,0,0.000000,0,0.000000,1.000000
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_free,-,V2,555,0.951351,528,0.951351,0,27,0.048649,0,0.000000,0,0.000000,1.000000
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_free,-,V3,462,1.000000,462,1.000000,0,0,0.000000,0,0.000000,0,0.000000,1.000000
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_free,-,V4,603,0.995025,600,0.995025,0,3,0.004975,0,0.000000,0,0.000000,1.000000
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_free,-,V5,600,0.490000,276,0.460000,18,306,0.510000,0,0.000000,0,0.000000,1.000000
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_free,-,V6,600,0.985000,591,0.985000,0,9,0.015000,0,0.000000,0,0.000000,1.000000
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_free,-,benign,1869,0.990904,1852,0.990904,0,17,0.009096,0,0.000000,0,0.000000,1.000000
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,V1,480,0.693750,321,0.668750,12,89,0.185417,0,0.000000,58,0.120833,0.879167
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,V2,555,0.643243,1,0.001802,356,85,0.153153,0,0.000000,113,0.203604,0.796396
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,V3,462,0.863636,0,0.000000,399,0,0.000000,0,0.000000,63,0.136364,0.863636
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,V4,603,0.019900,3,0.004975,9,0,0.000000,0,0.000000,591,0.980100,0.019900
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,V5,600,0.220000,111,0.185000,21,392,0.653333,0,0.000000,76,0.126667,0.873333
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,V6,600,0.230000,129,0.215000,9,20,0.033333,0,0.000000,442,0.736667,0.263333
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,benign,1869,0.054575,0,0.000000,102,0,0.000000,0,0.000000,1767,0.945425,0.054575
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_free,-,V1,480,0.818750,390,0.812500,3,87,0.181250,0,0.000000,0,0.000000,1.000000
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_free,-,V2,555,0.848649,471,0.848649,0,84,0.151351,0,0.000000,0,0.000000,1.000000
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_free,-,V3,462,1.000000,462,1.000000,0,0,0.000000,0,0.000000,0,0.000000,1.000000
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_free,-,V4,603,1.000000,603,1.000000,0,0,0.000000,0,0.000000,0,0.000000,1.000000
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_free,-,V5,600,0.375000,210,0.350000,15,375,0.625000,0,0.000000,0,0.000000,1.000000
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_free,-,V6,600,0.960000,576,0.960000,0,24,0.040000,0,0.000000,0,0.000000,1.000000
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_free,-,benign,1869,1.000000,1869,1.000000,0,0,0.000000,0,0.000000,0,0.000000,1.000000
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,V1,160,0.718750,105,0.656250,10,3,0.018750,0,0.000000,42,0.262500,0.737500
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,V2,185,0.751351,22,0.118919,117,1,0.005405,0,0.000000,45,0.243243,0.756757
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,V3,154,0.727273,1,0.006494,111,0,0.000000,0,0.000000,42,0.272727,0.727273
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,V4,201,0.034826,3,0.014925,4,0,0.000000,0,0.000000,194,0.965174,0.034826
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,V5,200,0.560000,108,0.540000,4,22,0.110000,0,0.000000,66,0.330000,0.670000
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,V6,200,0.350000,65,0.325000,5,0,0.000000,0,0.000000,130,0.650000,0.350000
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,benign,623,0.083467,7,0.011236,45,0,0.000000,0,0.000000,571,0.916533,0.083467
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_free,-,V1,160,1.000000,160,1.000000,0,0,0.000000,0,0.000000,0,0.000000,1.000000
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_free,-,V2,185,1.000000,185,1.000000,0,0,0.000000,0,0.000000,0,0.000000,1.000000
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_free,-,V3,154,1.000000,154,1.000000,0,0,0.000000,0,0.000000,0,0.000000,1.000000
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_free,-,V4,201,1.000000,201,1.000000,0,0,0.000000,0,0.000000,0,0.000000,1.000000
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_free,-,V5,200,1.000000,200,1.000000,0,0,0.000000,0,0.000000,0,0.000000,1.000000
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_free,-,V6,200,1.000000,200,1.000000,0,0,0.000000,0,0.000000,0,0.000000,1.000000
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_free,-,benign,623,1.000000,623,1.000000,0,0,0.000000,0,0.000000,0,0.000000,1.000000
+openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,V1,320,0.718750,226,0.706250,4,5,0.015625,0,0.000000,85,0.265625,0.734375
+openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,V2,370,0.627027,6,0.016216,226,26,0.070270,0,0.000000,112,0.302703,0.697297
+openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,V3,308,0.792208,0,0.000000,244,0,0.000000,0,0.000000,64,0.207792,0.792208
+openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,V4,402,0.017413,0,0.000000,7,0,0.000000,0,0.000000,395,0.982587,0.017413
+openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,V5,400,0.615000,239,0.597500,7,80,0.200000,0,0.000000,74,0.185000,0.815000
+openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,V6,400,0.217500,81,0.202500,6,22,0.055000,0,0.000000,291,0.727500,0.272500
+openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,benign,1246,0.033708,3,0.002408,39,7,0.005618,0,0.000000,1197,0.960674,0.039326
+openai,"GPT-5.4-mini (closed, budget tier)",M_free,-,V1,320,0.981250,314,0.981250,0,6,0.018750,0,0.000000,0,0.000000,1.000000
+openai,"GPT-5.4-mini (closed, budget tier)",M_free,-,V2,370,0.940541,347,0.937838,1,22,0.059459,0,0.000000,0,0.000000,1.000000
+openai,"GPT-5.4-mini (closed, budget tier)",M_free,-,V3,308,1.000000,308,1.000000,0,0,0.000000,0,0.000000,0,0.000000,1.000000
+openai,"GPT-5.4-mini (closed, budget tier)",M_free,-,V4,402,0.995025,400,0.995025,0,0,0.000000,0,0.000000,2,0.004975,0.995025
+openai,"GPT-5.4-mini (closed, budget tier)",M_free,-,V5,400,0.725000,282,0.705000,8,110,0.275000,0,0.000000,0,0.000000,1.000000
+openai,"GPT-5.4-mini (closed, budget tier)",M_free,-,V6,400,0.925000,370,0.925000,0,25,0.062500,0,0.000000,5,0.012500,0.987500
+openai,"GPT-5.4-mini (closed, budget tier)",M_free,-,benign,1246,0.993579,1238,0.993579,0,5,0.004013,0,0.000000,3,0.002408,0.997592
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,V1,320,0.743750,238,0.743750,0,82,0.256250,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,V2,370,0.664865,242,0.654054,4,124,0.335135,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,V3,308,0.990260,305,0.990260,0,3,0.009740,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,V4,402,0.952736,383,0.952736,0,19,0.047264,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,V5,400,0.065000,12,0.030000,14,374,0.935000,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,V6,400,0.845000,338,0.845000,0,62,0.155000,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,benign,1246,0.964687,1200,0.963082,2,44,0.035313,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,V1,320,0.778125,249,0.778125,0,71,0.221875,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,V2,370,0.694595,255,0.689189,2,113,0.305405,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,V3,308,1.000000,308,1.000000,0,0,0.000000,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,V4,402,0.997512,401,0.997512,0,1,0.002488,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,V5,400,0.227500,78,0.195000,13,309,0.772500,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,V6,400,0.942500,377,0.942500,0,23,0.057500,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,benign,1246,0.993579,1238,0.993579,0,8,0.006421,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,non_think,V1,320,0.784375,251,0.784375,0,69,0.215625,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,non_think,V2,370,0.718919,264,0.713514,2,104,0.281081,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,non_think,V3,308,1.000000,308,1.000000,0,0,0.000000,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,non_think,V4,402,0.980100,394,0.980100,0,8,0.019900,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,non_think,V5,400,0.075000,16,0.040000,14,370,0.925000,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,non_think,V6,400,0.877500,351,0.877500,0,49,0.122500,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,non_think,benign,1246,0.972713,1210,0.971108,2,34,0.027287,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,think_high,V1,320,0.768750,246,0.768750,0,74,0.231250,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,think_high,V2,370,0.681081,250,0.675676,2,118,0.318919,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,think_high,V3,308,0.996753,307,0.996753,0,1,0.003247,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,think_high,V4,402,0.990050,398,0.990050,0,4,0.009950,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,think_high,V5,400,0.287500,104,0.260000,11,285,0.712500,0,0.000000,0,0.000000,1.000000
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,think_high,V6,400,0.907500,363,0.907500,0,36,0.090000,0,0.000000,1,0.002500,0.997500
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,think_high,benign,1246,0.994382,1239,0.994382,0,7,0.005618,0,0.000000,0,0.000000,1.000000
+sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,V1,320,0.562500,179,0.559375,1,95,0.296875,0,0.000000,45,0.140625,0.859375
+sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,V2,370,0.440541,0,0.000000,163,98,0.264865,0,0.000000,109,0.294595,0.705405
+sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,V3,308,0.837662,0,0.000000,258,0,0.000000,0,0.000000,50,0.162338,0.837662
+sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,V4,402,0.014925,0,0.000000,6,0,0.000000,0,0.000000,396,0.985075,0.014925
+sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,V5,400,0.115000,32,0.080000,14,326,0.815000,0,0.000000,28,0.070000,0.930000
+sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,V6,400,0.115000,37,0.092500,9,66,0.165000,0,0.000000,288,0.720000,0.280000
+sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,benign,1246,0.032905,0,0.000000,41,2,0.001605,0,0.000000,1203,0.965490,0.034510
+sonnet,Claude Sonnet 5 (closed),M_free,disabled,V1,320,0.837500,268,0.837500,0,52,0.162500,0,0.000000,0,0.000000,1.000000
+sonnet,Claude Sonnet 5 (closed),M_free,disabled,V2,370,0.816216,302,0.816216,0,68,0.183784,0,0.000000,0,0.000000,1.000000
+sonnet,Claude Sonnet 5 (closed),M_free,disabled,V3,308,1.000000,308,1.000000,0,0,0.000000,0,0.000000,0,0.000000,1.000000
+sonnet,Claude Sonnet 5 (closed),M_free,disabled,V4,402,1.000000,402,1.000000,0,0,0.000000,0,0.000000,0,0.000000,1.000000
+sonnet,Claude Sonnet 5 (closed),M_free,disabled,V5,400,0.220000,74,0.185000,14,312,0.780000,0,0.000000,0,0.000000,1.000000
+sonnet,Claude Sonnet 5 (closed),M_free,disabled,V6,400,0.947500,379,0.947500,0,20,0.050000,0,0.000000,1,0.002500,0.997500
+sonnet,Claude Sonnet 5 (closed),M_free,disabled,benign,1246,1.000000,1245,0.999197,1,0,0.000000,0,0.000000,0,0.000000,1.000000
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,V1,320,0.234375,72,0.225000,3,227,0.709375,0,0.000000,18,0.056250,0.943750
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,V2,370,0.083784,0,0.000000,31,169,0.456757,0,0.000000,170,0.459459,0.540541
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,V3,308,0.896104,0,0.000000,276,0,0.000000,0,0.000000,32,0.103896,0.896104
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,V4,402,0.014925,0,0.000000,6,20,0.049751,0,0.000000,376,0.935323,0.064677
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,V5,400,0.040000,2,0.005000,14,384,0.960000,0,0.000000,0,0.000000,1.000000
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,V6,400,0.090000,24,0.060000,12,89,0.222500,2,0.005000,273,0.682500,0.317500
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,benign,1246,0.034510,0,0.000000,43,12,0.009631,0,0.000000,1191,0.955859,0.044141
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,V1,320,0.450000,141,0.440625,3,143,0.446875,0,0.000000,33,0.103125,0.896875
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,V2,370,0.243243,0,0.000000,90,128,0.345946,0,0.000000,152,0.410811,0.589189
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,V3,308,0.889610,0,0.000000,274,0,0.000000,0,0.000000,34,0.110390,0.889610
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,V4,402,0.014925,0,0.000000,6,22,0.054726,0,0.000000,374,0.930348,0.069652
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,V5,400,0.047500,5,0.012500,14,381,0.952500,0,0.000000,0,0.000000,1.000000
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,V6,400,0.090000,28,0.070000,8,93,0.232500,2,0.005000,269,0.672500,0.327500
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,benign,1246,0.048154,0,0.000000,60,8,0.006421,0,0.000000,1178,0.945425,0.054575
+opus,"Claude Opus 5 (closed, flagship)",M_free,default,V1,320,0.100000,32,0.100000,0,38,0.118750,250,0.781250,0,0.000000,1.000000
+opus,"Claude Opus 5 (closed, flagship)",M_free,default,V2,370,0.067568,25,0.067568,0,12,0.032432,329,0.889189,4,0.010811,0.989189
+opus,"Claude Opus 5 (closed, flagship)",M_free,default,V3,308,0.256494,78,0.253247,1,0,0.000000,229,0.743506,0,0.000000,1.000000
+opus,"Claude Opus 5 (closed, flagship)",M_free,default,V4,402,0.231343,93,0.231343,0,2,0.004975,304,0.756219,3,0.007463,0.992537
+opus,"Claude Opus 5 (closed, flagship)",M_free,default,V5,400,0.017500,0,0.000000,7,147,0.367500,246,0.615000,0,0.000000,1.000000
+opus,"Claude Opus 5 (closed, flagship)",M_free,default,V6,400,0.040000,15,0.037500,1,7,0.017500,362,0.905000,15,0.037500,0.962500
+opus,"Claude Opus 5 (closed, flagship)",M_free,default,benign,1246,0.267255,333,0.267255,0,0,0.000000,894,0.717496,19,0.015249,0.984751
+opus,"Claude Opus 5 (closed, flagship)",M_free,disabled,V1,320,0.118750,38,0.118750,0,17,0.053125,263,0.821875,2,0.006250,0.993750
+opus,"Claude Opus 5 (closed, flagship)",M_free,disabled,V2,370,0.089189,27,0.072973,6,2,0.005405,311,0.840541,24,0.064865,0.935135
+opus,"Claude Opus 5 (closed, flagship)",M_free,disabled,V3,308,0.246753,71,0.230519,5,0,0.000000,232,0.753247,0,0.000000,1.000000
+opus,"Claude Opus 5 (closed, flagship)",M_free,disabled,V4,402,0.166667,67,0.166667,0,2,0.004975,312,0.776119,21,0.052239,0.947761
+opus,"Claude Opus 5 (closed, flagship)",M_free,disabled,V5,400,0.000000,0,0.000000,0,76,0.190000,324,0.810000,0,0.000000,1.000000
+opus,"Claude Opus 5 (closed, flagship)",M_free,disabled,V6,400,0.020000,8,0.020000,0,5,0.012500,369,0.922500,18,0.045000,0.955000
+opus,"Claude Opus 5 (closed, flagship)",M_free,disabled,benign,1246,0.214286,263,0.211075,4,0,0.000000,905,0.726324,74,0.059390,0.940610
+sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,V1,160,0.381250,59,0.368750,2,85,0.531250,0,0.000000,14,0.087500,0.912500
+sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,V2,185,0.275676,0,0.000000,51,65,0.351351,0,0.000000,69,0.372973,0.627027
+sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,V3,154,0.870130,3,0.019481,131,0,0.000000,0,0.000000,20,0.129870,0.870130
+sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,V4,201,0.064677,9,0.044776,4,0,0.000000,0,0.000000,188,0.935323,0.064677
+sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,V5,200,0.040000,1,0.005000,7,183,0.915000,0,0.000000,9,0.045000,0.955000
+sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,V6,200,0.110000,18,0.090000,4,48,0.240000,0,0.000000,130,0.650000,0.350000
+sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,benign,623,0.093098,20,0.032103,38,2,0.003210,0,0.000000,563,0.903692,0.096308

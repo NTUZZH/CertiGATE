@@ -1,0 +1,993 @@
+{
+ "board": {
+  "known_share_median": 0.7916397328162034,
+  "known_share_q1": 0.5002669514148425,
+  "known_share_q3": 0.8118942731277533,
+  "n_known_max": 7555,
+  "n_known_median": 1732,
+  "prompt_chars_max": 14757,
+  "prompt_chars_median": 4255,
+  "prompt_chars_whole_window_max": 14757,
+  "prompt_chars_whole_window_median": 4179,
+  "t_d_at_window_start": 991
+ },
+ "checks": {
+  "by_group": {
+   "A0": 1,
+   "A1": 5724,
+   "A2": 6892,
+   "A3": 8,
+   "CFG": 8,
+   "FILE": 5172,
+   "GLOB": 1,
+   "GPU": 5,
+   "LEAK": 6892
+  },
+  "failures": [],
+  "n_checks": 24703
+ },
+ "diffs": {
+  "glm-4-9b": [
+   {
+    "category": "item set",
+    "key": "items",
+    "known_board": 1723,
+    "published": 2000
+   },
+   {
+    "category": "modes",
+    "key": "modes",
+    "known_board": [
+     "M_constrained"
+    ],
+    "published": [
+     "M_constrained",
+     "M_free"
+    ]
+   },
+   {
+    "category": "prompt version",
+    "key": "prompt_version",
+    "known_board": "l1-prompt-1.0.0+known-board",
+    "published": "l1-prompt-1.0.0"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "arm",
+    "known_board": "glm-4-9b",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "item_set_sha256",
+    "known_board": "d0ac569d0d85f62288bf3856ac709581ada28dc1b017d6d53372ea34af905d4e",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "model_repo",
+    "known_board": "zai-org/GLM-4-9B-0414",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "model_revision",
+    "known_board": "645b8482494e31b6b752272bf7f7f273ef0f3caf",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "prompt_variant",
+    "known_board": "known-board",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "prompts_sha256",
+    "known_board": "513f2cf8f59c590eb2016b54b1d322b3ddddb111070d0a31271be58549295eda",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "gpu_memory_utilization",
+    "known_board": 0.85,
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "max_num_seqs",
+    "known_board": 0,
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "max_num_seqs_source",
+    "known_board": "vLLM default (absent from the non-default args of results/grid_e1_local_glm9b_20260813.log)",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "trust_remote_code",
+    "known_board": false,
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "chat_template",
+    "known_board": "the snapshot's own, enable_thinking=False",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "env",
+    "known_board": {
+     "TOKENIZERS_PARALLELISM": "false",
+     "VLLM_USE_FLASHINFER_SAMPLER": "0"
+    },
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "out_dir",
+    "known_board": "results/grid_e1_known_glm9b",
+    "published": "<not recorded>"
+   }
+  ],
+  "hosted:deepseek": [
+   {
+    "category": "modes",
+    "key": "modes",
+    "known_board": [
+     "M_constrained"
+    ],
+    "published": [
+     "M_constrained",
+     "M_free"
+    ]
+   },
+   {
+    "category": "item set",
+    "key": "items",
+    "known_board": 1723,
+    "published": 2000
+   },
+   {
+    "category": "prompt version",
+    "key": "prompt_version",
+    "known_board": "l1-prompt-1.0.0+known-board",
+    "published": "l1-prompt-1.0.0"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "item_set_sha256",
+    "known_board": "d0ac569d0d85f62288bf3856ac709581ada28dc1b017d6d53372ea34af905d4e",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "prompt_variant",
+    "known_board": "known-board",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "prompts_sha256",
+    "known_board": "513f2cf8f59c590eb2016b54b1d322b3ddddb111070d0a31271be58549295eda",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "cache_group",
+    "known_board": "(instance, frozen seed, t_d): the known board differs between decision instants, so items share a cached prefix only within one t_d",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "out_dir",
+    "known_board": "results/grid_e1_known_deepseek",
+    "published": "<not recorded>"
+   }
+  ],
+  "hosted:openai": [
+   {
+    "category": "modes",
+    "key": "modes",
+    "known_board": [
+     "M_constrained"
+    ],
+    "published": [
+     "M_constrained",
+     "M_free"
+    ]
+   },
+   {
+    "category": "item set",
+    "key": "items",
+    "known_board": 1723,
+    "published": 2000
+   },
+   {
+    "category": "prompt version",
+    "key": "prompt_version",
+    "known_board": "l1-prompt-1.0.0+known-board",
+    "published": "l1-prompt-1.0.0"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "item_set_sha256",
+    "known_board": "d0ac569d0d85f62288bf3856ac709581ada28dc1b017d6d53372ea34af905d4e",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "prompt_variant",
+    "known_board": "known-board",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "prompts_sha256",
+    "known_board": "513f2cf8f59c590eb2016b54b1d322b3ddddb111070d0a31271be58549295eda",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "cache_group",
+    "known_board": "(instance, frozen seed, t_d): the known board differs between decision instants, so items share a cached prefix only within one t_d",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "out_dir",
+    "known_board": "results/grid_e1_known_openai",
+    "published": "<not recorded>"
+   }
+  ],
+  "hosted:opus": [
+   {
+    "category": "modes",
+    "key": "modes",
+    "known_board": [
+     "M_constrained"
+    ],
+    "published": [
+     "M_constrained",
+     "M_free"
+    ]
+   },
+   {
+    "category": "item set",
+    "key": "items",
+    "known_board": 1723,
+    "published": 2000
+   },
+   {
+    "category": "prompt version",
+    "key": "prompt_version",
+    "known_board": "l1-prompt-1.0.0+known-board",
+    "published": "l1-prompt-1.0.0"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "item_set_sha256",
+    "known_board": "d0ac569d0d85f62288bf3856ac709581ada28dc1b017d6d53372ea34af905d4e",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "prompt_variant",
+    "known_board": "known-board",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "prompts_sha256",
+    "known_board": "513f2cf8f59c590eb2016b54b1d322b3ddddb111070d0a31271be58549295eda",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "cache_group",
+    "known_board": "(instance, frozen seed, t_d): the known board differs between decision instants, so items share a cached prefix only within one t_d",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "out_dir",
+    "known_board": "results/grid_e1_known_opus",
+    "published": "<not recorded>"
+   }
+  ],
+  "hosted:sol": [
+   {
+    "category": "item set",
+    "key": "items",
+    "known_board": 1723,
+    "published": 2000
+   },
+   {
+    "category": "prompt version",
+    "key": "prompt_version",
+    "known_board": "l1-prompt-1.0.0+known-board",
+    "published": "l1-prompt-1.0.0"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "item_set_sha256",
+    "known_board": "d0ac569d0d85f62288bf3856ac709581ada28dc1b017d6d53372ea34af905d4e",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "prompt_variant",
+    "known_board": "known-board",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "prompts_sha256",
+    "known_board": "513f2cf8f59c590eb2016b54b1d322b3ddddb111070d0a31271be58549295eda",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "cache_group",
+    "known_board": "(instance, frozen seed, t_d): the known board differs between decision instants, so items share a cached prefix only within one t_d",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "out_dir",
+    "known_board": "results/grid_e1_known_sol",
+    "published": "<not recorded>"
+   }
+  ],
+  "hosted:sonnet": [
+   {
+    "category": "modes",
+    "key": "modes",
+    "known_board": [
+     "M_constrained"
+    ],
+    "published": [
+     "M_constrained",
+     "M_free"
+    ]
+   },
+   {
+    "category": "item set",
+    "key": "items",
+    "known_board": 1723,
+    "published": 2000
+   },
+   {
+    "category": "prompt version",
+    "key": "prompt_version",
+    "known_board": "l1-prompt-1.0.0+known-board",
+    "published": "l1-prompt-1.0.0"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "item_set_sha256",
+    "known_board": "d0ac569d0d85f62288bf3856ac709581ada28dc1b017d6d53372ea34af905d4e",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "prompt_variant",
+    "known_board": "known-board",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "prompts_sha256",
+    "known_board": "513f2cf8f59c590eb2016b54b1d322b3ddddb111070d0a31271be58549295eda",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "cache_group",
+    "known_board": "(instance, frozen seed, t_d): the known board differs between decision instants, so items share a cached prefix only within one t_d",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "out_dir",
+    "known_board": "results/grid_e1_known_sonnet",
+    "published": "<not recorded>"
+   }
+  ],
+  "qwen3-14b": [
+   {
+    "category": "item set",
+    "key": "items",
+    "known_board": 1723,
+    "published": 2000
+   },
+   {
+    "category": "modes",
+    "key": "modes",
+    "known_board": [
+     "M_constrained"
+    ],
+    "published": [
+     "M_constrained",
+     "M_free"
+    ]
+   },
+   {
+    "category": "prompt version",
+    "key": "prompt_version",
+    "known_board": "l1-prompt-1.0.0+known-board",
+    "published": "l1-prompt-1.0.0"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "arm",
+    "known_board": "qwen3-14b",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "item_set_sha256",
+    "known_board": "d0ac569d0d85f62288bf3856ac709581ada28dc1b017d6d53372ea34af905d4e",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "model_repo",
+    "known_board": "Qwen/Qwen3-14B",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "model_revision",
+    "known_board": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "prompt_variant",
+    "known_board": "known-board",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "prompts_sha256",
+    "known_board": "513f2cf8f59c590eb2016b54b1d322b3ddddb111070d0a31271be58549295eda",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "gpu_memory_utilization",
+    "known_board": 0.85,
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "max_num_seqs",
+    "known_board": 0,
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "max_num_seqs_source",
+    "known_board": "vLLM default (runner default 0, not recorded in run_meta)",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "trust_remote_code",
+    "known_board": false,
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "chat_template",
+    "known_board": "the snapshot's own, enable_thinking=False",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "env",
+    "known_board": {
+     "TOKENIZERS_PARALLELISM": "false",
+     "VLLM_USE_FLASHINFER_SAMPLER": "0"
+    },
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "out_dir",
+    "known_board": "results/grid_e1_known_qwen14b",
+    "published": "<not recorded>"
+   }
+  ],
+  "qwen3.6-27b-fp8": [
+   {
+    "category": "item set",
+    "key": "items",
+    "known_board": 1723,
+    "published": 2000
+   },
+   {
+    "category": "modes",
+    "key": "modes",
+    "known_board": [
+     "M_constrained"
+    ],
+    "published": [
+     "M_constrained",
+     "M_free"
+    ]
+   },
+   {
+    "category": "prompt version",
+    "key": "prompt_version",
+    "known_board": "l1-prompt-1.0.0+known-board",
+    "published": "l1-prompt-1.0.0"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "arm",
+    "known_board": "qwen3.6-27b-fp8",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "item_set_sha256",
+    "known_board": "d0ac569d0d85f62288bf3856ac709581ada28dc1b017d6d53372ea34af905d4e",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "model_repo",
+    "known_board": "Qwen/Qwen3.6-27B-FP8",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "model_revision",
+    "known_board": "e89b16ebf1988b3d6befa7de50abc2d76f26eb09",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "prompt_variant",
+    "known_board": "known-board",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "prompts_sha256",
+    "known_board": "513f2cf8f59c590eb2016b54b1d322b3ddddb111070d0a31271be58549295eda",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "gpu_memory_utilization",
+    "known_board": 0.85,
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "max_num_seqs",
+    "known_board": 128,
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "max_num_seqs_source",
+    "known_board": "inferred: grid_e1_local.py --max-num-seqs help text and the decision record 1694 (not recorded in run_meta)",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "trust_remote_code",
+    "known_board": false,
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "chat_template",
+    "known_board": "the snapshot's own, enable_thinking=False",
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "env",
+    "known_board": {
+     "TOKENIZERS_PARALLELISM": "false",
+     "VLLM_USE_FLASHINFER_SAMPLER": "0"
+    },
+    "published": "<not recorded>"
+   },
+   {
+    "category": "not recorded in the published run_meta",
+    "key": "out_dir",
+    "known_board": "results/grid_e1_known_qwen27b",
+    "published": "<not recorded>"
+   }
+  ]
+ },
+ "hosted_volumes": {
+  "deepseek": {
+   "by_thinking": {
+    "non_think": {
+     "known_board_input_delta_tokens_per_pass": 172420.3539823009,
+     "per_pass_logged": {
+      "cache_read": 1733824.0,
+      "calls": 1723.0,
+      "in": 2200368.0,
+      "out": 59415.5,
+      "usd_logged": 0.2609232369999999,
+      "usd_nocache": 1.0088515649999965
+     },
+     "published_repeats": 2,
+     "two_repeat_run": {
+      "calls": 3446.0,
+      "in_tokens": 4745576.707964602,
+      "out_tokens": 118831.0,
+      "usd_at_logged_cache_pattern": 0.5218464739999998,
+      "usd_no_cache": 2.167708837964595
+     }
+    },
+    "think_high": {
+     "known_board_input_delta_tokens_per_pass": 172420.3539823009,
+     "per_pass_logged": {
+      "cache_read": 2097152.0,
+      "calls": 1723.0,
+      "in": 2200368.0,
+      "out": 2012204.0,
+      "usd_logged": 1.8031186159999986,
+      "usd_nocache": 2.7077775600000016
+     },
+     "published_repeats": 2,
+     "two_repeat_run": {
+      "calls": 3446.0,
+      "in_tokens": 4745576.707964602,
+      "out_tokens": 4024408.0,
+      "usd_at_logged_cache_pattern": 3.606237231999997,
+      "usd_no_cache": 5.565560827964605
+     }
+    }
+   },
+   "chars_per_token": 2.26,
+   "display": "DeepSeek V4-Pro (not in Table 6)",
+   "price_base": "list",
+   "price_date": "2026-08-11",
+   "table6": false,
+   "two_repeat_total": {
+    "calls": 6892.0,
+    "in_tokens": 9491153.415929204,
+    "out_tokens": 4143239.0,
+    "usd_at_logged_cache_pattern": 4.128083705999997,
+    "usd_no_cache": 7.7332696659292
+   }
+  },
+  "openai": {
+   "by_thinking": {
+    "None": {
+     "known_board_input_delta_tokens_per_pass": 167240.3433476395,
+     "per_pass_logged": {
+      "cache_read": 541824.0,
+      "calls": 1723.0,
+      "in": 3132473.0,
+      "out": 75128.0,
+      "usd_logged": 2.3216995500000026,
+      "usd_nocache": 2.6874307500000016
+     },
+     "published_repeats": 2,
+     "two_repeat_run": {
+      "calls": 3446.0,
+      "in_tokens": 6599426.686695279,
+      "out_tokens": 150256.0,
+      "usd_at_logged_cache_pattern": 4.643399100000005,
+      "usd_no_cache": 5.625722015021463
+     }
+    }
+   },
+   "chars_per_token": 2.33,
+   "display": "GPT-5.4-mini",
+   "price_base": "list",
+   "price_date": "2026-08-11",
+   "table6": true,
+   "two_repeat_total": {
+    "calls": 3446.0,
+    "in_tokens": 6599426.686695279,
+    "out_tokens": 150256.0,
+    "usd_at_logged_cache_pattern": 4.643399100000005,
+    "usd_no_cache": 5.625722015021463
+   }
+  },
+  "opus": {
+   "by_thinking": {
+    "default": {
+     "known_board_input_delta_tokens_per_pass": 202953.125,
+     "per_pass_logged": {
+      "cache_read": 3614217.5,
+      "calls": 1723.0,
+      "in": 5273695.0,
+      "out": 164690.0,
+      "usd_logged": 15.38635937500001,
+      "usd_nocache": 30.485724999999995
+     },
+     "published_repeats": 2,
+     "two_repeat_run": {
+      "calls": 3446.0,
+      "in_tokens": 10953296.25,
+      "out_tokens": 329380.0,
+      "usd_at_logged_cache_pattern": 30.77271875000002,
+      "usd_no_cache": 63.00098124999999
+     }
+    },
+    "disabled": {
+     "known_board_input_delta_tokens_per_pass": 202953.125,
+     "per_pass_logged": {
+      "cache_read": 3605596.5,
+      "calls": 1723.0,
+      "in": 5273695.0,
+      "out": 68385.5,
+      "usd_logged": 13.02831762500001,
+      "usd_nocache": 28.07811249999999
+     },
+     "published_repeats": 2,
+     "two_repeat_run": {
+      "calls": 3446.0,
+      "in_tokens": 10953296.25,
+      "out_tokens": 136771.0,
+      "usd_at_logged_cache_pattern": 26.05663525000002,
+      "usd_no_cache": 58.185756249999976
+     }
+    }
+   },
+   "chars_per_token": 1.92,
+   "display": "Claude Opus 5 (two thinking settings)",
+   "price_base": "list",
+   "price_date": "2026-08-11",
+   "table6": true,
+   "two_repeat_total": {
+    "calls": 6892.0,
+    "in_tokens": 21906592.5,
+    "out_tokens": 466151.0,
+    "usd_at_logged_cache_pattern": 56.82935400000004,
+    "usd_no_cache": 121.18673749999996
+   }
+  },
+  "sol": {
+   "by_thinking": {
+    "none": {
+     "known_board_input_delta_tokens_per_pass": 167240.3433476395,
+     "per_pass_logged": {
+      "cache_read": 0.0,
+      "calls": 1723.0,
+      "in": 3135919.0,
+      "out": 161165.0,
+      "usd_logged": 20.514544999999988,
+      "usd_nocache": 20.514544999999988
+     },
+     "published_repeats": 1,
+     "two_repeat_run": {
+      "calls": 3446.0,
+      "in_tokens": 6606318.686695279,
+      "out_tokens": 322330.0,
+      "usd_at_logged_cache_pattern": 41.029089999999975,
+      "usd_no_cache": 42.70149343347637
+     }
+    }
+   },
+   "chars_per_token": 2.33,
+   "display": "GPT-5.6 Sol",
+   "price_base": "list",
+   "price_date": "2026-08-12",
+   "table6": true,
+   "two_repeat_total": {
+    "calls": 3446.0,
+    "in_tokens": 6606318.686695279,
+    "out_tokens": 322330.0,
+    "usd_at_logged_cache_pattern": 41.029089999999975,
+    "usd_no_cache": 42.70149343347637
+   }
+  },
+  "sonnet": {
+   "by_thinking": {
+    "disabled": {
+     "known_board_input_delta_tokens_per_pass": 202953.125,
+     "per_pass_logged": {
+      "cache_read": 3618666.0,
+      "calls": 1723.0,
+      "in": 5273695.0,
+      "out": 74997.0,
+      "usd_logged": 7.871073300000014,
+      "usd_nocache": 16.946040000000032
+     },
+     "published_repeats": 2,
+     "two_repeat_run": {
+      "calls": 3446.0,
+      "in_tokens": 10953296.25,
+      "out_tokens": 149994.0,
+      "usd_at_logged_cache_pattern": 15.742146600000028,
+      "usd_no_cache": 35.10979875000007
+     }
+    }
+   },
+   "chars_per_token": 1.92,
+   "display": "Claude Sonnet 5",
+   "price_base": "standard (from 2026-09-01)",
+   "price_date": "2026-08-11",
+   "table6": true,
+   "two_repeat_total": {
+    "calls": 3446.0,
+    "in_tokens": 10953296.25,
+    "out_tokens": 149994.0,
+    "usd_at_logged_cache_pattern": 15.742146600000028,
+    "usd_no_cache": 35.10979875000007
+   }
+  }
+ },
+ "leak": {
+  "board_check": "no id token of an order unknown at t_d in the system prompt and the state block (fatal, all prompts); every order id shown is on K; no order completed by t_d is shown",
+  "board_leaks": 0,
+  "full_text_prompts_with_unknown_id": 33,
+  "instruction_examples": [
+   {
+    "ids": [
+     "W1512"
+    ],
+    "item_id": "V6-0141"
+   },
+   {
+    "ids": [
+     "W321"
+    ],
+    "item_id": "V6-0142"
+   },
+   {
+    "ids": [
+     "W1184"
+    ],
+    "item_id": "V6-0143"
+   },
+   {
+    "ids": [
+     "W1203"
+    ],
+    "item_id": "V6-0144"
+   },
+   {
+    "ids": [
+     "W2088"
+    ],
+    "item_id": "V6-0145"
+   },
+   {
+    "ids": [
+     "W1515"
+    ],
+    "item_id": "V6-0146"
+   },
+   {
+    "ids": [
+     "W371"
+    ],
+    "item_id": "V6-0147"
+   },
+   {
+    "ids": [
+     "W752"
+    ],
+    "item_id": "V6-0148"
+   },
+   {
+    "ids": [
+     "W2047"
+    ],
+    "item_id": "V6-0149"
+   },
+   {
+    "ids": [
+     "W870"
+    ],
+    "item_id": "V6-0150"
+   }
+  ],
+  "instruction_text_naming_unknown": 33,
+  "prompts": 1723,
+  "recheck_from_files": {
+   "board_leaks": 0,
+   "full_text_hits": 33,
+   "prompts": 1723
+  },
+  "whole_window_prompts_naming_unknown": 1220,
+  "whole_window_unknown_ids_median": 9.0
+ },
+ "token_audit": {
+  "glm-4-9b": {
+   "exceed_max_model_len": 0,
+   "exceed_max_model_len_with_residual": 0,
+   "exceed_room_for_max_tokens": 0,
+   "fit_items": 1723,
+   "fit_max_abs_residual": 356.9886005507087,
+   "intercept": -1034.0533596460568,
+   "items": 1723,
+   "known_board_estimate": {
+    "max": 7661.0,
+    "max_plus_residual": 8017.988600550709,
+    "median": 1373.0,
+    "p90": 1974.7008218915012
+   },
+   "known_board_regression": {
+    "max": 7304.011399449291,
+    "median": 1370.125372477729
+   },
+   "max_model_len": 12288,
+   "max_tokens": 1024,
+   "method": "character-based estimate (no tokenizer on disk): logged whole-window count + slope x char difference; slope from a least-squares fit of the arm's logged prompt tokens on whole-window chars",
+   "slope_tokens_per_char": 0.5650243788775055,
+   "snapshot_on_disk": false,
+   "whole_window_logged": {
+    "max": 7661,
+    "median": 1317
+   },
+   "whole_window_logged_exceed": 0
+  },
+  "qwen3-14b": {
+   "exceed_max_model_len": 0,
+   "exceed_max_model_len_with_residual": 0,
+   "exceed_room_for_max_tokens": 0,
+   "fit_items": 1723,
+   "fit_max_abs_residual": 537.768109431443,
+   "intercept": -1559.4215340535616,
+   "items": 1723,
+   "known_board_estimate": {
+    "max": 9914.0,
+    "max_plus_residual": 10451.768109431443,
+    "median": 1591.0,
+    "p90": 2361.1911483831627
+   },
+   "known_board_regression": {
+    "max": 9376.231890568557,
+    "median": 1593.7400382014434
+   },
+   "max_model_len": 12288,
+   "max_tokens": 1024,
+   "method": "character-based estimate (no tokenizer on disk): logged whole-window count + slope x char difference; slope from a least-squares fit of the arm's logged prompt tokens on whole-window chars",
+   "slope_tokens_per_char": 0.7410485481210353,
+   "snapshot_on_disk": false,
+   "whole_window_logged": {
+    "max": 9914,
+    "median": 1525
+   },
+   "whole_window_logged_exceed": 0
+  },
+  "qwen3.6-27b-fp8": {
+   "exceed_max_model_len": 0,
+   "exceed_max_model_len_with_residual": 0,
+   "exceed_room_for_max_tokens": 0,
+   "fit_items": 1723,
+   "fit_max_abs_residual": 521.2209338489338,
+   "intercept": -1538.0353368440735,
+   "items": 1723,
+   "known_board_estimate": {
+    "max": 9932.0,
+    "max_plus_residual": 10453.220933848934,
+    "median": 1612.0,
+    "p90": 2397.6217016330947
+   },
+   "known_board_regression": {
+    "max": 9413.107114619064,
+    "median": 1619.5923063744433
+   },
+   "max_model_len": 16384,
+   "max_tokens": 1024,
+   "method": "character-based estimate (no tokenizer on disk): logged whole-window count + slope x char difference; slope from a least-squares fit of the arm's logged prompt tokens on whole-window chars",
+   "slope_tokens_per_char": 0.7420981535178653,
+   "snapshot_on_disk": false,
+   "whole_window_logged": {
+    "max": 9932,
+    "median": 1551
+   },
+   "whole_window_logged_exceed": 0
+  }
+ }
+}

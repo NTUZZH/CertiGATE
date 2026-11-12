@@ -1,0 +1,577 @@
+[n9] 880 items prepared on 58 instances (145.1s)
+{
+  "items": {
+    "published:V3": 220,
+    "published:twin": 220,
+    "heldout:V3": 220,
+    "heldout:twin": 220
+  },
+  "distinct_components": 904,
+  "components_closed_without_solve": 183,
+  "constrained_solves": 721,
+  "trades_per_solve": {
+    "1": 87,
+    "2": 566,
+    "3": 68
+  },
+  "solves_by_component_orders": {
+    "<=150": 89,
+    "<=1500": 245,
+    "<=400": 150,
+    "<=700": 136,
+    ">1500": 101
+  },
+  "relaxed_trades_to_solve": 45,
+  "cap_wall_h": 12.766666666666667,
+  "est_wall_h_by_size": 5.449861111111111,
+  "items_with_relaxed_gaps": 90,
+  "baseline_reassembly_max_dev_bh": 0.0
+}
+[n9]   V3H-0161 D50+E10 orders=779 edges=1 status=OPTIMAL lower=612.1600 upper=612.4352 wall=13.0s cpu_share=0.944 foreign=0.0
+[n9] 1 heldout/V3 V3H-0161 c=[0.74958, 0.75044] complete=True elapsed=13s
+[n9]   V3H-0162 D30 orders=622 edges=1 status=OPTIMAL lower=612.0000 upper=612.4936 wall=19.6s cpu_share=0.94 foreign=0.0
+[n9] 2 heldout/V3 V3H-0162 c=[0.76339, 0.76447] complete=True elapsed=42s
+[n9]   V3H-0163 D30+D40 orders=774 edges=1 status=OPTIMAL lower=893.0000 upper=893.7200 wall=3.3s cpu_share=0.538 foreign=0.0
+[n9] 3 heldout/V3 V3H-0163 c=[1.34691, 1.34866] complete=True elapsed=48s
+[n9]   V3H-0164 D30+D40 orders=701 edges=1 status=OPTIMAL lower=1292.2000 upper=1293.3340 wall=3.8s cpu_share=0.691 foreign=0.0
+[n9] 4 heldout/V3 V3H-0164 c=[0.34431, 0.3459] complete=True elapsed=55s
+[n9]   V3H-0165 D30 orders=602 edges=1 status=OPTIMAL lower=530.9200 upper=531.2552 wall=7.6s cpu_share=0.863 foreign=0.0
+[n9] 5 heldout/V3 V3H-0165 c=[0.22151, 0.22198] complete=True elapsed=69s
+[n9]   V3H-0166 D30 orders=598 edges=1 status=OPTIMAL lower=1351.4800 upper=1352.0180 wall=3.7s cpu_share=0.692 foreign=0.001
+[n9] 6 heldout/V3 V3H-0166 c=[1.41723, 1.41841] complete=True elapsed=75s
+[n9]   V3H-0167 D20 orders=367 edges=1 status=OPTIMAL lower=690.0000 upper=690.1032 wall=0.6s cpu_share=0.495 foreign=0.0
+[n9] 7 heldout/V3 V3H-0167 c=[0.76951, 0.76966] complete=True elapsed=76s
+[n9]   V3H-0168 C10+D30 orders=744 edges=1 status=OPTIMAL lower=590.0000 upper=590.4300 wall=3.4s cpu_share=0.632 foreign=0.002
+[n9] 8 heldout/V3 V3H-0168 c=[0.80081, 0.80182] complete=True elapsed=80s
+[n9]   V3H-0169 D30+D40 orders=751 edges=1 status=OPTIMAL lower=704.4800 upper=705.2968 wall=3.4s cpu_share=0.605 foreign=0.0
+[n9] 9 heldout/V3 V3H-0169 c=[0.9826, 0.98524] complete=True elapsed=87s
+[n9]   V3H-0170 D30 orders=612 edges=1 status=OPTIMAL lower=1134.6400 upper=1135.2224 wall=3.0s cpu_share=0.601 foreign=0.0
+[n9] 10 heldout/V3 V3H-0170 c=[1.13104, 1.13236] complete=True elapsed=94s
+[n9]   V3H-0171 D30 orders=620 edges=1 status=OPTIMAL lower=444.0400 upper=444.2708 wall=2.7s cpu_share=0.519 foreign=0.006
+[n9] 11 heldout/V3 V3H-0171 c=[0.73671, 0.73745] complete=True elapsed=100s
+[n9]   V3H-0172 C10+D40 orders=249 edges=1 status=OPTIMAL lower=1280.5200 upper=1284.6244 wall=0.2s cpu_share=0.613 foreign=0.0
+[n9] 12 heldout/V3 V3H-0172 c=[0.32543, 0.32914] complete=True elapsed=101s
+[n9]   V3H-0173 D90+MISC orders=130 edges=1 status=OPTIMAL lower=901.0400 upper=901.1072 wall=0.1s cpu_share=0.311 foreign=0.003
+[n9] 13 heldout/V3 V3H-0173 c=[0.88396, 0.8859] complete=True elapsed=101s
+[n9]   V3H-0174 D50+E10 orders=732 edges=1 status=OPTIMAL lower=1330.0800 upper=1330.2744 wall=1.9s cpu_share=0.577 foreign=0.0
+[n9] 14 heldout/V3 V3H-0174 c=[1.50288, 1.5033] complete=True elapsed=103s
+[n9]   V3H-0175 D30 orders=612 edges=1 status=OPTIMAL lower=1133.5200 upper=1134.1512 wall=3.1s cpu_share=0.608 foreign=0.0
+[n9] 15 heldout/V3 V3H-0175 c=[1.12946, 1.13085] complete=True elapsed=109s
+[n9]   V3H-0176 D10+D40 orders=171 edges=1 status=OPTIMAL lower=511.5200 upper=511.6912 wall=0.1s cpu_share=0.368 foreign=0.0
+[n9] 16 heldout/V3 V3H-0176 c=[0.69989, 0.70025] complete=True elapsed=109s
+[n9]   V3H-0177 D30+E10 orders=668 edges=1 status=OPTIMAL lower=450.8400 upper=451.5312 wall=4.0s cpu_share=0.71 foreign=0.001
+[n9] 17 heldout/V3 V3H-0177 c=[0.16416, 0.16497] complete=True elapsed=117s
+[n9]   V3H-0178 D50+E10 orders=757 edges=1 status=OPTIMAL lower=1288.8800 upper=1289.1968 wall=2.6s cpu_share=0.686 foreign=0.0
+[n9] 18 heldout/V3 V3H-0178 c=[1.21384, 1.21433] complete=True elapsed=121s
+[n9]   V3H-0179 D40+D50 orders=866 edges=1 status=OPTIMAL lower=232.6800 upper=232.8856 wall=8.4s cpu_share=0.904 foreign=0.001
+[n9] 19 heldout/V3 V3H-0179 c=[0.93531, 0.94943] complete=True elapsed=130s
+[n9]   V3H-0180 D30+E10 orders=696 edges=1 status=OPTIMAL lower=1022.0000 upper=1022.9392 wall=7.2s cpu_share=0.83 foreign=0.002
+[n9] 20 heldout/V3 V3H-0180 c=[0.17716, 0.17853] complete=True elapsed=141s
+[n9]   V3H-0181 C30+D20 orders=420 edges=1 status=OPTIMAL lower=431.6800 upper=431.8136 wall=0.6s cpu_share=0.431 foreign=0.0
+[n9] 21 heldout/V3 V3H-0181 c=[0.55705, 0.55818] complete=True elapsed=142s
+[n9]   V3H-0182 D30+E10 orders=694 edges=1 status=OPTIMAL lower=1570.4800 upper=1571.1984 wall=3.0s cpu_share=0.566 foreign=0.003
+[n9] 22 heldout/V3 V3H-0182 c=[0.70075, 0.70157] complete=True elapsed=148s
+[n9]   V3H-0183 D50+E10 orders=689 edges=1 status=OPTIMAL lower=1080.0000 upper=1080.1996 wall=3.7s cpu_share=0.835 foreign=0.001
+[n9] 23 heldout/V3 V3H-0183 c=[1.29853, 1.29886] complete=True elapsed=152s
+[n9]   V3H-0184 D20+D30 orders=956 edges=1 status=OPTIMAL lower=472.4400 upper=473.0503 wall=14.1s cpu_share=0.908 foreign=0.0
+[n9] 24 heldout/V3 V3H-0184 c=[0.47519, 0.47677] complete=True elapsed=169s
+[n9]   V3H-0185 D30+E10 orders=701 edges=1 status=OPTIMAL lower=685.3600 upper=685.9304 wall=3.2s cpu_share=0.577 foreign=0.0
+[n9] 25 heldout/V3 V3H-0185 c=[0.73322, 0.7346] complete=True elapsed=175s
+[n9]   V3H-0186 B20+D20 orders=70 edges=1 status=OPTIMAL lower=284.4800 upper=284.5448 wall=0.1s cpu_share=0.305 foreign=0.013
+[n9] 26 heldout/V3 V3H-0186 c=[1.53613, 1.53665] complete=True elapsed=175s
+[n9]   V3H-0187 D30 orders=177 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 27 heldout/V3 V3H-0187 c=[0.0, 0.0] complete=True elapsed=175s
+[n9]   V3H-0188 D30 orders=117 edges=1 status=OPTIMAL lower=240.0000 upper=240.0000 wall=0.3s cpu_share=0.343 foreign=0.0
+[n9] 28 heldout/V3 V3H-0188 c=[240.0, 240.0] complete=True elapsed=176s
+[n9]   V3H-0189 D20+D30 orders=189 edges=1 status=OPTIMAL lower=267.0000 upper=267.0592 wall=0.6s cpu_share=0.354 foreign=0.007
+[n9] 29 heldout/V3 V3H-0189 c=[1.91509, 1.91565] complete=True elapsed=176s
+[n9]   V3H-0190 D30+D50 orders=269 edges=1 status=OPTIMAL lower=255.0400 upper=255.1044 wall=0.8s cpu_share=0.467 foreign=0.0
+[n9] 30 heldout/V3 V3H-0190 c=[1.76277, 1.76341] complete=True elapsed=177s
+[n9]   V3H-0191 D20+D30 orders=161 edges=1 status=OPTIMAL lower=321.8400 upper=321.8612 wall=0.3s cpu_share=0.352 foreign=0.014
+[n9] 31 heldout/V3 V3H-0191 c=[1.43818, 1.43834] complete=True elapsed=177s
+[n9]   V3H-0192 D20+D30 orders=345 edges=1 status=OPTIMAL lower=166.0400 upper=166.0568 wall=1.2s cpu_share=0.387 foreign=0.0
+[n9] 32 heldout/V3 V3H-0192 c=[54.34667, 54.35227] complete=True elapsed=179s
+[n9]   V3H-0193 D20+D50 orders=271 edges=1 status=OPTIMAL lower=76.3200 upper=76.3588 wall=0.5s cpu_share=0.362 foreign=0.0
+[n9] 33 heldout/V3 V3H-0193 c=[14.264, 14.27176] complete=True elapsed=179s
+[n9]   V3H-0194 D30 orders=142 edges=1 status=OPTIMAL lower=256.0800 upper=256.1448 wall=0.4s cpu_share=0.345 foreign=0.012
+[n9] 34 heldout/V3 V3H-0194 c=[1.13568, 1.13611] complete=True elapsed=180s
+[n9]   V3H-0195 D20+D50 orders=253 edges=1 status=OPTIMAL lower=144.8800 upper=144.9176 wall=0.5s cpu_share=0.407 foreign=0.0
+[n9] 35 heldout/V3 V3H-0195 c=[11.07333, 11.07647] complete=True elapsed=180s
+[n9]   V3H-0196 C10+D30 orders=148 edges=1 status=OPTIMAL lower=233.0400 upper=233.1136 wall=0.4s cpu_share=0.313 foreign=0.003
+[n9] 36 heldout/V3 V3H-0196 c=[2.42706, 2.42814] complete=True elapsed=181s
+[n9]   V3H-0197 D40 orders=459 edges=1 status=OPTIMAL lower=2299.6200 upper=2300.3976 wall=3.6s cpu_share=0.392 foreign=0.003
+[n9] 37 heldout/V3 V3H-0197 c=[0.30957, 0.30999] complete=True elapsed=185s
+[n9]   V3H-0198 D30+D40 orders=3355 edges=1 status=OPTIMAL lower=1133.5400 upper=1134.3544 wall=63.5s cpu_share=0.686 foreign=0.002
+[n9] 38 heldout/V3 V3H-0198 c=[0.39772, 0.3987] complete=True elapsed=291s
+[n9]   V3H-0199 D40+D50 orders=4353 edges=1 status=OPTIMAL lower=1153.6000 upper=1154.2116 wall=36.1s cpu_share=0.459 foreign=0.003
+[n9] 39 heldout/V3 V3H-0199 c=[1.12604, 1.12716] complete=True elapsed=327s
+[n9]   V3H-0200 D40+D50 orders=4180 edges=1 status=OPTIMAL lower=3522.9600 upper=3523.9856 wall=27.7s cpu_share=0.352 foreign=0.004
+[n9] 40 heldout/V3 V3H-0200 c=[0.28753, 0.28866] complete=True elapsed=356s
+[n9]   V3H-0201 D40+D50 orders=4210 edges=1 status=OPTIMAL lower=1286.6600 upper=1287.3464 wall=33.3s cpu_share=0.457 foreign=0.005
+[n9] 41 heldout/V3 V3H-0201 c=[0.43731, 0.43807] complete=True elapsed=389s
+[n9]   V3H-0202 D20+D40 orders=1594 edges=1 status=OPTIMAL lower=2258.5800 upper=2259.9596 wall=10.7s cpu_share=0.683 foreign=0.002
+[n9] 42 heldout/V3 V3H-0202 c=[0.14267, 0.14337] complete=True elapsed=403s
+[n9]   V3H-0203 D40 orders=438 edges=1 status=OPTIMAL lower=1560.8800 upper=1561.5472 wall=3.5s cpu_share=0.465 foreign=0.001
+[n9] 43 heldout/V3 V3H-0203 c=[0.36614, 0.36668] complete=True elapsed=407s
+[n9]   V3H-0204 D40+D50 orders=4287 edges=1 status=FEASIBLE lower=1999.2400 upper=1999.9800 wall=69.2s cpu_share=0.665 foreign=0.002
+[n9] 44 heldout/V3 V3H-0204 c=[0.62043, 0.621] complete=True elapsed=477s
+[n9]   V3H-0205 D40+E10 orders=771 edges=1 status=OPTIMAL lower=1046.6400 upper=1047.5212 wall=4.7s cpu_share=0.695 foreign=0.004
+[n9] 45 heldout/V3 V3H-0205 c=[0.50787, 0.51013] complete=True elapsed=482s
+[n9]   V3H-0206 C10+D30 orders=151 edges=1 status=CLOSED lower=186.7296 upper=186.7296 wall=0.0s cpu_share=None foreign=None
+[n9] 46 heldout/V3 V3H-0206 c=[0.0, 0.0] complete=True elapsed=482s
+[n9]   V3H-0207 D20+D30 orders=159 edges=1 status=OPTIMAL lower=120.3200 upper=120.4184 wall=0.4s cpu_share=0.62 foreign=0.01
+[n9] 47 heldout/V3 V3H-0207 c=[0.21226, 0.21305] complete=True elapsed=483s
+[n9]   V3H-0208 D30+E10 orders=210 edges=1 status=OPTIMAL lower=0.0000 upper=0.0000 wall=1.1s cpu_share=0.698 foreign=0.0
+[n9] 48 heldout/V3 V3H-0208 c=[0.0, 0.0] complete=True elapsed=484s
+[n9]   V3H-0209 D30 orders=117 edges=1 status=OPTIMAL lower=0.0000 upper=0.0000 wall=0.5s cpu_share=0.714 foreign=0.01
+[n9] 49 heldout/V3 V3H-0209 c=[0.0, 0.0] complete=True elapsed=484s
+[n9]   V3H-0210 D30 orders=141 edges=1 status=OPTIMAL lower=69.5200 upper=69.5544 wall=0.6s cpu_share=0.725 foreign=0.0
+[n9] 50 heldout/V3 V3H-0210 c=[0.05208, 0.0524] complete=True elapsed=485s
+[n9]   V3H-0211 B20+D30 orders=215 edges=1 status=OPTIMAL lower=77.0000 upper=77.0000 wall=2.0s cpu_share=0.86 foreign=0.001
+[n9] 51 heldout/V3 V3H-0211 c=[0.0, 0.0] complete=True elapsed=487s
+[n9]   V3H-0212 D20+D30 orders=161 edges=1 status=OPTIMAL lower=161.8400 upper=161.8612 wall=0.5s cpu_share=0.501 foreign=0.007
+[n9] 52 heldout/V3 V3H-0212 c=[0.22606, 0.22622] complete=True elapsed=487s
+[n9]   V3H-0213 D20+E10 orders=124 edges=1 status=OPTIMAL lower=6.0000 upper=6.0444 wall=0.2s cpu_share=0.66 foreign=0.005
+[n9] 53 heldout/V3 V3H-0213 c=[1.0, 1.0148] complete=True elapsed=487s
+[n9]   V3H-0214 D20+D50 orders=271 edges=1 status=OPTIMAL lower=12.3200 upper=12.3332 wall=0.6s cpu_share=0.691 foreign=0.0
+[n9] 54 heldout/V3 V3H-0214 c=[1.464, 1.46664] complete=True elapsed=488s
+[n9]   V3H-0215 D20+D30 orders=256 edges=1 status=OPTIMAL lower=88.0000 upper=88.0000 wall=0.6s cpu_share=0.537 foreign=0.002
+[n9] 55 heldout/V3 V3H-0215 c=[0.0, 0.0] complete=True elapsed=489s
+[n9]   V3H-0216 D20+E10 orders=85 edges=1 status=OPTIMAL lower=16.8800 upper=16.9000 wall=0.3s cpu_share=0.578 foreign=0.0
+[n9] 56 heldout/V3 V3H-0216 c=[0.40667, 0.40833] complete=True elapsed=489s
+[n9]   V3H-0217 B20+C10 orders=37 edges=1 status=CLOSED lower=68.0000 upper=68.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 57 heldout/V3 V3H-0217 c=[0.0, 0.0] complete=True elapsed=489s
+[n9]   V3H-0218 D30 orders=112 edges=1 status=OPTIMAL lower=44.0000 upper=44.0000 wall=0.3s cpu_share=0.541 foreign=0.014
+[n9] 58 heldout/V3 V3H-0218 c=[0.0, 0.0] complete=True elapsed=489s
+[n9]   V3H-0219 D50+E10 orders=116 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 59 heldout/V3 V3H-0219 c=[0.0, 0.0] complete=True elapsed=489s
+[n9]   V3H-0220 D20+D30 orders=215 edges=1 status=OPTIMAL lower=122.0000 upper=122.0000 wall=0.6s cpu_share=0.56 foreign=0.0
+[n9] 60 heldout/V3 V3H-0220 c=[0.0, 0.0] complete=True elapsed=490s
+[n9]   BENH-0001 D30+E10 orders=701 edges=1 status=OPTIMAL lower=269.0512 upper=269.0512 wall=26.5s cpu_share=0.955 foreign=0.0
+[n9] 61 heldout/twin BENH-0001 c=[0.0, 0.0] complete=True elapsed=516s
+[n9]   BENH-0002 D30+D50 orders=1292 edges=1 status=OPTIMAL lower=266.8000 upper=266.8000 wall=13.8s cpu_share=0.871 foreign=0.001
+[n9] 62 heldout/twin BENH-0002 c=[0.0, 0.0] complete=True elapsed=530s
+[n9]   BENH-0003 D40+D50 orders=833 edges=1 status=OPTIMAL lower=305.0736 upper=305.0736 wall=2.0s cpu_share=0.586 foreign=0.002
+[n9] 63 heldout/twin BENH-0003 c=[0.0, 0.0] complete=True elapsed=532s
+[n9]   BENH-0004 D40+E20 orders=130 edges=1 status=OPTIMAL lower=652.6400 upper=653.0520 wall=0.2s cpu_share=0.445 foreign=0.03
+[n9] 64 heldout/twin BENH-0004 c=[0.0013, 0.00161] complete=True elapsed=532s
+[n9]   BENH-0005 D30 orders=602 edges=1 status=OPTIMAL lower=371.2880 upper=371.2880 wall=6.7s cpu_share=0.833 foreign=0.002
+[n9] 65 heldout/twin BENH-0005 c=[0.0, 0.0] complete=True elapsed=539s
+[n9]   BENH-0006 D30+D50 orders=1298 edges=1 status=OPTIMAL lower=431.4044 upper=431.4044 wall=7.9s cpu_share=0.774 foreign=0.002
+[n9] 66 heldout/twin BENH-0006 c=[0.0, 0.0] complete=True elapsed=547s
+[n9]   BENH-0007 D20 orders=367 edges=1 status=OPTIMAL lower=157.8400 upper=157.8400 wall=0.6s cpu_share=0.573 foreign=0.002
+[n9] 67 heldout/twin BENH-0007 c=[0.0, 0.0] complete=True elapsed=548s
+[n9]   BENH-0008 D20+D30 orders=975 edges=1 status=OPTIMAL lower=270.9668 upper=270.9668 wall=6.4s cpu_share=0.765 foreign=0.002
+[n9] 68 heldout/twin BENH-0008 c=[0.0, 0.0] complete=True elapsed=554s
+[n9]   BENH-0009 D30+D40 orders=751 edges=1 status=OPTIMAL lower=229.4332 upper=229.4332 wall=4.4s cpu_share=0.702 foreign=0.001
+[n9] 69 heldout/twin BENH-0009 c=[0.0, 0.0] complete=True elapsed=558s
+[n9] 70 heldout/twin BENH-0010 c=[0.0, 0.0] complete=True elapsed=558s
+[n9]   BENH-0011 D30+D90 orders=719 edges=1 status=OPTIMAL lower=164.7848 upper=164.7848 wall=3.9s cpu_share=0.663 foreign=0.005
+[n9] 71 heldout/twin BENH-0011 c=[0.0, 0.0] complete=True elapsed=562s
+[n9]   BENH-0012 C10+D40 orders=249 edges=1 status=OPTIMAL lower=867.6124 upper=867.6124 wall=0.2s cpu_share=0.5 foreign=0.0
+[n9] 72 heldout/twin BENH-0012 c=[0.0, 0.0] complete=True elapsed=562s
+[n9] 73 heldout/twin BENH-0013 c=[0.0, 0.0] complete=True elapsed=562s
+[n9]   BENH-0014 D90+E10 orders=159 edges=1 status=CLOSED lower=517.8200 upper=517.8200 wall=0.0s cpu_share=None foreign=None
+[n9] 74 heldout/twin BENH-0014 c=[0.0, 0.0] complete=True elapsed=562s
+[n9]   BENH-0015 D30+D50 orders=1295 edges=1 status=OPTIMAL lower=330.5752 upper=330.5752 wall=8.3s cpu_share=0.782 foreign=0.001
+[n9] 75 heldout/twin BENH-0015 c=[0.0, 0.0] complete=True elapsed=571s
+[n9]   BENH-0016 D30+D40 orders=741 edges=1 status=OPTIMAL lower=281.4924 upper=281.5052 wall=3.2s cpu_share=0.607 foreign=0.003
+[n9] 76 heldout/twin BENH-0016 c=[0.0, 3e-05] complete=True elapsed=574s
+[n9]   BENH-0017 D50+E10 orders=718 edges=1 status=OPTIMAL lower=103.5976 upper=103.5976 wall=2.2s cpu_share=0.692 foreign=0.0
+[n9] 77 heldout/twin BENH-0017 c=[0.0, 0.0] complete=True elapsed=576s
+[n9]   BENH-0018 C10+E10 orders=166 edges=1 status=CLOSED lower=462.5984 upper=462.5984 wall=0.0s cpu_share=None foreign=None
+[n9] 78 heldout/twin BENH-0018 c=[0.0, 0.0] complete=True elapsed=576s
+[n9]   BENH-0019 D40+D50 orders=866 edges=1 status=OPTIMAL lower=87.9156 upper=87.9156 wall=2.2s cpu_share=0.555 foreign=0.002
+[n9] 79 heldout/twin BENH-0019 c=[0.0, 0.0] complete=True elapsed=578s
+[n9]   BENH-0020 D50+E10 orders=754 edges=1 status=OPTIMAL lower=484.9524 upper=484.9524 wall=6.3s cpu_share=0.886 foreign=0.0
+[n9] 80 heldout/twin BENH-0020 c=[0.0, 0.0] complete=True elapsed=585s
+[n9]   BENH-0021 C30+D50 orders=757 edges=1 status=OPTIMAL lower=142.4240 upper=142.4240 wall=1.7s cpu_share=0.548 foreign=0.0
+[n9] 81 heldout/twin BENH-0021 c=[0.0, 0.0] complete=True elapsed=586s
+[n9]   BENH-0022 D30+E10 orders=694 edges=1 status=OPTIMAL lower=768.4392 upper=768.5120 wall=4.4s cpu_share=0.722 foreign=0.002
+[n9] 82 heldout/twin BENH-0022 c=[0.0, 6e-05] complete=True elapsed=591s
+[n9]   BENH-0023 D50+E10 orders=689 edges=1 status=OPTIMAL lower=296.1172 upper=296.1172 wall=2.7s cpu_share=0.725 foreign=0.0
+[n9] 83 heldout/twin BENH-0023 c=[0.0, 0.0] complete=True elapsed=594s
+[n9]   BENH-0024 D20+D30 orders=956 edges=1 status=OPTIMAL lower=288.6276 upper=288.6868 wall=3.8s cpu_share=0.609 foreign=0.002
+[n9] 84 heldout/twin BENH-0024 c=[0.0, 0.00015] complete=True elapsed=597s
+[n9] 85 heldout/twin BENH-0025 c=[0.0, 0.0] complete=True elapsed=597s
+[n9]   BENH-0026 D20+D30 orders=961 edges=1 status=OPTIMAL lower=312.9728 upper=312.9728 wall=8.3s cpu_share=0.835 foreign=0.0
+[n9] 86 heldout/twin BENH-0026 c=[0.0, 0.0] complete=True elapsed=606s
+[n9]   BENH-0027 D20+D40 orders=488 edges=1 status=OPTIMAL lower=299.3136 upper=299.3136 wall=1.0s cpu_share=0.686 foreign=0.0
+[n9] 87 heldout/twin BENH-0027 c=[0.0, 0.0] complete=True elapsed=607s
+[n9]   BENH-0028 D30+D40 orders=701 edges=1 status=OPTIMAL lower=771.7324 upper=771.7324 wall=18.5s cpu_share=0.941 foreign=0.0
+[n9] 88 heldout/twin BENH-0028 c=[0.0, 0.0] complete=True elapsed=625s
+[n9]   BENH-0029 D30+D90 orders=708 edges=1 status=OPTIMAL lower=371.7200 upper=372.0800 wall=7.1s cpu_share=0.838 foreign=0.001
+[n9] 89 heldout/twin BENH-0029 c=[0.0006, 0.0011] complete=True elapsed=632s
+[n9]   BENH-0030 D30 orders=598 edges=1 status=OPTIMAL lower=431.4044 upper=431.4044 wall=3.2s cpu_share=0.622 foreign=0.001
+[n9] 90 heldout/twin BENH-0030 c=[0.0, 0.0] complete=True elapsed=636s
+[n9]   BENH-0031 D20+D40 orders=499 edges=1 status=OPTIMAL lower=290.6304 upper=290.6304 wall=1.0s cpu_share=0.717 foreign=0.0
+[n9] 91 heldout/twin BENH-0031 c=[0.0, 0.0] complete=True elapsed=637s
+[n9] 92 heldout/twin BENH-0032 c=[0.0, 0.0] complete=True elapsed=637s
+[n9]   BENH-0033 D40+D50 orders=841 edges=1 status=CLOSED lower=175.4360 upper=175.4360 wall=0.0s cpu_share=None foreign=None
+[n9] 93 heldout/twin BENH-0033 c=[0.0, 0.0] complete=True elapsed=637s
+[n9]   BENH-0034 B20+D30 orders=633 edges=1 status=OPTIMAL lower=330.2192 upper=330.2192 wall=2.9s cpu_share=0.568 foreign=0.0
+[n9] 94 heldout/twin BENH-0034 c=[0.0, 0.0] complete=True elapsed=640s
+[n9]   BENH-0035 D20+D30 orders=984 edges=1 status=OPTIMAL lower=172.8520 upper=172.8804 wall=3.8s cpu_share=0.597 foreign=0.003
+[n9] 95 heldout/twin BENH-0035 c=[0.0, 7e-05] complete=True elapsed=643s
+[n9]   BENH-0036 D40+D50 orders=858 edges=1 status=OPTIMAL lower=867.6124 upper=867.6124 wall=3.7s cpu_share=0.772 foreign=0.001
+[n9] 96 heldout/twin BENH-0036 c=[0.0, 0.0] complete=True elapsed=647s
+[n9]   BENH-0037 C10+MISC orders=145 edges=1 status=CLOSED lower=188.7208 upper=188.7208 wall=0.0s cpu_share=None foreign=None
+[n9] 97 heldout/twin BENH-0037 c=[0.0, 0.0] complete=True elapsed=647s
+[n9]   BENH-0038 D20+E10 orders=412 edges=1 status=CLOSED lower=517.8200 upper=517.8200 wall=0.0s cpu_share=None foreign=None
+[n9] 98 heldout/twin BENH-0038 c=[0.0, 0.0] complete=True elapsed=647s
+[n9]   BENH-0039 D30 orders=612 edges=1 status=OPTIMAL lower=330.2192 upper=330.2192 wall=3.6s cpu_share=0.668 foreign=0.002
+[n9] 99 heldout/twin BENH-0039 c=[0.0, 0.0] complete=True elapsed=651s
+[n9]   BENH-0040 B30+E10 orders=18 edges=1 status=OPTIMAL lower=139.0000 upper=139.0000 wall=0.0s cpu_share=0.249 foreign=0.008
+[n9] 100 heldout/twin BENH-0040 c=[0.0, 0.0] complete=True elapsed=651s
+[n9]   BENH-0041 D40+E10 orders=98 edges=1 status=CLOSED lower=135.0000 upper=135.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 101 heldout/twin BENH-0041 c=[0.0, 0.0] complete=True elapsed=651s
+[n9] 102 heldout/twin BENH-0042 c=[0.0, 0.0] complete=True elapsed=651s
+[n9]   BENH-0043 D50 orders=285 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 103 heldout/twin BENH-0043 c=[0.0, 0.0] complete=True elapsed=651s
+[n9]   BENH-0044 C10+D40 orders=108 edges=1 status=CLOSED lower=794.9184 upper=794.9184 wall=0.0s cpu_share=None foreign=None
+[n9] 104 heldout/twin BENH-0044 c=[0.0, 0.0] complete=True elapsed=651s
+[n9]   BENH-0045 D30+D50 orders=226 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 105 heldout/twin BENH-0045 c=[0.0, 0.0] complete=True elapsed=651s
+[n9]   BENH-0046 D20+D50 orders=97 edges=1 status=OPTIMAL lower=140.0000 upper=140.0000 wall=0.1s cpu_share=0.412 foreign=0.0
+[n9] 106 heldout/twin BENH-0046 c=[0.0, 0.0] complete=True elapsed=651s
+[n9]   BENH-0047 D50 orders=250 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 107 heldout/twin BENH-0047 c=[0.0, 0.0] complete=True elapsed=651s
+[n9]   BENH-0048 D30+D50 orders=270 edges=1 status=CLOSED lower=64.0000 upper=64.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 108 heldout/twin BENH-0048 c=[0.0, 0.0] complete=True elapsed=651s
+[n9]   BENH-0049 C10+D30 orders=151 edges=1 status=CLOSED lower=186.7296 upper=186.7296 wall=0.0s cpu_share=None foreign=None
+[n9] 109 heldout/twin BENH-0049 c=[0.0, 0.0] complete=True elapsed=651s
+[n9]   BENH-0050 D20+E20 orders=65 edges=1 status=CLOSED lower=94.0000 upper=94.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 110 heldout/twin BENH-0050 c=[0.0, 0.0] complete=True elapsed=651s
+[n9]   BENH-0051 D20+D30 orders=345 edges=1 status=CLOSED lower=3.0000 upper=3.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 111 heldout/twin BENH-0051 c=[0.0, 0.0] complete=True elapsed=651s
+[n9]   BENH-0052 D20+D50 orders=271 edges=1 status=CLOSED lower=5.0000 upper=5.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 112 heldout/twin BENH-0052 c=[0.0, 0.0] complete=True elapsed=651s
+[n9] 113 heldout/twin BENH-0053 c=[0.0, 0.0] complete=True elapsed=651s
+[n9]   BENH-0054 D30 orders=189 edges=1 status=OPTIMAL lower=77.0000 upper=77.0000 wall=0.7s cpu_share=0.546 foreign=0.0
+[n9] 114 heldout/twin BENH-0054 c=[0.0, 0.0] complete=True elapsed=652s
+[n9] 115 heldout/twin BENH-0055 c=[0.0, 0.0] complete=True elapsed=652s
+[n9]   BENH-0056 D20+E10 orders=124 edges=1 status=CLOSED lower=3.0000 upper=3.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 116 heldout/twin BENH-0056 c=[0.0, 0.0] complete=True elapsed=652s
+[n9]   BENH-0057 D30+D40 orders=3372 edges=1 status=OPTIMAL lower=693.9372 upper=693.9372 wall=46.9s cpu_share=0.57 foreign=0.004
+[n9] 117 heldout/twin BENH-0057 c=[0.0, 0.0] complete=True elapsed=699s
+[n9]   BENH-0058 D30+D40 orders=3367 edges=1 status=CLOSED lower=1564.2088 upper=1564.2088 wall=0.0s cpu_share=None foreign=None
+[n9] 118 heldout/twin BENH-0058 c=[0.0, 0.0] complete=True elapsed=699s
+[n9]   BENH-0059 D30+D40 orders=3320 edges=1 status=CLOSED lower=1156.6884 upper=1156.6884 wall=0.0s cpu_share=None foreign=None
+[n9] 119 heldout/twin BENH-0059 c=[0.0, 0.0] complete=True elapsed=699s
+[n9]   BENH-0060 D30+D40 orders=3364 edges=1 status=CLOSED lower=2587.7176 upper=2587.7176 wall=0.0s cpu_share=None foreign=None
+[n9] 120 heldout/twin BENH-0060 c=[0.0, 0.0] complete=True elapsed=699s
+[n9]   BENH-0061 D30+D40 orders=3296 edges=1 status=OPTIMAL lower=1853.7076 upper=1853.7076 wall=61.0s cpu_share=0.694 foreign=0.002
+[n9] 121 heldout/twin BENH-0061 c=[0.0, 0.0] complete=True elapsed=760s
+[n9]   BENH-0062 C10+D40 orders=677 edges=1 status=CLOSED lower=798.9416 upper=798.9416 wall=0.0s cpu_share=None foreign=None
+[n9] 122 heldout/twin BENH-0062 c=[0.0, 0.0] complete=True elapsed=760s
+[n9]   BENH-0063 D40+D50 orders=4353 edges=1 status=CLOSED lower=539.0732 upper=539.0732 wall=0.0s cpu_share=None foreign=None
+[n9] 123 heldout/twin BENH-0063 c=[0.0, 0.0] complete=True elapsed=760s
+[n9]   BENH-0064 D40+D50 orders=4180 edges=1 status=CLOSED lower=2700.7552 upper=2700.7552 wall=0.0s cpu_share=None foreign=None
+[n9] 124 heldout/twin BENH-0064 c=[0.0, 0.0] complete=True elapsed=760s
+[n9]   BENH-0065 D30+D40 orders=3193 edges=1 status=OPTIMAL lower=995.8176 upper=995.8176 wall=47.9s cpu_share=0.615 foreign=0.003
+[n9] 125 heldout/twin BENH-0065 c=[0.0, 0.0] complete=True elapsed=808s
+[n9]   BENH-0066 D30+D40 orders=3285 edges=1 status=CLOSED lower=1925.3596 upper=1925.3596 wall=0.0s cpu_share=None foreign=None
+[n9] 126 heldout/twin BENH-0066 c=[0.0, 0.0] complete=True elapsed=808s
+[n9]   BENH-0067 D40+D50 orders=4182 edges=1 status=CLOSED lower=1082.7736 upper=1082.7736 wall=0.0s cpu_share=None foreign=None
+[n9] 127 heldout/twin BENH-0067 c=[0.0, 0.0] complete=True elapsed=808s
+[n9]   BENH-0068 D20+D40 orders=1599 edges=1 status=CLOSED lower=1172.4832 upper=1172.4832 wall=0.0s cpu_share=None foreign=None
+[n9] 128 heldout/twin BENH-0068 c=[0.0, 0.0] complete=True elapsed=808s
+[n9]   BENH-0069 D40+D50 orders=4298 edges=1 status=CLOSED lower=685.4932 upper=685.4932 wall=0.0s cpu_share=None foreign=None
+[n9] 129 heldout/twin BENH-0069 c=[0.0, 0.0] complete=True elapsed=808s
+[n9]   BENH-0070 D30+D40 orders=3367 edges=1 status=CLOSED lower=1564.2088 upper=1564.2088 wall=0.0s cpu_share=None foreign=None
+[n9] 130 heldout/twin BENH-0070 c=[0.0, 0.0] complete=True elapsed=808s
+[n9]   BENH-0071 D40+D90 orders=225 edges=1 status=OPTIMAL lower=121.9080 upper=121.9080 wall=0.2s cpu_share=0.455 foreign=0.0
+[n9]   BENH-0071 E10+E20 orders=81 edges=1 status=OPTIMAL lower=203.5200 upper=203.7648 wall=0.0s cpu_share=0.401 foreign=0.0
+[n9] 131 heldout/twin BENH-0071 c=[0.02986, 0.03031] complete=True elapsed=808s
+[n9]   BENH-0072 D30+D50 orders=1292 edges=2 status=OPTIMAL lower=266.8000 upper=266.8000 wall=27.1s cpu_share=0.937 foreign=0.0
+[n9] 132 heldout/twin BENH-0072 c=[0.0, 0.0] complete=True elapsed=835s
+[n9]   BENH-0073 D20+D30+D40 orders=1136 edges=2 status=OPTIMAL lower=359.5732 upper=359.5816 wall=4.2s cpu_share=0.589 foreign=0.002
+[n9] 133 heldout/twin BENH-0073 c=[0.0, 2e-05] complete=True elapsed=839s
+[n9]   BENH-0074 C10+D40+E20 orders=267 edges=2 status=OPTIMAL lower=652.6400 upper=653.0520 wall=0.1s cpu_share=0.497 foreign=0.024
+[n9] 134 heldout/twin BENH-0074 c=[0.0013, 0.00161] complete=True elapsed=839s
+[n9]   BENH-0075 D30+E10 orders=673 edges=2 status=OPTIMAL lower=466.2576 upper=466.2576 wall=12.2s cpu_share=0.901 foreign=0.0
+[n9] 135 heldout/twin BENH-0075 c=[0.0, 0.0] complete=True elapsed=851s
+[n9]   BENH-0076 C10+C30+D30 orders=748 edges=2 status=OPTIMAL lower=542.4044 upper=542.4044 wall=5.7s cpu_share=0.798 foreign=0.004
+[n9] 136 heldout/twin BENH-0076 c=[0.0, 0.0] complete=True elapsed=857s
+[n9]   BENH-0077 C30+D50 orders=803 edges=1 status=OPTIMAL lower=140.3016 upper=140.3016 wall=2.1s cpu_share=0.575 foreign=0.001
+[n9]   BENH-0077 D20+D30 orders=988 edges=1 status=OPTIMAL lower=234.0000 upper=234.2736 wall=11.6s cpu_share=0.884 foreign=0.0
+[n9] 137 heldout/twin BENH-0077 c=[0.00606, 0.00646] complete=True elapsed=871s
+[n9]   BENH-0078 D30+D40 orders=745 edges=1 status=OPTIMAL lower=317.3324 upper=317.3324 wall=7.8s cpu_share=0.846 foreign=0.001
+[n9]   BENH-0078 D50+MISC orders=769 edges=1 status=CLOSED lower=63.9368 upper=63.9368 wall=0.0s cpu_share=None foreign=None
+[n9] 138 heldout/twin BENH-0078 c=[0.0, 0.0] complete=True elapsed=879s
+[n9]   BENH-0079 B30+D30+D40 orders=788 edges=2 status=OPTIMAL lower=322.8876 upper=322.8876 wall=4.1s cpu_share=0.672 foreign=0.0
+[n9] 139 heldout/twin BENH-0079 c=[0.0, 0.0] complete=True elapsed=883s
+[n9]   BENH-0080 D20+D30+D40 orders=1096 edges=2 status=OPTIMAL lower=701.8448 upper=702.0096 wall=14.3s cpu_share=0.904 foreign=0.0
+[n9] 140 heldout/twin BENH-0080 c=[0.0, 0.00023] complete=True elapsed=897s
+[n9]   BENH-0081 C10+MISC orders=144 edges=1 status=CLOSED lower=111.0000 upper=111.0000 wall=0.0s cpu_share=None foreign=None
+[n9]   BENH-0081 D30+D50 orders=1310 edges=1 status=OPTIMAL lower=164.7848 upper=164.8044 wall=6.9s cpu_share=0.639 foreign=0.001
+[n9] 141 heldout/twin BENH-0081 c=[0.0, 5e-05] complete=True elapsed=904s
+[n9]   BENH-0082 B20+B30 orders=53 edges=1 status=CLOSED lower=350.0000 upper=350.0000 wall=0.0s cpu_share=None foreign=None
+[n9]   BENH-0082 D30+D40 orders=752 edges=1 status=OPTIMAL lower=891.4524 upper=891.4524 wall=3.2s cpu_share=0.577 foreign=0.0
+[n9] 142 heldout/twin BENH-0082 c=[0.0, 0.0] complete=True elapsed=907s
+[n9]   BENH-0083 D40+E10+MISC orders=222 edges=2 status=OPTIMAL lower=628.2680 upper=628.2680 wall=0.1s cpu_share=0.441 foreign=0.007
+[n9] 143 heldout/twin BENH-0083 c=[0.0, 0.0] complete=True elapsed=907s
+[n9]   BENH-0084 D50+D90+E10 orders=851 edges=2 status=CLOSED lower=517.8200 upper=517.8200 wall=0.0s cpu_share=None foreign=None
+[n9] 144 heldout/twin BENH-0084 c=[0.0, 0.0] complete=True elapsed=907s
+[n9]   BENH-0085 D30 orders=612 edges=1 status=OPTIMAL lower=330.2192 upper=330.2192 wall=3.8s cpu_share=0.686 foreign=0.001
+[n9]   BENH-0085 D40+D50 orders=812 edges=1 status=OPTIMAL lower=340.1136 upper=340.1136 wall=5.3s cpu_share=0.856 foreign=0.001
+[n9] 145 heldout/twin BENH-0085 c=[0.0, 0.0] complete=True elapsed=916s
+[n9]   BENH-0086 D10+D40 orders=171 edges=1 status=CLOSED lower=162.1536 upper=162.1536 wall=0.0s cpu_share=None foreign=None
+[n9]   BENH-0086 D20+D30 orders=928 edges=1 status=OPTIMAL lower=210.3084 upper=210.3212 wall=5.1s cpu_share=0.728 foreign=0.0
+[n9] 146 heldout/twin BENH-0086 c=[0.0, 3e-05] complete=True elapsed=922s
+[n9]   BENH-0087 C10+E10 orders=186 edges=1 status=OPTIMAL lower=103.5976 upper=104.0178 wall=0.1s cpu_share=0.499 foreign=0.0
+[n9]   BENH-0087 C30+D50 orders=716 edges=1 status=CLOSED lower=272.2424 upper=272.2424 wall=0.0s cpu_share=None foreign=None
+[n9] 147 heldout/twin BENH-0087 c=[0.0, 0.00049] complete=True elapsed=922s
+[n9]   BENH-0088 C10+D30+E10 orders=814 edges=2 status=OPTIMAL lower=552.7500 upper=552.7632 wall=3.3s cpu_share=0.562 foreign=0.001
+[n9] 148 heldout/twin BENH-0088 c=[0.0, 2e-05] complete=True elapsed=925s
+[n9]   BENH-0089 C10+D30 orders=697 edges=1 status=OPTIMAL lower=42.0308 upper=42.0308 wall=2.6s cpu_share=0.514 foreign=0.002
+[n9]   BENH-0089 D40+D90 orders=230 edges=1 status=OPTIMAL lower=87.9156 upper=87.9156 wall=0.2s cpu_share=0.393 foreign=0.007
+[n9] 149 heldout/twin BENH-0089 c=[0.0, 0.0] complete=True elapsed=928s
+[n9]   BENH-0090 D20+D30+E10 orders=1057 edges=2 status=OPTIMAL lower=964.8400 upper=966.2516 wall=21.6s cpu_share=0.936 foreign=0.0
+[n9] 150 heldout/twin BENH-0090 c=[0.00636, 0.00968] complete=True elapsed=949s
+[n9]   BENH-0091 D30+D40 orders=776 edges=1 status=OPTIMAL lower=284.4000 upper=284.8624 wall=4.1s cpu_share=0.656 foreign=0.0
+[n9] 151 heldout/twin BENH-0091 c=[0.03652, 0.03826] complete=True elapsed=953s
+[n9]   BENH-0092 D20+D40 orders=504 edges=1 status=OPTIMAL lower=375.7944 upper=375.7944 wall=0.9s cpu_share=0.646 foreign=0.0
+[n9]   BENH-0092 D50+E10 orders=783 edges=1 status=OPTIMAL lower=444.3528 upper=444.3528 wall=2.1s cpu_share=0.584 foreign=0.006
+[n9] 152 heldout/twin BENH-0092 c=[0.0, 0.0] complete=True elapsed=956s
+[n9]   BENH-0093 D30+D40+E10 orders=778 edges=2 status=OPTIMAL lower=561.2352 upper=561.2352 wall=9.2s cpu_share=0.878 foreign=0.0
+[n9] 153 heldout/twin BENH-0093 c=[0.0, -0.0] complete=True elapsed=966s
+[n9]   BENH-0094 D10+D20 orders=375 edges=1 status=OPTIMAL lower=175.7080 upper=175.7080 wall=1.0s cpu_share=0.763 foreign=0.0
+[n9]   BENH-0094 D30+D40 orders=727 edges=1 status=OPTIMAL lower=181.7860 upper=181.7860 wall=2.9s cpu_share=0.533 foreign=0.003
+[n9] 154 heldout/twin BENH-0094 c=[0.0, 0.0] complete=True elapsed=969s
+[n9]   BENH-0095 D30+D40+E10 orders=825 edges=2 status=OPTIMAL lower=390.9592 upper=390.9592 wall=6.3s cpu_share=0.794 foreign=0.001
+[n9] 155 heldout/twin BENH-0095 c=[0.0, 0.0] complete=True elapsed=976s
+[n9]   BENH-0096 C30+D30+D50 orders=195 edges=2 status=CLOSED lower=132.0000 upper=132.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 156 heldout/twin BENH-0096 c=[0.0, 0.0] complete=True elapsed=976s
+[n9]   BENH-0097 C30+D50 orders=19 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9]   BENH-0097 D20+D40 orders=99 edges=1 status=CLOSED lower=3.0000 upper=3.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 157 heldout/twin BENH-0097 c=[0.0, 0.0] complete=True elapsed=976s
+[n9]   BENH-0098 D30+D50+E10 orders=254 edges=2 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 158 heldout/twin BENH-0098 c=[0.0, 0.0] complete=True elapsed=976s
+[n9] 159 heldout/twin BENH-0099 c=[0.0, 0.0] complete=True elapsed=976s
+[n9]   BENH-0100 C10+D30 orders=200 edges=2 status=OPTIMAL lower=101.0000 upper=101.0000 wall=0.9s cpu_share=0.411 foreign=0.0
+[n9] 160 heldout/twin BENH-0100 c=[0.0, 0.0] complete=True elapsed=977s
+[n9]   BENH-0101 D20+D30+D50 orders=238 edges=2 status=CLOSED lower=132.0000 upper=132.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 161 heldout/twin BENH-0101 c=[0.0, 0.0] complete=True elapsed=977s
+[n9]   BENH-0102 C10+C30 orders=10 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9]   BENH-0102 D20+D30 orders=345 edges=1 status=CLOSED lower=3.0000 upper=3.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 162 heldout/twin BENH-0102 c=[0.0, 0.0] complete=True elapsed=977s
+[n9]   BENH-0103 D30+D50+E10 orders=254 edges=2 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 163 heldout/twin BENH-0103 c=[0.0, 0.0] complete=True elapsed=977s
+[n9]   BENH-0104 D30 orders=142 edges=1 status=CLOSED lower=88.0000 upper=88.0000 wall=0.0s cpu_share=None foreign=None
+[n9]   BENH-0104 D40 orders=14 edges=1 status=CLOSED lower=60.0000 upper=60.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 164 heldout/twin BENH-0104 c=[0.0, 0.0] complete=True elapsed=977s
+[n9]   BENH-0105 B30+D30 orders=118 edges=1 status=OPTIMAL lower=173.0000 upper=173.0400 wall=0.3s cpu_share=0.44 foreign=0.0
+[n9]   BENH-0105 C10+D40 orders=46 edges=1 status=CLOSED lower=182.0000 upper=182.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 165 heldout/twin BENH-0105 c=[0.00864, 0.00873] complete=True elapsed=977s
+[n9]   BENH-0106 D20 orders=73 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9]   BENH-0106 D40+E10 orders=98 edges=1 status=CLOSED lower=135.0000 upper=135.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 166 heldout/twin BENH-0106 c=[0.0, 0.0] complete=True elapsed=977s
+[n9]   BENH-0107 D30+D40+D50 orders=7102 edges=2 status=UNKNOWN lower=1853.7076 upper=1853.8440 wall=66.1s cpu_share=0.431 foreign=0.003
+[n9] 167 heldout/twin BENH-0107 c=[0.0, 7e-05] complete=True elapsed=1043s
+[n9]   BENH-0108 D20+D40+D50 orders=5505 edges=2 status=UNKNOWN lower=820.8832 upper=820.9888 wall=64.2s cpu_share=0.657 foreign=0.003
+[n9] 168 heldout/twin BENH-0108 c=[0.0, 0.00013] complete=True elapsed=1107s
+[n9]   BENH-0109 D30+D40+D50 orders=7249 edges=2 status=CLOSED lower=539.0732 upper=539.0732 wall=0.0s cpu_share=None foreign=None
+[n9] 169 heldout/twin BENH-0109 c=[0.0, 0.0] complete=True elapsed=1107s
+[n9]   BENH-0110 D40+D50 orders=4180 edges=2 status=CLOSED lower=2700.7552 upper=2700.7552 wall=0.0s cpu_share=None foreign=None
+[n9] 170 heldout/twin BENH-0110 c=[0.0, 0.0] complete=True elapsed=1107s
+[n9]   BENH-0111 D30+D40+D50 orders=7002 edges=2 status=FEASIBLE lower=995.8176 upper=995.9004 wall=65.8s cpu_share=0.438 foreign=0.006
+[n9] 171 heldout/twin BENH-0111 c=[0.0, 7e-05] complete=True elapsed=1173s
+[n9]   BENH-0112 D30+D40+D50 orders=6956 edges=2 status=CLOSED lower=1925.3596 upper=1925.3596 wall=0.0s cpu_share=None foreign=None
+[n9] 172 heldout/twin BENH-0112 c=[0.0, 0.0] complete=True elapsed=1173s
+[n9]   BENH-0113 D30+D40+D50 orders=7101 edges=2 status=FEASIBLE lower=1287.1576 upper=1287.2720 wall=66.3s cpu_share=0.42 foreign=0.005
+[n9] 173 heldout/twin BENH-0113 c=[0.0, 9e-05] complete=True elapsed=1240s
+[n9]   BENH-0114 D20+D40 orders=1599 edges=2 status=CLOSED lower=1172.4832 upper=1172.4832 wall=0.0s cpu_share=None foreign=None
+[n9] 174 heldout/twin BENH-0114 c=[0.0, 0.0] complete=True elapsed=1240s
+[n9]   BENH-0115 D40+D50 orders=4298 edges=2 status=CLOSED lower=685.4932 upper=685.4932 wall=0.0s cpu_share=None foreign=None
+[n9] 175 heldout/twin BENH-0115 c=[0.0, 0.0] complete=True elapsed=1240s
+[n9]   BENH-0116 B30+E10 orders=89 edges=1 status=OPTIMAL lower=288.3040 upper=288.3040 wall=0.1s cpu_share=0.488 foreign=0.0
+[n9] 176 heldout/twin BENH-0116 c=[0.0, 0.0] complete=True elapsed=1240s
+[n9]   BENH-0117 C30+D30 orders=683 edges=1 status=OPTIMAL lower=263.2296 upper=263.2296 wall=13.3s cpu_share=0.916 foreign=0.0
+[n9] 177 heldout/twin BENH-0117 c=[0.0, 0.0] complete=True elapsed=1253s
+[n9]   BENH-0118 D40+E10 orders=188 edges=1 status=CLOSED lower=264.3856 upper=264.3856 wall=0.0s cpu_share=None foreign=None
+[n9] 178 heldout/twin BENH-0118 c=[0.0, 0.0] complete=True elapsed=1253s
+[n9]   BENH-0119 D20+D40 orders=463 edges=1 status=OPTIMAL lower=895.0888 upper=899.8940 wall=1.0s cpu_share=0.734 foreign=0.0
+[n9] 179 heldout/twin BENH-0119 c=[0.0, 0.00319] complete=True elapsed=1254s
+[n9]   BENH-0120 D30+E10 orders=673 edges=1 status=OPTIMAL lower=466.2576 upper=466.2576 wall=7.0s cpu_share=0.843 foreign=0.001
+[n9] 180 heldout/twin BENH-0120 c=[0.0, 0.0] complete=True elapsed=1261s
+[n9]   BENH-0121 D30+MISC orders=651 edges=1 status=OPTIMAL lower=275.7848 upper=275.8132 wall=7.4s cpu_share=0.839 foreign=0.001
+[n9] 181 heldout/twin BENH-0121 c=[0.0, 7e-05] complete=True elapsed=1268s
+[n9] 182 heldout/twin BENH-0122 c=[0.00815, 0.00829] complete=True elapsed=1268s
+[n9]   BENH-0123 D20+D30 orders=975 edges=1 status=OPTIMAL lower=270.9668 upper=270.9668 wall=6.0s cpu_share=0.757 foreign=0.004
+[n9] 183 heldout/twin BENH-0123 c=[0.0, 0.0] complete=True elapsed=1274s
+[n9] 184 heldout/twin BENH-0124 c=[0.0, 0.0] complete=True elapsed=1274s
+[n9]   BENH-0125 D30+D50 orders=1295 edges=1 status=OPTIMAL lower=330.5752 upper=330.5752 wall=8.7s cpu_share=0.784 foreign=0.001
+[n9] 185 heldout/twin BENH-0125 c=[0.0, 0.0] complete=True elapsed=1283s
+[n9] 186 heldout/twin BENH-0126 c=[0.0, 5e-05] complete=True elapsed=1283s
+[n9] 187 heldout/twin BENH-0127 c=[0.0, 0.00159] complete=True elapsed=1283s
+[n9]   BENH-0128 D30+MISC orders=608 edges=1 status=OPTIMAL lower=362.7432 upper=362.7436 wall=11.0s cpu_share=0.903 foreign=0.0
+[n9] 188 heldout/twin BENH-0128 c=[0.0, 0.0] complete=True elapsed=1294s
+[n9]   BENH-0129 D20+E10 orders=412 edges=1 status=CLOSED lower=517.8200 upper=517.8200 wall=0.0s cpu_share=None foreign=None
+[n9] 189 heldout/twin BENH-0129 c=[0.0, 0.0] complete=True elapsed=1294s
+[n9] 190 heldout/twin BENH-0130 c=[0.0, 0.0] complete=True elapsed=1294s
+[n9]   BENH-0131 D40+D50 orders=870 edges=1 status=CLOSED lower=162.1536 upper=162.1536 wall=0.0s cpu_share=None foreign=None
+[n9] 191 heldout/twin BENH-0131 c=[0.0, 0.0] complete=True elapsed=1294s
+[n9]   BENH-0132 D50+E10 orders=718 edges=1 status=OPTIMAL lower=103.5976 upper=103.5976 wall=2.2s cpu_share=0.691 foreign=0.001
+[n9] 192 heldout/twin BENH-0132 c=[0.0, 0.0] complete=True elapsed=1296s
+[n9]   BENH-0133 D50+E10 orders=757 edges=1 status=OPTIMAL lower=472.7240 upper=472.7240 wall=1.8s cpu_share=0.513 foreign=0.0
+[n9] 193 heldout/twin BENH-0133 c=[0.0, 0.0] complete=True elapsed=1298s
+[n9]   BENH-0134 D20+D40 orders=472 edges=1 status=OPTIMAL lower=110.6616 upper=110.6616 wall=0.9s cpu_share=0.687 foreign=0.0
+[n9] 194 heldout/twin BENH-0134 c=[0.0, 0.0] complete=True elapsed=1299s
+[n9] 195 heldout/twin BENH-0135 c=[0.01425, 0.01458] complete=True elapsed=1299s
+[n9] 196 heldout/twin BENH-0136 c=[0.0, 0.0] complete=True elapsed=1299s
+[n9]   BENH-0137 D50+E10 orders=783 edges=1 status=OPTIMAL lower=444.3528 upper=444.3528 wall=2.1s cpu_share=0.581 foreign=0.002
+[n9] 197 heldout/twin BENH-0137 c=[0.0, 0.0] complete=True elapsed=1301s
+[n9] 198 heldout/twin BENH-0138 c=[0.0, -0.0] complete=True elapsed=1301s
+[n9]   BENH-0139 D20+D30 orders=956 edges=1 status=OPTIMAL lower=288.6276 upper=289.0236 wall=3.7s cpu_share=0.61 foreign=0.0
+[n9] 199 heldout/twin BENH-0139 c=[0.0, 0.00102] complete=True elapsed=1305s
+[n9] 200 heldout/twin BENH-0140 c=[0.0, 0.0] complete=True elapsed=1305s
+[n9] 201 heldout/twin BENH-0141 c=[0.0, 0.0] complete=True elapsed=1305s
+[n9] 202 heldout/twin BENH-0142 c=[0.0, 0.0] complete=True elapsed=1305s
+[n9] 203 heldout/twin BENH-0143 c=[0.0, 0.0] complete=True elapsed=1305s
+[n9] 204 heldout/twin BENH-0144 c=[0.0, 0.0] complete=True elapsed=1305s
+[n9]   BENH-0145 B20+D30 orders=215 edges=1 status=OPTIMAL lower=77.0000 upper=77.0000 wall=0.8s cpu_share=0.486 foreign=0.003
+[n9] 205 heldout/twin BENH-0145 c=[0.0, 0.0] complete=True elapsed=1306s
+[n9] 206 heldout/twin BENH-0146 c=[0.0, 0.0] complete=True elapsed=1306s
+[n9] 207 heldout/twin BENH-0147 c=[0.0, 0.0] complete=True elapsed=1306s
+[n9] 208 heldout/twin BENH-0148 c=[0.0, 0.0] complete=True elapsed=1306s
+[n9]   BENH-0149 D30+E10 orders=155 edges=1 status=CLOSED lower=88.0000 upper=88.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 209 heldout/twin BENH-0149 c=[0.0, 0.0] complete=True elapsed=1306s
+[n9]   BENH-0150 B30+D90 orders=48 edges=1 status=OPTIMAL lower=139.0000 upper=139.0000 wall=0.0s cpu_share=0.34 foreign=0.005
+[n9] 210 heldout/twin BENH-0150 c=[0.0, 0.0] complete=True elapsed=1306s
+[n9] 211 heldout/twin BENH-0151 c=[0.0, 0.0] complete=True elapsed=1306s
+[n9] 212 heldout/twin BENH-0152 c=[0.0, 0.0] complete=True elapsed=1306s
+[n9]   BENH-0153 D30+D40 orders=3355 edges=1 status=FEASIBLE lower=804.2088 upper=804.4552 wall=63.6s cpu_share=0.689 foreign=0.002
+[n9] 213 heldout/twin BENH-0153 c=[0.0, 0.0003] complete=True elapsed=1369s
+[n9]   BENH-0154 D30+D40 orders=3347 edges=1 status=CLOSED lower=539.0732 upper=539.0732 wall=0.0s cpu_share=None foreign=None
+[n9] 214 heldout/twin BENH-0154 c=[0.0, 0.0] complete=True elapsed=1369s
+[n9]   BENH-0155 D30+D40 orders=3331 edges=1 status=OPTIMAL lower=2713.8000 upper=2713.8000 wall=46.9s cpu_share=0.579 foreign=0.004
+[n9] 215 heldout/twin BENH-0155 c=[0.0, 0.0] complete=True elapsed=1416s
+[n9] 216 heldout/twin BENH-0156 c=[0.0, 0.0] complete=True elapsed=1416s
+[n9] 217 heldout/twin BENH-0157 c=[0.0, 0.0] complete=True elapsed=1416s
+[n9] 218 heldout/twin BENH-0158 c=[0.0, 0.0] complete=True elapsed=1416s
+[n9]   BENH-0159 D40+E10 orders=756 edges=1 status=CLOSED lower=1172.4832 upper=1172.4832 wall=0.0s cpu_share=None foreign=None
+[n9] 219 heldout/twin BENH-0159 c=[0.0, 0.0] complete=True elapsed=1416s
+[n9]   BENH-0160 D30+D40 orders=3372 edges=1 status=FEASIBLE lower=693.9372 upper=695.3668 wall=63.6s cpu_share=0.684 foreign=0.002
+[n9] 220 heldout/twin BENH-0160 c=[0.0, 0.00201] complete=True elapsed=1480s
+[n9]   BENH-0161 D10+D50 orders=747 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 221 heldout/twin BENH-0161 c=[0.0, 0.0] complete=True elapsed=1480s
+[n9]   BENH-0162 D30+D50 orders=1292 edges=1 status=OPTIMAL lower=266.8000 upper=266.8000 wall=19.1s cpu_share=0.908 foreign=0.0
+[n9] 222 heldout/twin BENH-0162 c=[0.0, 0.0] complete=True elapsed=1499s
+[n9]   BENH-0163 D30+D50 orders=1355 edges=1 status=OPTIMAL lower=100.9476 upper=100.9560 wall=20.4s cpu_share=0.907 foreign=0.001
+[n9] 223 heldout/twin BENH-0163 c=[0.0, 2e-05] complete=True elapsed=1519s
+[n9]   BENH-0164 D30+D40 orders=701 edges=1 status=OPTIMAL lower=771.7324 upper=771.7324 wall=14.5s cpu_share=0.925 foreign=0.0
+[n9] 224 heldout/twin BENH-0164 c=[0.0, 0.0] complete=True elapsed=1534s
+[n9]   BENH-0165 D30+D50 orders=1321 edges=1 status=OPTIMAL lower=371.2880 upper=371.2880 wall=12.5s cpu_share=0.858 foreign=0.001
+[n9] 225 heldout/twin BENH-0165 c=[0.0, 0.0] complete=True elapsed=1547s
+[n9]   BENH-0166 D30+D40 orders=706 edges=1 status=OPTIMAL lower=521.1052 upper=521.1052 wall=3.6s cpu_share=0.663 foreign=0.002
+[n9] 226 heldout/twin BENH-0166 c=[0.0, 0.0] complete=True elapsed=1550s
+[n9]   BENH-0167 D20+D30 orders=988 edges=1 status=OPTIMAL lower=229.8080 upper=229.8080 wall=9.5s cpu_share=0.851 foreign=0.002
+[n9] 227 heldout/twin BENH-0167 c=[0.0, 0.0] complete=True elapsed=1560s
+[n9]   BENH-0168 C10+D50 orders=868 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 228 heldout/twin BENH-0168 c=[0.0, 0.0] complete=True elapsed=1560s
+[n9]   BENH-0169 D30+D40 orders=751 edges=1 status=OPTIMAL lower=229.4332 upper=229.4744 wall=4.1s cpu_share=0.664 foreign=0.001
+[n9] 229 heldout/twin BENH-0169 c=[0.0, 9e-05] complete=True elapsed=1564s
+[n9]   BENH-0170 D30 orders=612 edges=1 status=OPTIMAL lower=330.2192 upper=330.2192 wall=3.5s cpu_share=0.649 foreign=0.001
+[n9] 230 heldout/twin BENH-0170 c=[0.0, 0.0] complete=True elapsed=1567s
+[n9]   BENH-0171 D30+MISC orders=651 edges=1 status=OPTIMAL lower=275.7848 upper=275.8132 wall=3.6s cpu_share=0.653 foreign=0.0
+[n9] 231 heldout/twin BENH-0171 c=[0.0, 7e-05] complete=True elapsed=1571s
+[n9]   BENH-0172 C10+D50 orders=835 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 232 heldout/twin BENH-0172 c=[0.0, 0.0] complete=True elapsed=1571s
+[n9]   BENH-0173 D50+D90 orders=853 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 233 heldout/twin BENH-0173 c=[0.0, 0.0] complete=True elapsed=1571s
+[n9]   BENH-0174 D30+D50 orders=1277 edges=1 status=OPTIMAL lower=22.6280 upper=22.6496 wall=3.9s cpu_share=0.496 foreign=0.004
+[n9] 234 heldout/twin BENH-0174 c=[0.0, 4e-05] complete=True elapsed=1575s
+[n9]   BENH-0175 C10+D30 orders=715 edges=1 status=OPTIMAL lower=330.2192 upper=330.2192 wall=3.4s cpu_share=0.631 foreign=0.001
+[n9] 235 heldout/twin BENH-0175 c=[0.0, 0.0] complete=True elapsed=1578s
+[n9]   BENH-0176 D10+D90 orders=125 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 236 heldout/twin BENH-0176 c=[0.0, 0.0] complete=True elapsed=1578s
+[n9]   BENH-0177 D30+D50 orders=1260 edges=1 status=OPTIMAL lower=205.9936 upper=205.9936 wall=19.9s cpu_share=0.916 foreign=0.0
+[n9] 237 heldout/twin BENH-0177 c=[0.0, 0.0] complete=True elapsed=1598s
+[n9]   BENH-0178 D20+D50 orders=1068 edges=1 status=OPTIMAL lower=44.6448 upper=44.6448 wall=3.0s cpu_share=0.628 foreign=0.0
+[n9] 238 heldout/twin BENH-0178 c=[0.0, 0.0] complete=True elapsed=1601s
+[n9]   BENH-0179 D40+D50 orders=866 edges=1 status=OPTIMAL lower=87.9156 upper=87.9156 wall=8.7s cpu_share=0.907 foreign=0.0
+[n9] 239 heldout/twin BENH-0179 c=[0.0, 0.0] complete=True elapsed=1610s
+[n9]   BENH-0180 D30+D90 orders=729 edges=1 status=OPTIMAL lower=422.5260 upper=422.5260 wall=5.0s cpu_share=0.752 foreign=0.0
+[n9] 240 heldout/twin BENH-0180 c=[0.0, 0.0] complete=True elapsed=1615s
+[n9]   BENH-0181 D20+D50 orders=1061 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 241 heldout/twin BENH-0181 c=[0.0, 0.0] complete=True elapsed=1615s
+[n9]   BENH-0182 D30 orders=627 edges=1 status=OPTIMAL lower=324.0864 upper=324.1592 wall=2.9s cpu_share=0.546 foreign=0.001
+[n9] 242 heldout/twin BENH-0182 c=[0.0, 6e-05] complete=True elapsed=1618s
+[n9]   BENH-0183 D50+E10 orders=689 edges=1 status=OPTIMAL lower=296.1172 upper=296.1172 wall=3.6s cpu_share=0.835 foreign=0.0
+[n9] 243 heldout/twin BENH-0183 c=[0.0, 0.0] complete=True elapsed=1621s
+[n9]   BENH-0184 D30+D50 orders=1335 edges=1 status=OPTIMAL lower=112.9196 upper=112.9788 wall=5.5s cpu_share=0.634 foreign=0.001
+[n9] 244 heldout/twin BENH-0184 c=[0.0, 0.00015] complete=True elapsed=1627s
+[n9]   BENH-0185 D30 orders=642 edges=1 status=OPTIMAL lower=82.4848 upper=82.4848 wall=3.4s cpu_share=0.607 foreign=0.002
+[n9] 245 heldout/twin BENH-0185 c=[0.0, 0.0] complete=True elapsed=1630s
+[n9]   BENH-0186 B20+D50 orders=213 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 246 heldout/twin BENH-0186 c=[0.0, 0.0] complete=True elapsed=1630s
+[n9]   BENH-0187 D20+D30 orders=331 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 247 heldout/twin BENH-0187 c=[0.0, 0.0] complete=True elapsed=1630s
+[n9]   BENH-0188 D30 orders=117 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 248 heldout/twin BENH-0188 c=[0.0, 0.0] complete=True elapsed=1630s
+[n9]   BENH-0189 D20+D50 orders=177 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 249 heldout/twin BENH-0189 c=[0.0, 0.0] complete=True elapsed=1630s
+[n9]   BENH-0190 D50 orders=80 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 250 heldout/twin BENH-0190 c=[0.0, 0.0] complete=True elapsed=1630s
+[n9]   BENH-0191 D20+D40 orders=140 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 251 heldout/twin BENH-0191 c=[0.0, 0.0] complete=True elapsed=1630s
+[n9]   BENH-0192 D20+D30 orders=345 edges=1 status=CLOSED lower=3.0000 upper=3.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 252 heldout/twin BENH-0192 c=[0.0, 0.0] complete=True elapsed=1630s
+[n9]   BENH-0193 D50 orders=244 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 253 heldout/twin BENH-0193 c=[0.0, 0.0] complete=True elapsed=1630s
+[n9]   BENH-0194 D30 orders=142 edges=1 status=CLOSED lower=88.0000 upper=88.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 254 heldout/twin BENH-0194 c=[0.0, 0.0] complete=True elapsed=1630s
+[n9]   BENH-0195 D30+D50 orders=274 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 255 heldout/twin BENH-0195 c=[0.0, 0.0] complete=True elapsed=1630s
+[n9]   BENH-0196 D20+D30 orders=200 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 256 heldout/twin BENH-0196 c=[0.0, 0.0] complete=True elapsed=1630s
+[n9]   BENH-0197 D40 orders=459 edges=1 status=CLOSED lower=1725.7648 upper=1725.7648 wall=0.0s cpu_share=None foreign=None
+[n9] 257 heldout/twin BENH-0197 c=[0.0, 0.0] complete=True elapsed=1630s
+[n9]   BENH-0198 D30+D90 orders=3045 edges=1 status=OPTIMAL lower=5.2672 upper=5.2672 wall=43.7s cpu_share=0.577 foreign=0.002
+[n9] 258 heldout/twin BENH-0198 c=[0.0, 0.0] complete=True elapsed=1674s
+[n9]   BENH-0199 D50 orders=3902 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 259 heldout/twin BENH-0199 c=[0.0, 0.0] complete=True elapsed=1674s
+[n9]   BENH-0200 D50 orders=3722 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 260 heldout/twin BENH-0200 c=[0.0, 0.0] complete=True elapsed=1674s
+[n9]   BENH-0201 D50 orders=3809 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 261 heldout/twin BENH-0201 c=[0.0, 0.0] complete=True elapsed=1674s
+[n9]   BENH-0202 D20+D90 orders=1288 edges=1 status=OPTIMAL lower=47.5464 upper=47.5632 wall=3.6s cpu_share=0.38 foreign=0.002
+[n9] 262 heldout/twin BENH-0202 c=[0.0, 1e-05] complete=True elapsed=1678s
+[n9]   BENH-0203 D40+D50 orders=4182 edges=1 status=CLOSED lower=1082.7736 upper=1082.7736 wall=0.0s cpu_share=None foreign=None
+[n9] 263 heldout/twin BENH-0203 c=[0.0, 0.0] complete=True elapsed=1678s
+[n9]   BENH-0204 D50 orders=3857 edges=1 status=CLOSED lower=16.5920 upper=16.5920 wall=0.0s cpu_share=None foreign=None
+[n9] 264 heldout/twin BENH-0204 c=[0.0, 0.0] complete=True elapsed=1678s
+[n9]   BENH-0205 D90+E10 orders=451 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 265 heldout/twin BENH-0205 c=[0.0, 0.0] complete=True elapsed=1678s
+[n9]   BENH-0206 D30 orders=137 edges=1 status=CLOSED lower=21.7296 upper=21.7296 wall=0.0s cpu_share=None foreign=None
+[n9] 266 heldout/twin BENH-0206 c=[0.0, 0.0] complete=True elapsed=1678s
+[n9]   BENH-0207 D30+D50 orders=302 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 267 heldout/twin BENH-0207 c=[0.0, 0.0] complete=True elapsed=1678s
+[n9]   BENH-0208 D20+E10 orders=187 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 268 heldout/twin BENH-0208 c=[0.0, 0.0] complete=True elapsed=1678s
+[n9]   BENH-0209 D30+D50 orders=239 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 269 heldout/twin BENH-0209 c=[0.0, 0.0] complete=True elapsed=1678s
+[n9]   BENH-0210 D30+D50 orders=270 edges=1 status=CLOSED lower=64.0000 upper=64.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 270 heldout/twin BENH-0210 c=[0.0, 0.0] complete=True elapsed=1678s
+[n9]   BENH-0211 B20+D50 orders=106 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 271 heldout/twin BENH-0211 c=[0.0, 0.0] complete=True elapsed=1678s
+[n9]   BENH-0212 D20+D30 orders=161 edges=1 status=CLOSED lower=132.0000 upper=132.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 272 heldout/twin BENH-0212 c=[0.0, 0.0] complete=True elapsed=1678s
+[n9]   BENH-0213 D30+E10 orders=273 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 273 heldout/twin BENH-0213 c=[0.0, 0.0] complete=True elapsed=1678s
+[n9]   BENH-0214 D50 orders=244 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 274 heldout/twin BENH-0214 c=[0.0, 0.0] complete=True elapsed=1678s
+[n9]   BENH-0215 D20+D50 orders=183 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 275 heldout/twin BENH-0215 c=[0.0, 0.0] complete=True elapsed=1678s
+[n9]   BENH-0216 D50+E10 orders=194 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 276 heldout/twin BENH-0216 c=[0.0, 0.0] complete=True elapsed=1678s
+[n9]   BENH-0217 B20+D50 orders=151 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 277 heldout/twin BENH-0217 c=[0.0, 0.0] complete=True elapsed=1678s
+[n9]   BENH-0218 D30+D40 orders=177 edges=1 status=OPTIMAL lower=65.7296 upper=65.7296 wall=0.5s cpu_share=0.329 foreign=0.0
+[n9] 278 heldout/twin BENH-0218 c=[0.0, 0.0] complete=True elapsed=1678s
+[n9]   BENH-0219 D20+D50 orders=203 edges=1 status=CLOSED lower=0.0000 upper=0.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 279 heldout/twin BENH-0219 c=[0.0, 0.0] complete=True elapsed=1678s
+[n9]   BENH-0220 D30+D50 orders=277 edges=1 status=CLOSED lower=24.0000 upper=24.0000 wall=0.0s cpu_share=None foreign=None
+[n9] 280 heldout/twin BENH-0220 c=[0.0, 0.0] complete=True elapsed=1678s
+[n9] finished: 280 items in 1678.5s

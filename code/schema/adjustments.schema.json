@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "l1-adjustments-1.0.0",
+  "title": "L1 dispatch adjustment proposal (frozen v1.0.0, 2026-08-11)",
+  "description": "Structural contract for LLM-proposed dispatch adjustments over the FM work-order environment. Structure only: operation names, argument presence, types, and closed enums. Instance-dependent validity (order/building id existence, trade eligibility, argument ranges) is checked deterministically in G_schema, never in this schema. An empty operations array is the refusal/no-op signal.",
+  "type": "object",
+  "properties": {
+    "operations": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "type": "object",
+            "properties": {
+              "op": { "enum": ["set_priority"] },
+              "order_id": { "type": "string" },
+              "priority_class": { "enum": [1, 2, 3, 4] }
+            },
+            "required": ["op", "order_id", "priority_class"],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": { "enum": ["pin_next"] },
+              "order_id": { "type": "string" },
+              "trade": { "enum": ["B20", "B30", "C10", "C30", "D10", "D20", "D30", "D40", "D50", "D90", "E10", "E20", "MISC", "UNK"] }
+            },
+            "required": ["op", "order_id", "trade"],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": { "enum": ["reorder"] },
+              "order_id": { "type": "string" },
+              "relation": { "enum": ["before", "after"] },
+              "ref_order_id": { "type": "string" }
+            },
+            "required": ["op", "order_id", "relation", "ref_order_id"],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": { "enum": ["reassign_window"] },
+              "order_id": { "type": "string" },
+              "release_shift_bh": { "type": "number" }
+            },
+            "required": ["op", "order_id", "release_shift_bh"],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": { "enum": ["freeze"] },
+              "order_id": { "type": "string" }
+            },
+            "required": ["op", "order_id"],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": { "enum": ["unfreeze"] },
+              "order_id": { "type": "string" }
+            },
+            "required": ["op", "order_id"],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": { "enum": ["batch"] },
+              "building_id": { "type": "string" },
+              "trade": { "enum": ["B20", "B30", "C10", "C30", "D10", "D20", "D30", "D40", "D50", "D90", "E10", "E20", "MISC", "UNK"] }
+            },
+            "required": ["op", "building_id", "trade"],
+            "additionalProperties": false
+          }
+        ]
+      }
+    }
+  },
+  "required": ["operations"],
+  "additionalProperties": false
+}

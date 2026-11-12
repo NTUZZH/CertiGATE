@@ -1,0 +1,222 @@
+{
+ "board_upper_heuristic": "atc (D.board_atc)",
+ "bootstrap": {
+  "B": 20000,
+  "seed": 20261026
+ },
+ "census": {
+  "cores": "8-11",
+  "mkl_num_threads": 1,
+  "omp_num_threads": 1,
+  "workers": 4
+ },
+ "control": "atc",
+ "decision_instant": "N11's t_d = t_known (primary reading)",
+ "deltas": [
+  0.05,
+  0.1,
+  0.2
+ ],
+ "dg14": {
+  "D-ABS": 0.8119,
+  "D-REL1": 0.02,
+  "D-REL2": 0.02
+ },
+ "frozen_set_on_K": "kf_fix",
+ "guard_config_inside_site_rule": {
+  "atc": {
+   "certify_when_not_gating": false,
+   "gate_feas": true,
+   "gate_qual": true,
+   "gate_schema": true,
+   "lb_floor_bh": 1.0,
+   "lb_tier": "tier2",
+   "lenient_repair": false,
+   "max_shift_bh": 400.0,
+   "name": "G_CERT",
+   "objective_fields": "adjusted",
+   "rule": "atc",
+   "run_validator": true,
+   "seed": 0,
+   "tau": 0.2,
+   "tau_provisional": true,
+   "tier1_budget_s": 5.0,
+   "tier1_workers": 4
+  },
+  "edd": {
+   "certify_when_not_gating": false,
+   "gate_feas": true,
+   "gate_qual": true,
+   "gate_schema": true,
+   "lb_floor_bh": 1.0,
+   "lb_tier": "tier2",
+   "lenient_repair": false,
+   "max_shift_bh": 400.0,
+   "name": "G_CERT",
+   "objective_fields": "adjusted",
+   "rule": "edd",
+   "run_validator": true,
+   "seed": 0,
+   "tau": 0.2,
+   "tau_provisional": true,
+   "tier1_budget_s": 5.0,
+   "tier1_workers": 4
+  },
+  "pfifo": {
+   "certify_when_not_gating": false,
+   "gate_feas": true,
+   "gate_qual": true,
+   "gate_schema": true,
+   "lb_floor_bh": 1.0,
+   "lb_tier": "tier2",
+   "lenient_repair": false,
+   "max_shift_bh": 400.0,
+   "name": "G_CERT",
+   "objective_fields": "adjusted",
+   "rule": "pfifo_arrival",
+   "run_validator": true,
+   "seed": 0,
+   "tau": 0.2,
+   "tau_provisional": true,
+   "tier1_budget_s": 5.0,
+   "tier1_workers": 4
+  },
+  "wspt": {
+   "certify_when_not_gating": false,
+   "gate_feas": true,
+   "gate_qual": true,
+   "gate_schema": true,
+   "lb_floor_bh": 1.0,
+   "lb_tier": "tier2",
+   "lenient_repair": false,
+   "max_shift_bh": 400.0,
+   "name": "G_CERT",
+   "objective_fields": "adjusted",
+   "rule": "wspt",
+   "run_validator": true,
+   "seed": 0,
+   "tau": 0.2,
+   "tau_provisional": true,
+   "tier1_budget_s": 5.0,
+   "tier1_workers": 4
+  }
+ },
+ "guard_config_outside": {
+  "certify_when_not_gating": false,
+  "gate_feas": true,
+  "gate_qual": true,
+  "gate_schema": true,
+  "lb_floor_bh": 1.0,
+  "lb_tier": "tier2",
+  "lenient_repair": false,
+  "max_shift_bh": 400.0,
+  "name": "G_CERT",
+  "objective_fields": "adjusted",
+  "rule": "atc",
+  "run_validator": true,
+  "seed": 0,
+  "tau": 0.2,
+  "tau_provisional": true,
+  "tier1_budget_s": 5.0,
+  "tier1_workers": 4
+ },
+ "items": "N11 census rows, published and issuable (results/n11_decision_time/items.jsonl)",
+ "keep_batch_on_FI": "k_ids",
+ "n11_census": {
+  "cores": [
+   8,
+   9
+  ],
+  "frozen_set": "fix",
+  "omp_num_threads": "1",
+  "reading": "primary",
+  "version": "l1-n11-decision-time-1",
+  "workers": 2
+ },
+ "n11_oracle": {
+  "budget_s": 60.0,
+  "cores": [
+   8,
+   9,
+   10,
+   11
+  ],
+  "foreign_share_max": 0.1,
+  "max_resolves": 2,
+  "mkl_num_threads": "1",
+  "omp_num_threads": "1",
+  "ortools": "9.14.6206",
+  "python": "3.11.15",
+  "version": "l1-n11-decision-time-1",
+  "workers": 4
+ },
+ "n11_stage3_direct": {
+  "cores": [
+   8,
+   9,
+   10,
+   11
+  ],
+  "mkl_num_threads": "1",
+  "omp_num_threads": "1",
+  "readings": [
+   [
+    "F2",
+    20
+   ],
+   [
+    "F1",
+    20
+   ],
+   [
+    "F3-",
+    10
+   ],
+   [
+    "F3+",
+    10
+   ],
+   [
+    "FI",
+    1
+   ]
+  ],
+  "version": "l1-n11-forecast-1",
+  "workers": 4
+ },
+ "oracle": {
+  "budget_s": 60.0,
+  "cores": "8-11 exclusive",
+  "cpsat_workers": 4,
+  "foreign_share_max": 0.1,
+  "max_resolves": 2,
+  "model": "cpsat_avail via D.solve_relaxed",
+  "one_solve_at_a_time": true,
+  "reuse": "trade content key; N11 brackets through the control's boards"
+ },
+ "readings": [
+  "K",
+  "FI",
+  "P0"
+ ],
+ "rule_impl": {
+  "atc": "atc",
+  "edd": "edd",
+  "pfifo": "pfifo_arrival",
+  "wspt": "wspt"
+ },
+ "rules": [
+  "atc",
+  "wspt",
+  "pfifo",
+  "edd"
+ ],
+ "running_work_rule": true,
+ "tau": 0.2,
+ "truths": [
+  "orig",
+  "real",
+  "origabs"
+ ],
+ "version": "l1-n14-alt-dispatch-1"
+}

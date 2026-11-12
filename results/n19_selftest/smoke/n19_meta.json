@@ -1,0 +1,97 @@
+{
+ "affinity": [
+  15
+ ],
+ "arms": {
+  "qwen3-14b": {
+   "cells": [
+    [
+     "qwen3-14b",
+     "-"
+    ]
+   ],
+   "ingest": {
+    "arm": "qwen3-14b",
+    "config_hashes": {
+     "G_CERT": "52c094406252bf1ab57350d1ec4f9165f8bc4f7d83df2b99e1fb52356e829a42",
+     "G_FEAS": "6176c8978a84adf727594d2a7a574dad6e03628e1d3cdddefbf76cfa79122390",
+     "UNGUARDED": "b932b4a480c187968da8445242479be77d62341b7f35753f9cba7fdc3500dc89"
+    },
+    "eval_version": "l1-e1-eval-2",
+    "raw_sha256": "64a7b2fe66caffbbce432b9e48fdcb5f719bdc4d8155d4e77c15a4da63047d5e",
+    "rows": 144,
+    "version": "l1-n19-known-eval-2",
+    "wall_s": 7.0,
+    "workers": 1
+   },
+   "raw_path": "./results/grid_e1_local/proposals_raw.jsonl",
+   "replay": {
+    "distinct_proposals": 47,
+    "instances": 2,
+    "memo": {
+     "direct": 30,
+     "hit": 1,
+     "miss": 16
+    },
+    "wall_s": 2.3
+   },
+   "rows": 144
+  },
+  "sol": {
+   "cells": [
+    [
+     "sol",
+     "none"
+    ]
+   ],
+   "ingest": {
+    "arm": "sol",
+    "config_hashes": {
+     "G_CERT": "52c094406252bf1ab57350d1ec4f9165f8bc4f7d83df2b99e1fb52356e829a42",
+     "G_FEAS": "6176c8978a84adf727594d2a7a574dad6e03628e1d3cdddefbf76cfa79122390",
+     "UNGUARDED": "b932b4a480c187968da8445242479be77d62341b7f35753f9cba7fdc3500dc89"
+    },
+    "eval_version": "l1-e1-eval-2",
+    "raw_sha256": "b89cbbb3acbb79fa20b6c4c78bbf6068afb87d5bbb71aaf18a4a9b1044687284",
+    "rows": 24,
+    "version": "l1-n19-known-eval-2",
+    "wall_s": 1.8,
+    "workers": 1
+   },
+   "raw_path": "./results/grid_e1_hosted_sol/proposals_raw.dedup.jsonl",
+   "replay": {
+    "distinct_proposals": 24,
+    "instances": 2,
+    "memo": {
+     "direct": 4,
+     "hit": 5,
+     "miss": 15
+    },
+    "wall_s": 1.9
+   },
+   "rows": 24
+  }
+ },
+ "code": {
+  "n19_known_prompt_eval.py": "cf3ab792c8c081cd5e3c91f51eeadc6642804087694d1f2375b82d8cc38a7283"
+ },
+ "cores": [
+  15
+ ],
+ "finished": "2026-11-11T01:44:36+08:00",
+ "load_avg_end": [
+  2.45,
+  2.58,
+  2.77
+ ],
+ "macros_written": 1308,
+ "mode": "selftest on the published logs (smoke: c10_replay_400_0009,c09_storm2_w80_u100_0014)",
+ "outputs": {
+  "results/n19_selftest/smoke/N19_macros.tex": "f8fd952484330449b239465dc04887aba46e96d549ee4d1146ebd34c6f0f5ba3",
+  "results/n19_selftest/smoke/N19_rows.csv": "2c62a353fbb098c8aba80652af23f50bee76fd573b56b7f7605cd7d1b541e288",
+  "results/n19_selftest/smoke/N19_summary.md": "27b4a15ee45f25a18733298b9dc889983740879f06c1b3417a25ba589f9eb9ec"
+ },
+ "version": "l1-n19-known-eval-2",
+ "wall_s": 16.5,
+ "workers": 1
+}

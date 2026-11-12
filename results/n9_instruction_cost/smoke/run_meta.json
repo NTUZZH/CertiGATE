@@ -1,0 +1,117 @@
+{
+  "affinity": [
+    16,
+    17,
+    18,
+    19
+  ],
+  "args": {
+    "budget": 5.0,
+    "census": false,
+    "cores": "16-19",
+    "limit": 0,
+    "run": false,
+    "selfcheck": false,
+    "sets": [
+      "published",
+      "heldout"
+    ],
+    "smoke": 3,
+    "workers": 4
+  },
+  "census": {
+    "baseline_reassembly_max_dev_bh": 0.0,
+    "cap_wall_h": 1.0638888888888889,
+    "components_closed_without_solve": 183,
+    "constrained_solves": 721,
+    "distinct_components": 904,
+    "est_wall_h_by_size": 0.8068055555555556,
+    "items": {
+      "heldout:V3": 220,
+      "heldout:twin": 220,
+      "published:V3": 220,
+      "published:twin": 220
+    },
+    "items_with_relaxed_gaps": 90,
+    "relaxed_trades_to_solve": 45,
+    "solves_by_component_orders": {
+      "<=150": 89,
+      "<=1500": 245,
+      "<=400": 150,
+      "<=700": 136,
+      ">1500": 101
+    },
+    "trades_per_solve": {
+      "1": 87,
+      "2": 566,
+      "3": 68
+    }
+  },
+  "cpsat_prec_sha256": "315807021ea1b68e949e04b5ade96c220d7031b8c0ed0191b90df3fd1d57ca71",
+  "foreign_processes_on_cores_at_start": [
+    {
+      "comm": "python",
+      "pcpu": 47.8,
+      "pid": 2381943,
+      "psr": 17
+    },
+    {
+      "comm": "python",
+      "pcpu": 48.2,
+      "pid": 2381944,
+      "psr": 16
+    },
+    {
+      "comm": "python",
+      "pcpu": 47.5,
+      "pid": 2381945,
+      "psr": 18
+    },
+    {
+      "comm": "python",
+      "pcpu": 47.4,
+      "pid": 2381946,
+      "psr": 17
+    },
+    {
+      "comm": "python",
+      "pcpu": 44.2,
+      "pid": 2385189,
+      "psr": 18
+    },
+    {
+      "comm": "python",
+      "pcpu": 44.5,
+      "pid": 2385190,
+      "psr": 19
+    },
+    {
+      "comm": "python",
+      "pcpu": 44.3,
+      "pid": 2385191,
+      "psr": 18
+    },
+    {
+      "comm": "python",
+      "pcpu": 44.5,
+      "pid": 2385192,
+      "psr": 19
+    }
+  ],
+  "heldout_sha256": "033d5a5f11c9387ddbb411396af1336a8d1393825faa7e95181e96095eb17a2d",
+  "host": "<host>",
+  "instance_manifest_sha256": "786c3c65735e2cdbd4f8eba371553128c8770c106d6b844cb23c9c2700591c98",
+  "load_avg": [
+    9.76,
+    12.48,
+    11.1
+  ],
+  "omp_num_threads": "4",
+  "oracle_trade_solves_sha256": "b64bf71e15e070d27e3bd354e4759ae242931333d1ed54aa53fb031387cb35c0",
+  "ortools": "9.14.6206",
+  "platform": "Linux-7.0.0-30-generic-x86_64-with-glibc2.39",
+  "published_suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+  "python": "3.11.15",
+  "started": "2026-11-03T17:45:40+08:00",
+  "version": "l1-n9-instruction-cost-1"
+}

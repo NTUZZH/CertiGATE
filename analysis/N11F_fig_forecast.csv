@@ -1,0 +1,44 @@
+# Data of fig:forecast (N11 Stage 3, l1-n11-forecast-1). Panel a: share of damaging sequencing proposals (realised original-field damage > 2 bh) whose predicted damage falls short by more than 2 bh, per reading and stratum. Panel b: costly proposals at delta = 0.10 (realised marginal cost, original fields) that G-CERT-M at tau = 0.20 does not refer, split into field-changing and sequencing.
+panel,reading,reading_name,stratum,value,k,n,part
+a,K,known orders only,CNineStorm,0.717391,66,92,
+a,K,known orders only,CTenStorm,0.965517,28,29,
+a,K,known orders only,CTenReplay,0.051282,2,39,
+a,K,known orders only,All,0.600000,96,160,
+a,F2,load estimated from arrivals so far,CNineStorm,0.358696,33,92,
+a,F2,load estimated from arrivals so far,CTenStorm,0.655172,19,29,
+a,F2,load estimated from arrivals so far,CTenReplay,0.000000,0,39,
+a,F2,load estimated from arrivals so far,All,0.325000,52,160,
+a,F1,load known,CNineStorm,0.293478,27,92,
+a,F1,load known,CTenStorm,0.517241,15,29,
+a,F1,load known,CTenReplay,0.000000,0,39,
+a,F1,load known,All,0.262500,42,160,
+a,F3-,load halved,CNineStorm,0.608696,56,92,
+a,F3-,load halved,CTenStorm,0.965517,28,29,
+a,F3-,load halved,CTenReplay,0.051282,2,39,
+a,F3-,load halved,All,0.537500,86,160,
+a,F3+,load raised by half,CNineStorm,0.097826,9,92,
+a,F3+,load raised by half,CTenStorm,0.034483,1,29,
+a,F3+,load raised by half,CTenReplay,0.000000,0,39,
+a,F3+,load raised by half,All,0.062500,10,160,
+a,FI,all orders of the window,CNineStorm,0.000000,0,92,
+a,FI,all orders of the window,CTenStorm,0.000000,0,29,
+a,FI,all orders of the window,CTenReplay,0.000000,0,39,
+a,FI,all orders of the window,All,0.000000,0,160,
+a,P0,"published, full board at t = 0",CNineStorm,0.000000,0,92,
+a,P0,"published, full board at t = 0",CTenStorm,0.000000,0,29,
+a,P0,"published, full board at t = 0",CTenReplay,0.000000,0,39,
+a,P0,"published, full board at t = 0",All,0.000000,0,160,
+b,K,known orders only,All,21,21,64,field-changing
+b,K,known orders only,All,5,5,144,sequencing
+b,F2,load estimated from arrivals so far,All,21,21,64,field-changing
+b,F2,load estimated from arrivals so far,All,6,6,141,sequencing
+b,F1,load known,All,21,21,64,field-changing
+b,F1,load known,All,5,5,136,sequencing
+b,F3-,load halved,All,21,21,64,field-changing
+b,F3-,load halved,All,5,5,144,sequencing
+b,F3+,load raised by half,All,22,22,64,field-changing
+b,F3+,load raised by half,All,12,12,144,sequencing
+b,FI,all orders of the window,All,21,21,64,field-changing
+b,FI,all orders of the window,All,10,10,144,sequencing
+b,P0,"published, full board at t = 0",All,22,22,64,field-changing
+b,P0,"published, full board at t = 0",All,18,18,144,sequencing

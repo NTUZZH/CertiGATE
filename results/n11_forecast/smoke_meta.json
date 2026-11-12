@@ -1,0 +1,51 @@
+{
+ "S": 20,
+ "affinity": [
+  10,
+  11
+ ],
+ "code": {
+  "n11_decision_time.py": "05978a918888782627f1cba89e67e590c306e0e6d52997e0181cbfc1fff2bc90",
+  "n11_forecast.py": "2ebb4105c4642c9f1706d522131771af0bf8c1cc9518940adccbca5dce49041c",
+  "n8_causal.py": "86b31d73db72842275ed4ed37e94f161ca27b7b640802eeaeebe8fb3e8b558d1"
+ },
+ "cores": [
+  10,
+  11
+ ],
+ "finished": "2026-11-04T06:22:27+08:00",
+ "foreign_at_start": [],
+ "instances": [
+  "c09_storm2_w80_u100_0014",
+  "c10_storm2_w80_u100_0003",
+  "c10_replay_400_0009"
+ ],
+ "load_avg_end": [
+  5.01,
+  5.52,
+  6.8
+ ],
+ "load_avg_start": [
+  8.69,
+  7.77,
+  7.07
+ ],
+ "mkl_num_threads": "1",
+ "omp_num_threads": "1",
+ "packs": {
+  "c09_storm2_w80": "eb6f1d19f070177b33a9a4391bcc43de772c13d92f7ea0c24685ce1a1f94bbf1",
+  "c10_storm2_w80": "31aa23d16a135a93f25031eee11e8157a2e5184f68083a1682fcc79bf9971d30"
+ },
+ "stage": "smoke",
+ "stage2_census": {
+  "boards.jsonl": "dec72c16bd4b1a8e1601674fb593d993c89f2501a7444bb1483bf7086d499ed4",
+  "c_components.jsonl": "108024577ab62fe6330b156c376c9e7a1c212d67c4f42dab3a879149b401a486",
+  "items.jsonl": "b83c9518084247edf5f7cdc9ff1927644733975b2565bccbda58235a4364bdea",
+  "omni_e1_index.jsonl": "b9deb4f5433a05cc82a2e44a231a987a72ef318d5f87d812b1872eacd2bd6193",
+  "relaxed_inputs.jsonl": "630f8da6a7ee4c5350294d4388de5555731e38b920056367ad4aa777f7fc45e7"
+ },
+ "started": "2026-11-04T05:51:17+08:00",
+ "version": "l1-n11-forecast-1",
+ "wall_s": 1870.1486790180206,
+ "workers": 2
+}

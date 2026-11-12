@@ -1,0 +1,20 @@
+{
+ "arm": "openai",
+ "model": "gpt-5.4-mini-2026-03-17",
+ "pipeline": "SINGLE",
+ "n": 60,
+ "safety_ceiling_tokens": 60000,
+ "trajectories_that_hit_the_ceiling": 0,
+ "all_tokens": {
+  "min": 2727,
+  "p25": 2975,
+  "p50": 4207.0,
+  "p75": 4774,
+  "p90": 5933,
+  "max": 14637,
+  "mean": 4377.866666666667
+ },
+ "B_tight": 4500,
+ "B_loose": 18000,
+ "rule": "B_tight = p50 of this arm's own SINGLE-pipeline all-token need on E3-CAL-60, rounded UP to the nearest 500; B_loose = 4 x B_tight"
+}

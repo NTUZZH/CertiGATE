@@ -1,0 +1,10 @@
+# D3 equivalence-aware translation fidelity; N11 primary: issuable items only (translation is read from the raw text)
+# normalisation: numeric type unified; reorder relation inverted to canonical 'before'
+arm,benign_equiv,V3_equiv,V4_equiv
+qwen3-14b,21/26 (81%),5/6 (83%),5/8 (62%)
+qwen3.6-27b-fp8,23/26 (88%),6/6 (100%),6/8 (75%)
+glm-4-9b,18/26 (69%),4/6 (67%),4/8 (50%)
+mini,21/26 (81%),3/6 (50%),6/8 (75%)
+sonnet,22/26 (85%),6/6 (100%),8/8 (100%)
+opus,21/26 (81%),6/6 (100%),7/8 (88%)
+sol,20/26 (77%),4/6 (67%),8/8 (100%)

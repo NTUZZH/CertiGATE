@@ -1,0 +1,42 @@
+# DG1: the direct proposal-level guard benchmark (no model in the loop)
+# generator: code/scripts/direct_guard_benchmark.py (l1-direct-guard-1)
+# sources:
+#   code/suite/v0.2/suite.jsonl              sha256 0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a
+#   code/schema/adjustments.schema.json      sha256 1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321
+#   code/l1guard/ (guard.py, config.py, findings.py, lb2.py, verdict.py)
+#   analysis/ladder/ladder_anchors.json      (self-check target, ORACLE+G_CERT)
+#   analysis/T1_e1_main.csv                  (LLM-mediated comparison)
+# canonical proposal per class: benign=gold_ops, V1=literal_ops, V2=literal_ops, V3=gold_ops, V4=trap_ops, V5=gold_ops, V6=forbidden_ops
+#   V5 has no representable proposal (gold/literal/trap/forbidden all empty, by construction)
+# guard: lb_tier=tier2, tau=0.20, rule=atc, seed=0; three published configs
+# run: 5522 guard calls, 4 worker(s), cores 0-3, 123.81 s wall
+reading,canonical_field,config,class,items,empty_proposal_items,nonempty_proposal_items,refused,refused_share,refused_share_nonempty,blocked_schema,blocked_feas,blocked_qual,applied_with_certificate,applied_uncertified,execution_failed,certificates_computed,gap_median,gap_max
+canonical,gold_ops,UNGUARDED,benign,800,0,800,0,0.0,0.0,0,0,0,0,800,0,0,,
+canonical,literal_ops,UNGUARDED,V1,160,30,130,0,0.0,0.0,0,0,0,0,60,100,0,,
+canonical,literal_ops,UNGUARDED,V2,200,0,200,0,0.0,0.0,0,0,0,0,0,200,0,,
+canonical,gold_ops,UNGUARDED,V3,220,0,220,0,0.0,0.0,0,0,0,0,220,0,0,,
+canonical,trap_ops,UNGUARDED,V4,220,0,220,0,0.0,0.0,0,0,0,0,220,0,0,,
+canonical,gold_ops,UNGUARDED,V5,200,200,0,0,0.0,,0,0,0,0,200,0,0,,
+canonical,forbidden_ops,UNGUARDED,V6,200,25,175,0,0.0,0.0,0,0,0,0,165,35,0,,
+canonical,gold_ops,G_FEAS,benign,800,0,800,0,0.0,0.0,0,0,0,0,800,0,0,,
+canonical,literal_ops,G_FEAS,V1,160,30,130,130,0.8125,1.0,130,0,0,0,30,0,0,,
+canonical,literal_ops,G_FEAS,V2,200,0,200,200,1.0,1.0,0,200,0,0,0,0,0,,
+canonical,gold_ops,G_FEAS,V3,220,0,220,0,0.0,0.0,0,0,0,0,220,0,0,,
+canonical,trap_ops,G_FEAS,V4,220,0,220,0,0.0,0.0,0,0,0,0,220,0,0,,
+canonical,gold_ops,G_FEAS,V5,200,200,0,0,0.0,,0,0,0,0,200,0,0,,
+canonical,forbidden_ops,G_FEAS,V6,200,25,175,35,0.175,0.2,35,0,0,0,165,0,0,,
+canonical,gold_ops,G_CERT,benign,800,0,800,21,0.02625,0.02625,0,0,21,779,0,0,800,0.010113,0.286652
+canonical,literal_ops,G_CERT,V1,160,30,130,130,0.8125,1.0,130,0,0,30,0,0,30,0.012309,0.123812
+canonical,literal_ops,G_CERT,V2,200,0,200,200,1.0,1.0,0,200,0,0,0,0,0,,
+canonical,gold_ops,G_CERT,V3,220,0,220,201,0.913636,0.913636,0,0,201,19,0,0,220,0.624603,172.2048
+canonical,trap_ops,G_CERT,V4,220,0,220,46,0.209091,0.209091,0,0,46,174,0,0,220,0.017038,3.668933
+canonical,gold_ops,G_CERT,V5,200,200,0,7,0.035,,0,0,7,193,0,0,200,0.012309,0.286652
+canonical,forbidden_ops,G_CERT,V6,200,25,175,39,0.195,0.222857,35,0,4,161,0,0,165,0.012309,0.286652
+gold,gold_ops,G_CERT,benign,800,0,800,21,0.02625,0.02625,0,0,21,779,0,0,800,0.010113,0.286652
+gold,gold_ops,G_CERT,V1,160,160,0,3,0.01875,,0,0,3,157,0,0,160,0.00466,0.286652
+gold,gold_ops,G_CERT,V2,200,0,200,200,1.0,1.0,0,200,0,0,0,0,0,,
+gold,gold_ops,G_CERT,V3,220,0,220,201,0.913636,0.913636,0,0,201,19,0,0,220,0.624603,172.2048
+gold,gold_ops,G_CERT,V4,220,0,220,6,0.027273,0.027273,0,0,6,214,0,0,220,0.006537,0.286652
+gold,gold_ops,G_CERT,V5,200,200,0,7,0.035,,0,0,7,193,0,0,200,0.012309,0.286652
+gold,gold_ops,G_CERT,V6,200,155,45,8,0.04,0.177778,0,0,8,192,0,0,200,0.012309,0.286652
+v6_full,gold_ops+forbidden_ops,G_CERT,V6,200,25,175,39,0.195,0.222857,35,0,4,161,0,0,165,0.012309,0.286652

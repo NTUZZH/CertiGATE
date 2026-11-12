@@ -1,0 +1,155 @@
+# N11 Stage 2 twin (l1-n11-stage2-1); decision instant t_d = t_known, planned-known, frozen set kf = running + seed on K
+# reading: iss0
+arm,model,mode,thinking,tau,v3_items,v3_block_rate,v3_feas_pass,v3_separated,v3_separation_share,v4_separated,false_block_rate,warranted_share,in_accepted_e2_sweep,operating_point_fb1pct,operating_point_fb5pct,schema_feas_false_block_floor
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,0.02,308,1.000000,3,3,0.009740,0,0.978331,0.646257,no,,,0.963082
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,0.05,308,0.993506,3,1,0.003247,0,0.975120,0.647417,no,,,0.963082
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,0.10,308,0.993506,3,1,0.003247,0,0.967897,0.650029,no,,,0.963082
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,0.15,308,0.993506,3,1,0.003247,0,0.964687,0.651190,no,,,0.963082
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,0.20,308,0.993506,3,1,0.003247,0,0.964687,0.651190,no,,,0.963082
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,0.30,308,0.990260,3,0,0.000000,0,0.963082,0.651770,no,,,0.963082
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,0.50,308,0.990260,3,0,0.000000,0,0.963082,0.651770,no,,,0.963082
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,1.00,308,0.990260,3,0,0.000000,0,0.963082,0.651770,no,,,0.963082
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,0.02,308,1.000000,0,0,0.000000,0,0.996790,0.639582,no,,,0.993579
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,0.05,308,1.000000,0,0,0.000000,0,0.996790,0.639582,no,,,0.993579
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,0.10,308,1.000000,0,0,0.000000,0,0.995185,0.640163,no,,,0.993579
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,0.15,308,1.000000,0,0,0.000000,0,0.993579,0.640743,no,,,0.993579
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,0.20,308,1.000000,0,0,0.000000,0,0.993579,0.640743,no,,,0.993579
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,0.30,308,1.000000,0,0,0.000000,0,0.993579,0.640743,no,,,0.993579
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,0.50,308,1.000000,0,0,0.000000,0,0.993579,0.640743,no,,,0.993579
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,1.00,308,1.000000,0,0,0.000000,0,0.993579,0.640743,no,,,0.993579
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,non_think,0.02,308,1.000000,0,0,0.000000,1,0.983949,0.644225,no,,,0.971108
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,non_think,0.05,308,1.000000,0,0,0.000000,1,0.981541,0.645096,no,,,0.971108
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,non_think,0.10,308,1.000000,0,0,0.000000,0,0.974318,0.647707,no,,,0.971108
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,non_think,0.15,308,1.000000,0,0,0.000000,0,0.972713,0.648288,no,,,0.971108
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,non_think,0.20,308,1.000000,0,0,0.000000,0,0.972713,0.648288,no,,,0.971108
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,non_think,0.30,308,1.000000,0,0,0.000000,0,0.971108,0.648868,no,,,0.971108
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,non_think,0.50,308,1.000000,0,0,0.000000,0,0.971108,0.648868,no,,,0.971108
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,non_think,1.00,308,1.000000,0,0,0.000000,0,0.971108,0.648868,no,,,0.971108
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,think_high,0.02,308,0.996753,1,0,0.000000,2,0.996790,0.639582,no,,,0.994382
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,think_high,0.05,308,0.996753,1,0,0.000000,2,0.996790,0.639582,no,,,0.994382
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,think_high,0.10,308,0.996753,1,0,0.000000,0,0.994382,0.640453,no,,,0.994382
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,think_high,0.15,308,0.996753,1,0,0.000000,0,0.994382,0.640453,no,,,0.994382
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,think_high,0.20,308,0.996753,1,0,0.000000,0,0.994382,0.640453,no,,,0.994382
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,think_high,0.30,308,0.996753,1,0,0.000000,0,0.994382,0.640453,no,,,0.994382
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,think_high,0.50,308,0.996753,1,0,0.000000,0,0.994382,0.640453,no,,,0.994382
+deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,think_high,1.00,308,0.996753,1,0,0.000000,0,0.994382,0.640453,no,,,0.994382
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,0.02,154,0.883117,149,131,0.850649,69,0.380417,0.862449,no,,,0.060995
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,0.05,154,0.870130,149,129,0.837662,42,0.248796,0.910041,no,,,0.060995
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,0.10,154,0.779221,149,115,0.746753,15,0.141252,0.948926,no,,,0.060995
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,0.15,154,0.766234,149,113,0.733766,6,0.091493,0.966918,no,,,0.060995
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,0.20,154,0.740260,149,109,0.707792,6,0.088283,0.968079,no,,,0.060995
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,0.30,154,0.616883,149,90,0.584416,0,0.062600,0.977365,no,,,0.060995
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,0.50,154,0.428571,149,61,0.396104,0,0.060995,0.977945,no,,,0.060995
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,1.00,154,0.194805,149,25,0.162338,0,0.060995,0.977945,no,,,0.060995
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_free,-,0.02,154,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_free,-,0.05,154,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_free,-,0.10,154,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_free,-,0.15,154,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_free,-,0.20,154,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_free,-,0.30,154,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_free,-,0.50,154,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_free,-,1.00,154,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,0.02,308,0.931818,306,285,0.925325,140,0.345104,0.875218,no,,0.15,0.016051
+openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,0.05,308,0.918831,306,281,0.912338,84,0.205457,0.925711,no,,0.15,0.016051
+openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,0.10,308,0.840909,306,257,0.834416,30,0.091493,0.966918,no,,0.15,0.016051
+openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,0.15,308,0.831169,306,254,0.824675,12,0.044944,0.983749,no,,0.15,0.016051
+openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,0.20,308,0.798701,306,244,0.792208,12,0.043339,0.984330,no,,0.15,0.016051
+openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,0.30,308,0.688312,306,210,0.681818,0,0.016051,0.994196,no,,0.15,0.016051
+openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,0.50,308,0.477273,306,145,0.470779,0,0.016051,0.994196,no,,0.15,0.016051
+openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,1.00,308,0.207792,306,62,0.201299,0,0.016051,0.994196,no,,0.15,0.016051
+openai,"GPT-5.4-mini (closed, budget tier)",M_free,-,0.02,308,1.000000,0,0,0.000000,1,0.994382,0.640453,no,,,0.993579
+openai,"GPT-5.4-mini (closed, budget tier)",M_free,-,0.05,308,1.000000,0,0,0.000000,1,0.994382,0.640453,no,,,0.993579
+openai,"GPT-5.4-mini (closed, budget tier)",M_free,-,0.10,308,1.000000,0,0,0.000000,0,0.993579,0.640743,no,,,0.993579
+openai,"GPT-5.4-mini (closed, budget tier)",M_free,-,0.15,308,1.000000,0,0,0.000000,0,0.993579,0.640743,no,,,0.993579
+openai,"GPT-5.4-mini (closed, budget tier)",M_free,-,0.20,308,1.000000,0,0,0.000000,0,0.993579,0.640743,no,,,0.993579
+openai,"GPT-5.4-mini (closed, budget tier)",M_free,-,0.30,308,1.000000,0,0,0.000000,0,0.993579,0.640743,no,,,0.993579
+openai,"GPT-5.4-mini (closed, budget tier)",M_free,-,0.50,308,1.000000,0,0,0.000000,0,0.993579,0.640743,no,,,0.993579
+openai,"GPT-5.4-mini (closed, budget tier)",M_free,-,1.00,308,1.000000,0,0,0.000000,0,0.993579,0.640743,no,,,0.993579
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,0.02,308,1.000000,308,308,1.000000,142,0.349117,0.873186,no,,0.15,0.016854
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,0.05,308,0.993506,308,306,0.993506,84,0.211075,0.923099,no,,0.15,0.016854
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,0.10,308,0.941558,308,290,0.941558,30,0.093900,0.965467,no,,0.15,0.016854
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,0.15,308,0.928571,308,286,0.928571,12,0.045746,0.982879,no,,0.15,0.016854
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,0.20,308,0.896104,308,276,0.896104,12,0.044141,0.983459,no,,0.15,0.016854
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,0.30,308,0.772727,308,238,0.772727,0,0.016854,0.993326,no,,0.15,0.016854
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,0.50,308,0.558442,308,172,0.558442,0,0.016854,0.993326,no,,0.15,0.016854
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,1.00,308,0.266234,308,82,0.266234,0,0.016854,0.993326,no,,0.15,0.016854
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,0.02,308,0.996753,308,307,0.996753,142,0.360353,0.869124,no,,0.3,0.030498
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,0.05,308,0.990260,308,305,0.990260,84,0.221509,0.919327,no,,0.3,0.030498
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,0.10,308,0.935065,308,288,0.935065,30,0.107544,0.960534,no,,0.3,0.030498
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,0.15,308,0.922078,308,284,0.922078,12,0.059390,0.977945,no,,0.3,0.030498
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,0.20,308,0.889610,308,274,0.889610,12,0.057785,0.978526,no,,0.3,0.030498
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,0.30,308,0.769481,308,237,0.769481,0,0.030498,0.988392,no,,0.3,0.030498
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,0.50,308,0.555195,308,171,0.555195,0,0.030498,0.988392,no,,0.3,0.030498
+opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,1.00,308,0.262987,308,81,0.262987,0,0.030498,0.988392,no,,0.3,0.030498
+opus,"Claude Opus 5 (closed, flagship)",M_free,default,0.02,308,0.256494,1,1,0.003247,1,0.271268,0.143355,no,,,0.267255
+opus,"Claude Opus 5 (closed, flagship)",M_free,default,0.05,308,0.256494,1,1,0.003247,0,0.269663,0.143935,no,,,0.267255
+opus,"Claude Opus 5 (closed, flagship)",M_free,default,0.10,308,0.256494,1,1,0.003247,0,0.268058,0.144515,no,,,0.267255
+opus,"Claude Opus 5 (closed, flagship)",M_free,default,0.15,308,0.256494,1,1,0.003247,0,0.267255,0.144806,no,,,0.267255
+opus,"Claude Opus 5 (closed, flagship)",M_free,default,0.20,308,0.256494,1,1,0.003247,0,0.267255,0.144806,no,,,0.267255
+opus,"Claude Opus 5 (closed, flagship)",M_free,default,0.30,308,0.256494,1,1,0.003247,0,0.267255,0.144806,no,,,0.267255
+opus,"Claude Opus 5 (closed, flagship)",M_free,default,0.50,308,0.256494,1,1,0.003247,0,0.267255,0.144806,no,,,0.267255
+opus,"Claude Opus 5 (closed, flagship)",M_free,default,1.00,308,0.253247,1,0,0.000000,0,0.267255,0.144806,no,,,0.267255
+opus,"Claude Opus 5 (closed, flagship)",M_free,disabled,0.02,308,0.246753,5,5,0.016234,8,0.229535,0.128845,no,,,0.212681
+opus,"Claude Opus 5 (closed, flagship)",M_free,disabled,0.05,308,0.246753,5,5,0.016234,3,0.227127,0.129716,no,,,0.212681
+opus,"Claude Opus 5 (closed, flagship)",M_free,disabled,0.10,308,0.246753,5,5,0.016234,0,0.216693,0.133488,no,,,0.212681
+opus,"Claude Opus 5 (closed, flagship)",M_free,disabled,0.15,308,0.246753,5,5,0.016234,0,0.214286,0.134359,no,,,0.212681
+opus,"Claude Opus 5 (closed, flagship)",M_free,disabled,0.20,308,0.246753,5,5,0.016234,0,0.214286,0.134359,no,,,0.212681
+opus,"Claude Opus 5 (closed, flagship)",M_free,disabled,0.30,308,0.246753,5,5,0.016234,0,0.212681,0.134939,no,,,0.212681
+opus,"Claude Opus 5 (closed, flagship)",M_free,disabled,0.50,308,0.243506,5,4,0.012987,0,0.212681,0.134939,no,,,0.212681
+opus,"Claude Opus 5 (closed, flagship)",M_free,disabled,1.00,308,0.230519,5,0,0.000000,0,0.212681,0.134939,no,,,0.212681
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,0.02,462,0.941558,459,432,0.935065,225,0.353665,0.872122,no,,0.2,0.003210
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,0.05,462,0.928571,459,426,0.922078,138,0.209203,0.924357,no,,0.2,0.003210
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,0.10,462,0.850649,459,390,0.844156,60,0.100054,0.963823,no,,0.2,0.003210
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,0.15,462,0.844156,459,387,0.837662,33,0.051364,0.981428,no,,0.2,0.003210
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,0.20,462,0.811688,459,372,0.805195,33,0.049759,0.982008,no,,0.2,0.003210
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,0.30,462,0.694805,459,318,0.688312,15,0.019262,0.993035,no,,0.2,0.003210
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,0.50,462,0.487013,459,222,0.480519,15,0.016051,0.994196,no,,0.2,0.003210
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,1.00,462,0.201299,459,90,0.194805,15,0.011771,0.995744,no,,0.2,0.003210
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_free,-,0.02,462,1.000000,0,0,0.000000,0,0.995720,0.639969,no,,,0.990904
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_free,-,0.05,462,1.000000,0,0,0.000000,0,0.994114,0.640549,no,,,0.990904
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_free,-,0.10,462,1.000000,0,0,0.000000,0,0.992509,0.641130,no,,,0.990904
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_free,-,0.15,462,1.000000,0,0,0.000000,0,0.990904,0.641710,no,,,0.990904
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_free,-,0.20,462,1.000000,0,0,0.000000,0,0.990904,0.641710,no,,,0.990904
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_free,-,0.30,462,1.000000,0,0,0.000000,0,0.990904,0.641710,no,,,0.990904
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_free,-,0.50,462,1.000000,0,0,0.000000,0,0.990904,0.641710,no,,,0.990904
+qwen3-14b,"Qwen3-14B (open, local, BF16)",M_free,-,1.00,462,1.000000,0,0,0.000000,0,0.990904,0.641710,no,,,0.990904
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,0.02,462,0.974026,459,447,0.967532,213,0.357410,0.870768,no,,0.3,0.036918
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,0.05,462,0.967532,459,444,0.961039,126,0.222579,0.919520,no,,0.3,0.036918
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,0.10,462,0.902597,459,414,0.896104,45,0.113965,0.958793,no,,0.3,0.036918
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,0.15,462,0.896104,459,411,0.889610,18,0.065811,0.976204,no,,0.3,0.036918
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,0.20,462,0.863636,459,396,0.857143,18,0.064205,0.976785,no,,0.3,0.036918
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,0.30,462,0.746753,459,342,0.740260,0,0.036918,0.986651,no,,0.3,0.036918
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,0.50,462,0.545455,459,249,0.538961,0,0.036918,0.986651,no,,0.3,0.036918
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,1.00,462,0.240260,459,108,0.233766,0,0.036918,0.986651,no,,0.3,0.036918
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_free,-,0.02,462,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_free,-,0.05,462,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_free,-,0.10,462,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_free,-,0.15,462,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_free,-,0.20,462,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_free,-,0.30,462,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_free,-,0.50,462,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_free,-,1.00,462,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,0.02,154,0.980519,149,146,0.948052,73,0.393258,0.857806,no,,,0.070626
+sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,0.05,154,0.974026,149,145,0.941558,44,0.258427,0.906558,no,,,0.070626
+sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,0.10,154,0.909091,149,135,0.876623,17,0.146067,0.947185,no,,,0.070626
+sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,0.15,154,0.902597,149,134,0.870130,8,0.099518,0.964016,no,,,0.070626
+sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,0.20,154,0.870130,149,129,0.837662,8,0.097913,0.964597,no,,,0.070626
+sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,0.30,154,0.753247,149,111,0.720779,2,0.070626,0.974463,no,,,0.070626
+sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,0.50,154,0.538961,149,78,0.506494,1,0.070626,0.974463,no,,,0.070626
+sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,1.00,154,0.240260,149,32,0.207792,1,0.070626,0.974463,no,,,0.070626
+sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,0.02,308,0.967532,306,296,0.961039,142,0.347512,0.874347,no,,0.15,0.015249
+sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,0.05,308,0.951299,306,291,0.944805,84,0.206260,0.925421,no,,0.15,0.015249
+sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,0.10,308,0.876623,306,268,0.870130,30,0.092295,0.966628,no,,0.15,0.015249
+sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,0.15,308,0.870130,306,266,0.863636,12,0.044141,0.984039,no,,0.15,0.015249
+sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,0.20,308,0.837662,306,256,0.831169,12,0.042536,0.984620,no,,0.15,0.015249
+sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,0.30,308,0.727273,306,222,0.720779,0,0.015249,0.994486,no,,0.15,0.015249
+sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,0.50,308,0.525974,306,160,0.519481,0,0.015249,0.994486,no,,0.15,0.015249
+sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,1.00,308,0.237013,306,71,0.230519,0,0.015249,0.994486,no,,0.15,0.015249
+sonnet,Claude Sonnet 5 (closed),M_free,disabled,0.02,308,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+sonnet,Claude Sonnet 5 (closed),M_free,disabled,0.05,308,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+sonnet,Claude Sonnet 5 (closed),M_free,disabled,0.10,308,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+sonnet,Claude Sonnet 5 (closed),M_free,disabled,0.15,308,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+sonnet,Claude Sonnet 5 (closed),M_free,disabled,0.20,308,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+sonnet,Claude Sonnet 5 (closed),M_free,disabled,0.30,308,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+sonnet,Claude Sonnet 5 (closed),M_free,disabled,0.50,308,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000
+sonnet,Claude Sonnet 5 (closed),M_free,disabled,1.00,308,1.000000,0,0,0.000000,0,1.000000,0.638421,no,,,1.000000

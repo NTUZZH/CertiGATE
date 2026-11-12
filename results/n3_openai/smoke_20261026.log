@@ -1,0 +1,66 @@
+================================================================================
+FOUR LAUNCH QUESTIONS (house experiment rules), answered before the
+first paid call
+================================================================================
+1. PURPOSE.  The N3 generation log for the openai arm (gpt-5.4-mini-2026-03-17): 640 items (220
+   costly_accepted, their 220 V3 twins, 200 benign controls) x {M_constrained, M_free} x
+   thinking (omitted) x 2 repeats, under prompt l1-prompt-1.1.0.  The
+   numbers land in the new results subsection on stated acceptance of cost:
+   intent fidelity (flag rate on the accepted items, false acceptance on the
+   twins and the controls), disposition correctness under policy v1.1.0 per
+   gate, and the channel value (approver simulated with the true intent versus
+   the model's flag).
+2. EXPECTED RESULT.  The flag is set on most costly_accepted items and on few
+   twins or controls; the benign controls emit the same operation lists as in
+   their v1.0.0 E1 runs.  If the flag rate on the accepted items is low, the
+   channel does not carry intent at this prompt and the section reports that;
+   if false acceptance is high, the override path is unsafe without the hard
+   ceiling and the section reports the rate as the dangerous error.
+3. CONTAMINATION.  Append-only log keyed by (mode, thinking, repeat, item_id),
+   flushed per row; completed keys are skipped on restart, error rows retried.
+   A log written by another arm or another prompt version is refused.  The
+   output directory is new (results/n3_<arm>/); no E1 file is read for writing.
+   Wall time is a network measurement.
+   Log: <project>/results/n3_openai/proposals_raw.jsonl
+4. DATA ACCURACY.  Fatal before the first call: suite v0.2 sha256, schema
+   v1.0.0 sha256, schema v1.1.0 sha256, extension sha256 and its manifest; the
+   v1.1.0 system prompt; for every v0.2 item the v1.1.0 user message equals the
+   v1.0.0 one and the v1.0.0 fingerprint equals the published prompt_hash; for
+   every costly_accepted item the user message equals its twin's with the
+   instruction replaced; instance files hash-checked against the manifest from
+   the instances_v10 snapshot.
+================================================================================
+[n3h] suite_sha256               0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a OK
+[n3h] schema_sha256              1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321 OK
+[n3h] schema_v11_sha256          8b9b11a333a27462bd0c5b95e1c79f733f43a6ba9b2ff7fa0058e90b5b7ed1fb OK
+[n3h] suite_ext_sha256           2bc5789a3d15aca0e97991407622dabbb9d225d38c3eb69096044844b30f38c5 OK
+[n3h] suite_ext_manifest_sha256  d95d212ea8e4b96ca825d7112242a5f67dca60ca3308546e6474c58895e48083 OK
+[n3h] prompt version l1-prompt-1.1.0 OK
+[n3h] 640 prompts rendered, split and checked in 2.0s
+
+CALL PLAN  (arm openai, model gpt-5.4-mini-2026-03-17, wire openai)
+  items            : 640 per pass (costly_accepted 220, v3_twin 220, benign_control 200)
+  prompt checks    : {'v10_hash_equal': 420, 'v10_hash_absent': 0, 'user_equal_v10': 420, 'twin_user_equal': 220}
+  groups           : 70 | distinct prefixes per pass: 70
+  M_constrained    : json_schema (canonical v1.1.0 schema, flag required)
+  thinking         : (omitted) -> no field sent
+  repeats          : 2 | max_tokens 4096 | workers 8
+  calls            : 2560 planned in full
+  --limit 8: the plan is truncated to its first 8 calls
+  already logged   : 0 rows, 0 API errors
+  complete keys    : 0 | this run would make 8 calls
+  log              : <project>/results/n3_openai/proposals_raw.jsonl
+
+PROJECTED COST  (prices retrieved 2026-08-11; developers.openai.com/api/docs/pricing.md)
+  token model: 2.33 chars/token, pilot output 30/call (results/openai_pilot_summary.json, warm-block medians (30 out under M_constrained, 0 reasoning tokens))
+  list                           USD    2.35 at pilot output, USD    3.04 at 3x output
+  list                           USD    3.31 from E1-measured usage per call
+
+[n3h] key OPENAI_API_KEY present (never printed).
+
+[n3h] pass 1/1  M_constrained thinking=(omitted) r0  (1 groups, 8 calls)
+  group   1/1   c09_storm2_w80_u100_0000.json    n=8   done=8     ok=8     err=0   usd=  0.013 elapsed=3s
+
+[n3h] raw log : <project>/results/n3_openai/proposals_raw.jsonl
+[n3h] meta    : <project>/results/n3_openai/run_meta_20261025T214534Z.json
+[n3h] estimated spend this session: USD 0.01

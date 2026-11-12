@@ -1,0 +1,1250 @@
+# N11 Stage 2 e2e (l1-n11-stage2-1), status COMPLETE
+dataset,truth,split,operating_point,gate,setting,delta,cls,rows_in_scope,covered,oracle_costly,oracle_cheap,undecided,tp,fp,tpr,tpr_lo,tpr_hi,fpr,fpr_lo,fpr_hi
+e2e_td,absolute,all,published,G-CERT,0.2,0.050000,benign,9860,9860,32,9828,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT,0.2,0.050000,V3,2454,2454,2273,181,0,2071,0,0.911131,0.847953,0.962180,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT,0.2,0.050000,V4qv,811,811,16,795,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT,0.2,0.050000,all,27705,27705,2338,25367,0,2072,0,0.886228,0.800605,0.954873,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT,0.2,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT,0.2,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,published,G-CERT,0.2,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT,0.2,0.050000,benign,4904,4904,32,4872,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT,0.2,0.050000,V3,1776,1776,1711,65,0,1530,0,0.894214,0.810563,0.961445,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT,0.2,0.050000,V4qv,804,804,16,788,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT,0.2,0.050000,all,9846,9846,1759,8087,0,1530,0,0.869812,0.756869,0.959038,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT,0.2,0.050000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT,0.2,0.050000,V3,674,674,562,112,0,541,0,0.962633,0.926621,0.993671,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT,0.2,0.050000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT,0.2,0.050000,all,9507,9507,579,8928,0,542,0,0.936097,0.860791,0.993671,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT-M,0.2,0.050000,benign,9860,9860,32,9828,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT-M,0.2,0.050000,V3,2454,2454,2273,181,0,2071,0,0.911131,0.847953,0.962180,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT-M,0.2,0.050000,V4qv,811,811,16,795,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT-M,0.2,0.050000,all,27705,27705,2338,25367,0,2072,0,0.886228,0.800605,0.954873,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT-M,0.2,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT-M,0.2,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT-M,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,published,G-CERT-M,0.2,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT-M,0.2,0.050000,benign,4904,4904,32,4872,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT-M,0.2,0.050000,V3,1776,1776,1711,65,0,1530,0,0.894214,0.810563,0.961445,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT-M,0.2,0.050000,V4qv,804,804,16,788,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT-M,0.2,0.050000,all,9846,9846,1759,8087,0,1530,0,0.869812,0.756869,0.959038,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT-M,0.2,0.050000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT-M,0.2,0.050000,V3,674,674,562,112,0,541,0,0.962633,0.926621,0.993671,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT-M,0.2,0.050000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT-M,0.2,0.050000,all,9507,9507,579,8928,0,542,0,0.936097,0.860791,0.993671,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,D-REL1,0.02,0.050000,benign,9860,9860,32,9828,0,0,543,0.000000,0.000000,0.000000,0.055250,0.040077,0.071129
+e2e_td,absolute,all,published,D-REL1,0.02,0.050000,V3,2454,2454,2273,181,0,2272,32,0.999560,0.998560,1.000000,0.176796,0.000000,0.403361
+e2e_td,absolute,all,published,D-REL1,0.02,0.050000,V4qv,811,811,16,795,0,0,4,0.000000,0.000000,0.000000,0.005031,0.000000,0.016261
+e2e_td,absolute,all,published,D-REL1,0.02,0.050000,all,27705,27705,2338,25367,0,2289,1197,0.979042,0.934198,1.000000,0.047187,0.035093,0.059869
+e2e_td,absolute,empty,published,D-REL1,0.02,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,D-REL1,0.02,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,D-REL1,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,published,D-REL1,0.02,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,D-REL1,0.02,0.050000,benign,4904,4904,32,4872,0,0,16,0.000000,0.000000,0.000000,0.003284,0.000000,0.010112
+e2e_td,absolute,sequencing_only,published,D-REL1,0.02,0.050000,V3,1776,1776,1711,65,0,1711,32,1.000000,1.000000,1.000000,0.492308,0.000000,0.800000
+e2e_td,absolute,sequencing_only,published,D-REL1,0.02,0.050000,V4qv,804,804,16,788,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,D-REL1,0.02,0.050000,all,9846,9846,1759,8087,0,1711,48,0.972712,0.914994,1.000000,0.005935,0.000000,0.015773
+e2e_td,absolute,field_changing,published,D-REL1,0.02,0.050000,benign,4791,4791,0,4791,0,0,527,,,,0.109998,0.079218,0.141574
+e2e_td,absolute,field_changing,published,D-REL1,0.02,0.050000,V3,674,674,562,112,0,561,0,0.998221,0.994141,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,D-REL1,0.02,0.050000,V4qv,7,7,0,7,0,0,4,,,,0.571429,0.000000,1.000000
+e2e_td,absolute,field_changing,published,D-REL1,0.02,0.050000,all,9507,9507,579,8928,0,578,1149,0.998273,0.994253,1.000000,0.128696,0.096076,0.161413
+e2e_td,absolute,all,published,D-REL2,0.02,0.050000,benign,9860,9860,32,9828,0,0,16,0.000000,0.000000,0.000000,0.001628,0.000000,0.004996
+e2e_td,absolute,all,published,D-REL2,0.02,0.050000,V3,2454,2454,2273,181,0,2272,32,0.999560,0.998560,1.000000,0.176796,0.000000,0.403361
+e2e_td,absolute,all,published,D-REL2,0.02,0.050000,V4qv,811,811,16,795,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,D-REL2,0.02,0.050000,all,27705,27705,2338,25367,0,2273,48,0.972198,0.926699,1.000000,0.001892,0.000000,0.005080
+e2e_td,absolute,empty,published,D-REL2,0.02,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,D-REL2,0.02,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,D-REL2,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,published,D-REL2,0.02,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,D-REL2,0.02,0.050000,benign,4904,4904,32,4872,0,0,16,0.000000,0.000000,0.000000,0.003284,0.000000,0.010112
+e2e_td,absolute,sequencing_only,published,D-REL2,0.02,0.050000,V3,1776,1776,1711,65,0,1711,32,1.000000,1.000000,1.000000,0.492308,0.000000,0.800000
+e2e_td,absolute,sequencing_only,published,D-REL2,0.02,0.050000,V4qv,804,804,16,788,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,D-REL2,0.02,0.050000,all,9846,9846,1759,8087,0,1711,48,0.972712,0.914994,1.000000,0.005935,0.000000,0.015773
+e2e_td,absolute,field_changing,published,D-REL2,0.02,0.050000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,D-REL2,0.02,0.050000,V3,674,674,562,112,0,561,0,0.998221,0.994141,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,D-REL2,0.02,0.050000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,D-REL2,0.02,0.050000,all,9507,9507,579,8928,0,562,0,0.970639,0.916382,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,D-ABS,0.8119,0.050000,benign,9860,9860,32,9828,0,0,562,0.000000,0.000000,0.000000,0.057184,0.041397,0.073557
+e2e_td,absolute,all,published,D-ABS,0.8119,0.050000,V3,2454,2454,2273,181,0,2272,45,0.999560,0.998560,1.000000,0.248619,0.008696,0.460569
+e2e_td,absolute,all,published,D-ABS,0.8119,0.050000,V4qv,811,811,16,795,0,0,4,0.000000,0.000000,0.000000,0.005031,0.000000,0.016261
+e2e_td,absolute,all,published,D-ABS,0.8119,0.050000,all,27705,27705,2338,25367,0,2289,1249,0.979042,0.934198,1.000000,0.049237,0.036632,0.062515
+e2e_td,absolute,empty,published,D-ABS,0.8119,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,D-ABS,0.8119,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,D-ABS,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,published,D-ABS,0.8119,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,D-ABS,0.8119,0.050000,benign,4904,4904,32,4872,0,0,32,0.000000,0.000000,0.000000,0.006568,0.000000,0.016195
+e2e_td,absolute,sequencing_only,published,D-ABS,0.8119,0.050000,V3,1776,1776,1711,65,0,1711,32,1.000000,1.000000,1.000000,0.492308,0.000000,0.800000
+e2e_td,absolute,sequencing_only,published,D-ABS,0.8119,0.050000,V4qv,804,804,16,788,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,D-ABS,0.8119,0.050000,all,9846,9846,1759,8087,0,1711,81,0.972712,0.914994,1.000000,0.010016,0.000127,0.022512
+e2e_td,absolute,field_changing,published,D-ABS,0.8119,0.050000,benign,4791,4791,0,4791,0,0,530,,,,0.110624,0.079721,0.142248
+e2e_td,absolute,field_changing,published,D-ABS,0.8119,0.050000,V3,674,674,562,112,0,561,13,0.998221,0.994141,1.000000,0.116071,0.000000,0.300020
+e2e_td,absolute,field_changing,published,D-ABS,0.8119,0.050000,V4qv,7,7,0,7,0,0,4,,,,0.571429,0.000000,1.000000
+e2e_td,absolute,field_changing,published,D-ABS,0.8119,0.050000,all,9507,9507,579,8928,0,578,1168,0.998273,0.994253,1.000000,0.130824,0.097485,0.164434
+e2e_td,absolute,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,benign,9860,9860,32,9828,0,0,16,0.000000,0.000000,0.000000,0.001628,0.000000,0.004996
+e2e_td,absolute,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V3,2454,2454,2273,181,0,2272,32,0.999560,0.998560,1.000000,0.176796,0.000000,0.403361
+e2e_td,absolute,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V4qv,811,811,16,795,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,all,27705,27705,2338,25367,0,2273,48,0.972198,0.926699,1.000000,0.001892,0.000000,0.005080
+e2e_td,absolute,empty,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT|D-REL2,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,benign,4904,4904,32,4872,0,0,16,0.000000,0.000000,0.000000,0.003284,0.000000,0.010112
+e2e_td,absolute,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V3,1776,1776,1711,65,0,1711,32,1.000000,1.000000,1.000000,0.492308,0.000000,0.800000
+e2e_td,absolute,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V4qv,804,804,16,788,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,all,9846,9846,1759,8087,0,1711,48,0.972712,0.914994,1.000000,0.005935,0.000000,0.015773
+e2e_td,absolute,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V3,674,674,562,112,0,561,0,0.998221,0.994141,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,all,9507,9507,579,8928,0,562,0,0.970639,0.916382,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,benign,9860,9860,32,9828,0,0,16,0.000000,0.000000,0.000000,0.001628,0.000000,0.004996
+e2e_td,absolute,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V3,2454,2454,2273,181,0,2272,32,0.999560,0.998560,1.000000,0.176796,0.000000,0.403361
+e2e_td,absolute,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V4qv,811,811,16,795,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,all,27705,27705,2338,25367,0,2273,48,0.972198,0.926699,1.000000,0.001892,0.000000,0.005080
+e2e_td,absolute,empty,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT-M|D-REL2,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,benign,4904,4904,32,4872,0,0,16,0.000000,0.000000,0.000000,0.003284,0.000000,0.010112
+e2e_td,absolute,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V3,1776,1776,1711,65,0,1711,32,1.000000,1.000000,1.000000,0.492308,0.000000,0.800000
+e2e_td,absolute,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V4qv,804,804,16,788,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,all,9846,9846,1759,8087,0,1711,48,0.972712,0.914994,1.000000,0.005935,0.000000,0.015773
+e2e_td,absolute,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V3,674,674,562,112,0,561,0,0.998221,0.994141,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,all,9507,9507,579,8928,0,562,0,0.970639,0.916382,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT,0.05,0.050000,benign,9860,9860,32,9828,0,32,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT,0.05,0.050000,V3,2454,2454,2273,181,0,2273,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT,0.05,0.050000,V4qv,811,811,16,795,0,16,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT,0.05,0.050000,all,27705,27705,2338,25367,0,2338,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT,0.05,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT,0.05,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,at_delta,G-CERT,0.05,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT,0.05,0.050000,benign,4904,4904,32,4872,0,32,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT,0.05,0.050000,V3,1776,1776,1711,65,0,1711,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT,0.05,0.050000,V4qv,804,804,16,788,0,16,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT,0.05,0.050000,all,9846,9846,1759,8087,0,1759,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT,0.05,0.050000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT,0.05,0.050000,V3,674,674,562,112,0,562,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT,0.05,0.050000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT,0.05,0.050000,all,9507,9507,579,8928,0,579,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M,0.05,0.050000,benign,9860,9860,32,9828,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M,0.05,0.050000,V3,2454,2454,2273,181,0,2256,0,0.992521,0.975522,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M,0.05,0.050000,V4qv,811,811,16,795,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M,0.05,0.050000,all,27705,27705,2338,25367,0,2257,0,0.965355,0.905569,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT-M,0.05,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT-M,0.05,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT-M,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,at_delta,G-CERT-M,0.05,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M,0.05,0.050000,benign,4904,4904,32,4872,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M,0.05,0.050000,V3,1776,1776,1711,65,0,1695,0,0.990649,0.969032,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M,0.05,0.050000,V4qv,804,804,16,788,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M,0.05,0.050000,all,9846,9846,1759,8087,0,1695,0,0.963616,0.886659,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M,0.05,0.050000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M,0.05,0.050000,V3,674,674,562,112,0,561,0,0.998221,0.994141,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M,0.05,0.050000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M,0.05,0.050000,all,9507,9507,579,8928,0,562,0,0.970639,0.916382,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,D-REL1,0.05,0.050000,benign,9860,9860,32,9828,0,0,510,0.000000,0.000000,0.000000,0.051893,0.036906,0.067464
+e2e_td,absolute,all,at_delta,D-REL1,0.05,0.050000,V3,2454,2454,2273,181,0,2256,0,0.992521,0.975522,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,D-REL1,0.05,0.050000,V4qv,811,811,16,795,0,0,4,0.000000,0.000000,0.000000,0.005031,0.000000,0.016261
+e2e_td,absolute,all,at_delta,D-REL1,0.05,0.050000,all,27705,27705,2338,25367,0,2273,1115,0.972198,0.912712,1.000000,0.043955,0.032695,0.055346
+e2e_td,absolute,empty,at_delta,D-REL1,0.05,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,D-REL1,0.05,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,D-REL1,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,at_delta,D-REL1,0.05,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL1,0.05,0.050000,benign,4904,4904,32,4872,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL1,0.05,0.050000,V3,1776,1776,1711,65,0,1695,0,0.990649,0.969032,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL1,0.05,0.050000,V4qv,804,804,16,788,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL1,0.05,0.050000,all,9846,9846,1759,8087,0,1695,0,0.963616,0.886659,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,D-REL1,0.05,0.050000,benign,4791,4791,0,4791,0,0,510,,,,0.106450,0.076494,0.137064
+e2e_td,absolute,field_changing,at_delta,D-REL1,0.05,0.050000,V3,674,674,562,112,0,561,0,0.998221,0.994141,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,D-REL1,0.05,0.050000,V4qv,7,7,0,7,0,0,4,,,,0.571429,0.000000,1.000000
+e2e_td,absolute,field_changing,at_delta,D-REL1,0.05,0.050000,all,9507,9507,579,8928,0,578,1115,0.998273,0.994253,1.000000,0.124888,0.093404,0.156477
+e2e_td,absolute,all,at_delta,D-REL2,0.05,0.050000,benign,9860,9860,32,9828,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,D-REL2,0.05,0.050000,V3,2454,2454,2273,181,0,2256,0,0.992521,0.975522,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,D-REL2,0.05,0.050000,V4qv,811,811,16,795,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,D-REL2,0.05,0.050000,all,27705,27705,2338,25367,0,2257,0,0.965355,0.905569,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,D-REL2,0.05,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,D-REL2,0.05,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,D-REL2,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,at_delta,D-REL2,0.05,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL2,0.05,0.050000,benign,4904,4904,32,4872,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL2,0.05,0.050000,V3,1776,1776,1711,65,0,1695,0,0.990649,0.969032,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL2,0.05,0.050000,V4qv,804,804,16,788,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL2,0.05,0.050000,all,9846,9846,1759,8087,0,1695,0,0.963616,0.886659,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,D-REL2,0.05,0.050000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,D-REL2,0.05,0.050000,V3,674,674,562,112,0,561,0,0.998221,0.994141,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,D-REL2,0.05,0.050000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,D-REL2,0.05,0.050000,all,9507,9507,579,8928,0,562,0,0.970639,0.916382,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,benign,9860,9860,32,9828,0,32,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V3,2454,2454,2273,181,0,2273,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V4qv,811,811,16,795,0,16,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,all,27705,27705,2338,25367,0,2338,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT|D-REL2,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,benign,4904,4904,32,4872,0,32,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V3,1776,1776,1711,65,0,1711,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V4qv,804,804,16,788,0,16,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,all,9846,9846,1759,8087,0,1759,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V3,674,674,562,112,0,562,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,all,9507,9507,579,8928,0,579,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,benign,9860,9860,32,9828,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V3,2454,2454,2273,181,0,2256,0,0.992521,0.975522,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V4qv,811,811,16,795,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,all,27705,27705,2338,25367,0,2257,0,0.965355,0.905569,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT-M|D-REL2,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,benign,4904,4904,32,4872,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V3,1776,1776,1711,65,0,1695,0,0.990649,0.969032,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V4qv,804,804,16,788,0,0,0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,all,9846,9846,1759,8087,0,1695,0,0.963616,0.886659,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V3,674,674,562,112,0,561,0,0.998221,0.994141,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,all,9507,9507,579,8928,0,562,0,0.970639,0.916382,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT,0.2,0.100000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT,0.2,0.100000,V3,2454,2454,2238,216,0,2071,0,0.925380,0.865600,0.972266,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT,0.2,0.100000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT,0.2,0.100000,all,27705,27705,2239,25466,0,2072,0,0.925413,0.865694,0.972280,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT,0.2,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT,0.2,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,published,G-CERT,0.2,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT,0.2,0.100000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT,0.2,0.100000,V3,1776,1776,1689,87,0,1530,0,0.905861,0.826170,0.968379,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT,0.2,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT,0.2,0.100000,all,9846,9846,1689,8157,0,1530,0,0.905861,0.826170,0.968379,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT,0.2,0.100000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT,0.2,0.100000,V3,674,674,549,125,0,541,0,0.985428,0.962049,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT,0.2,0.100000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT,0.2,0.100000,all,9507,9507,550,8957,0,542,0,0.985455,0.962121,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT-M,0.2,0.100000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT-M,0.2,0.100000,V3,2454,2454,2238,216,0,2071,0,0.925380,0.865600,0.972266,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT-M,0.2,0.100000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT-M,0.2,0.100000,all,27705,27705,2239,25466,0,2072,0,0.925413,0.865694,0.972280,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT-M,0.2,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT-M,0.2,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT-M,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,published,G-CERT-M,0.2,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT-M,0.2,0.100000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT-M,0.2,0.100000,V3,1776,1776,1689,87,0,1530,0,0.905861,0.826170,0.968379,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT-M,0.2,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT-M,0.2,0.100000,all,9846,9846,1689,8157,0,1530,0,0.905861,0.826170,0.968379,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT-M,0.2,0.100000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT-M,0.2,0.100000,V3,674,674,549,125,0,541,0,0.985428,0.962049,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT-M,0.2,0.100000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT-M,0.2,0.100000,all,9507,9507,550,8957,0,542,0,0.985455,0.962121,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,D-REL1,0.02,0.100000,benign,9860,9860,0,9860,0,0,543,,,,0.055071,0.039974,0.070897
+e2e_td,absolute,all,published,D-REL1,0.02,0.100000,V3,2454,2454,2238,216,0,2238,66,1.000000,1.000000,1.000000,0.305556,0.064516,0.488038
+e2e_td,absolute,all,published,D-REL1,0.02,0.100000,V4qv,811,811,0,811,0,0,4,,,,0.004932,0.000000,0.016000
+e2e_td,absolute,all,published,D-REL1,0.02,0.100000,all,27705,27705,2239,25466,0,2239,1247,1.000000,1.000000,1.000000,0.048967,0.036912,0.061546
+e2e_td,absolute,empty,published,D-REL1,0.02,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,D-REL1,0.02,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,D-REL1,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,published,D-REL1,0.02,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,D-REL1,0.02,0.100000,benign,4904,4904,0,4904,0,0,16,,,,0.003263,0.000000,0.010044
+e2e_td,absolute,sequencing_only,published,D-REL1,0.02,0.100000,V3,1776,1776,1689,87,0,1689,54,1.000000,1.000000,1.000000,0.620690,0.000000,0.835821
+e2e_td,absolute,sequencing_only,published,D-REL1,0.02,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,D-REL1,0.02,0.100000,all,9846,9846,1689,8157,0,1689,70,1.000000,1.000000,1.000000,0.008582,0.000756,0.018932
+e2e_td,absolute,field_changing,published,D-REL1,0.02,0.100000,benign,4791,4791,0,4791,0,0,527,,,,0.109998,0.079218,0.141574
+e2e_td,absolute,field_changing,published,D-REL1,0.02,0.100000,V3,674,674,549,125,0,549,12,1.000000,1.000000,1.000000,0.096000,0.000000,0.258065
+e2e_td,absolute,field_changing,published,D-REL1,0.02,0.100000,V4qv,7,7,0,7,0,0,4,,,,0.571429,0.000000,1.000000
+e2e_td,absolute,field_changing,published,D-REL1,0.02,0.100000,all,9507,9507,550,8957,0,550,1177,1.000000,1.000000,1.000000,0.131406,0.099129,0.163712
+e2e_td,absolute,all,published,D-REL2,0.02,0.100000,benign,9860,9860,0,9860,0,0,16,,,,0.001623,0.000000,0.004984
+e2e_td,absolute,all,published,D-REL2,0.02,0.100000,V3,2454,2454,2238,216,0,2238,66,1.000000,1.000000,1.000000,0.305556,0.064516,0.488038
+e2e_td,absolute,all,published,D-REL2,0.02,0.100000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,D-REL2,0.02,0.100000,all,27705,27705,2239,25466,0,2239,82,1.000000,1.000000,1.000000,0.003220,0.000691,0.006612
+e2e_td,absolute,empty,published,D-REL2,0.02,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,D-REL2,0.02,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,D-REL2,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,published,D-REL2,0.02,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,D-REL2,0.02,0.100000,benign,4904,4904,0,4904,0,0,16,,,,0.003263,0.000000,0.010044
+e2e_td,absolute,sequencing_only,published,D-REL2,0.02,0.100000,V3,1776,1776,1689,87,0,1689,54,1.000000,1.000000,1.000000,0.620690,0.000000,0.835821
+e2e_td,absolute,sequencing_only,published,D-REL2,0.02,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,D-REL2,0.02,0.100000,all,9846,9846,1689,8157,0,1689,70,1.000000,1.000000,1.000000,0.008582,0.000756,0.018932
+e2e_td,absolute,field_changing,published,D-REL2,0.02,0.100000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,D-REL2,0.02,0.100000,V3,674,674,549,125,0,549,12,1.000000,1.000000,1.000000,0.096000,0.000000,0.258065
+e2e_td,absolute,field_changing,published,D-REL2,0.02,0.100000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,D-REL2,0.02,0.100000,all,9507,9507,550,8957,0,550,12,1.000000,1.000000,1.000000,0.001340,0.000000,0.003388
+e2e_td,absolute,all,published,D-ABS,0.8119,0.100000,benign,9860,9860,0,9860,0,0,562,,,,0.056998,0.041314,0.073219
+e2e_td,absolute,all,published,D-ABS,0.8119,0.100000,V3,2454,2454,2238,216,0,2238,79,1.000000,1.000000,1.000000,0.365741,0.103727,0.558594
+e2e_td,absolute,all,published,D-ABS,0.8119,0.100000,V4qv,811,811,0,811,0,0,4,,,,0.004932,0.000000,0.016000
+e2e_td,absolute,all,published,D-ABS,0.8119,0.100000,all,27705,27705,2239,25466,0,2239,1299,1.000000,1.000000,1.000000,0.051009,0.038372,0.064121
+e2e_td,absolute,empty,published,D-ABS,0.8119,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,D-ABS,0.8119,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,D-ABS,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,published,D-ABS,0.8119,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,D-ABS,0.8119,0.100000,benign,4904,4904,0,4904,0,0,32,,,,0.006525,0.000000,0.016116
+e2e_td,absolute,sequencing_only,published,D-ABS,0.8119,0.100000,V3,1776,1776,1689,87,0,1689,54,1.000000,1.000000,1.000000,0.620690,0.000000,0.835821
+e2e_td,absolute,sequencing_only,published,D-ABS,0.8119,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,D-ABS,0.8119,0.100000,all,9846,9846,1689,8157,0,1689,103,1.000000,1.000000,1.000000,0.012627,0.002298,0.025480
+e2e_td,absolute,field_changing,published,D-ABS,0.8119,0.100000,benign,4791,4791,0,4791,0,0,530,,,,0.110624,0.079721,0.142248
+e2e_td,absolute,field_changing,published,D-ABS,0.8119,0.100000,V3,674,674,549,125,0,549,25,1.000000,1.000000,1.000000,0.200000,0.045751,0.415098
+e2e_td,absolute,field_changing,published,D-ABS,0.8119,0.100000,V4qv,7,7,0,7,0,0,4,,,,0.571429,0.000000,1.000000
+e2e_td,absolute,field_changing,published,D-ABS,0.8119,0.100000,all,9507,9507,550,8957,0,550,1196,1.000000,1.000000,1.000000,0.133527,0.100532,0.166795
+e2e_td,absolute,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,benign,9860,9860,0,9860,0,0,16,,,,0.001623,0.000000,0.004984
+e2e_td,absolute,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V3,2454,2454,2238,216,0,2238,66,1.000000,1.000000,1.000000,0.305556,0.064516,0.488038
+e2e_td,absolute,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,all,27705,27705,2239,25466,0,2239,82,1.000000,1.000000,1.000000,0.003220,0.000691,0.006612
+e2e_td,absolute,empty,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT|D-REL2,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,benign,4904,4904,0,4904,0,0,16,,,,0.003263,0.000000,0.010044
+e2e_td,absolute,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V3,1776,1776,1689,87,0,1689,54,1.000000,1.000000,1.000000,0.620690,0.000000,0.835821
+e2e_td,absolute,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,all,9846,9846,1689,8157,0,1689,70,1.000000,1.000000,1.000000,0.008582,0.000756,0.018932
+e2e_td,absolute,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V3,674,674,549,125,0,549,12,1.000000,1.000000,1.000000,0.096000,0.000000,0.258065
+e2e_td,absolute,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,all,9507,9507,550,8957,0,550,12,1.000000,1.000000,1.000000,0.001340,0.000000,0.003388
+e2e_td,absolute,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,benign,9860,9860,0,9860,0,0,16,,,,0.001623,0.000000,0.004984
+e2e_td,absolute,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V3,2454,2454,2238,216,0,2238,66,1.000000,1.000000,1.000000,0.305556,0.064516,0.488038
+e2e_td,absolute,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,all,27705,27705,2239,25466,0,2239,82,1.000000,1.000000,1.000000,0.003220,0.000691,0.006612
+e2e_td,absolute,empty,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT-M|D-REL2,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,benign,4904,4904,0,4904,0,0,16,,,,0.003263,0.000000,0.010044
+e2e_td,absolute,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V3,1776,1776,1689,87,0,1689,54,1.000000,1.000000,1.000000,0.620690,0.000000,0.835821
+e2e_td,absolute,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,all,9846,9846,1689,8157,0,1689,70,1.000000,1.000000,1.000000,0.008582,0.000756,0.018932
+e2e_td,absolute,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V3,674,674,549,125,0,549,12,1.000000,1.000000,1.000000,0.096000,0.000000,0.258065
+e2e_td,absolute,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,all,9507,9507,550,8957,0,550,12,1.000000,1.000000,1.000000,0.001340,0.000000,0.003388
+e2e_td,absolute,all,at_delta,G-CERT,0.1,0.100000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT,0.1,0.100000,V3,2454,2454,2238,216,0,2238,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT,0.1,0.100000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT,0.1,0.100000,all,27705,27705,2239,25466,0,2239,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT,0.1,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT,0.1,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,at_delta,G-CERT,0.1,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT,0.1,0.100000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT,0.1,0.100000,V3,1776,1776,1689,87,0,1689,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT,0.1,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT,0.1,0.100000,all,9846,9846,1689,8157,0,1689,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT,0.1,0.100000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT,0.1,0.100000,V3,674,674,549,125,0,549,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT,0.1,0.100000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT,0.1,0.100000,all,9507,9507,550,8957,0,550,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M,0.1,0.100000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M,0.1,0.100000,V3,2454,2454,2238,216,0,2206,0,0.985702,0.953010,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M,0.1,0.100000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M,0.1,0.100000,all,27705,27705,2239,25466,0,2207,0,0.985708,0.953010,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT-M,0.1,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT-M,0.1,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT-M,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,at_delta,G-CERT-M,0.1,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M,0.1,0.100000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M,0.1,0.100000,V3,1776,1776,1689,87,0,1657,0,0.981054,0.937214,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M,0.1,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M,0.1,0.100000,all,9846,9846,1689,8157,0,1657,0,0.981054,0.937214,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M,0.1,0.100000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M,0.1,0.100000,V3,674,674,549,125,0,549,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M,0.1,0.100000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M,0.1,0.100000,all,9507,9507,550,8957,0,550,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,D-REL1,0.1,0.100000,benign,9860,9860,0,9860,0,0,494,,,,0.050101,0.035165,0.065695
+e2e_td,absolute,all,at_delta,D-REL1,0.1,0.100000,V3,2454,2454,2238,216,0,2206,0,0.985702,0.953010,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,D-REL1,0.1,0.100000,V4qv,811,811,0,811,0,0,4,,,,0.004932,0.000000,0.016000
+e2e_td,absolute,all,at_delta,D-REL1,0.1,0.100000,all,27705,27705,2239,25466,0,2207,1115,0.985708,0.953010,1.000000,0.043784,0.032699,0.055034
+e2e_td,absolute,empty,at_delta,D-REL1,0.1,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,D-REL1,0.1,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,D-REL1,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,at_delta,D-REL1,0.1,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL1,0.1,0.100000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL1,0.1,0.100000,V3,1776,1776,1689,87,0,1657,0,0.981054,0.937214,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL1,0.1,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL1,0.1,0.100000,all,9846,9846,1689,8157,0,1657,0,0.981054,0.937214,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,D-REL1,0.1,0.100000,benign,4791,4791,0,4791,0,0,494,,,,0.103110,0.073339,0.134105
+e2e_td,absolute,field_changing,at_delta,D-REL1,0.1,0.100000,V3,674,674,549,125,0,549,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,D-REL1,0.1,0.100000,V4qv,7,7,0,7,0,0,4,,,,0.571429,0.000000,1.000000
+e2e_td,absolute,field_changing,at_delta,D-REL1,0.1,0.100000,all,9507,9507,550,8957,0,550,1115,1.000000,1.000000,1.000000,0.124484,0.093504,0.155678
+e2e_td,absolute,all,at_delta,D-REL2,0.1,0.100000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,D-REL2,0.1,0.100000,V3,2454,2454,2238,216,0,2206,0,0.985702,0.953010,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,D-REL2,0.1,0.100000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,D-REL2,0.1,0.100000,all,27705,27705,2239,25466,0,2207,0,0.985708,0.953010,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,D-REL2,0.1,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,D-REL2,0.1,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,D-REL2,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,at_delta,D-REL2,0.1,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL2,0.1,0.100000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL2,0.1,0.100000,V3,1776,1776,1689,87,0,1657,0,0.981054,0.937214,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL2,0.1,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL2,0.1,0.100000,all,9846,9846,1689,8157,0,1657,0,0.981054,0.937214,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,D-REL2,0.1,0.100000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,D-REL2,0.1,0.100000,V3,674,674,549,125,0,549,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,D-REL2,0.1,0.100000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,D-REL2,0.1,0.100000,all,9507,9507,550,8957,0,550,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V3,2454,2454,2238,216,0,2238,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,all,27705,27705,2239,25466,0,2239,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT|D-REL2,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V3,1776,1776,1689,87,0,1689,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,all,9846,9846,1689,8157,0,1689,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V3,674,674,549,125,0,549,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,all,9507,9507,550,8957,0,550,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V3,2454,2454,2238,216,0,2206,0,0.985702,0.953010,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,all,27705,27705,2239,25466,0,2207,0,0.985708,0.953010,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT-M|D-REL2,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V3,1776,1776,1689,87,0,1657,0,0.981054,0.937214,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,all,9846,9846,1689,8157,0,1657,0,0.981054,0.937214,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V3,674,674,549,125,0,549,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,all,9507,9507,550,8957,0,550,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT,0.2,0.200000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT,0.2,0.200000,V3,2454,2454,2071,383,0,2071,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT,0.2,0.200000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT,0.2,0.200000,all,27705,27705,2072,25633,0,2072,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT,0.2,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT,0.2,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,published,G-CERT,0.2,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT,0.2,0.200000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT,0.2,0.200000,V3,1776,1776,1530,246,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT,0.2,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT,0.2,0.200000,all,9846,9846,1530,8316,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT,0.2,0.200000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT,0.2,0.200000,V3,674,674,541,133,0,541,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT,0.2,0.200000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT,0.2,0.200000,all,9507,9507,542,8965,0,542,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT-M,0.2,0.200000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT-M,0.2,0.200000,V3,2454,2454,2071,383,0,2071,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT-M,0.2,0.200000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT-M,0.2,0.200000,all,27705,27705,2072,25633,0,2072,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT-M,0.2,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT-M,0.2,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT-M,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,published,G-CERT-M,0.2,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT-M,0.2,0.200000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT-M,0.2,0.200000,V3,1776,1776,1530,246,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT-M,0.2,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT-M,0.2,0.200000,all,9846,9846,1530,8316,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT-M,0.2,0.200000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT-M,0.2,0.200000,V3,674,674,541,133,0,541,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT-M,0.2,0.200000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT-M,0.2,0.200000,all,9507,9507,542,8965,0,542,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,D-REL1,0.02,0.200000,benign,9860,9860,0,9860,0,0,543,,,,0.055071,0.039974,0.070897
+e2e_td,absolute,all,published,D-REL1,0.02,0.200000,V3,2454,2454,2071,383,0,2071,233,1.000000,1.000000,1.000000,0.608355,0.400921,0.747438
+e2e_td,absolute,all,published,D-REL1,0.02,0.200000,V4qv,811,811,0,811,0,0,4,,,,0.004932,0.000000,0.016000
+e2e_td,absolute,all,published,D-REL1,0.02,0.200000,all,27705,27705,2072,25633,0,2072,1414,1.000000,1.000000,1.000000,0.055163,0.042579,0.068159
+e2e_td,absolute,empty,published,D-REL1,0.02,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,D-REL1,0.02,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,D-REL1,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,published,D-REL1,0.02,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,D-REL1,0.02,0.200000,benign,4904,4904,0,4904,0,0,16,,,,0.003263,0.000000,0.010044
+e2e_td,absolute,sequencing_only,published,D-REL1,0.02,0.200000,V3,1776,1776,1530,246,0,1530,213,1.000000,1.000000,1.000000,0.865854,0.693069,0.939069
+e2e_td,absolute,sequencing_only,published,D-REL1,0.02,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,D-REL1,0.02,0.200000,all,9846,9846,1530,8316,0,1530,229,1.000000,1.000000,1.000000,0.027537,0.011868,0.046329
+e2e_td,absolute,field_changing,published,D-REL1,0.02,0.200000,benign,4791,4791,0,4791,0,0,527,,,,0.109998,0.079218,0.141574
+e2e_td,absolute,field_changing,published,D-REL1,0.02,0.200000,V3,674,674,541,133,0,541,20,1.000000,1.000000,1.000000,0.150376,0.018404,0.333333
+e2e_td,absolute,field_changing,published,D-REL1,0.02,0.200000,V4qv,7,7,0,7,0,0,4,,,,0.571429,0.000000,1.000000
+e2e_td,absolute,field_changing,published,D-REL1,0.02,0.200000,all,9507,9507,542,8965,0,542,1185,1.000000,1.000000,1.000000,0.132181,0.099911,0.164483
+e2e_td,absolute,all,published,D-REL2,0.02,0.200000,benign,9860,9860,0,9860,0,0,16,,,,0.001623,0.000000,0.004984
+e2e_td,absolute,all,published,D-REL2,0.02,0.200000,V3,2454,2454,2071,383,0,2071,233,1.000000,1.000000,1.000000,0.608355,0.400921,0.747438
+e2e_td,absolute,all,published,D-REL2,0.02,0.200000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,D-REL2,0.02,0.200000,all,27705,27705,2072,25633,0,2072,249,1.000000,1.000000,1.000000,0.009714,0.004533,0.015899
+e2e_td,absolute,empty,published,D-REL2,0.02,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,D-REL2,0.02,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,D-REL2,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,published,D-REL2,0.02,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,D-REL2,0.02,0.200000,benign,4904,4904,0,4904,0,0,16,,,,0.003263,0.000000,0.010044
+e2e_td,absolute,sequencing_only,published,D-REL2,0.02,0.200000,V3,1776,1776,1530,246,0,1530,213,1.000000,1.000000,1.000000,0.865854,0.693069,0.939069
+e2e_td,absolute,sequencing_only,published,D-REL2,0.02,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,D-REL2,0.02,0.200000,all,9846,9846,1530,8316,0,1530,229,1.000000,1.000000,1.000000,0.027537,0.011868,0.046329
+e2e_td,absolute,field_changing,published,D-REL2,0.02,0.200000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,D-REL2,0.02,0.200000,V3,674,674,541,133,0,541,20,1.000000,1.000000,1.000000,0.150376,0.018404,0.333333
+e2e_td,absolute,field_changing,published,D-REL2,0.02,0.200000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,D-REL2,0.02,0.200000,all,9507,9507,542,8965,0,542,20,1.000000,1.000000,1.000000,0.002231,0.000231,0.004599
+e2e_td,absolute,all,published,D-ABS,0.8119,0.200000,benign,9860,9860,0,9860,0,0,562,,,,0.056998,0.041314,0.073219
+e2e_td,absolute,all,published,D-ABS,0.8119,0.200000,V3,2454,2454,2071,383,0,2071,246,1.000000,1.000000,1.000000,0.642298,0.435806,0.781081
+e2e_td,absolute,all,published,D-ABS,0.8119,0.200000,V4qv,811,811,0,811,0,0,4,,,,0.004932,0.000000,0.016000
+e2e_td,absolute,all,published,D-ABS,0.8119,0.200000,all,27705,27705,2072,25633,0,2072,1466,1.000000,1.000000,1.000000,0.057192,0.044052,0.070688
+e2e_td,absolute,empty,published,D-ABS,0.8119,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,D-ABS,0.8119,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,D-ABS,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,published,D-ABS,0.8119,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,D-ABS,0.8119,0.200000,benign,4904,4904,0,4904,0,0,32,,,,0.006525,0.000000,0.016116
+e2e_td,absolute,sequencing_only,published,D-ABS,0.8119,0.200000,V3,1776,1776,1530,246,0,1530,213,1.000000,1.000000,1.000000,0.865854,0.693069,0.939069
+e2e_td,absolute,sequencing_only,published,D-ABS,0.8119,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,D-ABS,0.8119,0.200000,all,9846,9846,1530,8316,0,1530,262,1.000000,1.000000,1.000000,0.031506,0.014641,0.051316
+e2e_td,absolute,field_changing,published,D-ABS,0.8119,0.200000,benign,4791,4791,0,4791,0,0,530,,,,0.110624,0.079721,0.142248
+e2e_td,absolute,field_changing,published,D-ABS,0.8119,0.200000,V3,674,674,541,133,0,541,33,1.000000,1.000000,1.000000,0.248120,0.082186,0.473684
+e2e_td,absolute,field_changing,published,D-ABS,0.8119,0.200000,V4qv,7,7,0,7,0,0,4,,,,0.571429,0.000000,1.000000
+e2e_td,absolute,field_changing,published,D-ABS,0.8119,0.200000,all,9507,9507,542,8965,0,542,1204,1.000000,1.000000,1.000000,0.134300,0.101409,0.167412
+e2e_td,absolute,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,benign,9860,9860,0,9860,0,0,16,,,,0.001623,0.000000,0.004984
+e2e_td,absolute,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V3,2454,2454,2071,383,0,2071,233,1.000000,1.000000,1.000000,0.608355,0.400921,0.747438
+e2e_td,absolute,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,all,27705,27705,2072,25633,0,2072,249,1.000000,1.000000,1.000000,0.009714,0.004533,0.015899
+e2e_td,absolute,empty,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT|D-REL2,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,benign,4904,4904,0,4904,0,0,16,,,,0.003263,0.000000,0.010044
+e2e_td,absolute,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V3,1776,1776,1530,246,0,1530,213,1.000000,1.000000,1.000000,0.865854,0.693069,0.939069
+e2e_td,absolute,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,all,9846,9846,1530,8316,0,1530,229,1.000000,1.000000,1.000000,0.027537,0.011868,0.046329
+e2e_td,absolute,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V3,674,674,541,133,0,541,20,1.000000,1.000000,1.000000,0.150376,0.018404,0.333333
+e2e_td,absolute,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,all,9507,9507,542,8965,0,542,20,1.000000,1.000000,1.000000,0.002231,0.000231,0.004599
+e2e_td,absolute,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,benign,9860,9860,0,9860,0,0,16,,,,0.001623,0.000000,0.004984
+e2e_td,absolute,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V3,2454,2454,2071,383,0,2071,233,1.000000,1.000000,1.000000,0.608355,0.400921,0.747438
+e2e_td,absolute,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,all,27705,27705,2072,25633,0,2072,249,1.000000,1.000000,1.000000,0.009714,0.004533,0.015899
+e2e_td,absolute,empty,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,published,G-CERT-M|D-REL2,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,benign,4904,4904,0,4904,0,0,16,,,,0.003263,0.000000,0.010044
+e2e_td,absolute,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V3,1776,1776,1530,246,0,1530,213,1.000000,1.000000,1.000000,0.865854,0.693069,0.939069
+e2e_td,absolute,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,all,9846,9846,1530,8316,0,1530,229,1.000000,1.000000,1.000000,0.027537,0.011868,0.046329
+e2e_td,absolute,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V3,674,674,541,133,0,541,20,1.000000,1.000000,1.000000,0.150376,0.018404,0.333333
+e2e_td,absolute,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,all,9507,9507,542,8965,0,542,20,1.000000,1.000000,1.000000,0.002231,0.000231,0.004599
+e2e_td,absolute,all,at_delta,G-CERT,0.2,0.200000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT,0.2,0.200000,V3,2454,2454,2071,383,0,2071,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT,0.2,0.200000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT,0.2,0.200000,all,27705,27705,2072,25633,0,2072,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT,0.2,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT,0.2,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,at_delta,G-CERT,0.2,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT,0.2,0.200000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT,0.2,0.200000,V3,1776,1776,1530,246,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT,0.2,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT,0.2,0.200000,all,9846,9846,1530,8316,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT,0.2,0.200000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT,0.2,0.200000,V3,674,674,541,133,0,541,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT,0.2,0.200000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT,0.2,0.200000,all,9507,9507,542,8965,0,542,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M,0.2,0.200000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M,0.2,0.200000,V3,2454,2454,2071,383,0,2071,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M,0.2,0.200000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M,0.2,0.200000,all,27705,27705,2072,25633,0,2072,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT-M,0.2,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT-M,0.2,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT-M,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,at_delta,G-CERT-M,0.2,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M,0.2,0.200000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M,0.2,0.200000,V3,1776,1776,1530,246,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M,0.2,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M,0.2,0.200000,all,9846,9846,1530,8316,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M,0.2,0.200000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M,0.2,0.200000,V3,674,674,541,133,0,541,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M,0.2,0.200000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M,0.2,0.200000,all,9507,9507,542,8965,0,542,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,D-REL1,0.2,0.200000,benign,9860,9860,0,9860,0,0,472,,,,0.047870,0.033035,0.063334
+e2e_td,absolute,all,at_delta,D-REL1,0.2,0.200000,V3,2454,2454,2071,383,0,2071,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,D-REL1,0.2,0.200000,V4qv,811,811,0,811,0,0,4,,,,0.004932,0.000000,0.016000
+e2e_td,absolute,all,at_delta,D-REL1,0.2,0.200000,all,27705,27705,2072,25633,0,2072,1066,1.000000,1.000000,1.000000,0.041587,0.030701,0.052637
+e2e_td,absolute,empty,at_delta,D-REL1,0.2,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,D-REL1,0.2,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,D-REL1,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,at_delta,D-REL1,0.2,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL1,0.2,0.200000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL1,0.2,0.200000,V3,1776,1776,1530,246,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL1,0.2,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL1,0.2,0.200000,all,9846,9846,1530,8316,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,D-REL1,0.2,0.200000,benign,4791,4791,0,4791,0,0,472,,,,0.098518,0.068900,0.129193
+e2e_td,absolute,field_changing,at_delta,D-REL1,0.2,0.200000,V3,674,674,541,133,0,541,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,D-REL1,0.2,0.200000,V4qv,7,7,0,7,0,0,4,,,,0.571429,0.000000,1.000000
+e2e_td,absolute,field_changing,at_delta,D-REL1,0.2,0.200000,all,9507,9507,542,8965,0,542,1066,1.000000,1.000000,1.000000,0.118907,0.088029,0.150229
+e2e_td,absolute,all,at_delta,D-REL2,0.2,0.200000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,D-REL2,0.2,0.200000,V3,2454,2454,2071,383,0,2071,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,D-REL2,0.2,0.200000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,D-REL2,0.2,0.200000,all,27705,27705,2072,25633,0,2072,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,D-REL2,0.2,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,D-REL2,0.2,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,D-REL2,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,at_delta,D-REL2,0.2,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL2,0.2,0.200000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL2,0.2,0.200000,V3,1776,1776,1530,246,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL2,0.2,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,D-REL2,0.2,0.200000,all,9846,9846,1530,8316,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,D-REL2,0.2,0.200000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,D-REL2,0.2,0.200000,V3,674,674,541,133,0,541,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,D-REL2,0.2,0.200000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,D-REL2,0.2,0.200000,all,9507,9507,542,8965,0,542,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V3,2454,2454,2071,383,0,2071,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,all,27705,27705,2072,25633,0,2072,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT|D-REL2,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V3,1776,1776,1530,246,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,all,9846,9846,1530,8316,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V3,674,674,541,133,0,541,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,all,9507,9507,542,8965,0,542,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V3,2454,2454,2071,383,0,2071,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,all,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,all,27705,27705,2072,25633,0,2072,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,empty,at_delta,G-CERT-M|D-REL2,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,absolute,empty,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V3,1776,1776,1530,246,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,all,9846,9846,1530,8316,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V3,674,674,541,133,0,541,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,absolute,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,all,9507,9507,542,8965,0,542,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT,0.2,0.050000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT,0.2,0.050000,V3,2454,2454,2256,198,0,2071,0,0.917996,0.858733,0.965214,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT,0.2,0.050000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT,0.2,0.050000,all,27705,27705,2257,25448,0,2072,0,0.918033,0.858829,0.965231,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT,0.2,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT,0.2,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,published,G-CERT,0.2,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT,0.2,0.050000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT,0.2,0.050000,V3,1776,1776,1695,81,0,1530,0,0.902655,0.823457,0.965341,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT,0.2,0.050000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT,0.2,0.050000,all,9846,9846,1695,8151,0,1530,0,0.902655,0.823457,0.965341,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT,0.2,0.050000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT,0.2,0.050000,V3,674,674,561,113,0,541,0,0.964349,0.927928,0.996063,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT,0.2,0.050000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT,0.2,0.050000,all,9507,9507,562,8945,0,542,0,0.964413,0.928152,0.996071,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT-M,0.2,0.050000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT-M,0.2,0.050000,V3,2454,2454,2256,198,0,2071,0,0.917996,0.858733,0.965214,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT-M,0.2,0.050000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT-M,0.2,0.050000,all,27705,27705,2257,25448,0,2072,0,0.918033,0.858829,0.965231,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT-M,0.2,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT-M,0.2,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT-M,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,published,G-CERT-M,0.2,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT-M,0.2,0.050000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT-M,0.2,0.050000,V3,1776,1776,1695,81,0,1530,0,0.902655,0.823457,0.965341,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT-M,0.2,0.050000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT-M,0.2,0.050000,all,9846,9846,1695,8151,0,1530,0,0.902655,0.823457,0.965341,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT-M,0.2,0.050000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT-M,0.2,0.050000,V3,674,674,561,113,0,541,0,0.964349,0.927928,0.996063,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT-M,0.2,0.050000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT-M,0.2,0.050000,all,9507,9507,562,8945,0,542,0,0.964413,0.928152,0.996071,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,D-REL1,0.02,0.050000,benign,9860,9860,0,9860,0,0,543,,,,0.055071,0.039974,0.070897
+e2e_td,marginal,all,published,D-REL1,0.02,0.050000,V3,2454,2454,2256,198,0,2256,48,1.000000,1.000000,1.000000,0.242424,0.000000,0.457143
+e2e_td,marginal,all,published,D-REL1,0.02,0.050000,V4qv,811,811,0,811,0,0,4,,,,0.004932,0.000000,0.016000
+e2e_td,marginal,all,published,D-REL1,0.02,0.050000,all,27705,27705,2257,25448,0,2257,1229,1.000000,1.000000,1.000000,0.048295,0.036146,0.060816
+e2e_td,marginal,empty,published,D-REL1,0.02,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,D-REL1,0.02,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,D-REL1,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,published,D-REL1,0.02,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,D-REL1,0.02,0.050000,benign,4904,4904,0,4904,0,0,16,,,,0.003263,0.000000,0.010044
+e2e_td,marginal,sequencing_only,published,D-REL1,0.02,0.050000,V3,1776,1776,1695,81,0,1695,48,1.000000,1.000000,1.000000,0.592593,0.000000,0.833333
+e2e_td,marginal,sequencing_only,published,D-REL1,0.02,0.050000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,D-REL1,0.02,0.050000,all,9846,9846,1695,8151,0,1695,64,1.000000,1.000000,1.000000,0.007852,0.000000,0.018227
+e2e_td,marginal,field_changing,published,D-REL1,0.02,0.050000,benign,4791,4791,0,4791,0,0,527,,,,0.109998,0.079218,0.141574
+e2e_td,marginal,field_changing,published,D-REL1,0.02,0.050000,V3,674,674,561,113,0,561,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,D-REL1,0.02,0.050000,V4qv,7,7,0,7,0,0,4,,,,0.571429,0.000000,1.000000
+e2e_td,marginal,field_changing,published,D-REL1,0.02,0.050000,all,9507,9507,562,8945,0,562,1165,1.000000,1.000000,1.000000,0.130240,0.098166,0.162345
+e2e_td,marginal,all,published,D-REL2,0.02,0.050000,benign,9860,9860,0,9860,0,0,16,,,,0.001623,0.000000,0.004984
+e2e_td,marginal,all,published,D-REL2,0.02,0.050000,V3,2454,2454,2256,198,0,2256,48,1.000000,1.000000,1.000000,0.242424,0.000000,0.457143
+e2e_td,marginal,all,published,D-REL2,0.02,0.050000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,D-REL2,0.02,0.050000,all,27705,27705,2257,25448,0,2257,64,1.000000,1.000000,1.000000,0.002515,0.000000,0.005888
+e2e_td,marginal,empty,published,D-REL2,0.02,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,D-REL2,0.02,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,D-REL2,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,published,D-REL2,0.02,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,D-REL2,0.02,0.050000,benign,4904,4904,0,4904,0,0,16,,,,0.003263,0.000000,0.010044
+e2e_td,marginal,sequencing_only,published,D-REL2,0.02,0.050000,V3,1776,1776,1695,81,0,1695,48,1.000000,1.000000,1.000000,0.592593,0.000000,0.833333
+e2e_td,marginal,sequencing_only,published,D-REL2,0.02,0.050000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,D-REL2,0.02,0.050000,all,9846,9846,1695,8151,0,1695,64,1.000000,1.000000,1.000000,0.007852,0.000000,0.018227
+e2e_td,marginal,field_changing,published,D-REL2,0.02,0.050000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,D-REL2,0.02,0.050000,V3,674,674,561,113,0,561,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,D-REL2,0.02,0.050000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,D-REL2,0.02,0.050000,all,9507,9507,562,8945,0,562,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,D-ABS,0.8119,0.050000,benign,9860,9860,0,9860,0,0,562,,,,0.056998,0.041314,0.073219
+e2e_td,marginal,all,published,D-ABS,0.8119,0.050000,V3,2454,2454,2256,198,0,2256,61,1.000000,1.000000,1.000000,0.308081,0.043750,0.509809
+e2e_td,marginal,all,published,D-ABS,0.8119,0.050000,V4qv,811,811,0,811,0,0,4,,,,0.004932,0.000000,0.016000
+e2e_td,marginal,all,published,D-ABS,0.8119,0.050000,all,27705,27705,2257,25448,0,2257,1281,1.000000,1.000000,1.000000,0.050338,0.037724,0.063479
+e2e_td,marginal,empty,published,D-ABS,0.8119,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,D-ABS,0.8119,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,D-ABS,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,published,D-ABS,0.8119,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,D-ABS,0.8119,0.050000,benign,4904,4904,0,4904,0,0,32,,,,0.006525,0.000000,0.016116
+e2e_td,marginal,sequencing_only,published,D-ABS,0.8119,0.050000,V3,1776,1776,1695,81,0,1695,48,1.000000,1.000000,1.000000,0.592593,0.000000,0.833333
+e2e_td,marginal,sequencing_only,published,D-ABS,0.8119,0.050000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,D-ABS,0.8119,0.050000,all,9846,9846,1695,8151,0,1695,97,1.000000,1.000000,1.000000,0.011900,0.002023,0.024702
+e2e_td,marginal,field_changing,published,D-ABS,0.8119,0.050000,benign,4791,4791,0,4791,0,0,530,,,,0.110624,0.079721,0.142248
+e2e_td,marginal,field_changing,published,D-ABS,0.8119,0.050000,V3,674,674,561,113,0,561,13,1.000000,1.000000,1.000000,0.115044,0.000000,0.297619
+e2e_td,marginal,field_changing,published,D-ABS,0.8119,0.050000,V4qv,7,7,0,7,0,0,4,,,,0.571429,0.000000,1.000000
+e2e_td,marginal,field_changing,published,D-ABS,0.8119,0.050000,all,9507,9507,562,8945,0,562,1184,1.000000,1.000000,1.000000,0.132364,0.099597,0.165402
+e2e_td,marginal,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,benign,9860,9860,0,9860,0,0,16,,,,0.001623,0.000000,0.004984
+e2e_td,marginal,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V3,2454,2454,2256,198,0,2256,48,1.000000,1.000000,1.000000,0.242424,0.000000,0.457143
+e2e_td,marginal,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,all,27705,27705,2257,25448,0,2257,64,1.000000,1.000000,1.000000,0.002515,0.000000,0.005888
+e2e_td,marginal,empty,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT|D-REL2,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,benign,4904,4904,0,4904,0,0,16,,,,0.003263,0.000000,0.010044
+e2e_td,marginal,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V3,1776,1776,1695,81,0,1695,48,1.000000,1.000000,1.000000,0.592593,0.000000,0.833333
+e2e_td,marginal,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,all,9846,9846,1695,8151,0,1695,64,1.000000,1.000000,1.000000,0.007852,0.000000,0.018227
+e2e_td,marginal,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V3,674,674,561,113,0,561,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,all,9507,9507,562,8945,0,562,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,benign,9860,9860,0,9860,0,0,16,,,,0.001623,0.000000,0.004984
+e2e_td,marginal,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V3,2454,2454,2256,198,0,2256,48,1.000000,1.000000,1.000000,0.242424,0.000000,0.457143
+e2e_td,marginal,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,all,27705,27705,2257,25448,0,2257,64,1.000000,1.000000,1.000000,0.002515,0.000000,0.005888
+e2e_td,marginal,empty,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT-M|D-REL2,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,benign,4904,4904,0,4904,0,0,16,,,,0.003263,0.000000,0.010044
+e2e_td,marginal,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V3,1776,1776,1695,81,0,1695,48,1.000000,1.000000,1.000000,0.592593,0.000000,0.833333
+e2e_td,marginal,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,all,9846,9846,1695,8151,0,1695,64,1.000000,1.000000,1.000000,0.007852,0.000000,0.018227
+e2e_td,marginal,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V3,674,674,561,113,0,561,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.050000,all,9507,9507,562,8945,0,562,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT,0.05,0.050000,benign,9860,9860,0,9860,0,0,32,,,,0.003245,0.000000,0.010277
+e2e_td,marginal,all,at_delta,G-CERT,0.05,0.050000,V3,2454,2454,2256,198,0,2256,17,1.000000,1.000000,1.000000,0.085859,0.000000,0.280220
+e2e_td,marginal,all,at_delta,G-CERT,0.05,0.050000,V4qv,811,811,0,811,0,0,16,,,,0.019729,0.000000,0.063492
+e2e_td,marginal,all,at_delta,G-CERT,0.05,0.050000,all,27705,27705,2257,25448,0,2257,81,1.000000,1.000000,1.000000,0.003183,0.000000,0.008937
+e2e_td,marginal,empty,at_delta,G-CERT,0.05,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT,0.05,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,at_delta,G-CERT,0.05,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT,0.05,0.050000,benign,4904,4904,0,4904,0,0,32,,,,0.006525,0.000000,0.021136
+e2e_td,marginal,sequencing_only,at_delta,G-CERT,0.05,0.050000,V3,1776,1776,1695,81,0,1695,16,1.000000,1.000000,1.000000,0.197531,0.000000,0.592593
+e2e_td,marginal,sequencing_only,at_delta,G-CERT,0.05,0.050000,V4qv,804,804,0,804,0,0,16,,,,0.019900,0.000000,0.064322
+e2e_td,marginal,sequencing_only,at_delta,G-CERT,0.05,0.050000,all,9846,9846,1695,8151,0,1695,64,1.000000,1.000000,1.000000,0.007852,0.000000,0.025280
+e2e_td,marginal,field_changing,at_delta,G-CERT,0.05,0.050000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT,0.05,0.050000,V3,674,674,561,113,0,561,1,1.000000,1.000000,1.000000,0.008850,0.000000,0.035714
+e2e_td,marginal,field_changing,at_delta,G-CERT,0.05,0.050000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT,0.05,0.050000,all,9507,9507,562,8945,0,562,17,1.000000,1.000000,1.000000,0.001901,0.000000,0.005624
+e2e_td,marginal,all,at_delta,G-CERT-M,0.05,0.050000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT-M,0.05,0.050000,V3,2454,2454,2256,198,0,2256,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT-M,0.05,0.050000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT-M,0.05,0.050000,all,27705,27705,2257,25448,0,2257,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT-M,0.05,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT-M,0.05,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT-M,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,at_delta,G-CERT-M,0.05,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M,0.05,0.050000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M,0.05,0.050000,V3,1776,1776,1695,81,0,1695,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M,0.05,0.050000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M,0.05,0.050000,all,9846,9846,1695,8151,0,1695,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M,0.05,0.050000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M,0.05,0.050000,V3,674,674,561,113,0,561,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M,0.05,0.050000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M,0.05,0.050000,all,9507,9507,562,8945,0,562,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,D-REL1,0.05,0.050000,benign,9860,9860,0,9860,0,0,510,,,,0.051724,0.036804,0.067207
+e2e_td,marginal,all,at_delta,D-REL1,0.05,0.050000,V3,2454,2454,2256,198,0,2256,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,D-REL1,0.05,0.050000,V4qv,811,811,0,811,0,0,4,,,,0.004932,0.000000,0.016000
+e2e_td,marginal,all,at_delta,D-REL1,0.05,0.050000,all,27705,27705,2257,25448,0,2257,1131,1.000000,1.000000,1.000000,0.044444,0.033400,0.055598
+e2e_td,marginal,empty,at_delta,D-REL1,0.05,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,D-REL1,0.05,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,D-REL1,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,at_delta,D-REL1,0.05,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL1,0.05,0.050000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL1,0.05,0.050000,V3,1776,1776,1695,81,0,1695,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL1,0.05,0.050000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL1,0.05,0.050000,all,9846,9846,1695,8151,0,1695,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,D-REL1,0.05,0.050000,benign,4791,4791,0,4791,0,0,510,,,,0.106450,0.076494,0.137064
+e2e_td,marginal,field_changing,at_delta,D-REL1,0.05,0.050000,V3,674,674,561,113,0,561,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,D-REL1,0.05,0.050000,V4qv,7,7,0,7,0,0,4,,,,0.571429,0.000000,1.000000
+e2e_td,marginal,field_changing,at_delta,D-REL1,0.05,0.050000,all,9507,9507,562,8945,0,562,1131,1.000000,1.000000,1.000000,0.126439,0.095544,0.157329
+e2e_td,marginal,all,at_delta,D-REL2,0.05,0.050000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,D-REL2,0.05,0.050000,V3,2454,2454,2256,198,0,2256,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,D-REL2,0.05,0.050000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,D-REL2,0.05,0.050000,all,27705,27705,2257,25448,0,2257,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,D-REL2,0.05,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,D-REL2,0.05,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,D-REL2,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,at_delta,D-REL2,0.05,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL2,0.05,0.050000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL2,0.05,0.050000,V3,1776,1776,1695,81,0,1695,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL2,0.05,0.050000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL2,0.05,0.050000,all,9846,9846,1695,8151,0,1695,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,D-REL2,0.05,0.050000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,D-REL2,0.05,0.050000,V3,674,674,561,113,0,561,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,D-REL2,0.05,0.050000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,D-REL2,0.05,0.050000,all,9507,9507,562,8945,0,562,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,benign,9860,9860,0,9860,0,0,32,,,,0.003245,0.000000,0.010277
+e2e_td,marginal,all,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V3,2454,2454,2256,198,0,2256,17,1.000000,1.000000,1.000000,0.085859,0.000000,0.280220
+e2e_td,marginal,all,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V4qv,811,811,0,811,0,0,16,,,,0.019729,0.000000,0.063492
+e2e_td,marginal,all,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,all,27705,27705,2257,25448,0,2257,81,1.000000,1.000000,1.000000,0.003183,0.000000,0.008937
+e2e_td,marginal,empty,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT|D-REL2,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,benign,4904,4904,0,4904,0,0,32,,,,0.006525,0.000000,0.021136
+e2e_td,marginal,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V3,1776,1776,1695,81,0,1695,16,1.000000,1.000000,1.000000,0.197531,0.000000,0.592593
+e2e_td,marginal,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V4qv,804,804,0,804,0,0,16,,,,0.019900,0.000000,0.064322
+e2e_td,marginal,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,all,9846,9846,1695,8151,0,1695,64,1.000000,1.000000,1.000000,0.007852,0.000000,0.025280
+e2e_td,marginal,field_changing,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V3,674,674,561,113,0,561,1,1.000000,1.000000,1.000000,0.008850,0.000000,0.035714
+e2e_td,marginal,field_changing,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,all,9507,9507,562,8945,0,562,17,1.000000,1.000000,1.000000,0.001901,0.000000,0.005624
+e2e_td,marginal,all,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V3,2454,2454,2256,198,0,2256,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,all,27705,27705,2257,25448,0,2257,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT-M|D-REL2,,0.050000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V3,1776,1776,1695,81,0,1695,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,all,9846,9846,1695,8151,0,1695,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V3,674,674,561,113,0,561,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.05; D-REL2 theta=0.05,0.050000,all,9507,9507,562,8945,0,562,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT,0.2,0.100000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT,0.2,0.100000,V3,2454,2454,2206,248,0,2071,0,0.938803,0.884741,0.980385,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT,0.2,0.100000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT,0.2,0.100000,all,27705,27705,2207,25498,0,2072,0,0.938831,0.884795,0.980392,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT,0.2,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT,0.2,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,published,G-CERT,0.2,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT,0.2,0.100000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT,0.2,0.100000,V3,1776,1776,1657,119,0,1530,0,0.923355,0.851744,0.979747,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT,0.2,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT,0.2,0.100000,all,9846,9846,1657,8189,0,1530,0,0.923355,0.851744,0.979747,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT,0.2,0.100000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT,0.2,0.100000,V3,674,674,549,125,0,541,0,0.985428,0.962049,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT,0.2,0.100000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT,0.2,0.100000,all,9507,9507,550,8957,0,542,0,0.985455,0.962121,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT-M,0.2,0.100000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT-M,0.2,0.100000,V3,2454,2454,2206,248,0,2071,0,0.938803,0.884741,0.980385,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT-M,0.2,0.100000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT-M,0.2,0.100000,all,27705,27705,2207,25498,0,2072,0,0.938831,0.884795,0.980392,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT-M,0.2,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT-M,0.2,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT-M,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,published,G-CERT-M,0.2,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT-M,0.2,0.100000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT-M,0.2,0.100000,V3,1776,1776,1657,119,0,1530,0,0.923355,0.851744,0.979747,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT-M,0.2,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT-M,0.2,0.100000,all,9846,9846,1657,8189,0,1530,0,0.923355,0.851744,0.979747,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT-M,0.2,0.100000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT-M,0.2,0.100000,V3,674,674,549,125,0,541,0,0.985428,0.962049,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT-M,0.2,0.100000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT-M,0.2,0.100000,all,9507,9507,550,8957,0,542,0,0.985455,0.962121,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,D-REL1,0.02,0.100000,benign,9860,9860,0,9860,0,0,543,,,,0.055071,0.039974,0.070897
+e2e_td,marginal,all,published,D-REL1,0.02,0.100000,V3,2454,2454,2206,248,0,2206,98,1.000000,1.000000,1.000000,0.395161,0.113208,0.585256
+e2e_td,marginal,all,published,D-REL1,0.02,0.100000,V4qv,811,811,0,811,0,0,4,,,,0.004932,0.000000,0.016000
+e2e_td,marginal,all,published,D-REL1,0.02,0.100000,all,27705,27705,2207,25498,0,2207,1279,1.000000,1.000000,1.000000,0.050161,0.037612,0.063105
+e2e_td,marginal,empty,published,D-REL1,0.02,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,D-REL1,0.02,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,D-REL1,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,published,D-REL1,0.02,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,D-REL1,0.02,0.100000,benign,4904,4904,0,4904,0,0,16,,,,0.003263,0.000000,0.010044
+e2e_td,marginal,sequencing_only,published,D-REL1,0.02,0.100000,V3,1776,1776,1657,119,0,1657,86,1.000000,1.000000,1.000000,0.722689,0.153846,0.882353
+e2e_td,marginal,sequencing_only,published,D-REL1,0.02,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,D-REL1,0.02,0.100000,all,9846,9846,1657,8189,0,1657,102,1.000000,1.000000,1.000000,0.012456,0.002106,0.025430
+e2e_td,marginal,field_changing,published,D-REL1,0.02,0.100000,benign,4791,4791,0,4791,0,0,527,,,,0.109998,0.079218,0.141574
+e2e_td,marginal,field_changing,published,D-REL1,0.02,0.100000,V3,674,674,549,125,0,549,12,1.000000,1.000000,1.000000,0.096000,0.000000,0.258065
+e2e_td,marginal,field_changing,published,D-REL1,0.02,0.100000,V4qv,7,7,0,7,0,0,4,,,,0.571429,0.000000,1.000000
+e2e_td,marginal,field_changing,published,D-REL1,0.02,0.100000,all,9507,9507,550,8957,0,550,1177,1.000000,1.000000,1.000000,0.131406,0.099129,0.163712
+e2e_td,marginal,all,published,D-REL2,0.02,0.100000,benign,9860,9860,0,9860,0,0,16,,,,0.001623,0.000000,0.004984
+e2e_td,marginal,all,published,D-REL2,0.02,0.100000,V3,2454,2454,2206,248,0,2206,98,1.000000,1.000000,1.000000,0.395161,0.113208,0.585256
+e2e_td,marginal,all,published,D-REL2,0.02,0.100000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,D-REL2,0.02,0.100000,all,27705,27705,2207,25498,0,2207,114,1.000000,1.000000,1.000000,0.004471,0.001150,0.008706
+e2e_td,marginal,empty,published,D-REL2,0.02,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,D-REL2,0.02,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,D-REL2,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,published,D-REL2,0.02,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,D-REL2,0.02,0.100000,benign,4904,4904,0,4904,0,0,16,,,,0.003263,0.000000,0.010044
+e2e_td,marginal,sequencing_only,published,D-REL2,0.02,0.100000,V3,1776,1776,1657,119,0,1657,86,1.000000,1.000000,1.000000,0.722689,0.153846,0.882353
+e2e_td,marginal,sequencing_only,published,D-REL2,0.02,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,D-REL2,0.02,0.100000,all,9846,9846,1657,8189,0,1657,102,1.000000,1.000000,1.000000,0.012456,0.002106,0.025430
+e2e_td,marginal,field_changing,published,D-REL2,0.02,0.100000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,D-REL2,0.02,0.100000,V3,674,674,549,125,0,549,12,1.000000,1.000000,1.000000,0.096000,0.000000,0.258065
+e2e_td,marginal,field_changing,published,D-REL2,0.02,0.100000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,D-REL2,0.02,0.100000,all,9507,9507,550,8957,0,550,12,1.000000,1.000000,1.000000,0.001340,0.000000,0.003388
+e2e_td,marginal,all,published,D-ABS,0.8119,0.100000,benign,9860,9860,0,9860,0,0,562,,,,0.056998,0.041314,0.073219
+e2e_td,marginal,all,published,D-ABS,0.8119,0.100000,V3,2454,2454,2206,248,0,2206,111,1.000000,1.000000,1.000000,0.447581,0.160000,0.637725
+e2e_td,marginal,all,published,D-ABS,0.8119,0.100000,V4qv,811,811,0,811,0,0,4,,,,0.004932,0.000000,0.016000
+e2e_td,marginal,all,published,D-ABS,0.8119,0.100000,all,27705,27705,2207,25498,0,2207,1331,1.000000,1.000000,1.000000,0.052200,0.039265,0.065590
+e2e_td,marginal,empty,published,D-ABS,0.8119,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,D-ABS,0.8119,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,D-ABS,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,published,D-ABS,0.8119,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,D-ABS,0.8119,0.100000,benign,4904,4904,0,4904,0,0,32,,,,0.006525,0.000000,0.016116
+e2e_td,marginal,sequencing_only,published,D-ABS,0.8119,0.100000,V3,1776,1776,1657,119,0,1657,86,1.000000,1.000000,1.000000,0.722689,0.153846,0.882353
+e2e_td,marginal,sequencing_only,published,D-ABS,0.8119,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,D-ABS,0.8119,0.100000,all,9846,9846,1657,8189,0,1657,135,1.000000,1.000000,1.000000,0.016486,0.004355,0.031396
+e2e_td,marginal,field_changing,published,D-ABS,0.8119,0.100000,benign,4791,4791,0,4791,0,0,530,,,,0.110624,0.079721,0.142248
+e2e_td,marginal,field_changing,published,D-ABS,0.8119,0.100000,V3,674,674,549,125,0,549,25,1.000000,1.000000,1.000000,0.200000,0.045751,0.415098
+e2e_td,marginal,field_changing,published,D-ABS,0.8119,0.100000,V4qv,7,7,0,7,0,0,4,,,,0.571429,0.000000,1.000000
+e2e_td,marginal,field_changing,published,D-ABS,0.8119,0.100000,all,9507,9507,550,8957,0,550,1196,1.000000,1.000000,1.000000,0.133527,0.100532,0.166795
+e2e_td,marginal,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,benign,9860,9860,0,9860,0,0,16,,,,0.001623,0.000000,0.004984
+e2e_td,marginal,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V3,2454,2454,2206,248,0,2206,98,1.000000,1.000000,1.000000,0.395161,0.113208,0.585256
+e2e_td,marginal,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,all,27705,27705,2207,25498,0,2207,114,1.000000,1.000000,1.000000,0.004471,0.001150,0.008706
+e2e_td,marginal,empty,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT|D-REL2,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,benign,4904,4904,0,4904,0,0,16,,,,0.003263,0.000000,0.010044
+e2e_td,marginal,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V3,1776,1776,1657,119,0,1657,86,1.000000,1.000000,1.000000,0.722689,0.153846,0.882353
+e2e_td,marginal,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,all,9846,9846,1657,8189,0,1657,102,1.000000,1.000000,1.000000,0.012456,0.002106,0.025430
+e2e_td,marginal,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V3,674,674,549,125,0,549,12,1.000000,1.000000,1.000000,0.096000,0.000000,0.258065
+e2e_td,marginal,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,all,9507,9507,550,8957,0,550,12,1.000000,1.000000,1.000000,0.001340,0.000000,0.003388
+e2e_td,marginal,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,benign,9860,9860,0,9860,0,0,16,,,,0.001623,0.000000,0.004984
+e2e_td,marginal,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V3,2454,2454,2206,248,0,2206,98,1.000000,1.000000,1.000000,0.395161,0.113208,0.585256
+e2e_td,marginal,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,all,27705,27705,2207,25498,0,2207,114,1.000000,1.000000,1.000000,0.004471,0.001150,0.008706
+e2e_td,marginal,empty,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT-M|D-REL2,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,benign,4904,4904,0,4904,0,0,16,,,,0.003263,0.000000,0.010044
+e2e_td,marginal,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V3,1776,1776,1657,119,0,1657,86,1.000000,1.000000,1.000000,0.722689,0.153846,0.882353
+e2e_td,marginal,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,all,9846,9846,1657,8189,0,1657,102,1.000000,1.000000,1.000000,0.012456,0.002106,0.025430
+e2e_td,marginal,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V3,674,674,549,125,0,549,12,1.000000,1.000000,1.000000,0.096000,0.000000,0.258065
+e2e_td,marginal,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.100000,all,9507,9507,550,8957,0,550,12,1.000000,1.000000,1.000000,0.001340,0.000000,0.003388
+e2e_td,marginal,all,at_delta,G-CERT,0.1,0.100000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT,0.1,0.100000,V3,2454,2454,2206,248,0,2206,32,1.000000,1.000000,1.000000,0.129032,0.000000,0.369942
+e2e_td,marginal,all,at_delta,G-CERT,0.1,0.100000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT,0.1,0.100000,all,27705,27705,2207,25498,0,2207,32,1.000000,1.000000,1.000000,0.001255,0.000000,0.003972
+e2e_td,marginal,empty,at_delta,G-CERT,0.1,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT,0.1,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,at_delta,G-CERT,0.1,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT,0.1,0.100000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT,0.1,0.100000,V3,1776,1776,1657,119,0,1657,32,1.000000,1.000000,1.000000,0.268908,0.000000,0.666667
+e2e_td,marginal,sequencing_only,at_delta,G-CERT,0.1,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT,0.1,0.100000,all,9846,9846,1657,8189,0,1657,32,1.000000,1.000000,1.000000,0.003908,0.000000,0.012524
+e2e_td,marginal,field_changing,at_delta,G-CERT,0.1,0.100000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT,0.1,0.100000,V3,674,674,549,125,0,549,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT,0.1,0.100000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT,0.1,0.100000,all,9507,9507,550,8957,0,550,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT-M,0.1,0.100000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT-M,0.1,0.100000,V3,2454,2454,2206,248,0,2206,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT-M,0.1,0.100000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT-M,0.1,0.100000,all,27705,27705,2207,25498,0,2207,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT-M,0.1,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT-M,0.1,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT-M,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,at_delta,G-CERT-M,0.1,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M,0.1,0.100000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M,0.1,0.100000,V3,1776,1776,1657,119,0,1657,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M,0.1,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M,0.1,0.100000,all,9846,9846,1657,8189,0,1657,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M,0.1,0.100000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M,0.1,0.100000,V3,674,674,549,125,0,549,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M,0.1,0.100000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M,0.1,0.100000,all,9507,9507,550,8957,0,550,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,D-REL1,0.1,0.100000,benign,9860,9860,0,9860,0,0,494,,,,0.050101,0.035165,0.065695
+e2e_td,marginal,all,at_delta,D-REL1,0.1,0.100000,V3,2454,2454,2206,248,0,2206,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,D-REL1,0.1,0.100000,V4qv,811,811,0,811,0,0,4,,,,0.004932,0.000000,0.016000
+e2e_td,marginal,all,at_delta,D-REL1,0.1,0.100000,all,27705,27705,2207,25498,0,2207,1115,1.000000,1.000000,1.000000,0.043729,0.032665,0.054950
+e2e_td,marginal,empty,at_delta,D-REL1,0.1,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,D-REL1,0.1,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,D-REL1,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,at_delta,D-REL1,0.1,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL1,0.1,0.100000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL1,0.1,0.100000,V3,1776,1776,1657,119,0,1657,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL1,0.1,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL1,0.1,0.100000,all,9846,9846,1657,8189,0,1657,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,D-REL1,0.1,0.100000,benign,4791,4791,0,4791,0,0,494,,,,0.103110,0.073339,0.134105
+e2e_td,marginal,field_changing,at_delta,D-REL1,0.1,0.100000,V3,674,674,549,125,0,549,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,D-REL1,0.1,0.100000,V4qv,7,7,0,7,0,0,4,,,,0.571429,0.000000,1.000000
+e2e_td,marginal,field_changing,at_delta,D-REL1,0.1,0.100000,all,9507,9507,550,8957,0,550,1115,1.000000,1.000000,1.000000,0.124484,0.093504,0.155678
+e2e_td,marginal,all,at_delta,D-REL2,0.1,0.100000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,D-REL2,0.1,0.100000,V3,2454,2454,2206,248,0,2206,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,D-REL2,0.1,0.100000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,D-REL2,0.1,0.100000,all,27705,27705,2207,25498,0,2207,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,D-REL2,0.1,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,D-REL2,0.1,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,D-REL2,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,at_delta,D-REL2,0.1,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL2,0.1,0.100000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL2,0.1,0.100000,V3,1776,1776,1657,119,0,1657,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL2,0.1,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL2,0.1,0.100000,all,9846,9846,1657,8189,0,1657,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,D-REL2,0.1,0.100000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,D-REL2,0.1,0.100000,V3,674,674,549,125,0,549,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,D-REL2,0.1,0.100000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,D-REL2,0.1,0.100000,all,9507,9507,550,8957,0,550,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V3,2454,2454,2206,248,0,2206,32,1.000000,1.000000,1.000000,0.129032,0.000000,0.369942
+e2e_td,marginal,all,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,all,27705,27705,2207,25498,0,2207,32,1.000000,1.000000,1.000000,0.001255,0.000000,0.003972
+e2e_td,marginal,empty,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT|D-REL2,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V3,1776,1776,1657,119,0,1657,32,1.000000,1.000000,1.000000,0.268908,0.000000,0.666667
+e2e_td,marginal,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,all,9846,9846,1657,8189,0,1657,32,1.000000,1.000000,1.000000,0.003908,0.000000,0.012524
+e2e_td,marginal,field_changing,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V3,674,674,549,125,0,549,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,all,9507,9507,550,8957,0,550,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V3,2454,2454,2206,248,0,2206,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,all,27705,27705,2207,25498,0,2207,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT-M|D-REL2,,0.100000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V3,1776,1776,1657,119,0,1657,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,all,9846,9846,1657,8189,0,1657,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V3,674,674,549,125,0,549,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.1; D-REL2 theta=0.1,0.100000,all,9507,9507,550,8957,0,550,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT,0.2,0.200000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT,0.2,0.200000,V3,2454,2454,2071,383,0,2071,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT,0.2,0.200000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT,0.2,0.200000,all,27705,27705,2072,25633,0,2072,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT,0.2,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT,0.2,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,published,G-CERT,0.2,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT,0.2,0.200000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT,0.2,0.200000,V3,1776,1776,1530,246,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT,0.2,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT,0.2,0.200000,all,9846,9846,1530,8316,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT,0.2,0.200000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT,0.2,0.200000,V3,674,674,541,133,0,541,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT,0.2,0.200000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT,0.2,0.200000,all,9507,9507,542,8965,0,542,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT-M,0.2,0.200000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT-M,0.2,0.200000,V3,2454,2454,2071,383,0,2071,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT-M,0.2,0.200000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT-M,0.2,0.200000,all,27705,27705,2072,25633,0,2072,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT-M,0.2,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT-M,0.2,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT-M,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,published,G-CERT-M,0.2,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT-M,0.2,0.200000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT-M,0.2,0.200000,V3,1776,1776,1530,246,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT-M,0.2,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT-M,0.2,0.200000,all,9846,9846,1530,8316,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT-M,0.2,0.200000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT-M,0.2,0.200000,V3,674,674,541,133,0,541,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT-M,0.2,0.200000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT-M,0.2,0.200000,all,9507,9507,542,8965,0,542,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,D-REL1,0.02,0.200000,benign,9860,9860,0,9860,0,0,543,,,,0.055071,0.039974,0.070897
+e2e_td,marginal,all,published,D-REL1,0.02,0.200000,V3,2454,2454,2071,383,0,2071,233,1.000000,1.000000,1.000000,0.608355,0.400921,0.747438
+e2e_td,marginal,all,published,D-REL1,0.02,0.200000,V4qv,811,811,0,811,0,0,4,,,,0.004932,0.000000,0.016000
+e2e_td,marginal,all,published,D-REL1,0.02,0.200000,all,27705,27705,2072,25633,0,2072,1414,1.000000,1.000000,1.000000,0.055163,0.042579,0.068159
+e2e_td,marginal,empty,published,D-REL1,0.02,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,D-REL1,0.02,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,D-REL1,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,published,D-REL1,0.02,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,D-REL1,0.02,0.200000,benign,4904,4904,0,4904,0,0,16,,,,0.003263,0.000000,0.010044
+e2e_td,marginal,sequencing_only,published,D-REL1,0.02,0.200000,V3,1776,1776,1530,246,0,1530,213,1.000000,1.000000,1.000000,0.865854,0.693069,0.939069
+e2e_td,marginal,sequencing_only,published,D-REL1,0.02,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,D-REL1,0.02,0.200000,all,9846,9846,1530,8316,0,1530,229,1.000000,1.000000,1.000000,0.027537,0.011868,0.046329
+e2e_td,marginal,field_changing,published,D-REL1,0.02,0.200000,benign,4791,4791,0,4791,0,0,527,,,,0.109998,0.079218,0.141574
+e2e_td,marginal,field_changing,published,D-REL1,0.02,0.200000,V3,674,674,541,133,0,541,20,1.000000,1.000000,1.000000,0.150376,0.018404,0.333333
+e2e_td,marginal,field_changing,published,D-REL1,0.02,0.200000,V4qv,7,7,0,7,0,0,4,,,,0.571429,0.000000,1.000000
+e2e_td,marginal,field_changing,published,D-REL1,0.02,0.200000,all,9507,9507,542,8965,0,542,1185,1.000000,1.000000,1.000000,0.132181,0.099911,0.164483
+e2e_td,marginal,all,published,D-REL2,0.02,0.200000,benign,9860,9860,0,9860,0,0,16,,,,0.001623,0.000000,0.004984
+e2e_td,marginal,all,published,D-REL2,0.02,0.200000,V3,2454,2454,2071,383,0,2071,233,1.000000,1.000000,1.000000,0.608355,0.400921,0.747438
+e2e_td,marginal,all,published,D-REL2,0.02,0.200000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,D-REL2,0.02,0.200000,all,27705,27705,2072,25633,0,2072,249,1.000000,1.000000,1.000000,0.009714,0.004533,0.015899
+e2e_td,marginal,empty,published,D-REL2,0.02,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,D-REL2,0.02,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,D-REL2,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,published,D-REL2,0.02,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,D-REL2,0.02,0.200000,benign,4904,4904,0,4904,0,0,16,,,,0.003263,0.000000,0.010044
+e2e_td,marginal,sequencing_only,published,D-REL2,0.02,0.200000,V3,1776,1776,1530,246,0,1530,213,1.000000,1.000000,1.000000,0.865854,0.693069,0.939069
+e2e_td,marginal,sequencing_only,published,D-REL2,0.02,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,D-REL2,0.02,0.200000,all,9846,9846,1530,8316,0,1530,229,1.000000,1.000000,1.000000,0.027537,0.011868,0.046329
+e2e_td,marginal,field_changing,published,D-REL2,0.02,0.200000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,D-REL2,0.02,0.200000,V3,674,674,541,133,0,541,20,1.000000,1.000000,1.000000,0.150376,0.018404,0.333333
+e2e_td,marginal,field_changing,published,D-REL2,0.02,0.200000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,D-REL2,0.02,0.200000,all,9507,9507,542,8965,0,542,20,1.000000,1.000000,1.000000,0.002231,0.000231,0.004599
+e2e_td,marginal,all,published,D-ABS,0.8119,0.200000,benign,9860,9860,0,9860,0,0,562,,,,0.056998,0.041314,0.073219
+e2e_td,marginal,all,published,D-ABS,0.8119,0.200000,V3,2454,2454,2071,383,0,2071,246,1.000000,1.000000,1.000000,0.642298,0.435806,0.781081
+e2e_td,marginal,all,published,D-ABS,0.8119,0.200000,V4qv,811,811,0,811,0,0,4,,,,0.004932,0.000000,0.016000
+e2e_td,marginal,all,published,D-ABS,0.8119,0.200000,all,27705,27705,2072,25633,0,2072,1466,1.000000,1.000000,1.000000,0.057192,0.044052,0.070688
+e2e_td,marginal,empty,published,D-ABS,0.8119,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,D-ABS,0.8119,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,D-ABS,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,published,D-ABS,0.8119,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,D-ABS,0.8119,0.200000,benign,4904,4904,0,4904,0,0,32,,,,0.006525,0.000000,0.016116
+e2e_td,marginal,sequencing_only,published,D-ABS,0.8119,0.200000,V3,1776,1776,1530,246,0,1530,213,1.000000,1.000000,1.000000,0.865854,0.693069,0.939069
+e2e_td,marginal,sequencing_only,published,D-ABS,0.8119,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,D-ABS,0.8119,0.200000,all,9846,9846,1530,8316,0,1530,262,1.000000,1.000000,1.000000,0.031506,0.014641,0.051316
+e2e_td,marginal,field_changing,published,D-ABS,0.8119,0.200000,benign,4791,4791,0,4791,0,0,530,,,,0.110624,0.079721,0.142248
+e2e_td,marginal,field_changing,published,D-ABS,0.8119,0.200000,V3,674,674,541,133,0,541,33,1.000000,1.000000,1.000000,0.248120,0.082186,0.473684
+e2e_td,marginal,field_changing,published,D-ABS,0.8119,0.200000,V4qv,7,7,0,7,0,0,4,,,,0.571429,0.000000,1.000000
+e2e_td,marginal,field_changing,published,D-ABS,0.8119,0.200000,all,9507,9507,542,8965,0,542,1204,1.000000,1.000000,1.000000,0.134300,0.101409,0.167412
+e2e_td,marginal,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,benign,9860,9860,0,9860,0,0,16,,,,0.001623,0.000000,0.004984
+e2e_td,marginal,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V3,2454,2454,2071,383,0,2071,233,1.000000,1.000000,1.000000,0.608355,0.400921,0.747438
+e2e_td,marginal,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,all,27705,27705,2072,25633,0,2072,249,1.000000,1.000000,1.000000,0.009714,0.004533,0.015899
+e2e_td,marginal,empty,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT|D-REL2,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,benign,4904,4904,0,4904,0,0,16,,,,0.003263,0.000000,0.010044
+e2e_td,marginal,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V3,1776,1776,1530,246,0,1530,213,1.000000,1.000000,1.000000,0.865854,0.693069,0.939069
+e2e_td,marginal,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,all,9846,9846,1530,8316,0,1530,229,1.000000,1.000000,1.000000,0.027537,0.011868,0.046329
+e2e_td,marginal,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V3,674,674,541,133,0,541,20,1.000000,1.000000,1.000000,0.150376,0.018404,0.333333
+e2e_td,marginal,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,all,9507,9507,542,8965,0,542,20,1.000000,1.000000,1.000000,0.002231,0.000231,0.004599
+e2e_td,marginal,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,benign,9860,9860,0,9860,0,0,16,,,,0.001623,0.000000,0.004984
+e2e_td,marginal,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V3,2454,2454,2071,383,0,2071,233,1.000000,1.000000,1.000000,0.608355,0.400921,0.747438
+e2e_td,marginal,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,all,27705,27705,2072,25633,0,2072,249,1.000000,1.000000,1.000000,0.009714,0.004533,0.015899
+e2e_td,marginal,empty,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,published,G-CERT-M|D-REL2,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,benign,4904,4904,0,4904,0,0,16,,,,0.003263,0.000000,0.010044
+e2e_td,marginal,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V3,1776,1776,1530,246,0,1530,213,1.000000,1.000000,1.000000,0.865854,0.693069,0.939069
+e2e_td,marginal,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,all,9846,9846,1530,8316,0,1530,229,1.000000,1.000000,1.000000,0.027537,0.011868,0.046329
+e2e_td,marginal,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V3,674,674,541,133,0,541,20,1.000000,1.000000,1.000000,0.150376,0.018404,0.333333
+e2e_td,marginal,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,published,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.02,0.200000,all,9507,9507,542,8965,0,542,20,1.000000,1.000000,1.000000,0.002231,0.000231,0.004599
+e2e_td,marginal,all,at_delta,G-CERT,0.2,0.200000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT,0.2,0.200000,V3,2454,2454,2071,383,0,2071,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT,0.2,0.200000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT,0.2,0.200000,all,27705,27705,2072,25633,0,2072,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT,0.2,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT,0.2,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,at_delta,G-CERT,0.2,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT,0.2,0.200000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT,0.2,0.200000,V3,1776,1776,1530,246,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT,0.2,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT,0.2,0.200000,all,9846,9846,1530,8316,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT,0.2,0.200000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT,0.2,0.200000,V3,674,674,541,133,0,541,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT,0.2,0.200000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT,0.2,0.200000,all,9507,9507,542,8965,0,542,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT-M,0.2,0.200000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT-M,0.2,0.200000,V3,2454,2454,2071,383,0,2071,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT-M,0.2,0.200000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT-M,0.2,0.200000,all,27705,27705,2072,25633,0,2072,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT-M,0.2,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT-M,0.2,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT-M,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,at_delta,G-CERT-M,0.2,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M,0.2,0.200000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M,0.2,0.200000,V3,1776,1776,1530,246,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M,0.2,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M,0.2,0.200000,all,9846,9846,1530,8316,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M,0.2,0.200000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M,0.2,0.200000,V3,674,674,541,133,0,541,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M,0.2,0.200000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M,0.2,0.200000,all,9507,9507,542,8965,0,542,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,D-REL1,0.2,0.200000,benign,9860,9860,0,9860,0,0,472,,,,0.047870,0.033035,0.063334
+e2e_td,marginal,all,at_delta,D-REL1,0.2,0.200000,V3,2454,2454,2071,383,0,2071,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,D-REL1,0.2,0.200000,V4qv,811,811,0,811,0,0,4,,,,0.004932,0.000000,0.016000
+e2e_td,marginal,all,at_delta,D-REL1,0.2,0.200000,all,27705,27705,2072,25633,0,2072,1066,1.000000,1.000000,1.000000,0.041587,0.030701,0.052637
+e2e_td,marginal,empty,at_delta,D-REL1,0.2,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,D-REL1,0.2,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,D-REL1,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,at_delta,D-REL1,0.2,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL1,0.2,0.200000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL1,0.2,0.200000,V3,1776,1776,1530,246,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL1,0.2,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL1,0.2,0.200000,all,9846,9846,1530,8316,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,D-REL1,0.2,0.200000,benign,4791,4791,0,4791,0,0,472,,,,0.098518,0.068900,0.129193
+e2e_td,marginal,field_changing,at_delta,D-REL1,0.2,0.200000,V3,674,674,541,133,0,541,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,D-REL1,0.2,0.200000,V4qv,7,7,0,7,0,0,4,,,,0.571429,0.000000,1.000000
+e2e_td,marginal,field_changing,at_delta,D-REL1,0.2,0.200000,all,9507,9507,542,8965,0,542,1066,1.000000,1.000000,1.000000,0.118907,0.088029,0.150229
+e2e_td,marginal,all,at_delta,D-REL2,0.2,0.200000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,D-REL2,0.2,0.200000,V3,2454,2454,2071,383,0,2071,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,D-REL2,0.2,0.200000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,D-REL2,0.2,0.200000,all,27705,27705,2072,25633,0,2072,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,D-REL2,0.2,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,D-REL2,0.2,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,D-REL2,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,at_delta,D-REL2,0.2,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL2,0.2,0.200000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL2,0.2,0.200000,V3,1776,1776,1530,246,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL2,0.2,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,D-REL2,0.2,0.200000,all,9846,9846,1530,8316,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,D-REL2,0.2,0.200000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,D-REL2,0.2,0.200000,V3,674,674,541,133,0,541,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,D-REL2,0.2,0.200000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,D-REL2,0.2,0.200000,all,9507,9507,542,8965,0,542,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V3,2454,2454,2071,383,0,2071,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,all,27705,27705,2072,25633,0,2072,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT|D-REL2,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V3,1776,1776,1530,246,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,all,9846,9846,1530,8316,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V3,674,674,541,133,0,541,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,all,9507,9507,542,8965,0,542,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,benign,9860,9860,0,9860,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V3,2454,2454,2071,383,0,2071,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V4qv,811,811,0,811,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,all,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,all,27705,27705,2072,25633,0,2072,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,benign,165,165,0,165,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V3,4,4,0,4,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,empty,at_delta,G-CERT-M|D-REL2,,0.200000,V4qv,0,0,0,0,0,0,0,,,,,,
+e2e_td,marginal,empty,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,all,8352,8352,0,8352,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,benign,4904,4904,0,4904,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V3,1776,1776,1530,246,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V4qv,804,804,0,804,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,sequencing_only,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,all,9846,9846,1530,8316,0,1530,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,benign,4791,4791,0,4791,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V3,674,674,541,133,0,541,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,V4qv,7,7,0,7,0,0,0,,,,0.000000,0.000000,0.000000
+e2e_td,marginal,field_changing,at_delta,G-CERT-M|D-REL2,tau=0.2; D-REL2 theta=0.2,0.200000,all,9507,9507,542,8965,0,542,0,1.000000,1.000000,1.000000,0.000000,0.000000,0.000000

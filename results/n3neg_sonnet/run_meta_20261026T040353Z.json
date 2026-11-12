@@ -1,0 +1,104 @@
+{
+ "date": "2026-10-26 12:03:53 +08",
+ "analysis": "N3 stated acceptance of cost, protocol v1.1.0",
+ "arm": "sonnet",
+ "model": "claude-sonnet-5",
+ "backend": "anthropic",
+ "wire": "anthropic",
+ "modes": [
+  "M_constrained"
+ ],
+ "thinking": [
+  "disabled"
+ ],
+ "thinking_bodies": {
+  "disabled": {
+   "thinking": {
+    "type": "disabled"
+   }
+  }
+ },
+ "repeats": 2,
+ "items": 220,
+ "groups": 56,
+ "item_set_counts": {
+  "costly_negated": 220
+ },
+ "max_tokens": 4096,
+ "workers": 8,
+ "timeout_s": 240.0,
+ "max_retries": 4,
+ "suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+ "suite_ext_sha256": "2bc5789a3d15aca0e97991407622dabbb9d225d38c3eb69096044844b30f38c5",
+ "suite_ext_manifest_sha256": "d95d212ea8e4b96ca825d7112242a5f67dca60ca3308546e6474c58895e48083",
+ "item_sets": [
+  "costly_negated"
+ ],
+ "suite_ext_neg_sha256": "5205e34621fa60a816c9ecdda145fbf3ecab71d952ada684fa084c27469dfb02",
+ "suite_ext_neg_manifest_sha256": "f0baa4c33df5a8520f66e11fff7775ac697e79d63e03a16a14f5041a6b9ec877",
+ "schema_sha256": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+ "schema_v11_sha256": "8b9b11a333a27462bd0c5b95e1c79f733f43a6ba9b2ff7fa0058e90b5b7ed1fb",
+ "schema_version": "l1-adjustments-1.1.0",
+ "wire_schema": "canonical",
+ "wire_schema_sha256": "5ad0955a2b089e24261db02ed05bbd27977854c70090716fb47b5956a8e97924",
+ "prompt_version": "l1-prompt-1.1.0",
+ "top_k": 10,
+ "system_prompt_sha256": "61772d15677e5edf095a539be8afc4dcf43c9fb5c272cb92e49800bd543cfd28",
+ "prompt_checks": {
+  "v10_hash_equal": 220,
+  "v10_hash_absent": 0,
+  "user_equal_v10": 220,
+  "twin_user_equal": 0,
+  "neg_twin_user_equal": 220,
+  "twins_rendered_for_check": 220
+ },
+ "instance_root": "${L1_Y1_ROOT}/data/processed/instances_v10",
+ "cache_boundary": "\n\nWork orders this request refers to:",
+ "mock": false,
+ "interrupted": false,
+ "planned_calls": 440,
+ "rows_written": 440,
+ "wall_s": 342.15851244330406,
+ "price_base": "standard (from 2026-09-01)",
+ "price_date": "2026-08-11",
+ "usd_projected": {
+  "standard (from 2026-09-01)": {
+   "pilot": 3.1754845187500003,
+   "3x_out": 3.66388451875
+  },
+  "intro (through 2026-08-31)": {
+   "pilot": 2.1169896791666667,
+   "3x_out": 2.442589679166667
+  },
+  "e1_measured": {
+   "source": "./results/grid_e1_hosted_sonnet/proposals_raw.dedup.jsonl",
+   "borrowed_modes": [],
+   "usd": {
+    "standard (from 2026-09-01)": 1.9650998729999967,
+    "intro (through 2026-08-31)": 1.3100665819999997
+   }
+  }
+ },
+ "usd_estimated": 2.3601159000000003,
+ "per_config": {
+  "M_constrained|disabled|r0": {
+   "calls": 220,
+   "ok": 220,
+   "error": 0,
+   "other": 0,
+   "usd": 1.4505378000000002,
+   "out_tokens": 16326,
+   "latency_ms": 347902.5785597041
+  },
+  "M_constrained|disabled|r1": {
+   "calls": 220,
+   "ok": 220,
+   "error": 0,
+   "other": 0,
+   "usd": 0.9095781000000001,
+   "out_tokens": 16493,
+   "latency_ms": 355805.290996097
+  }
+ },
+ "dedupe_rule": "last row per (arm, mode, thinking, repeat, item_id) wins; an earlier row for a key is a superseded API error"
+}

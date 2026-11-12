@@ -1,0 +1,1180 @@
+{
+ "by_group": {
+  "CELL": 18,
+  "CONTROL": 13,
+  "IDENT": 10938,
+  "INGEST": 43158,
+  "INPUT": 8,
+  "KNOWN": 18,
+  "MACRO": 198,
+  "REPLAY": 10934,
+  "ROWS": 290871,
+  "TAB6": 48,
+  "TWIN": 10938
+ },
+ "failures": [],
+ "macros": [
+  {
+   "computed": "80",
+   "macro": "nElevenDanglingSonnetRows",
+   "published": "80",
+   "side": "published files"
+  },
+  {
+   "computed": "2{,}855",
+   "macro": "nElevenDanglingSonnetWithOps",
+   "published": "2{,}855",
+   "side": "published files"
+  },
+  {
+   "computed": "2.8\\%",
+   "macro": "nElevenDanglingSonnetShare",
+   "published": "2.8\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "0.6\\%",
+   "macro": "nElevenTabEOneSonnetVThreeFeas",
+   "published": "0.6\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "83.8\\%",
+   "macro": "nElevenTabEOneSonnetVThreeReferred",
+   "published": "83.8\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "0.0\\%",
+   "macro": "nElevenTabEOneSonnetVFour",
+   "published": "0.0\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "8.0\\%",
+   "macro": "nElevenTabEOneSonnetVFive",
+   "published": "8.0\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "9.2\\%",
+   "macro": "nElevenTabEOneSonnetVSix",
+   "published": "9.2\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "1.5\\%",
+   "macro": "nElevenTabEOneSonnetBenignFeas",
+   "published": "1.5\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "1.5\\%",
+   "macro": "nElevenTabEOneSonnetBenignCert",
+   "published": "1.5\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "89.0\\%",
+   "macro": "nElevenTabEOneSonnetVThreeFidelity",
+   "published": "89.0\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "154",
+   "macro": "nSixteenFidelitySonnetN",
+   "published": "154",
+   "side": "published files"
+  },
+  {
+   "computed": "137",
+   "macro": "nSixteenFidelitySonnetCount",
+   "published": "137",
+   "side": "published files"
+  },
+  {
+   "computed": "89.0\\%",
+   "macro": "nSixteenFidelitySonnetShare",
+   "published": "89.0\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "274",
+   "macro": "nSixteenFSonnetSameN",
+   "published": "274",
+   "side": "published files"
+  },
+  {
+   "computed": "248",
+   "macro": "nSixteenFSonnetSameReferred",
+   "published": "248",
+   "side": "published files"
+  },
+  {
+   "computed": "90.5\\%",
+   "macro": "nSixteenFSonnetSameShare",
+   "published": "90.5\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "32",
+   "macro": "nSixteenFSonnetDiffN",
+   "published": "32",
+   "side": "published files"
+  },
+  {
+   "computed": "10",
+   "macro": "nSixteenFSonnetDiffReferred",
+   "published": "10",
+   "side": "published files"
+  },
+  {
+   "computed": "31.2\\%",
+   "macro": "nSixteenFSonnetDiffShare",
+   "published": "31.2\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "3{,}446",
+   "macro": "nSixteenLlmSonnetRows",
+   "published": "3{,}446",
+   "side": "published files"
+  },
+  {
+   "computed": "1{,}081",
+   "macro": "nSixteenLlmSonnetApplied",
+   "published": "1{,}081",
+   "side": "published files"
+  },
+  {
+   "computed": "1",
+   "macro": "nSixteenLlmSonnetBig",
+   "published": "1",
+   "side": "published files"
+  },
+  {
+   "computed": "1",
+   "macro": "nSixteenLlmSonnetBigSecond",
+   "published": "1",
+   "side": "published files"
+  },
+  {
+   "computed": "1",
+   "macro": "nSixteenLlmSonnetCostlyTwenty",
+   "published": "1",
+   "side": "published files"
+  },
+  {
+   "computed": "1",
+   "macro": "nSixteenLlmSonnetCostlySecondTwenty",
+   "published": "1",
+   "side": "published files"
+  },
+  {
+   "computed": "1{,}080",
+   "macro": "nSixteenLlmSonnetLowTwenty",
+   "published": "1{,}080",
+   "side": "published files"
+  },
+  {
+   "computed": "2",
+   "macro": "nSixteenLlmSonnetLowSecondTwenty",
+   "published": "2",
+   "side": "published files"
+  },
+  {
+   "computed": "0.06",
+   "macro": "nSixteenLlmSonnetLowSecondPerHundredTwenty",
+   "published": "0.06",
+   "side": "published files"
+  },
+  {
+   "computed": "1",
+   "macro": "nSixteenLlmSonnetCostlyTen",
+   "published": "1",
+   "side": "published files"
+  },
+  {
+   "computed": "1",
+   "macro": "nSixteenLlmSonnetCostlySecondTen",
+   "published": "1",
+   "side": "published files"
+  },
+  {
+   "computed": "1{,}080",
+   "macro": "nSixteenLlmSonnetLowTen",
+   "published": "1{,}080",
+   "side": "published files"
+  },
+  {
+   "computed": "2",
+   "macro": "nSixteenLlmSonnetLowSecondTen",
+   "published": "2",
+   "side": "published files"
+  },
+  {
+   "computed": "0.06",
+   "macro": "nSixteenLlmSonnetLowSecondPerHundredTen",
+   "published": "0.06",
+   "side": "published files"
+  },
+  {
+   "computed": "+25.78",
+   "macro": "nThirteenAEOneSonnetFeasDamage",
+   "published": "+25.78",
+   "side": "published files"
+  },
+  {
+   "computed": "+19.72",
+   "macro": "nThirteenAEOneSonnetFeasDamageLo",
+   "published": "+19.72",
+   "side": "published files"
+  },
+  {
+   "computed": "+32.68",
+   "macro": "nThirteenAEOneSonnetFeasDamageHi",
+   "published": "+32.68",
+   "side": "published files"
+  },
+  {
+   "computed": "+0.32",
+   "macro": "nThirteenAEOneSonnetCertRejectAllDamage",
+   "published": "+0.32",
+   "side": "published files"
+  },
+  {
+   "computed": "+0.07",
+   "macro": "nThirteenAEOneSonnetCertRejectAllDamageLo",
+   "published": "+0.07",
+   "side": "published files"
+  },
+  {
+   "computed": "+0.69",
+   "macro": "nThirteenAEOneSonnetCertRejectAllDamageHi",
+   "published": "+0.69",
+   "side": "published files"
+  },
+  {
+   "computed": "+25.78",
+   "macro": "nThirteenAEOneSonnetCertApproveAllDamage",
+   "published": "+25.78",
+   "side": "published files"
+  },
+  {
+   "computed": "+19.72",
+   "macro": "nThirteenAEOneSonnetCertApproveAllDamageLo",
+   "published": "+19.72",
+   "side": "published files"
+  },
+  {
+   "computed": "+32.68",
+   "macro": "nThirteenAEOneSonnetCertApproveAllDamageHi",
+   "published": "+32.68",
+   "side": "published files"
+  },
+  {
+   "computed": "+0.32",
+   "macro": "nThirteenAEOneSonnetCertMRejectAllDamage",
+   "published": "+0.32",
+   "side": "published files"
+  },
+  {
+   "computed": "+0.07",
+   "macro": "nThirteenAEOneSonnetCertMRejectAllDamageLo",
+   "published": "+0.07",
+   "side": "published files"
+  },
+  {
+   "computed": "+0.69",
+   "macro": "nThirteenAEOneSonnetCertMRejectAllDamageHi",
+   "published": "+0.69",
+   "side": "published files"
+  },
+  {
+   "computed": "+25.78",
+   "macro": "nThirteenAEOneSonnetCertMApproveAllDamage",
+   "published": "+25.78",
+   "side": "published files"
+  },
+  {
+   "computed": "+19.72",
+   "macro": "nThirteenAEOneSonnetCertMApproveAllDamageLo",
+   "published": "+19.72",
+   "side": "published files"
+  },
+  {
+   "computed": "+32.68",
+   "macro": "nThirteenAEOneSonnetCertMApproveAllDamageHi",
+   "published": "+32.68",
+   "side": "published files"
+  },
+  {
+   "computed": "+288.69",
+   "macro": "nThirteenAEOneSonnetVThreeFeasDamage",
+   "published": "+288.69",
+   "side": "published files"
+  },
+  {
+   "computed": "+224.87",
+   "macro": "nThirteenAEOneSonnetVThreeFeasDamageLo",
+   "published": "+224.87",
+   "side": "published files"
+  },
+  {
+   "computed": "+356.87",
+   "macro": "nThirteenAEOneSonnetVThreeFeasDamageHi",
+   "published": "+356.87",
+   "side": "published files"
+  },
+  {
+   "computed": "+3.86",
+   "macro": "nThirteenAEOneSonnetVThreeCertRejectAllDamage",
+   "published": "+3.86",
+   "side": "published files"
+  },
+  {
+   "computed": "+1.11",
+   "macro": "nThirteenAEOneSonnetVThreeCertRejectAllDamageLo",
+   "published": "+1.11",
+   "side": "published files"
+  },
+  {
+   "computed": "+7.81",
+   "macro": "nThirteenAEOneSonnetVThreeCertRejectAllDamageHi",
+   "published": "+7.81",
+   "side": "published files"
+  },
+  {
+   "computed": "+288.69",
+   "macro": "nThirteenAEOneSonnetVThreeCertApproveAllDamage",
+   "published": "+288.69",
+   "side": "published files"
+  },
+  {
+   "computed": "+224.87",
+   "macro": "nThirteenAEOneSonnetVThreeCertApproveAllDamageLo",
+   "published": "+224.87",
+   "side": "published files"
+  },
+  {
+   "computed": "+356.87",
+   "macro": "nThirteenAEOneSonnetVThreeCertApproveAllDamageHi",
+   "published": "+356.87",
+   "side": "published files"
+  },
+  {
+   "computed": "+3.86",
+   "macro": "nThirteenAEOneSonnetVThreeCertMRejectAllDamage",
+   "published": "+3.86",
+   "side": "published files"
+  },
+  {
+   "computed": "+1.11",
+   "macro": "nThirteenAEOneSonnetVThreeCertMRejectAllDamageLo",
+   "published": "+1.11",
+   "side": "published files"
+  },
+  {
+   "computed": "+7.81",
+   "macro": "nThirteenAEOneSonnetVThreeCertMRejectAllDamageHi",
+   "published": "+7.81",
+   "side": "published files"
+  },
+  {
+   "computed": "+288.69",
+   "macro": "nThirteenAEOneSonnetVThreeCertMApproveAllDamage",
+   "published": "+288.69",
+   "side": "published files"
+  },
+  {
+   "computed": "+224.87",
+   "macro": "nThirteenAEOneSonnetVThreeCertMApproveAllDamageLo",
+   "published": "+224.87",
+   "side": "published files"
+  },
+  {
+   "computed": "+356.87",
+   "macro": "nThirteenAEOneSonnetVThreeCertMApproveAllDamageHi",
+   "published": "+356.87",
+   "side": "published files"
+  },
+  {
+   "computed": "7.5",
+   "macro": "nThirteenAEOneSonnetCertReferralsPerHundred",
+   "published": "7.5",
+   "side": "published files"
+  },
+  {
+   "computed": "7.5",
+   "macro": "nThirteenAEOneSonnetCertMReferralsPerHundred",
+   "published": "7.5",
+   "side": "published files"
+  },
+  {
+   "computed": "65",
+   "macro": "nElevenDanglingOpusRows",
+   "published": "65",
+   "side": "published files"
+  },
+  {
+   "computed": "5{,}374",
+   "macro": "nElevenDanglingOpusWithOps",
+   "published": "5{,}374",
+   "side": "published files"
+  },
+  {
+   "computed": "1.2\\%",
+   "macro": "nElevenDanglingOpusShare",
+   "published": "1.2\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "0.0\\%",
+   "macro": "nElevenTabEOneOpusVThreeFeas",
+   "published": "0.0\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "90.3\\%",
+   "macro": "nElevenTabEOneOpusVThreeReferred",
+   "published": "90.3\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "0.0\\%",
+   "macro": "nElevenTabEOneOpusVFour",
+   "published": "0.0\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "0.5\\%",
+   "macro": "nElevenTabEOneOpusVFive",
+   "published": "0.5\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "6.0\\%",
+   "macro": "nElevenTabEOneOpusVSix",
+   "published": "6.0\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "1.7\\%",
+   "macro": "nElevenTabEOneOpusBenignFeas",
+   "published": "1.7\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "1.7\\%",
+   "macro": "nElevenTabEOneOpusBenignCert",
+   "published": "1.7\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "154",
+   "macro": "nSixteenFidelityOpusN",
+   "published": "154",
+   "side": "published files"
+  },
+  {
+   "computed": "147",
+   "macro": "nSixteenFidelityOpusCount",
+   "published": "147",
+   "side": "published files"
+  },
+  {
+   "computed": "95.5\\%",
+   "macro": "nSixteenFidelityOpusShare",
+   "published": "95.5\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "294",
+   "macro": "nSixteenFOpusSameN",
+   "published": "294",
+   "side": "published files"
+  },
+  {
+   "computed": "268",
+   "macro": "nSixteenFOpusSameReferred",
+   "published": "268",
+   "side": "published files"
+  },
+  {
+   "computed": "91.2\\%",
+   "macro": "nSixteenFOpusSameShare",
+   "published": "91.2\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "14",
+   "macro": "nSixteenFOpusDiffN",
+   "published": "14",
+   "side": "published files"
+  },
+  {
+   "computed": "10",
+   "macro": "nSixteenFOpusDiffReferred",
+   "published": "10",
+   "side": "published files"
+  },
+  {
+   "computed": "71.4\\%",
+   "macro": "nSixteenFOpusDiffShare",
+   "published": "71.4\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "3{,}446",
+   "macro": "nSixteenLlmOpusRows",
+   "published": "3{,}446",
+   "side": "published files"
+  },
+  {
+   "computed": "1{,}093",
+   "macro": "nSixteenLlmOpusApplied",
+   "published": "1{,}093",
+   "side": "published files"
+  },
+  {
+   "computed": "6",
+   "macro": "nSixteenLlmOpusBig",
+   "published": "6",
+   "side": "published files"
+  },
+  {
+   "computed": "6",
+   "macro": "nSixteenLlmOpusBigSecond",
+   "published": "6",
+   "side": "published files"
+  },
+  {
+   "computed": "2",
+   "macro": "nSixteenLlmOpusCostlyTwenty",
+   "published": "2",
+   "side": "published files"
+  },
+  {
+   "computed": "2",
+   "macro": "nSixteenLlmOpusCostlySecondTwenty",
+   "published": "2",
+   "side": "published files"
+  },
+  {
+   "computed": "1{,}091",
+   "macro": "nSixteenLlmOpusLowTwenty",
+   "published": "1{,}091",
+   "side": "published files"
+  },
+  {
+   "computed": "6",
+   "macro": "nSixteenLlmOpusLowSecondTwenty",
+   "published": "6",
+   "side": "published files"
+  },
+  {
+   "computed": "0.17",
+   "macro": "nSixteenLlmOpusLowSecondPerHundredTwenty",
+   "published": "0.17",
+   "side": "published files"
+  },
+  {
+   "computed": "2",
+   "macro": "nSixteenLlmOpusCostlyTen",
+   "published": "2",
+   "side": "published files"
+  },
+  {
+   "computed": "2",
+   "macro": "nSixteenLlmOpusCostlySecondTen",
+   "published": "2",
+   "side": "published files"
+  },
+  {
+   "computed": "1{,}091",
+   "macro": "nSixteenLlmOpusLowTen",
+   "published": "1{,}091",
+   "side": "published files"
+  },
+  {
+   "computed": "6",
+   "macro": "nSixteenLlmOpusLowSecondTen",
+   "published": "6",
+   "side": "published files"
+  },
+  {
+   "computed": "0.17",
+   "macro": "nSixteenLlmOpusLowSecondPerHundredTen",
+   "published": "0.17",
+   "side": "published files"
+  },
+  {
+   "computed": "+28.81",
+   "macro": "nThirteenAEOneOpusFeasDamage",
+   "published": "+28.81",
+   "side": "published files"
+  },
+  {
+   "computed": "+22.09",
+   "macro": "nThirteenAEOneOpusFeasDamageLo",
+   "published": "+22.09",
+   "side": "published files"
+  },
+  {
+   "computed": "+36.17",
+   "macro": "nThirteenAEOneOpusFeasDamageHi",
+   "published": "+36.17",
+   "side": "published files"
+  },
+  {
+   "computed": "+0.42",
+   "macro": "nThirteenAEOneOpusCertRejectAllDamage",
+   "published": "+0.42",
+   "side": "published files"
+  },
+  {
+   "computed": "+0.13",
+   "macro": "nThirteenAEOneOpusCertRejectAllDamageLo",
+   "published": "+0.13",
+   "side": "published files"
+  },
+  {
+   "computed": "+0.80",
+   "macro": "nThirteenAEOneOpusCertRejectAllDamageHi",
+   "published": "+0.80",
+   "side": "published files"
+  },
+  {
+   "computed": "+28.81",
+   "macro": "nThirteenAEOneOpusCertApproveAllDamage",
+   "published": "+28.81",
+   "side": "published files"
+  },
+  {
+   "computed": "+22.09",
+   "macro": "nThirteenAEOneOpusCertApproveAllDamageLo",
+   "published": "+22.09",
+   "side": "published files"
+  },
+  {
+   "computed": "+36.17",
+   "macro": "nThirteenAEOneOpusCertApproveAllDamageHi",
+   "published": "+36.17",
+   "side": "published files"
+  },
+  {
+   "computed": "+0.42",
+   "macro": "nThirteenAEOneOpusCertMRejectAllDamage",
+   "published": "+0.42",
+   "side": "published files"
+  },
+  {
+   "computed": "+0.13",
+   "macro": "nThirteenAEOneOpusCertMRejectAllDamageLo",
+   "published": "+0.13",
+   "side": "published files"
+  },
+  {
+   "computed": "+0.80",
+   "macro": "nThirteenAEOneOpusCertMRejectAllDamageHi",
+   "published": "+0.80",
+   "side": "published files"
+  },
+  {
+   "computed": "+28.81",
+   "macro": "nThirteenAEOneOpusCertMApproveAllDamage",
+   "published": "+28.81",
+   "side": "published files"
+  },
+  {
+   "computed": "+22.09",
+   "macro": "nThirteenAEOneOpusCertMApproveAllDamageLo",
+   "published": "+22.09",
+   "side": "published files"
+  },
+  {
+   "computed": "+36.17",
+   "macro": "nThirteenAEOneOpusCertMApproveAllDamageHi",
+   "published": "+36.17",
+   "side": "published files"
+  },
+  {
+   "computed": "+322.30",
+   "macro": "nThirteenAEOneOpusVThreeFeasDamage",
+   "published": "+322.30",
+   "side": "published files"
+  },
+  {
+   "computed": "+251.60",
+   "macro": "nThirteenAEOneOpusVThreeFeasDamageLo",
+   "published": "+251.60",
+   "side": "published files"
+  },
+  {
+   "computed": "+396.47",
+   "macro": "nThirteenAEOneOpusVThreeFeasDamageHi",
+   "published": "+396.47",
+   "side": "published files"
+  },
+  {
+   "computed": "+4.69",
+   "macro": "nThirteenAEOneOpusVThreeCertRejectAllDamage",
+   "published": "+4.69",
+   "side": "published files"
+  },
+  {
+   "computed": "+1.56",
+   "macro": "nThirteenAEOneOpusVThreeCertRejectAllDamageLo",
+   "published": "+1.56",
+   "side": "published files"
+  },
+  {
+   "computed": "+8.86",
+   "macro": "nThirteenAEOneOpusVThreeCertRejectAllDamageHi",
+   "published": "+8.86",
+   "side": "published files"
+  },
+  {
+   "computed": "+322.30",
+   "macro": "nThirteenAEOneOpusVThreeCertApproveAllDamage",
+   "published": "+322.30",
+   "side": "published files"
+  },
+  {
+   "computed": "+251.60",
+   "macro": "nThirteenAEOneOpusVThreeCertApproveAllDamageLo",
+   "published": "+251.60",
+   "side": "published files"
+  },
+  {
+   "computed": "+396.47",
+   "macro": "nThirteenAEOneOpusVThreeCertApproveAllDamageHi",
+   "published": "+396.47",
+   "side": "published files"
+  },
+  {
+   "computed": "+4.69",
+   "macro": "nThirteenAEOneOpusVThreeCertMRejectAllDamage",
+   "published": "+4.69",
+   "side": "published files"
+  },
+  {
+   "computed": "+1.56",
+   "macro": "nThirteenAEOneOpusVThreeCertMRejectAllDamageLo",
+   "published": "+1.56",
+   "side": "published files"
+  },
+  {
+   "computed": "+8.86",
+   "macro": "nThirteenAEOneOpusVThreeCertMRejectAllDamageHi",
+   "published": "+8.86",
+   "side": "published files"
+  },
+  {
+   "computed": "+322.30",
+   "macro": "nThirteenAEOneOpusVThreeCertMApproveAllDamage",
+   "published": "+322.30",
+   "side": "published files"
+  },
+  {
+   "computed": "+251.60",
+   "macro": "nThirteenAEOneOpusVThreeCertMApproveAllDamageLo",
+   "published": "+251.60",
+   "side": "published files"
+  },
+  {
+   "computed": "+396.47",
+   "macro": "nThirteenAEOneOpusVThreeCertMApproveAllDamageHi",
+   "published": "+396.47",
+   "side": "published files"
+  },
+  {
+   "computed": "8.1",
+   "macro": "nThirteenAEOneOpusCertReferralsPerHundred",
+   "published": "8.1",
+   "side": "published files"
+  },
+  {
+   "computed": "8.1",
+   "macro": "nThirteenAEOneOpusCertMReferralsPerHundred",
+   "published": "8.1",
+   "side": "published files"
+  },
+  {
+   "computed": "0.0\\%",
+   "macro": "nElevenTabEOneOpusNoThinkVThreeFeas",
+   "published": "0.0\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "89.6\\%",
+   "macro": "nElevenTabEOneOpusNoThinkVThreeReferred",
+   "published": "89.6\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "0.0\\%",
+   "macro": "nElevenTabEOneOpusNoThinkVFour",
+   "published": "0.0\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "1.2\\%",
+   "macro": "nElevenTabEOneOpusNoThinkVFive",
+   "published": "1.2\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "7.0\\%",
+   "macro": "nElevenTabEOneOpusNoThinkVSix",
+   "published": "7.0\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "3.0\\%",
+   "macro": "nElevenTabEOneOpusNoThinkBenignFeas",
+   "published": "3.0\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "3.0\\%",
+   "macro": "nElevenTabEOneOpusNoThinkBenignCert",
+   "published": "3.0\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "154",
+   "macro": "nSixteenFidelityOpusNoThinkN",
+   "published": "154",
+   "side": "published files"
+  },
+  {
+   "computed": "145",
+   "macro": "nSixteenFidelityOpusNoThinkCount",
+   "published": "145",
+   "side": "published files"
+  },
+  {
+   "computed": "94.2\\%",
+   "macro": "nSixteenFidelityOpusNoThinkShare",
+   "published": "94.2\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "292",
+   "macro": "nSixteenFOpusNoThinkSameN",
+   "published": "292",
+   "side": "published files"
+  },
+  {
+   "computed": "266",
+   "macro": "nSixteenFOpusNoThinkSameReferred",
+   "published": "266",
+   "side": "published files"
+  },
+  {
+   "computed": "91.1\\%",
+   "macro": "nSixteenFOpusNoThinkSameShare",
+   "published": "91.1\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "16",
+   "macro": "nSixteenFOpusNoThinkDiffN",
+   "published": "16",
+   "side": "published files"
+  },
+  {
+   "computed": "10",
+   "macro": "nSixteenFOpusNoThinkDiffReferred",
+   "published": "10",
+   "side": "published files"
+  },
+  {
+   "computed": "62.5\\%",
+   "macro": "nSixteenFOpusNoThinkDiffShare",
+   "published": "62.5\\%",
+   "side": "published files"
+  },
+  {
+   "computed": "3{,}446",
+   "macro": "nSixteenLlmOpusDisabledRows",
+   "published": "3{,}446",
+   "side": "published files"
+  },
+  {
+   "computed": "1{,}073",
+   "macro": "nSixteenLlmOpusDisabledApplied",
+   "published": "1{,}073",
+   "side": "published files"
+  },
+  {
+   "computed": "7",
+   "macro": "nSixteenLlmOpusDisabledBig",
+   "published": "7",
+   "side": "published files"
+  },
+  {
+   "computed": "7",
+   "macro": "nSixteenLlmOpusDisabledBigSecond",
+   "published": "7",
+   "side": "published files"
+  },
+  {
+   "computed": "3",
+   "macro": "nSixteenLlmOpusDisabledCostlyTwenty",
+   "published": "3",
+   "side": "published files"
+  },
+  {
+   "computed": "3",
+   "macro": "nSixteenLlmOpusDisabledCostlySecondTwenty",
+   "published": "3",
+   "side": "published files"
+  },
+  {
+   "computed": "1{,}070",
+   "macro": "nSixteenLlmOpusDisabledLowTwenty",
+   "published": "1{,}070",
+   "side": "published files"
+  },
+  {
+   "computed": "6",
+   "macro": "nSixteenLlmOpusDisabledLowSecondTwenty",
+   "published": "6",
+   "side": "published files"
+  },
+  {
+   "computed": "0.17",
+   "macro": "nSixteenLlmOpusDisabledLowSecondPerHundredTwenty",
+   "published": "0.17",
+   "side": "published files"
+  },
+  {
+   "computed": "4",
+   "macro": "nSixteenLlmOpusDisabledCostlyTen",
+   "published": "4",
+   "side": "published files"
+  },
+  {
+   "computed": "4",
+   "macro": "nSixteenLlmOpusDisabledCostlySecondTen",
+   "published": "4",
+   "side": "published files"
+  },
+  {
+   "computed": "1{,}069",
+   "macro": "nSixteenLlmOpusDisabledLowTen",
+   "published": "1{,}069",
+   "side": "published files"
+  },
+  {
+   "computed": "5",
+   "macro": "nSixteenLlmOpusDisabledLowSecondTen",
+   "published": "5",
+   "side": "published files"
+  },
+  {
+   "computed": "0.15",
+   "macro": "nSixteenLlmOpusDisabledLowSecondPerHundredTen",
+   "published": "0.15",
+   "side": "published files"
+  },
+  {
+   "computed": "+28.62",
+   "macro": "nThirteenAEOneOpusDisabledFeasDamage",
+   "published": "+28.62",
+   "side": "published files"
+  },
+  {
+   "computed": "+21.90",
+   "macro": "nThirteenAEOneOpusDisabledFeasDamageLo",
+   "published": "+21.90",
+   "side": "published files"
+  },
+  {
+   "computed": "+36.16",
+   "macro": "nThirteenAEOneOpusDisabledFeasDamageHi",
+   "published": "+36.16",
+   "side": "published files"
+  },
+  {
+   "computed": "+0.53",
+   "macro": "nThirteenAEOneOpusDisabledCertRejectAllDamage",
+   "published": "+0.53",
+   "side": "published files"
+  },
+  {
+   "computed": "+0.14",
+   "macro": "nThirteenAEOneOpusDisabledCertRejectAllDamageLo",
+   "published": "+0.14",
+   "side": "published files"
+  },
+  {
+   "computed": "+1.12",
+   "macro": "nThirteenAEOneOpusDisabledCertRejectAllDamageHi",
+   "published": "+1.12",
+   "side": "published files"
+  },
+  {
+   "computed": "+28.62",
+   "macro": "nThirteenAEOneOpusDisabledCertApproveAllDamage",
+   "published": "+28.62",
+   "side": "published files"
+  },
+  {
+   "computed": "+21.90",
+   "macro": "nThirteenAEOneOpusDisabledCertApproveAllDamageLo",
+   "published": "+21.90",
+   "side": "published files"
+  },
+  {
+   "computed": "+36.16",
+   "macro": "nThirteenAEOneOpusDisabledCertApproveAllDamageHi",
+   "published": "+36.16",
+   "side": "published files"
+  },
+  {
+   "computed": "+0.53",
+   "macro": "nThirteenAEOneOpusDisabledCertMRejectAllDamage",
+   "published": "+0.53",
+   "side": "published files"
+  },
+  {
+   "computed": "+0.14",
+   "macro": "nThirteenAEOneOpusDisabledCertMRejectAllDamageLo",
+   "published": "+0.14",
+   "side": "published files"
+  },
+  {
+   "computed": "+1.12",
+   "macro": "nThirteenAEOneOpusDisabledCertMRejectAllDamageHi",
+   "published": "+1.12",
+   "side": "published files"
+  },
+  {
+   "computed": "+28.62",
+   "macro": "nThirteenAEOneOpusDisabledCertMApproveAllDamage",
+   "published": "+28.62",
+   "side": "published files"
+  },
+  {
+   "computed": "+21.90",
+   "macro": "nThirteenAEOneOpusDisabledCertMApproveAllDamageLo",
+   "published": "+21.90",
+   "side": "published files"
+  },
+  {
+   "computed": "+36.16",
+   "macro": "nThirteenAEOneOpusDisabledCertMApproveAllDamageHi",
+   "published": "+36.16",
+   "side": "published files"
+  },
+  {
+   "computed": "+320.42",
+   "macro": "nThirteenAEOneOpusDisabledVThreeFeasDamage",
+   "published": "+320.42",
+   "side": "published files"
+  },
+  {
+   "computed": "+249.94",
+   "macro": "nThirteenAEOneOpusDisabledVThreeFeasDamageLo",
+   "published": "+249.94",
+   "side": "published files"
+  },
+  {
+   "computed": "+394.33",
+   "macro": "nThirteenAEOneOpusDisabledVThreeFeasDamageHi",
+   "published": "+394.33",
+   "side": "published files"
+  },
+  {
+   "computed": "+6.14",
+   "macro": "nThirteenAEOneOpusDisabledVThreeCertRejectAllDamage",
+   "published": "+6.14",
+   "side": "published files"
+  },
+  {
+   "computed": "+1.93",
+   "macro": "nThirteenAEOneOpusDisabledVThreeCertRejectAllDamageLo",
+   "published": "+1.93",
+   "side": "published files"
+  },
+  {
+   "computed": "+12.55",
+   "macro": "nThirteenAEOneOpusDisabledVThreeCertRejectAllDamageHi",
+   "published": "+12.55",
+   "side": "published files"
+  },
+  {
+   "computed": "+320.42",
+   "macro": "nThirteenAEOneOpusDisabledVThreeCertApproveAllDamage",
+   "published": "+320.42",
+   "side": "published files"
+  },
+  {
+   "computed": "+249.94",
+   "macro": "nThirteenAEOneOpusDisabledVThreeCertApproveAllDamageLo",
+   "published": "+249.94",
+   "side": "published files"
+  },
+  {
+   "computed": "+394.33",
+   "macro": "nThirteenAEOneOpusDisabledVThreeCertApproveAllDamageHi",
+   "published": "+394.33",
+   "side": "published files"
+  },
+  {
+   "computed": "+6.14",
+   "macro": "nThirteenAEOneOpusDisabledVThreeCertMRejectAllDamage",
+   "published": "+6.14",
+   "side": "published files"
+  },
+  {
+   "computed": "+1.93",
+   "macro": "nThirteenAEOneOpusDisabledVThreeCertMRejectAllDamageLo",
+   "published": "+1.93",
+   "side": "published files"
+  },
+  {
+   "computed": "+12.55",
+   "macro": "nThirteenAEOneOpusDisabledVThreeCertMRejectAllDamageHi",
+   "published": "+12.55",
+   "side": "published files"
+  },
+  {
+   "computed": "+320.42",
+   "macro": "nThirteenAEOneOpusDisabledVThreeCertMApproveAllDamage",
+   "published": "+320.42",
+   "side": "published files"
+  },
+  {
+   "computed": "+249.94",
+   "macro": "nThirteenAEOneOpusDisabledVThreeCertMApproveAllDamageLo",
+   "published": "+249.94",
+   "side": "published files"
+  },
+  {
+   "computed": "+394.33",
+   "macro": "nThirteenAEOneOpusDisabledVThreeCertMApproveAllDamageHi",
+   "published": "+394.33",
+   "side": "published files"
+  },
+  {
+   "computed": "8.0",
+   "macro": "nThirteenAEOneOpusDisabledCertReferralsPerHundred",
+   "published": "8.0",
+   "side": "published files"
+  },
+  {
+   "computed": "8.0",
+   "macro": "nThirteenAEOneOpusDisabledCertMReferralsPerHundred",
+   "published": "8.0",
+   "side": "published files"
+  }
+ ],
+ "n_checks": 367142,
+ "n_macro_assertions": 193,
+ "running_work_code_rows": {},
+ "status": "PASS"
+}

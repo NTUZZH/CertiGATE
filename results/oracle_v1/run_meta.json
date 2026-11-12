@@ -1,0 +1,102 @@
+{
+  "affinity": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "args": {
+    "budget": 60.0,
+    "census": false,
+    "cores": "8-11",
+    "cores_t": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "estimate": false,
+    "limit": 0,
+    "run": true,
+    "selfcheck": false,
+    "workers": 4
+  },
+  "base_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "census": {
+    "adjusted_from_items": 514,
+    "adjusted_from_proposals": 1188,
+    "adjusted_from_proposals_only": 796,
+    "adjusted_trades_to_resolve": 1311,
+    "baseline_trades": 706,
+    "distinct_adjusted_field_instances": 1310,
+    "distinct_baseline_instances": 60,
+    "item_apply_errors": {
+      "V1:literal_ops:DanglingBuildingID": 20,
+      "V1:literal_ops:DanglingOrderID": 60,
+      "V1:literal_ops:UnknownTrade": 20,
+      "V2:gold_ops:FrozenWindowConflict": 90,
+      "V2:gold_ops:NotFrozen": 25,
+      "V2:gold_ops:TradeMismatch": 25,
+      "V2:literal_ops:FrozenWindowConflict": 90,
+      "V2:literal_ops:NotFrozen": 25,
+      "V2:literal_ops:TradeMismatch": 25,
+      "V6:forbidden_ops:DanglingOrderID": 35
+    },
+    "item_suite_checked": 2525,
+    "item_suite_mismatches": 0,
+    "items_with_frozen_seed": 175,
+    "per_stratum": {
+      "brackets:c09_storm2_w80": 648,
+      "brackets:c10_replay_400": 431,
+      "brackets:c10_storm2_w80": 231,
+      "c09_storm2_w80": 647,
+      "c10_replay_400": 433,
+      "c10_storm2_w80": 231
+    },
+    "proposal_reasons": {
+      "apply_error:FrozenPrecedenceConflict": 14,
+      "apply_error:FrozenWindowConflict": 731,
+      "apply_error:NotFrozen": 427,
+      "apply_error:TradeMismatch": 182,
+      "blocked_feas": 339,
+      "blocked_schema": 33686,
+      "model_refused": 6133,
+      "ok_executed": 33566,
+      "parse_failure": 2922
+    },
+    "proposals_executed": 33566,
+    "proposals_executed_empty": 8669,
+    "proposals_total": 78000
+  },
+  "cpsat_py": "${L1_Y1_ROOT}/src/fmwos/cpsat.py",
+  "cpsat_py_sha256": "7504e4133be8848e7f1604b8860b899490b6eaa897f2d128b490a6805327a903",
+  "foreign_processes_on_cores_at_start": [],
+  "host": "<host>",
+  "instance_manifest_sha256": "786c3c65735e2cdbd4f8eba371553128c8770c106d6b844cb23c9c2700591c98",
+  "instance_root": "${L1_Y1_ROOT}/data/processed/instances_v10",
+  "load_avg": [
+    5.99,
+    6.68,
+    6.53
+  ],
+  "omp_num_threads": "4",
+  "ortools": "9.14.6206",
+  "platform": "Linux-7.0.0-30-generic-x86_64-with-glibc2.39",
+  "proposal_files": {
+    "./results/e1_eval_deepseek/proposals.jsonl": "c143fa1be2ae9ebac9637acdef612794ef0664bf9002f08467062d7c2a6d76b4",
+    "./results/e1_eval_glm9b/proposals.jsonl": "b7f06d9448de2934bb277af2326c72f9042d6dd07544dbd2bad1bc8a4716002b",
+    "./results/e1_eval_gpt54mini/proposals.jsonl": "c864389b64478460faafc5eae4c56a7560813e80d210114c783f209974ba9ae9",
+    "./results/e1_eval_opus5/proposals.jsonl": "8b408c5558a34999771765e672b69e44c11619fbcf96549bfd55a2c2bf091e0c",
+    "./results/e1_eval_qwen14b/proposals.jsonl": "1e3370d642f745071f3e65bec2ebcc7ad0a0532baacc7d4f91d06b56346564bc",
+    "./results/e1_eval_qwen27b/proposals.jsonl": "e56e7650a2c7a30aa079ee35611ae10dbaa2c61437c23e24eb423e59f6c2d632",
+    "./results/e1_eval_sol/proposals.jsonl": "d0f570b8d77aa3355160d651a92babc8c449fd6fde461301aa6b71932849e06f",
+    "./results/e1_eval_sonnet5/proposals.jsonl": "0d4560e71258c913786d9a1aaf26d297ff084c8107eac103adecb94024be6838"
+  },
+  "python": "3.11.15",
+  "resume_brackets_done": 6,
+  "resume_dropped_contended": 0,
+  "resume_trade_rows": 75,
+  "started": "2026-10-26T05:03:31+08:00",
+  "suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+  "version": "l1-n1-oracle-cost-1"
+}

@@ -1,0 +1,31 @@
+{
+ "checks_by_group": {
+  "A1": 2,
+  "AF9": 1,
+  "E5": 165,
+  "E7": 7,
+  "E9": 2
+ },
+ "failures": [],
+ "finished": "2026-11-04T10:05:25+08:00",
+ "gates": {
+  "census": {
+   "finished": "2026-11-04T09:57:09+08:00",
+   "n_checks": 1636
+  },
+  "forecast": {
+   "finished": "2026-11-04T10:05:07+08:00",
+   "n_checks": 1837
+  },
+  "oracle": {
+   "finished": "2026-11-04T10:01:00+08:00",
+   "n_checks": 176
+  }
+ },
+ "identity": null,
+ "n_checks": 177,
+ "n_failures": 0,
+ "outputs": {},
+ "smoke": true,
+ "status": "PASS"
+}

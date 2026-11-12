@@ -1,0 +1,22 @@
+# N11 Stage 3 forecast twin (l1-n11-forecast-1)
+# reading FI
+enforcement,enforcement_rank,arm,model,mode,thinking,items,json_invalid_share,wrong_shape_share,schema_valid_share,wrong_shape_top_subcodes,gcert_blocked_schema,gcert_blocked_schema_share,unguarded_silent_noop,unguarded_silent_noop_share,benign_translation_exact_rate,benign_translation_semantic_rate,benign_false_block_rate_gcert
+xgrammar,2,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,5169,0.003482,0.000000,0.996518,-,853,0.165022,424,0.082027,0.595506,0.689139,0.056180
+none,0,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_free,-,5169,0.065583,0.845618,0.088799,missing_field 4371,4746,0.918166,4788,0.926291,0.000000,0.000000,0.990904
+xgrammar,2,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,5169,0.000000,0.000000,1.000000,-,565,0.109305,607,0.117431,0.769930,0.867309,0.054575
+none,0,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_free,-,5169,0.000000,0.879861,0.120139,missing_field 4548,4581,0.886245,5127,0.991875,0.000000,0.000000,1.000000
+xgrammar,2,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,1723,0.000000,0.000000,1.000000,-,311,0.180499,28,0.016251,0.609952,0.653291,0.083467
+none,0,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_free,-,1723,0.983749,0.016251,0.000000,missing_field 28,1723,1.000000,1711,0.993035,0.000000,0.000000,1.000000
+json_schema,2,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,3446,0.000000,0.000000,1.000000,-,555,0.161056,145,0.042078,0.672552,0.738363,0.033708
+none,0,openai,"GPT-5.4-mini (closed, budget tier)",M_free,-,3446,0.000000,0.943703,0.056297,"missing_field 3251, type_error 1",3259,0.945734,3423,0.993326,0.002408,0.002408,0.993579
+json_object,1,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,3446,0.000000,0.788741,0.211259,missing_field 2718,2718,0.788741,3440,0.998259,0.000000,0.000000,0.964687
+json_object,1,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,3446,0.022055,0.817760,0.160186,"missing_field 2817, not_object 1",2906,0.843297,3351,0.972432,0.000000,0.000000,0.993579
+none,0,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,non_think,3446,0.000000,0.808474,0.191526,missing_field 2786,2794,0.810795,3432,0.995937,0.000000,0.000000,0.972713
+none,0,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_free,think_high,3446,0.012768,0.828207,0.159025,missing_field 2854,2907,0.843587,3397,0.985781,0.000000,0.000000,0.994382
+json_schema,2,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,3446,0.000000,0.000000,1.000000,-,248,0.071967,605,0.175566,0.743178,0.874799,0.032905
+none,0,sonnet,Claude Sonnet 5 (closed),M_free,disabled,3446,0.090540,0.770168,0.139292,missing_field 2654,2978,0.864190,3419,0.992165,0.000000,0.000000,1.000000
+json_schema,2,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,3446,0.000000,0.000000,0.999420,-,98,0.028439,927,0.269008,0.760032,0.874799,0.034510
+json_schema,2,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,3446,0.000000,0.000000,0.999420,-,174,0.050493,795,0.230702,0.768058,0.873997,0.048154
+none,0,opus,"Claude Opus 5 (closed, flagship)",M_free,default,3446,0.001161,0.165409,0.074869,missing_field 570,576,0.167150,788,0.228671,0.012841,0.013644,0.267255
+none,0,opus,"Claude Opus 5 (closed, flagship)",M_free,disabled,3446,0.002322,0.132327,0.077191,missing_field 456,474,0.137551,566,0.164248,0.050562,0.056982,0.214286
+json_schema,2,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,1723,0.012188,0.000000,0.987812,-,110,0.063842,393,0.228091,0.731942,0.805778,0.093098

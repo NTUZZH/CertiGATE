@@ -1,0 +1,53 @@
+[n1] instances loaded and verified: 60 (6.0s)
+[n1] items reused from <project>/results/oracle_v1/items.jsonl (same version and inputs)
+[n1] items mapped (0.0s)
+[n1] proposals mapped: 78000 (39.7s)
+{
+  "adjusted_from_items": 514,
+  "adjusted_from_proposals": 1188,
+  "adjusted_from_proposals_only": 796,
+  "adjusted_trades_to_resolve": 1311,
+  "baseline_trades": 706,
+  "distinct_adjusted_field_instances": 1310,
+  "distinct_baseline_instances": 60,
+  "item_apply_errors": {
+    "V1:literal_ops:DanglingBuildingID": 20,
+    "V1:literal_ops:DanglingOrderID": 60,
+    "V1:literal_ops:UnknownTrade": 20,
+    "V2:gold_ops:FrozenWindowConflict": 90,
+    "V2:gold_ops:NotFrozen": 25,
+    "V2:gold_ops:TradeMismatch": 25,
+    "V2:literal_ops:FrozenWindowConflict": 90,
+    "V2:literal_ops:NotFrozen": 25,
+    "V2:literal_ops:TradeMismatch": 25,
+    "V6:forbidden_ops:DanglingOrderID": 35
+  },
+  "item_suite_checked": 2525,
+  "item_suite_mismatches": 0,
+  "items_with_frozen_seed": 175,
+  "per_stratum": {
+    "brackets:c09_storm2_w80": 648,
+    "brackets:c10_replay_400": 431,
+    "brackets:c10_storm2_w80": 231,
+    "c09_storm2_w80": 647,
+    "c10_replay_400": 433,
+    "c10_storm2_w80": 231
+  },
+  "proposal_reasons": {
+    "apply_error:FrozenPrecedenceConflict": 14,
+    "apply_error:FrozenWindowConflict": 731,
+    "apply_error:NotFrozen": 427,
+    "apply_error:TradeMismatch": 182,
+    "blocked_feas": 339,
+    "blocked_schema": 33686,
+    "model_refused": 6133,
+    "ok_executed": 33566,
+    "parse_failure": 2922
+  },
+  "proposals_executed": 33566,
+  "proposals_executed_empty": 8669,
+  "proposals_total": 78000
+}
+[n1] queue: 1 brackets (5 already done, 62 trade rows cached, 0 contended dropped)
+[n1] 1/1 c10_storm2_w80_u100_0001 4f53cda18c chg=0 lower=2002.2340 upper=2002.2340 width=0.0000% proved=True solves=13 wall=4.8s elapsed=5s
+[n1] run finished: 1 brackets in 4.8s

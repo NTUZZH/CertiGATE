@@ -1,0 +1,20 @@
+{
+ "arm": "sonnet",
+ "model": "claude-sonnet-5",
+ "pipeline": "SINGLE",
+ "n": 60,
+ "safety_ceiling_tokens": 60000,
+ "trajectories_that_hit_the_ceiling": 0,
+ "all_tokens": {
+  "min": 4087,
+  "p25": 5005,
+  "p50": 5837.5,
+  "p75": 6698,
+  "p90": 8638,
+  "max": 23286,
+  "mean": 6581.766666666666
+ },
+ "B_tight": 6000,
+ "B_loose": 24000,
+ "rule": "B_tight = p50 of this arm's own SINGLE-pipeline all-token need on E3-CAL-60, rounded UP to the nearest 500; B_loose = 4 x B_tight"
+}

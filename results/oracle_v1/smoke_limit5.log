@@ -1,0 +1,56 @@
+[n1] instances loaded and verified: 60 (6.0s)
+[n1] items mapped (306.8s)
+[n1] proposals mapped: 78000 (39.1s)
+{
+  "adjusted_from_items": 514,
+  "adjusted_from_proposals": 1188,
+  "adjusted_from_proposals_only": 796,
+  "adjusted_trades_to_resolve": 1311,
+  "baseline_trades": 706,
+  "distinct_adjusted_field_instances": 1310,
+  "distinct_baseline_instances": 60,
+  "item_apply_errors": {
+    "V1:literal_ops:DanglingBuildingID": 20,
+    "V1:literal_ops:DanglingOrderID": 60,
+    "V1:literal_ops:UnknownTrade": 20,
+    "V2:gold_ops:FrozenWindowConflict": 90,
+    "V2:gold_ops:NotFrozen": 25,
+    "V2:gold_ops:TradeMismatch": 25,
+    "V2:literal_ops:FrozenWindowConflict": 90,
+    "V2:literal_ops:NotFrozen": 25,
+    "V2:literal_ops:TradeMismatch": 25,
+    "V6:forbidden_ops:DanglingOrderID": 35
+  },
+  "item_suite_checked": 2525,
+  "item_suite_mismatches": 0,
+  "items_with_frozen_seed": 175,
+  "per_stratum": {
+    "brackets:c09_storm2_w80": 648,
+    "brackets:c10_replay_400": 431,
+    "brackets:c10_storm2_w80": 231,
+    "c09_storm2_w80": 647,
+    "c10_replay_400": 433,
+    "c10_storm2_w80": 231
+  },
+  "proposal_reasons": {
+    "apply_error:FrozenPrecedenceConflict": 14,
+    "apply_error:FrozenWindowConflict": 731,
+    "apply_error:NotFrozen": 427,
+    "apply_error:TradeMismatch": 182,
+    "blocked_feas": 339,
+    "blocked_schema": 33686,
+    "model_refused": 6133,
+    "ok_executed": 33566,
+    "parse_failure": 2922
+  },
+  "proposals_executed": 33566,
+  "proposals_executed_empty": 8669,
+  "proposals_total": 78000
+}
+[n1] queue: 5 brackets (0 already done, 0 trade rows cached, 0 contended dropped)
+[n1] 1/5 c10_replay_400_0000 4f53cda18c chg=0 lower=208.4592 upper=208.4592 width=0.0000% proved=True solves=12 wall=0.0s elapsed=0s
+[n1] 2/5 c09_storm2_w80_u100_0000 4f53cda18c chg=0 lower=567.4896 upper=567.7784 width=0.0509% proved=True solves=13 wall=5.7s elapsed=6s
+[n1] 3/5 c10_storm2_w80_u100_0000 4f53cda18c chg=0 lower=1853.7076 upper=1853.7076 width=0.0000% proved=True solves=13 wall=33.6s elapsed=39s
+[n1] 4/5 c10_replay_400_0001 4f53cda18c chg=0 lower=101.0000 upper=101.0000 width=0.0000% proved=True solves=11 wall=0.7s elapsed=40s
+[n1] 5/5 c09_storm2_w80_u100_0001 4f53cda18c chg=0 lower=649.0476 upper=649.2083 width=0.0248% proved=True solves=13 wall=3.2s elapsed=43s
+[n1] run finished: 5 brackets in 43.3s

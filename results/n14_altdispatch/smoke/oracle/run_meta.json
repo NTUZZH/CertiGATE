@@ -1,0 +1,1426 @@
+{
+ "affinity": [
+  8,
+  9,
+  10,
+  11
+ ],
+ "budget_s": 60.0,
+ "census": "2026-11-10T14:30:50+08:00",
+ "code": {
+  "./code/l1adapter/apply.py": "1c846afa64c357f12093b31ea864c937677ac9d070dc7006ee1036b4dbf39435",
+  "./code/l1adapter/dispatch.py": "8c7961aa8044991eeefa5e7a5df1120e72796c44f72fee865d5af804d7a9d79b",
+  "./code/l1adapter/evaluate.py": "5779288990097866d072a73850efa225b6819b961b15c4b516666f9ec1f6d3bc",
+  "./code/l1guard/config.py": "90789e15a934803e0efb582e0b1fb60f1dd22e85cbbfe78093fcb8c9816fb149",
+  "./code/l1guard/guard.py": "ad94b85c67af1e3bf3a9a13c7ee9a7accbc42aa17e90b9c39800c4b45c337b65",
+  "./code/l1guard/lb2.py": "01093c9f3a46dd3cc2e52f16b7d37f6364e68feb1caff642a7fe5404196b1adf",
+  "./code/l1oracle/cpsat_avail.py": "10d17fb8f12430524364dda17a1a3a02c963de27f5b934341aa51871de54033b",
+  "./code/scripts/n11_decision_time.py": "05978a918888782627f1cba89e67e590c306e0e6d52997e0181cbfc1fff2bc90",
+  "./code/scripts/n11_forecast.py": "efb44dfa42c7b209d1a007244df9f038da26f188f624d58a4189ceda08f81800",
+  "./code/scripts/n14_alt_dispatch.py": "f558619ee7d15aafb44b339953309a6f20a52d5d3d39e549555ca8e2ecafc688",
+  "./code/scripts/n2_pricing.py": "7d45a57b0bfb5625144a6e0f9e2bf9d1278b537f8de19d4a4e2120472438ef66",
+  "./code/scripts/n8_causal.py": "86b31d73db72842275ed4ed37e94f161ca27b7b640802eeaeebe8fb3e8b558d1",
+  "${L1_Y1_ROOT}/src/fmwos/pdrs.py": "75be307d0abe4f2b1e9bc9203c91256a7aba12315e8376277e7a928752b0b712"
+ },
+ "cores": [
+  8,
+  9,
+  10,
+  11
+ ],
+ "finished": "2026-11-10T14:30:57+08:00",
+ "foreign_processes_at_start": [],
+ "foreign_share_max": 0.1,
+ "host": "<host>",
+ "load_avg_end": [
+  3.55,
+  2.71,
+  1.82
+ ],
+ "load_avg_start": [
+  3.55,
+  2.71,
+  1.82
+ ],
+ "max_resolves": 2,
+ "mkl_num_threads": "1",
+ "n_resolved": 0,
+ "omp_num_threads": "1",
+ "ortools": "9.14.6206",
+ "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+ "processes_on_cores_at_end": [
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[cpuhp/8]",
+   "pcpu": 0.0,
+   "pid": 64,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[idle_inject/8]",
+   "pcpu": 0.0,
+   "pid": 65,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[migration/8]",
+   "pcpu": 0.0,
+   "pid": 66,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[ksoftirqd/8]",
+   "pcpu": 0.0,
+   "pid": 67,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[kworker/8:0-events]",
+   "pcpu": 0.0,
+   "pid": 68,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[kworker/8:0H-kblockd]",
+   "pcpu": 0.0,
+   "pid": 69,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": [
+    9
+   ],
+   "args": "[cpuhp/9]",
+   "pcpu": 0.0,
+   "pid": 70,
+   "pinned": true,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    9
+   ],
+   "args": "[idle_inject/9]",
+   "pcpu": 0.0,
+   "pid": 71,
+   "pinned": true,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    9
+   ],
+   "args": "[migration/9]",
+   "pcpu": 0.0,
+   "pid": 72,
+   "pinned": true,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    9
+   ],
+   "args": "[ksoftirqd/9]",
+   "pcpu": 0.0,
+   "pid": 73,
+   "pinned": true,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    9
+   ],
+   "args": "[kworker/9:0H-kblockd]",
+   "pcpu": 0.0,
+   "pid": 75,
+   "pinned": true,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    10
+   ],
+   "args": "[cpuhp/10]",
+   "pcpu": 0.0,
+   "pid": 76,
+   "pinned": true,
+   "psr": 10
+  },
+  {
+   "affinity": [
+    10
+   ],
+   "args": "[idle_inject/10]",
+   "pcpu": 0.0,
+   "pid": 77,
+   "pinned": true,
+   "psr": 10
+  },
+  {
+   "affinity": [
+    10
+   ],
+   "args": "[migration/10]",
+   "pcpu": 0.0,
+   "pid": 78,
+   "pinned": true,
+   "psr": 10
+  },
+  {
+   "affinity": [
+    10
+   ],
+   "args": "[ksoftirqd/10]",
+   "pcpu": 0.0,
+   "pid": 79,
+   "pinned": true,
+   "psr": 10
+  },
+  {
+   "affinity": [
+    10
+   ],
+   "args": "[kworker/10:0H-kblockd]",
+   "pcpu": 0.0,
+   "pid": 81,
+   "pinned": true,
+   "psr": 10
+  },
+  {
+   "affinity": [
+    11
+   ],
+   "args": "[cpuhp/11]",
+   "pcpu": 0.0,
+   "pid": 82,
+   "pinned": true,
+   "psr": 11
+  },
+  {
+   "affinity": [
+    11
+   ],
+   "args": "[idle_inject/11]",
+   "pcpu": 0.0,
+   "pid": 83,
+   "pinned": true,
+   "psr": 11
+  },
+  {
+   "affinity": [
+    11
+   ],
+   "args": "[migration/11]",
+   "pcpu": 0.0,
+   "pid": 84,
+   "pinned": true,
+   "psr": 11
+  },
+  {
+   "affinity": [
+    11
+   ],
+   "args": "[ksoftirqd/11]",
+   "pcpu": 0.0,
+   "pid": 85,
+   "pinned": true,
+   "psr": 11
+  },
+  {
+   "affinity": [
+    11
+   ],
+   "args": "[kworker/11:0-events]",
+   "pcpu": 0.0,
+   "pid": 86,
+   "pinned": true,
+   "psr": 11
+  },
+  {
+   "affinity": [
+    11
+   ],
+   "args": "[kworker/11:0H-kblockd]",
+   "pcpu": 0.0,
+   "pid": 87,
+   "pinned": true,
+   "psr": 11
+  },
+  {
+   "affinity": [
+    9
+   ],
+   "args": "[kworker/9:1-events]",
+   "pcpu": 0.0,
+   "pid": 179,
+   "pinned": true,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    10
+   ],
+   "args": "[kworker/10:2-events]",
+   "pcpu": 0.0,
+   "pid": 193,
+   "pinned": true,
+   "psr": 10
+  },
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[irq/127-aerdrv]",
+   "pcpu": 0.0,
+   "pid": 203,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[irq/127-pciehp]",
+   "pcpu": 0.0,
+   "pid": 204,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": [
+    9
+   ],
+   "args": "[irq/128-aerdrv]",
+   "pcpu": 0.0,
+   "pid": 205,
+   "pinned": true,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    10
+   ],
+   "args": "[irq/129-aerdrv]",
+   "pcpu": 0.0,
+   "pid": 206,
+   "pinned": true,
+   "psr": 10
+  },
+  {
+   "affinity": "all",
+   "args": "[kworker/R-mld]",
+   "pcpu": 0.0,
+   "pid": 228,
+   "pinned": false,
+   "psr": 11
+  },
+  {
+   "affinity": "all",
+   "args": "[kworker/R-kstrp]",
+   "pcpu": 0.0,
+   "pid": 230,
+   "pinned": false,
+   "psr": 10
+  },
+  {
+   "affinity": "all",
+   "args": "[kworker/R-nvme-delete-wq]",
+   "pcpu": 0.0,
+   "pid": 351,
+   "pinned": false,
+   "psr": 11
+  },
+  {
+   "affinity": "all",
+   "args": "[kworker/R-scsi_tmf_0]",
+   "pcpu": 0.0,
+   "pid": 357,
+   "pinned": false,
+   "psr": 9
+  },
+  {
+   "affinity": "all",
+   "args": "[nv_queue]",
+   "pcpu": 0.0,
+   "pid": 392,
+   "pinned": false,
+   "psr": 10
+  },
+  {
+   "affinity": "all",
+   "args": "[nv_open_q]",
+   "pcpu": 0.0,
+   "pid": 394,
+   "pinned": false,
+   "psr": 10
+  },
+  {
+   "affinity": [
+    11
+   ],
+   "args": "[kworker/11:1H-kblockd]",
+   "pcpu": 0.0,
+   "pid": 576,
+   "pinned": true,
+   "psr": 11
+  },
+  {
+   "affinity": [
+    10
+   ],
+   "args": "[kworker/10:1H-kblockd]",
+   "pcpu": 0.0,
+   "pid": 779,
+   "pinned": true,
+   "psr": 10
+  },
+  {
+   "affinity": [
+    9
+   ],
+   "args": "[kworker/9:2-events]",
+   "pcpu": 0.0,
+   "pid": 833,
+   "pinned": true,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[irq/193-iwlwifi:queue_9]",
+   "pcpu": 0.0,
+   "pid": 1038,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": [
+    9
+   ],
+   "args": "[irq/194-iwlwifi:queue_10]",
+   "pcpu": 0.0,
+   "pid": 1039,
+   "pinned": true,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    10
+   ],
+   "args": "[irq/195-iwlwifi:queue_11]",
+   "pcpu": 0.0,
+   "pid": 1040,
+   "pinned": true,
+   "psr": 10
+  },
+  {
+   "affinity": [
+    11
+   ],
+   "args": "[irq/196-iwlwifi:queue_12]",
+   "pcpu": 0.0,
+   "pid": 1041,
+   "pinned": true,
+   "psr": 11
+  },
+  {
+   "affinity": [
+    9
+   ],
+   "args": "[kworker/9:1H-kblockd]",
+   "pcpu": 0.0,
+   "pid": 1416,
+   "pinned": true,
+   "psr": 9
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/libexec/bluetooth/bluetoothd",
+   "pcpu": 0.0,
+   "pid": 1429,
+   "pinned": false,
+   "psr": 11
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/bin/nvidia-persistenced --user nvidia-persistenced --no-persistence-mode --verbose",
+   "pcpu": 0.0,
+   "pid": 1454,
+   "pinned": false,
+   "psr": 10
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/libexec/accounts-daemon",
+   "pcpu": 0.0,
+   "pid": 1457,
+   "pinned": false,
+   "psr": 11
+  },
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[kworker/8:1H-kblockd]",
+   "pcpu": 0.0,
+   "pid": 1487,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/sbin/ModemManager",
+   "pcpu": 0.0,
+   "pid": 1653,
+   "pinned": false,
+   "psr": 10
+  },
+  {
+   "affinity": "all",
+   "args": "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups",
+   "pcpu": 0.0,
+   "pid": 1860,
+   "pinned": false,
+   "psr": 9
+  },
+  {
+   "affinity": "all",
+   "args": "(sd-pam)",
+   "pcpu": 0.0,
+   "pid": 1864,
+   "pinned": false,
+   "psr": 9
+  },
+  {
+   "affinity": "all",
+   "args": "gdm-session-worker [pam/gdm-launch-environment]",
+   "pcpu": 0.0,
+   "pid": 1877,
+   "pinned": false,
+   "psr": 8
+  },
+  {
+   "affinity": "all",
+   "args": "(sd-pam)",
+   "pcpu": 0.0,
+   "pid": 1885,
+   "pinned": false,
+   "psr": 8
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/bin/pipewire",
+   "pcpu": 0.0,
+   "pid": 1898,
+   "pinned": false,
+   "psr": 10
+  },
+  {
+   "affinity": "all",
+   "args": "/snap/snapd-desktop-integration/391/usr/bin/user-session-helper /snap/snapd-desktop-integration/391/usr/bin/snapd-desktop-integration",
+   "pcpu": 0.0,
+   "pid": 1900,
+   "pinned": false,
+   "psr": 10
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only",
+   "pcpu": 0.0,
+   "pid": 1909,
+   "pinned": false,
+   "psr": 8
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/libexec/xdg-document-portal",
+   "pcpu": 0.0,
+   "pid": 1962,
+   "pinned": false,
+   "psr": 10
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/libexec/gdm-wayland-session dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart",
+   "pcpu": 0.0,
+   "pid": 1969,
+   "pinned": false,
+   "psr": 9
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/libexec/xdg-document-portal",
+   "pcpu": 0.0,
+   "pid": 2060,
+   "pinned": false,
+   "psr": 11
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/libexec/upowerd",
+   "pcpu": 0.0,
+   "pid": 2259,
+   "pinned": false,
+   "psr": 9
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/libexec/gsd-rfkill",
+   "pcpu": 0.0,
+   "pid": 2286,
+   "pinned": false,
+   "psr": 10
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/libexec/gsd-smartcard",
+   "pcpu": 0.0,
+   "pid": 2293,
+   "pinned": false,
+   "psr": 8
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/libexec/gsd-screensaver-proxy",
+   "pcpu": 0.0,
+   "pid": 2320,
+   "pinned": false,
+   "psr": 8
+  },
+  {
+   "affinity": "all",
+   "args": "ibus-daemon --panel disable -r --xim",
+   "pcpu": 0.0,
+   "pid": 2464,
+   "pinned": false,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[kworker/8:2-events]",
+   "pcpu": 0.0,
+   "pid": 4230,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": "all",
+   "args": "<other user process>",
+   "pcpu": 0.0,
+   "pid": 5953,
+   "pinned": false,
+   "psr": 11
+  },
+  {
+   "affinity": [
+    10
+   ],
+   "args": "[kworker/10:1-events]",
+   "pcpu": 0.0,
+   "pid": 10749,
+   "pinned": true,
+   "psr": 10
+  },
+  {
+   "affinity": [
+    11
+   ],
+   "args": "[kworker/11:2-events]",
+   "pcpu": 0.0,
+   "pid": 10884,
+   "pinned": true,
+   "psr": 11
+  },
+  {
+   "affinity": "all",
+   "args": "[UVM GPU1 BH]",
+   "pcpu": 0.0,
+   "pid": 13802,
+   "pinned": false,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[kworker/8:1]",
+   "pcpu": 0.0,
+   "pid": 19136,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": [
+    10
+   ],
+   "args": "[kworker/10:0]",
+   "pcpu": 0.0,
+   "pid": 19336,
+   "pinned": true,
+   "psr": 10
+  },
+  {
+   "affinity": [
+    9
+   ],
+   "args": "[kworker/9:0]",
+   "pcpu": 0.0,
+   "pid": 19836,
+   "pinned": true,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "args": "python code/scripts/n14_alt_dispatch.py oracle --smoke",
+   "pcpu": 86.8,
+   "pid": 19979,
+   "pinned": true,
+   "psr": 11
+  },
+  {
+   "affinity": "all",
+   "args": "tail -20",
+   "pcpu": 0.0,
+   "pid": 19980,
+   "pinned": false,
+   "psr": 9
+  },
+  {
+   "affinity": "all",
+   "args": "ps -eo pid,psr,pcpu,args",
+   "pcpu": 0.0,
+   "pid": 20019,
+   "pinned": false,
+   "psr": 9
+  }
+ ],
+ "processes_on_cores_at_start": [
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[cpuhp/8]",
+   "pcpu": 0.0,
+   "pid": 64,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[idle_inject/8]",
+   "pcpu": 0.0,
+   "pid": 65,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[migration/8]",
+   "pcpu": 0.0,
+   "pid": 66,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[ksoftirqd/8]",
+   "pcpu": 0.0,
+   "pid": 67,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[kworker/8:0-events]",
+   "pcpu": 0.0,
+   "pid": 68,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[kworker/8:0H-kblockd]",
+   "pcpu": 0.0,
+   "pid": 69,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": [
+    9
+   ],
+   "args": "[cpuhp/9]",
+   "pcpu": 0.0,
+   "pid": 70,
+   "pinned": true,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    9
+   ],
+   "args": "[idle_inject/9]",
+   "pcpu": 0.0,
+   "pid": 71,
+   "pinned": true,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    9
+   ],
+   "args": "[migration/9]",
+   "pcpu": 0.0,
+   "pid": 72,
+   "pinned": true,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    9
+   ],
+   "args": "[ksoftirqd/9]",
+   "pcpu": 0.0,
+   "pid": 73,
+   "pinned": true,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    9
+   ],
+   "args": "[kworker/9:0H-kblockd]",
+   "pcpu": 0.0,
+   "pid": 75,
+   "pinned": true,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    10
+   ],
+   "args": "[cpuhp/10]",
+   "pcpu": 0.0,
+   "pid": 76,
+   "pinned": true,
+   "psr": 10
+  },
+  {
+   "affinity": [
+    10
+   ],
+   "args": "[idle_inject/10]",
+   "pcpu": 0.0,
+   "pid": 77,
+   "pinned": true,
+   "psr": 10
+  },
+  {
+   "affinity": [
+    10
+   ],
+   "args": "[migration/10]",
+   "pcpu": 0.0,
+   "pid": 78,
+   "pinned": true,
+   "psr": 10
+  },
+  {
+   "affinity": [
+    10
+   ],
+   "args": "[ksoftirqd/10]",
+   "pcpu": 0.0,
+   "pid": 79,
+   "pinned": true,
+   "psr": 10
+  },
+  {
+   "affinity": [
+    10
+   ],
+   "args": "[kworker/10:0H-kblockd]",
+   "pcpu": 0.0,
+   "pid": 81,
+   "pinned": true,
+   "psr": 10
+  },
+  {
+   "affinity": [
+    11
+   ],
+   "args": "[cpuhp/11]",
+   "pcpu": 0.0,
+   "pid": 82,
+   "pinned": true,
+   "psr": 11
+  },
+  {
+   "affinity": [
+    11
+   ],
+   "args": "[idle_inject/11]",
+   "pcpu": 0.0,
+   "pid": 83,
+   "pinned": true,
+   "psr": 11
+  },
+  {
+   "affinity": [
+    11
+   ],
+   "args": "[migration/11]",
+   "pcpu": 0.0,
+   "pid": 84,
+   "pinned": true,
+   "psr": 11
+  },
+  {
+   "affinity": [
+    11
+   ],
+   "args": "[ksoftirqd/11]",
+   "pcpu": 0.0,
+   "pid": 85,
+   "pinned": true,
+   "psr": 11
+  },
+  {
+   "affinity": [
+    11
+   ],
+   "args": "[kworker/11:0-events]",
+   "pcpu": 0.0,
+   "pid": 86,
+   "pinned": true,
+   "psr": 11
+  },
+  {
+   "affinity": [
+    11
+   ],
+   "args": "[kworker/11:0H-kblockd]",
+   "pcpu": 0.0,
+   "pid": 87,
+   "pinned": true,
+   "psr": 11
+  },
+  {
+   "affinity": [
+    9
+   ],
+   "args": "[kworker/9:1-events]",
+   "pcpu": 0.0,
+   "pid": 179,
+   "pinned": true,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    10
+   ],
+   "args": "[kworker/10:2-mm_percpu_wq]",
+   "pcpu": 0.0,
+   "pid": 193,
+   "pinned": true,
+   "psr": 10
+  },
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[irq/127-aerdrv]",
+   "pcpu": 0.0,
+   "pid": 203,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[irq/127-pciehp]",
+   "pcpu": 0.0,
+   "pid": 204,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": [
+    9
+   ],
+   "args": "[irq/128-aerdrv]",
+   "pcpu": 0.0,
+   "pid": 205,
+   "pinned": true,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    10
+   ],
+   "args": "[irq/129-aerdrv]",
+   "pcpu": 0.0,
+   "pid": 206,
+   "pinned": true,
+   "psr": 10
+  },
+  {
+   "affinity": "all",
+   "args": "[kworker/R-mld]",
+   "pcpu": 0.0,
+   "pid": 228,
+   "pinned": false,
+   "psr": 11
+  },
+  {
+   "affinity": "all",
+   "args": "[kworker/R-kstrp]",
+   "pcpu": 0.0,
+   "pid": 230,
+   "pinned": false,
+   "psr": 10
+  },
+  {
+   "affinity": "all",
+   "args": "[kworker/R-nvme-delete-wq]",
+   "pcpu": 0.0,
+   "pid": 351,
+   "pinned": false,
+   "psr": 11
+  },
+  {
+   "affinity": "all",
+   "args": "[kworker/R-scsi_tmf_0]",
+   "pcpu": 0.0,
+   "pid": 357,
+   "pinned": false,
+   "psr": 9
+  },
+  {
+   "affinity": "all",
+   "args": "[nv_queue]",
+   "pcpu": 0.0,
+   "pid": 392,
+   "pinned": false,
+   "psr": 10
+  },
+  {
+   "affinity": "all",
+   "args": "[nv_open_q]",
+   "pcpu": 0.0,
+   "pid": 394,
+   "pinned": false,
+   "psr": 10
+  },
+  {
+   "affinity": [
+    11
+   ],
+   "args": "[kworker/11:1H-kblockd]",
+   "pcpu": 0.0,
+   "pid": 576,
+   "pinned": true,
+   "psr": 11
+  },
+  {
+   "affinity": [
+    10
+   ],
+   "args": "[kworker/10:1H-kblockd]",
+   "pcpu": 0.0,
+   "pid": 779,
+   "pinned": true,
+   "psr": 10
+  },
+  {
+   "affinity": [
+    9
+   ],
+   "args": "[kworker/9:2-mm_percpu_wq]",
+   "pcpu": 0.0,
+   "pid": 833,
+   "pinned": true,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[irq/193-iwlwifi:queue_9]",
+   "pcpu": 0.0,
+   "pid": 1038,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": [
+    9
+   ],
+   "args": "[irq/194-iwlwifi:queue_10]",
+   "pcpu": 0.0,
+   "pid": 1039,
+   "pinned": true,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    10
+   ],
+   "args": "[irq/195-iwlwifi:queue_11]",
+   "pcpu": 0.0,
+   "pid": 1040,
+   "pinned": true,
+   "psr": 10
+  },
+  {
+   "affinity": [
+    11
+   ],
+   "args": "[irq/196-iwlwifi:queue_12]",
+   "pcpu": 0.0,
+   "pid": 1041,
+   "pinned": true,
+   "psr": 11
+  },
+  {
+   "affinity": [
+    9
+   ],
+   "args": "[kworker/9:1H-kblockd]",
+   "pcpu": 0.0,
+   "pid": 1416,
+   "pinned": true,
+   "psr": 9
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/libexec/bluetooth/bluetoothd",
+   "pcpu": 0.0,
+   "pid": 1429,
+   "pinned": false,
+   "psr": 11
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/bin/nvidia-persistenced --user nvidia-persistenced --no-persistence-mode --verbose",
+   "pcpu": 0.0,
+   "pid": 1454,
+   "pinned": false,
+   "psr": 10
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/libexec/accounts-daemon",
+   "pcpu": 0.0,
+   "pid": 1457,
+   "pinned": false,
+   "psr": 11
+  },
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[kworker/8:1H-kblockd]",
+   "pcpu": 0.0,
+   "pid": 1487,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/sbin/ModemManager",
+   "pcpu": 0.0,
+   "pid": 1653,
+   "pinned": false,
+   "psr": 10
+  },
+  {
+   "affinity": "all",
+   "args": "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups",
+   "pcpu": 0.0,
+   "pid": 1860,
+   "pinned": false,
+   "psr": 9
+  },
+  {
+   "affinity": "all",
+   "args": "(sd-pam)",
+   "pcpu": 0.0,
+   "pid": 1864,
+   "pinned": false,
+   "psr": 9
+  },
+  {
+   "affinity": "all",
+   "args": "gdm-session-worker [pam/gdm-launch-environment]",
+   "pcpu": 0.0,
+   "pid": 1877,
+   "pinned": false,
+   "psr": 8
+  },
+  {
+   "affinity": "all",
+   "args": "(sd-pam)",
+   "pcpu": 0.0,
+   "pid": 1885,
+   "pinned": false,
+   "psr": 8
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/bin/pipewire",
+   "pcpu": 0.0,
+   "pid": 1898,
+   "pinned": false,
+   "psr": 10
+  },
+  {
+   "affinity": "all",
+   "args": "/snap/snapd-desktop-integration/391/usr/bin/user-session-helper /snap/snapd-desktop-integration/391/usr/bin/snapd-desktop-integration",
+   "pcpu": 0.0,
+   "pid": 1900,
+   "pinned": false,
+   "psr": 10
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only",
+   "pcpu": 0.0,
+   "pid": 1909,
+   "pinned": false,
+   "psr": 8
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/libexec/xdg-document-portal",
+   "pcpu": 0.0,
+   "pid": 1962,
+   "pinned": false,
+   "psr": 10
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/libexec/gdm-wayland-session dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart",
+   "pcpu": 0.0,
+   "pid": 1969,
+   "pinned": false,
+   "psr": 9
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/libexec/xdg-document-portal",
+   "pcpu": 0.0,
+   "pid": 2060,
+   "pinned": false,
+   "psr": 11
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/libexec/upowerd",
+   "pcpu": 0.0,
+   "pid": 2259,
+   "pinned": false,
+   "psr": 9
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/libexec/gsd-rfkill",
+   "pcpu": 0.0,
+   "pid": 2286,
+   "pinned": false,
+   "psr": 10
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/libexec/gsd-smartcard",
+   "pcpu": 0.0,
+   "pid": 2293,
+   "pinned": false,
+   "psr": 8
+  },
+  {
+   "affinity": "all",
+   "args": "/usr/libexec/gsd-screensaver-proxy",
+   "pcpu": 0.0,
+   "pid": 2320,
+   "pinned": false,
+   "psr": 8
+  },
+  {
+   "affinity": "all",
+   "args": "ibus-daemon --panel disable -r --xim",
+   "pcpu": 0.0,
+   "pid": 2464,
+   "pinned": false,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[kworker/8:2-events]",
+   "pcpu": 0.0,
+   "pid": 4230,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": "all",
+   "args": "<other user process>",
+   "pcpu": 0.0,
+   "pid": 5953,
+   "pinned": false,
+   "psr": 11
+  },
+  {
+   "affinity": "all",
+   "args": "<other user process>",
+   "pcpu": 1.1,
+   "pid": 6180,
+   "pinned": false,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    10
+   ],
+   "args": "[kworker/10:1-events]",
+   "pcpu": 0.0,
+   "pid": 10749,
+   "pinned": true,
+   "psr": 10
+  },
+  {
+   "affinity": [
+    11
+   ],
+   "args": "[kworker/11:2-mm_percpu_wq]",
+   "pcpu": 0.0,
+   "pid": 10884,
+   "pinned": true,
+   "psr": 11
+  },
+  {
+   "affinity": "all",
+   "args": "[UVM GPU1 BH]",
+   "pcpu": 0.0,
+   "pid": 13802,
+   "pinned": false,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    8
+   ],
+   "args": "[kworker/8:1]",
+   "pcpu": 0.0,
+   "pid": 19136,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": [
+    10
+   ],
+   "args": "[kworker/10:0]",
+   "pcpu": 0.0,
+   "pid": 19336,
+   "pinned": true,
+   "psr": 10
+  },
+  {
+   "affinity": [
+    9
+   ],
+   "args": "[kworker/9:0]",
+   "pcpu": 0.0,
+   "pid": 19836,
+   "pinned": true,
+   "psr": 9
+  },
+  {
+   "affinity": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "args": "python code/scripts/n14_alt_dispatch.py oracle --smoke",
+   "pcpu": 75.0,
+   "pid": 19979,
+   "pinned": true,
+   "psr": 8
+  },
+  {
+   "affinity": "all",
+   "args": "tail -20",
+   "pcpu": 0.0,
+   "pid": 19980,
+   "pinned": false,
+   "psr": 9
+  },
+  {
+   "affinity": "all",
+   "args": "ps -eo pid,psr,pcpu,args",
+   "pcpu": 0.0,
+   "pid": 19982,
+   "pinned": false,
+   "psr": 11
+  }
+ ],
+ "python": "3.11.15",
+ "reused_from_n11": {
+  "atc": 4,
+  "edd": 3,
+  "pfifo": 3,
+  "wspt": 2
+ },
+ "solved": 8,
+ "started": "2026-11-10T14:30:57+08:00",
+ "to_solve": 8,
+ "version": "l1-n14-alt-dispatch-1",
+ "wall_s": 0.5008131959993989,
+ "workers": 4
+}

@@ -1,0 +1,93 @@
+# N11 Stage 3 forecast twin (l1-n11-forecast-1)
+# reading F1
+cut,cut_value,arm,model,mode,thinking,v3_items,v3_feas_pass,v3_separated,v3_separation_share,v3_cert_blocked,gold_match_exact,gold_match_semantic,gold_match_exact_rate,unseparated_applied_with_certificate,unseparated_blocked_feas,unseparated_blocked_schema,unseparated_other
+all,all,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,462,459,369,0.798701,372,165,381,0.357143,90,0,3,0
+register,conversational,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,132,132,93,0.704545,93,48,93,0.363636,39,0,0,0
+register,formal,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,195,192,147,0.753846,150,63,156,0.323077,45,0,3,0
+register,terse,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,135,135,129,0.955556,129,54,132,0.400000,6,0,0,0
+template,reorder_behind_batch_member,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,15,15,9,0.600000,9,0,9,0.000000,6,0,0,0
+template,reorder_block_tight,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,195,195,171,0.876923,171,120,195,0.615385,24,0,0,0
+template,reorder_cross_trade,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,120,120,102,0.850000,102,42,120,0.350000,18,0,0,0
+template,reorder_two_successors,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,3,3,3,1.000000,3,3,3,1.000000,0,0,0,0
+template,window_blocked_predecessor,qwen3-14b,"Qwen3-14B (open, local, BF16)",M_constrained,-,129,126,84,0.651163,87,0,54,0.000000,42,0,3,0
+all,all,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,462,459,396,0.857143,399,168,428,0.363636,63,3,0,0
+register,conversational,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,132,132,96,0.727273,96,51,111,0.386364,36,0,0,0
+register,formal,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,195,192,171,0.876923,174,60,190,0.307692,21,3,0,0
+register,terse,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,135,135,129,0.955556,129,57,127,0.422222,6,0,0,0
+template,reorder_behind_batch_member,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,15,15,15,1.000000,15,0,15,0.000000,0,0,0,0
+template,reorder_block_tight,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,195,195,171,0.876923,171,117,195,0.600000,24,0,0,0
+template,reorder_cross_trade,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,120,120,99,0.825000,99,48,117,0.400000,21,0,0,0
+template,reorder_two_successors,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,3,3,3,1.000000,3,3,3,1.000000,0,0,0,0
+template,window_blocked_predecessor,qwen3.6-27b-fp8,"Qwen3.6-27B-FP8 (open, local, quantized)",M_constrained,-,129,126,108,0.837209,111,0,98,0.000000,18,3,0,0
+all,all,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,154,149,108,0.701299,113,57,109,0.370130,41,4,1,0
+register,conversational,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,44,44,26,0.590909,26,18,30,0.409091,18,0,0,0
+register,formal,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,65,62,46,0.707692,49,26,47,0.400000,16,2,1,0
+register,terse,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,45,43,36,0.800000,38,13,32,0.288889,7,2,0,0
+template,reorder_behind_batch_member,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,5,5,3,0.600000,3,0,3,0.000000,2,0,0,0
+template,reorder_block_tight,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,65,64,53,0.815385,54,45,59,0.692308,11,0,1,0
+template,reorder_cross_trade,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,40,38,32,0.800000,34,11,34,0.275000,6,2,0,0
+template,reorder_two_successors,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,1,1,1,1.000000,1,1,1,1.000000,0,0,0,0
+template,window_blocked_predecessor,glm-4-9b,"GLM-4-9B (open, local, SPOT-CHECK)",M_constrained,-,43,41,19,0.441860,21,0,12,0.000000,22,2,0,0
+all,all,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,308,306,242,0.785714,244,108,249,0.350649,64,2,0,0
+register,conversational,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,88,88,64,0.727273,64,37,73,0.420455,24,0,0,0
+register,formal,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,130,128,98,0.753846,100,39,102,0.300000,30,2,0,0
+register,terse,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,90,90,80,0.888889,80,32,74,0.355556,10,0,0,0
+template,reorder_behind_batch_member,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,10,10,9,0.900000,9,0,7,0.000000,1,0,0,0
+template,reorder_block_tight,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,130,130,107,0.823077,107,72,117,0.553846,23,0,0,0
+template,reorder_cross_trade,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,80,80,68,0.850000,68,34,76,0.425000,12,0,0,0
+template,reorder_two_successors,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,2,2,2,1.000000,2,2,2,1.000000,0,0,0,0
+template,window_blocked_predecessor,openai,"GPT-5.4-mini (closed, budget tier)",M_constrained,-,86,84,56,0.651163,58,0,47,0.000000,28,2,0,0
+all,all,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,308,3,0,0.000000,305,0,0,0.000000,3,0,305,0
+all,all,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,308,0,0,0.000000,308,0,0,0.000000,0,0,308,0
+register,conversational,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,88,0,0,0.000000,88,0,0,0.000000,0,0,88,0
+register,conversational,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,88,0,0,0.000000,88,0,0,0.000000,0,0,88,0
+register,formal,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,130,0,0,0.000000,130,0,0,0.000000,0,0,130,0
+register,formal,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,130,0,0,0.000000,130,0,0,0.000000,0,0,130,0
+register,terse,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,90,3,0,0.000000,87,0,0,0.000000,3,0,87,0
+register,terse,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,90,0,0,0.000000,90,0,0,0.000000,0,0,90,0
+template,reorder_behind_batch_member,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,10,0,0,0.000000,10,0,0,0.000000,0,0,10,0
+template,reorder_behind_batch_member,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,10,0,0,0.000000,10,0,0,0.000000,0,0,10,0
+template,reorder_block_tight,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,130,0,0,0.000000,130,0,0,0.000000,0,0,130,0
+template,reorder_block_tight,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,130,0,0,0.000000,130,0,0,0.000000,0,0,130,0
+template,reorder_cross_trade,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,80,3,0,0.000000,77,0,0,0.000000,3,0,77,0
+template,reorder_cross_trade,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,80,0,0,0.000000,80,0,0,0.000000,0,0,80,0
+template,reorder_two_successors,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,2,0,0,0.000000,2,0,0,0.000000,0,0,2,0
+template,reorder_two_successors,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,2,0,0,0.000000,2,0,0,0.000000,0,0,2,0
+template,window_blocked_predecessor,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,non_think,86,0,0,0.000000,86,0,0,0.000000,0,0,86,0
+template,window_blocked_predecessor,deepseek,"DeepSeek V4-Pro (open weights, hosted)",M_constrained,think_high,86,0,0,0.000000,86,0,0,0.000000,0,0,86,0
+all,all,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,308,306,256,0.831169,258,98,274,0.318182,50,2,0,0
+register,conversational,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,88,88,65,0.738636,65,36,77,0.409091,23,0,0,0
+register,formal,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,130,128,114,0.876923,116,43,126,0.330769,14,2,0,0
+register,terse,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,90,90,77,0.855556,77,19,71,0.211111,13,0,0,0
+template,reorder_behind_batch_member,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,10,10,10,1.000000,10,0,10,0.000000,0,0,0,0
+template,reorder_block_tight,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,130,130,105,0.807692,105,74,119,0.569231,25,0,0,0
+template,reorder_cross_trade,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,80,80,66,0.825000,66,22,70,0.275000,14,0,0,0
+template,reorder_two_successors,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,2,2,2,1.000000,2,2,2,1.000000,0,0,0,0
+template,window_blocked_predecessor,sonnet,Claude Sonnet 5 (closed),M_constrained,disabled,86,84,73,0.848837,75,0,73,0.000000,11,2,0,0
+all,all,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,308,308,276,0.896104,276,115,294,0.373377,32,0,0,0
+all,all,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,308,308,274,0.889610,274,113,292,0.366883,34,0,0,0
+register,conversational,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,88,88,76,0.863636,76,36,88,0.409091,12,0,0,0
+register,conversational,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,88,88,76,0.863636,76,36,88,0.409091,12,0,0,0
+register,formal,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,130,130,114,0.876923,114,53,128,0.407692,16,0,0,0
+register,formal,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,130,130,112,0.861538,112,51,126,0.392308,18,0,0,0
+register,terse,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,90,90,86,0.955556,86,26,78,0.288889,4,0,0,0
+register,terse,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,90,90,86,0.955556,86,26,78,0.288889,4,0,0,0
+template,reorder_behind_batch_member,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,10,10,10,1.000000,10,0,10,0.000000,0,0,0,0
+template,reorder_behind_batch_member,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,10,10,10,1.000000,10,0,10,0.000000,0,0,0,0
+template,reorder_block_tight,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,130,130,114,0.876923,114,91,130,0.700000,16,0,0,0
+template,reorder_block_tight,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,130,130,114,0.876923,114,89,130,0.684615,16,0,0,0
+template,reorder_cross_trade,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,80,80,66,0.825000,66,22,68,0.275000,14,0,0,0
+template,reorder_cross_trade,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,80,80,66,0.825000,66,22,68,0.275000,14,0,0,0
+template,reorder_two_successors,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,2,2,2,1.000000,2,2,2,1.000000,0,0,0,0
+template,reorder_two_successors,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,2,2,2,1.000000,2,2,2,1.000000,0,0,0,0
+template,window_blocked_predecessor,opus,"Claude Opus 5 (closed, flagship)",M_constrained,default,86,86,84,0.976744,84,0,84,0.000000,2,0,0,0
+template,window_blocked_predecessor,opus,"Claude Opus 5 (closed, flagship)",M_constrained,disabled,86,86,82,0.953488,82,0,82,0.000000,4,0,0,0
+all,all,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,154,149,129,0.837662,134,56,141,0.363636,20,2,3,0
+register,conversational,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,44,43,31,0.704545,32,18,37,0.409091,12,0,1,0
+register,formal,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,65,62,55,0.846154,58,20,61,0.307692,7,2,1,0
+register,terse,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,45,44,43,0.955556,44,18,43,0.400000,1,0,1,0
+template,reorder_behind_batch_member,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,5,0,0,0.000000,5,0,0,0.000000,0,2,3,0
+template,reorder_block_tight,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,65,65,57,0.876923,57,39,65,0.600000,8,0,0,0
+template,reorder_cross_trade,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,40,40,34,0.850000,34,16,39,0.400000,6,0,0,0
+template,reorder_two_successors,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,1,1,1,1.000000,1,1,1,1.000000,0,0,0,0
+template,window_blocked_predecessor,sol,"GPT-5.6 Sol (closed, flagship spot-check)",M_constrained,none,43,43,37,0.860465,37,0,36,0.000000,6,0,0,0

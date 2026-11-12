@@ -1,0 +1,75 @@
+{
+ "code": {
+  "_fmwos.py": "0efc3060821d68f18c3d5c99fb55b4dd8d50ef3a4ae5f5094836adafb05e2530",
+  "apply.py": "1c846afa64c357f12093b31ea864c937677ac9d070dc7006ee1036b4dbf39435",
+  "cpsat.py": "7504e4133be8848e7f1604b8860b899490b6eaa897f2d128b490a6805327a903",
+  "cpsat_avail.py": "10d17fb8f12430524364dda17a1a3a02c963de27f5b934341aa51871de54033b",
+  "dispatch.py": "8c7961aa8044991eeefa5e7a5df1120e72796c44f72fee865d5af804d7a9d79b",
+  "evaluate.py": "5779288990097866d072a73850efa225b6819b961b15c4b516666f9ec1f6d3bc",
+  "guard.py": "ad94b85c67af1e3bf3a9a13c7ee9a7accbc42aa17e90b9c39800c4b45c337b65",
+  "lb2.py": "01093c9f3a46dd3cc2e52f16b7d37f6364e68feb1caff642a7fe5404196b1adf",
+  "n11_decision_time.py": "05978a918888782627f1cba89e67e590c306e0e6d52997e0181cbfc1fff2bc90",
+  "n11_forecast.py": "efb44dfa42c7b209d1a007244df9f038da26f188f624d58a4189ceda08f81800",
+  "n12_env_sensitivity.py": "4da07191000dd805a7e814ff9175492fbf6c881c57f734388388d47fc6f64681",
+  "n2_pricing.py": "7d45a57b0bfb5625144a6e0f9e2bf9d1278b537f8de19d4a4e2120472438ef66",
+  "n8_causal.py": "86b31d73db72842275ed4ed37e94f161ca27b7b640802eeaeebe8fb3e8b558d1",
+  "oracle_cost.py": "031098d638f63b618324ab1f001f6151c5c6d40660cff194df9e3c3d02d9a031"
+ },
+ "cores": [
+  8,
+  9,
+  10,
+  11
+ ],
+ "env": "crew075",
+ "finished": "2026-11-04T09:59:38+08:00",
+ "host": "<host>",
+ "identity": null,
+ "instance_wall_s": {
+  "c09_storm2_w80_u100_0014": 6.239991467446089,
+  "c10_replay_400_0004": 0.4875994138419628,
+  "c10_storm2_w80_u100_0011": 144.88142199069262
+ },
+ "load_avg_end": [
+  3.09,
+  2.83,
+  3.59
+ ],
+ "mkl_num_threads": "1",
+ "omp_num_threads": "1",
+ "outputs": {
+  "anchors.jsonl": "993fd153590229dbdb6ac9f1d68233f79ebe3f7ba84e28c0e6dcf99074086ed9",
+  "boards.jsonl": "786e1da52af984b02a4faf8639a77897d710b2f82aa01ca26c9a053e72528b5b",
+  "items.jsonl": "d7c68678463a8083e2eaff1252baefcbd3862ee7724f24fa23b127df4f3efbef",
+  "om_tuples.jsonl": "692bcb044612eac6bff644602d917d757b4b6e9d565977e2d71bd84468604be8",
+  "relaxed_inputs.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+ },
+ "settings": {
+  "crew": 0.75,
+  "label": "crews x0.75",
+  "token": "CrewThreeQuarters",
+  "window": 1.0
+ },
+ "smoke": true,
+ "stage": "census",
+ "summary": {
+  "a6_items": null,
+  "a8_items": null,
+  "board_trades": 300,
+  "boards": 27,
+  "c_components": 0,
+  "c_components_by_size": {},
+  "c_components_closed_by_lb2_already": 0,
+  "c_items_with_error": 0,
+  "items": 60,
+  "open_relaxed_by_size": {},
+  "open_relaxed_trades": 0,
+  "published": 60,
+  "published_not_issuable_closed": 5,
+  "published_not_issuable_strict": 20,
+  "trades_closed_by_lb2": 300
+ },
+ "version": "l1-n12-env-sensitivity-1",
+ "wall_s": 148.62838125228882,
+ "workers": 4
+}

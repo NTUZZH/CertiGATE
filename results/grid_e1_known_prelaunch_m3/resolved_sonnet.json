@@ -1,0 +1,295 @@
+{
+ "anthropic_version_header": "2023-06-01",
+ "checks": {
+  "by_group": {
+   "CFG": 1,
+   "FILE": 5176,
+   "GLOB": 1,
+   "LEAK": 1723,
+   "RUN": 7,
+   "WIRE": 4
+  },
+  "failures": [],
+  "n_checks": 6912
+ },
+ "comparator_meta": {
+  "arm": "sonnet",
+  "backend": "anthropic",
+  "cache_boundary": "\n\nWork orders this request refers to:",
+  "cache_boundary_fallback": "\n\nINSTRUCTION",
+  "cache_prefixes_per_pass": 327,
+  "date": "2026-08-11 21:29:14 +08",
+  "dedupe_rule": "last row per (arm, mode, thinking, repeat, item_id) wins; an earlier row for a key is a superseded API error",
+  "groups": 116,
+  "interrupted": false,
+  "items": 2000,
+  "max_retries": 4,
+  "max_tokens": 4096,
+  "mock": false,
+  "model": "claude-sonnet-5",
+  "modes": [
+   "M_constrained",
+   "M_free"
+  ],
+  "per_config": {
+   "M_constrained|disabled|r0": {
+    "calls": 2000,
+    "error": 363,
+    "latency_ms": 5033356.196131071,
+    "ok": 1637,
+    "other": 0,
+    "out_tokens": 75957,
+    "usd": 4.909368500000001
+   },
+   "M_constrained|disabled|r1": {
+    "calls": 2000,
+    "error": 2000,
+    "latency_ms": 833861.9812468096,
+    "ok": 0,
+    "other": 0,
+    "out_tokens": 0,
+    "usd": 0.0
+   },
+   "M_free|disabled|r0": {
+    "calls": 2000,
+    "error": 2000,
+    "latency_ms": 834621.5172440279,
+    "ok": 0,
+    "other": 0,
+    "out_tokens": 0,
+    "usd": 0.0
+   },
+   "M_free|disabled|r1": {
+    "calls": 2000,
+    "error": 2000,
+    "latency_ms": 857753.8690131332,
+    "ok": 0,
+    "other": 0,
+    "out_tokens": 0,
+    "usd": 0.0
+   }
+  },
+  "planned_calls": 8000,
+  "price_base": "intro (through 2026-08-31)",
+  "price_date": "2026-08-11",
+  "prompt_version": "l1-prompt-1.0.0",
+  "repeats": 2,
+  "rows_written": 8000,
+  "schema_sha256": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+  "suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+  "thinking": [
+   "disabled"
+  ],
+  "thinking_bodies": {
+   "disabled": {
+    "thinking": {
+     "type": "disabled"
+    }
+   }
+  },
+  "timeout_s": 240.0,
+  "top_k": 10,
+  "usd_estimated": 4.909368500000001,
+  "wall_s": 1640.2769753350003,
+  "wire": "anthropic",
+  "workers": 8
+ },
+ "comparator_meta_files": 3,
+ "comparator_run_meta": "run_meta_20260811T132914Z.json",
+ "config": {
+  "arm": "sonnet",
+  "backend": "anthropic",
+  "cache_boundary": "\n\nWork orders this request refers to:",
+  "cache_boundary_fallback": "\n\nINSTRUCTION",
+  "cache_group": "(instance, frozen seed, t_d): the known board differs between decision instants, so items share a cached prefix only within one t_d",
+  "item_set_sha256": "d0ac569d0d85f62288bf3856ac709581ada28dc1b017d6d53372ea34af905d4e",
+  "items": 1723,
+  "max_retries": 4,
+  "max_tokens": 4096,
+  "model": "claude-sonnet-5",
+  "modes": [
+   "M_constrained"
+  ],
+  "out_dir": "results/grid_e1_known_sonnet",
+  "prompt_variant": "known-board",
+  "prompt_version": "l1-prompt-1.0.0+known-board",
+  "prompts_sha256": "513f2cf8f59c590eb2016b54b1d322b3ddddb111070d0a31271be58549295eda",
+  "repeats": 2,
+  "schema_sha256": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+  "suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a",
+  "thinking": [
+   "disabled"
+  ],
+  "thinking_bodies": {
+   "disabled": {
+    "thinking": {
+     "type": "disabled"
+    }
+   }
+  },
+  "timeout_s": 240.0,
+  "top_k": 10,
+  "wire": "anthropic",
+  "workers": 4
+ },
+ "diffs_vs_published": [
+  {
+   "category": "modes",
+   "key": "modes",
+   "known_board": [
+    "M_constrained"
+   ],
+   "published": [
+    "M_constrained",
+    "M_free"
+   ]
+  },
+  {
+   "category": "item set",
+   "key": "items",
+   "known_board": 1723,
+   "published": 2000
+  },
+  {
+   "category": "request cap (design M3: at most 4 in flight per arm)",
+   "key": "workers",
+   "known_board": 4,
+   "published": 8
+  },
+  {
+   "category": "prompt version",
+   "key": "prompt_version",
+   "known_board": "l1-prompt-1.0.0+known-board",
+   "published": "l1-prompt-1.0.0"
+  },
+  {
+   "category": "not recorded in the published run_meta",
+   "key": "item_set_sha256",
+   "known_board": "d0ac569d0d85f62288bf3856ac709581ada28dc1b017d6d53372ea34af905d4e",
+   "published": "<not recorded>"
+  },
+  {
+   "category": "not recorded in the published run_meta",
+   "key": "prompt_variant",
+   "known_board": "known-board",
+   "published": "<not recorded>"
+  },
+  {
+   "category": "not recorded in the published run_meta",
+   "key": "prompts_sha256",
+   "known_board": "513f2cf8f59c590eb2016b54b1d322b3ddddb111070d0a31271be58549295eda",
+   "published": "<not recorded>"
+  },
+  {
+   "category": "not recorded in the published run_meta",
+   "key": "cache_group",
+   "known_board": "(instance, frozen seed, t_d): the known board differs between decision instants, so items share a cached prefix only within one t_d",
+   "published": "<not recorded>"
+  },
+  {
+   "category": "not recorded in the published run_meta",
+   "key": "out_dir",
+   "known_board": "results/grid_e1_known_sonnet",
+   "published": "<not recorded>"
+  }
+ ],
+ "effort": "not sent: the model's default",
+ "endpoint": "https://api.anthropic.com/v1/messages",
+ "glob_audit": {
+  "files_scanned": 97,
+  "hits": [],
+  "names": [
+   "grid_e1_known_qwen14b",
+   "grid_e1_known_qwen27b",
+   "grid_e1_known_glm9b",
+   "grid_e1_known_openai",
+   "grid_e1_known_sonnet",
+   "grid_e1_known_opus",
+   "grid_e1_known_sol",
+   "grid_e1_known_deepseek",
+   "grid_e1_known_dryrun",
+   "n19_known_eval",
+   "n19_selftest",
+   "grid_e1_known_sonnet_smoke",
+   "grid_e1_known_prelaunch_m3"
+  ]
+ },
+ "out_dir": "./results/grid_e1_known_sonnet",
+ "plan_calls_total": 3446,
+ "retries": {
+  "client": {
+   "max_retries": 4,
+   "retry_sleep_s": 2.0,
+   "schedule": "linear 2 x attempt on 429/5xx/529 and connection errors"
+  },
+  "transport": "exponential on [429, 529]: 7 tries, base 2.0 s, x2, cap 120.0 s, +<=25% jitter, retry-after honoured"
+ },
+ "seed": "none (published client drops it)",
+ "stop_conditions": "none sent: the model's own end of turn, max_tokens 4096, or a refusal",
+ "temperature": "never sent on the anthropic wire (published client)",
+ "wire": {
+  "disabled": {
+   "body_keys": [
+    "max_tokens",
+    "messages",
+    "model",
+    "output_config",
+    "system",
+    "thinking"
+   ],
+   "fields_not_sent": [
+    "temperature",
+    "top_p",
+    "top_k",
+    "stop_sequences",
+    "stream",
+    "metadata",
+    "tools",
+    "tool_choice",
+    "service_tier",
+    "inference_geo",
+    "speed",
+    "fallbacks"
+   ],
+   "headers_sent_besides_key": {
+    "Content-Type": "application/json",
+    "anthropic-version": "2023-06-01"
+   },
+   "identical_except_user_text": true,
+   "max_tokens": 4096,
+   "model": "claude-sonnet-5",
+   "output_config_schema_sha256": "8a818c88071d0a6eb04e6aa3c32a443027b04b6dd2817d17e1958e7863e11e15",
+   "path": "/v1/messages",
+   "system_prompt_sha256": "e4eaad1233460bc9d52acd03dfcdfa7d4a7cb4797101f46615da690e85995307",
+   "thinking_field": {
+    "type": "disabled"
+   },
+   "user_blocks_known": [
+    {
+     "cache_control": {
+      "type": "ephemeral"
+     },
+     "text": "<1058 chars, sha256 29e1121dadb05dbe>",
+     "type": "text"
+    },
+    {
+     "text": "<1022 chars, sha256 95f36811ae295651>",
+     "type": "text"
+    }
+   ],
+   "user_blocks_whole_window": [
+    {
+     "cache_control": {
+      "type": "ephemeral"
+     },
+     "text": "<1058 chars, sha256 baf74cee04aaf22e>",
+     "type": "text"
+    },
+    {
+     "text": "<1022 chars, sha256 c3367b2840c2b67b>",
+     "type": "text"
+    }
+   ]
+  }
+ }
+}

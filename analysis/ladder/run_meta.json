@@ -1,0 +1,56 @@
+{
+ "cores": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "date": "2026-08-17 17:23:10 +0800",
+ "dedup_rule": "last row per (mode, thinking, repeat, item_id); hosted logs only",
+ "eval_dirs": [
+  "./results/e1_eval_deepseek",
+  "./results/e1_eval_glm9b",
+  "./results/e1_eval_gpt54mini",
+  "./results/e1_eval_opus5",
+  "./results/e1_eval_qwen14b",
+  "./results/e1_eval_qwen27b",
+  "./results/e1_eval_sol",
+  "./results/e1_eval_sonnet5"
+ ],
+ "inputs": {
+  "e1_eval_deepseek/summary.json": "5f362141b7f1dd5a32ae64bcbe53cbe30290477c0d294da957125290114a0b71",
+  "e1_eval_glm9b/summary.json": "b655f1e92b0e048e52d6d7d6bcf445558df8b233a1abdf8babd4097edecd4bb8",
+  "e1_eval_gpt54mini/summary.json": "dc1e4c9bfdc916c8057411124c8acb3cfeeb452b1e4b0642149c0cf555a560f6",
+  "e1_eval_opus5/summary.json": "8417125bd4df8b0f3666f30d2b6149411ab2ee3c5ad21a4e29b8a59b4c505309",
+  "e1_eval_qwen14b/summary.json": "602461e5897a91db20e67a1ce0c9a9b8fa5f64c771a395434c4b9b5a9394d390",
+  "e1_eval_qwen27b/summary.json": "8402b5dd527ed055e787c7d53aa4ab752695030909697189622134d1dc8b2a2b",
+  "e1_eval_sol/summary.json": "28475fbf5fcd71348c20ad833353a61e1840912a1ccbcc6cbc8e504893058f4d",
+  "e1_eval_sonnet5/summary.json": "65aab2232dfac88a58dfdb2f66baef11b63dd700e896b592e35c8bc5f5710d59",
+  "schema_sha256": "1115fa83d8910ed18a4fa1a421e80aaf4629f4c91fc22f83c81ba32c3fa39321",
+  "suite": "./code/suite/v0.2/suite.jsonl",
+  "suite_sha256": "0a0b471f4d04ba035dd12388c919c75a9b7aee6db52bf153f6295f185530908a"
+ },
+ "ladder_version": "l1-ladder-1",
+ "oracle_applied": 1485,
+ "oracle_exec_config_hash": "d228368a97501c4194bd21d3bd672c8a47d5ade7000cfad82c78bad1293ff6f1",
+ "oracle_guarded_config_hash": "52c094406252bf1ab57350d1ec4f9165f8bc4f7d83df2b99e1fb52356e829a42",
+ "oracle_referred": 515,
+ "out_dir": "./analysis/ladder",
+ "patched_unguarded_rows": 604,
+ "reconciliation": {
+  "failed": 0,
+  "passed": 4208,
+  "total": 4208
+ },
+ "results_root": "./results",
+ "rule_anchors": 116,
+ "spot_check_rows": 1200,
+ "suite_items": 2000,
+ "unguarded_cert_config_hash": "0352c186c19f35b4fe5f6aa52e7c0c82433b5d994c67ec4daa735dcc221faaca",
+ "wall_s": 128.91606831550598,
+ "workers": 8
+}

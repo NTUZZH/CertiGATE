@@ -1,0 +1,31 @@
+[n11f smoke pass 1] 3 instances (0 from parts), 3 to run on cores [10, 11] with 2 workers
+[n11f smoke pass 1]   done c09_storm2_w80_u100_0014 (53s), 1 of 3
+[n11f smoke pass 1]   done c10_replay_400_0009 (7s), 2 of 3
+[n11f smoke pass 1]   done c10_storm2_w80_u100_0003 (932s), 3 of 3
+[n11f smoke pass 2] 3 instances (0 from parts), 3 to run on cores [10, 11] with 2 workers
+[n11f smoke pass 2]   done c09_storm2_w80_u100_0014 (53s), 1 of 3
+[n11f smoke pass 2]   done c10_replay_400_0009 (7s), 2 of 3
+[n11f smoke pass 2]   done c10_storm2_w80_u100_0003 (937s), 3 of 3
+{
+ "S": 20,
+ "certm_median_mc_se": {
+  "F2": 0.0,
+  "F1": 0.0
+ },
+ "wall_s": {
+  "c09_storm2_w80_u100_0014": 52.81706298608333,
+  "c10_storm2_w80_u100_0003": 932.140578167513,
+  "c10_replay_400_0009": 6.7891290709376335
+ },
+ "forecast_units": {
+  "c09_storm2_w80_u100_0014": 11,
+  "c10_replay_400_0009": 7,
+  "c10_storm2_w80_u100_0003": 17
+ },
+ "stage_diff": {
+  "af1_skipped": 1
+ },
+ "topup": {},
+ "af1_rows": 34
+}
+[n11f smoke] PASS: 1157 checks in 1870s; S = 20

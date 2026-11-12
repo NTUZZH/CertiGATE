@@ -1,0 +1,38 @@
+# l1-n3-analysis-1 2026-11-03 18:31:51 +08 from results/n3neg_eval_openai, results/n3neg_eval_opus, results/n3neg_eval_sol, results/n3neg_eval_sonnet
+arm,mode,thinking,register,clause_index,clause,proposals,flagged,share
+openai,M_constrained,-,formal,0,No other work order may be delayed as a result.,58,0,0.0
+openai,M_constrained,-,formal,1,Other jobs in that trade must not slip.,82,2,0.024390243902439025
+openai,M_constrained,-,formal,2,Do not proceed if any other work would be delayed.,44,0,0.0
+openai,M_constrained,-,terse,0,Other jobs must not slip.,48,0,0.0
+openai,M_constrained,-,terse,1,No knock-on delay.,38,0,0.0
+openai,M_constrained,-,terse,2,Don't let other work slip.,42,0,0.0
+openai,M_constrained,-,conversational,0,Make sure nothing else runs late because of this.,48,0,0.0
+openai,M_constrained,-,conversational,1,I don't want other jobs moving for this one.,38,0,0.0
+openai,M_constrained,-,conversational,2,Only if other work stays on time.,42,0,0.0
+opus,M_constrained,default,formal,0,No other work order may be delayed as a result.,58,0,0.0
+opus,M_constrained,default,formal,1,Other jobs in that trade must not slip.,82,0,0.0
+opus,M_constrained,default,formal,2,Do not proceed if any other work would be delayed.,44,0,0.0
+opus,M_constrained,default,terse,0,Other jobs must not slip.,48,0,0.0
+opus,M_constrained,default,terse,1,No knock-on delay.,38,0,0.0
+opus,M_constrained,default,terse,2,Don't let other work slip.,42,0,0.0
+opus,M_constrained,default,conversational,0,Make sure nothing else runs late because of this.,48,0,0.0
+opus,M_constrained,default,conversational,1,I don't want other jobs moving for this one.,38,0,0.0
+opus,M_constrained,default,conversational,2,Only if other work stays on time.,42,0,0.0
+sol,M_constrained,none,formal,0,No other work order may be delayed as a result.,58,0,0.0
+sol,M_constrained,none,formal,1,Other jobs in that trade must not slip.,82,0,0.0
+sol,M_constrained,none,formal,2,Do not proceed if any other work would be delayed.,44,0,0.0
+sol,M_constrained,none,terse,0,Other jobs must not slip.,48,0,0.0
+sol,M_constrained,none,terse,1,No knock-on delay.,38,0,0.0
+sol,M_constrained,none,terse,2,Don't let other work slip.,42,0,0.0
+sol,M_constrained,none,conversational,0,Make sure nothing else runs late because of this.,48,0,0.0
+sol,M_constrained,none,conversational,1,I don't want other jobs moving for this one.,38,0,0.0
+sol,M_constrained,none,conversational,2,Only if other work stays on time.,42,0,0.0
+sonnet,M_constrained,disabled,formal,0,No other work order may be delayed as a result.,58,0,0.0
+sonnet,M_constrained,disabled,formal,1,Other jobs in that trade must not slip.,82,0,0.0
+sonnet,M_constrained,disabled,formal,2,Do not proceed if any other work would be delayed.,44,0,0.0
+sonnet,M_constrained,disabled,terse,0,Other jobs must not slip.,48,0,0.0
+sonnet,M_constrained,disabled,terse,1,No knock-on delay.,38,0,0.0
+sonnet,M_constrained,disabled,terse,2,Don't let other work slip.,42,0,0.0
+sonnet,M_constrained,disabled,conversational,0,Make sure nothing else runs late because of this.,48,0,0.0
+sonnet,M_constrained,disabled,conversational,1,I don't want other jobs moving for this one.,38,0,0.0
+sonnet,M_constrained,disabled,conversational,2,Only if other work stays on time.,42,0,0.0

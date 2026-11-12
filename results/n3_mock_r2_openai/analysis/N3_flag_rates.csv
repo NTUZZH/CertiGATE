@@ -1,0 +1,5 @@
+# l1-n3-analysis-1 2026-10-26 05:43:46 +08 from results/n3_mock_r2_openai/eval
+arm,mode,thinking,item_set,measure,n,flag_valid,flag_valid_rate,flag_valid_ci_lo,flag_valid_ci_hi,flag_raw,flag_raw_rate,flag_raw_ci_lo,flag_raw_ci_hi,flag_misplaced,flag_missing,schema_invalid_v11,model_refused
+openai,M_constrained,-,costly_accepted,sensitivity,13,13,1.0,1.0,1.0,13,1.0,1.0,1.0,0,0,0,0
+openai,M_constrained,-,v3_twin,false_acceptance,13,2,0.15384615384615385,0.0,0.25,2,0.15384615384615385,0.0,0.25,0,0,0,0
+openai,M_constrained,-,benign_control,false_acceptance,14,0,0.0,0.0,0.0,0,0.0,0.0,0.0,0,0,0,0
